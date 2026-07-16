@@ -1,0 +1,287 @@
+# =============================================================================
+# GRACE VERİ SETİ (mlr3proba paketinden direkt) - SADECE COX MODELİ
+# Performans: c-index, brier, auc + VIMP (değişken önem) + instability
+# =============================================================================
+
+# =============================================================================
+# 00) KURULUM - PAKETLER
+# =============================================================================
+
+install.packages("dplyr")
+install.packages("tidyr")
+install.packages("survival")
+install.packages("mlr3")
+install.packages("mlr3pipelines")
+install.packages("survex")
+install.packages("ggplot2")
+install.packages("patchwork")
+install.packages("remotes")
+
+# mlr3proba CRAN'da olmayabilir, GitHub'dan kuruluyor
+remotes::install_github("mlr-org/mlr3proba", force = TRUE)
+
+library(dplyr)
+library(tidyr)
+library(survival)
+library(mlr3)
+library(mlr3pipelines)
+library(mlr3proba)
+library(survex)
+library(ggplot2)
+library(patchwork)
+
+# =============================================================================
+# 01) VERİ SETİ (mlr3proba paketinden direkt - CSV okuma yok)
+# =============================================================================
+# grace: id, days, death, revasc, revascdays, los, age, sysbp, stchange
+# Kaynak: Hosmer, Lemeshow & May (2008) - Applied Survival Analysis
+
+data("grace", package = "mlr3proba")
+
+grace_data <- grace %>%
+  mutate(
+    revasc   = as.numeric(as.factor(revasc)),
+    stchange = as.numeric(as.factor(stchange))
+  ) %>%
+  select(-id, -revascdays) %>%
+  # revascdays: sadece revasc=1 olan hastalarda dolu, diğerlerinde NA.
+  # NA'lar model tahminlerine sızıp vimp eğrisini bozuyordu -> çıkarıldı.
+  na.omit()
+
+# time  -> "days"  (takip süresi)
+# event -> "death" (1 = öldü, 0 = sansürlü)
+
+# =============================================================================
+# 02) TASK OLUŞTURMA
+# =============================================================================
+
+grace_task <- TaskSurv$new(
+  id      = "grace_task",
+  backend = grace_data,
+  time    = "days",
+  event   = "death"
+)
+
+# =============================================================================
+# 03) TRAIN / TEST SPLIT
+# =============================================================================
+
+data_split <- function(task, ratio = 0.8){
+  set.seed(123)
+  part <- partition(task, ratio = ratio)
+  return(part)
+}
+
+# =============================================================================
+# 04) MODELLEME (sadece Cox)
+# =============================================================================
+
+train_models <- function(task, split) {
+  set.seed(123)
+  cox_model <- lrn("surv.coxph", id = "cox")
+  cox_model$train(task, row_ids = split$train)
+  return(list(cox_model = cox_model))
+}
+
+# =============================================================================
+# 05) PERFORMANS METRİKLERİ (c-index, brier, auc)
+# =============================================================================
+
+measure_performance <- function(model, task, split) {
+  preds <- model$predict(task, row_ids = split$test)
+  
+  c_index <- as.numeric(
+    preds$score(mlr3::msr("surv.cindex"), task = task)
+  )[1]
+  
+  brier <- as.numeric(
+    preds$score(mlr3::msr("surv.brier"), task = task, train_set = split$train)
+  )[1]
+  
+  auc <- as.numeric(
+    preds$score(mlr3::msr("surv.uno_auc", integrated = TRUE),
+                task = task, train_set = split$train)
+  )[1]
+  
+  return(list(c_index = c_index, brier = brier, auc = auc, preds = preds))
+}
+
+# =============================================================================
+# 06) GLOBAL AÇIKLAMA (survex explainer + vimp) - sadece Cox
+# =============================================================================
+
+global_explain <- function(task, models) {
+  
+  X <- as.data.frame(task$data()) |> dplyr::select(-days, -death)
+  y <- task$truth()
+  
+  lp_fn <- function(model, newdata) model$predict_newdata(newdata)$lp
+  
+  predict_fns <- list(cox_model = lp_fn)
+  
+  explainers <- lapply(names(models), function(nm) {
+    tryCatch(
+      survex::explain(models[[nm]], data = X, y = y, predict_function = predict_fns[[nm]]),
+      error = function(e) { message(nm, " explainer hata: ", e$message); NULL }
+    )
+  })
+  names(explainers) <- names(models)
+  
+  vimp_list <- lapply(names(explainers), function(nm) {
+    if (is.null(explainers[[nm]])) return(NULL)
+    tryCatch(
+      survex::model_parts(explainers[[nm]]),
+      error = function(e) { message(nm, " model_parts hata: ", e$message); NULL }
+    )
+  })
+  names(vimp_list) <- names(models)
+  
+  list(explainers = explainers, vimp_list = vimp_list)
+}
+
+# =============================================================================
+# 07) VIMP ÖZETİ (vimp_to_long, calculate_vimp_summary)
+# =============================================================================
+
+time_col <- "_times_"
+exclude_cols <- c(
+  time_col, "_full_model_", "_baseline_", "_permutation_", "label", "event"
+)
+
+trapz <- function(x, y) {
+  o <- order(x)
+  x <- x[o]
+  y <- y[o]
+  sum(diff(x) * (head(y, -1) + tail(y, -1)) / 2, na.rm = TRUE)
+}
+
+vimp_to_long <- function(vimp_obj) {
+  res <- as.data.frame(vimp_obj$result)
+  vimp_vars <- setdiff(names(res), exclude_cols)
+  
+  res %>%
+    dplyr::select(all_of(c(time_col, vimp_vars))) %>%
+    tidyr::pivot_longer(
+      -all_of(time_col),
+      names_to  = "variable",
+      values_to = "vimp"
+    ) %>%
+    dplyr::arrange(variable, .data[[time_col]])
+}
+
+calculate_vimp_summary <- function(vimp_obj, eps = 0.01) {
+  vimp_to_long(vimp_obj) %>%
+    dplyr::group_by(variable) %>%
+    dplyr::summarise(
+      
+      vimp_area = trapz(.data[[time_col]], pmax(vimp, 0)),
+      
+      normalized_vimp_area = {
+        t <- .data[[time_col]]
+        y <- pmax(vimp, 0)
+        trapz(t, y) / (max(t) - min(t))
+      },
+      
+      vimp_instability = {
+        y <- vimp[!is.na(vimp)]
+        d <- diff(y)
+        d[abs(d) < eps] <- 0
+        d <- sign(d)
+        n <- length(d)
+        
+        if (n < 2) {
+          NA_real_
+        } else {
+          sum(d[-n] != d[-1]) / n
+        }
+      },
+      
+      .groups = "drop"
+    ) %>%
+    dplyr::arrange(desc(normalized_vimp_area))
+}
+
+# =============================================================================
+# 08) VIMP + INSTABILITY GRAFİĞİ
+# =============================================================================
+
+plot_vimp_with_fr <- function(summary_df) {
+  
+  plot_df <- summary_df %>%
+    dplyr::mutate(
+      relative_importance = normalized_vimp_area / sum(normalized_vimp_area, na.rm = TRUE),
+      percentage = relative_importance * 100
+    ) %>%
+    dplyr::arrange(relative_importance) %>%
+    dplyr::mutate(
+      variable = factor(variable, levels = variable),
+      y_pos = 1
+    )
+  
+  p1 <- ggplot2::ggplot(
+    plot_df,
+    ggplot2::aes(x = relative_importance, y = variable, fill = variable)
+  ) +
+    ggplot2::geom_col(width = 0.7) +
+    ggplot2::geom_text(
+      ggplot2::aes(label = paste0(round(percentage, 1), "%")),
+      hjust = -0.1, size = 3.5
+    ) +
+    ggplot2::labs(x = "Relative Importance", y = "Variable", title = "Variable Importance and Instability") +
+    ggplot2::theme_minimal() +
+    ggplot2::theme(legend.position = "none", plot.title = ggplot2::element_text(face = "bold")) +
+    ggplot2::expand_limits(x = max(plot_df$relative_importance, na.rm = TRUE) * 1.15)
+  
+  p2 <- ggplot2::ggplot(
+    plot_df,
+    ggplot2::aes(x = vimp_instability, y = y_pos, color = variable)
+  ) +
+    ggplot2::geom_hline(yintercept = 1, linewidth = 0.8, color = "gray70") +
+    ggplot2::geom_point(size = 4) +
+    ggplot2::labs(x = "Instability", y = NULL) +
+    ggplot2::scale_x_continuous(limits = c(0, 1), breaks = seq(0, 1, by = 0.1)) +
+    ggplot2::theme_minimal() +
+    ggplot2::theme(
+      legend.position      = "none",
+      axis.text.y          = element_blank(),
+      axis.ticks.y         = element_blank(),
+      panel.grid.minor     = element_blank(),
+      panel.grid.major.y   = element_blank()
+    )
+  
+  p1 / p2 + patchwork::plot_layout(heights = c(3, 1.2))
+}
+
+# =============================================================================
+# ANA ANALİZ - GRACE + COX PIPELINE'INI ÇALIŞTIRIR
+# =============================================================================
+
+grace_split  <- data_split(grace_task)
+grace_models <- train_models(grace_task, grace_split)
+
+grace_perf_cox <- measure_performance(grace_models$cox_model, grace_task, grace_split)
+
+cat("C-index :", round(grace_perf_cox$c_index, 3), "\n")
+cat("Brier   :", round(grace_perf_cox$brier, 3), "\n")
+cat("AUC     :", round(grace_perf_cox$auc, 3), "\n")
+
+grace_global   <- global_explain(grace_task, grace_models)
+grace_cox_vimp <- grace_global$vimp_list$cox_model
+
+# survex'in kendi varsayılan grafiği
+grace_cox_p_vimp <- plot(grace_cox_vimp) +
+  theme(
+    legend.title    = element_blank(),
+    plot.subtitle   = element_blank(),
+    plot.tag        = element_blank(),
+    plot.title      = element_blank(),
+    legend.position = "bottom"
+  )
+
+grace_cox_p_vimp
+
+grace_cox_summary <- calculate_vimp_summary(grace_cox_vimp, eps = 0)
+grace_cox_summary
+
+grace_cox_p_fr <- plot_vimp_with_fr(grace_cox_summary)
+grace_cox_p_fr
