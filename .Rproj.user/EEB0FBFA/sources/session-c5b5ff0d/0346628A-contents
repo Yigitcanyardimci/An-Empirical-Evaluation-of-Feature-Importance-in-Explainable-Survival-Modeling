@@ -13,8 +13,9 @@ grace_split  <- data_split(grace_task)
 grace_models <- train_models(grace_task, grace_split)
 
 
-grace_perf_cox <- measure_performance(grace_models$cox_model, grace_task, grace_split)
+grace_perf_cox <- measure_performance(grace_models$cox_model, grace_task, grace_split, "surv.coxph")
 grace_perf_cox$surv.cindex
+grace_perf_cox$surv.dcalib
 grace_perf_cox$surv.brier
 grace_perf_cox$surv.logloss
 grace_perf_cox$surv.mae
@@ -58,8 +59,4 @@ grace_cox_shap_summary
 
 grace_cox_shap_TIVM <- calculate_TIVM(grace_cox_shap_summary)
 grace_cox_shap_TIVM
-
-
-
-
 
