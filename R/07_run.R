@@ -27,6 +27,7 @@ save_performance(grace_perf_cox, out_dir)
 grace_perf_cox$surv.cindex
 grace_perf_cox$surv.dcalib
 grace_perf_cox$surv.brier
+grace_perf_cox$surv.graf
 grace_perf_cox$surv.logloss
 grace_perf_cox$surv.mae
 grace_perf_cox$surv.mse
