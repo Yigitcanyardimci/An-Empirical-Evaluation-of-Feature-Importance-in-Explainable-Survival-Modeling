@@ -1,4 +1,3 @@
-# ===== R/04_performance.R =====
 # Performans metriklerini hesaplar.
 
 measure_performance <- function(model, task, split, model_id) {
@@ -40,13 +39,15 @@ measure_performance <- function(model, task, split, model_id) {
     surv.cindex  = get_score("surv.cindex"),
     surv.dcalib  = get_score("surv.dcalib"),
     surv.brier   = get_score("surv.brier", train_set = split$train),
+    surv.graf    = get_score("surv.graf", train_set = split$train),  # Integrated Brier Score (IBS)
     surv.logloss = get_score("surv.logloss"),
     surv.mae     = response_metrics$mae,
     surv.mse     = response_metrics$mse
   )
   
   log_msg(paste("Performans hesaplama bitti:", model_id,
-                "- cindex:", round(sonuc$surv.cindex, 3)))
+                "- cindex:", round(sonuc$surv.cindex, 3),
+                "- IBS (graf):", round(sonuc$surv.graf, 3)))
   sonuc
 }
 
