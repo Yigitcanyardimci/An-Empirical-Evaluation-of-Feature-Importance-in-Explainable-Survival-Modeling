@@ -369,3 +369,44 @@
 [2026-07-22 22:13:04] coxboost_model - SHAP TIVM: 0.0076 
 [2026-07-22 22:13:04] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-22 22:13:12] SHAP - gozlem 5 / 15 
+[2026-07-22 22:13:21] SHAP - gozlem 10 / 15 
+[2026-07-22 22:13:27] SHAP - gozlem 15 / 15 
+[2026-07-22 22:13:28] SHAP hesaplama bitti, kaydedildi: results/cv_coxboost/stagec/shap_long.csv 
+[2026-07-22 22:13:29] Grafik kaydedildi: results/cv_coxboost/stagec/plots/survshap_plot.png 
+[2026-07-22 22:13:29] SHAP ozeti kaydedildi: results/cv_coxboost/stagec/shap_summary.csv 
+[2026-07-22 22:13:29] cv_coxboost_model - SHAP TIVM: 0.0068 
+[2026-07-22 22:13:29] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:13:35] SHAP - gozlem 5 / 15 
+[2026-07-22 22:13:44] SHAP - gozlem 10 / 15 
+[2026-07-22 22:13:52] SHAP - gozlem 15 / 15 
+[2026-07-22 22:13:54] SHAP hesaplama bitti, kaydedildi: results/ctree/stagec/shap_long.csv 
+[2026-07-22 22:13:54] Grafik kaydedildi: results/ctree/stagec/plots/survshap_plot.png 
+[2026-07-22 22:13:54] SHAP ozeti kaydedildi: results/ctree/stagec/shap_summary.csv 
+[2026-07-22 22:13:54] ctree_model - SHAP TIVM: 0.0257 
+[2026-07-22 22:13:54] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:13:59] SHAP - gozlem 5 / 15 
+[2026-07-22 22:14:05] SHAP - gozlem 10 / 15 
+[2026-07-22 22:14:11] SHAP - gozlem 15 / 15 
+[2026-07-22 22:14:12] SHAP hesaplama bitti, kaydedildi: results/cv_glmnet/stagec/shap_long.csv 
+[2026-07-22 22:14:13] Grafik kaydedildi: results/cv_glmnet/stagec/plots/survshap_plot.png 
+[2026-07-22 22:14:13] SHAP ozeti kaydedildi: results/cv_glmnet/stagec/shap_summary.csv 
+[2026-07-22 22:14:13] cv_glmnet_model - SHAP TIVM: 0 
+[2026-07-22 22:14:13] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:14:16] SHAP - gozlem 5 / 15 
+[2026-07-22 22:14:19] SHAP - gozlem 10 / 15 
+[2026-07-22 22:14:22] SHAP - gozlem 15 / 15 
+[2026-07-22 22:14:23] SHAP hesaplama bitti, kaydedildi: results/glmboost/stagec/shap_long.csv 
+[2026-07-22 22:14:23] Grafik kaydedildi: results/glmboost/stagec/plots/survshap_plot.png 
+[2026-07-22 22:14:23] SHAP ozeti kaydedildi: results/glmboost/stagec/shap_summary.csv 
+[2026-07-22 22:14:23] glmboost_model - SHAP TIVM: 0.0077 
+[2026-07-22 22:14:23] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:14:28] SHAP - gozlem 5 / 15 
+[2026-07-22 22:14:34] SHAP - gozlem 10 / 15 
+[2026-07-22 22:14:40] SHAP - gozlem 15 / 15 
+[2026-07-22 22:14:41] SHAP hesaplama bitti, kaydedildi: results/glmnet/stagec/shap_long.csv 
+[2026-07-22 22:14:42] Grafik kaydedildi: results/glmnet/stagec/plots/survshap_plot.png 
+[2026-07-22 22:14:42] SHAP ozeti kaydedildi: results/glmnet/stagec/shap_summary.csv 
+[2026-07-22 22:14:42] glmnet_model - SHAP TIVM: 0.0083 
+[2026-07-22 22:14:42] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:14:45] SHAP - gozlem 5 / 15 
+[2026-07-22 22:14:48] SHAP - gozlem 10 / 15 

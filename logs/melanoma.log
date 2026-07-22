@@ -417,3 +417,40 @@
 [2026-07-22 22:13:04] penalized_model - SHAP TIVM: 0 
 [2026-07-22 22:13:04] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-22 22:13:13] SHAP - gozlem 5 / 15 
+[2026-07-22 22:13:26] SHAP - gozlem 10 / 15 
+[2026-07-22 22:13:35] SHAP - gozlem 15 / 15 
+[2026-07-22 22:13:37] SHAP hesaplama bitti, kaydedildi: results/ranger/melanoma/shap_long.csv 
+[2026-07-22 22:13:37] Grafik kaydedildi: results/ranger/melanoma/plots/survshap_plot.png 
+[2026-07-22 22:13:37] SHAP ozeti kaydedildi: results/ranger/melanoma/shap_summary.csv 
+[2026-07-22 22:13:37] ranger_model - SHAP TIVM: 0.0049 
+[2026-07-22 22:13:37] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:13:40] SHAP - gozlem 5 / 15 
+[2026-07-22 22:13:43] SHAP - gozlem 10 / 15 
+[2026-07-22 22:13:45] SHAP - gozlem 15 / 15 
+[2026-07-22 22:13:46] SHAP hesaplama bitti, kaydedildi: results/rfsrc/melanoma/shap_long.csv 
+[2026-07-22 22:13:46] Grafik kaydedildi: results/rfsrc/melanoma/plots/survshap_plot.png 
+[2026-07-22 22:13:46] SHAP ozeti kaydedildi: results/rfsrc/melanoma/shap_summary.csv 
+[2026-07-22 22:13:46] rfsrc_model - SHAP TIVM: 0.0053 
+[2026-07-22 22:13:46] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:13:51] SHAP - gozlem 5 / 15 
+[2026-07-22 22:14:00] SHAP - gozlem 10 / 15 
+[2026-07-22 22:14:05] SHAP - gozlem 15 / 15 
+[2026-07-22 22:14:06] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/melanoma/shap_long.csv 
+[2026-07-22 22:14:06] Grafik kaydedildi: results/xgboost_cox/melanoma/plots/survshap_plot.png 
+[2026-07-22 22:14:06] SHAP ozeti kaydedildi: results/xgboost_cox/melanoma/shap_summary.csv 
+[2026-07-22 22:14:06] xgboost_cox_model - SHAP TIVM: 0.0063 
+[2026-07-22 22:14:06] ===== BITTI: melanoma + cox - cindex: 0.676 - PFI TIVM: 0.0068 - SHAP TIVM: 0.0042 ===== 
+[2026-07-22 22:14:06] ===== BITTI: melanoma + aorsf - cindex: 0.724 - PFI TIVM: 0.0059 - SHAP TIVM: 0.0049 ===== 
+[2026-07-22 22:14:06] ===== BITTI: melanoma + cforest - cindex: 0.724 - PFI TIVM: 0.0045 - SHAP TIVM: 0.0057 ===== 
+[2026-07-22 22:14:06] ===== BITTI: melanoma + coxboost - cindex: 0.677 - PFI TIVM: 0.0061 - SHAP TIVM: 0.004 ===== 
+[2026-07-22 22:14:06] ===== BITTI: melanoma + cv_coxboost - cindex: 0.677 - PFI TIVM: 0.0054 - SHAP TIVM: 0.004 ===== 
+[2026-07-22 22:14:06] ===== BITTI: melanoma + ctree - cindex: 0.698 - PFI TIVM: 0.0073 - SHAP TIVM: 0.0106 ===== 
+[2026-07-22 22:14:06] ===== BITTI: melanoma + cv_glmnet - cindex: 0.5 - PFI TIVM: 0 - SHAP TIVM: 0 ===== 
+[2026-07-22 22:14:06] ===== BITTI: melanoma + glmboost - cindex: 0.694 - PFI TIVM: 0.005 - SHAP TIVM: 0.0032 ===== 
+[2026-07-22 22:14:06] ===== BITTI: melanoma + glmnet - cindex: 0.676 - PFI TIVM: 0.0054 - SHAP TIVM: 0.0042 ===== 
+[2026-07-22 22:14:06] ===== BITTI: melanoma + penalized - cindex: 0.5 - PFI TIVM: 0 - SHAP TIVM: 0 ===== 
+[2026-07-22 22:14:06] ===== BITTI: melanoma + ranger - cindex: 0.727 - PFI TIVM: 0.0056 - SHAP TIVM: 0.0049 ===== 
+[2026-07-22 22:14:06] ===== BITTI: melanoma + rfsrc - cindex: 0.731 - PFI TIVM: 0.0048 - SHAP TIVM: 0.0053 ===== 
+[2026-07-22 22:14:06] ===== BITTI: melanoma + xgboost_cox - cindex: 0.654 - PFI TIVM: 0.0249 - SHAP TIVM: 0.0063 ===== 
+[2026-07-22 22:14:06] ----- Veri seti bitti: melanoma ----- 
+[2026-07-22 22:14:06] ===== RUN ( melanoma ) TAMAMLANDI ===== 

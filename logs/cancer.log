@@ -347,3 +347,8 @@
 [2026-07-22 22:12:00] SHAP - gozlem 5 / 15 
 [2026-07-22 22:12:34] SHAP - gozlem 10 / 15 
 [2026-07-22 22:13:08] SHAP - gozlem 15 / 15 
+[2026-07-22 22:13:15] SHAP hesaplama bitti, kaydedildi: results/aorsf/cancer/shap_long.csv 
+[2026-07-22 22:13:15] Grafik kaydedildi: results/aorsf/cancer/plots/survshap_plot.png 
+[2026-07-22 22:13:15] SHAP ozeti kaydedildi: results/aorsf/cancer/shap_summary.csv 
+[2026-07-22 22:13:15] aorsf_model - SHAP TIVM: 0.0043 
+[2026-07-22 22:13:15] SHAP hesaplama basladi, n_obs = 15 
