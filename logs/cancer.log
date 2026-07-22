@@ -418,3 +418,9 @@
 [2026-07-22 22:26:30] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-22 22:27:53] SHAP - gozlem 5 / 15 
 [2026-07-22 22:29:39] SHAP - gozlem 10 / 15 
+[2026-07-22 22:31:24] SHAP - gozlem 15 / 15 
+[2026-07-22 22:31:45] SHAP hesaplama bitti, kaydedildi: results/ranger/cancer/shap_long.csv 
+[2026-07-22 22:31:46] Grafik kaydedildi: results/ranger/cancer/plots/survshap_plot.png 
+[2026-07-22 22:31:46] SHAP ozeti kaydedildi: results/ranger/cancer/shap_summary.csv 
+[2026-07-22 22:31:46] ranger_model - SHAP TIVM: 0.0035 
+[2026-07-22 22:31:46] SHAP hesaplama basladi, n_obs = 15 

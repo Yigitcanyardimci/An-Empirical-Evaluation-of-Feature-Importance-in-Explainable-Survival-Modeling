@@ -416,3 +416,4 @@
 [2026-07-22 22:29:54] SHAP ozeti kaydedildi: results/penalized/burn/shap_summary.csv 
 [2026-07-22 22:29:54] penalized_model - SHAP TIVM: 0.0034 
 [2026-07-22 22:29:54] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:31:10] SHAP - gozlem 5 / 15 

@@ -335,3 +335,10 @@
 [2026-07-22 22:28:55] cox_model - SHAP TIVM: 0.0016 
 [2026-07-22 22:28:55] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-22 22:29:29] SHAP - gozlem 5 / 15 
+[2026-07-22 22:30:47] SHAP - gozlem 10 / 15 
+[2026-07-22 22:31:34] SHAP - gozlem 15 / 15 
+[2026-07-22 22:31:39] SHAP hesaplama bitti, kaydedildi: results/aorsf/Pbc3/shap_long.csv 
+[2026-07-22 22:31:40] Grafik kaydedildi: results/aorsf/Pbc3/plots/survshap_plot.png 
+[2026-07-22 22:31:40] SHAP ozeti kaydedildi: results/aorsf/Pbc3/shap_summary.csv 
+[2026-07-22 22:31:40] aorsf_model - SHAP TIVM: 0.0019 
+[2026-07-22 22:31:40] SHAP hesaplama basladi, n_obs = 15 
