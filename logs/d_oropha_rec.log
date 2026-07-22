@@ -382,3 +382,13 @@
 [2026-07-22 22:44:01] SHAP ozeti kaydedildi: results/cv_glmnet/d_oropha_rec/shap_summary.csv 
 [2026-07-22 22:44:01] cv_glmnet_model - SHAP TIVM: 0 
 [2026-07-22 22:44:01] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:44:15] SHAP - gozlem 5 / 15 
+[2026-07-22 22:44:32] SHAP - gozlem 10 / 15 
+[2026-07-22 22:44:49] SHAP - gozlem 15 / 15 
+[2026-07-22 22:44:52] SHAP hesaplama bitti, kaydedildi: results/glmboost/d_oropha_rec/shap_long.csv 
+[2026-07-22 22:44:53] Grafik kaydedildi: results/glmboost/d_oropha_rec/plots/survshap_plot.png 
+[2026-07-22 22:44:53] SHAP ozeti kaydedildi: results/glmboost/d_oropha_rec/shap_summary.csv 
+[2026-07-22 22:44:53] glmboost_model - SHAP TIVM: 0.005 
+[2026-07-22 22:44:53] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:45:11] SHAP - gozlem 5 / 15 
+[2026-07-22 22:45:34] SHAP - gozlem 10 / 15 
