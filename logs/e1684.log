@@ -336,3 +336,35 @@
 [2026-07-22 22:08:22] PFI ozeti kaydedildi: results/xgboost_cox/e1684/vimp_summary.csv 
 [2026-07-22 22:08:22] xgboost_cox_model - PFI TIVM: 0.0103 
 [2026-07-22 22:08:22] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:08:26] SHAP - gozlem 5 / 15 
+[2026-07-22 22:08:31] SHAP - gozlem 10 / 15 
+[2026-07-22 22:08:35] SHAP - gozlem 15 / 15 
+[2026-07-22 22:08:36] SHAP hesaplama bitti, kaydedildi: results/cox/e1684/shap_long.csv 
+[2026-07-22 22:08:37] Grafik kaydedildi: results/cox/e1684/plots/survshap_plot.png 
+[2026-07-22 22:08:37] SHAP ozeti kaydedildi: results/cox/e1684/shap_summary.csv 
+[2026-07-22 22:08:37] cox_model - SHAP TIVM: 0.002 
+[2026-07-22 22:08:37] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:08:40] SHAP - gozlem 5 / 15 
+[2026-07-22 22:08:44] SHAP - gozlem 10 / 15 
+[2026-07-22 22:08:49] SHAP - gozlem 15 / 15 
+[2026-07-22 22:08:50] SHAP hesaplama bitti, kaydedildi: results/aorsf/e1684/shap_long.csv 
+[2026-07-22 22:08:50] Grafik kaydedildi: results/aorsf/e1684/plots/survshap_plot.png 
+[2026-07-22 22:08:50] SHAP ozeti kaydedildi: results/aorsf/e1684/shap_summary.csv 
+[2026-07-22 22:08:50] aorsf_model - SHAP TIVM: 0.0049 
+[2026-07-22 22:08:50] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:09:07] SHAP - gozlem 5 / 15 
+[2026-07-22 22:09:28] SHAP - gozlem 10 / 15 
+[2026-07-22 22:09:46] SHAP - gozlem 15 / 15 
+[2026-07-22 22:09:49] SHAP hesaplama bitti, kaydedildi: results/cforest/e1684/shap_long.csv 
+[2026-07-22 22:09:50] Grafik kaydedildi: results/cforest/e1684/plots/survshap_plot.png 
+[2026-07-22 22:09:50] SHAP ozeti kaydedildi: results/cforest/e1684/shap_summary.csv 
+[2026-07-22 22:09:50] cforest_model - SHAP TIVM: 0.0065 
+[2026-07-22 22:09:50] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:09:52] SHAP - gozlem 5 / 15 
+[2026-07-22 22:09:55] SHAP - gozlem 10 / 15 
+[2026-07-22 22:09:58] SHAP - gozlem 15 / 15 
+[2026-07-22 22:09:58] SHAP hesaplama bitti, kaydedildi: results/coxboost/e1684/shap_long.csv 
+[2026-07-22 22:09:58] Grafik kaydedildi: results/coxboost/e1684/plots/survshap_plot.png 
+[2026-07-22 22:09:58] SHAP ozeti kaydedildi: results/coxboost/e1684/shap_summary.csv 
+[2026-07-22 22:09:58] coxboost_model - SHAP TIVM: 0.002 
+[2026-07-22 22:09:58] SHAP hesaplama basladi, n_obs = 15 

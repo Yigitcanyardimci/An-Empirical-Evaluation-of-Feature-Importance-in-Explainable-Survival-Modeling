@@ -1,0 +1,12 @@
+"variable","A_hat","A_bar","TIV","R_bar"
+"fac_race",0.0819541842348869,0.00124173006416495,0.000568142677013109,1
+"fac_burn_buttock",0,0,0,0
+"fac_burn_head",0,0,0,0
+"fac_burn_lower_leg",0,0,0,0
+"fac_burn_resp",0,0,0,0
+"fac_burn_trunk",0,0,0,0
+"fac_burn_type",0,0,0,0
+"fac_burn_upper_leg",0,0,0,0
+"fac_sex",0,0,0,0
+"fac_treatment",0,0,0,0
+"num_burn_area",0,0,0,0

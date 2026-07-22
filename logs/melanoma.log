@@ -278,3 +278,77 @@
 [2026-07-22 22:08:05] PFI hesaplaniyor: cv_glmnet_model 
 [2026-07-22 22:08:14] PFI hesaplaniyor: glmboost_model 
 [2026-07-22 22:08:22] PFI hesaplaniyor: glmnet_model 
+[2026-07-22 22:08:32] PFI hesaplaniyor: penalized_model 
+[2026-07-22 22:08:40] PFI hesaplaniyor: ranger_model 
+[2026-07-22 22:08:55] PFI hesaplaniyor: rfsrc_model 
+[2026-07-22 22:09:03] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-22 22:09:12] Global aciklama (PFI) bitti 
+[2026-07-22 22:09:12] PFI kaydedildi: results/cox/melanoma/vimp.rds 
+[2026-07-22 22:09:13] Grafik kaydedildi: results/cox/melanoma/plots/pfi_plot.png 
+[2026-07-22 22:09:13] PFI ozeti kaydedildi: results/cox/melanoma/vimp_summary.csv 
+[2026-07-22 22:09:13] cox_model - PFI TIVM: 0.0068 
+[2026-07-22 22:09:13] PFI kaydedildi: results/aorsf/melanoma/vimp.rds 
+[2026-07-22 22:09:14] Grafik kaydedildi: results/aorsf/melanoma/plots/pfi_plot.png 
+[2026-07-22 22:09:14] PFI ozeti kaydedildi: results/aorsf/melanoma/vimp_summary.csv 
+[2026-07-22 22:09:14] aorsf_model - PFI TIVM: 0.0059 
+[2026-07-22 22:09:14] PFI kaydedildi: results/cforest/melanoma/vimp.rds 
+[2026-07-22 22:09:15] Grafik kaydedildi: results/cforest/melanoma/plots/pfi_plot.png 
+[2026-07-22 22:09:15] PFI ozeti kaydedildi: results/cforest/melanoma/vimp_summary.csv 
+[2026-07-22 22:09:15] cforest_model - PFI TIVM: 0.0045 
+[2026-07-22 22:09:15] PFI kaydedildi: results/coxboost/melanoma/vimp.rds 
+[2026-07-22 22:09:16] Grafik kaydedildi: results/coxboost/melanoma/plots/pfi_plot.png 
+[2026-07-22 22:09:16] PFI ozeti kaydedildi: results/coxboost/melanoma/vimp_summary.csv 
+[2026-07-22 22:09:16] coxboost_model - PFI TIVM: 0.0061 
+[2026-07-22 22:09:16] PFI kaydedildi: results/cv_coxboost/melanoma/vimp.rds 
+[2026-07-22 22:09:17] Grafik kaydedildi: results/cv_coxboost/melanoma/plots/pfi_plot.png 
+[2026-07-22 22:09:17] PFI ozeti kaydedildi: results/cv_coxboost/melanoma/vimp_summary.csv 
+[2026-07-22 22:09:17] cv_coxboost_model - PFI TIVM: 0.0054 
+[2026-07-22 22:09:17] PFI kaydedildi: results/ctree/melanoma/vimp.rds 
+[2026-07-22 22:09:17] Grafik kaydedildi: results/ctree/melanoma/plots/pfi_plot.png 
+[2026-07-22 22:09:17] PFI ozeti kaydedildi: results/ctree/melanoma/vimp_summary.csv 
+[2026-07-22 22:09:17] ctree_model - PFI TIVM: 0.0073 
+[2026-07-22 22:09:17] PFI kaydedildi: results/cv_glmnet/melanoma/vimp.rds 
+[2026-07-22 22:09:18] Grafik kaydedildi: results/cv_glmnet/melanoma/plots/pfi_plot.png 
+[2026-07-22 22:09:18] PFI ozeti kaydedildi: results/cv_glmnet/melanoma/vimp_summary.csv 
+[2026-07-22 22:09:18] cv_glmnet_model - PFI TIVM: 0 
+[2026-07-22 22:09:18] PFI kaydedildi: results/glmboost/melanoma/vimp.rds 
+[2026-07-22 22:09:19] Grafik kaydedildi: results/glmboost/melanoma/plots/pfi_plot.png 
+[2026-07-22 22:09:19] PFI ozeti kaydedildi: results/glmboost/melanoma/vimp_summary.csv 
+[2026-07-22 22:09:19] glmboost_model - PFI TIVM: 0.005 
+[2026-07-22 22:09:19] PFI kaydedildi: results/glmnet/melanoma/vimp.rds 
+[2026-07-22 22:09:20] Grafik kaydedildi: results/glmnet/melanoma/plots/pfi_plot.png 
+[2026-07-22 22:09:20] PFI ozeti kaydedildi: results/glmnet/melanoma/vimp_summary.csv 
+[2026-07-22 22:09:20] glmnet_model - PFI TIVM: 0.0054 
+[2026-07-22 22:09:20] PFI kaydedildi: results/penalized/melanoma/vimp.rds 
+[2026-07-22 22:09:21] Grafik kaydedildi: results/penalized/melanoma/plots/pfi_plot.png 
+[2026-07-22 22:09:21] PFI ozeti kaydedildi: results/penalized/melanoma/vimp_summary.csv 
+[2026-07-22 22:09:21] penalized_model - PFI TIVM: 0 
+[2026-07-22 22:09:21] PFI kaydedildi: results/ranger/melanoma/vimp.rds 
+[2026-07-22 22:09:22] Grafik kaydedildi: results/ranger/melanoma/plots/pfi_plot.png 
+[2026-07-22 22:09:22] PFI ozeti kaydedildi: results/ranger/melanoma/vimp_summary.csv 
+[2026-07-22 22:09:22] ranger_model - PFI TIVM: 0.0056 
+[2026-07-22 22:09:22] PFI kaydedildi: results/rfsrc/melanoma/vimp.rds 
+[2026-07-22 22:09:22] Grafik kaydedildi: results/rfsrc/melanoma/plots/pfi_plot.png 
+[2026-07-22 22:09:22] PFI ozeti kaydedildi: results/rfsrc/melanoma/vimp_summary.csv 
+[2026-07-22 22:09:22] rfsrc_model - PFI TIVM: 0.0048 
+[2026-07-22 22:09:22] PFI kaydedildi: results/xgboost_cox/melanoma/vimp.rds 
+[2026-07-22 22:09:23] Grafik kaydedildi: results/xgboost_cox/melanoma/plots/pfi_plot.png 
+[2026-07-22 22:09:23] PFI ozeti kaydedildi: results/xgboost_cox/melanoma/vimp_summary.csv 
+[2026-07-22 22:09:23] xgboost_cox_model - PFI TIVM: 0.0249 
+[2026-07-22 22:09:23] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:09:28] SHAP - gozlem 5 / 15 
+[2026-07-22 22:09:34] SHAP - gozlem 10 / 15 
+[2026-07-22 22:09:39] SHAP - gozlem 15 / 15 
+[2026-07-22 22:09:40] SHAP hesaplama bitti, kaydedildi: results/cox/melanoma/shap_long.csv 
+[2026-07-22 22:09:41] Grafik kaydedildi: results/cox/melanoma/plots/survshap_plot.png 
+[2026-07-22 22:09:41] SHAP ozeti kaydedildi: results/cox/melanoma/shap_summary.csv 
+[2026-07-22 22:09:41] cox_model - SHAP TIVM: 0.0042 
+[2026-07-22 22:09:41] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:09:43] SHAP - gozlem 5 / 15 
+[2026-07-22 22:09:47] SHAP - gozlem 10 / 15 
+[2026-07-22 22:09:52] SHAP - gozlem 15 / 15 
+[2026-07-22 22:09:53] SHAP hesaplama bitti, kaydedildi: results/aorsf/melanoma/shap_long.csv 
+[2026-07-22 22:09:54] Grafik kaydedildi: results/aorsf/melanoma/plots/survshap_plot.png 
+[2026-07-22 22:09:54] SHAP ozeti kaydedildi: results/aorsf/melanoma/shap_summary.csv 
+[2026-07-22 22:09:54] aorsf_model - SHAP TIVM: 0.0049 
+[2026-07-22 22:09:54] SHAP hesaplama basladi, n_obs = 15 
