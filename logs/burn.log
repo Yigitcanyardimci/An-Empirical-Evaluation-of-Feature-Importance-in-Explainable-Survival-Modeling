@@ -434,3 +434,23 @@
 [2026-07-22 22:34:28] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-22 22:35:50] SHAP - gozlem 5 / 15 
 [2026-07-22 22:37:13] SHAP - gozlem 10 / 15 
+[2026-07-22 22:38:45] SHAP - gozlem 15 / 15 
+[2026-07-22 22:39:05] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/burn/shap_long.csv 
+[2026-07-22 22:39:06] Grafik kaydedildi: results/xgboost_cox/burn/plots/survshap_plot.png 
+[2026-07-22 22:39:06] SHAP ozeti kaydedildi: results/xgboost_cox/burn/shap_summary.csv 
+[2026-07-22 22:39:06] xgboost_cox_model - SHAP TIVM: 0.0058 
+[2026-07-22 22:39:06] ===== BITTI: burn + cox - cindex: 0.619 - PFI TIVM: 0.0064 - SHAP TIVM: 0.0033 ===== 
+[2026-07-22 22:39:06] ===== BITTI: burn + aorsf - cindex: 0.638 - PFI TIVM: 0.0055 - SHAP TIVM: 0.0026 ===== 
+[2026-07-22 22:39:06] ===== BITTI: burn + cforest - cindex: 0.562 - PFI TIVM: 0.0039 - SHAP TIVM: 0.0041 ===== 
+[2026-07-22 22:39:06] ===== BITTI: burn + coxboost - cindex: 0.633 - PFI TIVM: 0.0041 - SHAP TIVM: 0.0025 ===== 
+[2026-07-22 22:39:06] ===== BITTI: burn + cv_coxboost - cindex: 0.564 - PFI TIVM: 6e-04 - SHAP TIVM: 4e-04 ===== 
+[2026-07-22 22:39:06] ===== BITTI: burn + ctree - cindex: 0.5 - PFI TIVM: 0 - SHAP TIVM: 0 ===== 
+[2026-07-22 22:39:06] ===== BITTI: burn + cv_glmnet - cindex: 0.5 - PFI TIVM: 0 - SHAP TIVM: 0 ===== 
+[2026-07-22 22:39:06] ===== BITTI: burn + glmboost - cindex: 0.585 - PFI TIVM: 0.0023 - SHAP TIVM: 0.0019 ===== 
+[2026-07-22 22:39:06] ===== BITTI: burn + glmnet - cindex: 0.674 - PFI TIVM: 0.0054 - SHAP TIVM: 0.0026 ===== 
+[2026-07-22 22:39:06] ===== BITTI: burn + penalized - cindex: 0.619 - PFI TIVM: 0.0079 - SHAP TIVM: 0.0034 ===== 
+[2026-07-22 22:39:06] ===== BITTI: burn + ranger - cindex: 0.537 - PFI TIVM: 0.0085 - SHAP TIVM: 0.0046 ===== 
+[2026-07-22 22:39:06] ===== BITTI: burn + rfsrc - cindex: 0.575 - PFI TIVM: 0.0044 - SHAP TIVM: 0.0032 ===== 
+[2026-07-22 22:39:06] ===== BITTI: burn + xgboost_cox - cindex: 0.512 - PFI TIVM: 0.0205 - SHAP TIVM: 0.0058 ===== 
+[2026-07-22 22:39:06] ----- Veri seti bitti: burn ----- 
+[2026-07-22 22:39:06] ===== RUN ( burn ) TAMAMLANDI ===== 
