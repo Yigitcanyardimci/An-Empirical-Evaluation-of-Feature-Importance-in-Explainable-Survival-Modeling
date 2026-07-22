@@ -13,7 +13,7 @@ fmt <- function(x, d = 4) {
 outputs_root <- "results"
 
 tasks <- tasks["cgd"]
-learner_specs <- learner_specs["cox_model"]
+learner_specs <- learner_specs[c("cox_model","aorsf_model","ranger_model")]
 
 log_msg(paste("===== TEST RUN (cgd) BASLADI:", length(tasks), "veri seti x",
               length(learner_specs), "model ====="))
