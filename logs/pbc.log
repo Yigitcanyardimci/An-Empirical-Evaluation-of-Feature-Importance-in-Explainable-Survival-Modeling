@@ -345,3 +345,17 @@
 [2026-07-22 22:13:44] SHAP - gozlem 5 / 15 
 [2026-07-22 22:15:01] SHAP - gozlem 10 / 15 
 [2026-07-22 22:16:15] SHAP - gozlem 15 / 15 
+[2026-07-22 22:16:30] SHAP hesaplama bitti, kaydedildi: results/cforest/pbc/shap_long.csv 
+[2026-07-22 22:16:30] Grafik kaydedildi: results/cforest/pbc/plots/survshap_plot.png 
+[2026-07-22 22:16:30] SHAP ozeti kaydedildi: results/cforest/pbc/shap_summary.csv 
+[2026-07-22 22:16:30] cforest_model - SHAP TIVM: 0.0058 
+[2026-07-22 22:16:30] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:16:45] SHAP - gozlem 5 / 15 
+[2026-07-22 22:17:03] SHAP - gozlem 10 / 15 
+[2026-07-22 22:17:22] SHAP - gozlem 15 / 15 
+[2026-07-22 22:17:25] SHAP hesaplama bitti, kaydedildi: results/coxboost/pbc/shap_long.csv 
+[2026-07-22 22:17:26] Grafik kaydedildi: results/coxboost/pbc/plots/survshap_plot.png 
+[2026-07-22 22:17:26] SHAP ozeti kaydedildi: results/coxboost/pbc/shap_summary.csv 
+[2026-07-22 22:17:26] coxboost_model - SHAP TIVM: 0.0019 
+[2026-07-22 22:17:26] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:17:42] SHAP - gozlem 5 / 15 

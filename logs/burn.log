@@ -361,3 +361,18 @@
 [2026-07-22 22:16:17] cforest_model - SHAP TIVM: 0.0041 
 [2026-07-22 22:16:17] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-22 22:16:22] SHAP - gozlem 5 / 15 
+[2026-07-22 22:16:29] SHAP - gozlem 10 / 15 
+[2026-07-22 22:16:35] SHAP - gozlem 15 / 15 
+[2026-07-22 22:16:37] SHAP hesaplama bitti, kaydedildi: results/coxboost/burn/shap_long.csv 
+[2026-07-22 22:16:37] Grafik kaydedildi: results/coxboost/burn/plots/survshap_plot.png 
+[2026-07-22 22:16:37] SHAP ozeti kaydedildi: results/coxboost/burn/shap_summary.csv 
+[2026-07-22 22:16:37] coxboost_model - SHAP TIVM: 0.0025 
+[2026-07-22 22:16:37] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:16:42] SHAP - gozlem 5 / 15 
+[2026-07-22 22:16:49] SHAP - gozlem 10 / 15 
+[2026-07-22 22:16:55] SHAP - gozlem 15 / 15 
+[2026-07-22 22:16:56] SHAP hesaplama bitti, kaydedildi: results/cv_coxboost/burn/shap_long.csv 
+[2026-07-22 22:16:57] Grafik kaydedildi: results/cv_coxboost/burn/plots/survshap_plot.png 
+[2026-07-22 22:16:57] SHAP ozeti kaydedildi: results/cv_coxboost/burn/shap_summary.csv 
+[2026-07-22 22:16:57] cv_coxboost_model - SHAP TIVM: 4e-04 
+[2026-07-22 22:16:57] SHAP hesaplama basladi, n_obs = 15 

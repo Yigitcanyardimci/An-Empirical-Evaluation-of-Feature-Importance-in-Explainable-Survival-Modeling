@@ -434,3 +434,23 @@
 [2026-07-22 22:16:09] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-22 22:16:14] SHAP - gozlem 5 / 15 
 [2026-07-22 22:16:20] SHAP - gozlem 10 / 15 
+[2026-07-22 22:16:26] SHAP - gozlem 15 / 15 
+[2026-07-22 22:16:27] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/stagec/shap_long.csv 
+[2026-07-22 22:16:28] Grafik kaydedildi: results/xgboost_cox/stagec/plots/survshap_plot.png 
+[2026-07-22 22:16:28] SHAP ozeti kaydedildi: results/xgboost_cox/stagec/shap_summary.csv 
+[2026-07-22 22:16:28] xgboost_cox_model - SHAP TIVM: 0.0111 
+[2026-07-22 22:16:28] ===== BITTI: stagec + cox - cindex: 0.608 - PFI TIVM: 0.0177 - SHAP TIVM: 0.0098 ===== 
+[2026-07-22 22:16:28] ===== BITTI: stagec + aorsf - cindex: 0.705 - PFI TIVM: 0.0065 - SHAP TIVM: 0.0066 ===== 
+[2026-07-22 22:16:28] ===== BITTI: stagec + cforest - cindex: 0.73 - PFI TIVM: 0.0062 - SHAP TIVM: 0.0074 ===== 
+[2026-07-22 22:16:28] ===== BITTI: stagec + coxboost - cindex: 0.627 - PFI TIVM: 0.0132 - SHAP TIVM: 0.0076 ===== 
+[2026-07-22 22:16:28] ===== BITTI: stagec + cv_coxboost - cindex: 0.639 - PFI TIVM: 0.0085 - SHAP TIVM: 0.0068 ===== 
+[2026-07-22 22:16:28] ===== BITTI: stagec + ctree - cindex: 0.674 - PFI TIVM: 0.0209 - SHAP TIVM: 0.0257 ===== 
+[2026-07-22 22:16:28] ===== BITTI: stagec + cv_glmnet - cindex: 0.5 - PFI TIVM: 0 - SHAP TIVM: 0 ===== 
+[2026-07-22 22:16:28] ===== BITTI: stagec + glmboost - cindex: 0.643 - PFI TIVM: 0.0109 - SHAP TIVM: 0.0077 ===== 
+[2026-07-22 22:16:28] ===== BITTI: stagec + glmnet - cindex: 0.633 - PFI TIVM: 0.0168 - SHAP TIVM: 0.0083 ===== 
+[2026-07-22 22:16:28] ===== BITTI: stagec + penalized - cindex: 0.5 - PFI TIVM: 0.0515 - SHAP TIVM: 0 ===== 
+[2026-07-22 22:16:28] ===== BITTI: stagec + ranger - cindex: 0.715 - PFI TIVM: 0.0053 - SHAP TIVM: 0.0059 ===== 
+[2026-07-22 22:16:28] ===== BITTI: stagec + rfsrc - cindex: 0.755 - PFI TIVM: 0.0037 - SHAP TIVM: 0.0042 ===== 
+[2026-07-22 22:16:28] ===== BITTI: stagec + xgboost_cox - cindex: 0.787 - PFI TIVM: 0.0349 - SHAP TIVM: 0.0111 ===== 
+[2026-07-22 22:16:28] ----- Veri seti bitti: stagec ----- 
+[2026-07-22 22:16:28] ===== RUN ( stagec ) TAMAMLANDI ===== 
