@@ -368,3 +368,67 @@
 [2026-07-22 22:09:58] SHAP ozeti kaydedildi: results/coxboost/e1684/shap_summary.csv 
 [2026-07-22 22:09:58] coxboost_model - SHAP TIVM: 0.002 
 [2026-07-22 22:09:58] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:10:01] SHAP - gozlem 5 / 15 
+[2026-07-22 22:10:04] SHAP - gozlem 10 / 15 
+[2026-07-22 22:10:07] SHAP - gozlem 15 / 15 
+[2026-07-22 22:10:07] SHAP hesaplama bitti, kaydedildi: results/cv_coxboost/e1684/shap_long.csv 
+[2026-07-22 22:10:08] Grafik kaydedildi: results/cv_coxboost/e1684/plots/survshap_plot.png 
+[2026-07-22 22:10:08] SHAP ozeti kaydedildi: results/cv_coxboost/e1684/shap_summary.csv 
+[2026-07-22 22:10:08] cv_coxboost_model - SHAP TIVM: 2e-04 
+[2026-07-22 22:10:08] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:10:11] SHAP - gozlem 5 / 15 
+[2026-07-22 22:10:14] SHAP - gozlem 10 / 15 
+[2026-07-22 22:10:17] SHAP - gozlem 15 / 15 
+[2026-07-22 22:10:17] SHAP hesaplama bitti, kaydedildi: results/ctree/e1684/shap_long.csv 
+[2026-07-22 22:10:18] Grafik kaydedildi: results/ctree/e1684/plots/survshap_plot.png 
+[2026-07-22 22:10:18] SHAP ozeti kaydedildi: results/ctree/e1684/shap_summary.csv 
+[2026-07-22 22:10:18] ctree_model - SHAP TIVM: 0.0093 
+[2026-07-22 22:10:18] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:10:20] SHAP - gozlem 5 / 15 
+[2026-07-22 22:10:22] SHAP - gozlem 10 / 15 
+[2026-07-22 22:10:25] SHAP - gozlem 15 / 15 
+[2026-07-22 22:10:26] SHAP hesaplama bitti, kaydedildi: results/cv_glmnet/e1684/shap_long.csv 
+[2026-07-22 22:10:26] Grafik kaydedildi: results/cv_glmnet/e1684/plots/survshap_plot.png 
+[2026-07-22 22:10:26] SHAP ozeti kaydedildi: results/cv_glmnet/e1684/shap_summary.csv 
+[2026-07-22 22:10:26] cv_glmnet_model - SHAP TIVM: 0 
+[2026-07-22 22:10:26] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:10:28] SHAP - gozlem 5 / 15 
+[2026-07-22 22:10:30] SHAP - gozlem 10 / 15 
+[2026-07-22 22:10:32] SHAP - gozlem 15 / 15 
+[2026-07-22 22:10:32] SHAP hesaplama bitti, kaydedildi: results/glmboost/e1684/shap_long.csv 
+[2026-07-22 22:10:33] Grafik kaydedildi: results/glmboost/e1684/plots/survshap_plot.png 
+[2026-07-22 22:10:33] SHAP ozeti kaydedildi: results/glmboost/e1684/shap_summary.csv 
+[2026-07-22 22:10:33] glmboost_model - SHAP TIVM: 0.002 
+[2026-07-22 22:10:33] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:10:35] SHAP - gozlem 5 / 15 
+[2026-07-22 22:10:38] SHAP - gozlem 10 / 15 
+[2026-07-22 22:10:41] SHAP - gozlem 15 / 15 
+[2026-07-22 22:10:41] SHAP hesaplama bitti, kaydedildi: results/glmnet/e1684/shap_long.csv 
+[2026-07-22 22:10:42] Grafik kaydedildi: results/glmnet/e1684/plots/survshap_plot.png 
+[2026-07-22 22:10:42] SHAP ozeti kaydedildi: results/glmnet/e1684/shap_summary.csv 
+[2026-07-22 22:10:42] glmnet_model - SHAP TIVM: 0.002 
+[2026-07-22 22:10:42] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:10:44] SHAP - gozlem 5 / 15 
+[2026-07-22 22:10:46] SHAP - gozlem 10 / 15 
+[2026-07-22 22:10:48] SHAP - gozlem 15 / 15 
+[2026-07-22 22:10:49] SHAP hesaplama bitti, kaydedildi: results/penalized/e1684/shap_long.csv 
+[2026-07-22 22:10:49] Grafik kaydedildi: results/penalized/e1684/plots/survshap_plot.png 
+[2026-07-22 22:10:49] SHAP ozeti kaydedildi: results/penalized/e1684/shap_summary.csv 
+[2026-07-22 22:10:49] penalized_model - SHAP TIVM: 0.0021 
+[2026-07-22 22:10:49] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:10:58] SHAP - gozlem 5 / 15 
+[2026-07-22 22:11:07] SHAP - gozlem 10 / 15 
+[2026-07-22 22:11:19] SHAP - gozlem 15 / 15 
+[2026-07-22 22:11:22] SHAP hesaplama bitti, kaydedildi: results/ranger/e1684/shap_long.csv 
+[2026-07-22 22:11:23] Grafik kaydedildi: results/ranger/e1684/plots/survshap_plot.png 
+[2026-07-22 22:11:23] SHAP ozeti kaydedildi: results/ranger/e1684/shap_summary.csv 
+[2026-07-22 22:11:23] ranger_model - SHAP TIVM: 0.0057 
+[2026-07-22 22:11:23] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:11:26] SHAP - gozlem 5 / 15 
+[2026-07-22 22:11:30] SHAP - gozlem 10 / 15 
+[2026-07-22 22:11:35] SHAP - gozlem 15 / 15 
+[2026-07-22 22:11:36] SHAP hesaplama bitti, kaydedildi: results/rfsrc/e1684/shap_long.csv 
+[2026-07-22 22:11:36] Grafik kaydedildi: results/rfsrc/e1684/plots/survshap_plot.png 
+[2026-07-22 22:11:36] SHAP ozeti kaydedildi: results/rfsrc/e1684/shap_summary.csv 
+[2026-07-22 22:11:36] rfsrc_model - SHAP TIVM: 0.0055 
+[2026-07-22 22:11:36] SHAP hesaplama basladi, n_obs = 15 

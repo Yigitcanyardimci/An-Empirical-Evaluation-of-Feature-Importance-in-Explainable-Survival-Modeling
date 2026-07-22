@@ -1105,3 +1105,22 @@
 [2026-07-22 22:09:49] glmnet_model - SHAP TIVM: 0.005 
 [2026-07-22 22:09:49] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-22 22:09:57] SHAP - gozlem 5 / 15 
+[2026-07-22 22:10:07] SHAP - gozlem 10 / 15 
+[2026-07-22 22:10:15] SHAP - gozlem 15 / 15 
+[2026-07-22 22:10:21] SHAP hesaplama bitti, kaydedildi: results/penalized/cgd/shap_long.csv 
+[2026-07-22 22:10:21] Grafik kaydedildi: results/penalized/cgd/plots/survshap_plot.png 
+[2026-07-22 22:10:21] SHAP ozeti kaydedildi: results/penalized/cgd/shap_summary.csv 
+[2026-07-22 22:10:21] penalized_model - SHAP TIVM: 0.0052 
+[2026-07-22 22:10:21] Kaydedilmis SHAP bulundu, okunuyor: results/ranger/cgd/shap_long.csv 
+[2026-07-22 22:10:21] Grafik kaydedildi: results/ranger/cgd/plots/survshap_plot.png 
+[2026-07-22 22:10:21] SHAP ozeti kaydedildi: results/ranger/cgd/shap_summary.csv 
+[2026-07-22 22:10:21] ranger_model - SHAP TIVM: 0.0045 
+[2026-07-22 22:10:21] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:10:26] SHAP - gozlem 5 / 15 
+[2026-07-22 22:10:33] SHAP - gozlem 10 / 15 
+[2026-07-22 22:10:40] SHAP - gozlem 15 / 15 
+[2026-07-22 22:10:41] SHAP hesaplama bitti, kaydedildi: results/rfsrc/cgd/shap_long.csv 
+[2026-07-22 22:10:42] Grafik kaydedildi: results/rfsrc/cgd/plots/survshap_plot.png 
+[2026-07-22 22:10:42] SHAP ozeti kaydedildi: results/rfsrc/cgd/shap_summary.csv 
+[2026-07-22 22:10:42] rfsrc_model - SHAP TIVM: 0.0041 
+[2026-07-22 22:10:42] SHAP hesaplama basladi, n_obs = 15 
