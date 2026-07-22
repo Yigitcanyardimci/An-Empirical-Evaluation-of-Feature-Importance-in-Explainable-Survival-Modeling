@@ -387,3 +387,32 @@
 [2026-07-22 22:25:14] SHAP - gozlem 5 / 15 
 [2026-07-22 22:26:59] SHAP - gozlem 10 / 15 
 [2026-07-22 22:28:44] SHAP - gozlem 15 / 15 
+[2026-07-22 22:29:05] SHAP hesaplama bitti, kaydedildi: results/cv_glmnet/burn/shap_long.csv 
+[2026-07-22 22:29:06] Grafik kaydedildi: results/cv_glmnet/burn/plots/survshap_plot.png 
+[2026-07-22 22:29:06] SHAP ozeti kaydedildi: results/cv_glmnet/burn/shap_summary.csv 
+[2026-07-22 22:29:06] cv_glmnet_model - SHAP TIVM: 0 
+[2026-07-22 22:29:06] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:29:09] SHAP - gozlem 5 / 15 
+[2026-07-22 22:29:13] SHAP - gozlem 10 / 15 
+[2026-07-22 22:29:17] SHAP - gozlem 15 / 15 
+[2026-07-22 22:29:17] SHAP hesaplama bitti, kaydedildi: results/glmboost/burn/shap_long.csv 
+[2026-07-22 22:29:18] Grafik kaydedildi: results/glmboost/burn/plots/survshap_plot.png 
+[2026-07-22 22:29:18] SHAP ozeti kaydedildi: results/glmboost/burn/shap_summary.csv 
+[2026-07-22 22:29:18] glmboost_model - SHAP TIVM: 0.0019 
+[2026-07-22 22:29:18] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:29:23] SHAP - gozlem 5 / 15 
+[2026-07-22 22:29:31] SHAP - gozlem 10 / 15 
+[2026-07-22 22:29:37] SHAP - gozlem 15 / 15 
+[2026-07-22 22:29:39] SHAP hesaplama bitti, kaydedildi: results/glmnet/burn/shap_long.csv 
+[2026-07-22 22:29:39] Grafik kaydedildi: results/glmnet/burn/plots/survshap_plot.png 
+[2026-07-22 22:29:39] SHAP ozeti kaydedildi: results/glmnet/burn/shap_summary.csv 
+[2026-07-22 22:29:39] glmnet_model - SHAP TIVM: 0.0026 
+[2026-07-22 22:29:39] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:29:43] SHAP - gozlem 5 / 15 
+[2026-07-22 22:29:47] SHAP - gozlem 10 / 15 
+[2026-07-22 22:29:53] SHAP - gozlem 15 / 15 
+[2026-07-22 22:29:54] SHAP hesaplama bitti, kaydedildi: results/penalized/burn/shap_long.csv 
+[2026-07-22 22:29:54] Grafik kaydedildi: results/penalized/burn/plots/survshap_plot.png 
+[2026-07-22 22:29:54] SHAP ozeti kaydedildi: results/penalized/burn/shap_summary.csv 
+[2026-07-22 22:29:54] penalized_model - SHAP TIVM: 0.0034 
+[2026-07-22 22:29:54] SHAP hesaplama basladi, n_obs = 15 
