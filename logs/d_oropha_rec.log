@@ -398,3 +398,4 @@
 [2026-07-22 22:46:01] SHAP ozeti kaydedildi: results/glmnet/d_oropha_rec/shap_summary.csv 
 [2026-07-22 22:46:01] glmnet_model - SHAP TIVM: 0.0048 
 [2026-07-22 22:46:01] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:51:43] SHAP - gozlem 5 / 15 
