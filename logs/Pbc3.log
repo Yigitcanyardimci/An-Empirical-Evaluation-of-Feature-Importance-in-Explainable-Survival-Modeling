@@ -414,3 +414,4 @@
 [2026-07-22 23:27:14] SHAP ozeti kaydedildi: results/rfsrc/Pbc3/shap_summary.csv 
 [2026-07-22 23:27:14] rfsrc_model - SHAP TIVM: 0.0029 
 [2026-07-22 23:27:14] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 23:37:19] SHAP - gozlem 5 / 15 
