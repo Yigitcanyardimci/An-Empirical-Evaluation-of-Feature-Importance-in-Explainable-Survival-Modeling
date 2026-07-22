@@ -1,7 +1,7 @@
 # 02_import_datasets.R
 library(readr)
 
-data_dir <- "~/Desktop/xaı_datasets"
+data_dir <- "datasets"
 
 # ---- grace ----
 log_msg("Veri okuma basladi: grace")
