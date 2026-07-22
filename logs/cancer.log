@@ -424,3 +424,12 @@
 [2026-07-22 22:31:46] SHAP ozeti kaydedildi: results/ranger/cancer/shap_summary.csv 
 [2026-07-22 22:31:46] ranger_model - SHAP TIVM: 0.0035 
 [2026-07-22 22:31:46] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:32:04] SHAP - gozlem 5 / 15 
+[2026-07-22 22:32:27] SHAP - gozlem 10 / 15 
+[2026-07-22 22:32:51] SHAP - gozlem 15 / 15 
+[2026-07-22 22:32:56] SHAP hesaplama bitti, kaydedildi: results/rfsrc/cancer/shap_long.csv 
+[2026-07-22 22:32:56] Grafik kaydedildi: results/rfsrc/cancer/plots/survshap_plot.png 
+[2026-07-22 22:32:56] SHAP ozeti kaydedildi: results/rfsrc/cancer/shap_summary.csv 
+[2026-07-22 22:32:56] rfsrc_model - SHAP TIVM: 0.0032 
+[2026-07-22 22:32:56] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:33:14] SHAP - gozlem 5 / 15 
