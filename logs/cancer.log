@@ -370,3 +370,11 @@
 [2026-07-22 22:20:24] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-22 22:20:40] SHAP - gozlem 5 / 15 
 [2026-07-22 22:21:00] SHAP - gozlem 10 / 15 
+[2026-07-22 22:21:20] SHAP - gozlem 15 / 15 
+[2026-07-22 22:21:24] SHAP hesaplama bitti, kaydedildi: results/cv_coxboost/cancer/shap_long.csv 
+[2026-07-22 22:21:25] Grafik kaydedildi: results/cv_coxboost/cancer/plots/survshap_plot.png 
+[2026-07-22 22:21:25] SHAP ozeti kaydedildi: results/cv_coxboost/cancer/shap_summary.csv 
+[2026-07-22 22:21:25] cv_coxboost_model - SHAP TIVM: 0.001 
+[2026-07-22 22:21:25] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:21:45] SHAP - gozlem 5 / 15 
+[2026-07-22 22:22:11] SHAP - gozlem 10 / 15 
