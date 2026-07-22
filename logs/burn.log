@@ -418,3 +418,17 @@
 [2026-07-22 22:29:54] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-22 22:31:10] SHAP - gozlem 5 / 15 
 [2026-07-22 22:32:18] SHAP - gozlem 10 / 15 
+[2026-07-22 22:33:36] SHAP - gozlem 15 / 15 
+[2026-07-22 22:34:08] SHAP hesaplama bitti, kaydedildi: results/ranger/burn/shap_long.csv 
+[2026-07-22 22:34:09] Grafik kaydedildi: results/ranger/burn/plots/survshap_plot.png 
+[2026-07-22 22:34:09] SHAP ozeti kaydedildi: results/ranger/burn/shap_summary.csv 
+[2026-07-22 22:34:09] ranger_model - SHAP TIVM: 0.0046 
+[2026-07-22 22:34:09] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:34:13] SHAP - gozlem 5 / 15 
+[2026-07-22 22:34:20] SHAP - gozlem 10 / 15 
+[2026-07-22 22:34:26] SHAP - gozlem 15 / 15 
+[2026-07-22 22:34:27] SHAP hesaplama bitti, kaydedildi: results/rfsrc/burn/shap_long.csv 
+[2026-07-22 22:34:28] Grafik kaydedildi: results/rfsrc/burn/plots/survshap_plot.png 
+[2026-07-22 22:34:28] SHAP ozeti kaydedildi: results/rfsrc/burn/shap_summary.csv 
+[2026-07-22 22:34:28] rfsrc_model - SHAP TIVM: 0.0032 
+[2026-07-22 22:34:28] SHAP hesaplama basladi, n_obs = 15 
