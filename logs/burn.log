@@ -354,3 +354,10 @@
 [2026-07-22 22:11:54] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-22 22:13:02] SHAP - gozlem 5 / 15 
 [2026-07-22 22:14:39] SHAP - gozlem 10 / 15 
+[2026-07-22 22:15:58] SHAP - gozlem 15 / 15 
+[2026-07-22 22:16:16] SHAP hesaplama bitti, kaydedildi: results/cforest/burn/shap_long.csv 
+[2026-07-22 22:16:17] Grafik kaydedildi: results/cforest/burn/plots/survshap_plot.png 
+[2026-07-22 22:16:17] SHAP ozeti kaydedildi: results/cforest/burn/shap_summary.csv 
+[2026-07-22 22:16:17] cforest_model - SHAP TIVM: 0.0041 
+[2026-07-22 22:16:17] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:16:22] SHAP - gozlem 5 / 15 

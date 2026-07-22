@@ -410,3 +410,27 @@
 [2026-07-22 22:14:42] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-22 22:14:45] SHAP - gozlem 5 / 15 
 [2026-07-22 22:14:48] SHAP - gozlem 10 / 15 
+[2026-07-22 22:14:52] SHAP - gozlem 15 / 15 
+[2026-07-22 22:14:52] SHAP hesaplama bitti, kaydedildi: results/penalized/stagec/shap_long.csv 
+[2026-07-22 22:14:53] Grafik kaydedildi: results/penalized/stagec/plots/survshap_plot.png 
+[2026-07-22 22:14:53] SHAP ozeti kaydedildi: results/penalized/stagec/shap_summary.csv 
+[2026-07-22 22:14:53] penalized_model - SHAP TIVM: 0 
+[2026-07-22 22:14:53] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:15:09] SHAP - gozlem 5 / 15 
+[2026-07-22 22:15:29] SHAP - gozlem 10 / 15 
+[2026-07-22 22:15:49] SHAP - gozlem 15 / 15 
+[2026-07-22 22:15:53] SHAP hesaplama bitti, kaydedildi: results/ranger/stagec/shap_long.csv 
+[2026-07-22 22:15:54] Grafik kaydedildi: results/ranger/stagec/plots/survshap_plot.png 
+[2026-07-22 22:15:54] SHAP ozeti kaydedildi: results/ranger/stagec/shap_summary.csv 
+[2026-07-22 22:15:54] ranger_model - SHAP TIVM: 0.0059 
+[2026-07-22 22:15:54] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:15:58] SHAP - gozlem 5 / 15 
+[2026-07-22 22:16:03] SHAP - gozlem 10 / 15 
+[2026-07-22 22:16:08] SHAP - gozlem 15 / 15 
+[2026-07-22 22:16:09] SHAP hesaplama bitti, kaydedildi: results/rfsrc/stagec/shap_long.csv 
+[2026-07-22 22:16:09] Grafik kaydedildi: results/rfsrc/stagec/plots/survshap_plot.png 
+[2026-07-22 22:16:09] SHAP ozeti kaydedildi: results/rfsrc/stagec/shap_summary.csv 
+[2026-07-22 22:16:09] rfsrc_model - SHAP TIVM: 0.0042 
+[2026-07-22 22:16:09] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:16:14] SHAP - gozlem 5 / 15 
+[2026-07-22 22:16:20] SHAP - gozlem 10 / 15 

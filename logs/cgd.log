@@ -1125,3 +1125,4 @@
 [2026-07-22 22:10:42] rfsrc_model - SHAP TIVM: 0.0041 
 [2026-07-22 22:10:42] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-22 22:12:50] SHAP - gozlem 5 / 15 
+[2026-07-22 22:15:03] SHAP - gozlem 10 / 15 
