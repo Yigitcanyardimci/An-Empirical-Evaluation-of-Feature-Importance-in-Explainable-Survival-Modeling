@@ -387,3 +387,26 @@
 [2026-07-22 22:17:30] SHAP - gozlem 5 / 15 
 [2026-07-22 22:17:43] SHAP - gozlem 10 / 15 
 [2026-07-22 22:17:55] SHAP - gozlem 15 / 15 
+[2026-07-22 22:17:58] SHAP hesaplama bitti, kaydedildi: results/cv_glmnet/ova/shap_long.csv 
+[2026-07-22 22:17:58] Grafik kaydedildi: results/cv_glmnet/ova/plots/survshap_plot.png 
+[2026-07-22 22:17:58] SHAP ozeti kaydedildi: results/cv_glmnet/ova/shap_summary.csv 
+[2026-07-22 22:17:58] cv_glmnet_model - SHAP TIVM: 0 
+[2026-07-22 22:17:58] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:18:06] SHAP - gozlem 5 / 15 
+[2026-07-22 22:18:15] SHAP - gozlem 10 / 15 
+[2026-07-22 22:18:26] SHAP - gozlem 15 / 15 
+[2026-07-22 22:18:27] SHAP hesaplama bitti, kaydedildi: results/glmboost/ova/shap_long.csv 
+[2026-07-22 22:18:28] Grafik kaydedildi: results/glmboost/ova/plots/survshap_plot.png 
+[2026-07-22 22:18:28] SHAP ozeti kaydedildi: results/glmboost/ova/shap_summary.csv 
+[2026-07-22 22:18:28] glmboost_model - SHAP TIVM: 0.0013 
+[2026-07-22 22:18:28] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:18:38] SHAP - gozlem 5 / 15 
+[2026-07-22 22:18:50] SHAP - gozlem 10 / 15 
+[2026-07-22 22:19:04] SHAP - gozlem 15 / 15 
+[2026-07-22 22:19:06] SHAP hesaplama bitti, kaydedildi: results/glmnet/ova/shap_long.csv 
+[2026-07-22 22:19:06] Grafik kaydedildi: results/glmnet/ova/plots/survshap_plot.png 
+[2026-07-22 22:19:06] SHAP ozeti kaydedildi: results/glmnet/ova/shap_summary.csv 
+[2026-07-22 22:19:06] glmnet_model - SHAP TIVM: 0.0014 
+[2026-07-22 22:19:06] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:19:14] SHAP - gozlem 5 / 15 
+[2026-07-22 22:19:24] SHAP - gozlem 10 / 15 
