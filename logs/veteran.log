@@ -377,3 +377,43 @@
 [2026-07-22 22:11:28] cv_coxboost_model - SHAP TIVM: 0.0019 
 [2026-07-22 22:11:28] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-22 22:11:35] SHAP - gozlem 5 / 15 
+[2026-07-22 22:11:43] SHAP - gozlem 10 / 15 
+[2026-07-22 22:11:51] SHAP - gozlem 15 / 15 
+[2026-07-22 22:11:52] SHAP hesaplama bitti, kaydedildi: results/ctree/veteran/shap_long.csv 
+[2026-07-22 22:11:52] Grafik kaydedildi: results/ctree/veteran/plots/survshap_plot.png 
+[2026-07-22 22:11:52] SHAP ozeti kaydedildi: results/ctree/veteran/shap_summary.csv 
+[2026-07-22 22:11:52] ctree_model - SHAP TIVM: 0.0215 
+[2026-07-22 22:11:52] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:11:56] SHAP - gozlem 5 / 15 
+[2026-07-22 22:11:59] SHAP - gozlem 10 / 15 
+[2026-07-22 22:12:03] SHAP - gozlem 15 / 15 
+[2026-07-22 22:12:04] SHAP hesaplama bitti, kaydedildi: results/cv_glmnet/veteran/shap_long.csv 
+[2026-07-22 22:12:04] Grafik kaydedildi: results/cv_glmnet/veteran/plots/survshap_plot.png 
+[2026-07-22 22:12:04] SHAP ozeti kaydedildi: results/cv_glmnet/veteran/shap_summary.csv 
+[2026-07-22 22:12:04] cv_glmnet_model - SHAP TIVM: 0.0076 
+[2026-07-22 22:12:04] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:12:07] SHAP - gozlem 5 / 15 
+[2026-07-22 22:12:11] SHAP - gozlem 10 / 15 
+[2026-07-22 22:12:14] SHAP - gozlem 15 / 15 
+[2026-07-22 22:12:15] SHAP hesaplama bitti, kaydedildi: results/glmboost/veteran/shap_long.csv 
+[2026-07-22 22:12:15] Grafik kaydedildi: results/glmboost/veteran/plots/survshap_plot.png 
+[2026-07-22 22:12:15] SHAP ozeti kaydedildi: results/glmboost/veteran/shap_summary.csv 
+[2026-07-22 22:12:15] glmboost_model - SHAP TIVM: 0.0105 
+[2026-07-22 22:12:15] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:12:18] SHAP - gozlem 5 / 15 
+[2026-07-22 22:12:22] SHAP - gozlem 10 / 15 
+[2026-07-22 22:12:27] SHAP - gozlem 15 / 15 
+[2026-07-22 22:12:27] SHAP hesaplama bitti, kaydedildi: results/glmnet/veteran/shap_long.csv 
+[2026-07-22 22:12:28] Grafik kaydedildi: results/glmnet/veteran/plots/survshap_plot.png 
+[2026-07-22 22:12:28] SHAP ozeti kaydedildi: results/glmnet/veteran/shap_summary.csv 
+[2026-07-22 22:12:28] glmnet_model - SHAP TIVM: 0.0104 
+[2026-07-22 22:12:28] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:12:31] SHAP - gozlem 5 / 15 
+[2026-07-22 22:12:34] SHAP - gozlem 10 / 15 
+[2026-07-22 22:12:38] SHAP - gozlem 15 / 15 
+[2026-07-22 22:12:39] SHAP hesaplama bitti, kaydedildi: results/penalized/veteran/shap_long.csv 
+[2026-07-22 22:12:39] Grafik kaydedildi: results/penalized/veteran/plots/survshap_plot.png 
+[2026-07-22 22:12:39] SHAP ozeti kaydedildi: results/penalized/veteran/shap_summary.csv 
+[2026-07-22 22:12:39] penalized_model - SHAP TIVM: 0.0105 
+[2026-07-22 22:12:39] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:12:55] SHAP - gozlem 5 / 15 

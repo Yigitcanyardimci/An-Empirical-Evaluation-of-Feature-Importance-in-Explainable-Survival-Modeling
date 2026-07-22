@@ -432,3 +432,25 @@
 [2026-07-22 22:11:36] SHAP ozeti kaydedildi: results/rfsrc/e1684/shap_summary.csv 
 [2026-07-22 22:11:36] rfsrc_model - SHAP TIVM: 0.0055 
 [2026-07-22 22:11:36] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:11:40] SHAP - gozlem 5 / 15 
+[2026-07-22 22:11:44] SHAP - gozlem 10 / 15 
+[2026-07-22 22:11:49] SHAP - gozlem 15 / 15 
+[2026-07-22 22:11:49] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/e1684/shap_long.csv 
+[2026-07-22 22:11:50] Grafik kaydedildi: results/xgboost_cox/e1684/plots/survshap_plot.png 
+[2026-07-22 22:11:50] SHAP ozeti kaydedildi: results/xgboost_cox/e1684/shap_summary.csv 
+[2026-07-22 22:11:50] xgboost_cox_model - SHAP TIVM: 0.008 
+[2026-07-22 22:11:50] ===== BITTI: e1684 + cox - cindex: 0.456 - PFI TIVM: 0.0017 - SHAP TIVM: 0.002 ===== 
+[2026-07-22 22:11:50] ===== BITTI: e1684 + aorsf - cindex: 0.488 - PFI TIVM: 0.0024 - SHAP TIVM: 0.0049 ===== 
+[2026-07-22 22:11:50] ===== BITTI: e1684 + cforest - cindex: 0.504 - PFI TIVM: 0.0033 - SHAP TIVM: 0.0065 ===== 
+[2026-07-22 22:11:50] ===== BITTI: e1684 + coxboost - cindex: 0.455 - PFI TIVM: 0.0013 - SHAP TIVM: 0.002 ===== 
+[2026-07-22 22:11:50] ===== BITTI: e1684 + cv_coxboost - cindex: 0.466 - PFI TIVM: 5e-04 - SHAP TIVM: 2e-04 ===== 
+[2026-07-22 22:11:50] ===== BITTI: e1684 + ctree - cindex: 0.466 - PFI TIVM: 0.0043 - SHAP TIVM: 0.0093 ===== 
+[2026-07-22 22:11:50] ===== BITTI: e1684 + cv_glmnet - cindex: 0.5 - PFI TIVM: 0 - SHAP TIVM: 0 ===== 
+[2026-07-22 22:11:50] ===== BITTI: e1684 + glmboost - cindex: 0.454 - PFI TIVM: 0.0015 - SHAP TIVM: 0.002 ===== 
+[2026-07-22 22:11:50] ===== BITTI: e1684 + glmnet - cindex: 0.456 - PFI TIVM: 0.0014 - SHAP TIVM: 0.002 ===== 
+[2026-07-22 22:11:50] ===== BITTI: e1684 + penalized - cindex: 0.456 - PFI TIVM: 0.0012 - SHAP TIVM: 0.0021 ===== 
+[2026-07-22 22:11:50] ===== BITTI: e1684 + ranger - cindex: 0.525 - PFI TIVM: 0.0044 - SHAP TIVM: 0.0057 ===== 
+[2026-07-22 22:11:50] ===== BITTI: e1684 + rfsrc - cindex: 0.499 - PFI TIVM: 0.0024 - SHAP TIVM: 0.0055 ===== 
+[2026-07-22 22:11:50] ===== BITTI: e1684 + xgboost_cox - cindex: 0.517 - PFI TIVM: 0.0103 - SHAP TIVM: 0.008 ===== 
+[2026-07-22 22:11:50] ----- Veri seti bitti: e1684 ----- 
+[2026-07-22 22:11:50] ===== RUN ( e1684 ) TAMAMLANDI ===== 

@@ -344,3 +344,6 @@
 [2026-07-22 22:11:36] SHAP ozeti kaydedildi: results/cox/cancer/shap_summary.csv 
 [2026-07-22 22:11:36] cox_model - SHAP TIVM: 0.0048 
 [2026-07-22 22:11:36] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:12:00] SHAP - gozlem 5 / 15 
+[2026-07-22 22:12:34] SHAP - gozlem 10 / 15 
+[2026-07-22 22:13:08] SHAP - gozlem 15 / 15 

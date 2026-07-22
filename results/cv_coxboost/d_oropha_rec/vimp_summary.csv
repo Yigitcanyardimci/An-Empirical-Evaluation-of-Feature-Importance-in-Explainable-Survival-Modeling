@@ -1,0 +1,13 @@
+"variable","A_hat","A_bar","TIV","R_bar"
+"fac_cond",0.0305333729372067,0.00742978741472029,0.0023125514421512,1
+"fac_grade",0,0,0,0
+"fac_inst",0,0,0,0
+"fac_nstage",0,0,0,0
+"fac_sex",0,0,0,0
+"fac_site",0,0,0,0
+"fac_treatm",0,0,0,0
+"fac_tstage",0,0,0,0
+"num_age",0,0,0,0
+"num_cond",0,0,0,0
+"num_nstage",0,0,0,0
+"num_tstage",0,0,0,0
