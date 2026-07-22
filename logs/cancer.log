@@ -403,3 +403,16 @@
 [2026-07-22 22:24:50] SHAP - gozlem 5 / 15 
 [2026-07-22 22:25:12] SHAP - gozlem 10 / 15 
 [2026-07-22 22:25:36] SHAP - gozlem 15 / 15 
+[2026-07-22 22:25:41] SHAP hesaplama bitti, kaydedildi: results/glmnet/cancer/shap_long.csv 
+[2026-07-22 22:25:41] Grafik kaydedildi: results/glmnet/cancer/plots/survshap_plot.png 
+[2026-07-22 22:25:41] SHAP ozeti kaydedildi: results/glmnet/cancer/shap_summary.csv 
+[2026-07-22 22:25:41] glmnet_model - SHAP TIVM: 0.0048 
+[2026-07-22 22:25:41] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:25:54] SHAP - gozlem 5 / 15 
+[2026-07-22 22:26:10] SHAP - gozlem 10 / 15 
+[2026-07-22 22:26:26] SHAP - gozlem 15 / 15 
+[2026-07-22 22:26:30] SHAP hesaplama bitti, kaydedildi: results/penalized/cancer/shap_long.csv 
+[2026-07-22 22:26:30] Grafik kaydedildi: results/penalized/cancer/plots/survshap_plot.png 
+[2026-07-22 22:26:30] SHAP ozeti kaydedildi: results/penalized/cancer/shap_summary.csv 
+[2026-07-22 22:26:30] penalized_model - SHAP TIVM: 0.0048 
+[2026-07-22 22:26:30] SHAP hesaplama basladi, n_obs = 15 
