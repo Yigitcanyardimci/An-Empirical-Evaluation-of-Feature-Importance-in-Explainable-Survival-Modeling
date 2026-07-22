@@ -1,8 +1,9 @@
 # 01_install_packages.R
+if (!exists("LOG_FILE")) LOG_FILE <- "calisma.log"
 log_msg <- function(msg) {
   satir <- paste0("[", format(Sys.time(), "%Y-%m-%d %H:%M:%S"), "] ", msg)
   cat(satir, "\n")
-  cat(satir, "\n", file = "calisma.log", append = TRUE)
+  cat(satir, "\n", file = LOG_FILE, append = TRUE)
 }
 log_msg("Paket kurulumu basladi")
 
