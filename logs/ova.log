@@ -425,3 +425,32 @@
 [2026-07-22 22:22:23] ranger_model - SHAP TIVM: 0.003 
 [2026-07-22 22:22:23] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-22 22:22:35] SHAP - gozlem 5 / 15 
+[2026-07-22 22:22:49] SHAP - gozlem 10 / 15 
+[2026-07-22 22:23:03] SHAP - gozlem 15 / 15 
+[2026-07-22 22:23:06] SHAP hesaplama bitti, kaydedildi: results/rfsrc/ova/shap_long.csv 
+[2026-07-22 22:23:06] Grafik kaydedildi: results/rfsrc/ova/plots/survshap_plot.png 
+[2026-07-22 22:23:06] SHAP ozeti kaydedildi: results/rfsrc/ova/shap_summary.csv 
+[2026-07-22 22:23:06] rfsrc_model - SHAP TIVM: 0.0027 
+[2026-07-22 22:23:06] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:23:17] SHAP - gozlem 5 / 15 
+[2026-07-22 22:23:29] SHAP - gozlem 10 / 15 
+[2026-07-22 22:23:42] SHAP - gozlem 15 / 15 
+[2026-07-22 22:23:45] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/ova/shap_long.csv 
+[2026-07-22 22:23:45] Grafik kaydedildi: results/xgboost_cox/ova/plots/survshap_plot.png 
+[2026-07-22 22:23:45] SHAP ozeti kaydedildi: results/xgboost_cox/ova/shap_summary.csv 
+[2026-07-22 22:23:45] xgboost_cox_model - SHAP TIVM: 0.0022 
+[2026-07-22 22:23:45] ===== BITTI: ova + cox - cindex: 0.659 - PFI TIVM: 0.0029 - SHAP TIVM: 0.0015 ===== 
+[2026-07-22 22:23:45] ===== BITTI: ova + aorsf - cindex: 0.663 - PFI TIVM: 0.0017 - SHAP TIVM: 0.0022 ===== 
+[2026-07-22 22:23:45] ===== BITTI: ova + cforest - cindex: 0.634 - PFI TIVM: 0.0018 - SHAP TIVM: 0.0029 ===== 
+[2026-07-22 22:23:45] ===== BITTI: ova + coxboost - cindex: 0.659 - PFI TIVM: 0.003 - SHAP TIVM: 0.0013 ===== 
+[2026-07-22 22:23:45] ===== BITTI: ova + cv_coxboost - cindex: 0.59 - PFI TIVM: 0.0033 - SHAP TIVM: 0.001 ===== 
+[2026-07-22 22:23:45] ===== BITTI: ova + ctree - cindex: 0.647 - PFI TIVM: 0.0034 - SHAP TIVM: 0.005 ===== 
+[2026-07-22 22:23:45] ===== BITTI: ova + cv_glmnet - cindex: 0.5 - PFI TIVM: 0 - SHAP TIVM: 0 ===== 
+[2026-07-22 22:23:45] ===== BITTI: ova + glmboost - cindex: 0.659 - PFI TIVM: 0.0031 - SHAP TIVM: 0.0013 ===== 
+[2026-07-22 22:23:45] ===== BITTI: ova + glmnet - cindex: 0.659 - PFI TIVM: 0.0032 - SHAP TIVM: 0.0014 ===== 
+[2026-07-22 22:23:45] ===== BITTI: ova + penalized - cindex: 0.659 - PFI TIVM: 0.0071 - SHAP TIVM: 0.0042 ===== 
+[2026-07-22 22:23:45] ===== BITTI: ova + ranger - cindex: 0.647 - PFI TIVM: 0.0025 - SHAP TIVM: 0.003 ===== 
+[2026-07-22 22:23:45] ===== BITTI: ova + rfsrc - cindex: 0.647 - PFI TIVM: 0.0019 - SHAP TIVM: 0.0027 ===== 
+[2026-07-22 22:23:45] ===== BITTI: ova + xgboost_cox - cindex: 0.641 - PFI TIVM: 0.0047 - SHAP TIVM: 0.0022 ===== 
+[2026-07-22 22:23:45] ----- Veri seti bitti: ova ----- 
+[2026-07-22 22:23:45] ===== RUN ( ova ) TAMAMLANDI ===== 
