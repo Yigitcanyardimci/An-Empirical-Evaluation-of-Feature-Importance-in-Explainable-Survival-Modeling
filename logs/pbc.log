@@ -375,3 +375,21 @@
 [2026-07-22 22:19:23] cv_glmnet_model - SHAP TIVM: 0 
 [2026-07-22 22:19:23] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-22 22:19:29] SHAP - gozlem 5 / 15 
+[2026-07-22 22:19:36] SHAP - gozlem 10 / 15 
+[2026-07-22 22:19:44] SHAP - gozlem 15 / 15 
+[2026-07-22 22:19:45] SHAP hesaplama bitti, kaydedildi: results/glmboost/pbc/shap_long.csv 
+[2026-07-22 22:19:45] Grafik kaydedildi: results/glmboost/pbc/plots/survshap_plot.png 
+[2026-07-22 22:19:45] SHAP ozeti kaydedildi: results/glmboost/pbc/shap_summary.csv 
+[2026-07-22 22:19:45] glmboost_model - SHAP TIVM: 0.0018 
+[2026-07-22 22:19:45] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:20:00] SHAP - gozlem 5 / 15 
+[2026-07-22 22:20:18] SHAP - gozlem 10 / 15 
+[2026-07-22 22:20:36] SHAP - gozlem 15 / 15 
+[2026-07-22 22:20:40] SHAP hesaplama bitti, kaydedildi: results/glmnet/pbc/shap_long.csv 
+[2026-07-22 22:20:40] Grafik kaydedildi: results/glmnet/pbc/plots/survshap_plot.png 
+[2026-07-22 22:20:40] SHAP ozeti kaydedildi: results/glmnet/pbc/shap_summary.csv 
+[2026-07-22 22:20:40] glmnet_model - SHAP TIVM: 0.0018 
+[2026-07-22 22:20:40] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-22 22:20:47] SHAP - gozlem 5 / 15 
+[2026-07-22 22:20:54] SHAP - gozlem 10 / 15 
+[2026-07-22 22:21:02] SHAP - gozlem 15 / 15 
