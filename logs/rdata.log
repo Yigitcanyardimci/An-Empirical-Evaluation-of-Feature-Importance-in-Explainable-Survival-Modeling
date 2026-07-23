@@ -369,3 +369,10 @@
 [2026-07-23 02:27:37] coxboost_model - SHAP TIVM: 0.0014 
 [2026-07-23 02:27:37] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 02:28:44] SHAP - gozlem 5 / 15 
+[2026-07-23 02:30:03] SHAP - gozlem 10 / 15 
+[2026-07-23 02:31:04] SHAP - gozlem 15 / 15 
+[2026-07-23 02:31:15] SHAP hesaplama bitti, kaydedildi: results/cv_coxboost/rdata/shap_long.csv 
+[2026-07-23 02:31:15] Grafik kaydedildi: results/cv_coxboost/rdata/plots/survshap_plot.png 
+[2026-07-23 02:31:15] SHAP ozeti kaydedildi: results/cv_coxboost/rdata/shap_summary.csv 
+[2026-07-23 02:31:15] cv_coxboost_model - SHAP TIVM: 3e-04 
+[2026-07-23 02:31:15] SHAP hesaplama basladi, n_obs = 15 
