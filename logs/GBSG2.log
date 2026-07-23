@@ -738,3 +738,20 @@
 [2026-07-23 08:35:59] SHAP - gozlem 5 / 15 
 [2026-07-23 08:41:41] SHAP - gozlem 10 / 15 
 [2026-07-23 08:47:21] SHAP - gozlem 15 / 15 
+[2026-07-23 08:48:30] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/GBSG2/shap_long.csv 
+[2026-07-23 08:48:30] Grafik kaydedildi: results/xgboost_cox/GBSG2/plots/survshap_plot.png 
+[2026-07-23 08:48:30] SHAP ozeti kaydedildi: results/xgboost_cox/GBSG2/shap_summary.csv 
+[2026-07-23 08:48:30] xgboost_cox_model - SHAP TIVM: 0.002 
+[2026-07-23 08:48:30] ===== BITTI: GBSG2 + cox - cindex: 0.658 - PFI TIVM: 0.0018 - SHAP TIVM: 7e-04 ===== 
+[2026-07-23 08:48:30] ===== BITTI: GBSG2 + cforest - cindex: 0.693 - PFI TIVM: 0.0025 - SHAP TIVM: 0.0026 ===== 
+[2026-07-23 08:48:30] ===== BITTI: GBSG2 + coxboost - cindex: 0.653 - PFI TIVM: 0.0019 - SHAP TIVM: 8e-04 ===== 
+[2026-07-23 08:48:30] ===== BITTI: GBSG2 + ctree - cindex: 0.623 - PFI TIVM: 0.0031 - SHAP TIVM: 0.0045 ===== 
+[2026-07-23 08:48:30] ===== BITTI: GBSG2 + cv_glmnet - cindex: 0.5 - PFI TIVM: 0 - SHAP TIVM: 0 ===== 
+[2026-07-23 08:48:30] ===== BITTI: GBSG2 + glmboost - cindex: 0.659 - PFI TIVM: 0.0016 - SHAP TIVM: 9e-04 ===== 
+[2026-07-23 08:48:30] ===== BITTI: GBSG2 + glmnet - cindex: 0.654 - PFI TIVM: 0.0018 - SHAP TIVM: 8e-04 ===== 
+[2026-07-23 08:48:30] ===== BITTI: GBSG2 + penalized - cindex: 0.658 - PFI TIVM: 0.002 - SHAP TIVM: 8e-04 ===== 
+[2026-07-23 08:48:30] ===== BITTI: GBSG2 + ranger - cindex: 0.684 - PFI TIVM: 0.0014 - SHAP TIVM: 0.0015 ===== 
+[2026-07-23 08:48:30] ===== BITTI: GBSG2 + rfsrc - cindex: 0.694 - PFI TIVM: 0.0019 - SHAP TIVM: 0.0017 ===== 
+[2026-07-23 08:48:30] ===== BITTI: GBSG2 + xgboost_cox - cindex: 0.643 - PFI TIVM: 0.0053 - SHAP TIVM: 0.002 ===== 
+[2026-07-23 08:48:30] ----- Veri seti bitti: GBSG2 ----- 
+[2026-07-23 08:48:30] ===== RUN ( GBSG2 ) TAMAMLANDI ===== 
