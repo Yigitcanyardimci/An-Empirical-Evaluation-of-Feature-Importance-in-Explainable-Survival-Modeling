@@ -428,3 +428,8 @@
 [2026-07-23 02:45:12] SHAP - gozlem 10 / 15 
 [2026-07-23 02:46:28] SHAP - gozlem 15 / 15 
 [2026-07-23 02:46:41] SHAP hesaplama bitti, kaydedildi: results/rfsrc/retinopathy/shap_long.csv 
+[2026-07-23 02:46:42] Grafik kaydedildi: results/rfsrc/retinopathy/plots/survshap_plot.png 
+[2026-07-23 02:46:42] SHAP ozeti kaydedildi: results/rfsrc/retinopathy/shap_summary.csv 
+[2026-07-23 02:46:42] rfsrc_model - SHAP TIVM: 0.0025 
+[2026-07-23 02:46:42] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 02:47:51] SHAP - gozlem 5 / 15 
