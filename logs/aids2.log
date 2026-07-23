@@ -241,3 +241,9 @@
 [2026-07-23 01:52:36] Explainer kuruluyor: cv_coxboost_model 
 [2026-07-23 01:53:11] Explainer kaydedildi: results/cv_coxboost/aids2/explainer.rds 
 [2026-07-23 01:53:11] Explainer kuruluyor: ctree_model 
+[2026-07-23 01:53:46] Explainer kaydedildi: results/ctree/aids2/explainer.rds 
+[2026-07-23 01:53:46] Explainer kuruluyor: glmboost_model 
+[2026-07-23 01:54:21] Explainer kaydedildi: results/glmboost/aids2/explainer.rds 
+[2026-07-23 01:54:21] Explainer kuruluyor: penalized_model 
+[2026-07-23 01:54:56] Explainer kaydedildi: results/penalized/aids2/explainer.rds 
+[2026-07-23 01:54:56] Explainer kuruluyor: ranger_model 
