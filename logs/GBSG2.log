@@ -727,3 +727,4 @@
 [2026-07-23 08:18:10] SHAP ozeti kaydedildi: results/ranger/GBSG2/shap_summary.csv 
 [2026-07-23 08:18:10] ranger_model - SHAP TIVM: 0.0015 
 [2026-07-23 08:18:10] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 08:21:42] SHAP - gozlem 5 / 15 
