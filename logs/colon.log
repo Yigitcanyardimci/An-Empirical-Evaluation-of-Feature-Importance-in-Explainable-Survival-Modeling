@@ -1101,3 +1101,4 @@
 [2026-07-23 19:38:55] PFI hesaplaniyor: penalized_model 
 [2026-07-23 19:39:52] PFI hesaplaniyor: ranger_model 
 [2026-07-23 19:47:58] PFI hesaplaniyor: rfsrc_model 
+[2026-07-23 19:49:35] PFI hesaplaniyor: xgboost_cox_model 
