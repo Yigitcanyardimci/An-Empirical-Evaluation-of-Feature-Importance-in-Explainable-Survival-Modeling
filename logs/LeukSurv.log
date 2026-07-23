@@ -930,3 +930,8 @@
 [2026-07-23 10:06:30] SHAP - gozlem 5 / 15 
 [2026-07-23 11:03:37] SHAP - gozlem 10 / 15 
 [2026-07-23 12:00:18] SHAP - gozlem 15 / 15 
+[2026-07-23 12:11:18] SHAP hesaplama bitti, kaydedildi: results/ranger/LeukSurv/shap_long.csv 
+[2026-07-23 12:11:19] Grafik kaydedildi: results/ranger/LeukSurv/plots/survshap_plot.png 
+[2026-07-23 12:11:19] SHAP ozeti kaydedildi: results/ranger/LeukSurv/shap_summary.csv 
+[2026-07-23 12:11:19] ranger_model - SHAP TIVM: 0.0021 
+[2026-07-23 12:11:19] SHAP hesaplama basladi, n_obs = 15 
