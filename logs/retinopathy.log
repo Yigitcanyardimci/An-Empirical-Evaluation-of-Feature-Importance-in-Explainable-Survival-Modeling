@@ -434,3 +434,23 @@
 [2026-07-23 02:46:42] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 02:47:51] SHAP - gozlem 5 / 15 
 [2026-07-23 02:49:20] SHAP - gozlem 10 / 15 
+[2026-07-23 02:50:47] SHAP - gozlem 15 / 15 
+[2026-07-23 02:51:04] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/retinopathy/shap_long.csv 
+[2026-07-23 02:51:05] Grafik kaydedildi: results/xgboost_cox/retinopathy/plots/survshap_plot.png 
+[2026-07-23 02:51:05] SHAP ozeti kaydedildi: results/xgboost_cox/retinopathy/shap_summary.csv 
+[2026-07-23 02:51:05] xgboost_cox_model - SHAP TIVM: 0.0036 
+[2026-07-23 02:51:05] ===== BITTI: retinopathy + cox - cindex: 0.558 - PFI TIVM: 0.0053 - SHAP TIVM: 0.0017 ===== 
+[2026-07-23 02:51:05] ===== BITTI: retinopathy + aorsf - cindex: 0.579 - PFI TIVM: 0.0061 - SHAP TIVM: 0.0023 ===== 
+[2026-07-23 02:51:05] ===== BITTI: retinopathy + cforest - cindex: 0.6 - PFI TIVM: 0.0039 - SHAP TIVM: 0.0028 ===== 
+[2026-07-23 02:51:05] ===== BITTI: retinopathy + coxboost - cindex: 0.559 - PFI TIVM: 0.0031 - SHAP TIVM: 0.0018 ===== 
+[2026-07-23 02:51:05] ===== BITTI: retinopathy + cv_coxboost - cindex: 0.53 - PFI TIVM: 5e-04 - SHAP TIVM: 3e-04 ===== 
+[2026-07-23 02:51:05] ===== BITTI: retinopathy + ctree - cindex: 0.542 - PFI TIVM: 0.0045 - SHAP TIVM: 0.0044 ===== 
+[2026-07-23 02:51:05] ===== BITTI: retinopathy + cv_glmnet - cindex: 0.5 - PFI TIVM: 0 - SHAP TIVM: 0 ===== 
+[2026-07-23 02:51:05] ===== BITTI: retinopathy + glmboost - cindex: 0.558 - PFI TIVM: 0.0033 - SHAP TIVM: 0.0018 ===== 
+[2026-07-23 02:51:05] ===== BITTI: retinopathy + glmnet - cindex: 0.555 - PFI TIVM: 0.0037 - SHAP TIVM: 0.0018 ===== 
+[2026-07-23 02:51:05] ===== BITTI: retinopathy + penalized - cindex: 0.558 - PFI TIVM: 0.0053 - SHAP TIVM: 0.0017 ===== 
+[2026-07-23 02:51:05] ===== BITTI: retinopathy + ranger - cindex: 0.596 - PFI TIVM: 0.0051 - SHAP TIVM: 0.0027 ===== 
+[2026-07-23 02:51:05] ===== BITTI: retinopathy + rfsrc - cindex: 0.617 - PFI TIVM: 0.0028 - SHAP TIVM: 0.0025 ===== 
+[2026-07-23 02:51:05] ===== BITTI: retinopathy + xgboost_cox - cindex: 0.607 - PFI TIVM: 0.0087 - SHAP TIVM: 0.0036 ===== 
+[2026-07-23 02:51:05] ----- Veri seti bitti: retinopathy ----- 
+[2026-07-23 02:51:05] ===== RUN ( retinopathy ) TAMAMLANDI ===== 
