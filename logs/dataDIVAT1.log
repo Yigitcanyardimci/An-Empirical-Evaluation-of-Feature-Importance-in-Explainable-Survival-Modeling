@@ -157,3 +157,19 @@
 [2026-07-23 16:40:41] Model kaydedildi: results/cox/dataDIVAT1/model.rds 
 [2026-07-23 16:40:41] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 16:40:41] Model egitimi basladi ( cforest ) 
+[2026-07-23 16:42:26] Model egitimi bitti ( cforest ) 
+[2026-07-23 16:42:31] Model kaydedildi: results/cforest/dataDIVAT1/model.rds 
+[2026-07-23 16:42:31] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 16:42:31] Model egitimi basladi ( coxboost ) 
+[2026-07-23 16:43:05] Model egitimi bitti ( coxboost ) 
+[2026-07-23 16:43:05] Model kaydedildi: results/coxboost/dataDIVAT1/model.rds 
+[2026-07-23 16:43:05] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 16:43:05] Model egitimi basladi ( ctree ) 
+[2026-07-23 16:43:05] Model egitimi bitti ( ctree ) 
+[2026-07-23 16:43:05] Model kaydedildi: results/ctree/dataDIVAT1/model.rds 
+[2026-07-23 16:43:05] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 16:43:05] Model egitimi basladi ( cv_glmnet ) 
+[2026-07-23 16:43:06] Model egitimi bitti ( cv_glmnet ) 
+[2026-07-23 16:43:06] Model kaydedildi: results/cv_glmnet/dataDIVAT1/model.rds 
+[2026-07-23 16:43:06] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 16:43:06] Model egitimi basladi ( glmboost ) 
