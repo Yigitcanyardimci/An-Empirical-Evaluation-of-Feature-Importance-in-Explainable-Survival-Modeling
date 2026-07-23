@@ -873,4 +873,4 @@
 [2026-07-23 14:52:39] Grafik kaydedildi: results/glmnet/colon/plots/pfi_plot.png 
 [2026-07-23 14:52:39] PFI ozeti kaydedildi: results/glmnet/colon/vimp_summary.csv 
 [2026-07-23 14:52:39] glmnet_model - PFI TIVM: 0.0031 
-[2026-07-23 14:52:39] PFI kaydedildi: results/pe
+[2026-07-23 14:52:39] PFI kaydedildi: results/pe[2026-07-23 16:13:28] SHAP - gozlem 5 / 15 
