@@ -234,3 +234,5 @@
 [2026-07-23 14:47:22] Explainer kuruluyor: cforest_model 
 [2026-07-23 14:48:05] Explainer kaydedildi: results/cforest/rott2/explainer.rds 
 [2026-07-23 14:48:05] Explainer kuruluyor: coxboost_model 
+[2026-07-23 14:48:30] KRITIK HATA: rott2 - error writing to connection 
+[2026-07-23 14:48:30] ===== RUN ( rott2 ) TAMAMLANDI ===== 
