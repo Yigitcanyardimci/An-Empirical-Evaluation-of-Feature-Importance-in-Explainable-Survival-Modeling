@@ -869,3 +869,7 @@
 [2026-07-23 20:10:51] Explainer kuruluyor: coxboost_model 
 [2026-07-23 20:11:32] Explainer kaydedildi: results/coxboost/rott2/explainer.rds 
 [2026-07-23 20:11:32] Kaydedilmis explainer bulundu, okunuyor: results/ctree/rott2/explainer.rds 
+[2026-07-23 20:11:54] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/rott2/explainer.rds 
+[2026-07-23 20:12:14] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/rott2/explainer.rds 
+[2026-07-23 20:12:34] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/rott2/explainer.rds 
+[2026-07-23 20:12:54] Kaydedilmis explainer bulundu, okunuyor: results/penalized/rott2/explainer.rds 

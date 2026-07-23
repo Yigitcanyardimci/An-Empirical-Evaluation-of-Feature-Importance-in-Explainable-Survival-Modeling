@@ -1486,3 +1486,4 @@
 [2026-07-23 20:08:38] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/TRACE/explainer.rds 
 [2026-07-23 20:08:48] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/TRACE/explainer.rds 
 [2026-07-23 20:09:00] PFI hesaplaniyor: cox_model 
+[2026-07-23 20:11:50] PFI hesaplaniyor: cforest_model 
