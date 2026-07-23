@@ -190,3 +190,12 @@
 [2026-07-23 14:39:49] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 14:39:49] Model egitimi basladi ( rfsrc ) 
 [2026-07-23 14:40:07] Model egitimi bitti ( rfsrc ) 
+[2026-07-23 14:40:35] Model kaydedildi: results/rfsrc/rott2/model.rds 
+[2026-07-23 14:40:35] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 14:40:35] Model egitimi basladi ( xgboost_cox ) 
+[2026-07-23 14:40:36] Model egitimi bitti ( xgboost_cox ) 
+[2026-07-23 14:40:36] Model kaydedildi: results/xgboost_cox/rott2/model.rds 
+[2026-07-23 14:40:36] Performans hesaplama basladi: surv.coxph 
+[2026-07-23 14:40:52] Performans hesaplama bitti: surv.coxph - cindex: 0.687 - IBS (graf): 0.172 
+[2026-07-23 14:40:52] Performans kaydedildi: results/cox/rott2/performance.csv 
+[2026-07-23 14:40:52] Performans hesaplama basladi: surv.cforest 
