@@ -418,3 +418,9 @@
 [2026-07-23 02:29:11] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 02:33:10] SHAP - gozlem 5 / 15 
 [2026-07-23 02:37:49] SHAP - gozlem 10 / 15 
+[2026-07-23 02:42:24] SHAP - gozlem 15 / 15 
+[2026-07-23 02:43:18] SHAP hesaplama bitti, kaydedildi: results/ranger/retinopathy/shap_long.csv 
+[2026-07-23 02:43:19] Grafik kaydedildi: results/ranger/retinopathy/plots/survshap_plot.png 
+[2026-07-23 02:43:19] SHAP ozeti kaydedildi: results/ranger/retinopathy/shap_summary.csv 
+[2026-07-23 02:43:19] ranger_model - SHAP TIVM: 0.0027 
+[2026-07-23 02:43:19] SHAP hesaplama basladi, n_obs = 15 

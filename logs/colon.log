@@ -339,3 +339,8 @@
 [2026-07-23 02:22:52] SHAP - gozlem 5 / 15 
 [2026-07-23 02:32:34] SHAP - gozlem 10 / 15 
 [2026-07-23 02:41:43] SHAP - gozlem 15 / 15 
+[2026-07-23 02:43:28] SHAP hesaplama bitti, kaydedildi: results/cox/colon/shap_long.csv 
+[2026-07-23 02:43:28] Grafik kaydedildi: results/cox/colon/plots/survshap_plot.png 
+[2026-07-23 02:43:28] SHAP ozeti kaydedildi: results/cox/colon/shap_summary.csv 
+[2026-07-23 02:43:28] cox_model - SHAP TIVM: 7e-04 
+[2026-07-23 02:43:28] SHAP hesaplama basladi, n_obs = 15 
