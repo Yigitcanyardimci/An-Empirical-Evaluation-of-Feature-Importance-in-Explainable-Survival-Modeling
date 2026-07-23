@@ -282,3 +282,57 @@
 [2026-07-23 01:53:52] PFI hesaplaniyor: ranger_model 
 [2026-07-23 01:57:25] PFI hesaplaniyor: rfsrc_model 
 [2026-07-23 01:58:32] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-23 01:59:41] Global aciklama (PFI) bitti 
+[2026-07-23 01:59:41] PFI kaydedildi: results/cox/whas500/vimp.rds 
+[2026-07-23 01:59:42] Grafik kaydedildi: results/cox/whas500/plots/pfi_plot.png 
+[2026-07-23 01:59:42] PFI ozeti kaydedildi: results/cox/whas500/vimp_summary.csv 
+[2026-07-23 01:59:42] cox_model - PFI TIVM: 0.0163 
+[2026-07-23 01:59:42] PFI kaydedildi: results/aorsf/whas500/vimp.rds 
+[2026-07-23 01:59:43] Grafik kaydedildi: results/aorsf/whas500/plots/pfi_plot.png 
+[2026-07-23 01:59:43] PFI ozeti kaydedildi: results/aorsf/whas500/vimp_summary.csv 
+[2026-07-23 01:59:43] aorsf_model - PFI TIVM: 0.007 
+[2026-07-23 01:59:43] PFI kaydedildi: results/cforest/whas500/vimp.rds 
+[2026-07-23 01:59:44] Grafik kaydedildi: results/cforest/whas500/plots/pfi_plot.png 
+[2026-07-23 01:59:44] PFI ozeti kaydedildi: results/cforest/whas500/vimp_summary.csv 
+[2026-07-23 01:59:44] cforest_model - PFI TIVM: 0.0099 
+[2026-07-23 01:59:44] PFI kaydedildi: results/coxboost/whas500/vimp.rds 
+[2026-07-23 01:59:45] Grafik kaydedildi: results/coxboost/whas500/plots/pfi_plot.png 
+[2026-07-23 01:59:45] PFI ozeti kaydedildi: results/coxboost/whas500/vimp_summary.csv 
+[2026-07-23 01:59:45] coxboost_model - PFI TIVM: 0.0156 
+[2026-07-23 01:59:45] PFI kaydedildi: results/cv_coxboost/whas500/vimp.rds 
+[2026-07-23 01:59:46] Grafik kaydedildi: results/cv_coxboost/whas500/plots/pfi_plot.png 
+[2026-07-23 01:59:46] PFI ozeti kaydedildi: results/cv_coxboost/whas500/vimp_summary.csv 
+[2026-07-23 01:59:46] cv_coxboost_model - PFI TIVM: 0.0097 
+[2026-07-23 01:59:46] PFI kaydedildi: results/ctree/whas500/vimp.rds 
+[2026-07-23 01:59:47] Grafik kaydedildi: results/ctree/whas500/plots/pfi_plot.png 
+[2026-07-23 01:59:47] PFI ozeti kaydedildi: results/ctree/whas500/vimp_summary.csv 
+[2026-07-23 01:59:47] ctree_model - PFI TIVM: 0.0169 
+[2026-07-23 01:59:47] PFI kaydedildi: results/cv_glmnet/whas500/vimp.rds 
+[2026-07-23 01:59:48] Grafik kaydedildi: results/cv_glmnet/whas500/plots/pfi_plot.png 
+[2026-07-23 01:59:48] PFI ozeti kaydedildi: results/cv_glmnet/whas500/vimp_summary.csv 
+[2026-07-23 01:59:48] cv_glmnet_model - PFI TIVM: 0.0111 
+[2026-07-23 01:59:48] PFI kaydedildi: results/glmboost/whas500/vimp.rds 
+[2026-07-23 01:59:49] Grafik kaydedildi: results/glmboost/whas500/plots/pfi_plot.png 
+[2026-07-23 01:59:49] PFI ozeti kaydedildi: results/glmboost/whas500/vimp_summary.csv 
+[2026-07-23 01:59:49] glmboost_model - PFI TIVM: 0.0191 
+[2026-07-23 01:59:49] PFI kaydedildi: results/glmnet/whas500/vimp.rds 
+[2026-07-23 01:59:50] Grafik kaydedildi: results/glmnet/whas500/plots/pfi_plot.png 
+[2026-07-23 01:59:50] PFI ozeti kaydedildi: results/glmnet/whas500/vimp_summary.csv 
+[2026-07-23 01:59:50] glmnet_model - PFI TIVM: 0.0166 
+[2026-07-23 01:59:50] PFI kaydedildi: results/penalized/whas500/vimp.rds 
+[2026-07-23 01:59:51] Grafik kaydedildi: results/penalized/whas500/plots/pfi_plot.png 
+[2026-07-23 01:59:51] PFI ozeti kaydedildi: results/penalized/whas500/vimp_summary.csv 
+[2026-07-23 01:59:51] penalized_model - PFI TIVM: 0.0151 
+[2026-07-23 01:59:51] PFI kaydedildi: results/ranger/whas500/vimp.rds 
+[2026-07-23 01:59:52] Grafik kaydedildi: results/ranger/whas500/plots/pfi_plot.png 
+[2026-07-23 01:59:52] PFI ozeti kaydedildi: results/ranger/whas500/vimp_summary.csv 
+[2026-07-23 01:59:52] ranger_model - PFI TIVM: 0.0072 
+[2026-07-23 01:59:52] PFI kaydedildi: results/rfsrc/whas500/vimp.rds 
+[2026-07-23 01:59:53] Grafik kaydedildi: results/rfsrc/whas500/plots/pfi_plot.png 
+[2026-07-23 01:59:53] PFI ozeti kaydedildi: results/rfsrc/whas500/vimp_summary.csv 
+[2026-07-23 01:59:53] rfsrc_model - PFI TIVM: 0.0067 
+[2026-07-23 01:59:53] PFI kaydedildi: results/xgboost_cox/whas500/vimp.rds 
+[2026-07-23 01:59:54] Grafik kaydedildi: results/xgboost_cox/whas500/plots/pfi_plot.png 
+[2026-07-23 01:59:54] PFI ozeti kaydedildi: results/xgboost_cox/whas500/vimp_summary.csv 
+[2026-07-23 01:59:54] xgboost_cox_model - PFI TIVM: 0.0219 
+[2026-07-23 01:59:54] SHAP hesaplama basladi, n_obs = 15 

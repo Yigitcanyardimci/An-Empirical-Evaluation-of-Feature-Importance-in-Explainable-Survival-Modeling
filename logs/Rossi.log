@@ -304,3 +304,4 @@
 [2026-07-23 01:58:41] PFI ozeti kaydedildi: results/xgboost_cox/Rossi/vimp_summary.csv 
 [2026-07-23 01:58:41] xgboost_cox_model - PFI TIVM: 0.0117 
 [2026-07-23 01:58:41] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 01:59:40] SHAP - gozlem 5 / 15 

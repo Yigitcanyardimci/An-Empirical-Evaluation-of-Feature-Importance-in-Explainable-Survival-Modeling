@@ -353,3 +353,4 @@
 [2026-07-23 01:49:48] aorsf_model - SHAP TIVM: 0.0023 
 [2026-07-23 01:49:48] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 01:54:05] SHAP - gozlem 5 / 15 
+[2026-07-23 01:59:15] SHAP - gozlem 10 / 15 
