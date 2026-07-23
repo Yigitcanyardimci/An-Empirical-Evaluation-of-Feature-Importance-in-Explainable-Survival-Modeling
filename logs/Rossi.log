@@ -211,3 +211,45 @@
 [2026-07-23 01:32:58] Performans hesaplama bitti: surv.coxboost - cindex: 0.713 - IBS (graf): 0.139 
 [2026-07-23 01:32:58] Performans kaydedildi: results/coxboost/Rossi/performance.csv 
 [2026-07-23 01:32:58] Performans hesaplama basladi: surv.cv_coxboost 
+[2026-07-23 01:33:29] Performans hesaplama bitti: surv.cv_coxboost - cindex: 0.738 - IBS (graf): 0.147 
+[2026-07-23 01:33:29] Performans kaydedildi: results/cv_coxboost/Rossi/performance.csv 
+[2026-07-23 01:33:29] Performans hesaplama basladi: surv.ctree 
+[2026-07-23 01:33:30] Performans hesaplama bitti: surv.ctree - cindex: 0.756 - IBS (graf): 0.14 
+[2026-07-23 01:33:30] Performans kaydedildi: results/ctree/Rossi/performance.csv 
+[2026-07-23 01:33:30] Performans hesaplama basladi: surv.glmboost 
+[2026-07-23 01:33:32] Performans hesaplama bitti: surv.glmboost - cindex: 0.729 - IBS (graf): 0.147 
+[2026-07-23 01:33:32] Performans kaydedildi: results/glmboost/Rossi/performance.csv 
+[2026-07-23 01:33:32] Performans hesaplama basladi: surv.penalized 
+[2026-07-23 01:33:32] Performans hesaplama bitti: surv.penalized - cindex: 0.707 - IBS (graf): 0.139 
+[2026-07-23 01:33:32] Performans kaydedildi: results/penalized/Rossi/performance.csv 
+[2026-07-23 01:33:32] Performans hesaplama basladi: surv.ranger 
+[2026-07-23 01:33:35] Performans hesaplama bitti: surv.ranger - cindex: 0.732 - IBS (graf): 0.145 
+[2026-07-23 01:33:35] Performans kaydedildi: results/ranger/Rossi/performance.csv 
+[2026-07-23 01:33:35] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-23 01:33:36] Performans hesaplama bitti: surv.rfsrc - cindex: 0.73 - IBS (graf): 0.138 
+[2026-07-23 01:33:36] Performans kaydedildi: results/rfsrc/Rossi/performance.csv 
+[2026-07-23 01:33:36] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-23 01:33:37] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.639 - IBS (graf): 0.151 
+[2026-07-23 01:33:37] Performans kaydedildi: results/xgboost_cox/Rossi/performance.csv 
+[2026-07-23 01:33:37] Global aciklama (PFI) basladi 
+[2026-07-23 01:33:37] Explainer kuruluyor: cox_model 
+[2026-07-23 01:33:44] Explainer kaydedildi: results/cox/Rossi/explainer.rds 
+[2026-07-23 01:33:44] Explainer kuruluyor: cforest_model 
+[2026-07-23 01:33:50] Explainer kaydedildi: results/cforest/Rossi/explainer.rds 
+[2026-07-23 01:33:50] Explainer kuruluyor: coxboost_model 
+[2026-07-23 01:33:56] Explainer kaydedildi: results/coxboost/Rossi/explainer.rds 
+[2026-07-23 01:33:56] Explainer kuruluyor: cv_coxboost_model 
+[2026-07-23 01:34:02] Explainer kaydedildi: results/cv_coxboost/Rossi/explainer.rds 
+[2026-07-23 01:34:02] Explainer kuruluyor: ctree_model 
+[2026-07-23 01:34:08] Explainer kaydedildi: results/ctree/Rossi/explainer.rds 
+[2026-07-23 01:34:08] Explainer kuruluyor: glmboost_model 
+[2026-07-23 01:34:15] Explainer kaydedildi: results/glmboost/Rossi/explainer.rds 
+[2026-07-23 01:34:15] Explainer kuruluyor: penalized_model 
+[2026-07-23 01:34:21] Explainer kaydedildi: results/penalized/Rossi/explainer.rds 
+[2026-07-23 01:34:21] Explainer kuruluyor: ranger_model 
+[2026-07-23 01:34:27] Explainer kaydedildi: results/ranger/Rossi/explainer.rds 
+[2026-07-23 01:34:27] Explainer kuruluyor: rfsrc_model 
+[2026-07-23 01:34:33] Explainer kaydedildi: results/rfsrc/Rossi/explainer.rds 
+[2026-07-23 01:34:33] Explainer kuruluyor: xgboost_cox_model 
+[2026-07-23 01:34:39] Explainer kaydedildi: results/xgboost_cox/Rossi/explainer.rds 
+[2026-07-23 01:34:39] PFI hesaplaniyor: cox_model 

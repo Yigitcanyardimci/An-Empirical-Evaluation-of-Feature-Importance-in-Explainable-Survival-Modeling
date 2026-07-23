@@ -195,3 +195,19 @@
 [2026-07-23 01:33:09] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 01:33:09] Model egitimi basladi ( rfsrc ) 
 [2026-07-23 01:33:11] Model egitimi bitti ( rfsrc ) 
+[2026-07-23 01:33:16] Model kaydedildi: results/rfsrc/FRTCS/model.rds 
+[2026-07-23 01:33:16] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:33:16] Model egitimi basladi ( xgboost_cox ) 
+[2026-07-23 01:33:18] Model egitimi bitti ( xgboost_cox ) 
+[2026-07-23 01:33:18] Model kaydedildi: results/xgboost_cox/FRTCS/model.rds 
+[2026-07-23 01:33:18] UYARI: su modeller basarisiz oldu, analiz disi birakildi: aorsf_model, cv_glmnet_model, glmnet_model 
+[2026-07-23 01:33:18] Performans hesaplama basladi: surv.coxph 
+[2026-07-23 01:33:22] Performans hesaplama bitti: surv.coxph - cindex: 0.698 - IBS (graf): 0.03 
+[2026-07-23 01:33:22] Performans kaydedildi: results/cox/FRTCS/performance.csv 
+[2026-07-23 01:33:22] Performans hesaplama basladi: surv.cforest 
+[2026-07-23 01:34:47] Performans hesaplama bitti: surv.cforest - cindex: 0.529 - IBS (graf): 0.037 
+[2026-07-23 01:34:47] Performans kaydedildi: results/cforest/FRTCS/performance.csv 
+[2026-07-23 01:34:47] Performans hesaplama basladi: surv.coxboost 
+[2026-07-23 01:34:53] Performans hesaplama bitti: surv.coxboost - cindex: 0.713 - IBS (graf): 0.03 
+[2026-07-23 01:34:53] Performans kaydedildi: results/coxboost/FRTCS/performance.csv 
+[2026-07-23 01:34:53] Performans hesaplama basladi: surv.cv_coxboost 

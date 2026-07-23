@@ -168,3 +168,40 @@
 [2026-07-23 01:32:34] Model kaydedildi: results/coxboost/csl/model.rds 
 [2026-07-23 01:32:34] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 01:32:34] Model egitimi basladi ( cv_coxboost ) 
+[2026-07-23 01:34:02] Model egitimi bitti ( cv_coxboost ) 
+[2026-07-23 01:34:02] Model kaydedildi: results/cv_coxboost/csl/model.rds 
+[2026-07-23 01:34:02] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:34:02] Model egitimi basladi ( ctree ) 
+[2026-07-23 01:34:02] Model egitimi bitti ( ctree ) 
+[2026-07-23 01:34:02] Model kaydedildi: results/ctree/csl/model.rds 
+[2026-07-23 01:34:02] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:34:02] Model egitimi basladi ( cv_glmnet ) 
+[2026-07-23 01:34:02] HATA: model egitilemedi - cv_glmnet - Non-positive event times encountered; not permitted for Cox family 
+[2026-07-23 01:34:02] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:34:02] Model egitimi basladi ( glmboost ) 
+[2026-07-23 01:34:07] Model egitimi bitti ( glmboost ) 
+[2026-07-23 01:34:07] Model kaydedildi: results/glmboost/csl/model.rds 
+[2026-07-23 01:34:07] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:34:07] Model egitimi basladi ( glmnet ) 
+[2026-07-23 01:34:07] HATA: model egitilemedi - glmnet - Non-positive event times encountered; not permitted for Cox family 
+[2026-07-23 01:34:07] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:34:07] Model egitimi basladi ( penalized ) 
+[2026-07-23 01:34:07] Model egitimi bitti ( penalized ) 
+[2026-07-23 01:34:07] Model kaydedildi: results/penalized/csl/model.rds 
+[2026-07-23 01:34:07] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:34:07] Model egitimi basladi ( ranger ) 
+[2026-07-23 01:34:16] Model egitimi bitti ( ranger ) 
+[2026-07-23 01:34:17] Model kaydedildi: results/ranger/csl/model.rds 
+[2026-07-23 01:34:17] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:34:17] Model egitimi basladi ( rfsrc ) 
+[2026-07-23 01:34:22] Model egitimi bitti ( rfsrc ) 
+[2026-07-23 01:34:33] Model kaydedildi: results/rfsrc/csl/model.rds 
+[2026-07-23 01:34:33] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:34:33] Model egitimi basladi ( xgboost_cox ) 
+[2026-07-23 01:34:33] Model egitimi bitti ( xgboost_cox ) 
+[2026-07-23 01:34:33] Model kaydedildi: results/xgboost_cox/csl/model.rds 
+[2026-07-23 01:34:33] UYARI: su modeller basarisiz oldu, analiz disi birakildi: aorsf_model, cv_glmnet_model, glmnet_model 
+[2026-07-23 01:34:33] Performans hesaplama basladi: surv.coxph 
+[2026-07-23 01:34:43] Performans hesaplama bitti: surv.coxph - cindex: 0.732 - IBS (graf): 0.136 
+[2026-07-23 01:34:43] Performans kaydedildi: results/cox/csl/performance.csv 
+[2026-07-23 01:34:43] Performans hesaplama basladi: surv.cforest 

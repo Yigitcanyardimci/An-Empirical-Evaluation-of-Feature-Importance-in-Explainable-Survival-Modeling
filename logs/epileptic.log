@@ -205,3 +205,45 @@
 [2026-07-23 01:32:37] Performans hesaplama bitti: surv.coxph - cindex: 0.803 - IBS (graf): 0.138 
 [2026-07-23 01:32:37] Performans kaydedildi: results/cox/epileptic/performance.csv 
 [2026-07-23 01:32:37] Performans hesaplama basladi: surv.cforest 
+[2026-07-23 01:33:24] Performans hesaplama bitti: surv.cforest - cindex: 0.742 - IBS (graf): 0.182 
+[2026-07-23 01:33:24] Performans kaydedildi: results/cforest/epileptic/performance.csv 
+[2026-07-23 01:33:24] Performans hesaplama basladi: surv.coxboost 
+[2026-07-23 01:33:28] Performans hesaplama bitti: surv.coxboost - cindex: 0.801 - IBS (graf): 0.143 
+[2026-07-23 01:33:28] Performans kaydedildi: results/coxboost/epileptic/performance.csv 
+[2026-07-23 01:33:28] Performans hesaplama basladi: surv.cv_coxboost 
+[2026-07-23 01:34:02] Performans hesaplama bitti: surv.cv_coxboost - cindex: 0.756 - IBS (graf): 0.196 
+[2026-07-23 01:34:02] Performans kaydedildi: results/cv_coxboost/epileptic/performance.csv 
+[2026-07-23 01:34:02] Performans hesaplama basladi: surv.ctree 
+[2026-07-23 01:34:03] Performans hesaplama bitti: surv.ctree - cindex: 0.568 - IBS (graf): 0.156 
+[2026-07-23 01:34:03] Performans kaydedildi: results/ctree/epileptic/performance.csv 
+[2026-07-23 01:34:03] Performans hesaplama basladi: surv.glmboost 
+[2026-07-23 01:34:05] Performans hesaplama bitti: surv.glmboost - cindex: 0.793 - IBS (graf): 0.17 
+[2026-07-23 01:34:05] Performans kaydedildi: results/glmboost/epileptic/performance.csv 
+[2026-07-23 01:34:05] Performans hesaplama basladi: surv.penalized 
+[2026-07-23 01:34:06] Performans hesaplama bitti: surv.penalized - cindex: 0.803 - IBS (graf): 0.137 
+[2026-07-23 01:34:06] Performans kaydedildi: results/penalized/epileptic/performance.csv 
+[2026-07-23 01:34:06] Performans hesaplama basladi: surv.ranger 
+[2026-07-23 01:34:12] Performans hesaplama bitti: surv.ranger - cindex: 0.71 - IBS (graf): 0.255 
+[2026-07-23 01:34:12] Performans kaydedildi: results/ranger/epileptic/performance.csv 
+[2026-07-23 01:34:12] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-23 01:34:15] Performans hesaplama bitti: surv.rfsrc - cindex: 0.736 - IBS (graf): 0.218 
+[2026-07-23 01:34:15] Performans kaydedildi: results/rfsrc/epileptic/performance.csv 
+[2026-07-23 01:34:15] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-23 01:34:17] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.735 - IBS (graf): 0.216 
+[2026-07-23 01:34:17] Performans kaydedildi: results/xgboost_cox/epileptic/performance.csv 
+[2026-07-23 01:34:17] Global aciklama (PFI) basladi 
+[2026-07-23 01:34:17] Explainer kuruluyor: cox_model 
+[2026-07-23 01:34:24] Explainer kaydedildi: results/cox/epileptic/explainer.rds 
+[2026-07-23 01:34:24] Explainer kuruluyor: cforest_model 
+[2026-07-23 01:34:32] Explainer kaydedildi: results/cforest/epileptic/explainer.rds 
+[2026-07-23 01:34:32] Explainer kuruluyor: coxboost_model 
+[2026-07-23 01:34:39] Explainer kaydedildi: results/coxboost/epileptic/explainer.rds 
+[2026-07-23 01:34:39] Explainer kuruluyor: cv_coxboost_model 
+[2026-07-23 01:34:44] Explainer kaydedildi: results/cv_coxboost/epileptic/explainer.rds 
+[2026-07-23 01:34:44] Explainer kuruluyor: ctree_model 
+[2026-07-23 01:34:51] Explainer kaydedildi: results/ctree/epileptic/explainer.rds 
+[2026-07-23 01:34:51] Explainer kuruluyor: glmboost_model 
+[2026-07-23 01:34:57] Explainer kaydedildi: results/glmboost/epileptic/explainer.rds 
+[2026-07-23 01:34:57] Explainer kuruluyor: penalized_model 
+[2026-07-23 01:35:02] Explainer kaydedildi: results/penalized/epileptic/explainer.rds 
+[2026-07-23 01:35:02] Explainer kuruluyor: ranger_model 

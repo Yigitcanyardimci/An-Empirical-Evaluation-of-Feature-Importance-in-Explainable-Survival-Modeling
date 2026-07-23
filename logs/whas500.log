@@ -270,3 +270,4 @@
 [2026-07-23 01:32:55] Explainer kuruluyor: xgboost_cox_model 
 [2026-07-23 01:32:58] Explainer kaydedildi: results/xgboost_cox/whas500/explainer.rds 
 [2026-07-23 01:32:58] PFI hesaplaniyor: cox_model 
+[2026-07-23 01:34:05] PFI hesaplaniyor: aorsf_model 

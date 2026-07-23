@@ -169,3 +169,27 @@
 [2026-07-23 01:32:11] Model kaydedildi: results/coxboost/TRACE/model.rds 
 [2026-07-23 01:32:11] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 01:32:11] Model egitimi basladi ( cv_coxboost ) 
+[2026-07-23 01:35:00] Model egitimi bitti ( cv_coxboost ) 
+[2026-07-23 01:35:00] Model kaydedildi: results/cv_coxboost/TRACE/model.rds 
+[2026-07-23 01:35:00] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:35:00] Model egitimi basladi ( ctree ) 
+[2026-07-23 01:35:00] Model egitimi bitti ( ctree ) 
+[2026-07-23 01:35:00] Model kaydedildi: results/ctree/TRACE/model.rds 
+[2026-07-23 01:35:00] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:35:00] Model egitimi basladi ( cv_glmnet ) 
+[2026-07-23 01:35:02] Model egitimi bitti ( cv_glmnet ) 
+[2026-07-23 01:35:02] Model kaydedildi: results/cv_glmnet/TRACE/model.rds 
+[2026-07-23 01:35:02] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:35:02] Model egitimi basladi ( glmboost ) 
+[2026-07-23 01:35:05] Model egitimi bitti ( glmboost ) 
+[2026-07-23 01:35:05] Model kaydedildi: results/glmboost/TRACE/model.rds 
+[2026-07-23 01:35:05] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:35:05] Model egitimi basladi ( glmnet ) 
+[2026-07-23 01:35:05] Model egitimi bitti ( glmnet ) 
+[2026-07-23 01:35:05] Model kaydedildi: results/glmnet/TRACE/model.rds 
+[2026-07-23 01:35:05] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:35:05] Model egitimi basladi ( penalized ) 
+[2026-07-23 01:35:05] Model egitimi bitti ( penalized ) 
+[2026-07-23 01:35:05] Model kaydedildi: results/penalized/TRACE/model.rds 
+[2026-07-23 01:35:05] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:35:05] Model egitimi basladi ( ranger ) 

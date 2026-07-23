@@ -177,3 +177,42 @@
 [2026-07-23 01:33:16] Model kaydedildi: results/ctree/LeukSurv/model.rds 
 [2026-07-23 01:33:16] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 01:33:16] Model egitimi basladi ( cv_glmnet ) 
+[2026-07-23 01:33:17] Model egitimi bitti ( cv_glmnet ) 
+[2026-07-23 01:33:17] Model kaydedildi: results/cv_glmnet/LeukSurv/model.rds 
+[2026-07-23 01:33:17] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:33:17] Model egitimi basladi ( glmboost ) 
+[2026-07-23 01:33:18] Model egitimi bitti ( glmboost ) 
+[2026-07-23 01:33:18] Model kaydedildi: results/glmboost/LeukSurv/model.rds 
+[2026-07-23 01:33:18] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:33:18] Model egitimi basladi ( glmnet ) 
+[2026-07-23 01:33:18] Model egitimi bitti ( glmnet ) 
+[2026-07-23 01:33:18] Model kaydedildi: results/glmnet/LeukSurv/model.rds 
+[2026-07-23 01:33:18] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:33:18] Model egitimi basladi ( penalized ) 
+[2026-07-23 01:33:18] Model egitimi bitti ( penalized ) 
+[2026-07-23 01:33:18] Model kaydedildi: results/penalized/LeukSurv/model.rds 
+[2026-07-23 01:33:18] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:33:18] Model egitimi basladi ( ranger ) 
+[2026-07-23 01:33:31] Model egitimi bitti ( ranger ) 
+[2026-07-23 01:33:35] Model kaydedildi: results/ranger/LeukSurv/model.rds 
+[2026-07-23 01:33:35] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:33:35] Model egitimi basladi ( rfsrc ) 
+[2026-07-23 01:33:39] Model egitimi bitti ( rfsrc ) 
+[2026-07-23 01:33:48] Model kaydedildi: results/rfsrc/LeukSurv/model.rds 
+[2026-07-23 01:33:48] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:33:48] Model egitimi basladi ( xgboost_cox ) 
+[2026-07-23 01:33:48] Model egitimi bitti ( xgboost_cox ) 
+[2026-07-23 01:33:48] Model kaydedildi: results/xgboost_cox/LeukSurv/model.rds 
+[2026-07-23 01:33:48] Performans hesaplama basladi: surv.coxph 
+[2026-07-23 01:33:51] Performans hesaplama bitti: surv.coxph - cindex: 0.665 - IBS (graf): 0.136 
+[2026-07-23 01:33:51] Performans kaydedildi: results/cox/LeukSurv/performance.csv 
+[2026-07-23 01:33:51] Performans hesaplama basladi: surv.aorsf 
+[2026-07-23 01:33:54] Performans hesaplama bitti: surv.aorsf - cindex: 0.67 - IBS (graf): 0.135 
+[2026-07-23 01:33:54] Performans kaydedildi: results/aorsf/LeukSurv/performance.csv 
+[2026-07-23 01:33:54] Performans hesaplama basladi: surv.cforest 
+[2026-07-23 01:34:28] Performans hesaplama bitti: surv.cforest - cindex: 0.664 - IBS (graf): 0.135 
+[2026-07-23 01:34:28] Performans kaydedildi: results/cforest/LeukSurv/performance.csv 
+[2026-07-23 01:34:28] Performans hesaplama basladi: surv.coxboost 
+[2026-07-23 01:34:33] Performans hesaplama bitti: surv.coxboost - cindex: 0.682 - IBS (graf): 0.134 
+[2026-07-23 01:34:33] Performans kaydedildi: results/coxboost/LeukSurv/performance.csv 
+[2026-07-23 01:34:33] Performans hesaplama basladi: surv.cv_coxboost 
