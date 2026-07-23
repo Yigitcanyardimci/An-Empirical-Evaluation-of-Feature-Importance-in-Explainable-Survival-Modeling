@@ -384,3 +384,4 @@
 [2026-07-23 06:38:48] SHAP ozeti kaydedildi: results/ctree/whas500/shap_summary.csv 
 [2026-07-23 06:38:48] ctree_model - SHAP TIVM: 0.0084 
 [2026-07-23 06:38:48] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 06:41:37] SHAP - gozlem 5 / 15 
