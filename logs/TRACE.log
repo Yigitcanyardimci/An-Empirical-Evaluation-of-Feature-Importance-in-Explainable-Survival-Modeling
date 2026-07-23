@@ -1586,3 +1586,4 @@
 [2026-07-23 23:25:06] SHAP ozeti kaydedildi: results/glmnet/TRACE/shap_summary.csv 
 [2026-07-23 23:25:06] glmnet_model - SHAP TIVM: 4e-04 
 [2026-07-23 23:25:06] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 23:31:26] SHAP - gozlem 5 / 15 
