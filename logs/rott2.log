@@ -594,3 +594,16 @@
 [2026-07-23 15:44:49] Split bitti - train: 2087 test: 895 
 [2026-07-23 15:44:49] Kaydedilmis model bulundu, okunuyor: results/cox/rott2/model.rds 
 [2026-07-23 15:44:49] Kaydedilmis model bulundu, okunuyor: results/cforest/rott2/model.rds 
+[2026-07-23 15:44:52] Kaydedilmis model bulundu, okunuyor: results/coxboost/rott2/model.rds 
+[2026-07-23 15:44:52] Kaydedilmis model bulundu, okunuyor: results/ctree/rott2/model.rds 
+[2026-07-23 15:44:52] Kaydedilmis model bulundu, okunuyor: results/cv_glmnet/rott2/model.rds 
+[2026-07-23 15:44:52] Kaydedilmis model bulundu, okunuyor: results/glmboost/rott2/model.rds 
+[2026-07-23 15:44:52] Kaydedilmis model bulundu, okunuyor: results/glmnet/rott2/model.rds 
+[2026-07-23 15:44:52] Kaydedilmis model bulundu, okunuyor: results/penalized/rott2/model.rds 
+[2026-07-23 15:44:52] Kaydedilmis model bulundu, okunuyor: results/ranger/rott2/model.rds 
+[2026-07-23 15:45:02] Kaydedilmis model bulundu, okunuyor: results/rfsrc/rott2/model.rds 
+[2026-07-23 15:45:16] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/rott2/model.rds 
+[2026-07-23 15:45:17] Performans hesaplama basladi: surv.coxph 
+[2026-07-23 15:45:36] Performans hesaplama bitti: surv.coxph - cindex: 0.687 - IBS (graf): 0.172 
+[2026-07-23 15:45:36] Performans kaydedildi: results/cox/rott2/performance.csv 
+[2026-07-23 15:45:36] Performans hesaplama basladi: surv.cforest 
