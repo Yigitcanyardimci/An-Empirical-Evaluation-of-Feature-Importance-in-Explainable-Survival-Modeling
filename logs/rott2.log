@@ -613,3 +613,18 @@
 [2026-07-23 15:47:40] Performans hesaplama bitti: surv.coxboost - cindex: 0.688 - IBS (graf): 0.17 
 [2026-07-23 15:47:40] Performans kaydedildi: results/coxboost/rott2/performance.csv 
 [2026-07-23 15:47:40] Performans hesaplama basladi: surv.ctree 
+[2026-07-23 15:47:55] Performans hesaplama bitti: surv.ctree - cindex: 0.678 - IBS (graf): 0.168 
+[2026-07-23 15:47:55] Performans kaydedildi: results/ctree/rott2/performance.csv 
+[2026-07-23 15:47:55] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-07-23 15:48:11] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.678 - IBS (graf): 0.176 
+[2026-07-23 15:48:11] Performans kaydedildi: results/cv_glmnet/rott2/performance.csv 
+[2026-07-23 15:48:11] Performans hesaplama basladi: surv.glmboost 
+[2026-07-23 15:48:27] Performans hesaplama bitti: surv.glmboost - cindex: 0.692 - IBS (graf): 0.165 
+[2026-07-23 15:48:27] Performans kaydedildi: results/glmboost/rott2/performance.csv 
+[2026-07-23 15:48:27] Performans hesaplama basladi: surv.glmnet 
+[2026-07-23 15:48:42] Performans hesaplama bitti: surv.glmnet - cindex: 0.688 - IBS (graf): 0.166 
+[2026-07-23 15:48:42] Performans kaydedildi: results/glmnet/rott2/performance.csv 
+[2026-07-23 15:48:42] Performans hesaplama basladi: surv.penalized 
+[2026-07-23 15:48:52] Performans hesaplama bitti: surv.penalized - cindex: 0.5 - IBS (graf): 0.542 
+[2026-07-23 15:48:52] Performans kaydedildi: results/penalized/rott2/performance.csv 
+[2026-07-23 15:48:52] Performans hesaplama basladi: surv.ranger 
