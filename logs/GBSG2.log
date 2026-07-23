@@ -368,3 +368,4 @@
 [2026-07-23 04:32:55] SHAP ozeti kaydedildi: results/coxboost/GBSG2/shap_summary.csv 
 [2026-07-23 04:32:55] coxboost_model - SHAP TIVM: 8e-04 
 [2026-07-23 04:32:55] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 04:37:31] SHAP - gozlem 5 / 15 
