@@ -379,3 +379,19 @@
 [2026-07-23 03:30:12] SHAP - gozlem 5 / 15 
 [2026-07-23 03:32:48] SHAP - gozlem 10 / 15 
 [2026-07-23 03:35:33] SHAP - gozlem 15 / 15 
+[2026-07-23 03:36:07] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/epileptic/shap_long.csv 
+[2026-07-23 03:36:08] Grafik kaydedildi: results/xgboost_cox/epileptic/plots/survshap_plot.png 
+[2026-07-23 03:36:08] SHAP ozeti kaydedildi: results/xgboost_cox/epileptic/shap_summary.csv 
+[2026-07-23 03:36:08] xgboost_cox_model - SHAP TIVM: 0.0159 
+[2026-07-23 03:36:08] ===== BITTI: epileptic + cox - cindex: 0.803 - PFI TIVM: 0.0173 - SHAP TIVM: 0.0114 ===== 
+[2026-07-23 03:36:08] ===== BITTI: epileptic + cforest - cindex: 0.742 - PFI TIVM: 0.0073 - SHAP TIVM: 0.0085 ===== 
+[2026-07-23 03:36:08] ===== BITTI: epileptic + coxboost - cindex: 0.801 - PFI TIVM: 0.0151 - SHAP TIVM: 0.0114 ===== 
+[2026-07-23 03:36:08] ===== BITTI: epileptic + cv_coxboost - cindex: 0.756 - PFI TIVM: 0.0043 - SHAP TIVM: 0.0018 ===== 
+[2026-07-23 03:36:08] ===== BITTI: epileptic + ctree - cindex: 0.568 - PFI TIVM: 0.0252 - SHAP TIVM: 0.0224 ===== 
+[2026-07-23 03:36:08] ===== BITTI: epileptic + glmboost - cindex: 0.793 - PFI TIVM: 0.006 - SHAP TIVM: 0.0055 ===== 
+[2026-07-23 03:36:08] ===== BITTI: epileptic + penalized - cindex: 0.803 - PFI TIVM: 0.0147 - SHAP TIVM: 0.0121 ===== 
+[2026-07-23 03:36:08] ===== BITTI: epileptic + ranger - cindex: 0.71 - PFI TIVM: 0.0019 - SHAP TIVM: 0.0016 ===== 
+[2026-07-23 03:36:08] ===== BITTI: epileptic + rfsrc - cindex: 0.736 - PFI TIVM: 0.0025 - SHAP TIVM: 0.0027 ===== 
+[2026-07-23 03:36:08] ===== BITTI: epileptic + xgboost_cox - cindex: 0.735 - PFI TIVM: 0.0104 - SHAP TIVM: 0.0159 ===== 
+[2026-07-23 03:36:08] ----- Veri seti bitti: epileptic ----- 
+[2026-07-23 03:36:08] ===== RUN ( epileptic ) TAMAMLANDI ===== 
