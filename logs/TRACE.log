@@ -1259,3 +1259,10 @@
 [2026-07-23 19:15:11] Kaydedilmis explainer bulundu, okunuyor: results/cox/TRACE/explainer.rds 
 [2026-07-23 19:15:22] Kaydedilmis explainer bulundu, okunuyor: results/cforest/TRACE/explainer.rds 
 [2026-07-23 19:15:34] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/TRACE/explainer.rds 
+[2026-07-23 19:15:47] Kaydedilmis explainer bulundu, okunuyor: results/ctree/TRACE/explainer.rds 
+[2026-07-23 19:16:01] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/TRACE/explainer.rds 
+[2026-07-23 19:16:15] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/TRACE/explainer.rds 
+[2026-07-23 19:16:29] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/TRACE/explainer.rds 
+[2026-07-23 19:16:42] Kaydedilmis explainer bulundu, okunuyor: results/penalized/TRACE/explainer.rds 
+[2026-07-23 19:16:56] Kaydedilmis explainer bulundu, okunuyor: results/ranger/TRACE/explainer.rds 
+[2026-07-23 19:17:09] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/TRACE/explainer.rds 
