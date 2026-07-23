@@ -830,3 +830,12 @@
 [2026-07-23 08:57:07] Kaydedilmis explainer bulundu, okunuyor: results/cox/LeukSurv/explainer.rds 
 [2026-07-23 08:57:13] Kaydedilmis explainer bulundu, okunuyor: results/cforest/LeukSurv/explainer.rds 
 [2026-07-23 08:57:20] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/LeukSurv/explainer.rds 
+[2026-07-23 08:57:26] Kaydedilmis explainer bulundu, okunuyor: results/ctree/LeukSurv/explainer.rds 
+[2026-07-23 08:57:33] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/LeukSurv/explainer.rds 
+[2026-07-23 08:57:39] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/LeukSurv/explainer.rds 
+[2026-07-23 08:57:46] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/LeukSurv/explainer.rds 
+[2026-07-23 08:57:53] Kaydedilmis explainer bulundu, okunuyor: results/penalized/LeukSurv/explainer.rds 
+[2026-07-23 08:57:58] Kaydedilmis explainer bulundu, okunuyor: results/ranger/LeukSurv/explainer.rds 
+[2026-07-23 08:58:04] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/LeukSurv/explainer.rds 
+[2026-07-23 08:58:09] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/LeukSurv/explainer.rds 
+[2026-07-23 08:58:16] PFI hesaplaniyor: cox_model 
