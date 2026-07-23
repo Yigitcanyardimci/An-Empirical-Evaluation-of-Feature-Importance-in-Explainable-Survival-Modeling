@@ -446,3 +446,6 @@
 [2026-07-23 16:01:27] Explainer kuruluyor: rfsrc_model 
 [2026-07-23 16:01:41] Explainer kaydedildi: results/rfsrc/acath/explainer.rds 
 [2026-07-23 16:01:41] Explainer kuruluyor: xgboost_cox_model 
+[2026-07-23 16:01:55] Explainer kaydedildi: results/xgboost_cox/acath/explainer.rds 
+[2026-07-23 16:01:55] PFI hesaplaniyor: cox_model 
+[2026-07-23 16:02:20] PFI hesaplaniyor: cforest_model 
