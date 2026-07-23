@@ -253,3 +253,4 @@
 [2026-07-23 17:08:19] Explainer kaydedildi: results/xgboost_cox/dataDIVAT1/explainer.rds 
 [2026-07-23 17:08:19] PFI hesaplaniyor: cox_model 
 [2026-07-23 17:16:37] PFI hesaplaniyor: cforest_model 
+[2026-07-23 17:54:07] PFI hesaplaniyor: coxboost_model 
