@@ -399,3 +399,4 @@
 [2026-07-23 04:34:49] penalized_model - SHAP TIVM: 0 
 [2026-07-23 04:34:49] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 05:22:24] SHAP - gozlem 5 / 15 
+[2026-07-23 06:22:14] SHAP - gozlem 10 / 15 
