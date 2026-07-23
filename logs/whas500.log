@@ -393,3 +393,4 @@
 [2026-07-23 06:49:34] cv_glmnet_model - SHAP TIVM: 0.0014 
 [2026-07-23 06:49:34] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 06:50:53] SHAP - gozlem 5 / 15 
+[2026-07-23 06:52:40] SHAP - gozlem 10 / 15 
