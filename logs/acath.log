@@ -519,3 +519,19 @@
 [2026-07-23 16:27:28] coxboost_model - SHAP TIVM: 0.0023 
 [2026-07-23 16:27:28] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 16:27:42] SHAP - gozlem 5 / 15 
+[2026-07-23 16:27:59] SHAP - gozlem 10 / 15 
+[2026-07-23 16:28:18] SHAP - gozlem 15 / 15 
+[2026-07-23 16:28:21] SHAP hesaplama bitti, kaydedildi: results/ctree/acath/shap_long.csv 
+[2026-07-23 16:28:22] Grafik kaydedildi: results/ctree/acath/plots/survshap_plot.png 
+[2026-07-23 16:28:22] SHAP ozeti kaydedildi: results/ctree/acath/shap_summary.csv 
+[2026-07-23 16:28:22] ctree_model - SHAP TIVM: 0.0042 
+[2026-07-23 16:28:22] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 16:28:32] SHAP - gozlem 5 / 15 
+[2026-07-23 16:28:46] SHAP - gozlem 10 / 15 
+[2026-07-23 16:28:59] SHAP - gozlem 15 / 15 
+[2026-07-23 16:29:02] SHAP hesaplama bitti, kaydedildi: results/glmboost/acath/shap_long.csv 
+[2026-07-23 16:29:02] Grafik kaydedildi: results/glmboost/acath/plots/survshap_plot.png 
+[2026-07-23 16:29:02] SHAP ozeti kaydedildi: results/glmboost/acath/shap_summary.csv 
+[2026-07-23 16:29:02] glmboost_model - SHAP TIVM: 0.0022 
+[2026-07-23 16:29:02] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 16:29:13] SHAP - gozlem 5 / 15 
