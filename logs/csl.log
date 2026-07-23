@@ -657,3 +657,18 @@
 [2026-07-23 10:28:02] SHAP - gozlem 5 / 15 
 [2026-07-23 10:38:39] SHAP - gozlem 10 / 15 
 [2026-07-23 10:49:16] SHAP - gozlem 15 / 15 
+[2026-07-23 10:51:27] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/csl/shap_long.csv 
+[2026-07-23 10:51:28] Grafik kaydedildi: results/xgboost_cox/csl/plots/survshap_plot.png 
+[2026-07-23 10:51:28] SHAP ozeti kaydedildi: results/xgboost_cox/csl/shap_summary.csv 
+[2026-07-23 10:51:28] xgboost_cox_model - SHAP TIVM: 0.0013 
+[2026-07-23 10:51:28] ===== BITTI: csl + cox - cindex: 0.732 - PFI TIVM: 0.0058 - SHAP TIVM: 9e-04 ===== 
+[2026-07-23 10:51:28] ===== BITTI: csl + cforest - cindex: 0.754 - PFI TIVM: 0.0061 - SHAP TIVM: 0.0037 ===== 
+[2026-07-23 10:51:28] ===== BITTI: csl + coxboost - cindex: 0.733 - PFI TIVM: 0.0059 - SHAP TIVM: 9e-04 ===== 
+[2026-07-23 10:51:28] ===== BITTI: csl + ctree - cindex: 0.702 - PFI TIVM: 0.0081 - SHAP TIVM: 0.0091 ===== 
+[2026-07-23 10:51:28] ===== BITTI: csl + glmboost - cindex: 0.705 - PFI TIVM: 0.0052 - SHAP TIVM: 8e-04 ===== 
+[2026-07-23 10:51:28] ===== BITTI: csl + penalized - cindex: 0.732 - PFI TIVM: 0.0071 - SHAP TIVM: 9e-04 ===== 
+[2026-07-23 10:51:28] ===== BITTI: csl + ranger - cindex: 0.774 - PFI TIVM: 0.0022 - SHAP TIVM: 0.0011 ===== 
+[2026-07-23 10:51:28] ===== BITTI: csl + rfsrc - cindex: 0.771 - PFI TIVM: 0.0029 - SHAP TIVM: 0.0011 ===== 
+[2026-07-23 10:51:28] ===== BITTI: csl + xgboost_cox - cindex: 0.745 - PFI TIVM: 0.0084 - SHAP TIVM: 0.0013 ===== 
+[2026-07-23 10:51:28] ----- Veri seti bitti: csl ----- 
+[2026-07-23 10:51:28] ===== RUN ( csl ) TAMAMLANDI ===== 

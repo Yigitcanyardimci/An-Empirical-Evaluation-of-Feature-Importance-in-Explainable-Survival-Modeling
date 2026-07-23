@@ -650,3 +650,18 @@
 [2026-07-23 10:32:07] SHAP - gozlem 5 / 15 
 [2026-07-23 10:41:01] SHAP - gozlem 10 / 15 
 [2026-07-23 10:49:52] SHAP - gozlem 15 / 15 
+[2026-07-23 10:51:39] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/prostate/shap_long.csv 
+[2026-07-23 10:51:39] Grafik kaydedildi: results/xgboost_cox/prostate/plots/survshap_plot.png 
+[2026-07-23 10:51:39] SHAP ozeti kaydedildi: results/xgboost_cox/prostate/shap_summary.csv 
+[2026-07-23 10:51:39] xgboost_cox_model - SHAP TIVM: 0.003 
+[2026-07-23 10:51:39] ===== BITTI: prostate + cox - cindex: 0.639 - PFI TIVM: 0.0019 - SHAP TIVM: 0.0012 ===== 
+[2026-07-23 10:51:39] ===== BITTI: prostate + cforest - cindex: 0.641 - PFI TIVM: 0.0017 - SHAP TIVM: 0.0022 ===== 
+[2026-07-23 10:51:39] ===== BITTI: prostate + coxboost - cindex: 0.636 - PFI TIVM: 0.0022 - SHAP TIVM: 0.0012 ===== 
+[2026-07-23 10:51:39] ===== BITTI: prostate + ctree - cindex: 0.566 - PFI TIVM: 0.0043 - SHAP TIVM: 0.0057 ===== 
+[2026-07-23 10:51:39] ===== BITTI: prostate + glmboost - cindex: 0.636 - PFI TIVM: 0.0018 - SHAP TIVM: 0.0011 ===== 
+[2026-07-23 10:51:39] ===== BITTI: prostate + penalized - cindex: 0.639 - PFI TIVM: 0.002 - SHAP TIVM: 0.0015 ===== 
+[2026-07-23 10:51:39] ===== BITTI: prostate + ranger - cindex: 0.657 - PFI TIVM: 0.0012 - SHAP TIVM: 0.0018 ===== 
+[2026-07-23 10:51:39] ===== BITTI: prostate + rfsrc - cindex: 0.653 - PFI TIVM: 0.0015 - SHAP TIVM: 0.002 ===== 
+[2026-07-23 10:51:39] ===== BITTI: prostate + xgboost_cox - cindex: 0.575 - PFI TIVM: 0.0039 - SHAP TIVM: 0.003 ===== 
+[2026-07-23 10:51:39] ----- Veri seti bitti: prostate ----- 
+[2026-07-23 10:51:39] ===== RUN ( prostate ) TAMAMLANDI ===== 
