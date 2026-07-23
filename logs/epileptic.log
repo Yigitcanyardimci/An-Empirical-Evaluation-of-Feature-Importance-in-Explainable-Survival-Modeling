@@ -254,3 +254,5 @@
 [2026-07-23 01:35:23] Explainer kaydedildi: results/xgboost_cox/epileptic/explainer.rds 
 [2026-07-23 01:35:23] PFI hesaplaniyor: cox_model 
 [2026-07-23 01:35:57] PFI hesaplaniyor: cforest_model 
+[2026-07-23 01:49:00] PFI hesaplaniyor: coxboost_model 
+[2026-07-23 01:49:50] PFI hesaplaniyor: cv_coxboost_model 
