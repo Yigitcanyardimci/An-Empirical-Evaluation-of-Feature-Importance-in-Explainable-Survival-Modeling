@@ -785,3 +785,4 @@
 [2026-07-23 09:00:44] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/aids2/explainer.rds 
 [2026-07-23 09:00:57] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/aids2/explainer.rds 
 [2026-07-23 09:01:10] PFI hesaplaniyor: cox_model 
+[2026-07-23 09:03:31] PFI hesaplaniyor: cforest_model 
