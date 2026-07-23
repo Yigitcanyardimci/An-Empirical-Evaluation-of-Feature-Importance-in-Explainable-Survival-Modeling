@@ -188,3 +188,38 @@
 [2026-07-23 14:37:07] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 14:37:07] Model egitimi basladi ( rfsrc ) 
 [2026-07-23 14:37:11] Model egitimi bitti ( rfsrc ) 
+[2026-07-23 14:37:20] Model kaydedildi: results/rfsrc/acath/model.rds 
+[2026-07-23 14:37:20] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 14:37:20] Model egitimi basladi ( xgboost_cox ) 
+[2026-07-23 14:37:21] Model egitimi bitti ( xgboost_cox ) 
+[2026-07-23 14:37:21] Model kaydedildi: results/xgboost_cox/acath/model.rds 
+[2026-07-23 14:37:21] UYARI: su modeller basarisiz oldu, analiz disi birakildi: cv_glmnet_model, glmnet_model 
+[2026-07-23 14:37:21] Performans hesaplama basladi: surv.coxph 
+[2026-07-23 14:37:23] Performans hesaplama bitti: surv.coxph - cindex: 0.611 - IBS (graf): 0.109 
+[2026-07-23 14:37:23] Performans kaydedildi: results/cox/acath/performance.csv 
+[2026-07-23 14:37:23] Performans hesaplama basladi: surv.cforest 
+[2026-07-23 14:38:11] Performans hesaplama bitti: surv.cforest - cindex: 0.586 - IBS (graf): 0.114 
+[2026-07-23 14:38:11] Performans kaydedildi: results/cforest/acath/performance.csv 
+[2026-07-23 14:38:11] Performans hesaplama basladi: surv.coxboost 
+[2026-07-23 14:38:21] Performans hesaplama bitti: surv.coxboost - cindex: 0.611 - IBS (graf): 0.109 
+[2026-07-23 14:38:21] Performans kaydedildi: results/coxboost/acath/performance.csv 
+[2026-07-23 14:38:21] Performans hesaplama basladi: surv.ctree 
+[2026-07-23 14:38:23] Performans hesaplama bitti: surv.ctree - cindex: 0.597 - IBS (graf): 0.11 
+[2026-07-23 14:38:23] Performans kaydedildi: results/ctree/acath/performance.csv 
+[2026-07-23 14:38:23] Performans hesaplama basladi: surv.glmboost 
+[2026-07-23 14:38:26] Performans hesaplama bitti: surv.glmboost - cindex: 0.611 - IBS (graf): 0.109 
+[2026-07-23 14:38:26] Performans kaydedildi: results/glmboost/acath/performance.csv 
+[2026-07-23 14:38:26] Performans hesaplama basladi: surv.penalized 
+[2026-07-23 14:38:27] Performans hesaplama bitti: surv.penalized - cindex: 0.611 - IBS (graf): 0.109 
+[2026-07-23 14:38:27] Performans kaydedildi: results/penalized/acath/performance.csv 
+[2026-07-23 14:38:27] Performans hesaplama basladi: surv.ranger 
+[2026-07-23 14:38:38] Performans hesaplama bitti: surv.ranger - cindex: 0.58 - IBS (graf): 0.155 
+[2026-07-23 14:38:38] Performans kaydedildi: results/ranger/acath/performance.csv 
+[2026-07-23 14:38:38] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-23 14:38:42] Performans hesaplama bitti: surv.rfsrc - cindex: 0.592 - IBS (graf): 0.119 
+[2026-07-23 14:38:42] Performans kaydedildi: results/rfsrc/acath/performance.csv 
+[2026-07-23 14:38:42] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-23 14:38:44] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.551 - IBS (graf): 0.143 
+[2026-07-23 14:38:44] Performans kaydedildi: results/xgboost_cox/acath/performance.csv 
+[2026-07-23 14:38:44] Global aciklama (PFI) basladi 
+[2026-07-23 14:38:44] Explainer kuruluyor: cox_model 
