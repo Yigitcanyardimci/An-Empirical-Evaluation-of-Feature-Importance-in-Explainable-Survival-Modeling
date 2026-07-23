@@ -246,3 +246,5 @@
 [2026-07-23 17:04:16] Explainer kuruluyor: penalized_model 
 [2026-07-23 17:05:17] Explainer kaydedildi: results/penalized/dataDIVAT1/explainer.rds 
 [2026-07-23 17:05:17] Explainer kuruluyor: ranger_model 
+[2026-07-23 17:06:17] Explainer kaydedildi: results/ranger/dataDIVAT1/explainer.rds 
+[2026-07-23 17:06:17] Explainer kuruluyor: rfsrc_model 
