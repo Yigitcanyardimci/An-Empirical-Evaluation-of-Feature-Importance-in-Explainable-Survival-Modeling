@@ -820,3 +820,20 @@
 [2026-07-23 20:05:29] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/Rossi/explainer.rds 
 [2026-07-23 20:05:32] PFI hesaplaniyor: cox_model 
 [2026-07-23 20:05:50] PFI hesaplaniyor: cforest_model 
+[2026-07-23 20:16:33] PFI hesaplaniyor: coxboost_model 
+[2026-07-23 20:16:49] PFI hesaplaniyor: ctree_model 
+[2026-07-23 20:17:12] PFI hesaplaniyor: glmboost_model 
+[2026-07-23 20:17:25] PFI hesaplaniyor: penalized_model 
+[2026-07-23 20:17:40] PFI hesaplaniyor: ranger_model 
+[2026-07-23 20:18:46] PFI hesaplaniyor: rfsrc_model 
+[2026-07-23 20:19:14] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-23 20:19:30] Global aciklama (PFI) bitti 
+[2026-07-23 20:19:31] PFI kaydedildi: results/cox/Rossi/vimp.rds 
+[2026-07-23 20:19:33] Grafik kaydedildi: results/cox/Rossi/plots/pfi_plot.png 
+[2026-07-23 20:19:33] PFI ozeti kaydedildi: results/cox/Rossi/vimp_summary.csv 
+[2026-07-23 20:19:33] cox_model - PFI TIVM: 0.0021 
+[2026-07-23 20:19:33] PFI kaydedildi: results/cforest/Rossi/vimp.rds 
+[2026-07-23 20:19:34] Grafik kaydedildi: results/cforest/Rossi/plots/pfi_plot.png 
+[2026-07-23 20:19:34] PFI ozeti kaydedildi: results/cforest/Rossi/vimp_summary.csv 
+[2026-07-23 20:19:34] cforest_model - PFI TIVM: 0.0021 
+[2026-07-23 20:19:34] PFI kaydedildi: results/coxboost/Rossi/vimp.rds 
