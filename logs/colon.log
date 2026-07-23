@@ -344,3 +344,4 @@
 [2026-07-23 02:43:28] SHAP ozeti kaydedildi: results/cox/colon/shap_summary.csv 
 [2026-07-23 02:43:28] cox_model - SHAP TIVM: 7e-04 
 [2026-07-23 02:43:28] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 03:07:23] SHAP - gozlem 5 / 15 
