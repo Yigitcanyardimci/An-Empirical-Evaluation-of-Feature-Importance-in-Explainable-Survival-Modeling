@@ -594,3 +594,19 @@
 [2026-07-23 17:05:27] SHAP ozeti kaydedildi: results/ctree/Rossi/shap_summary.csv 
 [2026-07-23 17:05:27] ctree_model - SHAP TIVM: 0.0065 
 [2026-07-23 17:05:27] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 17:05:44] SHAP - gozlem 5 / 15 
+[2026-07-23 17:06:07] SHAP - gozlem 10 / 15 
+[2026-07-23 17:06:33] SHAP - gozlem 15 / 15 
+[2026-07-23 17:06:37] SHAP hesaplama bitti, kaydedildi: results/glmboost/Rossi/shap_long.csv 
+[2026-07-23 17:06:37] Grafik kaydedildi: results/glmboost/Rossi/plots/survshap_plot.png 
+[2026-07-23 17:06:37] SHAP ozeti kaydedildi: results/glmboost/Rossi/shap_summary.csv 
+[2026-07-23 17:06:37] glmboost_model - SHAP TIVM: 7e-04 
+[2026-07-23 17:06:37] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 17:07:00] SHAP - gozlem 5 / 15 
+[2026-07-23 17:07:23] SHAP - gozlem 10 / 15 
+[2026-07-23 17:07:46] SHAP - gozlem 15 / 15 
+[2026-07-23 17:07:50] SHAP hesaplama bitti, kaydedildi: results/penalized/Rossi/shap_long.csv 
+[2026-07-23 17:07:51] Grafik kaydedildi: results/penalized/Rossi/plots/survshap_plot.png 
+[2026-07-23 17:07:51] SHAP ozeti kaydedildi: results/penalized/Rossi/shap_summary.csv 
+[2026-07-23 17:07:51] penalized_model - SHAP TIVM: 0.002 
+[2026-07-23 17:07:51] SHAP hesaplama basladi, n_obs = 15 
