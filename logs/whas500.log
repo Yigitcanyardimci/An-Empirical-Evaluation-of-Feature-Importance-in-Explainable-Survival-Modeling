@@ -402,3 +402,9 @@
 [2026-07-23 06:54:39] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 07:02:43] SHAP - gozlem 5 / 15 
 [2026-07-23 07:07:58] SHAP - gozlem 10 / 15 
+[2026-07-23 07:15:00] SHAP - gozlem 15 / 15 
+[2026-07-23 07:15:44] SHAP hesaplama bitti, kaydedildi: results/glmnet/whas500/shap_long.csv 
+[2026-07-23 07:15:44] Grafik kaydedildi: results/glmnet/whas500/plots/survshap_plot.png 
+[2026-07-23 07:15:44] SHAP ozeti kaydedildi: results/glmnet/whas500/shap_summary.csv 
+[2026-07-23 07:15:44] glmnet_model - SHAP TIVM: 0.0017 
+[2026-07-23 07:15:44] SHAP hesaplama basladi, n_obs = 15 
