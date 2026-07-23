@@ -855,3 +855,13 @@
 [2026-07-23 20:08:21] Performans hesaplama bitti: surv.penalized - cindex: 0.5 - IBS (graf): 0.542 
 [2026-07-23 20:08:21] Performans kaydedildi: results/penalized/rott2/performance.csv 
 [2026-07-23 20:08:21] Performans hesaplama basladi: surv.ranger 
+[2026-07-23 20:09:30] Performans hesaplama bitti: surv.ranger - cindex: 0.707 - IBS (graf): 0.187 
+[2026-07-23 20:09:30] Performans kaydedildi: results/ranger/rott2/performance.csv 
+[2026-07-23 20:09:30] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-23 20:10:01] Performans hesaplama bitti: surv.rfsrc - cindex: 0.714 - IBS (graf): 0.174 
+[2026-07-23 20:10:01] Performans kaydedildi: results/rfsrc/rott2/performance.csv 
+[2026-07-23 20:10:01] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-23 20:10:15] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.667 - IBS (graf): 0.223 
+[2026-07-23 20:10:15] Performans kaydedildi: results/xgboost_cox/rott2/performance.csv 
+[2026-07-23 20:10:15] Global aciklama (PFI) basladi 
+[2026-07-23 20:10:15] Kaydedilmis explainer bulundu, okunuyor: results/cox/rott2/explainer.rds 
