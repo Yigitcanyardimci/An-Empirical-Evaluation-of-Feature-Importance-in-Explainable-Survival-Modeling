@@ -248,3 +248,8 @@
 [2026-07-23 17:05:17] Explainer kuruluyor: ranger_model 
 [2026-07-23 17:06:17] Explainer kaydedildi: results/ranger/dataDIVAT1/explainer.rds 
 [2026-07-23 17:06:17] Explainer kuruluyor: rfsrc_model 
+[2026-07-23 17:07:17] Explainer kaydedildi: results/rfsrc/dataDIVAT1/explainer.rds 
+[2026-07-23 17:07:17] Explainer kuruluyor: xgboost_cox_model 
+[2026-07-23 17:08:19] Explainer kaydedildi: results/xgboost_cox/dataDIVAT1/explainer.rds 
+[2026-07-23 17:08:19] PFI hesaplaniyor: cox_model 
+[2026-07-23 17:16:37] PFI hesaplaniyor: cforest_model 
