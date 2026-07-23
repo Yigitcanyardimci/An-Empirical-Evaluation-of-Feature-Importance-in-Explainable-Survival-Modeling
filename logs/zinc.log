@@ -721,3 +721,4 @@
 [2026-07-23 08:12:32] SHAP ozeti kaydedildi: results/rfsrc/zinc/shap_summary.csv 
 [2026-07-23 08:12:32] rfsrc_model - SHAP TIVM: 0.0013 
 [2026-07-23 08:12:32] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 08:22:19] SHAP - gozlem 5 / 15 
