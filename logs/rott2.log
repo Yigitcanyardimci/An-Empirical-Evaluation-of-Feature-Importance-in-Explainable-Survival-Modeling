@@ -659,3 +659,4 @@
 [2026-07-23 15:58:18] Explainer kaydedildi: results/xgboost_cox/rott2/explainer.rds 
 [2026-07-23 15:58:18] PFI hesaplaniyor: cox_model 
 [2026-07-23 16:11:05] PFI hesaplaniyor: cforest_model 
+[2026-07-23 17:04:12] PFI hesaplaniyor: coxboost_model 
