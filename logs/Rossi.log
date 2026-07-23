@@ -897,3 +897,11 @@
 [2026-07-23 22:37:26] SHAP ozeti kaydedildi: results/ranger/Rossi/shap_summary.csv 
 [2026-07-23 22:37:26] ranger_model - SHAP TIVM: 0.002 
 [2026-07-23 22:37:26] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 22:40:16] SHAP - gozlem 5 / 15 
+[2026-07-23 22:44:19] SHAP - gozlem 10 / 15 
+[2026-07-23 22:49:11] SHAP - gozlem 15 / 15 
+[2026-07-23 22:50:11] SHAP hesaplama bitti, kaydedildi: results/rfsrc/Rossi/shap_long.csv 
+[2026-07-23 22:50:12] Grafik kaydedildi: results/rfsrc/Rossi/plots/survshap_plot.png 
+[2026-07-23 22:50:12] SHAP ozeti kaydedildi: results/rfsrc/Rossi/shap_summary.csv 
+[2026-07-23 22:50:12] rfsrc_model - SHAP TIVM: 0.0025 
+[2026-07-23 22:50:12] SHAP hesaplama basladi, n_obs = 15 

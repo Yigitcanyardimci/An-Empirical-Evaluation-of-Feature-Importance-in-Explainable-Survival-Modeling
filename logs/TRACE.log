@@ -1571,3 +1571,10 @@
 [2026-07-23 22:25:49] cv_glmnet_model - SHAP TIVM: 3e-04 
 [2026-07-23 22:25:49] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 22:31:53] SHAP - gozlem 5 / 15 
+[2026-07-23 22:39:27] SHAP - gozlem 10 / 15 
+[2026-07-23 22:47:08] SHAP - gozlem 15 / 15 
+[2026-07-23 22:48:38] SHAP hesaplama bitti, kaydedildi: results/glmboost/TRACE/shap_long.csv 
+[2026-07-23 22:48:39] Grafik kaydedildi: results/glmboost/TRACE/plots/survshap_plot.png 
+[2026-07-23 22:48:39] SHAP ozeti kaydedildi: results/glmboost/TRACE/shap_summary.csv 
+[2026-07-23 22:48:39] glmboost_model - SHAP TIVM: 3e-04 
+[2026-07-23 22:48:39] SHAP hesaplama basladi, n_obs = 15 
