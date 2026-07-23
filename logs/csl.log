@@ -576,3 +576,65 @@
 [2026-07-23 08:35:51] PFI hesaplaniyor: ranger_model 
 [2026-07-23 08:46:05] PFI hesaplaniyor: rfsrc_model 
 [2026-07-23 08:47:33] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-23 08:50:05] Global aciklama (PFI) bitti 
+[2026-07-23 08:50:05] PFI kaydedildi: results/cox/csl/vimp.rds 
+[2026-07-23 08:50:06] Grafik kaydedildi: results/cox/csl/plots/pfi_plot.png 
+[2026-07-23 08:50:06] PFI ozeti kaydedildi: results/cox/csl/vimp_summary.csv 
+[2026-07-23 08:50:06] cox_model - PFI TIVM: 0.0058 
+[2026-07-23 08:50:06] PFI kaydedildi: results/cforest/csl/vimp.rds 
+[2026-07-23 08:50:07] Grafik kaydedildi: results/cforest/csl/plots/pfi_plot.png 
+[2026-07-23 08:50:07] PFI ozeti kaydedildi: results/cforest/csl/vimp_summary.csv 
+[2026-07-23 08:50:07] cforest_model - PFI TIVM: 0.0061 
+[2026-07-23 08:50:07] PFI kaydedildi: results/coxboost/csl/vimp.rds 
+[2026-07-23 08:50:07] Grafik kaydedildi: results/coxboost/csl/plots/pfi_plot.png 
+[2026-07-23 08:50:07] PFI ozeti kaydedildi: results/coxboost/csl/vimp_summary.csv 
+[2026-07-23 08:50:07] coxboost_model - PFI TIVM: 0.0059 
+[2026-07-23 08:50:07] PFI kaydedildi: results/ctree/csl/vimp.rds 
+[2026-07-23 08:50:08] Grafik kaydedildi: results/ctree/csl/plots/pfi_plot.png 
+[2026-07-23 08:50:08] PFI ozeti kaydedildi: results/ctree/csl/vimp_summary.csv 
+[2026-07-23 08:50:08] ctree_model - PFI TIVM: 0.0081 
+[2026-07-23 08:50:08] PFI kaydedildi: results/glmboost/csl/vimp.rds 
+[2026-07-23 08:50:08] Grafik kaydedildi: results/glmboost/csl/plots/pfi_plot.png 
+[2026-07-23 08:50:08] PFI ozeti kaydedildi: results/glmboost/csl/vimp_summary.csv 
+[2026-07-23 08:50:08] glmboost_model - PFI TIVM: 0.0052 
+[2026-07-23 08:50:08] PFI kaydedildi: results/penalized/csl/vimp.rds 
+[2026-07-23 08:50:09] Grafik kaydedildi: results/penalized/csl/plots/pfi_plot.png 
+[2026-07-23 08:50:09] PFI ozeti kaydedildi: results/penalized/csl/vimp_summary.csv 
+[2026-07-23 08:50:09] penalized_model - PFI TIVM: 0.0071 
+[2026-07-23 08:50:09] PFI kaydedildi: results/ranger/csl/vimp.rds 
+[2026-07-23 08:50:10] Grafik kaydedildi: results/ranger/csl/plots/pfi_plot.png 
+[2026-07-23 08:50:10] PFI ozeti kaydedildi: results/ranger/csl/vimp_summary.csv 
+[2026-07-23 08:50:10] ranger_model - PFI TIVM: 0.0022 
+[2026-07-23 08:50:10] PFI kaydedildi: results/rfsrc/csl/vimp.rds 
+[2026-07-23 08:50:10] Grafik kaydedildi: results/rfsrc/csl/plots/pfi_plot.png 
+[2026-07-23 08:50:10] PFI ozeti kaydedildi: results/rfsrc/csl/vimp_summary.csv 
+[2026-07-23 08:50:10] rfsrc_model - PFI TIVM: 0.0029 
+[2026-07-23 08:50:10] PFI kaydedildi: results/xgboost_cox/csl/vimp.rds 
+[2026-07-23 08:50:11] Grafik kaydedildi: results/xgboost_cox/csl/plots/pfi_plot.png 
+[2026-07-23 08:50:11] PFI ozeti kaydedildi: results/xgboost_cox/csl/vimp_summary.csv 
+[2026-07-23 08:50:11] xgboost_cox_model - PFI TIVM: 0.0084 
+[2026-07-23 08:50:11] Kaydedilmis SHAP bulundu, okunuyor: results/cox/csl/shap_long.csv 
+[2026-07-23 08:50:12] Grafik kaydedildi: results/cox/csl/plots/survshap_plot.png 
+[2026-07-23 08:50:12] SHAP ozeti kaydedildi: results/cox/csl/shap_summary.csv 
+[2026-07-23 08:50:12] cox_model - SHAP TIVM: 9e-04 
+[2026-07-23 08:50:12] Kaydedilmis SHAP bulundu, okunuyor: results/cforest/csl/shap_long.csv 
+[2026-07-23 08:50:12] Grafik kaydedildi: results/cforest/csl/plots/survshap_plot.png 
+[2026-07-23 08:50:12] SHAP ozeti kaydedildi: results/cforest/csl/shap_summary.csv 
+[2026-07-23 08:50:12] cforest_model - SHAP TIVM: 0.0037 
+[2026-07-23 08:50:12] Kaydedilmis SHAP bulundu, okunuyor: results/coxboost/csl/shap_long.csv 
+[2026-07-23 08:50:13] Grafik kaydedildi: results/coxboost/csl/plots/survshap_plot.png 
+[2026-07-23 08:50:13] SHAP ozeti kaydedildi: results/coxboost/csl/shap_summary.csv 
+[2026-07-23 08:50:13] coxboost_model - SHAP TIVM: 9e-04 
+[2026-07-23 08:50:13] Kaydedilmis SHAP bulundu, okunuyor: results/ctree/csl/shap_long.csv 
+[2026-07-23 08:50:13] Grafik kaydedildi: results/ctree/csl/plots/survshap_plot.png 
+[2026-07-23 08:50:13] SHAP ozeti kaydedildi: results/ctree/csl/shap_summary.csv 
+[2026-07-23 08:50:13] ctree_model - SHAP TIVM: 0.0091 
+[2026-07-23 08:50:13] Kaydedilmis SHAP bulundu, okunuyor: results/glmboost/csl/shap_long.csv 
+[2026-07-23 08:50:14] Grafik kaydedildi: results/glmboost/csl/plots/survshap_plot.png 
+[2026-07-23 08:50:14] SHAP ozeti kaydedildi: results/glmboost/csl/shap_summary.csv 
+[2026-07-23 08:50:14] glmboost_model - SHAP TIVM: 8e-04 
+[2026-07-23 08:50:14] Kaydedilmis SHAP bulundu, okunuyor: results/penalized/csl/shap_long.csv 
+[2026-07-23 08:50:15] Grafik kaydedildi: results/penalized/csl/plots/survshap_plot.png 
+[2026-07-23 08:50:15] SHAP ozeti kaydedildi: results/penalized/csl/shap_summary.csv 
+[2026-07-23 08:50:15] penalized_model - SHAP TIVM: 9e-04 
+[2026-07-23 08:50:15] SHAP hesaplama basladi, n_obs = 15 
