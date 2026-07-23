@@ -260,3 +260,13 @@
 [2026-07-23 01:38:22] Explainer kuruluyor: glmboost_model 
 [2026-07-23 01:38:38] Explainer kaydedildi: results/glmboost/LeukSurv/explainer.rds 
 [2026-07-23 01:38:38] Explainer kuruluyor: glmnet_model 
+[2026-07-23 01:38:54] Explainer kaydedildi: results/glmnet/LeukSurv/explainer.rds 
+[2026-07-23 01:38:54] Explainer kuruluyor: penalized_model 
+[2026-07-23 01:39:09] Explainer kaydedildi: results/penalized/LeukSurv/explainer.rds 
+[2026-07-23 01:39:09] Explainer kuruluyor: ranger_model 
+[2026-07-23 01:39:25] Explainer kaydedildi: results/ranger/LeukSurv/explainer.rds 
+[2026-07-23 01:39:25] Explainer kuruluyor: rfsrc_model 
+[2026-07-23 01:39:41] Explainer kaydedildi: results/rfsrc/LeukSurv/explainer.rds 
+[2026-07-23 01:39:41] Explainer kuruluyor: xgboost_cox_model 
+[2026-07-23 01:39:56] Explainer kaydedildi: results/xgboost_cox/LeukSurv/explainer.rds 
+[2026-07-23 01:39:56] PFI hesaplaniyor: cox_model 
