@@ -395,3 +395,8 @@
 [2026-07-23 05:32:54] SHAP - gozlem 5 / 15 
 [2026-07-23 05:37:07] SHAP - gozlem 10 / 15 
 [2026-07-23 05:41:19] SHAP - gozlem 15 / 15 
+[2026-07-23 05:42:27] SHAP hesaplama bitti, kaydedildi: results/glmboost/LeukSurv/shap_long.csv 
+[2026-07-23 05:42:28] Grafik kaydedildi: results/glmboost/LeukSurv/plots/survshap_plot.png 
+[2026-07-23 05:42:28] SHAP ozeti kaydedildi: results/glmboost/LeukSurv/shap_summary.csv 
+[2026-07-23 05:42:28] glmboost_model - SHAP TIVM: 0.0011 
+[2026-07-23 05:42:28] SHAP hesaplama basladi, n_obs = 15 
