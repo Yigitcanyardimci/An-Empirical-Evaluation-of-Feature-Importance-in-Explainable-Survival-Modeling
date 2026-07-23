@@ -401,3 +401,4 @@
 [2026-07-23 05:42:28] glmboost_model - SHAP TIVM: 0.0011 
 [2026-07-23 05:42:28] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 05:46:55] SHAP - gozlem 5 / 15 
+[2026-07-23 05:52:03] SHAP - gozlem 10 / 15 
