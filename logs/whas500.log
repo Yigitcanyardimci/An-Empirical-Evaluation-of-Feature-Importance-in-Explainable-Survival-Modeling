@@ -411,3 +411,8 @@
 [2026-07-23 07:21:32] SHAP - gozlem 5 / 15 
 [2026-07-23 07:26:49] SHAP - gozlem 10 / 15 
 [2026-07-23 07:32:22] SHAP - gozlem 15 / 15 
+[2026-07-23 07:32:47] SHAP hesaplama bitti, kaydedildi: results/penalized/whas500/shap_long.csv 
+[2026-07-23 07:32:47] Grafik kaydedildi: results/penalized/whas500/plots/survshap_plot.png 
+[2026-07-23 07:32:47] SHAP ozeti kaydedildi: results/penalized/whas500/shap_summary.csv 
+[2026-07-23 07:32:47] penalized_model - SHAP TIVM: 0.0019 
+[2026-07-23 07:32:47] SHAP hesaplama basladi, n_obs = 15 
