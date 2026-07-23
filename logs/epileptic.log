@@ -368,3 +368,5 @@
 [2026-07-23 03:25:59] SHAP ozeti kaydedildi: results/ranger/epileptic/shap_summary.csv 
 [2026-07-23 03:25:59] ranger_model - SHAP TIVM: 0.0016 
 [2026-07-23 03:25:59] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 03:26:56] SHAP - gozlem 5 / 15 
+[2026-07-23 03:27:47] SHAP - gozlem 10 / 15 
