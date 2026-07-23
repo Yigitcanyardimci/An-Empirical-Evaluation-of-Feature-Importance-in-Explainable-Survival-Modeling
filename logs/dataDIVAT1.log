@@ -173,3 +173,19 @@
 [2026-07-23 16:43:06] Model kaydedildi: results/cv_glmnet/dataDIVAT1/model.rds 
 [2026-07-23 16:43:06] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 16:43:06] Model egitimi basladi ( glmboost ) 
+[2026-07-23 16:43:22] Model egitimi bitti ( glmboost ) 
+[2026-07-23 16:43:23] Model kaydedildi: results/glmboost/dataDIVAT1/model.rds 
+[2026-07-23 16:43:23] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 16:43:23] Model egitimi basladi ( glmnet ) 
+[2026-07-23 16:43:23] Model egitimi bitti ( glmnet ) 
+[2026-07-23 16:43:23] Model kaydedildi: results/glmnet/dataDIVAT1/model.rds 
+[2026-07-23 16:43:23] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 16:43:23] Model egitimi basladi ( penalized ) 
+[2026-07-23 16:43:23] Model egitimi bitti ( penalized ) 
+[2026-07-23 16:43:23] Model kaydedildi: results/penalized/dataDIVAT1/model.rds 
+[2026-07-23 16:43:23] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 16:43:23] Model egitimi basladi ( ranger ) 
+[2026-07-23 16:44:20] Model egitimi bitti ( ranger ) 
+[2026-07-23 16:44:28] Model kaydedildi: results/ranger/dataDIVAT1/model.rds 
+[2026-07-23 16:44:28] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 16:44:28] Model egitimi basladi ( rfsrc ) 
