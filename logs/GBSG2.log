@@ -416,3 +416,4 @@
 [2026-07-23 06:16:45] SHAP ozeti kaydedildi: results/penalized/GBSG2/shap_summary.csv 
 [2026-07-23 06:16:45] penalized_model - SHAP TIVM: 8e-04 
 [2026-07-23 06:16:45] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 06:50:29] SHAP - gozlem 5 / 15 

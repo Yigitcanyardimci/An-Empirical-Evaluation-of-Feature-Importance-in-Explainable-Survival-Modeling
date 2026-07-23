@@ -416,3 +416,4 @@
 [2026-07-23 06:11:08] SHAP ozeti kaydedildi: results/penalized/LeukSurv/shap_summary.csv 
 [2026-07-23 06:11:08] penalized_model - SHAP TIVM: 0.0012 
 [2026-07-23 06:11:08] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 06:50:18] SHAP - gozlem 5 / 15 
