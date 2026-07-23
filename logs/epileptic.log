@@ -160,3 +160,48 @@
 [2026-07-23 01:31:01] HATA: model egitilemedi - aorsf - time to event should be > 0 but has at least one value that is <= 0 (see time to event[2]) 
 [2026-07-23 01:31:01] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 01:31:01] Model egitimi basladi ( cforest ) 
+[2026-07-23 01:31:39] Model egitimi bitti ( cforest ) 
+[2026-07-23 01:31:41] Model kaydedildi: results/cforest/epileptic/model.rds 
+[2026-07-23 01:31:41] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:31:41] Model egitimi basladi ( coxboost ) 
+[2026-07-23 01:31:44] Model egitimi bitti ( coxboost ) 
+[2026-07-23 01:31:44] Model kaydedildi: results/coxboost/epileptic/model.rds 
+[2026-07-23 01:31:44] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:31:44] Model egitimi basladi ( cv_coxboost ) 
+[2026-07-23 01:32:22] Model egitimi bitti ( cv_coxboost ) 
+[2026-07-23 01:32:22] Model kaydedildi: results/cv_coxboost/epileptic/model.rds 
+[2026-07-23 01:32:22] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:22] Model egitimi basladi ( ctree ) 
+[2026-07-23 01:32:22] Model egitimi bitti ( ctree ) 
+[2026-07-23 01:32:22] Model kaydedildi: results/ctree/epileptic/model.rds 
+[2026-07-23 01:32:22] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:22] Model egitimi basladi ( cv_glmnet ) 
+[2026-07-23 01:32:22] HATA: model egitilemedi - cv_glmnet - Non-positive event times encountered; not permitted for Cox family 
+[2026-07-23 01:32:22] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:22] Model egitimi basladi ( glmboost ) 
+[2026-07-23 01:32:23] Model egitimi bitti ( glmboost ) 
+[2026-07-23 01:32:24] Model kaydedildi: results/glmboost/epileptic/model.rds 
+[2026-07-23 01:32:24] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:24] Model egitimi basladi ( glmnet ) 
+[2026-07-23 01:32:24] HATA: model egitilemedi - glmnet - Non-positive event times encountered; not permitted for Cox family 
+[2026-07-23 01:32:24] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:24] Model egitimi basladi ( penalized ) 
+[2026-07-23 01:32:24] Model egitimi bitti ( penalized ) 
+[2026-07-23 01:32:24] Model kaydedildi: results/penalized/epileptic/model.rds 
+[2026-07-23 01:32:24] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:24] Model egitimi basladi ( ranger ) 
+[2026-07-23 01:32:28] Model egitimi bitti ( ranger ) 
+[2026-07-23 01:32:28] Model kaydedildi: results/ranger/epileptic/model.rds 
+[2026-07-23 01:32:28] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:28] Model egitimi basladi ( rfsrc ) 
+[2026-07-23 01:32:30] Model egitimi bitti ( rfsrc ) 
+[2026-07-23 01:32:34] Model kaydedildi: results/rfsrc/epileptic/model.rds 
+[2026-07-23 01:32:34] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:34] Model egitimi basladi ( xgboost_cox ) 
+[2026-07-23 01:32:35] Model egitimi bitti ( xgboost_cox ) 
+[2026-07-23 01:32:35] Model kaydedildi: results/xgboost_cox/epileptic/model.rds 
+[2026-07-23 01:32:35] UYARI: su modeller basarisiz oldu, analiz disi birakildi: aorsf_model, cv_glmnet_model, glmnet_model 
+[2026-07-23 01:32:35] Performans hesaplama basladi: surv.coxph 
+[2026-07-23 01:32:37] Performans hesaplama bitti: surv.coxph - cindex: 0.803 - IBS (graf): 0.138 
+[2026-07-23 01:32:37] Performans kaydedildi: results/cox/epileptic/performance.csv 
+[2026-07-23 01:32:37] Performans hesaplama basladi: surv.cforest 

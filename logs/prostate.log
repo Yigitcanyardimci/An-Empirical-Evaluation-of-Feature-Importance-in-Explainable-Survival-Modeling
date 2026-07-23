@@ -195,3 +195,61 @@
 [2026-07-23 01:31:33] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 01:31:33] Model egitimi basladi ( rfsrc ) 
 [2026-07-23 01:31:34] Model egitimi bitti ( rfsrc ) 
+[2026-07-23 01:31:36] Model kaydedildi: results/rfsrc/prostate/model.rds 
+[2026-07-23 01:31:36] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:31:36] Model egitimi basladi ( xgboost_cox ) 
+[2026-07-23 01:31:36] Model egitimi bitti ( xgboost_cox ) 
+[2026-07-23 01:31:36] Model kaydedildi: results/xgboost_cox/prostate/model.rds 
+[2026-07-23 01:31:36] UYARI: su modeller basarisiz oldu, analiz disi birakildi: aorsf_model, cv_glmnet_model, glmnet_model 
+[2026-07-23 01:31:36] Performans hesaplama basladi: surv.coxph 
+[2026-07-23 01:31:37] Performans hesaplama bitti: surv.coxph - cindex: 0.639 - IBS (graf): 0.259 
+[2026-07-23 01:31:37] Performans kaydedildi: results/cox/prostate/performance.csv 
+[2026-07-23 01:31:37] Performans hesaplama basladi: surv.cforest 
+[2026-07-23 01:31:57] Performans hesaplama bitti: surv.cforest - cindex: 0.641 - IBS (graf): 0.249 
+[2026-07-23 01:31:57] Performans kaydedildi: results/cforest/prostate/performance.csv 
+[2026-07-23 01:31:57] Performans hesaplama basladi: surv.coxboost 
+[2026-07-23 01:31:59] Performans hesaplama bitti: surv.coxboost - cindex: 0.636 - IBS (graf): 0.256 
+[2026-07-23 01:31:59] Performans kaydedildi: results/coxboost/prostate/performance.csv 
+[2026-07-23 01:31:59] Performans hesaplama basladi: surv.cv_coxboost 
+[2026-07-23 01:32:16] Performans hesaplama bitti: surv.cv_coxboost - cindex: 0.602 - IBS (graf): 0.253 
+[2026-07-23 01:32:16] Performans kaydedildi: results/cv_coxboost/prostate/performance.csv 
+[2026-07-23 01:32:16] Performans hesaplama basladi: surv.ctree 
+[2026-07-23 01:32:17] Performans hesaplama bitti: surv.ctree - cindex: 0.566 - IBS (graf): 0.273 
+[2026-07-23 01:32:17] Performans kaydedildi: results/ctree/prostate/performance.csv 
+[2026-07-23 01:32:17] Performans hesaplama basladi: surv.glmboost 
+[2026-07-23 01:32:18] Performans hesaplama bitti: surv.glmboost - cindex: 0.636 - IBS (graf): 0.254 
+[2026-07-23 01:32:18] Performans kaydedildi: results/glmboost/prostate/performance.csv 
+[2026-07-23 01:32:18] Performans hesaplama basladi: surv.penalized 
+[2026-07-23 01:32:18] Performans hesaplama bitti: surv.penalized - cindex: 0.639 - IBS (graf): 0.258 
+[2026-07-23 01:32:18] Performans kaydedildi: results/penalized/prostate/performance.csv 
+[2026-07-23 01:32:18] Performans hesaplama basladi: surv.ranger 
+[2026-07-23 01:32:21] Performans hesaplama bitti: surv.ranger - cindex: 0.657 - IBS (graf): 0.232 
+[2026-07-23 01:32:21] Performans kaydedildi: results/ranger/prostate/performance.csv 
+[2026-07-23 01:32:21] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-23 01:32:22] Performans hesaplama bitti: surv.rfsrc - cindex: 0.653 - IBS (graf): 0.243 
+[2026-07-23 01:32:22] Performans kaydedildi: results/rfsrc/prostate/performance.csv 
+[2026-07-23 01:32:22] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-23 01:32:23] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.575 - IBS (graf): 0.359 
+[2026-07-23 01:32:23] Performans kaydedildi: results/xgboost_cox/prostate/performance.csv 
+[2026-07-23 01:32:23] Global aciklama (PFI) basladi 
+[2026-07-23 01:32:23] Explainer kuruluyor: cox_model 
+[2026-07-23 01:32:27] Explainer kaydedildi: results/cox/prostate/explainer.rds 
+[2026-07-23 01:32:27] Explainer kuruluyor: cforest_model 
+[2026-07-23 01:32:30] Explainer kaydedildi: results/cforest/prostate/explainer.rds 
+[2026-07-23 01:32:30] Explainer kuruluyor: coxboost_model 
+[2026-07-23 01:32:34] Explainer kaydedildi: results/coxboost/prostate/explainer.rds 
+[2026-07-23 01:32:34] Explainer kuruluyor: cv_coxboost_model 
+[2026-07-23 01:32:37] Explainer kaydedildi: results/cv_coxboost/prostate/explainer.rds 
+[2026-07-23 01:32:37] Explainer kuruluyor: ctree_model 
+[2026-07-23 01:32:41] Explainer kaydedildi: results/ctree/prostate/explainer.rds 
+[2026-07-23 01:32:41] Explainer kuruluyor: glmboost_model 
+[2026-07-23 01:32:44] Explainer kaydedildi: results/glmboost/prostate/explainer.rds 
+[2026-07-23 01:32:44] Explainer kuruluyor: penalized_model 
+[2026-07-23 01:32:48] Explainer kaydedildi: results/penalized/prostate/explainer.rds 
+[2026-07-23 01:32:48] Explainer kuruluyor: ranger_model 
+[2026-07-23 01:32:51] Explainer kaydedildi: results/ranger/prostate/explainer.rds 
+[2026-07-23 01:32:51] Explainer kuruluyor: rfsrc_model 
+[2026-07-23 01:32:55] Explainer kaydedildi: results/rfsrc/prostate/explainer.rds 
+[2026-07-23 01:32:55] Explainer kuruluyor: xgboost_cox_model 
+[2026-07-23 01:32:58] Explainer kaydedildi: results/xgboost_cox/prostate/explainer.rds 
+[2026-07-23 01:32:58] PFI hesaplaniyor: cox_model 

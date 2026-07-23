@@ -160,3 +160,11 @@
 [2026-07-23 01:31:06] HATA: model egitilemedi - aorsf - time to event should be > 0 but has at least one value that is <= 0 (see time to event[113]) 
 [2026-07-23 01:31:06] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 01:31:06] Model egitimi basladi ( cforest ) 
+[2026-07-23 01:31:39] Model egitimi bitti ( cforest ) 
+[2026-07-23 01:31:41] Model kaydedildi: results/cforest/aids2/model.rds 
+[2026-07-23 01:31:41] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:31:41] Model egitimi basladi ( coxboost ) 
+[2026-07-23 01:32:14] Model egitimi bitti ( coxboost ) 
+[2026-07-23 01:32:14] Model kaydedildi: results/coxboost/aids2/model.rds 
+[2026-07-23 01:32:14] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:14] Model egitimi basladi ( cv_coxboost ) 

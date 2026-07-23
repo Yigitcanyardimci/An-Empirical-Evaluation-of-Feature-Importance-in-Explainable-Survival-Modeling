@@ -169,3 +169,50 @@
 [2026-07-23 01:31:33] Model kaydedildi: results/coxboost/grace/model.rds 
 [2026-07-23 01:31:33] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 01:31:33] Model egitimi basladi ( cv_coxboost ) 
+[2026-07-23 01:32:10] Model egitimi bitti ( cv_coxboost ) 
+[2026-07-23 01:32:10] Model kaydedildi: results/cv_coxboost/grace/model.rds 
+[2026-07-23 01:32:10] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:10] Model egitimi basladi ( ctree ) 
+[2026-07-23 01:32:10] Model egitimi bitti ( ctree ) 
+[2026-07-23 01:32:10] Model kaydedildi: results/ctree/grace/model.rds 
+[2026-07-23 01:32:10] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:10] Model egitimi basladi ( cv_glmnet ) 
+[2026-07-23 01:32:10] Model egitimi bitti ( cv_glmnet ) 
+[2026-07-23 01:32:10] Model kaydedildi: results/cv_glmnet/grace/model.rds 
+[2026-07-23 01:32:10] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:10] Model egitimi basladi ( glmboost ) 
+[2026-07-23 01:32:11] Model egitimi bitti ( glmboost ) 
+[2026-07-23 01:32:12] Model kaydedildi: results/glmboost/grace/model.rds 
+[2026-07-23 01:32:12] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:12] Model egitimi basladi ( glmnet ) 
+[2026-07-23 01:32:12] Model egitimi bitti ( glmnet ) 
+[2026-07-23 01:32:12] Model kaydedildi: results/glmnet/grace/model.rds 
+[2026-07-23 01:32:12] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:12] Model egitimi basladi ( penalized ) 
+[2026-07-23 01:32:12] Model egitimi bitti ( penalized ) 
+[2026-07-23 01:32:12] Model kaydedildi: results/penalized/grace/model.rds 
+[2026-07-23 01:32:12] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:12] Model egitimi basladi ( ranger ) 
+[2026-07-23 01:32:14] Model egitimi bitti ( ranger ) 
+[2026-07-23 01:32:15] Model kaydedildi: results/ranger/grace/model.rds 
+[2026-07-23 01:32:15] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:15] Model egitimi basladi ( rfsrc ) 
+[2026-07-23 01:32:17] Model egitimi bitti ( rfsrc ) 
+[2026-07-23 01:32:22] Model kaydedildi: results/rfsrc/grace/model.rds 
+[2026-07-23 01:32:22] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:22] Model egitimi basladi ( xgboost_cox ) 
+[2026-07-23 01:32:22] Model egitimi bitti ( xgboost_cox ) 
+[2026-07-23 01:32:22] Model kaydedildi: results/xgboost_cox/grace/model.rds 
+[2026-07-23 01:32:22] Performans hesaplama basladi: surv.coxph 
+[2026-07-23 01:32:23] Performans hesaplama bitti: surv.coxph - cindex: 0.709 - IBS (graf): 0.167 
+[2026-07-23 01:32:23] Performans kaydedildi: results/cox/grace/performance.csv 
+[2026-07-23 01:32:23] Performans hesaplama basladi: surv.aorsf 
+[2026-07-23 01:32:25] Performans hesaplama bitti: surv.aorsf - cindex: 0.712 - IBS (graf): 0.168 
+[2026-07-23 01:32:25] Performans kaydedildi: results/aorsf/grace/performance.csv 
+[2026-07-23 01:32:25] Performans hesaplama basladi: surv.cforest 
+[2026-07-23 01:33:01] Performans hesaplama bitti: surv.cforest - cindex: 0.699 - IBS (graf): 0.17 
+[2026-07-23 01:33:01] Performans kaydedildi: results/cforest/grace/performance.csv 
+[2026-07-23 01:33:01] Performans hesaplama basladi: surv.coxboost 
+[2026-07-23 01:33:03] Performans hesaplama bitti: surv.coxboost - cindex: 0.711 - IBS (graf): 0.166 
+[2026-07-23 01:33:03] Performans kaydedildi: results/coxboost/grace/performance.csv 
+[2026-07-23 01:33:03] Performans hesaplama basladi: surv.cv_coxboost 

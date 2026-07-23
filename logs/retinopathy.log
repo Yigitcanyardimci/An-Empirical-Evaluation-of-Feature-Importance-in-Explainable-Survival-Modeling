@@ -216,3 +216,59 @@
 [2026-07-23 01:31:30] Performans hesaplama bitti: surv.coxboost - cindex: 0.559 - IBS (graf): 0.207 
 [2026-07-23 01:31:30] Performans kaydedildi: results/coxboost/retinopathy/performance.csv 
 [2026-07-23 01:31:30] Performans hesaplama basladi: surv.cv_coxboost 
+[2026-07-23 01:31:37] Performans hesaplama bitti: surv.cv_coxboost - cindex: 0.53 - IBS (graf): 0.214 
+[2026-07-23 01:31:37] Performans kaydedildi: results/cv_coxboost/retinopathy/performance.csv 
+[2026-07-23 01:31:37] Performans hesaplama basladi: surv.ctree 
+[2026-07-23 01:31:38] Performans hesaplama bitti: surv.ctree - cindex: 0.542 - IBS (graf): 0.209 
+[2026-07-23 01:31:38] Performans kaydedildi: results/ctree/retinopathy/performance.csv 
+[2026-07-23 01:31:38] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-07-23 01:31:39] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.5 - IBS (graf): 0.216 
+[2026-07-23 01:31:39] Performans kaydedildi: results/cv_glmnet/retinopathy/performance.csv 
+[2026-07-23 01:31:39] Performans hesaplama basladi: surv.glmboost 
+[2026-07-23 01:31:40] Performans hesaplama bitti: surv.glmboost - cindex: 0.558 - IBS (graf): 0.208 
+[2026-07-23 01:31:40] Performans kaydedildi: results/glmboost/retinopathy/performance.csv 
+[2026-07-23 01:31:40] Performans hesaplama basladi: surv.glmnet 
+[2026-07-23 01:31:40] Performans hesaplama bitti: surv.glmnet - cindex: 0.555 - IBS (graf): 0.207 
+[2026-07-23 01:31:40] Performans kaydedildi: results/glmnet/retinopathy/performance.csv 
+[2026-07-23 01:31:40] Performans hesaplama basladi: surv.penalized 
+[2026-07-23 01:31:41] Performans hesaplama bitti: surv.penalized - cindex: 0.558 - IBS (graf): 0.207 
+[2026-07-23 01:31:41] Performans kaydedildi: results/penalized/retinopathy/performance.csv 
+[2026-07-23 01:31:41] Performans hesaplama basladi: surv.ranger 
+[2026-07-23 01:31:42] Performans hesaplama bitti: surv.ranger - cindex: 0.596 - IBS (graf): 0.214 
+[2026-07-23 01:31:42] Performans kaydedildi: results/ranger/retinopathy/performance.csv 
+[2026-07-23 01:31:42] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-23 01:31:43] Performans hesaplama bitti: surv.rfsrc - cindex: 0.617 - IBS (graf): 0.198 
+[2026-07-23 01:31:43] Performans kaydedildi: results/rfsrc/retinopathy/performance.csv 
+[2026-07-23 01:31:43] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-23 01:31:45] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.607 - IBS (graf): 0.322 
+[2026-07-23 01:31:45] Performans kaydedildi: results/xgboost_cox/retinopathy/performance.csv 
+[2026-07-23 01:31:45] Global aciklama (PFI) basladi 
+[2026-07-23 01:31:45] Explainer kuruluyor: cox_model 
+[2026-07-23 01:31:47] Explainer kaydedildi: results/cox/retinopathy/explainer.rds 
+[2026-07-23 01:31:47] Explainer kuruluyor: aorsf_model 
+[2026-07-23 01:31:50] Explainer kaydedildi: results/aorsf/retinopathy/explainer.rds 
+[2026-07-23 01:31:50] Explainer kuruluyor: cforest_model 
+[2026-07-23 01:31:53] Explainer kaydedildi: results/cforest/retinopathy/explainer.rds 
+[2026-07-23 01:31:53] Explainer kuruluyor: coxboost_model 
+[2026-07-23 01:31:55] Explainer kaydedildi: results/coxboost/retinopathy/explainer.rds 
+[2026-07-23 01:31:55] Explainer kuruluyor: cv_coxboost_model 
+[2026-07-23 01:31:58] Explainer kaydedildi: results/cv_coxboost/retinopathy/explainer.rds 
+[2026-07-23 01:31:58] Explainer kuruluyor: ctree_model 
+[2026-07-23 01:32:00] Explainer kaydedildi: results/ctree/retinopathy/explainer.rds 
+[2026-07-23 01:32:00] Explainer kuruluyor: cv_glmnet_model 
+[2026-07-23 01:32:03] Explainer kaydedildi: results/cv_glmnet/retinopathy/explainer.rds 
+[2026-07-23 01:32:03] Explainer kuruluyor: glmboost_model 
+[2026-07-23 01:32:06] Explainer kaydedildi: results/glmboost/retinopathy/explainer.rds 
+[2026-07-23 01:32:06] Explainer kuruluyor: glmnet_model 
+[2026-07-23 01:32:08] Explainer kaydedildi: results/glmnet/retinopathy/explainer.rds 
+[2026-07-23 01:32:08] Explainer kuruluyor: penalized_model 
+[2026-07-23 01:32:11] Explainer kaydedildi: results/penalized/retinopathy/explainer.rds 
+[2026-07-23 01:32:11] Explainer kuruluyor: ranger_model 
+[2026-07-23 01:32:14] Explainer kaydedildi: results/ranger/retinopathy/explainer.rds 
+[2026-07-23 01:32:14] Explainer kuruluyor: rfsrc_model 
+[2026-07-23 01:32:16] Explainer kaydedildi: results/rfsrc/retinopathy/explainer.rds 
+[2026-07-23 01:32:16] Explainer kuruluyor: xgboost_cox_model 
+[2026-07-23 01:32:19] Explainer kaydedildi: results/xgboost_cox/retinopathy/explainer.rds 
+[2026-07-23 01:32:19] PFI hesaplaniyor: cox_model 
+[2026-07-23 01:32:45] PFI hesaplaniyor: aorsf_model 
+[2026-07-23 01:33:10] PFI hesaplaniyor: cforest_model 

@@ -169,3 +169,80 @@
 [2026-07-23 01:31:18] Model kaydedildi: results/coxboost/GBSG2/model.rds 
 [2026-07-23 01:31:18] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 01:31:18] Model egitimi basladi ( cv_coxboost ) 
+[2026-07-23 01:31:43] Model egitimi bitti ( cv_coxboost ) 
+[2026-07-23 01:31:43] Model kaydedildi: results/cv_coxboost/GBSG2/model.rds 
+[2026-07-23 01:31:43] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:31:43] Model egitimi basladi ( ctree ) 
+[2026-07-23 01:31:43] Model egitimi bitti ( ctree ) 
+[2026-07-23 01:31:43] Model kaydedildi: results/ctree/GBSG2/model.rds 
+[2026-07-23 01:31:43] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:31:43] Model egitimi basladi ( cv_glmnet ) 
+[2026-07-23 01:31:43] Model egitimi bitti ( cv_glmnet ) 
+[2026-07-23 01:31:43] Model kaydedildi: results/cv_glmnet/GBSG2/model.rds 
+[2026-07-23 01:31:43] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:31:43] Model egitimi basladi ( glmboost ) 
+[2026-07-23 01:31:44] Model egitimi bitti ( glmboost ) 
+[2026-07-23 01:31:44] Model kaydedildi: results/glmboost/GBSG2/model.rds 
+[2026-07-23 01:31:44] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:31:44] Model egitimi basladi ( glmnet ) 
+[2026-07-23 01:31:44] Model egitimi bitti ( glmnet ) 
+[2026-07-23 01:31:44] Model kaydedildi: results/glmnet/GBSG2/model.rds 
+[2026-07-23 01:31:44] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:31:44] Model egitimi basladi ( penalized ) 
+[2026-07-23 01:31:44] Model egitimi bitti ( penalized ) 
+[2026-07-23 01:31:44] Model kaydedildi: results/penalized/GBSG2/model.rds 
+[2026-07-23 01:31:44] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:31:44] Model egitimi basladi ( ranger ) 
+[2026-07-23 01:31:47] Model egitimi bitti ( ranger ) 
+[2026-07-23 01:31:48] Model kaydedildi: results/ranger/GBSG2/model.rds 
+[2026-07-23 01:31:48] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:31:48] Model egitimi basladi ( rfsrc ) 
+[2026-07-23 01:31:49] Model egitimi bitti ( rfsrc ) 
+[2026-07-23 01:31:53] Model kaydedildi: results/rfsrc/GBSG2/model.rds 
+[2026-07-23 01:31:53] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:31:53] Model egitimi basladi ( xgboost_cox ) 
+[2026-07-23 01:31:54] Model egitimi bitti ( xgboost_cox ) 
+[2026-07-23 01:31:54] Model kaydedildi: results/xgboost_cox/GBSG2/model.rds 
+[2026-07-23 01:31:54] Performans hesaplama basladi: surv.coxph 
+[2026-07-23 01:31:57] Performans hesaplama bitti: surv.coxph - cindex: 0.658 - IBS (graf): 0.164 
+[2026-07-23 01:31:57] Performans kaydedildi: results/cox/GBSG2/performance.csv 
+[2026-07-23 01:31:57] Performans hesaplama basladi: surv.aorsf 
+[2026-07-23 01:31:58] Performans hesaplama bitti: surv.aorsf - cindex: 0.68 - IBS (graf): 0.166 
+[2026-07-23 01:31:58] Performans kaydedildi: results/aorsf/GBSG2/performance.csv 
+[2026-07-23 01:31:58] Performans hesaplama basladi: surv.cforest 
+[2026-07-23 01:32:23] Performans hesaplama bitti: surv.cforest - cindex: 0.693 - IBS (graf): 0.169 
+[2026-07-23 01:32:23] Performans kaydedildi: results/cforest/GBSG2/performance.csv 
+[2026-07-23 01:32:23] Performans hesaplama basladi: surv.coxboost 
+[2026-07-23 01:32:26] Performans hesaplama bitti: surv.coxboost - cindex: 0.653 - IBS (graf): 0.165 
+[2026-07-23 01:32:26] Performans kaydedildi: results/coxboost/GBSG2/performance.csv 
+[2026-07-23 01:32:26] Performans hesaplama basladi: surv.cv_coxboost 
+[2026-07-23 01:32:50] Performans hesaplama bitti: surv.cv_coxboost - cindex: 0.63 - IBS (graf): 0.179 
+[2026-07-23 01:32:50] Performans kaydedildi: results/cv_coxboost/GBSG2/performance.csv 
+[2026-07-23 01:32:50] Performans hesaplama basladi: surv.ctree 
+[2026-07-23 01:32:52] Performans hesaplama bitti: surv.ctree - cindex: 0.623 - IBS (graf): 0.186 
+[2026-07-23 01:32:52] Performans kaydedildi: results/ctree/GBSG2/performance.csv 
+[2026-07-23 01:32:52] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-07-23 01:32:53] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.5 - IBS (graf): 0.189 
+[2026-07-23 01:32:53] Performans kaydedildi: results/cv_glmnet/GBSG2/performance.csv 
+[2026-07-23 01:32:53] Performans hesaplama basladi: surv.glmboost 
+[2026-07-23 01:32:54] Performans hesaplama bitti: surv.glmboost - cindex: 0.659 - IBS (graf): 0.167 
+[2026-07-23 01:32:54] Performans kaydedildi: results/glmboost/GBSG2/performance.csv 
+[2026-07-23 01:32:54] Performans hesaplama basladi: surv.glmnet 
+[2026-07-23 01:32:56] Performans hesaplama bitti: surv.glmnet - cindex: 0.654 - IBS (graf): 0.164 
+[2026-07-23 01:32:56] Performans kaydedildi: results/glmnet/GBSG2/performance.csv 
+[2026-07-23 01:32:56] Performans hesaplama basladi: surv.penalized 
+[2026-07-23 01:32:57] Performans hesaplama bitti: surv.penalized - cindex: 0.658 - IBS (graf): 0.164 
+[2026-07-23 01:32:57] Performans kaydedildi: results/penalized/GBSG2/performance.csv 
+[2026-07-23 01:32:57] Performans hesaplama basladi: surv.ranger 
+[2026-07-23 01:33:03] Performans hesaplama bitti: surv.ranger - cindex: 0.684 - IBS (graf): 0.176 
+[2026-07-23 01:33:03] Performans kaydedildi: results/ranger/GBSG2/performance.csv 
+[2026-07-23 01:33:03] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-23 01:33:05] Performans hesaplama bitti: surv.rfsrc - cindex: 0.694 - IBS (graf): 0.165 
+[2026-07-23 01:33:05] Performans kaydedildi: results/rfsrc/GBSG2/performance.csv 
+[2026-07-23 01:33:05] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-23 01:33:06] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.643 - IBS (graf): 0.207 
+[2026-07-23 01:33:06] Performans kaydedildi: results/xgboost_cox/GBSG2/performance.csv 
+[2026-07-23 01:33:06] Global aciklama (PFI) basladi 
+[2026-07-23 01:33:06] Explainer kuruluyor: cox_model 
+[2026-07-23 01:33:13] Explainer kaydedildi: results/cox/GBSG2/explainer.rds 
+[2026-07-23 01:33:13] Explainer kuruluyor: aorsf_model 

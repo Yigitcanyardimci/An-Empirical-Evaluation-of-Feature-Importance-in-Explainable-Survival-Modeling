@@ -161,3 +161,19 @@
 [2026-07-23 01:31:04] Model kaydedildi: results/aorsf/LeukSurv/model.rds 
 [2026-07-23 01:31:04] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 01:31:04] Model egitimi basladi ( cforest ) 
+[2026-07-23 01:31:38] Model egitimi bitti ( cforest ) 
+[2026-07-23 01:31:40] Model kaydedildi: results/cforest/LeukSurv/model.rds 
+[2026-07-23 01:31:40] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:31:40] Model egitimi basladi ( coxboost ) 
+[2026-07-23 01:31:46] Model egitimi bitti ( coxboost ) 
+[2026-07-23 01:31:46] Model kaydedildi: results/coxboost/LeukSurv/model.rds 
+[2026-07-23 01:31:46] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:31:46] Model egitimi basladi ( cv_coxboost ) 
+[2026-07-23 01:33:15] Model egitimi bitti ( cv_coxboost ) 
+[2026-07-23 01:33:15] Model kaydedildi: results/cv_coxboost/LeukSurv/model.rds 
+[2026-07-23 01:33:15] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:33:15] Model egitimi basladi ( ctree ) 
+[2026-07-23 01:33:16] Model egitimi bitti ( ctree ) 
+[2026-07-23 01:33:16] Model kaydedildi: results/ctree/LeukSurv/model.rds 
+[2026-07-23 01:33:16] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:33:16] Model egitimi basladi ( cv_glmnet ) 

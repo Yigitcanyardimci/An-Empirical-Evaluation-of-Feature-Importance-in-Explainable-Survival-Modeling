@@ -210,3 +210,63 @@
 [2026-07-23 01:31:33] Performans hesaplama bitti: surv.aorsf - cindex: 0.8 - IBS (graf): 0.156 
 [2026-07-23 01:31:33] Performans kaydedildi: results/aorsf/whas500/performance.csv 
 [2026-07-23 01:31:33] Performans hesaplama basladi: surv.cforest 
+[2026-07-23 01:31:52] Performans hesaplama bitti: surv.cforest - cindex: 0.805 - IBS (graf): 0.154 
+[2026-07-23 01:31:52] Performans kaydedildi: results/cforest/whas500/performance.csv 
+[2026-07-23 01:31:52] Performans hesaplama basladi: surv.coxboost 
+[2026-07-23 01:31:53] Performans hesaplama bitti: surv.coxboost - cindex: 0.796 - IBS (graf): 0.153 
+[2026-07-23 01:31:53] Performans kaydedildi: results/coxboost/whas500/performance.csv 
+[2026-07-23 01:31:53] Performans hesaplama basladi: surv.cv_coxboost 
+[2026-07-23 01:32:04] Performans hesaplama bitti: surv.cv_coxboost - cindex: 0.76 - IBS (graf): 0.19 
+[2026-07-23 01:32:04] Performans kaydedildi: results/cv_coxboost/whas500/performance.csv 
+[2026-07-23 01:32:04] Performans hesaplama basladi: surv.ctree 
+[2026-07-23 01:32:05] Performans hesaplama bitti: surv.ctree - cindex: 0.767 - IBS (graf): 0.167 
+[2026-07-23 01:32:05] Performans kaydedildi: results/ctree/whas500/performance.csv 
+[2026-07-23 01:32:05] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-07-23 01:32:05] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.76 - IBS (graf): 0.191 
+[2026-07-23 01:32:05] Performans kaydedildi: results/cv_glmnet/whas500/performance.csv 
+[2026-07-23 01:32:05] Performans hesaplama basladi: surv.glmboost 
+[2026-07-23 01:32:06] Performans hesaplama bitti: surv.glmboost - cindex: 0.786 - IBS (graf): 0.167 
+[2026-07-23 01:32:06] Performans kaydedildi: results/glmboost/whas500/performance.csv 
+[2026-07-23 01:32:06] Performans hesaplama basladi: surv.glmnet 
+[2026-07-23 01:32:07] Performans hesaplama bitti: surv.glmnet - cindex: 0.796 - IBS (graf): 0.148 
+[2026-07-23 01:32:07] Performans kaydedildi: results/glmnet/whas500/performance.csv 
+[2026-07-23 01:32:07] Performans hesaplama basladi: surv.penalized 
+[2026-07-23 01:32:07] Performans hesaplama bitti: surv.penalized - cindex: 0.796 - IBS (graf): 0.144 
+[2026-07-23 01:32:07] Performans kaydedildi: results/penalized/whas500/performance.csv 
+[2026-07-23 01:32:07] Performans hesaplama basladi: surv.ranger 
+[2026-07-23 01:32:10] Performans hesaplama bitti: surv.ranger - cindex: 0.805 - IBS (graf): 0.167 
+[2026-07-23 01:32:10] Performans kaydedildi: results/ranger/whas500/performance.csv 
+[2026-07-23 01:32:10] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-23 01:32:11] Performans hesaplama bitti: surv.rfsrc - cindex: 0.802 - IBS (graf): 0.163 
+[2026-07-23 01:32:11] Performans kaydedildi: results/rfsrc/whas500/performance.csv 
+[2026-07-23 01:32:11] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-23 01:32:12] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.798 - IBS (graf): 0.164 
+[2026-07-23 01:32:12] Performans kaydedildi: results/xgboost_cox/whas500/performance.csv 
+[2026-07-23 01:32:12] Global aciklama (PFI) basladi 
+[2026-07-23 01:32:12] Explainer kuruluyor: cox_model 
+[2026-07-23 01:32:16] Explainer kaydedildi: results/cox/whas500/explainer.rds 
+[2026-07-23 01:32:16] Explainer kuruluyor: aorsf_model 
+[2026-07-23 01:32:19] Explainer kaydedildi: results/aorsf/whas500/explainer.rds 
+[2026-07-23 01:32:19] Explainer kuruluyor: cforest_model 
+[2026-07-23 01:32:23] Explainer kaydedildi: results/cforest/whas500/explainer.rds 
+[2026-07-23 01:32:23] Explainer kuruluyor: coxboost_model 
+[2026-07-23 01:32:26] Explainer kaydedildi: results/coxboost/whas500/explainer.rds 
+[2026-07-23 01:32:26] Explainer kuruluyor: cv_coxboost_model 
+[2026-07-23 01:32:30] Explainer kaydedildi: results/cv_coxboost/whas500/explainer.rds 
+[2026-07-23 01:32:30] Explainer kuruluyor: ctree_model 
+[2026-07-23 01:32:33] Explainer kaydedildi: results/ctree/whas500/explainer.rds 
+[2026-07-23 01:32:33] Explainer kuruluyor: cv_glmnet_model 
+[2026-07-23 01:32:37] Explainer kaydedildi: results/cv_glmnet/whas500/explainer.rds 
+[2026-07-23 01:32:37] Explainer kuruluyor: glmboost_model 
+[2026-07-23 01:32:40] Explainer kaydedildi: results/glmboost/whas500/explainer.rds 
+[2026-07-23 01:32:40] Explainer kuruluyor: glmnet_model 
+[2026-07-23 01:32:44] Explainer kaydedildi: results/glmnet/whas500/explainer.rds 
+[2026-07-23 01:32:44] Explainer kuruluyor: penalized_model 
+[2026-07-23 01:32:48] Explainer kaydedildi: results/penalized/whas500/explainer.rds 
+[2026-07-23 01:32:48] Explainer kuruluyor: ranger_model 
+[2026-07-23 01:32:51] Explainer kaydedildi: results/ranger/whas500/explainer.rds 
+[2026-07-23 01:32:51] Explainer kuruluyor: rfsrc_model 
+[2026-07-23 01:32:55] Explainer kaydedildi: results/rfsrc/whas500/explainer.rds 
+[2026-07-23 01:32:55] Explainer kuruluyor: xgboost_cox_model 
+[2026-07-23 01:32:58] Explainer kaydedildi: results/xgboost_cox/whas500/explainer.rds 
+[2026-07-23 01:32:58] PFI hesaplaniyor: cox_model 

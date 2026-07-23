@@ -160,3 +160,38 @@
 [2026-07-23 01:31:04] HATA: model egitilemedi - aorsf - time to event should be > 0 but has at least one value that is <= 0 (see time to event[1]) 
 [2026-07-23 01:31:04] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 01:31:04] Model egitimi basladi ( cforest ) 
+[2026-07-23 01:32:07] Model egitimi bitti ( cforest ) 
+[2026-07-23 01:32:10] Model kaydedildi: results/cforest/FRTCS/model.rds 
+[2026-07-23 01:32:10] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:10] Model egitimi basladi ( coxboost ) 
+[2026-07-23 01:32:14] Model egitimi bitti ( coxboost ) 
+[2026-07-23 01:32:14] Model kaydedildi: results/coxboost/FRTCS/model.rds 
+[2026-07-23 01:32:14] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:14] Model egitimi basladi ( cv_coxboost ) 
+[2026-07-23 01:33:01] Model egitimi bitti ( cv_coxboost ) 
+[2026-07-23 01:33:01] Model kaydedildi: results/cv_coxboost/FRTCS/model.rds 
+[2026-07-23 01:33:01] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:33:01] Model egitimi basladi ( ctree ) 
+[2026-07-23 01:33:01] Model egitimi bitti ( ctree ) 
+[2026-07-23 01:33:01] Model kaydedildi: results/ctree/FRTCS/model.rds 
+[2026-07-23 01:33:01] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:33:01] Model egitimi basladi ( cv_glmnet ) 
+[2026-07-23 01:33:01] HATA: model egitilemedi - cv_glmnet - Non-positive event times encountered; not permitted for Cox family 
+[2026-07-23 01:33:01] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:33:01] Model egitimi basladi ( glmboost ) 
+[2026-07-23 01:33:04] Model egitimi bitti ( glmboost ) 
+[2026-07-23 01:33:05] Model kaydedildi: results/glmboost/FRTCS/model.rds 
+[2026-07-23 01:33:05] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:33:05] Model egitimi basladi ( glmnet ) 
+[2026-07-23 01:33:05] HATA: model egitilemedi - glmnet - Non-positive event times encountered; not permitted for Cox family 
+[2026-07-23 01:33:05] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:33:05] Model egitimi basladi ( penalized ) 
+[2026-07-23 01:33:05] Model egitimi bitti ( penalized ) 
+[2026-07-23 01:33:05] Model kaydedildi: results/penalized/FRTCS/model.rds 
+[2026-07-23 01:33:05] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:33:05] Model egitimi basladi ( ranger ) 
+[2026-07-23 01:33:09] Model egitimi bitti ( ranger ) 
+[2026-07-23 01:33:09] Model kaydedildi: results/ranger/FRTCS/model.rds 
+[2026-07-23 01:33:09] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:33:09] Model egitimi basladi ( rfsrc ) 
+[2026-07-23 01:33:11] Model egitimi bitti ( rfsrc ) 

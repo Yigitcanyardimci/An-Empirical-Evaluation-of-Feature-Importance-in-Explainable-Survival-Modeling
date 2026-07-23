@@ -161,3 +161,11 @@
 [2026-07-23 01:31:06] Model kaydedildi: results/aorsf/TRACE/model.rds 
 [2026-07-23 01:31:06] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 01:31:06] Model egitimi basladi ( cforest ) 
+[2026-07-23 01:31:57] Model egitimi bitti ( cforest ) 
+[2026-07-23 01:32:00] Model kaydedildi: results/cforest/TRACE/model.rds 
+[2026-07-23 01:32:00] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:00] Model egitimi basladi ( coxboost ) 
+[2026-07-23 01:32:11] Model egitimi bitti ( coxboost ) 
+[2026-07-23 01:32:11] Model kaydedildi: results/coxboost/TRACE/model.rds 
+[2026-07-23 01:32:11] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:11] Model egitimi basladi ( cv_coxboost ) 

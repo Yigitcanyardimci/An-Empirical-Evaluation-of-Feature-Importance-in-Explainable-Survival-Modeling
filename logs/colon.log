@@ -169,3 +169,50 @@
 [2026-07-23 01:31:25] Model kaydedildi: results/coxboost/colon/model.rds 
 [2026-07-23 01:31:25] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 01:31:25] Model egitimi basladi ( cv_coxboost ) 
+[2026-07-23 01:32:07] Model egitimi bitti ( cv_coxboost ) 
+[2026-07-23 01:32:07] Model kaydedildi: results/cv_coxboost/colon/model.rds 
+[2026-07-23 01:32:07] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:07] Model egitimi basladi ( ctree ) 
+[2026-07-23 01:32:07] Model egitimi bitti ( ctree ) 
+[2026-07-23 01:32:07] Model kaydedildi: results/ctree/colon/model.rds 
+[2026-07-23 01:32:07] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:07] Model egitimi basladi ( cv_glmnet ) 
+[2026-07-23 01:32:08] Model egitimi bitti ( cv_glmnet ) 
+[2026-07-23 01:32:08] Model kaydedildi: results/cv_glmnet/colon/model.rds 
+[2026-07-23 01:32:08] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:08] Model egitimi basladi ( glmboost ) 
+[2026-07-23 01:32:09] Model egitimi bitti ( glmboost ) 
+[2026-07-23 01:32:09] Model kaydedildi: results/glmboost/colon/model.rds 
+[2026-07-23 01:32:09] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:09] Model egitimi basladi ( glmnet ) 
+[2026-07-23 01:32:09] Model egitimi bitti ( glmnet ) 
+[2026-07-23 01:32:09] Model kaydedildi: results/glmnet/colon/model.rds 
+[2026-07-23 01:32:09] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:09] Model egitimi basladi ( penalized ) 
+[2026-07-23 01:32:09] Model egitimi bitti ( penalized ) 
+[2026-07-23 01:32:09] Model kaydedildi: results/penalized/colon/model.rds 
+[2026-07-23 01:32:09] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:09] Model egitimi basladi ( ranger ) 
+[2026-07-23 01:32:13] Model egitimi bitti ( ranger ) 
+[2026-07-23 01:32:14] Model kaydedildi: results/ranger/colon/model.rds 
+[2026-07-23 01:32:14] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:14] Model egitimi basladi ( rfsrc ) 
+[2026-07-23 01:32:17] Model egitimi bitti ( rfsrc ) 
+[2026-07-23 01:32:23] Model kaydedildi: results/rfsrc/colon/model.rds 
+[2026-07-23 01:32:23] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:32:23] Model egitimi basladi ( xgboost_cox ) 
+[2026-07-23 01:32:24] Model egitimi bitti ( xgboost_cox ) 
+[2026-07-23 01:32:24] Model kaydedildi: results/xgboost_cox/colon/model.rds 
+[2026-07-23 01:32:24] Performans hesaplama basladi: surv.coxph 
+[2026-07-23 01:32:27] Performans hesaplama bitti: surv.coxph - cindex: 0.624 - IBS (graf): 0.196 
+[2026-07-23 01:32:27] Performans kaydedildi: results/cox/colon/performance.csv 
+[2026-07-23 01:32:27] Performans hesaplama basladi: surv.aorsf 
+[2026-07-23 01:32:29] Performans hesaplama bitti: surv.aorsf - cindex: 0.62 - IBS (graf): 0.195 
+[2026-07-23 01:32:29] Performans kaydedildi: results/aorsf/colon/performance.csv 
+[2026-07-23 01:32:29] Performans hesaplama basladi: surv.cforest 
+[2026-07-23 01:33:00] Performans hesaplama bitti: surv.cforest - cindex: 0.627 - IBS (graf): 0.193 
+[2026-07-23 01:33:00] Performans kaydedildi: results/cforest/colon/performance.csv 
+[2026-07-23 01:33:00] Performans hesaplama basladi: surv.coxboost 
+[2026-07-23 01:33:05] Performans hesaplama bitti: surv.coxboost - cindex: 0.623 - IBS (graf): 0.196 
+[2026-07-23 01:33:05] Performans kaydedildi: results/coxboost/colon/performance.csv 
+[2026-07-23 01:33:05] Performans hesaplama basladi: surv.cv_coxboost 
