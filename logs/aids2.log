@@ -1043,3 +1043,27 @@
 [2026-07-23 15:33:50] SHAP ozeti kaydedildi: results/cox/aids2/shap_summary.csv 
 [2026-07-23 15:33:50] cox_model - SHAP TIVM: 1e-04 
 [2026-07-23 15:33:50] Kaydedilmis SHAP bulundu, okunuyor: results/cforest/aids2/shap_long.csv 
+[2026-07-23 15:33:51] Grafik kaydedildi: results/cforest/aids2/plots/survshap_plot.png 
+[2026-07-23 15:33:51] SHAP ozeti kaydedildi: results/cforest/aids2/shap_summary.csv 
+[2026-07-23 15:33:51] cforest_model - SHAP TIVM: 7e-04 
+[2026-07-23 15:33:51] Kaydedilmis SHAP bulundu, okunuyor: results/coxboost/aids2/shap_long.csv 
+[2026-07-23 15:33:51] Grafik kaydedildi: results/coxboost/aids2/plots/survshap_plot.png 
+[2026-07-23 15:33:51] SHAP ozeti kaydedildi: results/coxboost/aids2/shap_summary.csv 
+[2026-07-23 15:33:51] coxboost_model - SHAP TIVM: 1e-04 
+[2026-07-23 15:33:51] Kaydedilmis SHAP bulundu, okunuyor: results/ctree/aids2/shap_long.csv 
+[2026-07-23 15:33:52] Grafik kaydedildi: results/ctree/aids2/plots/survshap_plot.png 
+[2026-07-23 15:33:52] SHAP ozeti kaydedildi: results/ctree/aids2/shap_summary.csv 
+[2026-07-23 15:33:52] ctree_model - SHAP TIVM: 7e-04 
+[2026-07-23 15:33:52] Kaydedilmis SHAP bulundu, okunuyor: results/glmboost/aids2/shap_long.csv 
+[2026-07-23 15:33:52] Grafik kaydedildi: results/glmboost/aids2/plots/survshap_plot.png 
+[2026-07-23 15:33:52] SHAP ozeti kaydedildi: results/glmboost/aids2/shap_summary.csv 
+[2026-07-23 15:33:52] glmboost_model - SHAP TIVM: 1e-04 
+[2026-07-23 15:33:52] Kaydedilmis SHAP bulundu, okunuyor: results/penalized/aids2/shap_long.csv 
+[2026-07-23 15:33:53] Grafik kaydedildi: results/penalized/aids2/plots/survshap_plot.png 
+[2026-07-23 15:33:53] SHAP ozeti kaydedildi: results/penalized/aids2/shap_summary.csv 
+[2026-07-23 15:33:53] penalized_model - SHAP TIVM: 1e-04 
+[2026-07-23 15:33:53] Kaydedilmis SHAP bulundu, okunuyor: results/ranger/aids2/shap_long.csv 
+[2026-07-23 15:33:53] Grafik kaydedildi: results/ranger/aids2/plots/survshap_plot.png 
+[2026-07-23 15:33:53] SHAP ozeti kaydedildi: results/ranger/aids2/shap_summary.csv 
+[2026-07-23 15:33:53] ranger_model - SHAP TIVM: 8e-04 
+[2026-07-23 15:33:53] SHAP hesaplama basladi, n_obs = 15 
