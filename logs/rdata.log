@@ -361,3 +361,4 @@
 [2026-07-23 02:22:58] cforest_model - SHAP TIVM: 0.0019 
 [2026-07-23 02:22:58] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 02:23:59] SHAP - gozlem 5 / 15 
+[2026-07-23 02:25:45] SHAP - gozlem 10 / 15 
