@@ -395,3 +395,8 @@
 [2026-07-23 06:50:53] SHAP - gozlem 5 / 15 
 [2026-07-23 06:52:40] SHAP - gozlem 10 / 15 
 [2026-07-23 06:54:20] SHAP - gozlem 15 / 15 
+[2026-07-23 06:54:38] SHAP hesaplama bitti, kaydedildi: results/glmboost/whas500/shap_long.csv 
+[2026-07-23 06:54:39] Grafik kaydedildi: results/glmboost/whas500/plots/survshap_plot.png 
+[2026-07-23 06:54:39] SHAP ozeti kaydedildi: results/glmboost/whas500/shap_summary.csv 
+[2026-07-23 06:54:39] glmboost_model - SHAP TIVM: 0.0017 
+[2026-07-23 06:54:39] SHAP hesaplama basladi, n_obs = 15 
