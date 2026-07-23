@@ -837,3 +837,55 @@
 [2026-07-23 20:19:34] PFI ozeti kaydedildi: results/cforest/Rossi/vimp_summary.csv 
 [2026-07-23 20:19:34] cforest_model - PFI TIVM: 0.0021 
 [2026-07-23 20:19:34] PFI kaydedildi: results/coxboost/Rossi/vimp.rds 
+[2026-07-23 20:19:35] Grafik kaydedildi: results/coxboost/Rossi/plots/pfi_plot.png 
+[2026-07-23 20:19:35] PFI ozeti kaydedildi: results/coxboost/Rossi/vimp_summary.csv 
+[2026-07-23 20:19:35] coxboost_model - PFI TIVM: 0.0021 
+[2026-07-23 20:19:35] PFI kaydedildi: results/ctree/Rossi/vimp.rds 
+[2026-07-23 20:19:35] Grafik kaydedildi: results/ctree/Rossi/plots/pfi_plot.png 
+[2026-07-23 20:19:35] PFI ozeti kaydedildi: results/ctree/Rossi/vimp_summary.csv 
+[2026-07-23 20:19:35] ctree_model - PFI TIVM: 0.0036 
+[2026-07-23 20:19:35] PFI kaydedildi: results/glmboost/Rossi/vimp.rds 
+[2026-07-23 20:19:36] Grafik kaydedildi: results/glmboost/Rossi/plots/pfi_plot.png 
+[2026-07-23 20:19:36] PFI ozeti kaydedildi: results/glmboost/Rossi/vimp_summary.csv 
+[2026-07-23 20:19:36] glmboost_model - PFI TIVM: 9e-04 
+[2026-07-23 20:19:36] PFI kaydedildi: results/penalized/Rossi/vimp.rds 
+[2026-07-23 20:19:36] Grafik kaydedildi: results/penalized/Rossi/plots/pfi_plot.png 
+[2026-07-23 20:19:36] PFI ozeti kaydedildi: results/penalized/Rossi/vimp_summary.csv 
+[2026-07-23 20:19:36] penalized_model - PFI TIVM: 0.0019 
+[2026-07-23 20:19:36] PFI kaydedildi: results/ranger/Rossi/vimp.rds 
+[2026-07-23 20:19:37] Grafik kaydedildi: results/ranger/Rossi/plots/pfi_plot.png 
+[2026-07-23 20:19:37] PFI ozeti kaydedildi: results/ranger/Rossi/vimp_summary.csv 
+[2026-07-23 20:19:37] ranger_model - PFI TIVM: 0.0019 
+[2026-07-23 20:19:37] PFI kaydedildi: results/rfsrc/Rossi/vimp.rds 
+[2026-07-23 20:19:37] Grafik kaydedildi: results/rfsrc/Rossi/plots/pfi_plot.png 
+[2026-07-23 20:19:37] PFI ozeti kaydedildi: results/rfsrc/Rossi/vimp_summary.csv 
+[2026-07-23 20:19:37] rfsrc_model - PFI TIVM: 0.0019 
+[2026-07-23 20:19:37] PFI kaydedildi: results/xgboost_cox/Rossi/vimp.rds 
+[2026-07-23 20:19:38] Grafik kaydedildi: results/xgboost_cox/Rossi/plots/pfi_plot.png 
+[2026-07-23 20:19:38] PFI ozeti kaydedildi: results/xgboost_cox/Rossi/vimp_summary.csv 
+[2026-07-23 20:19:38] xgboost_cox_model - PFI TIVM: 0.0123 
+[2026-07-23 20:19:38] Kaydedilmis SHAP bulundu, okunuyor: results/cox/Rossi/shap_long.csv 
+[2026-07-23 20:19:39] Grafik kaydedildi: results/cox/Rossi/plots/survshap_plot.png 
+[2026-07-23 20:19:39] SHAP ozeti kaydedildi: results/cox/Rossi/shap_summary.csv 
+[2026-07-23 20:19:39] cox_model - SHAP TIVM: 0.0015 
+[2026-07-23 20:19:39] Kaydedilmis SHAP bulundu, okunuyor: results/cforest/Rossi/shap_long.csv 
+[2026-07-23 20:19:39] Grafik kaydedildi: results/cforest/Rossi/plots/survshap_plot.png 
+[2026-07-23 20:19:39] SHAP ozeti kaydedildi: results/cforest/Rossi/shap_summary.csv 
+[2026-07-23 20:19:39] cforest_model - SHAP TIVM: 0.0029 
+[2026-07-23 20:19:39] Kaydedilmis SHAP bulundu, okunuyor: results/coxboost/Rossi/shap_long.csv 
+[2026-07-23 20:19:39] Grafik kaydedildi: results/coxboost/Rossi/plots/survshap_plot.png 
+[2026-07-23 20:19:39] SHAP ozeti kaydedildi: results/coxboost/Rossi/shap_summary.csv 
+[2026-07-23 20:19:39] coxboost_model - SHAP TIVM: 0.0015 
+[2026-07-23 20:19:39] Kaydedilmis SHAP bulundu, okunuyor: results/ctree/Rossi/shap_long.csv 
+[2026-07-23 20:19:40] Grafik kaydedildi: results/ctree/Rossi/plots/survshap_plot.png 
+[2026-07-23 20:19:40] SHAP ozeti kaydedildi: results/ctree/Rossi/shap_summary.csv 
+[2026-07-23 20:19:40] ctree_model - SHAP TIVM: 0.0065 
+[2026-07-23 20:19:40] Kaydedilmis SHAP bulundu, okunuyor: results/glmboost/Rossi/shap_long.csv 
+[2026-07-23 20:19:40] Grafik kaydedildi: results/glmboost/Rossi/plots/survshap_plot.png 
+[2026-07-23 20:19:40] SHAP ozeti kaydedildi: results/glmboost/Rossi/shap_summary.csv 
+[2026-07-23 20:19:40] glmboost_model - SHAP TIVM: 7e-04 
+[2026-07-23 20:19:40] Kaydedilmis SHAP bulundu, okunuyor: results/penalized/Rossi/shap_long.csv 
+[2026-07-23 20:19:41] Grafik kaydedildi: results/penalized/Rossi/plots/survshap_plot.png 
+[2026-07-23 20:19:41] SHAP ozeti kaydedildi: results/penalized/Rossi/shap_summary.csv 
+[2026-07-23 20:19:41] penalized_model - SHAP TIVM: 0.002 
+[2026-07-23 20:19:41] SHAP hesaplama basladi, n_obs = 15 
