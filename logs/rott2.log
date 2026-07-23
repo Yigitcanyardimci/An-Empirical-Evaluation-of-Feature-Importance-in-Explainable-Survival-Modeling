@@ -646,3 +646,7 @@
 [2026-07-23 15:53:17] Explainer kuruluyor: cv_glmnet_model 
 [2026-07-23 15:53:59] Explainer kaydedildi: results/cv_glmnet/rott2/explainer.rds 
 [2026-07-23 15:53:59] Explainer kuruluyor: glmboost_model 
+[2026-07-23 15:54:41] Explainer kaydedildi: results/glmboost/rott2/explainer.rds 
+[2026-07-23 15:54:41] Explainer kuruluyor: glmnet_model 
+[2026-07-23 15:55:23] Explainer kaydedildi: results/glmnet/rott2/explainer.rds 
+[2026-07-23 15:55:23] Explainer kuruluyor: penalized_model 
