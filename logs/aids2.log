@@ -572,3 +572,6 @@
 [2026-07-23 08:05:48] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/aids2/explainer.rds 
 [2026-07-23 08:06:03] Kaydedilmis explainer bulundu, okunuyor: results/ctree/aids2/explainer.rds 
 [2026-07-23 08:06:17] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/aids2/explainer.rds 
+[2026-07-23 08:07:29] Kaydedilmis explainer bulundu, okunuyor: results/penalized/aids2/explainer.rds 
+[2026-07-23 08:07:43] Kaydedilmis explainer bulundu, okunuyor: results/ranger/aids2/explainer.rds 
+[2026-07-23 08:07:54] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/aids2/explainer.rds 

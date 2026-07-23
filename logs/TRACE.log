@@ -574,3 +574,4 @@
 [2026-07-23 08:05:49] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/TRACE/explainer.rds 
 [2026-07-23 08:06:02] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/TRACE/explainer.rds 
 [2026-07-23 08:06:14] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/TRACE/explainer.rds 
+[2026-07-23 08:06:25] Kaydedilmis explainer bulundu, okunuyor: results/penalized/TRACE/explainer.rds 
