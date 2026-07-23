@@ -260,3 +260,47 @@
 [2026-07-23 01:54:57] PFI hesaplaniyor: glmboost_model 
 [2026-07-23 01:55:21] PFI hesaplaniyor: penalized_model 
 [2026-07-23 01:55:47] PFI hesaplaniyor: ranger_model 
+[2026-07-23 01:57:19] PFI hesaplaniyor: rfsrc_model 
+[2026-07-23 01:58:02] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-23 01:58:31] Global aciklama (PFI) bitti 
+[2026-07-23 01:58:31] PFI kaydedildi: results/cox/Rossi/vimp.rds 
+[2026-07-23 01:58:32] Grafik kaydedildi: results/cox/Rossi/plots/pfi_plot.png 
+[2026-07-23 01:58:32] PFI ozeti kaydedildi: results/cox/Rossi/vimp_summary.csv 
+[2026-07-23 01:58:32] cox_model - PFI TIVM: 0.0021 
+[2026-07-23 01:58:32] PFI kaydedildi: results/cforest/Rossi/vimp.rds 
+[2026-07-23 01:58:34] Grafik kaydedildi: results/cforest/Rossi/plots/pfi_plot.png 
+[2026-07-23 01:58:34] PFI ozeti kaydedildi: results/cforest/Rossi/vimp_summary.csv 
+[2026-07-23 01:58:34] cforest_model - PFI TIVM: 0.0021 
+[2026-07-23 01:58:34] PFI kaydedildi: results/coxboost/Rossi/vimp.rds 
+[2026-07-23 01:58:34] Grafik kaydedildi: results/coxboost/Rossi/plots/pfi_plot.png 
+[2026-07-23 01:58:34] PFI ozeti kaydedildi: results/coxboost/Rossi/vimp_summary.csv 
+[2026-07-23 01:58:34] coxboost_model - PFI TIVM: 0.0021 
+[2026-07-23 01:58:34] PFI kaydedildi: results/cv_coxboost/Rossi/vimp.rds 
+[2026-07-23 01:58:35] Grafik kaydedildi: results/cv_coxboost/Rossi/plots/pfi_plot.png 
+[2026-07-23 01:58:35] PFI ozeti kaydedildi: results/cv_coxboost/Rossi/vimp_summary.csv 
+[2026-07-23 01:58:35] cv_coxboost_model - PFI TIVM: 8e-04 
+[2026-07-23 01:58:35] PFI kaydedildi: results/ctree/Rossi/vimp.rds 
+[2026-07-23 01:58:36] Grafik kaydedildi: results/ctree/Rossi/plots/pfi_plot.png 
+[2026-07-23 01:58:36] PFI ozeti kaydedildi: results/ctree/Rossi/vimp_summary.csv 
+[2026-07-23 01:58:36] ctree_model - PFI TIVM: 0.0047 
+[2026-07-23 01:58:36] PFI kaydedildi: results/glmboost/Rossi/vimp.rds 
+[2026-07-23 01:58:37] Grafik kaydedildi: results/glmboost/Rossi/plots/pfi_plot.png 
+[2026-07-23 01:58:37] PFI ozeti kaydedildi: results/glmboost/Rossi/vimp_summary.csv 
+[2026-07-23 01:58:37] glmboost_model - PFI TIVM: 7e-04 
+[2026-07-23 01:58:37] PFI kaydedildi: results/penalized/Rossi/vimp.rds 
+[2026-07-23 01:58:38] Grafik kaydedildi: results/penalized/Rossi/plots/pfi_plot.png 
+[2026-07-23 01:58:38] PFI ozeti kaydedildi: results/penalized/Rossi/vimp_summary.csv 
+[2026-07-23 01:58:38] penalized_model - PFI TIVM: 0.002 
+[2026-07-23 01:58:38] PFI kaydedildi: results/ranger/Rossi/vimp.rds 
+[2026-07-23 01:58:39] Grafik kaydedildi: results/ranger/Rossi/plots/pfi_plot.png 
+[2026-07-23 01:58:39] PFI ozeti kaydedildi: results/ranger/Rossi/vimp_summary.csv 
+[2026-07-23 01:58:39] ranger_model - PFI TIVM: 0.0018 
+[2026-07-23 01:58:39] PFI kaydedildi: results/rfsrc/Rossi/vimp.rds 
+[2026-07-23 01:58:40] Grafik kaydedildi: results/rfsrc/Rossi/plots/pfi_plot.png 
+[2026-07-23 01:58:40] PFI ozeti kaydedildi: results/rfsrc/Rossi/vimp_summary.csv 
+[2026-07-23 01:58:40] rfsrc_model - PFI TIVM: 0.002 
+[2026-07-23 01:58:40] PFI kaydedildi: results/xgboost_cox/Rossi/vimp.rds 
+[2026-07-23 01:58:41] Grafik kaydedildi: results/xgboost_cox/Rossi/plots/pfi_plot.png 
+[2026-07-23 01:58:41] PFI ozeti kaydedildi: results/xgboost_cox/Rossi/vimp_summary.csv 
+[2026-07-23 01:58:41] xgboost_cox_model - PFI TIVM: 0.0117 
+[2026-07-23 01:58:41] SHAP hesaplama basladi, n_obs = 15 

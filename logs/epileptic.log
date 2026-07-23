@@ -304,3 +304,4 @@
 [2026-07-23 01:56:27] PFI ozeti kaydedildi: results/xgboost_cox/epileptic/vimp_summary.csv 
 [2026-07-23 01:56:27] xgboost_cox_model - PFI TIVM: 0.0104 
 [2026-07-23 01:56:27] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 01:58:38] SHAP - gozlem 5 / 15 
