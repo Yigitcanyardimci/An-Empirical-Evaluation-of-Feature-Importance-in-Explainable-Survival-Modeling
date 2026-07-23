@@ -865,3 +865,7 @@
 [2026-07-23 20:10:15] Performans kaydedildi: results/xgboost_cox/rott2/performance.csv 
 [2026-07-23 20:10:15] Global aciklama (PFI) basladi 
 [2026-07-23 20:10:15] Kaydedilmis explainer bulundu, okunuyor: results/cox/rott2/explainer.rds 
+[2026-07-23 20:10:32] Kaydedilmis explainer bulundu, okunuyor: results/cforest/rott2/explainer.rds 
+[2026-07-23 20:10:51] Explainer kuruluyor: coxboost_model 
+[2026-07-23 20:11:32] Explainer kaydedildi: results/coxboost/rott2/explainer.rds 
+[2026-07-23 20:11:32] Kaydedilmis explainer bulundu, okunuyor: results/ctree/rott2/explainer.rds 
