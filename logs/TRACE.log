@@ -564,3 +564,13 @@
 [2026-07-23 08:04:42] Performans hesaplama bitti: surv.rfsrc - cindex: 0.737 - IBS (graf): 0.166 
 [2026-07-23 08:04:42] Performans kaydedildi: results/rfsrc/TRACE/performance.csv 
 [2026-07-23 08:04:42] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-23 08:04:52] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.69 - IBS (graf): 0.243 
+[2026-07-23 08:04:52] Performans kaydedildi: results/xgboost_cox/TRACE/performance.csv 
+[2026-07-23 08:04:52] Global aciklama (PFI) basladi 
+[2026-07-23 08:04:52] Kaydedilmis explainer bulundu, okunuyor: results/cox/TRACE/explainer.rds 
+[2026-07-23 08:05:05] Kaydedilmis explainer bulundu, okunuyor: results/cforest/TRACE/explainer.rds 
+[2026-07-23 08:05:18] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/TRACE/explainer.rds 
+[2026-07-23 08:05:33] Kaydedilmis explainer bulundu, okunuyor: results/ctree/TRACE/explainer.rds 
+[2026-07-23 08:05:49] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/TRACE/explainer.rds 
+[2026-07-23 08:06:02] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/TRACE/explainer.rds 
+[2026-07-23 08:06:14] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/TRACE/explainer.rds 
