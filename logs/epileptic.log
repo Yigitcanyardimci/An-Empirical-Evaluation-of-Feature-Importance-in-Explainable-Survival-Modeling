@@ -330,3 +330,9 @@
 [2026-07-23 02:49:52] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 02:52:07] SHAP - gozlem 5 / 15 
 [2026-07-23 02:54:41] SHAP - gozlem 10 / 15 
+[2026-07-23 02:56:34] SHAP - gozlem 15 / 15 
+[2026-07-23 02:57:08] SHAP hesaplama bitti, kaydedildi: results/cv_coxboost/epileptic/shap_long.csv 
+[2026-07-23 02:57:08] Grafik kaydedildi: results/cv_coxboost/epileptic/plots/survshap_plot.png 
+[2026-07-23 02:57:09] SHAP ozeti kaydedildi: results/cv_coxboost/epileptic/shap_summary.csv 
+[2026-07-23 02:57:09] cv_coxboost_model - SHAP TIVM: 0.0018 
+[2026-07-23 02:57:09] SHAP hesaplama basladi, n_obs = 15 
