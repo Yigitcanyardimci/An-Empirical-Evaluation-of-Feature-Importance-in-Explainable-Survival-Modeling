@@ -211,3 +211,15 @@
 [2026-07-23 01:36:29] Performans hesaplama bitti: surv.coxboost - cindex: 0.733 - IBS (graf): 0.137 
 [2026-07-23 01:36:29] Performans kaydedildi: results/coxboost/csl/performance.csv 
 [2026-07-23 01:36:29] Performans hesaplama basladi: surv.cv_coxboost 
+[2026-07-23 01:38:15] Performans hesaplama bitti: surv.cv_coxboost - cindex: 0.682 - IBS (graf): 0.148 
+[2026-07-23 01:38:15] Performans kaydedildi: results/cv_coxboost/csl/performance.csv 
+[2026-07-23 01:38:15] Performans hesaplama basladi: surv.ctree 
+[2026-07-23 01:38:23] Performans hesaplama bitti: surv.ctree - cindex: 0.702 - IBS (graf): 0.166 
+[2026-07-23 01:38:23] Performans kaydedildi: results/ctree/csl/performance.csv 
+[2026-07-23 01:38:23] Performans hesaplama basladi: surv.glmboost 
+[2026-07-23 01:38:30] Performans hesaplama bitti: surv.glmboost - cindex: 0.705 - IBS (graf): 0.14 
+[2026-07-23 01:38:30] Performans kaydedildi: results/glmboost/csl/performance.csv 
+[2026-07-23 01:38:30] Performans hesaplama basladi: surv.penalized 
+[2026-07-23 01:38:33] Performans hesaplama bitti: surv.penalized - cindex: 0.732 - IBS (graf): 0.136 
+[2026-07-23 01:38:33] Performans kaydedildi: results/penalized/csl/performance.csv 
+[2026-07-23 01:38:33] Performans hesaplama basladi: surv.ranger 

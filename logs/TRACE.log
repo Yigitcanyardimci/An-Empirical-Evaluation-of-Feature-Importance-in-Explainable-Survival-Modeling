@@ -210,3 +210,9 @@
 [2026-07-23 01:36:28] Performans hesaplama bitti: surv.aorsf - cindex: 0.74 - IBS (graf): 0.165 
 [2026-07-23 01:36:28] Performans kaydedildi: results/aorsf/TRACE/performance.csv 
 [2026-07-23 01:36:28] Performans hesaplama basladi: surv.cforest 
+[2026-07-23 01:37:40] Performans hesaplama bitti: surv.cforest - cindex: 0.74 - IBS (graf): 0.164 
+[2026-07-23 01:37:40] Performans kaydedildi: results/cforest/TRACE/performance.csv 
+[2026-07-23 01:37:40] Performans hesaplama basladi: surv.coxboost 
+[2026-07-23 01:37:59] Performans hesaplama bitti: surv.coxboost - cindex: 0.742 - IBS (graf): 0.163 
+[2026-07-23 01:37:59] Performans kaydedildi: results/coxboost/TRACE/performance.csv 
+[2026-07-23 01:37:59] Performans hesaplama basladi: surv.cv_coxboost 
