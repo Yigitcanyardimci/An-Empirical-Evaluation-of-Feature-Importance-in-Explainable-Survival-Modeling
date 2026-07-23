@@ -378,3 +378,20 @@
 [2026-07-23 03:39:18] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 03:41:03] SHAP - gozlem 5 / 15 
 [2026-07-23 03:43:13] SHAP - gozlem 10 / 15 
+[2026-07-23 03:45:24] SHAP - gozlem 15 / 15 
+[2026-07-23 03:45:50] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/FRTCS/shap_long.csv 
+[2026-07-23 03:45:51] Grafik kaydedildi: results/xgboost_cox/FRTCS/plots/survshap_plot.png 
+[2026-07-23 03:45:51] SHAP ozeti kaydedildi: results/xgboost_cox/FRTCS/shap_summary.csv 
+[2026-07-23 03:45:51] xgboost_cox_model - SHAP TIVM: 0.0016 
+[2026-07-23 03:45:51] ===== BITTI: FRTCS + cox - cindex: 0.698 - PFI TIVM: 0.0011 - SHAP TIVM: 7e-04 ===== 
+[2026-07-23 03:45:51] ===== BITTI: FRTCS + cforest - cindex: 0.529 - PFI TIVM: 0.0037 - SHAP TIVM: 0.0015 ===== 
+[2026-07-23 03:45:51] ===== BITTI: FRTCS + coxboost - cindex: 0.713 - PFI TIVM: 9e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-07-23 03:45:51] ===== BITTI: FRTCS + cv_coxboost - cindex: 0.698 - PFI TIVM: 5e-04 - SHAP TIVM: 3e-04 ===== 
+[2026-07-23 03:45:51] ===== BITTI: FRTCS + ctree - cindex: 0.644 - PFI TIVM: 0.0022 - SHAP TIVM: 0.0024 ===== 
+[2026-07-23 03:45:51] ===== BITTI: FRTCS + glmboost - cindex: 0.698 - PFI TIVM: 2e-04 - SHAP TIVM: 1e-04 ===== 
+[2026-07-23 03:45:51] ===== BITTI: FRTCS + penalized - cindex: 0.697 - PFI TIVM: 9e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-07-23 03:45:51] ===== BITTI: FRTCS + ranger - cindex: 0.497 - PFI TIVM: 0.0013 - SHAP TIVM: 9e-04 ===== 
+[2026-07-23 03:45:51] ===== BITTI: FRTCS + rfsrc - cindex: 0.524 - PFI TIVM: 0.0017 - SHAP TIVM: 0.0012 ===== 
+[2026-07-23 03:45:51] ===== BITTI: FRTCS + xgboost_cox - cindex: 0.486 - PFI TIVM: 0.0088 - SHAP TIVM: 0.0016 ===== 
+[2026-07-23 03:45:51] ----- Veri seti bitti: FRTCS ----- 
+[2026-07-23 03:45:51] ===== RUN ( FRTCS ) TAMAMLANDI ===== 
