@@ -650,3 +650,7 @@
 [2026-07-23 15:54:41] Explainer kuruluyor: glmnet_model 
 [2026-07-23 15:55:23] Explainer kaydedildi: results/glmnet/rott2/explainer.rds 
 [2026-07-23 15:55:23] Explainer kuruluyor: penalized_model 
+[2026-07-23 15:56:05] Explainer kaydedildi: results/penalized/rott2/explainer.rds 
+[2026-07-23 15:56:05] Explainer kuruluyor: ranger_model 
+[2026-07-23 15:56:50] Explainer kaydedildi: results/ranger/rott2/explainer.rds 
+[2026-07-23 15:56:50] Explainer kuruluyor: rfsrc_model 
