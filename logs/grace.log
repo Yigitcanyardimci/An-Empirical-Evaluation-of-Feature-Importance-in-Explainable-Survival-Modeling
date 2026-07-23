@@ -282,3 +282,60 @@
 [2026-07-23 01:47:35] PFI hesaplaniyor: ranger_model 
 [2026-07-23 01:49:44] PFI hesaplaniyor: rfsrc_model 
 [2026-07-23 01:50:19] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-23 01:50:40] Global aciklama (PFI) bitti 
+[2026-07-23 01:50:40] PFI kaydedildi: results/cox/grace/vimp.rds 
+[2026-07-23 01:50:41] Grafik kaydedildi: results/cox/grace/plots/pfi_plot.png 
+[2026-07-23 01:50:41] PFI ozeti kaydedildi: results/cox/grace/vimp_summary.csv 
+[2026-07-23 01:50:41] cox_model - PFI TIVM: 0.002 
+[2026-07-23 01:50:41] PFI kaydedildi: results/aorsf/grace/vimp.rds 
+[2026-07-23 01:50:43] Grafik kaydedildi: results/aorsf/grace/plots/pfi_plot.png 
+[2026-07-23 01:50:43] PFI ozeti kaydedildi: results/aorsf/grace/vimp_summary.csv 
+[2026-07-23 01:50:43] aorsf_model - PFI TIVM: 0.0024 
+[2026-07-23 01:50:43] PFI kaydedildi: results/cforest/grace/vimp.rds 
+[2026-07-23 01:50:44] Grafik kaydedildi: results/cforest/grace/plots/pfi_plot.png 
+[2026-07-23 01:50:44] PFI ozeti kaydedildi: results/cforest/grace/vimp_summary.csv 
+[2026-07-23 01:50:44] cforest_model - PFI TIVM: 0.0021 
+[2026-07-23 01:50:44] PFI kaydedildi: results/coxboost/grace/vimp.rds 
+[2026-07-23 01:50:44] Grafik kaydedildi: results/coxboost/grace/plots/pfi_plot.png 
+[2026-07-23 01:50:44] PFI ozeti kaydedildi: results/coxboost/grace/vimp_summary.csv 
+[2026-07-23 01:50:44] coxboost_model - PFI TIVM: 0.0019 
+[2026-07-23 01:50:44] PFI kaydedildi: results/cv_coxboost/grace/vimp.rds 
+[2026-07-23 01:50:45] Grafik kaydedildi: results/cv_coxboost/grace/plots/pfi_plot.png 
+[2026-07-23 01:50:45] PFI ozeti kaydedildi: results/cv_coxboost/grace/vimp_summary.csv 
+[2026-07-23 01:50:45] cv_coxboost_model - PFI TIVM: 0.001 
+[2026-07-23 01:50:45] PFI kaydedildi: results/ctree/grace/vimp.rds 
+[2026-07-23 01:50:46] Grafik kaydedildi: results/ctree/grace/plots/pfi_plot.png 
+[2026-07-23 01:50:46] PFI ozeti kaydedildi: results/ctree/grace/vimp_summary.csv 
+[2026-07-23 01:50:46] ctree_model - PFI TIVM: 0.0016 
+[2026-07-23 01:50:46] PFI kaydedildi: results/cv_glmnet/grace/vimp.rds 
+[2026-07-23 01:50:47] Grafik kaydedildi: results/cv_glmnet/grace/plots/pfi_plot.png 
+[2026-07-23 01:50:47] PFI ozeti kaydedildi: results/cv_glmnet/grace/vimp_summary.csv 
+[2026-07-23 01:50:47] cv_glmnet_model - PFI TIVM: 8e-04 
+[2026-07-23 01:50:47] PFI kaydedildi: results/glmboost/grace/vimp.rds 
+[2026-07-23 01:50:48] Grafik kaydedildi: results/glmboost/grace/plots/pfi_plot.png 
+[2026-07-23 01:50:48] PFI ozeti kaydedildi: results/glmboost/grace/vimp_summary.csv 
+[2026-07-23 01:50:48] glmboost_model - PFI TIVM: 0.0016 
+[2026-07-23 01:50:48] PFI kaydedildi: results/glmnet/grace/vimp.rds 
+[2026-07-23 01:50:49] Grafik kaydedildi: results/glmnet/grace/plots/pfi_plot.png 
+[2026-07-23 01:50:49] PFI ozeti kaydedildi: results/glmnet/grace/vimp_summary.csv 
+[2026-07-23 01:50:49] glmnet_model - PFI TIVM: 0.0018 
+[2026-07-23 01:50:49] PFI kaydedildi: results/penalized/grace/vimp.rds 
+[2026-07-23 01:50:50] Grafik kaydedildi: results/penalized/grace/plots/pfi_plot.png 
+[2026-07-23 01:50:50] PFI ozeti kaydedildi: results/penalized/grace/vimp_summary.csv 
+[2026-07-23 01:50:50] penalized_model - PFI TIVM: 0.0018 
+[2026-07-23 01:50:50] PFI kaydedildi: results/ranger/grace/vimp.rds 
+[2026-07-23 01:50:50] Grafik kaydedildi: results/ranger/grace/plots/pfi_plot.png 
+[2026-07-23 01:50:51] PFI ozeti kaydedildi: results/ranger/grace/vimp_summary.csv 
+[2026-07-23 01:50:51] ranger_model - PFI TIVM: 0.0029 
+[2026-07-23 01:50:51] PFI kaydedildi: results/rfsrc/grace/vimp.rds 
+[2026-07-23 01:50:51] Grafik kaydedildi: results/rfsrc/grace/plots/pfi_plot.png 
+[2026-07-23 01:50:51] PFI ozeti kaydedildi: results/rfsrc/grace/vimp_summary.csv 
+[2026-07-23 01:50:51] rfsrc_model - PFI TIVM: 0.0024 
+[2026-07-23 01:50:51] PFI kaydedildi: results/xgboost_cox/grace/vimp.rds 
+[2026-07-23 01:50:52] Grafik kaydedildi: results/xgboost_cox/grace/plots/pfi_plot.png 
+[2026-07-23 01:50:52] PFI ozeti kaydedildi: results/xgboost_cox/grace/vimp_summary.csv 
+[2026-07-23 01:50:52] xgboost_cox_model - PFI TIVM: 0.0057 
+[2026-07-23 01:50:52] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 01:51:15] SHAP - gozlem 5 / 15 
+[2026-07-23 01:51:38] SHAP - gozlem 10 / 15 
+[2026-07-23 01:51:56] SHAP - gozlem 15 / 15 
