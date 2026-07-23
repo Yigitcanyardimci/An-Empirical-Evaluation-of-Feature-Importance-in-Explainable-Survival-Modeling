@@ -633,3 +633,91 @@
 [2026-07-23 08:09:36] PFI hesaplaniyor: glmnet_model 
 [2026-07-23 08:10:04] PFI hesaplaniyor: penalized_model 
 [2026-07-23 08:10:24] PFI hesaplaniyor: ranger_model 
+[2026-07-23 08:11:25] PFI hesaplaniyor: rfsrc_model 
+[2026-07-23 08:11:54] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-23 08:12:17] Global aciklama (PFI) bitti 
+[2026-07-23 08:12:18] PFI kaydedildi: results/cox/zinc/vimp.rds 
+[2026-07-23 08:12:20] Grafik kaydedildi: results/cox/zinc/plots/pfi_plot.png 
+[2026-07-23 08:12:20] PFI ozeti kaydedildi: results/cox/zinc/vimp_summary.csv 
+[2026-07-23 08:12:20] cox_model - PFI TIVM: 0.0043 
+[2026-07-23 08:12:20] PFI kaydedildi: results/cforest/zinc/vimp.rds 
+[2026-07-23 08:12:21] Grafik kaydedildi: results/cforest/zinc/plots/pfi_plot.png 
+[2026-07-23 08:12:21] PFI ozeti kaydedildi: results/cforest/zinc/vimp_summary.csv 
+[2026-07-23 08:12:21] cforest_model - PFI TIVM: 0.0016 
+[2026-07-23 08:12:21] PFI kaydedildi: results/coxboost/zinc/vimp.rds 
+[2026-07-23 08:12:22] Grafik kaydedildi: results/coxboost/zinc/plots/pfi_plot.png 
+[2026-07-23 08:12:22] PFI ozeti kaydedildi: results/coxboost/zinc/vimp_summary.csv 
+[2026-07-23 08:12:22] coxboost_model - PFI TIVM: 0.0026 
+[2026-07-23 08:12:22] PFI kaydedildi: results/ctree/zinc/vimp.rds 
+[2026-07-23 08:12:22] Grafik kaydedildi: results/ctree/zinc/plots/pfi_plot.png 
+[2026-07-23 08:12:22] PFI ozeti kaydedildi: results/ctree/zinc/vimp_summary.csv 
+[2026-07-23 08:12:22] ctree_model - PFI TIVM: 0.0041 
+[2026-07-23 08:12:22] PFI kaydedildi: results/cv_glmnet/zinc/vimp.rds 
+[2026-07-23 08:12:23] Grafik kaydedildi: results/cv_glmnet/zinc/plots/pfi_plot.png 
+[2026-07-23 08:12:23] PFI ozeti kaydedildi: results/cv_glmnet/zinc/vimp_summary.csv 
+[2026-07-23 08:12:23] cv_glmnet_model - PFI TIVM: 0 
+[2026-07-23 08:12:23] PFI kaydedildi: results/glmboost/zinc/vimp.rds 
+[2026-07-23 08:12:23] Grafik kaydedildi: results/glmboost/zinc/plots/pfi_plot.png 
+[2026-07-23 08:12:23] PFI ozeti kaydedildi: results/glmboost/zinc/vimp_summary.csv 
+[2026-07-23 08:12:23] glmboost_model - PFI TIVM: 0.0025 
+[2026-07-23 08:12:23] PFI kaydedildi: results/glmnet/zinc/vimp.rds 
+[2026-07-23 08:12:24] Grafik kaydedildi: results/glmnet/zinc/plots/pfi_plot.png 
+[2026-07-23 08:12:24] PFI ozeti kaydedildi: results/glmnet/zinc/vimp_summary.csv 
+[2026-07-23 08:12:24] glmnet_model - PFI TIVM: 0.0024 
+[2026-07-23 08:12:24] PFI kaydedildi: results/penalized/zinc/vimp.rds 
+[2026-07-23 08:12:24] Grafik kaydedildi: results/penalized/zinc/plots/pfi_plot.png 
+[2026-07-23 08:12:24] PFI ozeti kaydedildi: results/penalized/zinc/vimp_summary.csv 
+[2026-07-23 08:12:24] penalized_model - PFI TIVM: 0 
+[2026-07-23 08:12:24] PFI kaydedildi: results/ranger/zinc/vimp.rds 
+[2026-07-23 08:12:25] Grafik kaydedildi: results/ranger/zinc/plots/pfi_plot.png 
+[2026-07-23 08:12:25] PFI ozeti kaydedildi: results/ranger/zinc/vimp_summary.csv 
+[2026-07-23 08:12:25] ranger_model - PFI TIVM: 0.0022 
+[2026-07-23 08:12:25] PFI kaydedildi: results/rfsrc/zinc/vimp.rds 
+[2026-07-23 08:12:26] Grafik kaydedildi: results/rfsrc/zinc/plots/pfi_plot.png 
+[2026-07-23 08:12:26] PFI ozeti kaydedildi: results/rfsrc/zinc/vimp_summary.csv 
+[2026-07-23 08:12:26] rfsrc_model - PFI TIVM: 0.0021 
+[2026-07-23 08:12:26] PFI kaydedildi: results/xgboost_cox/zinc/vimp.rds 
+[2026-07-23 08:12:26] Grafik kaydedildi: results/xgboost_cox/zinc/plots/pfi_plot.png 
+[2026-07-23 08:12:26] PFI ozeti kaydedildi: results/xgboost_cox/zinc/vimp_summary.csv 
+[2026-07-23 08:12:26] xgboost_cox_model - PFI TIVM: 0.0059 
+[2026-07-23 08:12:26] Kaydedilmis SHAP bulundu, okunuyor: results/cox/zinc/shap_long.csv 
+[2026-07-23 08:12:27] Grafik kaydedildi: results/cox/zinc/plots/survshap_plot.png 
+[2026-07-23 08:12:27] SHAP ozeti kaydedildi: results/cox/zinc/shap_summary.csv 
+[2026-07-23 08:12:27] cox_model - SHAP TIVM: 0.0017 
+[2026-07-23 08:12:27] Kaydedilmis SHAP bulundu, okunuyor: results/cforest/zinc/shap_long.csv 
+[2026-07-23 08:12:27] Grafik kaydedildi: results/cforest/zinc/plots/survshap_plot.png 
+[2026-07-23 08:12:27] SHAP ozeti kaydedildi: results/cforest/zinc/shap_summary.csv 
+[2026-07-23 08:12:27] cforest_model - SHAP TIVM: 0.0013 
+[2026-07-23 08:12:27] Kaydedilmis SHAP bulundu, okunuyor: results/coxboost/zinc/shap_long.csv 
+[2026-07-23 08:12:28] Grafik kaydedildi: results/coxboost/zinc/plots/survshap_plot.png 
+[2026-07-23 08:12:28] SHAP ozeti kaydedildi: results/coxboost/zinc/shap_summary.csv 
+[2026-07-23 08:12:28] coxboost_model - SHAP TIVM: 0.001 
+[2026-07-23 08:12:28] Kaydedilmis SHAP bulundu, okunuyor: results/ctree/zinc/shap_long.csv 
+[2026-07-23 08:12:28] Grafik kaydedildi: results/ctree/zinc/plots/survshap_plot.png 
+[2026-07-23 08:12:28] SHAP ozeti kaydedildi: results/ctree/zinc/shap_summary.csv 
+[2026-07-23 08:12:28] ctree_model - SHAP TIVM: 0.0033 
+[2026-07-23 08:12:28] Kaydedilmis SHAP bulundu, okunuyor: results/cv_glmnet/zinc/shap_long.csv 
+[2026-07-23 08:12:29] Grafik kaydedildi: results/cv_glmnet/zinc/plots/survshap_plot.png 
+[2026-07-23 08:12:29] SHAP ozeti kaydedildi: results/cv_glmnet/zinc/shap_summary.csv 
+[2026-07-23 08:12:29] cv_glmnet_model - SHAP TIVM: 0 
+[2026-07-23 08:12:29] Kaydedilmis SHAP bulundu, okunuyor: results/glmboost/zinc/shap_long.csv 
+[2026-07-23 08:12:30] Grafik kaydedildi: results/glmboost/zinc/plots/survshap_plot.png 
+[2026-07-23 08:12:30] SHAP ozeti kaydedildi: results/glmboost/zinc/shap_summary.csv 
+[2026-07-23 08:12:30] glmboost_model - SHAP TIVM: 0.0013 
+[2026-07-23 08:12:30] Kaydedilmis SHAP bulundu, okunuyor: results/glmnet/zinc/shap_long.csv 
+[2026-07-23 08:12:30] Grafik kaydedildi: results/glmnet/zinc/plots/survshap_plot.png 
+[2026-07-23 08:12:30] SHAP ozeti kaydedildi: results/glmnet/zinc/shap_summary.csv 
+[2026-07-23 08:12:30] glmnet_model - SHAP TIVM: 0.0011 
+[2026-07-23 08:12:30] Kaydedilmis SHAP bulundu, okunuyor: results/penalized/zinc/shap_long.csv 
+[2026-07-23 08:12:31] Grafik kaydedildi: results/penalized/zinc/plots/survshap_plot.png 
+[2026-07-23 08:12:31] SHAP ozeti kaydedildi: results/penalized/zinc/shap_summary.csv 
+[2026-07-23 08:12:31] penalized_model - SHAP TIVM: 0 
+[2026-07-23 08:12:31] Kaydedilmis SHAP bulundu, okunuyor: results/ranger/zinc/shap_long.csv 
+[2026-07-23 08:12:31] Grafik kaydedildi: results/ranger/zinc/plots/survshap_plot.png 
+[2026-07-23 08:12:31] SHAP ozeti kaydedildi: results/ranger/zinc/shap_summary.csv 
+[2026-07-23 08:12:31] ranger_model - SHAP TIVM: 0.0014 
+[2026-07-23 08:12:31] Kaydedilmis SHAP bulundu, okunuyor: results/rfsrc/zinc/shap_long.csv 
+[2026-07-23 08:12:32] Grafik kaydedildi: results/rfsrc/zinc/plots/survshap_plot.png 
+[2026-07-23 08:12:32] SHAP ozeti kaydedildi: results/rfsrc/zinc/shap_summary.csv 
+[2026-07-23 08:12:32] rfsrc_model - SHAP TIVM: 0.0013 
+[2026-07-23 08:12:32] SHAP hesaplama basladi, n_obs = 15 
