@@ -255,3 +255,4 @@
 [2026-07-23 01:56:40] PFI hesaplaniyor: cox_model 
 [2026-07-23 02:00:32] PFI hesaplaniyor: cforest_model 
 [2026-07-23 02:29:12] PFI hesaplaniyor: coxboost_model 
+[2026-07-23 02:33:19] PFI hesaplaniyor: cv_coxboost_model 

@@ -416,3 +416,4 @@
 [2026-07-23 02:29:11] SHAP ozeti kaydedildi: results/penalized/retinopathy/shap_summary.csv 
 [2026-07-23 02:29:11] penalized_model - SHAP TIVM: 0.0017 
 [2026-07-23 02:29:11] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 02:33:10] SHAP - gozlem 5 / 15 
