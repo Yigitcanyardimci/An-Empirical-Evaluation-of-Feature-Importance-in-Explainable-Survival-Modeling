@@ -354,3 +354,9 @@
 [2026-07-23 03:08:22] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 03:08:56] SHAP - gozlem 5 / 15 
 [2026-07-23 03:09:40] SHAP - gozlem 10 / 15 
+[2026-07-23 03:10:25] SHAP - gozlem 15 / 15 
+[2026-07-23 03:10:34] SHAP hesaplama bitti, kaydedildi: results/penalized/epileptic/shap_long.csv 
+[2026-07-23 03:10:35] Grafik kaydedildi: results/penalized/epileptic/plots/survshap_plot.png 
+[2026-07-23 03:10:35] SHAP ozeti kaydedildi: results/penalized/epileptic/shap_summary.csv 
+[2026-07-23 03:10:35] penalized_model - SHAP TIVM: 0.0121 
+[2026-07-23 03:10:35] SHAP hesaplama basladi, n_obs = 15 
