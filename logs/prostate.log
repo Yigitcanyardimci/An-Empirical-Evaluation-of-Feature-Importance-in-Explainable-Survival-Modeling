@@ -339,3 +339,8 @@
 [2026-07-23 07:29:54] SHAP - gozlem 5 / 15 
 [2026-07-23 07:43:03] SHAP - gozlem 10 / 15 
 [2026-07-23 07:54:26] SHAP - gozlem 15 / 15 
+[2026-07-23 07:58:06] SHAP hesaplama bitti, kaydedildi: results/ctree/prostate/shap_long.csv 
+[2026-07-23 07:58:07] Grafik kaydedildi: results/ctree/prostate/plots/survshap_plot.png 
+[2026-07-23 07:58:07] SHAP ozeti kaydedildi: results/ctree/prostate/shap_summary.csv 
+[2026-07-23 07:58:07] ctree_model - SHAP TIVM: 0.0057 
+[2026-07-23 07:58:07] SHAP hesaplama basladi, n_obs = 15 
