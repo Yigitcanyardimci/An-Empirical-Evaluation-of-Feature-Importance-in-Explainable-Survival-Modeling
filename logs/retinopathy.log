@@ -400,3 +400,4 @@
 [2026-07-23 02:23:02] SHAP ozeti kaydedildi: results/glmboost/retinopathy/shap_summary.csv 
 [2026-07-23 02:23:02] glmboost_model - SHAP TIVM: 0.0018 
 [2026-07-23 02:23:02] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 02:24:08] SHAP - gozlem 5 / 15 
