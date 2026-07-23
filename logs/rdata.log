@@ -410,3 +410,9 @@
 [2026-07-23 02:46:45] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 02:47:08] SHAP - gozlem 5 / 15 
 [2026-07-23 02:47:44] SHAP - gozlem 10 / 15 
+[2026-07-23 02:48:23] SHAP - gozlem 15 / 15 
+[2026-07-23 02:48:33] SHAP hesaplama bitti, kaydedildi: results/penalized/rdata/shap_long.csv 
+[2026-07-23 02:48:33] Grafik kaydedildi: results/penalized/rdata/plots/survshap_plot.png 
+[2026-07-23 02:48:33] SHAP ozeti kaydedildi: results/penalized/rdata/shap_summary.csv 
+[2026-07-23 02:48:33] penalized_model - SHAP TIVM: 0.0015 
+[2026-07-23 02:48:33] SHAP hesaplama basladi, n_obs = 15 
