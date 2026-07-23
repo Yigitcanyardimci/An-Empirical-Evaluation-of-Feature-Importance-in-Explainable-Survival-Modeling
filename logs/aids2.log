@@ -536,3 +536,13 @@
 [2026-07-23 08:01:45] HATA: model egitilemedi - glmnet - Non-positive event times encountered; not permitted for Cox family 
 [2026-07-23 08:01:45] Kaydedilmis model bulundu, okunuyor: results/penalized/aids2/model.rds 
 [2026-07-23 08:01:45] Kaydedilmis model bulundu, okunuyor: results/ranger/aids2/model.rds 
+[2026-07-23 08:01:49] Kaydedilmis model bulundu, okunuyor: results/rfsrc/aids2/model.rds 
+[2026-07-23 08:02:02] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/aids2/model.rds 
+[2026-07-23 08:02:02] UYARI: su modeller basarisiz oldu, analiz disi birakildi: cv_glmnet_model, glmnet_model 
+[2026-07-23 08:02:02] Performans hesaplama basladi: surv.coxph 
+[2026-07-23 08:02:13] Performans hesaplama bitti: surv.coxph - cindex: 0.534 - IBS (graf): 0.186 
+[2026-07-23 08:02:13] Performans kaydedildi: results/cox/aids2/performance.csv 
+[2026-07-23 08:02:13] Performans hesaplama basladi: surv.cforest 
+[2026-07-23 08:03:09] Performans hesaplama bitti: surv.cforest - cindex: 0.558 - IBS (graf): 0.196 
+[2026-07-23 08:03:09] Performans kaydedildi: results/cforest/aids2/performance.csv 
+[2026-07-23 08:03:09] Performans hesaplama basladi: surv.coxboost 

@@ -531,3 +531,21 @@
 [2026-07-23 08:01:42] Kaydedilmis model bulundu, okunuyor: results/glmnet/TRACE/model.rds 
 [2026-07-23 08:01:42] Kaydedilmis model bulundu, okunuyor: results/penalized/TRACE/model.rds 
 [2026-07-23 08:01:42] Kaydedilmis model bulundu, okunuyor: results/ranger/TRACE/model.rds 
+[2026-07-23 08:01:48] Kaydedilmis model bulundu, okunuyor: results/rfsrc/TRACE/model.rds 
+[2026-07-23 08:01:57] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/TRACE/model.rds 
+[2026-07-23 08:01:57] Performans hesaplama basladi: surv.coxph 
+[2026-07-23 08:02:06] Performans hesaplama bitti: surv.coxph - cindex: 0.741 - IBS (graf): 0.163 
+[2026-07-23 08:02:06] Performans kaydedildi: results/cox/TRACE/performance.csv 
+[2026-07-23 08:02:06] Performans hesaplama basladi: surv.cforest 
+[2026-07-23 08:02:51] Performans hesaplama bitti: surv.cforest - cindex: 0.74 - IBS (graf): 0.164 
+[2026-07-23 08:02:51] Performans kaydedildi: results/cforest/TRACE/performance.csv 
+[2026-07-23 08:02:51] Performans hesaplama basladi: surv.coxboost 
+[2026-07-23 08:03:02] Performans hesaplama bitti: surv.coxboost - cindex: 0.742 - IBS (graf): 0.163 
+[2026-07-23 08:03:02] Performans kaydedildi: results/coxboost/TRACE/performance.csv 
+[2026-07-23 08:03:02] Performans hesaplama basladi: surv.ctree 
+[2026-07-23 08:03:08] Performans hesaplama bitti: surv.ctree - cindex: 0.714 - IBS (graf): 0.174 
+[2026-07-23 08:03:08] Performans kaydedildi: results/ctree/TRACE/performance.csv 
+[2026-07-23 08:03:08] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-07-23 08:03:15] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.734 - IBS (graf): 0.177 
+[2026-07-23 08:03:15] Performans kaydedildi: results/cv_glmnet/TRACE/performance.csv 
+[2026-07-23 08:03:15] Performans hesaplama basladi: surv.glmboost 

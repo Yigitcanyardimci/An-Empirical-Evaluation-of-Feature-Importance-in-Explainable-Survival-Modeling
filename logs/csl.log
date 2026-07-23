@@ -522,3 +522,21 @@
 [2026-07-23 08:01:45] Model egitimi basladi ( cv_glmnet ) 
 [2026-07-23 08:01:45] HATA: model egitilemedi - cv_glmnet - Non-positive event times encountered; not permitted for Cox family 
 [2026-07-23 08:01:45] Kaydedilmis model bulundu, okunuyor: results/glmboost/csl/model.rds 
+[2026-07-23 08:01:45] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 08:01:45] Model egitimi basladi ( glmnet ) 
+[2026-07-23 08:01:45] HATA: model egitilemedi - glmnet - Non-positive event times encountered; not permitted for Cox family 
+[2026-07-23 08:01:45] Kaydedilmis model bulundu, okunuyor: results/penalized/csl/model.rds 
+[2026-07-23 08:01:45] Kaydedilmis model bulundu, okunuyor: results/ranger/csl/model.rds 
+[2026-07-23 08:01:47] Kaydedilmis model bulundu, okunuyor: results/rfsrc/csl/model.rds 
+[2026-07-23 08:01:53] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/csl/model.rds 
+[2026-07-23 08:01:53] UYARI: su modeller basarisiz oldu, analiz disi birakildi: cv_glmnet_model, glmnet_model 
+[2026-07-23 08:01:53] Performans hesaplama basladi: surv.coxph 
+[2026-07-23 08:01:59] Performans hesaplama bitti: surv.coxph - cindex: 0.732 - IBS (graf): 0.136 
+[2026-07-23 08:01:59] Performans kaydedildi: results/cox/csl/performance.csv 
+[2026-07-23 08:01:59] Performans hesaplama basladi: surv.cforest 
+[2026-07-23 08:03:10] Performans hesaplama bitti: surv.cforest - cindex: 0.754 - IBS (graf): 0.135 
+[2026-07-23 08:03:10] Performans kaydedildi: results/cforest/csl/performance.csv 
+[2026-07-23 08:03:10] Performans hesaplama basladi: surv.coxboost 
+[2026-07-23 08:03:17] Performans hesaplama bitti: surv.coxboost - cindex: 0.733 - IBS (graf): 0.137 
+[2026-07-23 08:03:17] Performans kaydedildi: results/coxboost/csl/performance.csv 
+[2026-07-23 08:03:17] Performans hesaplama basladi: surv.ctree 
