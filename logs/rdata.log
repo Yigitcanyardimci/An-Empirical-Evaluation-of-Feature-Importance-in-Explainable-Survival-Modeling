@@ -385,3 +385,4 @@
 [2026-07-23 02:35:56] ctree_model - SHAP TIVM: 0.0025 
 [2026-07-23 02:35:56] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 02:37:06] SHAP - gozlem 5 / 15 
+[2026-07-23 02:38:35] SHAP - gozlem 10 / 15 

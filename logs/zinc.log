@@ -336,3 +336,9 @@
 [2026-07-23 02:26:53] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 02:29:51] SHAP - gozlem 5 / 15 
 [2026-07-23 02:34:23] SHAP - gozlem 10 / 15 
+[2026-07-23 02:38:07] SHAP - gozlem 15 / 15 
+[2026-07-23 02:38:52] SHAP hesaplama bitti, kaydedildi: results/aorsf/zinc/shap_long.csv 
+[2026-07-23 02:38:53] Grafik kaydedildi: results/aorsf/zinc/plots/survshap_plot.png 
+[2026-07-23 02:38:53] SHAP ozeti kaydedildi: results/aorsf/zinc/shap_summary.csv 
+[2026-07-23 02:38:53] aorsf_model - SHAP TIVM: 0.0011 
+[2026-07-23 02:38:53] SHAP hesaplama basladi, n_obs = 15 
