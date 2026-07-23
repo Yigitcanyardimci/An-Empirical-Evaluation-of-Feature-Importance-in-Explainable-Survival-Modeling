@@ -208,3 +208,6 @@
 [2026-07-23 01:41:56] Performans hesaplama bitti: surv.cforest - cindex: 0.558 - IBS (graf): 0.196 
 [2026-07-23 01:41:56] Performans kaydedildi: results/cforest/aids2/performance.csv 
 [2026-07-23 01:41:56] Performans hesaplama basladi: surv.coxboost 
+[2026-07-23 01:42:29] Performans hesaplama bitti: surv.coxboost - cindex: 0.535 - IBS (graf): 0.186 
+[2026-07-23 01:42:29] Performans kaydedildi: results/coxboost/aids2/performance.csv 
+[2026-07-23 01:42:29] Performans hesaplama basladi: surv.cv_coxboost 

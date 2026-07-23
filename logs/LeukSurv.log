@@ -271,3 +271,4 @@
 [2026-07-23 01:39:56] Explainer kaydedildi: results/xgboost_cox/LeukSurv/explainer.rds 
 [2026-07-23 01:39:56] PFI hesaplaniyor: cox_model 
 [2026-07-23 01:41:19] PFI hesaplaniyor: aorsf_model 
+[2026-07-23 01:43:09] PFI hesaplaniyor: cforest_model 
