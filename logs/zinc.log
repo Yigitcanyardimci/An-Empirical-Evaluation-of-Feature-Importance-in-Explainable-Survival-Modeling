@@ -366,3 +366,4 @@
 [2026-07-23 03:49:48] SHAP ozeti kaydedildi: results/ctree/zinc/shap_summary.csv 
 [2026-07-23 03:49:48] ctree_model - SHAP TIVM: 0.0033 
 [2026-07-23 03:49:48] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 03:59:40] SHAP - gozlem 5 / 15 
