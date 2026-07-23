@@ -378,3 +378,9 @@
 [2026-07-23 02:12:33] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 02:13:52] SHAP - gozlem 5 / 15 
 [2026-07-23 02:15:27] SHAP - gozlem 10 / 15 
+[2026-07-23 02:17:04] SHAP - gozlem 15 / 15 
+[2026-07-23 02:17:22] SHAP hesaplama bitti, kaydedildi: results/ctree/retinopathy/shap_long.csv 
+[2026-07-23 02:17:23] Grafik kaydedildi: results/ctree/retinopathy/plots/survshap_plot.png 
+[2026-07-23 02:17:23] SHAP ozeti kaydedildi: results/ctree/retinopathy/shap_summary.csv 
+[2026-07-23 02:17:23] ctree_model - SHAP TIVM: 0.0044 
+[2026-07-23 02:17:23] SHAP hesaplama basladi, n_obs = 15 
