@@ -195,3 +195,16 @@
 [2026-07-23 01:39:38] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 01:39:38] Model egitimi basladi ( rfsrc ) 
 [2026-07-23 01:40:02] Model egitimi bitti ( rfsrc ) 
+[2026-07-23 01:40:31] Model kaydedildi: results/rfsrc/aids2/model.rds 
+[2026-07-23 01:40:31] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:40:31] Model egitimi basladi ( xgboost_cox ) 
+[2026-07-23 01:40:32] Model egitimi bitti ( xgboost_cox ) 
+[2026-07-23 01:40:32] Model kaydedildi: results/xgboost_cox/aids2/model.rds 
+[2026-07-23 01:40:32] UYARI: su modeller basarisiz oldu, analiz disi birakildi: aorsf_model, cv_glmnet_model, glmnet_model 
+[2026-07-23 01:40:32] Performans hesaplama basladi: surv.coxph 
+[2026-07-23 01:40:45] Performans hesaplama bitti: surv.coxph - cindex: 0.534 - IBS (graf): 0.186 
+[2026-07-23 01:40:45] Performans kaydedildi: results/cox/aids2/performance.csv 
+[2026-07-23 01:40:45] Performans hesaplama basladi: surv.cforest 
+[2026-07-23 01:41:56] Performans hesaplama bitti: surv.cforest - cindex: 0.558 - IBS (graf): 0.196 
+[2026-07-23 01:41:56] Performans kaydedildi: results/cforest/aids2/performance.csv 
+[2026-07-23 01:41:56] Performans hesaplama basladi: surv.coxboost 
