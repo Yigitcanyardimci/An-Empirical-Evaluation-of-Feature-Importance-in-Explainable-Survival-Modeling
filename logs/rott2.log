@@ -654,3 +654,7 @@
 [2026-07-23 15:56:05] Explainer kuruluyor: ranger_model 
 [2026-07-23 15:56:50] Explainer kaydedildi: results/ranger/rott2/explainer.rds 
 [2026-07-23 15:56:50] Explainer kuruluyor: rfsrc_model 
+[2026-07-23 15:57:36] Explainer kaydedildi: results/rfsrc/rott2/explainer.rds 
+[2026-07-23 15:57:36] Explainer kuruluyor: xgboost_cox_model 
+[2026-07-23 15:58:18] Explainer kaydedildi: results/xgboost_cox/rott2/explainer.rds 
+[2026-07-23 15:58:18] PFI hesaplaniyor: cox_model 
