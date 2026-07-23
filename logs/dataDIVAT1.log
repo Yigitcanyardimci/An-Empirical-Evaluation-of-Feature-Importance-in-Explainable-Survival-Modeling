@@ -232,3 +232,7 @@
 [2026-07-23 16:57:12] Explainer kuruluyor: cox_model 
 [2026-07-23 16:58:12] Explainer kaydedildi: results/cox/dataDIVAT1/explainer.rds 
 [2026-07-23 16:58:12] Explainer kuruluyor: cforest_model 
+[2026-07-23 16:59:12] Explainer kaydedildi: results/cforest/dataDIVAT1/explainer.rds 
+[2026-07-23 16:59:12] Explainer kuruluyor: coxboost_model 
+[2026-07-23 17:00:12] Explainer kaydedildi: results/coxboost/dataDIVAT1/explainer.rds 
+[2026-07-23 17:00:12] Explainer kuruluyor: ctree_model 
