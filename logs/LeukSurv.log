@@ -895,3 +895,35 @@
 [2026-07-23 09:25:01] PFI ozeti kaydedildi: results/xgboost_cox/LeukSurv/vimp_summary.csv 
 [2026-07-23 09:25:01] xgboost_cox_model - PFI TIVM: 0.0023 
 [2026-07-23 09:25:01] Kaydedilmis SHAP bulundu, okunuyor: results/cox/LeukSurv/shap_long.csv 
+[2026-07-23 09:25:02] Grafik kaydedildi: results/cox/LeukSurv/plots/survshap_plot.png 
+[2026-07-23 09:25:02] SHAP ozeti kaydedildi: results/cox/LeukSurv/shap_summary.csv 
+[2026-07-23 09:25:02] cox_model - SHAP TIVM: 0.0011 
+[2026-07-23 09:25:02] Kaydedilmis SHAP bulundu, okunuyor: results/cforest/LeukSurv/shap_long.csv 
+[2026-07-23 09:25:02] Grafik kaydedildi: results/cforest/LeukSurv/plots/survshap_plot.png 
+[2026-07-23 09:25:02] SHAP ozeti kaydedildi: results/cforest/LeukSurv/shap_summary.csv 
+[2026-07-23 09:25:02] cforest_model - SHAP TIVM: 0.002 
+[2026-07-23 09:25:02] Kaydedilmis SHAP bulundu, okunuyor: results/coxboost/LeukSurv/shap_long.csv 
+[2026-07-23 09:25:03] Grafik kaydedildi: results/coxboost/LeukSurv/plots/survshap_plot.png 
+[2026-07-23 09:25:03] SHAP ozeti kaydedildi: results/coxboost/LeukSurv/shap_summary.csv 
+[2026-07-23 09:25:03] coxboost_model - SHAP TIVM: 0.0011 
+[2026-07-23 09:25:03] Kaydedilmis SHAP bulundu, okunuyor: results/ctree/LeukSurv/shap_long.csv 
+[2026-07-23 09:25:03] Grafik kaydedildi: results/ctree/LeukSurv/plots/survshap_plot.png 
+[2026-07-23 09:25:03] SHAP ozeti kaydedildi: results/ctree/LeukSurv/shap_summary.csv 
+[2026-07-23 09:25:03] ctree_model - SHAP TIVM: 0.0025 
+[2026-07-23 09:25:03] Kaydedilmis SHAP bulundu, okunuyor: results/cv_glmnet/LeukSurv/shap_long.csv 
+[2026-07-23 09:25:04] Grafik kaydedildi: results/cv_glmnet/LeukSurv/plots/survshap_plot.png 
+[2026-07-23 09:25:04] SHAP ozeti kaydedildi: results/cv_glmnet/LeukSurv/shap_summary.csv 
+[2026-07-23 09:25:04] cv_glmnet_model - SHAP TIVM: 8e-04 
+[2026-07-23 09:25:04] Kaydedilmis SHAP bulundu, okunuyor: results/glmboost/LeukSurv/shap_long.csv 
+[2026-07-23 09:25:04] Grafik kaydedildi: results/glmboost/LeukSurv/plots/survshap_plot.png 
+[2026-07-23 09:25:04] SHAP ozeti kaydedildi: results/glmboost/LeukSurv/shap_summary.csv 
+[2026-07-23 09:25:04] glmboost_model - SHAP TIVM: 0.0011 
+[2026-07-23 09:25:04] Kaydedilmis SHAP bulundu, okunuyor: results/glmnet/LeukSurv/shap_long.csv 
+[2026-07-23 09:25:05] Grafik kaydedildi: results/glmnet/LeukSurv/plots/survshap_plot.png 
+[2026-07-23 09:25:05] SHAP ozeti kaydedildi: results/glmnet/LeukSurv/shap_summary.csv 
+[2026-07-23 09:25:05] glmnet_model - SHAP TIVM: 0.0011 
+[2026-07-23 09:25:05] Kaydedilmis SHAP bulundu, okunuyor: results/penalized/LeukSurv/shap_long.csv 
+[2026-07-23 09:25:06] Grafik kaydedildi: results/penalized/LeukSurv/plots/survshap_plot.png 
+[2026-07-23 09:25:06] SHAP ozeti kaydedildi: results/penalized/LeukSurv/shap_summary.csv 
+[2026-07-23 09:25:06] penalized_model - SHAP TIVM: 0.0012 
+[2026-07-23 09:25:06] SHAP hesaplama basladi, n_obs = 15 
