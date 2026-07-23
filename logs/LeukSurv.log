@@ -352,3 +352,4 @@
 [2026-07-23 03:13:39] SHAP ozeti kaydedildi: results/aorsf/LeukSurv/shap_summary.csv 
 [2026-07-23 03:13:39] aorsf_model - SHAP TIVM: 0.002 
 [2026-07-23 03:13:39] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 03:31:39] SHAP - gozlem 5 / 15 
