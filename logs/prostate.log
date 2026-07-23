@@ -344,3 +344,5 @@
 [2026-07-23 07:58:07] SHAP ozeti kaydedildi: results/ctree/prostate/shap_summary.csv 
 [2026-07-23 07:58:07] ctree_model - SHAP TIVM: 0.0057 
 [2026-07-23 07:58:07] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 07:59:04] SHAP - gozlem 5 / 15 
+[2026-07-23 08:00:10] SHAP - gozlem 10 / 15 
