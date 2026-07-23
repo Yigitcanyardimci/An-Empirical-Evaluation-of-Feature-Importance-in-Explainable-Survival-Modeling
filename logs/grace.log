@@ -339,3 +339,16 @@
 [2026-07-23 01:51:15] SHAP - gozlem 5 / 15 
 [2026-07-23 01:51:38] SHAP - gozlem 10 / 15 
 [2026-07-23 01:51:56] SHAP - gozlem 15 / 15 
+[2026-07-23 01:52:00] SHAP hesaplama bitti, kaydedildi: results/cox/grace/shap_long.csv 
+[2026-07-23 01:52:01] Grafik kaydedildi: results/cox/grace/plots/survshap_plot.png 
+[2026-07-23 01:52:01] SHAP ozeti kaydedildi: results/cox/grace/shap_summary.csv 
+[2026-07-23 01:52:01] cox_model - SHAP TIVM: 0.0044 
+[2026-07-23 01:52:01] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 01:52:25] SHAP - gozlem 5 / 15 
+[2026-07-23 01:52:55] SHAP - gozlem 10 / 15 
+[2026-07-23 01:53:25] SHAP - gozlem 15 / 15 
+[2026-07-23 01:53:31] SHAP hesaplama bitti, kaydedildi: results/aorsf/grace/shap_long.csv 
+[2026-07-23 01:53:32] Grafik kaydedildi: results/aorsf/grace/plots/survshap_plot.png 
+[2026-07-23 01:53:32] SHAP ozeti kaydedildi: results/aorsf/grace/shap_summary.csv 
+[2026-07-23 01:53:32] aorsf_model - SHAP TIVM: 0.0046 
+[2026-07-23 01:53:32] SHAP hesaplama basladi, n_obs = 15 

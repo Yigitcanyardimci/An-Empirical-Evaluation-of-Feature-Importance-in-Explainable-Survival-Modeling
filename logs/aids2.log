@@ -235,3 +235,9 @@
 [2026-07-23 01:50:48] Explainer kuruluyor: cox_model 
 [2026-07-23 01:51:24] Explainer kaydedildi: results/cox/aids2/explainer.rds 
 [2026-07-23 01:51:24] Explainer kuruluyor: cforest_model 
+[2026-07-23 01:52:00] Explainer kaydedildi: results/cforest/aids2/explainer.rds 
+[2026-07-23 01:52:00] Explainer kuruluyor: coxboost_model 
+[2026-07-23 01:52:36] Explainer kaydedildi: results/coxboost/aids2/explainer.rds 
+[2026-07-23 01:52:36] Explainer kuruluyor: cv_coxboost_model 
+[2026-07-23 01:53:11] Explainer kaydedildi: results/cv_coxboost/aids2/explainer.rds 
+[2026-07-23 01:53:11] Explainer kuruluyor: ctree_model 
