@@ -387,3 +387,8 @@
 [2026-07-23 05:17:57] SHAP - gozlem 5 / 15 
 [2026-07-23 05:22:33] SHAP - gozlem 10 / 15 
 [2026-07-23 05:28:11] SHAP - gozlem 15 / 15 
+[2026-07-23 05:29:09] SHAP hesaplama bitti, kaydedildi: results/cv_glmnet/LeukSurv/shap_long.csv 
+[2026-07-23 05:29:09] Grafik kaydedildi: results/cv_glmnet/LeukSurv/plots/survshap_plot.png 
+[2026-07-23 05:29:09] SHAP ozeti kaydedildi: results/cv_glmnet/LeukSurv/shap_summary.csv 
+[2026-07-23 05:29:09] cv_glmnet_model - SHAP TIVM: 8e-04 
+[2026-07-23 05:29:09] SHAP hesaplama basladi, n_obs = 15 
