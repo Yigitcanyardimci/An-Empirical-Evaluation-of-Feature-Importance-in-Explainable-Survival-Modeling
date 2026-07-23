@@ -535,3 +535,10 @@
 [2026-07-23 16:29:02] glmboost_model - SHAP TIVM: 0.0022 
 [2026-07-23 16:29:02] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 16:29:13] SHAP - gozlem 5 / 15 
+[2026-07-23 16:29:27] SHAP - gozlem 10 / 15 
+[2026-07-23 16:29:40] SHAP - gozlem 15 / 15 
+[2026-07-23 16:29:43] SHAP hesaplama bitti, kaydedildi: results/penalized/acath/shap_long.csv 
+[2026-07-23 16:29:43] Grafik kaydedildi: results/penalized/acath/plots/survshap_plot.png 
+[2026-07-23 16:29:43] SHAP ozeti kaydedildi: results/penalized/acath/shap_summary.csv 
+[2026-07-23 16:29:43] penalized_model - SHAP TIVM: 0.0023 
+[2026-07-23 16:29:43] SHAP hesaplama basladi, n_obs = 15 
