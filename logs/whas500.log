@@ -733,3 +733,20 @@
 [2026-07-23 11:25:56] SHAP - gozlem 5 / 15 
 [2026-07-23 12:00:05] SHAP - gozlem 10 / 15 
 [2026-07-23 12:33:17] SHAP - gozlem 15 / 15 
+[2026-07-23 12:39:58] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/whas500/shap_long.csv 
+[2026-07-23 12:39:58] Grafik kaydedildi: results/xgboost_cox/whas500/plots/survshap_plot.png 
+[2026-07-23 12:39:58] SHAP ozeti kaydedildi: results/xgboost_cox/whas500/shap_summary.csv 
+[2026-07-23 12:39:58] xgboost_cox_model - SHAP TIVM: 0.0039 
+[2026-07-23 12:39:58] ===== BITTI: whas500 + cox - cindex: 0.796 - PFI TIVM: 0.0163 - SHAP TIVM: 0.0019 ===== 
+[2026-07-23 12:39:58] ===== BITTI: whas500 + cforest - cindex: 0.805 - PFI TIVM: 0.01 - SHAP TIVM: 0.0051 ===== 
+[2026-07-23 12:39:58] ===== BITTI: whas500 + coxboost - cindex: 0.796 - PFI TIVM: 0.0164 - SHAP TIVM: 0.0016 ===== 
+[2026-07-23 12:39:58] ===== BITTI: whas500 + ctree - cindex: 0.767 - PFI TIVM: 0.017 - SHAP TIVM: 0.0084 ===== 
+[2026-07-23 12:39:58] ===== BITTI: whas500 + cv_glmnet - cindex: 0.76 - PFI TIVM: 0.0089 - SHAP TIVM: 0.0014 ===== 
+[2026-07-23 12:39:58] ===== BITTI: whas500 + glmboost - cindex: 0.786 - PFI TIVM: 0.0129 - SHAP TIVM: 0.0017 ===== 
+[2026-07-23 12:39:58] ===== BITTI: whas500 + glmnet - cindex: 0.796 - PFI TIVM: 0.0148 - SHAP TIVM: 0.0017 ===== 
+[2026-07-23 12:39:58] ===== BITTI: whas500 + penalized - cindex: 0.796 - PFI TIVM: 0.0153 - SHAP TIVM: 0.0019 ===== 
+[2026-07-23 12:39:58] ===== BITTI: whas500 + ranger - cindex: 0.805 - PFI TIVM: 0.0072 - SHAP TIVM: 0.0018 ===== 
+[2026-07-23 12:39:58] ===== BITTI: whas500 + rfsrc - cindex: 0.802 - PFI TIVM: 0.0062 - SHAP TIVM: 0.0023 ===== 
+[2026-07-23 12:39:58] ===== BITTI: whas500 + xgboost_cox - cindex: 0.798 - PFI TIVM: 0.0242 - SHAP TIVM: 0.0039 ===== 
+[2026-07-23 12:39:58] ----- Veri seti bitti: whas500 ----- 
+[2026-07-23 12:39:58] ===== RUN ( whas500 ) TAMAMLANDI ===== 
