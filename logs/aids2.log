@@ -1077,3 +1077,19 @@
 [2026-07-23 15:49:45] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 15:52:23] SHAP - gozlem 5 / 15 
 [2026-07-23 15:55:35] SHAP - gozlem 10 / 15 
+[2026-07-23 15:58:46] SHAP - gozlem 15 / 15 
+[2026-07-23 15:59:27] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/aids2/shap_long.csv 
+[2026-07-23 15:59:28] Grafik kaydedildi: results/xgboost_cox/aids2/plots/survshap_plot.png 
+[2026-07-23 15:59:28] SHAP ozeti kaydedildi: results/xgboost_cox/aids2/shap_summary.csv 
+[2026-07-23 15:59:28] xgboost_cox_model - SHAP TIVM: 2e-04 
+[2026-07-23 15:59:28] ===== BITTI: aids2 + cox - cindex: 0.534 - PFI TIVM: 2e-04 - SHAP TIVM: 1e-04 ===== 
+[2026-07-23 15:59:28] ===== BITTI: aids2 + cforest - cindex: 0.558 - PFI TIVM: 3e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-07-23 15:59:28] ===== BITTI: aids2 + coxboost - cindex: 0.535 - PFI TIVM: 2e-04 - SHAP TIVM: 1e-04 ===== 
+[2026-07-23 15:59:28] ===== BITTI: aids2 + ctree - cindex: 0.524 - PFI TIVM: 2e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-07-23 15:59:28] ===== BITTI: aids2 + glmboost - cindex: 0.535 - PFI TIVM: 2e-04 - SHAP TIVM: 1e-04 ===== 
+[2026-07-23 15:59:28] ===== BITTI: aids2 + penalized - cindex: 0.534 - PFI TIVM: 2e-04 - SHAP TIVM: 1e-04 ===== 
+[2026-07-23 15:59:28] ===== BITTI: aids2 + ranger - cindex: 0.566 - PFI TIVM: 3e-04 - SHAP TIVM: 8e-04 ===== 
+[2026-07-23 15:59:28] ===== BITTI: aids2 + rfsrc - cindex: 0.561 - PFI TIVM: 4e-04 - SHAP TIVM: 0.001 ===== 
+[2026-07-23 15:59:28] ===== BITTI: aids2 + xgboost_cox - cindex: 0.562 - PFI TIVM: 9e-04 - SHAP TIVM: 2e-04 ===== 
+[2026-07-23 15:59:28] ----- Veri seti bitti: aids2 ----- 
+[2026-07-23 15:59:28] ===== RUN ( aids2 ) TAMAMLANDI ===== 
