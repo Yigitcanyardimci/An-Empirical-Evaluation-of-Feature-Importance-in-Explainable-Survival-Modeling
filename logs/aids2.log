@@ -965,3 +965,23 @@
 [2026-07-23 14:31:05] Performans hesaplama bitti: surv.coxboost - cindex: 0.535 - IBS (graf): 0.186 
 [2026-07-23 14:31:05] Performans kaydedildi: results/coxboost/aids2/performance.csv 
 [2026-07-23 14:31:05] Performans hesaplama basladi: surv.ctree 
+[2026-07-23 14:31:11] Performans hesaplama bitti: surv.ctree - cindex: 0.524 - IBS (graf): 0.194 
+[2026-07-23 14:31:11] Performans kaydedildi: results/ctree/aids2/performance.csv 
+[2026-07-23 14:31:11] Performans hesaplama basladi: surv.glmboost 
+[2026-07-23 14:31:21] Performans hesaplama bitti: surv.glmboost - cindex: 0.535 - IBS (graf): 0.186 
+[2026-07-23 14:31:21] Performans kaydedildi: results/glmboost/aids2/performance.csv 
+[2026-07-23 14:31:21] Performans hesaplama basladi: surv.penalized 
+[2026-07-23 14:31:26] Performans hesaplama bitti: surv.penalized - cindex: 0.534 - IBS (graf): 0.186 
+[2026-07-23 14:31:26] Performans kaydedildi: results/penalized/aids2/performance.csv 
+[2026-07-23 14:31:26] Performans hesaplama basladi: surv.ranger 
+[2026-07-23 14:31:59] Performans hesaplama bitti: surv.ranger - cindex: 0.566 - IBS (graf): 0.191 
+[2026-07-23 14:31:59] Performans kaydedildi: results/ranger/aids2/performance.csv 
+[2026-07-23 14:31:59] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-23 14:32:22] Performans hesaplama bitti: surv.rfsrc - cindex: 0.561 - IBS (graf): 0.201 
+[2026-07-23 14:32:22] Performans kaydedildi: results/rfsrc/aids2/performance.csv 
+[2026-07-23 14:32:22] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-23 14:32:28] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.562 - IBS (graf): 0.224 
+[2026-07-23 14:32:28] Performans kaydedildi: results/xgboost_cox/aids2/performance.csv 
+[2026-07-23 14:32:28] Global aciklama (PFI) basladi 
+[2026-07-23 14:32:28] Kaydedilmis explainer bulundu, okunuyor: results/cox/aids2/explainer.rds 
+[2026-07-23 14:32:39] Kaydedilmis explainer bulundu, okunuyor: results/cforest/aids2/explainer.rds 
