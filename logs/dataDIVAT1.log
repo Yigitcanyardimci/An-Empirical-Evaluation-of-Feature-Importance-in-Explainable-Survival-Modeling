@@ -238,3 +238,7 @@
 [2026-07-23 17:00:12] Explainer kuruluyor: ctree_model 
 [2026-07-23 17:01:13] Explainer kaydedildi: results/ctree/dataDIVAT1/explainer.rds 
 [2026-07-23 17:01:13] Explainer kuruluyor: cv_glmnet_model 
+[2026-07-23 17:02:13] Explainer kaydedildi: results/cv_glmnet/dataDIVAT1/explainer.rds 
+[2026-07-23 17:02:13] Explainer kuruluyor: glmboost_model 
+[2026-07-23 17:03:14] Explainer kaydedildi: results/glmboost/dataDIVAT1/explainer.rds 
+[2026-07-23 17:03:14] Explainer kuruluyor: glmnet_model 
