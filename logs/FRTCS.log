@@ -315,3 +315,8 @@
 [2026-07-23 02:31:33] SHAP - gozlem 5 / 15 
 [2026-07-23 02:44:24] SHAP - gozlem 10 / 15 
 [2026-07-23 02:58:19] SHAP - gozlem 15 / 15 
+[2026-07-23 03:00:32] SHAP hesaplama bitti, kaydedildi: results/cforest/FRTCS/shap_long.csv 
+[2026-07-23 03:00:32] Grafik kaydedildi: results/cforest/FRTCS/plots/survshap_plot.png 
+[2026-07-23 03:00:32] SHAP ozeti kaydedildi: results/cforest/FRTCS/shap_summary.csv 
+[2026-07-23 03:00:32] cforest_model - SHAP TIVM: 0.0015 
+[2026-07-23 03:00:32] SHAP hesaplama basladi, n_obs = 15 
