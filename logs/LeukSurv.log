@@ -355,3 +355,8 @@
 [2026-07-23 03:31:39] SHAP - gozlem 5 / 15 
 [2026-07-23 03:52:35] SHAP - gozlem 10 / 15 
 [2026-07-23 04:17:44] SHAP - gozlem 15 / 15 
+[2026-07-23 04:22:25] SHAP hesaplama bitti, kaydedildi: results/cforest/LeukSurv/shap_long.csv 
+[2026-07-23 04:22:25] Grafik kaydedildi: results/cforest/LeukSurv/plots/survshap_plot.png 
+[2026-07-23 04:22:25] SHAP ozeti kaydedildi: results/cforest/LeukSurv/shap_summary.csv 
+[2026-07-23 04:22:25] cforest_model - SHAP TIVM: 0.002 
+[2026-07-23 04:22:25] SHAP hesaplama basladi, n_obs = 15 
