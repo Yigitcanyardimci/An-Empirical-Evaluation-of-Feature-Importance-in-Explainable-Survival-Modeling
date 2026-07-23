@@ -216,3 +216,33 @@
 [2026-07-23 01:34:33] Performans hesaplama bitti: surv.coxboost - cindex: 0.682 - IBS (graf): 0.134 
 [2026-07-23 01:34:33] Performans kaydedildi: results/coxboost/LeukSurv/performance.csv 
 [2026-07-23 01:34:33] Performans hesaplama basladi: surv.cv_coxboost 
+[2026-07-23 01:35:48] Performans hesaplama bitti: surv.cv_coxboost - cindex: 0.684 - IBS (graf): 0.134 
+[2026-07-23 01:35:48] Performans kaydedildi: results/cv_coxboost/LeukSurv/performance.csv 
+[2026-07-23 01:35:48] Performans hesaplama basladi: surv.ctree 
+[2026-07-23 01:35:50] Performans hesaplama bitti: surv.ctree - cindex: 0.659 - IBS (graf): 0.142 
+[2026-07-23 01:35:50] Performans kaydedildi: results/ctree/LeukSurv/performance.csv 
+[2026-07-23 01:35:50] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-07-23 01:35:54] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.672 - IBS (graf): 0.134 
+[2026-07-23 01:35:54] Performans kaydedildi: results/cv_glmnet/LeukSurv/performance.csv 
+[2026-07-23 01:35:54] Performans hesaplama basladi: surv.glmboost 
+[2026-07-23 01:35:56] Performans hesaplama bitti: surv.glmboost - cindex: 0.684 - IBS (graf): 0.134 
+[2026-07-23 01:35:56] Performans kaydedildi: results/glmboost/LeukSurv/performance.csv 
+[2026-07-23 01:35:56] Performans hesaplama basladi: surv.glmnet 
+[2026-07-23 01:35:58] Performans hesaplama bitti: surv.glmnet - cindex: 0.676 - IBS (graf): 0.134 
+[2026-07-23 01:35:58] Performans kaydedildi: results/glmnet/LeukSurv/performance.csv 
+[2026-07-23 01:35:58] Performans hesaplama basladi: surv.penalized 
+[2026-07-23 01:36:00] Performans hesaplama bitti: surv.penalized - cindex: 0.665 - IBS (graf): 0.135 
+[2026-07-23 01:36:00] Performans kaydedildi: results/penalized/LeukSurv/performance.csv 
+[2026-07-23 01:36:00] Performans hesaplama basladi: surv.ranger 
+[2026-07-23 01:36:24] Performans hesaplama bitti: surv.ranger - cindex: 0.66 - IBS (graf): 0.144 
+[2026-07-23 01:36:24] Performans kaydedildi: results/ranger/LeukSurv/performance.csv 
+[2026-07-23 01:36:24] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-23 01:36:30] Performans hesaplama bitti: surv.rfsrc - cindex: 0.67 - IBS (graf): 0.134 
+[2026-07-23 01:36:30] Performans kaydedildi: results/rfsrc/LeukSurv/performance.csv 
+[2026-07-23 01:36:30] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-23 01:36:32] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.547 - IBS (graf): 0.48 
+[2026-07-23 01:36:32] Performans kaydedildi: results/xgboost_cox/LeukSurv/performance.csv 
+[2026-07-23 01:36:32] Global aciklama (PFI) basladi 
+[2026-07-23 01:36:32] Explainer kuruluyor: cox_model 
+[2026-07-23 01:36:48] Explainer kaydedildi: results/cox/LeukSurv/explainer.rds 
+[2026-07-23 01:36:48] Explainer kuruluyor: aorsf_model 

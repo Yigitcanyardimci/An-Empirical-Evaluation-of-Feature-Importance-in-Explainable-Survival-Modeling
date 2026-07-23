@@ -266,3 +266,9 @@
 [2026-07-23 01:34:58] Explainer kuruluyor: ranger_model 
 [2026-07-23 01:35:06] Explainer kaydedildi: results/ranger/grace/explainer.rds 
 [2026-07-23 01:35:06] Explainer kuruluyor: rfsrc_model 
+[2026-07-23 01:35:13] Explainer kaydedildi: results/rfsrc/grace/explainer.rds 
+[2026-07-23 01:35:13] Explainer kuruluyor: xgboost_cox_model 
+[2026-07-23 01:35:20] Explainer kaydedildi: results/xgboost_cox/grace/explainer.rds 
+[2026-07-23 01:35:20] PFI hesaplaniyor: cox_model 
+[2026-07-23 01:35:42] PFI hesaplaniyor: aorsf_model 
+[2026-07-23 01:36:15] PFI hesaplaniyor: cforest_model 

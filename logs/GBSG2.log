@@ -270,3 +270,5 @@
 [2026-07-23 01:34:21] Explainer kuruluyor: xgboost_cox_model 
 [2026-07-23 01:34:26] Explainer kaydedildi: results/xgboost_cox/GBSG2/explainer.rds 
 [2026-07-23 01:34:26] PFI hesaplaniyor: cox_model 
+[2026-07-23 01:35:28] PFI hesaplaniyor: aorsf_model 
+[2026-07-23 01:36:24] PFI hesaplaniyor: cforest_model 

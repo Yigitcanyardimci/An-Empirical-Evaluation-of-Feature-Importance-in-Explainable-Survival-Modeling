@@ -247,3 +247,10 @@
 [2026-07-23 01:34:57] Explainer kuruluyor: penalized_model 
 [2026-07-23 01:35:02] Explainer kaydedildi: results/penalized/epileptic/explainer.rds 
 [2026-07-23 01:35:02] Explainer kuruluyor: ranger_model 
+[2026-07-23 01:35:08] Explainer kaydedildi: results/ranger/epileptic/explainer.rds 
+[2026-07-23 01:35:08] Explainer kuruluyor: rfsrc_model 
+[2026-07-23 01:35:16] Explainer kaydedildi: results/rfsrc/epileptic/explainer.rds 
+[2026-07-23 01:35:16] Explainer kuruluyor: xgboost_cox_model 
+[2026-07-23 01:35:23] Explainer kaydedildi: results/xgboost_cox/epileptic/explainer.rds 
+[2026-07-23 01:35:23] PFI hesaplaniyor: cox_model 
+[2026-07-23 01:35:57] PFI hesaplaniyor: cforest_model 

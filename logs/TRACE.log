@@ -193,3 +193,20 @@
 [2026-07-23 01:35:05] Model kaydedildi: results/penalized/TRACE/model.rds 
 [2026-07-23 01:35:05] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 01:35:05] Model egitimi basladi ( ranger ) 
+[2026-07-23 01:35:25] Model egitimi bitti ( ranger ) 
+[2026-07-23 01:35:31] Model kaydedildi: results/ranger/TRACE/model.rds 
+[2026-07-23 01:35:31] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:35:31] Model egitimi basladi ( rfsrc ) 
+[2026-07-23 01:35:43] Model egitimi bitti ( rfsrc ) 
+[2026-07-23 01:36:05] Model kaydedildi: results/rfsrc/TRACE/model.rds 
+[2026-07-23 01:36:05] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 01:36:05] Model egitimi basladi ( xgboost_cox ) 
+[2026-07-23 01:36:06] Model egitimi bitti ( xgboost_cox ) 
+[2026-07-23 01:36:06] Model kaydedildi: results/xgboost_cox/TRACE/model.rds 
+[2026-07-23 01:36:06] Performans hesaplama basladi: surv.coxph 
+[2026-07-23 01:36:18] Performans hesaplama bitti: surv.coxph - cindex: 0.741 - IBS (graf): 0.163 
+[2026-07-23 01:36:18] Performans kaydedildi: results/cox/TRACE/performance.csv 
+[2026-07-23 01:36:18] Performans hesaplama basladi: surv.aorsf 
+[2026-07-23 01:36:28] Performans hesaplama bitti: surv.aorsf - cindex: 0.74 - IBS (graf): 0.165 
+[2026-07-23 01:36:28] Performans kaydedildi: results/aorsf/TRACE/performance.csv 
+[2026-07-23 01:36:28] Performans hesaplama basladi: surv.cforest 

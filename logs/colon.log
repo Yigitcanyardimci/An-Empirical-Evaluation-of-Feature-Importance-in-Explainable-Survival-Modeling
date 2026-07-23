@@ -256,3 +256,17 @@
 [2026-07-23 01:34:47] Explainer kuruluyor: ctree_model 
 [2026-07-23 01:34:57] Explainer kaydedildi: results/ctree/colon/explainer.rds 
 [2026-07-23 01:34:57] Explainer kuruluyor: cv_glmnet_model 
+[2026-07-23 01:35:06] Explainer kaydedildi: results/cv_glmnet/colon/explainer.rds 
+[2026-07-23 01:35:06] Explainer kuruluyor: glmboost_model 
+[2026-07-23 01:35:16] Explainer kaydedildi: results/glmboost/colon/explainer.rds 
+[2026-07-23 01:35:16] Explainer kuruluyor: glmnet_model 
+[2026-07-23 01:35:26] Explainer kaydedildi: results/glmnet/colon/explainer.rds 
+[2026-07-23 01:35:26] Explainer kuruluyor: penalized_model 
+[2026-07-23 01:35:36] Explainer kaydedildi: results/penalized/colon/explainer.rds 
+[2026-07-23 01:35:36] Explainer kuruluyor: ranger_model 
+[2026-07-23 01:35:46] Explainer kaydedildi: results/ranger/colon/explainer.rds 
+[2026-07-23 01:35:46] Explainer kuruluyor: rfsrc_model 
+[2026-07-23 01:35:55] Explainer kaydedildi: results/rfsrc/colon/explainer.rds 
+[2026-07-23 01:35:55] Explainer kuruluyor: xgboost_cox_model 
+[2026-07-23 01:36:05] Explainer kaydedildi: results/xgboost_cox/colon/explainer.rds 
+[2026-07-23 01:36:05] PFI hesaplaniyor: cox_model 

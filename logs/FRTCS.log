@@ -211,3 +211,35 @@
 [2026-07-23 01:34:53] Performans hesaplama bitti: surv.coxboost - cindex: 0.713 - IBS (graf): 0.03 
 [2026-07-23 01:34:53] Performans kaydedildi: results/coxboost/FRTCS/performance.csv 
 [2026-07-23 01:34:53] Performans hesaplama basladi: surv.cv_coxboost 
+[2026-07-23 01:35:47] Performans hesaplama bitti: surv.cv_coxboost - cindex: 0.698 - IBS (graf): 0.033 
+[2026-07-23 01:35:47] Performans kaydedildi: results/cv_coxboost/FRTCS/performance.csv 
+[2026-07-23 01:35:47] Performans hesaplama basladi: surv.ctree 
+[2026-07-23 01:35:51] Performans hesaplama bitti: surv.ctree - cindex: 0.644 - IBS (graf): 0.031 
+[2026-07-23 01:35:51] Performans kaydedildi: results/ctree/FRTCS/performance.csv 
+[2026-07-23 01:35:51] Performans hesaplama basladi: surv.glmboost 
+[2026-07-23 01:35:55] Performans hesaplama bitti: surv.glmboost - cindex: 0.698 - IBS (graf): 0.033 
+[2026-07-23 01:35:55] Performans kaydedildi: results/glmboost/FRTCS/performance.csv 
+[2026-07-23 01:35:55] Performans hesaplama basladi: surv.penalized 
+[2026-07-23 01:35:56] Performans hesaplama bitti: surv.penalized - cindex: 0.697 - IBS (graf): 0.03 
+[2026-07-23 01:35:56] Performans kaydedildi: results/penalized/FRTCS/performance.csv 
+[2026-07-23 01:35:56] Performans hesaplama basladi: surv.ranger 
+[2026-07-23 01:36:03] Performans hesaplama bitti: surv.ranger - cindex: 0.497 - IBS (graf): 0.038 
+[2026-07-23 01:36:03] Performans kaydedildi: results/ranger/FRTCS/performance.csv 
+[2026-07-23 01:36:03] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-23 01:36:05] Performans hesaplama bitti: surv.rfsrc - cindex: 0.524 - IBS (graf): 0.035 
+[2026-07-23 01:36:05] Performans kaydedildi: results/rfsrc/FRTCS/performance.csv 
+[2026-07-23 01:36:05] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-23 01:36:09] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.486 - IBS (graf): 0.048 
+[2026-07-23 01:36:09] Performans kaydedildi: results/xgboost_cox/FRTCS/performance.csv 
+[2026-07-23 01:36:09] Global aciklama (PFI) basladi 
+[2026-07-23 01:36:09] Explainer kuruluyor: cox_model 
+[2026-07-23 01:36:18] Explainer kaydedildi: results/cox/FRTCS/explainer.rds 
+[2026-07-23 01:36:18] Explainer kuruluyor: cforest_model 
+[2026-07-23 01:36:28] Explainer kaydedildi: results/cforest/FRTCS/explainer.rds 
+[2026-07-23 01:36:28] Explainer kuruluyor: coxboost_model 
+[2026-07-23 01:36:37] Explainer kaydedildi: results/coxboost/FRTCS/explainer.rds 
+[2026-07-23 01:36:37] Explainer kuruluyor: cv_coxboost_model 
+[2026-07-23 01:36:47] Explainer kaydedildi: results/cv_coxboost/FRTCS/explainer.rds 
+[2026-07-23 01:36:47] Explainer kuruluyor: ctree_model 
+[2026-07-23 01:36:56] Explainer kaydedildi: results/ctree/FRTCS/explainer.rds 
+[2026-07-23 01:36:56] Explainer kuruluyor: glmboost_model 
