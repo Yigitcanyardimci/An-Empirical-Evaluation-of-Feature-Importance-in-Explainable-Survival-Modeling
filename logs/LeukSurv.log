@@ -368,3 +368,4 @@
 [2026-07-23 04:43:19] SHAP ozeti kaydedildi: results/coxboost/LeukSurv/shap_summary.csv 
 [2026-07-23 04:43:19] coxboost_model - SHAP TIVM: 0.0011 
 [2026-07-23 04:43:19] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 04:47:42] SHAP - gozlem 5 / 15 
