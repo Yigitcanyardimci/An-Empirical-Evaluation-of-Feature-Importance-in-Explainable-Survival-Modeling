@@ -354,3 +354,9 @@
 [2026-07-23 01:53:32] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 01:56:25] SHAP - gozlem 5 / 15 
 [2026-07-23 02:00:12] SHAP - gozlem 10 / 15 
+[2026-07-23 02:03:57] SHAP - gozlem 15 / 15 
+[2026-07-23 02:04:44] SHAP hesaplama bitti, kaydedildi: results/cforest/grace/shap_long.csv 
+[2026-07-23 02:04:45] Grafik kaydedildi: results/cforest/grace/plots/survshap_plot.png 
+[2026-07-23 02:04:45] SHAP ozeti kaydedildi: results/cforest/grace/shap_summary.csv 
+[2026-07-23 02:04:45] cforest_model - SHAP TIVM: 0.0042 
+[2026-07-23 02:04:45] SHAP hesaplama basladi, n_obs = 15 
