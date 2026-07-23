@@ -236,3 +236,5 @@
 [2026-07-23 16:59:12] Explainer kuruluyor: coxboost_model 
 [2026-07-23 17:00:12] Explainer kaydedildi: results/coxboost/dataDIVAT1/explainer.rds 
 [2026-07-23 17:00:12] Explainer kuruluyor: ctree_model 
+[2026-07-23 17:01:13] Explainer kaydedildi: results/ctree/dataDIVAT1/explainer.rds 
+[2026-07-23 17:01:13] Explainer kuruluyor: cv_glmnet_model 
