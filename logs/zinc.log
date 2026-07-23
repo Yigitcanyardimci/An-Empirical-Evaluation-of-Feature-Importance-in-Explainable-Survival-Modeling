@@ -350,3 +350,4 @@
 [2026-07-23 03:37:37] SHAP ozeti kaydedildi: results/cforest/zinc/shap_summary.csv 
 [2026-07-23 03:37:37] cforest_model - SHAP TIVM: 0.0013 
 [2026-07-23 03:37:37] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 03:39:31] SHAP - gozlem 5 / 15 
