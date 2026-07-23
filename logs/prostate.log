@@ -554,3 +554,4 @@
 [2026-07-23 08:02:17] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/prostate/explainer.rds 
 [2026-07-23 08:02:18] PFI hesaplaniyor: cox_model 
 [2026-07-23 08:02:53] PFI hesaplaniyor: cforest_model 
+[2026-07-23 08:11:03] PFI hesaplaniyor: coxboost_model 

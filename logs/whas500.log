@@ -627,3 +627,4 @@
 [2026-07-23 08:02:19] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/whas500/explainer.rds 
 [2026-07-23 08:02:22] PFI hesaplaniyor: cox_model 
 [2026-07-23 08:03:05] PFI hesaplaniyor: cforest_model 
+[2026-07-23 08:10:59] PFI hesaplaniyor: coxboost_model 
