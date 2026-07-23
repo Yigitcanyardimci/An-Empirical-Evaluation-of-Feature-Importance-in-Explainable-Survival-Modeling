@@ -223,3 +223,19 @@
 [2026-07-23 14:38:44] Performans kaydedildi: results/xgboost_cox/acath/performance.csv 
 [2026-07-23 14:38:44] Global aciklama (PFI) basladi 
 [2026-07-23 14:38:44] Explainer kuruluyor: cox_model 
+[2026-07-23 14:38:58] Explainer kaydedildi: results/cox/acath/explainer.rds 
+[2026-07-23 14:38:58] Explainer kuruluyor: cforest_model 
+[2026-07-23 14:39:13] Explainer kaydedildi: results/cforest/acath/explainer.rds 
+[2026-07-23 14:39:13] Explainer kuruluyor: coxboost_model 
+[2026-07-23 14:39:27] Explainer kaydedildi: results/coxboost/acath/explainer.rds 
+[2026-07-23 14:39:27] Explainer kuruluyor: ctree_model 
+[2026-07-23 14:39:41] Explainer kaydedildi: results/ctree/acath/explainer.rds 
+[2026-07-23 14:39:41] Explainer kuruluyor: glmboost_model 
+[2026-07-23 14:39:56] Explainer kaydedildi: results/glmboost/acath/explainer.rds 
+[2026-07-23 14:39:56] Explainer kuruluyor: penalized_model 
+[2026-07-23 14:40:10] Explainer kaydedildi: results/penalized/acath/explainer.rds 
+[2026-07-23 14:40:10] Explainer kuruluyor: ranger_model 
+[2026-07-23 14:40:25] Explainer kaydedildi: results/ranger/acath/explainer.rds 
+[2026-07-23 14:40:25] Explainer kuruluyor: rfsrc_model 
+[2026-07-23 14:40:39] KRITIK HATA: acath - error writing to connection 
+[2026-07-23 14:40:39] ===== RUN ( acath ) TAMAMLANDI ===== 
