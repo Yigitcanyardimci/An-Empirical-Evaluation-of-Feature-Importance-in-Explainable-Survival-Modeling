@@ -370,3 +370,9 @@
 [2026-07-23 03:25:59] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 03:26:56] SHAP - gozlem 5 / 15 
 [2026-07-23 03:27:47] SHAP - gozlem 10 / 15 
+[2026-07-23 03:28:37] SHAP - gozlem 15 / 15 
+[2026-07-23 03:28:47] SHAP hesaplama bitti, kaydedildi: results/rfsrc/epileptic/shap_long.csv 
+[2026-07-23 03:28:47] Grafik kaydedildi: results/rfsrc/epileptic/plots/survshap_plot.png 
+[2026-07-23 03:28:47] SHAP ozeti kaydedildi: results/rfsrc/epileptic/shap_summary.csv 
+[2026-07-23 03:28:47] rfsrc_model - SHAP TIVM: 0.0027 
+[2026-07-23 03:28:47] SHAP hesaplama basladi, n_obs = 15 

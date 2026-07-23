@@ -354,3 +354,9 @@
 [2026-07-23 03:26:57] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 03:27:19] SHAP - gozlem 5 / 15 
 [2026-07-23 03:27:46] SHAP - gozlem 10 / 15 
+[2026-07-23 03:28:13] SHAP - gozlem 15 / 15 
+[2026-07-23 03:28:19] SHAP hesaplama bitti, kaydedildi: results/penalized/FRTCS/shap_long.csv 
+[2026-07-23 03:28:21] Grafik kaydedildi: results/penalized/FRTCS/plots/survshap_plot.png 
+[2026-07-23 03:28:21] SHAP ozeti kaydedildi: results/penalized/FRTCS/shap_summary.csv 
+[2026-07-23 03:28:21] penalized_model - SHAP TIVM: 7e-04 
+[2026-07-23 03:28:21] SHAP hesaplama basladi, n_obs = 15 
