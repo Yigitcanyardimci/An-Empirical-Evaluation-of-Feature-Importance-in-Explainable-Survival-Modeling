@@ -384,3 +384,4 @@
 [2026-07-23 05:14:16] SHAP ozeti kaydedildi: results/ctree/LeukSurv/shap_summary.csv 
 [2026-07-23 05:14:16] ctree_model - SHAP TIVM: 0.0025 
 [2026-07-23 05:14:16] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 05:17:57] SHAP - gozlem 5 / 15 
