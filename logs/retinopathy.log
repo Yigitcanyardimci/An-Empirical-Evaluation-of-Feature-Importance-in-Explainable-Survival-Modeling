@@ -393,3 +393,10 @@
 [2026-07-23 02:21:10] cv_glmnet_model - SHAP TIVM: 0 
 [2026-07-23 02:21:10] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 02:21:41] SHAP - gozlem 5 / 15 
+[2026-07-23 02:22:16] SHAP - gozlem 10 / 15 
+[2026-07-23 02:22:54] SHAP - gozlem 15 / 15 
+[2026-07-23 02:23:01] SHAP hesaplama bitti, kaydedildi: results/glmboost/retinopathy/shap_long.csv 
+[2026-07-23 02:23:02] Grafik kaydedildi: results/glmboost/retinopathy/plots/survshap_plot.png 
+[2026-07-23 02:23:02] SHAP ozeti kaydedildi: results/glmboost/retinopathy/shap_summary.csv 
+[2026-07-23 02:23:02] glmboost_model - SHAP TIVM: 0.0018 
+[2026-07-23 02:23:02] SHAP hesaplama basladi, n_obs = 15 
