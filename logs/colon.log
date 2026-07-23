@@ -352,3 +352,4 @@
 [2026-07-23 04:08:20] SHAP ozeti kaydedildi: results/aorsf/colon/shap_summary.csv 
 [2026-07-23 04:08:20] aorsf_model - SHAP TIVM: 0.0011 
 [2026-07-23 04:08:20] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 05:32:22] SHAP - gozlem 5 / 15 
