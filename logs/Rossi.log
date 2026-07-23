@@ -906,3 +906,20 @@
 [2026-07-23 22:50:12] rfsrc_model - SHAP TIVM: 0.0025 
 [2026-07-23 22:50:12] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 22:56:51] SHAP - gozlem 5 / 15 
+[2026-07-23 23:06:53] SHAP - gozlem 10 / 15 
+[2026-07-23 23:16:53] SHAP - gozlem 15 / 15 
+[2026-07-23 23:18:55] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/Rossi/shap_long.csv 
+[2026-07-23 23:18:55] Grafik kaydedildi: results/xgboost_cox/Rossi/plots/survshap_plot.png 
+[2026-07-23 23:18:55] SHAP ozeti kaydedildi: results/xgboost_cox/Rossi/shap_summary.csv 
+[2026-07-23 23:18:55] xgboost_cox_model - SHAP TIVM: 0.0034 
+[2026-07-23 23:18:55] ===== BITTI: Rossi + cox - cindex: 0.707 - PFI TIVM: 0.0021 - SHAP TIVM: 0.0015 ===== 
+[2026-07-23 23:18:55] ===== BITTI: Rossi + cforest - cindex: 0.709 - PFI TIVM: 0.0021 - SHAP TIVM: 0.0029 ===== 
+[2026-07-23 23:18:55] ===== BITTI: Rossi + coxboost - cindex: 0.713 - PFI TIVM: 0.0021 - SHAP TIVM: 0.0015 ===== 
+[2026-07-23 23:18:55] ===== BITTI: Rossi + ctree - cindex: 0.756 - PFI TIVM: 0.0036 - SHAP TIVM: 0.0065 ===== 
+[2026-07-23 23:18:55] ===== BITTI: Rossi + glmboost - cindex: 0.729 - PFI TIVM: 9e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-07-23 23:18:55] ===== BITTI: Rossi + penalized - cindex: 0.707 - PFI TIVM: 0.0019 - SHAP TIVM: 0.002 ===== 
+[2026-07-23 23:18:55] ===== BITTI: Rossi + ranger - cindex: 0.732 - PFI TIVM: 0.0019 - SHAP TIVM: 0.002 ===== 
+[2026-07-23 23:18:55] ===== BITTI: Rossi + rfsrc - cindex: 0.73 - PFI TIVM: 0.0019 - SHAP TIVM: 0.0025 ===== 
+[2026-07-23 23:18:55] ===== BITTI: Rossi + xgboost_cox - cindex: 0.639 - PFI TIVM: 0.0123 - SHAP TIVM: 0.0034 ===== 
+[2026-07-23 23:18:55] ----- Veri seti bitti: Rossi ----- 
+[2026-07-23 23:18:55] ===== RUN ( Rossi ) TAMAMLANDI ===== 
