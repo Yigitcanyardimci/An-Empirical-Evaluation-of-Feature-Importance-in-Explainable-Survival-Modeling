@@ -161,3 +161,32 @@
 [2026-07-23 14:38:43] Model kaydedildi: results/cforest/rott2/model.rds 
 [2026-07-23 14:38:43] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-23 14:38:43] Model egitimi basladi ( coxboost ) 
+[2026-07-23 14:39:05] Model egitimi bitti ( coxboost ) 
+[2026-07-23 14:39:05] Model kaydedildi: results/coxboost/rott2/model.rds 
+[2026-07-23 14:39:05] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 14:39:05] Model egitimi basladi ( ctree ) 
+[2026-07-23 14:39:05] Model egitimi bitti ( ctree ) 
+[2026-07-23 14:39:05] Model kaydedildi: results/ctree/rott2/model.rds 
+[2026-07-23 14:39:05] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 14:39:05] Model egitimi basladi ( cv_glmnet ) 
+[2026-07-23 14:39:06] Model egitimi bitti ( cv_glmnet ) 
+[2026-07-23 14:39:06] Model kaydedildi: results/cv_glmnet/rott2/model.rds 
+[2026-07-23 14:39:06] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 14:39:06] Model egitimi basladi ( glmboost ) 
+[2026-07-23 14:39:10] Model egitimi bitti ( glmboost ) 
+[2026-07-23 14:39:11] Model kaydedildi: results/glmboost/rott2/model.rds 
+[2026-07-23 14:39:11] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 14:39:11] Model egitimi basladi ( glmnet ) 
+[2026-07-23 14:39:11] Model egitimi bitti ( glmnet ) 
+[2026-07-23 14:39:11] Model kaydedildi: results/glmnet/rott2/model.rds 
+[2026-07-23 14:39:11] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 14:39:11] Model egitimi basladi ( penalized ) 
+[2026-07-23 14:39:12] Model egitimi bitti ( penalized ) 
+[2026-07-23 14:39:12] Model kaydedildi: results/penalized/rott2/model.rds 
+[2026-07-23 14:39:12] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 14:39:12] Model egitimi basladi ( ranger ) 
+[2026-07-23 14:39:39] Model egitimi bitti ( ranger ) 
+[2026-07-23 14:39:49] Model kaydedildi: results/ranger/rott2/model.rds 
+[2026-07-23 14:39:49] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-23 14:39:49] Model egitimi basladi ( rfsrc ) 
+[2026-07-23 14:40:07] Model egitimi bitti ( rfsrc ) 
