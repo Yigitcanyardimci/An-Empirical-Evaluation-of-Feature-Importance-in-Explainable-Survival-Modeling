@@ -313,3 +313,4 @@
 [2026-07-23 01:55:21] cox_model - SHAP TIVM: 0.0012 
 [2026-07-23 01:55:21] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 03:39:49] SHAP - gozlem 5 / 15 
+[2026-07-23 05:15:18] SHAP - gozlem 10 / 15 
