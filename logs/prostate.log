@@ -641,3 +641,9 @@
 [2026-07-23 10:14:41] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 10:18:11] SHAP - gozlem 5 / 15 
 [2026-07-23 10:21:13] SHAP - gozlem 10 / 15 
+[2026-07-23 10:24:36] SHAP - gozlem 15 / 15 
+[2026-07-23 10:25:03] SHAP hesaplama bitti, kaydedildi: results/rfsrc/prostate/shap_long.csv 
+[2026-07-23 10:25:04] Grafik kaydedildi: results/rfsrc/prostate/plots/survshap_plot.png 
+[2026-07-23 10:25:04] SHAP ozeti kaydedildi: results/rfsrc/prostate/shap_summary.csv 
+[2026-07-23 10:25:04] rfsrc_model - SHAP TIVM: 0.002 
+[2026-07-23 10:25:04] SHAP hesaplama basladi, n_obs = 15 
