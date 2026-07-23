@@ -449,3 +449,6 @@
 [2026-07-23 19:29:35] Performans hesaplama bitti: surv.penalized - cindex: 0.641 - IBS (graf): 0.144 
 [2026-07-23 19:29:35] Performans kaydedildi: results/penalized/dataDIVAT1/performance.csv 
 [2026-07-23 19:29:35] Performans hesaplama basladi: surv.ranger 
+[2026-07-23 19:33:30] Performans hesaplama bitti: surv.ranger - cindex: 0.557 - IBS (graf): 0.214 
+[2026-07-23 19:33:30] Performans kaydedildi: results/ranger/dataDIVAT1/performance.csv 
+[2026-07-23 19:33:30] Performans hesaplama basladi: surv.rfsrc 
