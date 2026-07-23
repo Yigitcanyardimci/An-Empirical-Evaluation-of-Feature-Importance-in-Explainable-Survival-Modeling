@@ -544,3 +544,35 @@
 [2026-07-23 16:29:43] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 16:32:04] SHAP - gozlem 5 / 15 
 [2026-07-23 16:34:59] SHAP - gozlem 10 / 15 
+[2026-07-23 16:37:53] SHAP - gozlem 15 / 15 
+[2026-07-23 16:38:30] SHAP hesaplama bitti, kaydedildi: results/ranger/acath/shap_long.csv 
+[2026-07-23 16:38:30] Grafik kaydedildi: results/ranger/acath/plots/survshap_plot.png 
+[2026-07-23 16:38:30] SHAP ozeti kaydedildi: results/ranger/acath/shap_summary.csv 
+[2026-07-23 16:38:30] ranger_model - SHAP TIVM: 0.0032 
+[2026-07-23 16:38:30] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 16:38:48] SHAP - gozlem 5 / 15 
+[2026-07-23 16:39:10] SHAP - gozlem 10 / 15 
+[2026-07-23 16:39:32] SHAP - gozlem 15 / 15 
+[2026-07-23 16:39:37] SHAP hesaplama bitti, kaydedildi: results/rfsrc/acath/shap_long.csv 
+[2026-07-23 16:39:37] Grafik kaydedildi: results/rfsrc/acath/plots/survshap_plot.png 
+[2026-07-23 16:39:37] SHAP ozeti kaydedildi: results/rfsrc/acath/shap_summary.csv 
+[2026-07-23 16:39:37] rfsrc_model - SHAP TIVM: 0.0031 
+[2026-07-23 16:39:37] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 16:39:49] SHAP - gozlem 5 / 15 
+[2026-07-23 16:40:06] SHAP - gozlem 10 / 15 
+[2026-07-23 16:40:21] SHAP - gozlem 15 / 15 
+[2026-07-23 16:40:23] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/acath/shap_long.csv 
+[2026-07-23 16:40:24] Grafik kaydedildi: results/xgboost_cox/acath/plots/survshap_plot.png 
+[2026-07-23 16:40:24] SHAP ozeti kaydedildi: results/xgboost_cox/acath/shap_summary.csv 
+[2026-07-23 16:40:24] xgboost_cox_model - SHAP TIVM: 0.0031 
+[2026-07-23 16:40:24] ===== BITTI: acath + cox - cindex: 0.611 - PFI TIVM: 8e-04 - SHAP TIVM: 0.0023 ===== 
+[2026-07-23 16:40:24] ===== BITTI: acath + cforest - cindex: 0.586 - PFI TIVM: 0.0012 - SHAP TIVM: 0.0036 ===== 
+[2026-07-23 16:40:24] ===== BITTI: acath + coxboost - cindex: 0.611 - PFI TIVM: 7e-04 - SHAP TIVM: 0.0023 ===== 
+[2026-07-23 16:40:24] ===== BITTI: acath + ctree - cindex: 0.597 - PFI TIVM: 9e-04 - SHAP TIVM: 0.0042 ===== 
+[2026-07-23 16:40:24] ===== BITTI: acath + glmboost - cindex: 0.611 - PFI TIVM: 7e-04 - SHAP TIVM: 0.0022 ===== 
+[2026-07-23 16:40:24] ===== BITTI: acath + penalized - cindex: 0.611 - PFI TIVM: 8e-04 - SHAP TIVM: 0.0023 ===== 
+[2026-07-23 16:40:24] ===== BITTI: acath + ranger - cindex: 0.58 - PFI TIVM: 0.0014 - SHAP TIVM: 0.0032 ===== 
+[2026-07-23 16:40:24] ===== BITTI: acath + rfsrc - cindex: 0.592 - PFI TIVM: 0.0011 - SHAP TIVM: 0.0031 ===== 
+[2026-07-23 16:40:24] ===== BITTI: acath + xgboost_cox - cindex: 0.551 - PFI TIVM: 0.0019 - SHAP TIVM: 0.0031 ===== 
+[2026-07-23 16:40:24] ----- Veri seti bitti: acath ----- 
+[2026-07-23 16:40:24] ===== RUN ( acath ) TAMAMLANDI ===== 
