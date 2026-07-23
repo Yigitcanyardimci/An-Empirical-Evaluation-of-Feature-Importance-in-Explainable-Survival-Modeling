@@ -247,3 +247,9 @@
 [2026-07-23 01:54:21] Explainer kuruluyor: penalized_model 
 [2026-07-23 01:54:56] Explainer kaydedildi: results/penalized/aids2/explainer.rds 
 [2026-07-23 01:54:56] Explainer kuruluyor: ranger_model 
+[2026-07-23 01:55:31] Explainer kaydedildi: results/ranger/aids2/explainer.rds 
+[2026-07-23 01:55:31] Explainer kuruluyor: rfsrc_model 
+[2026-07-23 01:56:05] Explainer kaydedildi: results/rfsrc/aids2/explainer.rds 
+[2026-07-23 01:56:05] Explainer kuruluyor: xgboost_cox_model 
+[2026-07-23 01:56:40] Explainer kaydedildi: results/xgboost_cox/aids2/explainer.rds 
+[2026-07-23 01:56:40] PFI hesaplaniyor: cox_model 
