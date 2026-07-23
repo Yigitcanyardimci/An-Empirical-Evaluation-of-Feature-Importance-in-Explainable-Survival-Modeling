@@ -246,3 +246,11 @@
 [2026-07-23 01:43:06] Explainer kuruluyor: cox_model 
 [2026-07-23 01:43:37] Explainer kaydedildi: results/cox/TRACE/explainer.rds 
 [2026-07-23 01:43:37] Explainer kuruluyor: aorsf_model 
+[2026-07-23 01:44:09] Explainer kaydedildi: results/aorsf/TRACE/explainer.rds 
+[2026-07-23 01:44:09] Explainer kuruluyor: cforest_model 
+[2026-07-23 01:44:35] Explainer kaydedildi: results/cforest/TRACE/explainer.rds 
+[2026-07-23 01:44:35] Explainer kuruluyor: coxboost_model 
+[2026-07-23 01:45:00] Explainer kaydedildi: results/coxboost/TRACE/explainer.rds 
+[2026-07-23 01:45:00] Explainer kuruluyor: cv_coxboost_model 
+[2026-07-23 01:45:23] Explainer kaydedildi: results/cv_coxboost/TRACE/explainer.rds 
+[2026-07-23 01:45:23] Explainer kuruluyor: ctree_model 

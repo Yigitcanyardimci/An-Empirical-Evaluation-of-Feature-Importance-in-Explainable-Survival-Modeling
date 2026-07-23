@@ -254,3 +254,6 @@
 [2026-07-23 01:32:58] Explainer kaydedildi: results/xgboost_cox/prostate/explainer.rds 
 [2026-07-23 01:32:58] PFI hesaplaniyor: cox_model 
 [2026-07-23 01:33:35] PFI hesaplaniyor: cforest_model 
+[2026-07-23 01:43:55] PFI hesaplaniyor: coxboost_model 
+[2026-07-23 01:44:32] PFI hesaplaniyor: cv_coxboost_model 
+[2026-07-23 01:45:09] PFI hesaplaniyor: ctree_model 

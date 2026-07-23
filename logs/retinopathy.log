@@ -336,3 +336,4 @@
 [2026-07-23 01:42:55] PFI ozeti kaydedildi: results/xgboost_cox/retinopathy/vimp_summary.csv 
 [2026-07-23 01:42:55] xgboost_cox_model - PFI TIVM: 0.0087 
 [2026-07-23 01:42:55] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 01:44:07] SHAP - gozlem 5 / 15 
