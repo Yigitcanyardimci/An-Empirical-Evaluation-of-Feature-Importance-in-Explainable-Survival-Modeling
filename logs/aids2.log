@@ -985,3 +985,11 @@
 [2026-07-23 14:32:28] Global aciklama (PFI) basladi 
 [2026-07-23 14:32:28] Kaydedilmis explainer bulundu, okunuyor: results/cox/aids2/explainer.rds 
 [2026-07-23 14:32:39] Kaydedilmis explainer bulundu, okunuyor: results/cforest/aids2/explainer.rds 
+[2026-07-23 14:32:51] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/aids2/explainer.rds 
+[2026-07-23 14:33:03] Kaydedilmis explainer bulundu, okunuyor: results/ctree/aids2/explainer.rds 
+[2026-07-23 14:33:14] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/aids2/explainer.rds 
+[2026-07-23 14:33:26] Kaydedilmis explainer bulundu, okunuyor: results/penalized/aids2/explainer.rds 
+[2026-07-23 14:33:38] Kaydedilmis explainer bulundu, okunuyor: results/ranger/aids2/explainer.rds 
+[2026-07-23 14:33:48] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/aids2/explainer.rds 
+[2026-07-23 14:34:00] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/aids2/explainer.rds 
+[2026-07-23 14:34:13] PFI hesaplaniyor: cox_model 
