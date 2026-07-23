@@ -1475,3 +1475,12 @@
 [2026-07-23 20:07:03] Performans kaydedildi: results/xgboost_cox/TRACE/performance.csv 
 [2026-07-23 20:07:03] Global aciklama (PFI) basladi 
 [2026-07-23 20:07:03] Kaydedilmis explainer bulundu, okunuyor: results/cox/TRACE/explainer.rds 
+[2026-07-23 20:07:13] Kaydedilmis explainer bulundu, okunuyor: results/cforest/TRACE/explainer.rds 
+[2026-07-23 20:07:23] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/TRACE/explainer.rds 
+[2026-07-23 20:07:34] Kaydedilmis explainer bulundu, okunuyor: results/ctree/TRACE/explainer.rds 
+[2026-07-23 20:07:45] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/TRACE/explainer.rds 
+[2026-07-23 20:07:56] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/TRACE/explainer.rds 
+[2026-07-23 20:08:06] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/TRACE/explainer.rds 
+[2026-07-23 20:08:16] Kaydedilmis explainer bulundu, okunuyor: results/penalized/TRACE/explainer.rds 
+[2026-07-23 20:08:27] Kaydedilmis explainer bulundu, okunuyor: results/ranger/TRACE/explainer.rds 
+[2026-07-23 20:08:38] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/TRACE/explainer.rds 
