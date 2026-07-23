@@ -550,3 +550,12 @@
 [2026-07-23 16:38:30] SHAP ozeti kaydedildi: results/ranger/acath/shap_summary.csv 
 [2026-07-23 16:38:30] ranger_model - SHAP TIVM: 0.0032 
 [2026-07-23 16:38:30] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 16:38:48] SHAP - gozlem 5 / 15 
+[2026-07-23 16:39:10] SHAP - gozlem 10 / 15 
+[2026-07-23 16:39:32] SHAP - gozlem 15 / 15 
+[2026-07-23 16:39:37] SHAP hesaplama bitti, kaydedildi: results/rfsrc/acath/shap_long.csv 
+[2026-07-23 16:39:37] Grafik kaydedildi: results/rfsrc/acath/plots/survshap_plot.png 
+[2026-07-23 16:39:37] SHAP ozeti kaydedildi: results/rfsrc/acath/shap_summary.csv 
+[2026-07-23 16:39:37] rfsrc_model - SHAP TIVM: 0.0031 
+[2026-07-23 16:39:37] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 16:39:49] SHAP - gozlem 5 / 15 
