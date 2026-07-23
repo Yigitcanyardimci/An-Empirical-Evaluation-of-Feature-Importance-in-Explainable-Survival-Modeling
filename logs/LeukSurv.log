@@ -282,3 +282,57 @@
 [2026-07-23 02:05:48] PFI hesaplaniyor: ranger_model 
 [2026-07-23 02:18:24] PFI hesaplaniyor: rfsrc_model 
 [2026-07-23 02:20:21] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-23 02:21:32] Global aciklama (PFI) bitti 
+[2026-07-23 02:21:32] PFI kaydedildi: results/cox/LeukSurv/vimp.rds 
+[2026-07-23 02:21:33] Grafik kaydedildi: results/cox/LeukSurv/plots/pfi_plot.png 
+[2026-07-23 02:21:33] PFI ozeti kaydedildi: results/cox/LeukSurv/vimp_summary.csv 
+[2026-07-23 02:21:33] cox_model - PFI TIVM: 0.0014 
+[2026-07-23 02:21:33] PFI kaydedildi: results/aorsf/LeukSurv/vimp.rds 
+[2026-07-23 02:21:34] Grafik kaydedildi: results/aorsf/LeukSurv/plots/pfi_plot.png 
+[2026-07-23 02:21:34] PFI ozeti kaydedildi: results/aorsf/LeukSurv/vimp_summary.csv 
+[2026-07-23 02:21:34] aorsf_model - PFI TIVM: 0.0015 
+[2026-07-23 02:21:34] PFI kaydedildi: results/cforest/LeukSurv/vimp.rds 
+[2026-07-23 02:21:35] Grafik kaydedildi: results/cforest/LeukSurv/plots/pfi_plot.png 
+[2026-07-23 02:21:35] PFI ozeti kaydedildi: results/cforest/LeukSurv/vimp_summary.csv 
+[2026-07-23 02:21:35] cforest_model - PFI TIVM: 0.0016 
+[2026-07-23 02:21:35] PFI kaydedildi: results/coxboost/LeukSurv/vimp.rds 
+[2026-07-23 02:21:36] Grafik kaydedildi: results/coxboost/LeukSurv/plots/pfi_plot.png 
+[2026-07-23 02:21:36] PFI ozeti kaydedildi: results/coxboost/LeukSurv/vimp_summary.csv 
+[2026-07-23 02:21:36] coxboost_model - PFI TIVM: 0.0014 
+[2026-07-23 02:21:36] PFI kaydedildi: results/cv_coxboost/LeukSurv/vimp.rds 
+[2026-07-23 02:21:37] Grafik kaydedildi: results/cv_coxboost/LeukSurv/plots/pfi_plot.png 
+[2026-07-23 02:21:37] PFI ozeti kaydedildi: results/cv_coxboost/LeukSurv/vimp_summary.csv 
+[2026-07-23 02:21:37] cv_coxboost_model - PFI TIVM: 0.0012 
+[2026-07-23 02:21:37] PFI kaydedildi: results/ctree/LeukSurv/vimp.rds 
+[2026-07-23 02:21:38] Grafik kaydedildi: results/ctree/LeukSurv/plots/pfi_plot.png 
+[2026-07-23 02:21:38] PFI ozeti kaydedildi: results/ctree/LeukSurv/vimp_summary.csv 
+[2026-07-23 02:21:38] ctree_model - PFI TIVM: 0.0018 
+[2026-07-23 02:21:38] PFI kaydedildi: results/cv_glmnet/LeukSurv/vimp.rds 
+[2026-07-23 02:21:39] Grafik kaydedildi: results/cv_glmnet/LeukSurv/plots/pfi_plot.png 
+[2026-07-23 02:21:39] PFI ozeti kaydedildi: results/cv_glmnet/LeukSurv/vimp_summary.csv 
+[2026-07-23 02:21:39] cv_glmnet_model - PFI TIVM: 0.001 
+[2026-07-23 02:21:39] PFI kaydedildi: results/glmboost/LeukSurv/vimp.rds 
+[2026-07-23 02:21:40] Grafik kaydedildi: results/glmboost/LeukSurv/plots/pfi_plot.png 
+[2026-07-23 02:21:40] PFI ozeti kaydedildi: results/glmboost/LeukSurv/vimp_summary.csv 
+[2026-07-23 02:21:40] glmboost_model - PFI TIVM: 0.0014 
+[2026-07-23 02:21:40] PFI kaydedildi: results/glmnet/LeukSurv/vimp.rds 
+[2026-07-23 02:21:41] Grafik kaydedildi: results/glmnet/LeukSurv/plots/pfi_plot.png 
+[2026-07-23 02:21:41] PFI ozeti kaydedildi: results/glmnet/LeukSurv/vimp_summary.csv 
+[2026-07-23 02:21:41] glmnet_model - PFI TIVM: 0.0013 
+[2026-07-23 02:21:41] PFI kaydedildi: results/penalized/LeukSurv/vimp.rds 
+[2026-07-23 02:21:41] Grafik kaydedildi: results/penalized/LeukSurv/plots/pfi_plot.png 
+[2026-07-23 02:21:42] PFI ozeti kaydedildi: results/penalized/LeukSurv/vimp_summary.csv 
+[2026-07-23 02:21:42] penalized_model - PFI TIVM: 0.0013 
+[2026-07-23 02:21:42] PFI kaydedildi: results/ranger/LeukSurv/vimp.rds 
+[2026-07-23 02:21:42] Grafik kaydedildi: results/ranger/LeukSurv/plots/pfi_plot.png 
+[2026-07-23 02:21:42] PFI ozeti kaydedildi: results/ranger/LeukSurv/vimp_summary.csv 
+[2026-07-23 02:21:42] ranger_model - PFI TIVM: 0.0012 
+[2026-07-23 02:21:42] PFI kaydedildi: results/rfsrc/LeukSurv/vimp.rds 
+[2026-07-23 02:21:43] Grafik kaydedildi: results/rfsrc/LeukSurv/plots/pfi_plot.png 
+[2026-07-23 02:21:43] PFI ozeti kaydedildi: results/rfsrc/LeukSurv/vimp_summary.csv 
+[2026-07-23 02:21:43] rfsrc_model - PFI TIVM: 0.0014 
+[2026-07-23 02:21:43] PFI kaydedildi: results/xgboost_cox/LeukSurv/vimp.rds 
+[2026-07-23 02:21:45] Grafik kaydedildi: results/xgboost_cox/LeukSurv/plots/pfi_plot.png 
+[2026-07-23 02:21:45] PFI ozeti kaydedildi: results/xgboost_cox/LeukSurv/vimp_summary.csv 
+[2026-07-23 02:21:45] xgboost_cox_model - PFI TIVM: 0.0022 
+[2026-07-23 02:21:45] SHAP hesaplama basladi, n_obs = 15 

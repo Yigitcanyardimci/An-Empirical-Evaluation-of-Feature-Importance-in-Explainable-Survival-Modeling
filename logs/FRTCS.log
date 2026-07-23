@@ -306,3 +306,9 @@
 [2026-07-23 02:10:41] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 02:13:31] SHAP - gozlem 5 / 15 
 [2026-07-23 02:17:17] SHAP - gozlem 10 / 15 
+[2026-07-23 02:21:05] SHAP - gozlem 15 / 15 
+[2026-07-23 02:21:49] SHAP hesaplama bitti, kaydedildi: results/cox/FRTCS/shap_long.csv 
+[2026-07-23 02:21:49] Grafik kaydedildi: results/cox/FRTCS/plots/survshap_plot.png 
+[2026-07-23 02:21:49] SHAP ozeti kaydedildi: results/cox/FRTCS/shap_summary.csv 
+[2026-07-23 02:21:49] cox_model - SHAP TIVM: 7e-04 
+[2026-07-23 02:21:49] SHAP hesaplama basladi, n_obs = 15 
