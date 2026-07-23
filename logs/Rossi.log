@@ -312,3 +312,4 @@
 [2026-07-23 02:02:12] SHAP ozeti kaydedildi: results/cox/Rossi/shap_summary.csv 
 [2026-07-23 02:02:12] cox_model - SHAP TIVM: 0.0015 
 [2026-07-23 02:02:12] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 05:05:26] SHAP - gozlem 5 / 15 
