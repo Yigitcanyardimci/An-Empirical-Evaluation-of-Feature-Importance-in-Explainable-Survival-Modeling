@@ -562,3 +562,6 @@
 [2026-07-23 08:03:06] Kaydedilmis explainer bulundu, okunuyor: results/penalized/colon/explainer.rds 
 [2026-07-23 08:03:11] Kaydedilmis explainer bulundu, okunuyor: results/ranger/colon/explainer.rds 
 [2026-07-23 08:03:16] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/colon/explainer.rds 
+[2026-07-23 08:03:20] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/colon/explainer.rds 
+[2026-07-23 08:03:26] PFI hesaplaniyor: cox_model 
+[2026-07-23 08:04:48] PFI hesaplaniyor: cforest_model 
