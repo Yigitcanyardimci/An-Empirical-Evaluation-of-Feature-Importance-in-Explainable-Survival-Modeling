@@ -360,3 +360,4 @@
 [2026-07-23 04:39:15] SHAP ozeti kaydedildi: results/cforest/whas500/shap_summary.csv 
 [2026-07-23 04:39:15] cforest_model - SHAP TIVM: 0.0051 
 [2026-07-23 04:39:15] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 04:44:57] SHAP - gozlem 5 / 15 
