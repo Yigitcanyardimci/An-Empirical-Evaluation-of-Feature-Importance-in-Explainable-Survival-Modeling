@@ -360,3 +360,4 @@
 [2026-07-23 03:10:35] SHAP ozeti kaydedildi: results/penalized/epileptic/shap_summary.csv 
 [2026-07-23 03:10:35] penalized_model - SHAP TIVM: 0.0121 
 [2026-07-23 03:10:35] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 03:14:45] SHAP - gozlem 5 / 15 
