@@ -358,3 +358,4 @@
 [2026-07-23 03:45:56] SHAP ozeti kaydedildi: results/coxboost/zinc/shap_summary.csv 
 [2026-07-23 03:45:56] coxboost_model - SHAP TIVM: 0.001 
 [2026-07-23 03:45:56] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 03:46:58] SHAP - gozlem 5 / 15 
