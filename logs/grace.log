@@ -386,3 +386,17 @@
 [2026-07-23 02:08:47] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 02:09:08] SHAP - gozlem 5 / 15 
 [2026-07-23 02:09:33] SHAP - gozlem 10 / 15 
+[2026-07-23 02:09:57] SHAP - gozlem 15 / 15 
+[2026-07-23 02:10:02] SHAP hesaplama bitti, kaydedildi: results/cv_glmnet/grace/shap_long.csv 
+[2026-07-23 02:10:03] Grafik kaydedildi: results/cv_glmnet/grace/plots/survshap_plot.png 
+[2026-07-23 02:10:03] SHAP ozeti kaydedildi: results/cv_glmnet/grace/shap_summary.csv 
+[2026-07-23 02:10:03] cv_glmnet_model - SHAP TIVM: 0.0025 
+[2026-07-23 02:10:03] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 02:10:20] SHAP - gozlem 5 / 15 
+[2026-07-23 02:10:43] SHAP - gozlem 10 / 15 
+[2026-07-23 02:11:05] SHAP - gozlem 15 / 15 
+[2026-07-23 02:11:09] SHAP hesaplama bitti, kaydedildi: results/glmboost/grace/shap_long.csv 
+[2026-07-23 02:11:10] Grafik kaydedildi: results/glmboost/grace/plots/survshap_plot.png 
+[2026-07-23 02:11:10] SHAP ozeti kaydedildi: results/glmboost/grace/shap_summary.csv 
+[2026-07-23 02:11:10] glmboost_model - SHAP TIVM: 0.004 
+[2026-07-23 02:11:10] SHAP hesaplama basladi, n_obs = 15 
