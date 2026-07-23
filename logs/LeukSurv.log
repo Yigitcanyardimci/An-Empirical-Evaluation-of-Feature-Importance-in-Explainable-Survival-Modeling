@@ -946,3 +946,20 @@
 [2026-07-23 12:32:38] SHAP - gozlem 5 / 15 
 [2026-07-23 12:37:15] SHAP - gozlem 10 / 15 
 [2026-07-23 12:41:58] SHAP - gozlem 15 / 15 
+[2026-07-23 12:42:56] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/LeukSurv/shap_long.csv 
+[2026-07-23 12:42:56] Grafik kaydedildi: results/xgboost_cox/LeukSurv/plots/survshap_plot.png 
+[2026-07-23 12:42:56] SHAP ozeti kaydedildi: results/xgboost_cox/LeukSurv/shap_summary.csv 
+[2026-07-23 12:42:56] xgboost_cox_model - SHAP TIVM: 0.0062 
+[2026-07-23 12:42:56] ===== BITTI: LeukSurv + cox - cindex: 0.665 - PFI TIVM: 0.0014 - SHAP TIVM: 0.0011 ===== 
+[2026-07-23 12:42:56] ===== BITTI: LeukSurv + cforest - cindex: 0.664 - PFI TIVM: 0.0016 - SHAP TIVM: 0.002 ===== 
+[2026-07-23 12:42:56] ===== BITTI: LeukSurv + coxboost - cindex: 0.682 - PFI TIVM: 0.0014 - SHAP TIVM: 0.0011 ===== 
+[2026-07-23 12:42:56] ===== BITTI: LeukSurv + ctree - cindex: 0.659 - PFI TIVM: 0.0019 - SHAP TIVM: 0.0025 ===== 
+[2026-07-23 12:42:56] ===== BITTI: LeukSurv + cv_glmnet - cindex: 0.672 - PFI TIVM: 0.001 - SHAP TIVM: 8e-04 ===== 
+[2026-07-23 12:42:56] ===== BITTI: LeukSurv + glmboost - cindex: 0.684 - PFI TIVM: 0.0014 - SHAP TIVM: 0.0011 ===== 
+[2026-07-23 12:42:56] ===== BITTI: LeukSurv + glmnet - cindex: 0.676 - PFI TIVM: 0.0014 - SHAP TIVM: 0.0011 ===== 
+[2026-07-23 12:42:56] ===== BITTI: LeukSurv + penalized - cindex: 0.665 - PFI TIVM: 0.0014 - SHAP TIVM: 0.0012 ===== 
+[2026-07-23 12:42:56] ===== BITTI: LeukSurv + ranger - cindex: 0.66 - PFI TIVM: 0.0012 - SHAP TIVM: 0.0021 ===== 
+[2026-07-23 12:42:56] ===== BITTI: LeukSurv + rfsrc - cindex: 0.67 - PFI TIVM: 0.0014 - SHAP TIVM: 0.0021 ===== 
+[2026-07-23 12:42:56] ===== BITTI: LeukSurv + xgboost_cox - cindex: 0.547 - PFI TIVM: 0.0023 - SHAP TIVM: 0.0062 ===== 
+[2026-07-23 12:42:56] ----- Veri seti bitti: LeukSurv ----- 
+[2026-07-23 12:42:56] ===== RUN ( LeukSurv ) TAMAMLANDI ===== 
