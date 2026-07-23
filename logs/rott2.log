@@ -404,3 +404,6 @@
 [2026-07-23 15:25:57] Performans hesaplama bitti: surv.coxph - cindex: 0.687 - IBS (graf): 0.172 
 [2026-07-23 15:25:57] Performans kaydedildi: results/cox/rott2/performance.csv 
 [2026-07-23 15:25:57] Performans hesaplama basladi: surv.cforest 
+[2026-07-23 15:27:33] Performans hesaplama bitti: surv.cforest - cindex: 0.708 - IBS (graf): 0.163 
+[2026-07-23 15:27:33] Performans kaydedildi: results/cforest/rott2/performance.csv 
+[2026-07-23 15:27:33] Performans hesaplama basladi: surv.coxboost 
