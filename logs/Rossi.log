@@ -889,3 +889,4 @@
 [2026-07-23 20:19:41] SHAP ozeti kaydedildi: results/penalized/Rossi/shap_summary.csv 
 [2026-07-23 20:19:41] penalized_model - SHAP TIVM: 0.002 
 [2026-07-23 20:19:41] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 20:57:19] SHAP - gozlem 5 / 15 
