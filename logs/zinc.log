@@ -374,3 +374,11 @@
 [2026-07-23 04:26:14] SHAP ozeti kaydedildi: results/cv_glmnet/zinc/shap_summary.csv 
 [2026-07-23 04:26:14] cv_glmnet_model - SHAP TIVM: 0 
 [2026-07-23 04:26:14] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 04:26:33] SHAP - gozlem 5 / 15 
+[2026-07-23 04:26:55] SHAP - gozlem 10 / 15 
+[2026-07-23 04:27:19] SHAP - gozlem 15 / 15 
+[2026-07-23 04:27:24] SHAP hesaplama bitti, kaydedildi: results/glmboost/zinc/shap_long.csv 
+[2026-07-23 04:27:24] Grafik kaydedildi: results/glmboost/zinc/plots/survshap_plot.png 
+[2026-07-23 04:27:24] SHAP ozeti kaydedildi: results/glmboost/zinc/shap_summary.csv 
+[2026-07-23 04:27:24] glmboost_model - SHAP TIVM: 0.0013 
+[2026-07-23 04:27:24] SHAP hesaplama basladi, n_obs = 15 
