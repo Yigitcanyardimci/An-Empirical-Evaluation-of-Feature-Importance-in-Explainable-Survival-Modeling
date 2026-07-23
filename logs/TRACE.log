@@ -260,3 +260,9 @@
 [2026-07-23 01:46:17] Explainer kuruluyor: glmboost_model 
 [2026-07-23 01:46:42] Explainer kaydedildi: results/glmboost/TRACE/explainer.rds 
 [2026-07-23 01:46:42] Explainer kuruluyor: glmnet_model 
+[2026-07-23 01:47:13] Explainer kaydedildi: results/glmnet/TRACE/explainer.rds 
+[2026-07-23 01:47:13] Explainer kuruluyor: penalized_model 
+[2026-07-23 01:47:45] Explainer kaydedildi: results/penalized/TRACE/explainer.rds 
+[2026-07-23 01:47:45] Explainer kuruluyor: ranger_model 
+[2026-07-23 01:48:17] Explainer kaydedildi: results/ranger/TRACE/explainer.rds 
+[2026-07-23 01:48:17] Explainer kuruluyor: rfsrc_model 
