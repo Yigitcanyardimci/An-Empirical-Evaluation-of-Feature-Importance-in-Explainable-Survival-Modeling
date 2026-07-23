@@ -449,3 +449,4 @@
 [2026-07-23 16:01:55] Explainer kaydedildi: results/xgboost_cox/acath/explainer.rds 
 [2026-07-23 16:01:55] PFI hesaplaniyor: cox_model 
 [2026-07-23 16:02:20] PFI hesaplaniyor: cforest_model 
+[2026-07-23 16:10:43] PFI hesaplaniyor: coxboost_model 
