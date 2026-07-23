@@ -624,3 +624,213 @@
 [2026-07-23 08:28:09] SHAP ozeti kaydedildi: results/cox/colon/shap_summary.csv 
 [2026-07-23 08:28:09] cox_model - SHAP TIVM: 7e-04 
 [2026-07-23 08:28:09] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 14:29:07] Paket kurulumu basladi 
+[2026-07-23 14:29:07] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-07-23 14:29:11] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-07-23 14:29:14] Paket kurulumu tamamlandi 
+[2026-07-23 14:29:15] Veri okuma basladi: grace 
+[2026-07-23 14:29:15] Veri okuma bitti: grace - 1000 satir, 7 sutun 
+[2026-07-23 14:29:15] Veri okuma basladi: melanoma 
+[2026-07-23 14:29:15] Veri okuma bitti: melanoma - 205 satir, 7 sutun 
+[2026-07-23 14:29:15] Veri okuma basladi: ova 
+[2026-07-23 14:29:15] Veri okuma bitti: ova - 358 satir, 7 sutun 
+[2026-07-23 14:29:15] Veri okuma basladi: aids2 
+[2026-07-23 14:29:15] Veri okuma bitti: aids2 - 2839 satir, 6 sutun 
+[2026-07-23 14:29:15] Veri okuma basladi: veteran 
+[2026-07-23 14:29:15] Veri okuma bitti: veteran - 137 satir, 8 sutun 
+[2026-07-23 14:29:15] Veri okuma basladi: breast 
+[2026-07-23 14:29:15] Veri okuma bitti: breast - 100 satir, 6 sutun 
+[2026-07-23 14:29:15] Veri okuma basladi: e1684 
+[2026-07-23 14:29:16] Veri okuma bitti: e1684 - 284 satir, 5 sutun 
+[2026-07-23 14:29:16] Veri okuma basladi: epileptic 
+[2026-07-23 14:29:16] Veri okuma bitti: epileptic - 1286 satir, 8 sutun 
+[2026-07-23 14:29:16] Veri okuma basladi: dialysis 
+[2026-07-23 14:29:16] Veri okuma bitti: dialysis - 6805 satir, 6 sutun 
+[2026-07-23 14:29:16] Veri okuma basladi: pbc 
+[2026-07-23 14:29:16] Veri okuma bitti: pbc - 312 satir, 8 sutun 
+[2026-07-23 14:29:16] Veri okuma basladi: prostateSurvival 
+[2026-07-23 14:29:16] Veri okuma bitti: prostateSurvival - 14294 satir, 5 sutun 
+[2026-07-23 14:29:16] Veri okuma basladi: acath 
+[2026-07-23 14:29:16] Veri okuma bitti: acath - 2258 satir, 5 sutun 
+[2026-07-23 14:29:16] Veri okuma basladi: prostate 
+[2026-07-23 14:29:16] Veri okuma bitti: prostate - 475 satir, 17 sutun 
+[2026-07-23 14:29:16] Veri okuma basladi: dataDIVAT1 
+[2026-07-23 14:29:16] Veri okuma bitti: dataDIVAT1 - 5943 satir, 7 sutun 
+[2026-07-23 14:29:16] Veri okuma basladi: dataDIVAT3 
+[2026-07-23 14:29:16] Veri okuma bitti: dataDIVAT3 - 4267 satir, 9 sutun 
+[2026-07-23 14:29:16] Veri okuma basladi: TRACE 
+[2026-07-23 14:29:16] Veri okuma bitti: TRACE - 1878 satir, 8 sutun 
+[2026-07-23 14:29:16] Veri okuma basladi: FRTCS 
+[2026-07-23 14:29:16] Veri okuma bitti: FRTCS - 2088 satir, 7 sutun 
+[2026-07-23 14:29:16] Veri okuma basladi: zinc 
+[2026-07-23 14:29:16] Veri okuma bitti: zinc - 431 satir, 15 sutun 
+[2026-07-23 14:29:16] Veri okuma basladi: stagec 
+[2026-07-23 14:29:16] Veri okuma bitti: stagec - 136 satir, 9 sutun 
+[2026-07-23 14:29:16] Veri okuma basladi: LeukSurv 
+[2026-07-23 14:29:16] Veri okuma bitti: LeukSurv - 1043 satir, 9 sutun 
+[2026-07-23 14:29:16] Veri okuma basladi: nwtco 
+[2026-07-23 14:29:16] Veri okuma bitti: nwtco - 4028 satir, 9 sutun 
+[2026-07-23 14:29:16] Veri okuma basladi: retinopathy 
+[2026-07-23 14:29:16] Veri okuma bitti: retinopathy - 394 satir, 9 sutun 
+[2026-07-23 14:29:16] Veri okuma basladi: Framingham 
+[2026-07-23 14:29:17] Veri okuma bitti: Framingham - 4658 satir, 9 sutun 
+[2026-07-23 14:29:17] Veri okuma basladi: csl 
+[2026-07-23 14:29:17] Veri okuma bitti: csl - 2481 satir, 8 sutun 
+[2026-07-23 14:29:17] Veri okuma basladi: cancer 
+[2026-07-23 14:29:17] Veri okuma bitti: cancer - 169 satir, 10 sutun 
+[2026-07-23 14:29:17] Veri okuma basladi: whas500 
+[2026-07-23 14:29:17] Veri okuma bitti: whas500 - 461 satir, 18 sutun 
+[2026-07-23 14:29:17] Veri okuma basladi: cgd 
+[2026-07-23 14:29:17] Veri okuma bitti: cgd - 128 satir, 12 sutun 
+[2026-07-23 14:29:17] Veri okuma basladi: Pbc3 
+[2026-07-23 14:29:17] Veri okuma bitti: Pbc3 - 327 satir, 14 sutun 
+[2026-07-23 14:29:17] Veri okuma basladi: GBSG2 
+[2026-07-23 14:29:17] Veri okuma bitti: GBSG2 - 686 satir, 10 sutun 
+[2026-07-23 14:29:17] Veri okuma basladi: colon 
+[2026-07-23 14:29:17] Veri okuma bitti: colon - 911 satir, 11 sutun 
+[2026-07-23 14:29:17] Veri okuma basladi: flchain 
+[2026-07-23 14:29:17] Veri okuma bitti: flchain - 6524 satir, 12 sutun 
+[2026-07-23 14:29:17] Veri okuma basladi: Rossi 
+[2026-07-23 14:29:17] Veri okuma bitti: Rossi - 1405 satir, 11 sutun 
+[2026-07-23 14:29:17] Veri okuma basladi: burn 
+[2026-07-23 14:29:17] Veri okuma bitti: burn - 154 satir, 13 sutun 
+[2026-07-23 14:29:17] Veri okuma basladi: rott2 
+[2026-07-23 14:29:17] Veri okuma bitti: rott2 - 2982 satir, 13 sutun 
+[2026-07-23 14:29:17] Veri okuma basladi: d_oropha_rec 
+[2026-07-23 14:29:17] Veri okuma bitti: d_oropha_rec - 192 satir, 14 sutun 
+[2026-07-23 14:29:17] Veri okuma basladi: rdata 
+[2026-07-23 14:29:17] Veri okuma bitti: rdata - 1040 satir, 6 sutun 
+[2026-07-23 14:29:17] Task olusturuluyor: grace_task 
+[2026-07-23 14:29:17] Task olusturuldu: grace_task 
+[2026-07-23 14:29:17] Task olusturuluyor: melanoma_task 
+[2026-07-23 14:29:17] Task olusturuldu: melanoma_task 
+[2026-07-23 14:29:17] Task olusturuluyor: ova_task 
+[2026-07-23 14:29:17] Task olusturuldu: ova_task 
+[2026-07-23 14:29:17] Task olusturuluyor: aids2_task 
+[2026-07-23 14:29:17] Task olusturuldu: aids2_task 
+[2026-07-23 14:29:17] Task olusturuluyor: veteran_task 
+[2026-07-23 14:29:17] Task olusturuldu: veteran_task 
+[2026-07-23 14:29:17] Task olusturuluyor: breast_task 
+[2026-07-23 14:29:17] Task olusturuldu: breast_task 
+[2026-07-23 14:29:17] Task olusturuluyor: e1684_task 
+[2026-07-23 14:29:17] Task olusturuldu: e1684_task 
+[2026-07-23 14:29:17] Task olusturuluyor: epileptic_task 
+[2026-07-23 14:29:17] Task olusturuldu: epileptic_task 
+[2026-07-23 14:29:17] Task olusturuluyor: dialysis_task 
+[2026-07-23 14:29:17] Task olusturuldu: dialysis_task 
+[2026-07-23 14:29:17] Task olusturuluyor: pbc_task 
+[2026-07-23 14:29:17] Task olusturuldu: pbc_task 
+[2026-07-23 14:29:17] Task olusturuluyor: prostateSurvival_task 
+[2026-07-23 14:29:17] Task olusturuldu: prostateSurvival_task 
+[2026-07-23 14:29:17] Task olusturuluyor: acath_task 
+[2026-07-23 14:29:17] Task olusturuldu: acath_task 
+[2026-07-23 14:29:17] Task olusturuluyor: prostate_task 
+[2026-07-23 14:29:17] Task olusturuldu: prostate_task 
+[2026-07-23 14:29:17] Task olusturuluyor: dataDIVAT1_task 
+[2026-07-23 14:29:17] Task olusturuldu: dataDIVAT1_task 
+[2026-07-23 14:29:17] Task olusturuluyor: dataDIVAT3_task 
+[2026-07-23 14:29:18] Task olusturuldu: dataDIVAT3_task 
+[2026-07-23 14:29:18] Task olusturuluyor: TRACE_task 
+[2026-07-23 14:29:18] Task olusturuldu: TRACE_task 
+[2026-07-23 14:29:18] Task olusturuluyor: FRTCS_task 
+[2026-07-23 14:29:18] Task olusturuldu: FRTCS_task 
+[2026-07-23 14:29:18] Task olusturuluyor: zinc_task 
+[2026-07-23 14:29:18] Task olusturuldu: zinc_task 
+[2026-07-23 14:29:18] Task olusturuluyor: stagec_task 
+[2026-07-23 14:29:18] Task olusturuldu: stagec_task 
+[2026-07-23 14:29:18] Task olusturuluyor: LeukSurv_task 
+[2026-07-23 14:29:18] Task olusturuldu: LeukSurv_task 
+[2026-07-23 14:29:18] Task olusturuluyor: nwtco_task 
+[2026-07-23 14:29:18] Task olusturuldu: nwtco_task 
+[2026-07-23 14:29:18] Task olusturuluyor: retinopathy_task 
+[2026-07-23 14:29:18] Task olusturuldu: retinopathy_task 
+[2026-07-23 14:29:18] Task olusturuluyor: Framingham_task 
+[2026-07-23 14:29:18] Task olusturuldu: Framingham_task 
+[2026-07-23 14:29:18] Task olusturuluyor: csl_task 
+[2026-07-23 14:29:18] Task olusturuldu: csl_task 
+[2026-07-23 14:29:18] Task olusturuluyor: cancer_task 
+[2026-07-23 14:29:18] Task olusturuldu: cancer_task 
+[2026-07-23 14:29:18] Task olusturuluyor: whas500_task 
+[2026-07-23 14:29:18] Task olusturuldu: whas500_task 
+[2026-07-23 14:29:18] Task olusturuluyor: cgd_task 
+[2026-07-23 14:29:18] Task olusturuldu: cgd_task 
+[2026-07-23 14:29:18] Task olusturuluyor: Pbc3_task 
+[2026-07-23 14:29:18] Task olusturuldu: Pbc3_task 
+[2026-07-23 14:29:18] Task olusturuluyor: GBSG2_task 
+[2026-07-23 14:29:18] Task olusturuldu: GBSG2_task 
+[2026-07-23 14:29:18] Task olusturuluyor: colon_task 
+[2026-07-23 14:29:18] Task olusturuldu: colon_task 
+[2026-07-23 14:29:18] Task olusturuluyor: flchain_task 
+[2026-07-23 14:29:18] Task olusturuldu: flchain_task 
+[2026-07-23 14:29:18] Task olusturuluyor: Rossi_task 
+[2026-07-23 14:29:18] Task olusturuldu: Rossi_task 
+[2026-07-23 14:29:18] Task olusturuluyor: burn_task 
+[2026-07-23 14:29:18] Task olusturuldu: burn_task 
+[2026-07-23 14:29:18] Task olusturuluyor: rott2_task 
+[2026-07-23 14:29:18] Task olusturuldu: rott2_task 
+[2026-07-23 14:29:18] Task olusturuluyor: d_oropha_rec_task 
+[2026-07-23 14:29:18] Task olusturuldu: d_oropha_rec_task 
+[2026-07-23 14:29:18] Task olusturuluyor: rdata_task 
+[2026-07-23 14:29:18] Task olusturuldu: rdata_task 
+[2026-07-23 14:29:18] Toplam 36 task olusturuldu 
+[2026-07-23 14:29:18] ===== RUN ( colon ) BASLADI: 11 model ===== 
+[2026-07-23 14:29:18] ----- Veri seti basladi: colon ----- 
+[2026-07-23 14:29:18] Split basladi (ratio = 0.7 ) 
+[2026-07-23 14:29:18] Split bitti - train: 638 test: 273 
+[2026-07-23 14:29:18] Kaydedilmis model bulundu, okunuyor: results/cox/colon/model.rds 
+[2026-07-23 14:29:18] Kaydedilmis model bulundu, okunuyor: results/cforest/colon/model.rds 
+[2026-07-23 14:29:18] Kaydedilmis model bulundu, okunuyor: results/coxboost/colon/model.rds 
+[2026-07-23 14:29:18] Kaydedilmis model bulundu, okunuyor: results/ctree/colon/model.rds 
+[2026-07-23 14:29:19] Kaydedilmis model bulundu, okunuyor: results/cv_glmnet/colon/model.rds 
+[2026-07-23 14:29:19] Kaydedilmis model bulundu, okunuyor: results/glmboost/colon/model.rds 
+[2026-07-23 14:29:19] Kaydedilmis model bulundu, okunuyor: results/glmnet/colon/model.rds 
+[2026-07-23 14:29:19] Kaydedilmis model bulundu, okunuyor: results/penalized/colon/model.rds 
+[2026-07-23 14:29:19] Kaydedilmis model bulundu, okunuyor: results/ranger/colon/model.rds 
+[2026-07-23 14:29:20] Kaydedilmis model bulundu, okunuyor: results/rfsrc/colon/model.rds 
+[2026-07-23 14:29:23] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/colon/model.rds 
+[2026-07-23 14:29:23] Performans hesaplama basladi: surv.coxph 
+[2026-07-23 14:29:26] Performans hesaplama bitti: surv.coxph - cindex: 0.624 - IBS (graf): 0.196 
+[2026-07-23 14:29:26] Performans kaydedildi: results/cox/colon/performance.csv 
+[2026-07-23 14:29:26] Performans hesaplama basladi: surv.cforest 
+[2026-07-23 14:29:45] Performans hesaplama bitti: surv.cforest - cindex: 0.627 - IBS (graf): 0.193 
+[2026-07-23 14:29:45] Performans kaydedildi: results/cforest/colon/performance.csv 
+[2026-07-23 14:29:45] Performans hesaplama basladi: surv.coxboost 
+[2026-07-23 14:29:48] Performans hesaplama bitti: surv.coxboost - cindex: 0.623 - IBS (graf): 0.196 
+[2026-07-23 14:29:48] Performans kaydedildi: results/coxboost/colon/performance.csv 
+[2026-07-23 14:29:48] Performans hesaplama basladi: surv.ctree 
+[2026-07-23 14:29:49] Performans hesaplama bitti: surv.ctree - cindex: 0.602 - IBS (graf): 0.195 
+[2026-07-23 14:29:49] Performans kaydedildi: results/ctree/colon/performance.csv 
+[2026-07-23 14:29:49] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-07-23 14:29:51] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.5 - IBS (graf): 0.206 
+[2026-07-23 14:29:51] Performans kaydedildi: results/cv_glmnet/colon/performance.csv 
+[2026-07-23 14:29:51] Performans hesaplama basladi: surv.glmboost 
+[2026-07-23 14:29:53] Performans hesaplama bitti: surv.glmboost - cindex: 0.622 - IBS (graf): 0.196 
+[2026-07-23 14:29:53] Performans kaydedildi: results/glmboost/colon/performance.csv 
+[2026-07-23 14:29:53] Performans hesaplama basladi: surv.glmnet 
+[2026-07-23 14:29:54] Performans hesaplama bitti: surv.glmnet - cindex: 0.624 - IBS (graf): 0.196 
+[2026-07-23 14:29:54] Performans kaydedildi: results/glmnet/colon/performance.csv 
+[2026-07-23 14:29:54] Performans hesaplama basladi: surv.penalized 
+[2026-07-23 14:29:55] Performans hesaplama bitti: surv.penalized - cindex: 0.624 - IBS (graf): 0.196 
+[2026-07-23 14:29:55] Performans kaydedildi: results/penalized/colon/performance.csv 
+[2026-07-23 14:29:55] Performans hesaplama basladi: surv.ranger 
+[2026-07-23 14:30:00] Performans hesaplama bitti: surv.ranger - cindex: 0.628 - IBS (graf): 0.195 
+[2026-07-23 14:30:00] Performans kaydedildi: results/ranger/colon/performance.csv 
+[2026-07-23 14:30:00] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-23 14:30:02] Performans hesaplama bitti: surv.rfsrc - cindex: 0.623 - IBS (graf): 0.194 
+[2026-07-23 14:30:02] Performans kaydedildi: results/rfsrc/colon/performance.csv 
+[2026-07-23 14:30:02] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-23 14:30:04] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.603 - IBS (graf): 0.292 
+[2026-07-23 14:30:04] Performans kaydedildi: results/xgboost_cox/colon/performance.csv 
+[2026-07-23 14:30:04] Global aciklama (PFI) basladi 
+[2026-07-23 14:30:04] Kaydedilmis explainer bulundu, okunuyor: results/cox/colon/explainer.rds 
+[2026-07-23 14:30:07] Kaydedilmis explainer bulundu, okunuyor: results/cforest/colon/explainer.rds 
+[2026-07-23 14:30:11] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/colon/explainer.rds 
+[2026-07-23 14:30:14] Kaydedilmis explainer bulundu, okunuyor: results/ctree/colon/explainer.rds 
+[2026-07-23 14:30:18] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/colon/explainer.rds 
+[2026-07-23 14:30:22] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/colon/explainer.rds 
+[2026-07-23 14:30:25] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/colon/explainer.rds 
+[2026-07-23 14:30:28] Kaydedilmis explainer bulundu, okunuyor: results/penalized/colon/explainer.rds 
+[2026-07-23 14:30:32] Kaydedilmis explainer bulundu, okunuyor: results/ranger/colon/explainer.rds 
+[2026-07-23 14:30:36] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/colon/explainer.rds 
+[2026-07-23 14:30:38] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/colon/explainer.rds 
+[2026-07-23 14:30:43] PFI hesaplaniyor: cox_model 
