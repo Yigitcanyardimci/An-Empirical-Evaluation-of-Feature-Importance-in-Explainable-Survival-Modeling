@@ -1001,3 +1001,45 @@
 [2026-07-23 15:04:05] PFI hesaplaniyor: ranger_model 
 [2026-07-23 15:26:38] PFI hesaplaniyor: rfsrc_model 
 [2026-07-23 15:31:19] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-23 15:33:44] Global aciklama (PFI) bitti 
+[2026-07-23 15:33:44] PFI kaydedildi: results/cox/aids2/vimp.rds 
+[2026-07-23 15:33:44] Grafik kaydedildi: results/cox/aids2/plots/pfi_plot.png 
+[2026-07-23 15:33:44] PFI ozeti kaydedildi: results/cox/aids2/vimp_summary.csv 
+[2026-07-23 15:33:44] cox_model - PFI TIVM: 2e-04 
+[2026-07-23 15:33:45] PFI kaydedildi: results/cforest/aids2/vimp.rds 
+[2026-07-23 15:33:45] Grafik kaydedildi: results/cforest/aids2/plots/pfi_plot.png 
+[2026-07-23 15:33:45] PFI ozeti kaydedildi: results/cforest/aids2/vimp_summary.csv 
+[2026-07-23 15:33:45] cforest_model - PFI TIVM: 3e-04 
+[2026-07-23 15:33:45] PFI kaydedildi: results/coxboost/aids2/vimp.rds 
+[2026-07-23 15:33:46] Grafik kaydedildi: results/coxboost/aids2/plots/pfi_plot.png 
+[2026-07-23 15:33:46] PFI ozeti kaydedildi: results/coxboost/aids2/vimp_summary.csv 
+[2026-07-23 15:33:46] coxboost_model - PFI TIVM: 2e-04 
+[2026-07-23 15:33:46] PFI kaydedildi: results/ctree/aids2/vimp.rds 
+[2026-07-23 15:33:46] Grafik kaydedildi: results/ctree/aids2/plots/pfi_plot.png 
+[2026-07-23 15:33:46] PFI ozeti kaydedildi: results/ctree/aids2/vimp_summary.csv 
+[2026-07-23 15:33:46] ctree_model - PFI TIVM: 2e-04 
+[2026-07-23 15:33:47] PFI kaydedildi: results/glmboost/aids2/vimp.rds 
+[2026-07-23 15:33:47] Grafik kaydedildi: results/glmboost/aids2/plots/pfi_plot.png 
+[2026-07-23 15:33:47] PFI ozeti kaydedildi: results/glmboost/aids2/vimp_summary.csv 
+[2026-07-23 15:33:47] glmboost_model - PFI TIVM: 2e-04 
+[2026-07-23 15:33:47] PFI kaydedildi: results/penalized/aids2/vimp.rds 
+[2026-07-23 15:33:48] Grafik kaydedildi: results/penalized/aids2/plots/pfi_plot.png 
+[2026-07-23 15:33:48] PFI ozeti kaydedildi: results/penalized/aids2/vimp_summary.csv 
+[2026-07-23 15:33:48] penalized_model - PFI TIVM: 2e-04 
+[2026-07-23 15:33:48] PFI kaydedildi: results/ranger/aids2/vimp.rds 
+[2026-07-23 15:33:48] Grafik kaydedildi: results/ranger/aids2/plots/pfi_plot.png 
+[2026-07-23 15:33:48] PFI ozeti kaydedildi: results/ranger/aids2/vimp_summary.csv 
+[2026-07-23 15:33:48] ranger_model - PFI TIVM: 3e-04 
+[2026-07-23 15:33:48] PFI kaydedildi: results/rfsrc/aids2/vimp.rds 
+[2026-07-23 15:33:49] Grafik kaydedildi: results/rfsrc/aids2/plots/pfi_plot.png 
+[2026-07-23 15:33:49] PFI ozeti kaydedildi: results/rfsrc/aids2/vimp_summary.csv 
+[2026-07-23 15:33:49] rfsrc_model - PFI TIVM: 4e-04 
+[2026-07-23 15:33:49] PFI kaydedildi: results/xgboost_cox/aids2/vimp.rds 
+[2026-07-23 15:33:49] Grafik kaydedildi: results/xgboost_cox/aids2/plots/pfi_plot.png 
+[2026-07-23 15:33:50] PFI ozeti kaydedildi: results/xgboost_cox/aids2/vimp_summary.csv 
+[2026-07-23 15:33:50] xgboost_cox_model - PFI TIVM: 9e-04 
+[2026-07-23 15:33:50] Kaydedilmis SHAP bulundu, okunuyor: results/cox/aids2/shap_long.csv 
+[2026-07-23 15:33:50] Grafik kaydedildi: results/cox/aids2/plots/survshap_plot.png 
+[2026-07-23 15:33:50] SHAP ozeti kaydedildi: results/cox/aids2/shap_summary.csv 
+[2026-07-23 15:33:50] cox_model - SHAP TIVM: 1e-04 
+[2026-07-23 15:33:50] Kaydedilmis SHAP bulundu, okunuyor: results/cforest/aids2/shap_long.csv 
