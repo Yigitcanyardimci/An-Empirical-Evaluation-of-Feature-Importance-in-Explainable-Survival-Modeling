@@ -322,3 +322,10 @@
 [2026-07-23 07:14:33] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 07:15:15] SHAP - gozlem 5 / 15 
 [2026-07-23 07:16:12] SHAP - gozlem 10 / 15 
+[2026-07-23 07:17:25] SHAP - gozlem 15 / 15 
+[2026-07-23 07:17:40] SHAP hesaplama bitti, kaydedildi: results/coxboost/prostate/shap_long.csv 
+[2026-07-23 07:17:41] Grafik kaydedildi: results/coxboost/prostate/plots/survshap_plot.png 
+[2026-07-23 07:17:41] SHAP ozeti kaydedildi: results/coxboost/prostate/shap_summary.csv 
+[2026-07-23 07:17:41] coxboost_model - SHAP TIVM: 0.0012 
+[2026-07-23 07:17:41] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 07:18:38] SHAP - gozlem 5 / 15 
