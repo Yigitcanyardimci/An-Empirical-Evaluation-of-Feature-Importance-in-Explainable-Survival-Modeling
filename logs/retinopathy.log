@@ -362,3 +362,9 @@
 [2026-07-23 02:05:30] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 02:06:35] SHAP - gozlem 5 / 15 
 [2026-07-23 02:07:50] SHAP - gozlem 10 / 15 
+[2026-07-23 02:09:04] SHAP - gozlem 15 / 15 
+[2026-07-23 02:09:16] SHAP hesaplama bitti, kaydedildi: results/coxboost/retinopathy/shap_long.csv 
+[2026-07-23 02:09:17] Grafik kaydedildi: results/coxboost/retinopathy/plots/survshap_plot.png 
+[2026-07-23 02:09:17] SHAP ozeti kaydedildi: results/coxboost/retinopathy/shap_summary.csv 
+[2026-07-23 02:09:17] coxboost_model - SHAP TIVM: 0.0018 
+[2026-07-23 02:09:17] SHAP hesaplama basladi, n_obs = 15 
