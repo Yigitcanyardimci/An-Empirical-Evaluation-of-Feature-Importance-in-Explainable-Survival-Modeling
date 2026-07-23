@@ -347,3 +347,10 @@
 [2026-07-23 03:06:49] SHAP - gozlem 5 / 15 
 [2026-07-23 03:07:31] SHAP - gozlem 10 / 15 
 [2026-07-23 03:08:13] SHAP - gozlem 15 / 15 
+[2026-07-23 03:08:22] SHAP hesaplama bitti, kaydedildi: results/glmboost/epileptic/shap_long.csv 
+[2026-07-23 03:08:22] Grafik kaydedildi: results/glmboost/epileptic/plots/survshap_plot.png 
+[2026-07-23 03:08:22] SHAP ozeti kaydedildi: results/glmboost/epileptic/shap_summary.csv 
+[2026-07-23 03:08:22] glmboost_model - SHAP TIVM: 0.0055 
+[2026-07-23 03:08:22] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-23 03:08:56] SHAP - gozlem 5 / 15 
+[2026-07-23 03:09:40] SHAP - gozlem 10 / 15 
