@@ -407,3 +407,5 @@
 [2026-07-24 19:20:05] Explainer kuruluyor: cv_glmnet_model 
 [2026-07-24 19:21:19] Explainer kaydedildi: results/cv_glmnet/Framingham/explainer.rds 
 [2026-07-24 19:21:19] Explainer kuruluyor: glmboost_model 
+[2026-07-24 19:22:33] Explainer kaydedildi: results/glmboost/Framingham/explainer.rds 
+[2026-07-24 19:22:33] Explainer kuruluyor: glmnet_model 
