@@ -359,3 +359,10 @@
 [2026-07-24 23:29:04] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-24 23:29:04] Model egitimi basladi ( rfsrc ) 
 [2026-07-24 23:30:20] Model egitimi bitti ( rfsrc ) 
+[2026-07-24 23:31:18] Model kaydedildi: results/rfsrc/flchain/model.rds 
+[2026-07-24 23:31:18] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-24 23:31:18] Model egitimi basladi ( xgboost_cox ) 
+[2026-07-24 23:31:19] Model egitimi bitti ( xgboost_cox ) 
+[2026-07-24 23:31:19] Model kaydedildi: results/xgboost_cox/flchain/model.rds 
+[2026-07-24 23:31:19] UYARI: su modeller basarisiz oldu, analiz disi birakildi: cv_glmnet_model, glmnet_model 
+[2026-07-24 23:31:19] Performans hesaplama basladi: surv.coxph 
