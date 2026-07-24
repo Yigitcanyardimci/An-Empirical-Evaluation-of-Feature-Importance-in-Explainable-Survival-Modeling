@@ -1421,3 +1421,14 @@
 [2026-07-24 23:45:16] Performans kaydedildi: results/xgboost_cox/colon/performance.csv 
 [2026-07-24 23:45:16] Global aciklama (PFI) basladi 
 [2026-07-24 23:45:16] Kaydedilmis explainer bulundu, okunuyor: results/cox/colon/explainer.rds 
+[2026-07-24 23:45:20] Kaydedilmis explainer bulundu, okunuyor: results/cforest/colon/explainer.rds 
+[2026-07-24 23:45:24] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/colon/explainer.rds 
+[2026-07-24 23:45:27] Kaydedilmis explainer bulundu, okunuyor: results/ctree/colon/explainer.rds 
+[2026-07-24 23:45:31] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/colon/explainer.rds 
+[2026-07-24 23:45:35] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/colon/explainer.rds 
+[2026-07-24 23:45:39] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/colon/explainer.rds 
+[2026-07-24 23:45:43] Kaydedilmis explainer bulundu, okunuyor: results/penalized/colon/explainer.rds 
+[2026-07-24 23:45:47] Kaydedilmis explainer bulundu, okunuyor: results/ranger/colon/explainer.rds 
+[2026-07-24 23:45:51] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/colon/explainer.rds 
+[2026-07-24 23:45:54] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/colon/explainer.rds 
+[2026-07-24 23:45:58] PFI hesaplaniyor: cox_model 
