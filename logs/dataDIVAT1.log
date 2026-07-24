@@ -582,3 +582,4 @@
 [2026-07-24 19:33:57] SHAP ozeti kaydedildi: results/glmnet/dataDIVAT1/shap_summary.csv 
 [2026-07-24 19:33:57] glmnet_model - SHAP TIVM: 0.0018 
 [2026-07-24 19:33:57] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-24 19:50:37] SHAP - gozlem 5 / 15 
