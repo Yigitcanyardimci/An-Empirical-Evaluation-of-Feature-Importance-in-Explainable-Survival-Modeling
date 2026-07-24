@@ -1814,3 +1814,81 @@
 [2026-07-24 01:27:51] PFI hesaplaniyor: ranger_model 
 [2026-07-24 01:50:37] PFI hesaplaniyor: rfsrc_model 
 [2026-07-24 01:55:49] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-24 01:58:38] Global aciklama (PFI) bitti 
+[2026-07-24 01:58:38] PFI kaydedildi: results/cox/TRACE/vimp.rds 
+[2026-07-24 01:58:40] Grafik kaydedildi: results/cox/TRACE/plots/pfi_plot.png 
+[2026-07-24 01:58:40] PFI ozeti kaydedildi: results/cox/TRACE/vimp_summary.csv 
+[2026-07-24 01:58:40] cox_model - PFI TIVM: 0.002 
+[2026-07-24 01:58:40] PFI kaydedildi: results/cforest/TRACE/vimp.rds 
+[2026-07-24 01:58:41] Grafik kaydedildi: results/cforest/TRACE/plots/pfi_plot.png 
+[2026-07-24 01:58:41] PFI ozeti kaydedildi: results/cforest/TRACE/vimp_summary.csv 
+[2026-07-24 01:58:41] cforest_model - PFI TIVM: 0.0019 
+[2026-07-24 01:58:41] PFI kaydedildi: results/coxboost/TRACE/vimp.rds 
+[2026-07-24 01:58:41] Grafik kaydedildi: results/coxboost/TRACE/plots/pfi_plot.png 
+[2026-07-24 01:58:41] PFI ozeti kaydedildi: results/coxboost/TRACE/vimp_summary.csv 
+[2026-07-24 01:58:41] coxboost_model - PFI TIVM: 0.0019 
+[2026-07-24 01:58:41] PFI kaydedildi: results/ctree/TRACE/vimp.rds 
+[2026-07-24 01:58:42] Grafik kaydedildi: results/ctree/TRACE/plots/pfi_plot.png 
+[2026-07-24 01:58:42] PFI ozeti kaydedildi: results/ctree/TRACE/vimp_summary.csv 
+[2026-07-24 01:58:42] ctree_model - PFI TIVM: 0.002 
+[2026-07-24 01:58:42] PFI kaydedildi: results/cv_glmnet/TRACE/vimp.rds 
+[2026-07-24 01:58:42] Grafik kaydedildi: results/cv_glmnet/TRACE/plots/pfi_plot.png 
+[2026-07-24 01:58:42] PFI ozeti kaydedildi: results/cv_glmnet/TRACE/vimp_summary.csv 
+[2026-07-24 01:58:42] cv_glmnet_model - PFI TIVM: 0.001 
+[2026-07-24 01:58:42] PFI kaydedildi: results/glmboost/TRACE/vimp.rds 
+[2026-07-24 01:58:43] Grafik kaydedildi: results/glmboost/TRACE/plots/pfi_plot.png 
+[2026-07-24 01:58:43] PFI ozeti kaydedildi: results/glmboost/TRACE/vimp_summary.csv 
+[2026-07-24 01:58:43] glmboost_model - PFI TIVM: 0.0016 
+[2026-07-24 01:58:43] PFI kaydedildi: results/glmnet/TRACE/vimp.rds 
+[2026-07-24 01:58:44] Grafik kaydedildi: results/glmnet/TRACE/plots/pfi_plot.png 
+[2026-07-24 01:58:44] PFI ozeti kaydedildi: results/glmnet/TRACE/vimp_summary.csv 
+[2026-07-24 01:58:44] glmnet_model - PFI TIVM: 0.0018 
+[2026-07-24 01:58:44] PFI kaydedildi: results/penalized/TRACE/vimp.rds 
+[2026-07-24 01:58:44] Grafik kaydedildi: results/penalized/TRACE/plots/pfi_plot.png 
+[2026-07-24 01:58:44] PFI ozeti kaydedildi: results/penalized/TRACE/vimp_summary.csv 
+[2026-07-24 01:58:44] penalized_model - PFI TIVM: 0.0018 
+[2026-07-24 01:58:44] PFI kaydedildi: results/ranger/TRACE/vimp.rds 
+[2026-07-24 01:58:45] Grafik kaydedildi: results/ranger/TRACE/plots/pfi_plot.png 
+[2026-07-24 01:58:45] PFI ozeti kaydedildi: results/ranger/TRACE/vimp_summary.csv 
+[2026-07-24 01:58:45] ranger_model - PFI TIVM: 0.002 
+[2026-07-24 01:58:45] PFI kaydedildi: results/rfsrc/TRACE/vimp.rds 
+[2026-07-24 01:58:45] Grafik kaydedildi: results/rfsrc/TRACE/plots/pfi_plot.png 
+[2026-07-24 01:58:46] PFI ozeti kaydedildi: results/rfsrc/TRACE/vimp_summary.csv 
+[2026-07-24 01:58:46] rfsrc_model - PFI TIVM: 0.002 
+[2026-07-24 01:58:46] PFI kaydedildi: results/xgboost_cox/TRACE/vimp.rds 
+[2026-07-24 01:58:46] Grafik kaydedildi: results/xgboost_cox/TRACE/plots/pfi_plot.png 
+[2026-07-24 01:58:46] PFI ozeti kaydedildi: results/xgboost_cox/TRACE/vimp_summary.csv 
+[2026-07-24 01:58:46] xgboost_cox_model - PFI TIVM: 0.0047 
+[2026-07-24 01:58:46] Kaydedilmis SHAP bulundu, okunuyor: results/cox/TRACE/shap_long.csv 
+[2026-07-24 01:58:47] Grafik kaydedildi: results/cox/TRACE/plots/survshap_plot.png 
+[2026-07-24 01:58:47] SHAP ozeti kaydedildi: results/cox/TRACE/shap_summary.csv 
+[2026-07-24 01:58:47] cox_model - SHAP TIVM: 4e-04 
+[2026-07-24 01:58:47] Kaydedilmis SHAP bulundu, okunuyor: results/cforest/TRACE/shap_long.csv 
+[2026-07-24 01:58:47] Grafik kaydedildi: results/cforest/TRACE/plots/survshap_plot.png 
+[2026-07-24 01:58:47] SHAP ozeti kaydedildi: results/cforest/TRACE/shap_summary.csv 
+[2026-07-24 01:58:47] cforest_model - SHAP TIVM: 0.001 
+[2026-07-24 01:58:47] Kaydedilmis SHAP bulundu, okunuyor: results/coxboost/TRACE/shap_long.csv 
+[2026-07-24 01:58:48] Grafik kaydedildi: results/coxboost/TRACE/plots/survshap_plot.png 
+[2026-07-24 01:58:48] SHAP ozeti kaydedildi: results/coxboost/TRACE/shap_summary.csv 
+[2026-07-24 01:58:48] coxboost_model - SHAP TIVM: 4e-04 
+[2026-07-24 01:58:48] Kaydedilmis SHAP bulundu, okunuyor: results/ctree/TRACE/shap_long.csv 
+[2026-07-24 01:58:49] Grafik kaydedildi: results/ctree/TRACE/plots/survshap_plot.png 
+[2026-07-24 01:58:49] SHAP ozeti kaydedildi: results/ctree/TRACE/shap_summary.csv 
+[2026-07-24 01:58:49] ctree_model - SHAP TIVM: 0.0011 
+[2026-07-24 01:58:49] Kaydedilmis SHAP bulundu, okunuyor: results/cv_glmnet/TRACE/shap_long.csv 
+[2026-07-24 01:58:49] Grafik kaydedildi: results/cv_glmnet/TRACE/plots/survshap_plot.png 
+[2026-07-24 01:58:49] SHAP ozeti kaydedildi: results/cv_glmnet/TRACE/shap_summary.csv 
+[2026-07-24 01:58:49] cv_glmnet_model - SHAP TIVM: 3e-04 
+[2026-07-24 01:58:49] Kaydedilmis SHAP bulundu, okunuyor: results/glmboost/TRACE/shap_long.csv 
+[2026-07-24 01:58:50] Grafik kaydedildi: results/glmboost/TRACE/plots/survshap_plot.png 
+[2026-07-24 01:58:50] SHAP ozeti kaydedildi: results/glmboost/TRACE/shap_summary.csv 
+[2026-07-24 01:58:50] glmboost_model - SHAP TIVM: 3e-04 
+[2026-07-24 01:58:50] Kaydedilmis SHAP bulundu, okunuyor: results/glmnet/TRACE/shap_long.csv 
+[2026-07-24 01:58:50] Grafik kaydedildi: results/glmnet/TRACE/plots/survshap_plot.png 
+[2026-07-24 01:58:50] SHAP ozeti kaydedildi: results/glmnet/TRACE/shap_summary.csv 
+[2026-07-24 01:58:50] glmnet_model - SHAP TIVM: 4e-04 
+[2026-07-24 01:58:50] Kaydedilmis SHAP bulundu, okunuyor: results/penalized/TRACE/shap_long.csv 
+[2026-07-24 01:58:51] Grafik kaydedildi: results/penalized/TRACE/plots/survshap_plot.png 
+[2026-07-24 01:58:51] SHAP ozeti kaydedildi: results/penalized/TRACE/shap_summary.csv 
+[2026-07-24 01:58:51] penalized_model - SHAP TIVM: 4e-04 
+[2026-07-24 01:58:51] SHAP hesaplama basladi, n_obs = 15 
