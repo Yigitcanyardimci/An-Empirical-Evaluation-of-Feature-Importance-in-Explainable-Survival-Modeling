@@ -1008,3 +1008,4 @@
 [2026-07-24 19:04:55] Kaydedilmis explainer bulundu, okunuyor: results/ranger/nwtco/explainer.rds 
 [2026-07-24 19:05:03] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/nwtco/explainer.rds 
 [2026-07-24 19:05:12] PFI hesaplaniyor: cox_model 
+[2026-07-24 19:17:32] PFI hesaplaniyor: cforest_model 
