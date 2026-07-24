@@ -590,3 +590,4 @@
 [2026-07-24 20:35:45] SHAP ozeti kaydedildi: results/penalized/dataDIVAT1/shap_summary.csv 
 [2026-07-24 20:35:45] penalized_model - SHAP TIVM: 0.0022 
 [2026-07-24 20:35:45] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-24 23:05:53] SHAP - gozlem 5 / 15 
