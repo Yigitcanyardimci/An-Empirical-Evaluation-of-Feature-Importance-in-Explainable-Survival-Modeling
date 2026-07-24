@@ -1002,3 +1002,9 @@
 [2026-07-24 19:04:08] Kaydedilmis explainer bulundu, okunuyor: results/cforest/nwtco/explainer.rds 
 [2026-07-24 19:04:16] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/nwtco/explainer.rds 
 [2026-07-24 19:04:25] Kaydedilmis explainer bulundu, okunuyor: results/ctree/nwtco/explainer.rds 
+[2026-07-24 19:04:33] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/nwtco/explainer.rds 
+[2026-07-24 19:04:41] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/nwtco/explainer.rds 
+[2026-07-24 19:04:49] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/nwtco/explainer.rds 
+[2026-07-24 19:04:55] Kaydedilmis explainer bulundu, okunuyor: results/ranger/nwtco/explainer.rds 
+[2026-07-24 19:05:03] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/nwtco/explainer.rds 
+[2026-07-24 19:05:12] PFI hesaplaniyor: cox_model 
