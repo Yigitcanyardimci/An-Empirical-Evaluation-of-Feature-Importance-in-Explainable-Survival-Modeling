@@ -545,3 +545,8 @@
 [2026-07-24 07:23:26] SHAP - gozlem 5 / 15 
 [2026-07-24 08:23:33] SHAP - gozlem 10 / 15 
 [2026-07-24 09:23:28] SHAP - gozlem 15 / 15 
+[2026-07-24 09:35:25] SHAP hesaplama bitti, kaydedildi: results/coxboost/dataDIVAT1/shap_long.csv 
+[2026-07-24 09:35:26] Grafik kaydedildi: results/coxboost/dataDIVAT1/plots/survshap_plot.png 
+[2026-07-24 09:35:26] SHAP ozeti kaydedildi: results/coxboost/dataDIVAT1/shap_summary.csv 
+[2026-07-24 09:35:26] coxboost_model - SHAP TIVM: 0.0021 
+[2026-07-24 09:35:26] SHAP hesaplama basladi, n_obs = 15 
