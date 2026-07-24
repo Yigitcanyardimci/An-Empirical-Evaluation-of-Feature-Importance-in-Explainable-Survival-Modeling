@@ -403,3 +403,7 @@
 [2026-07-24 19:17:37] Explainer kuruluyor: coxboost_model 
 [2026-07-24 19:18:51] Explainer kaydedildi: results/coxboost/Framingham/explainer.rds 
 [2026-07-24 19:18:51] Explainer kuruluyor: ctree_model 
+[2026-07-24 19:20:05] Explainer kaydedildi: results/ctree/Framingham/explainer.rds 
+[2026-07-24 19:20:05] Explainer kuruluyor: cv_glmnet_model 
+[2026-07-24 19:21:19] Explainer kaydedildi: results/cv_glmnet/Framingham/explainer.rds 
+[2026-07-24 19:21:19] Explainer kuruluyor: glmboost_model 
