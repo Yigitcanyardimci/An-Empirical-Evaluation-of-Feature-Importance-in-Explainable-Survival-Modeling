@@ -366,3 +366,6 @@
 [2026-07-24 23:31:19] Model kaydedildi: results/xgboost_cox/flchain/model.rds 
 [2026-07-24 23:31:19] UYARI: su modeller basarisiz oldu, analiz disi birakildi: cv_glmnet_model, glmnet_model 
 [2026-07-24 23:31:19] Performans hesaplama basladi: surv.coxph 
+[2026-07-24 23:32:36] Performans hesaplama bitti: surv.coxph - cindex: 0.767 - IBS (graf): 0.099 
+[2026-07-24 23:32:36] Performans kaydedildi: results/cox/flchain/performance.csv 
+[2026-07-24 23:32:36] Performans hesaplama basladi: surv.cforest 
