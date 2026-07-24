@@ -753,3 +753,9 @@
 [2026-07-24 23:48:49] Kaydedilmis model bulundu, okunuyor: results/glmnet/dataDIVAT1/model.rds 
 [2026-07-24 23:48:49] Kaydedilmis model bulundu, okunuyor: results/penalized/dataDIVAT1/model.rds 
 [2026-07-24 23:48:49] Kaydedilmis model bulundu, okunuyor: results/ranger/dataDIVAT1/model.rds 
+[2026-07-24 23:48:58] Kaydedilmis model bulundu, okunuyor: results/rfsrc/dataDIVAT1/model.rds 
+[2026-07-24 23:49:17] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/dataDIVAT1/model.rds 
+[2026-07-24 23:49:17] Performans hesaplama basladi: surv.coxph 
+[2026-07-24 23:50:18] Performans hesaplama bitti: surv.coxph - cindex: 0.641 - IBS (graf): 0.144 
+[2026-07-24 23:50:18] Performans kaydedildi: results/cox/dataDIVAT1/performance.csv 
+[2026-07-24 23:50:18] Performans hesaplama basladi: surv.cforest 
