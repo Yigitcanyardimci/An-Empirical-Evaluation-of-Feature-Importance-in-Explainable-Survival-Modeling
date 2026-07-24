@@ -1188,3 +1188,19 @@
 [2026-07-24 01:56:23] SHAP ozeti kaydedildi: results/glmboost/colon/shap_summary.csv 
 [2026-07-24 01:56:23] glmboost_model - SHAP TIVM: 7e-04 
 [2026-07-24 01:56:23] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-24 02:02:12] SHAP - gozlem 5 / 15 
+[2026-07-24 02:09:27] SHAP - gozlem 10 / 15 
+[2026-07-24 02:16:46] SHAP - gozlem 15 / 15 
+[2026-07-24 02:18:11] SHAP hesaplama bitti, kaydedildi: results/glmnet/colon/shap_long.csv 
+[2026-07-24 02:18:12] Grafik kaydedildi: results/glmnet/colon/plots/survshap_plot.png 
+[2026-07-24 02:18:12] SHAP ozeti kaydedildi: results/glmnet/colon/shap_summary.csv 
+[2026-07-24 02:18:12] glmnet_model - SHAP TIVM: 7e-04 
+[2026-07-24 02:18:12] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-24 02:21:24] SHAP - gozlem 5 / 15 
+[2026-07-24 02:25:25] SHAP - gozlem 10 / 15 
+[2026-07-24 02:29:27] SHAP - gozlem 15 / 15 
+[2026-07-24 02:30:14] SHAP hesaplama bitti, kaydedildi: results/penalized/colon/shap_long.csv 
+[2026-07-24 02:30:15] Grafik kaydedildi: results/penalized/colon/plots/survshap_plot.png 
+[2026-07-24 02:30:15] SHAP ozeti kaydedildi: results/penalized/colon/shap_summary.csv 
+[2026-07-24 02:30:15] penalized_model - SHAP TIVM: 7e-04 
+[2026-07-24 02:30:15] SHAP hesaplama basladi, n_obs = 15 
