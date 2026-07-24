@@ -1,0 +1,2 @@
+"model","surv.cindex","surv.dcalib","surv.brier","surv.graf","surv.logloss","surv.mae","surv.mse"
+"surv.xgboost.cox",0.662530541419983,7522033897.2223,0.15824185155264,0.15824185155264,11.6384508581836,3822.21476510067,21301642.7337808
