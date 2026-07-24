@@ -401,3 +401,5 @@
 [2026-07-24 19:16:21] Explainer kuruluyor: cforest_model 
 [2026-07-24 19:17:37] Explainer kaydedildi: results/cforest/Framingham/explainer.rds 
 [2026-07-24 19:17:37] Explainer kuruluyor: coxboost_model 
+[2026-07-24 19:18:51] Explainer kaydedildi: results/coxboost/Framingham/explainer.rds 
+[2026-07-24 19:18:51] Explainer kuruluyor: ctree_model 
