@@ -352,3 +352,8 @@
 [2026-07-24 18:59:23] Kaydedilmis model bulundu, okunuyor: results/penalized/Framingham/model.rds 
 [2026-07-24 18:59:23] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-24 18:59:23] Model egitimi basladi ( ranger ) 
+[2026-07-24 19:00:16] Model egitimi bitti ( ranger ) 
+[2026-07-24 19:00:33] Model kaydedildi: results/ranger/Framingham/model.rds 
+[2026-07-24 19:00:33] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-24 19:00:33] Model egitimi basladi ( rfsrc ) 
+[2026-07-24 19:01:17] Model egitimi bitti ( rfsrc ) 
