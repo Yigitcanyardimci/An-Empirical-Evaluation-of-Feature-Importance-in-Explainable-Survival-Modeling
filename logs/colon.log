@@ -1213,3 +1213,4 @@
 [2026-07-24 18:23:09] ranger_model - SHAP TIVM: 0.0012 
 [2026-07-24 18:23:09] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-24 18:51:29] SHAP - gozlem 5 / 15 
+[2026-07-24 19:35:33] SHAP - gozlem 10 / 15 
