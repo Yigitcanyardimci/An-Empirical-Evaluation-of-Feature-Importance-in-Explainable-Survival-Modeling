@@ -771,3 +771,12 @@
 [2026-07-24 23:55:55] Kaydedilmis explainer bulundu, okunuyor: results/cox/dataDIVAT3/explainer.rds 
 [2026-07-24 23:56:00] Kaydedilmis explainer bulundu, okunuyor: results/cforest/dataDIVAT3/explainer.rds 
 [2026-07-24 23:56:09] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/dataDIVAT3/explainer.rds 
+[2026-07-24 23:56:14] Kaydedilmis explainer bulundu, okunuyor: results/ctree/dataDIVAT3/explainer.rds 
+[2026-07-24 23:56:23] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/dataDIVAT3/explainer.rds 
+[2026-07-24 23:56:29] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/dataDIVAT3/explainer.rds 
+[2026-07-24 23:56:35] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/dataDIVAT3/explainer.rds 
+[2026-07-24 23:56:39] Kaydedilmis explainer bulundu, okunuyor: results/penalized/dataDIVAT3/explainer.rds 
+[2026-07-24 23:56:45] Kaydedilmis explainer bulundu, okunuyor: results/ranger/dataDIVAT3/explainer.rds 
+[2026-07-24 23:56:51] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/dataDIVAT3/explainer.rds 
+[2026-07-24 23:56:55] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/dataDIVAT3/explainer.rds 
+[2026-07-24 23:57:00] PFI hesaplaniyor: cox_model 
