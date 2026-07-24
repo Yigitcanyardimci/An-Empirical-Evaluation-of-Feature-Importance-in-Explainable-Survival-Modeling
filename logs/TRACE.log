@@ -1895,3 +1895,8 @@
 [2026-07-24 02:45:03] SHAP - gozlem 5 / 15 
 [2026-07-24 03:41:52] SHAP - gozlem 10 / 15 
 [2026-07-24 04:38:31] SHAP - gozlem 15 / 15 
+[2026-07-24 04:50:07] SHAP hesaplama bitti, kaydedildi: results/ranger/TRACE/shap_long.csv 
+[2026-07-24 04:50:07] Grafik kaydedildi: results/ranger/TRACE/plots/survshap_plot.png 
+[2026-07-24 04:50:07] SHAP ozeti kaydedildi: results/ranger/TRACE/shap_summary.csv 
+[2026-07-24 04:50:07] ranger_model - SHAP TIVM: 9e-04 
+[2026-07-24 04:50:07] SHAP hesaplama basladi, n_obs = 15 
