@@ -415,3 +415,5 @@
 [2026-07-24 19:25:03] Explainer kuruluyor: ranger_model 
 [2026-07-24 19:26:17] Explainer kaydedildi: results/ranger/Framingham/explainer.rds 
 [2026-07-24 19:26:17] Explainer kuruluyor: rfsrc_model 
+[2026-07-24 19:27:32] Explainer kaydedildi: results/rfsrc/Framingham/explainer.rds 
+[2026-07-24 19:27:32] Explainer kuruluyor: xgboost_cox_model 
