@@ -493,3 +493,15 @@
 [2026-07-24 08:23:55] Global aciklama (PFI) basladi 
 [2026-07-24 08:23:55] Kaydedilmis explainer bulundu, okunuyor: results/cox/dataDIVAT3/explainer.rds 
 [2026-07-24 08:23:57] Explainer kuruluyor: cforest_model 
+[2026-07-24 08:24:17] Explainer kaydedildi: results/cforest/dataDIVAT3/explainer.rds 
+[2026-07-24 08:24:17] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/dataDIVAT3/explainer.rds 
+[2026-07-24 08:24:21] Explainer kuruluyor: ctree_model 
+[2026-07-24 08:24:39] Explainer kaydedildi: results/ctree/dataDIVAT3/explainer.rds 
+[2026-07-24 08:24:39] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/dataDIVAT3/explainer.rds 
+[2026-07-24 08:24:43] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/dataDIVAT3/explainer.rds 
+[2026-07-24 08:24:47] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/dataDIVAT3/explainer.rds 
+[2026-07-24 08:24:50] Kaydedilmis explainer bulundu, okunuyor: results/penalized/dataDIVAT3/explainer.rds 
+[2026-07-24 08:24:53] Kaydedilmis explainer bulundu, okunuyor: results/ranger/dataDIVAT3/explainer.rds 
+[2026-07-24 08:24:57] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/dataDIVAT3/explainer.rds 
+[2026-07-24 08:25:00] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/dataDIVAT3/explainer.rds 
+[2026-07-24 08:25:03] PFI hesaplaniyor: cox_model 
