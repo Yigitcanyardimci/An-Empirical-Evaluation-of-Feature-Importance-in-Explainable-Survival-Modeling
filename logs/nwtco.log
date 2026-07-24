@@ -1054,3 +1054,4 @@
 [2026-07-24 21:26:46] PFI ozeti kaydedildi: results/rfsrc/nwtco/vimp_summary.csv 
 [2026-07-24 21:26:46] rfsrc_model - PFI TIVM: 0.0021 
 [2026-07-24 21:26:46] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-24 23:06:11] SHAP - gozlem 5 / 15 
