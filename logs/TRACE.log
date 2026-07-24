@@ -1794,3 +1794,12 @@
 [2026-07-24 00:53:58] Global aciklama (PFI) basladi 
 [2026-07-24 00:53:58] Kaydedilmis explainer bulundu, okunuyor: results/cox/TRACE/explainer.rds 
 [2026-07-24 00:54:08] Kaydedilmis explainer bulundu, okunuyor: results/cforest/TRACE/explainer.rds 
+[2026-07-24 00:54:18] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/TRACE/explainer.rds 
+[2026-07-24 00:54:29] Kaydedilmis explainer bulundu, okunuyor: results/ctree/TRACE/explainer.rds 
+[2026-07-24 00:54:39] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/TRACE/explainer.rds 
+[2026-07-24 00:54:50] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/TRACE/explainer.rds 
+[2026-07-24 00:55:00] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/TRACE/explainer.rds 
+[2026-07-24 00:55:10] Kaydedilmis explainer bulundu, okunuyor: results/penalized/TRACE/explainer.rds 
+[2026-07-24 00:55:21] Kaydedilmis explainer bulundu, okunuyor: results/ranger/TRACE/explainer.rds 
+[2026-07-24 00:55:32] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/TRACE/explainer.rds 
+[2026-07-24 00:55:42] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/TRACE/explainer.rds 
