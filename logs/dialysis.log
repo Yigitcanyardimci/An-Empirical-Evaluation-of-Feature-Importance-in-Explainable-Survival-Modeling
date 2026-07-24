@@ -1,0 +1,371 @@
+[2026-07-24 08:15:50] Paket kurulumu basladi 
+[2026-07-24 08:15:50] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-07-24 08:15:54] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-07-24 08:16:14] Paket kurulumu tamamlandi 
+[2026-07-24 08:16:14] Veri okuma basladi: grace 
+[2026-07-24 08:16:14] Veri okuma bitti: grace - 1000 satir, 7 sutun 
+[2026-07-24 08:16:14] Veri okuma basladi: melanoma 
+[2026-07-24 08:16:14] Veri okuma bitti: melanoma - 205 satir, 7 sutun 
+[2026-07-24 08:16:14] Veri okuma basladi: ova 
+[2026-07-24 08:16:14] Veri okuma bitti: ova - 358 satir, 7 sutun 
+[2026-07-24 08:16:14] Veri okuma basladi: aids2 
+[2026-07-24 08:16:14] Veri okuma bitti: aids2 - 2839 satir, 6 sutun 
+[2026-07-24 08:16:14] Veri okuma basladi: veteran 
+[2026-07-24 08:16:14] Veri okuma bitti: veteran - 137 satir, 8 sutun 
+[2026-07-24 08:16:14] Veri okuma basladi: breast 
+[2026-07-24 08:16:14] Veri okuma bitti: breast - 100 satir, 6 sutun 
+[2026-07-24 08:16:14] Veri okuma basladi: e1684 
+[2026-07-24 08:16:15] Veri okuma bitti: e1684 - 284 satir, 5 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: epileptic 
+[2026-07-24 08:16:15] Veri okuma bitti: epileptic - 1286 satir, 8 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: dialysis 
+[2026-07-24 08:16:15] Veri okuma bitti: dialysis - 6805 satir, 6 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: pbc 
+[2026-07-24 08:16:15] Veri okuma bitti: pbc - 312 satir, 8 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: prostateSurvival 
+[2026-07-24 08:16:15] Veri okuma bitti: prostateSurvival - 14294 satir, 5 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: acath 
+[2026-07-24 08:16:15] Veri okuma bitti: acath - 2258 satir, 5 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: prostate 
+[2026-07-24 08:16:15] Veri okuma bitti: prostate - 475 satir, 17 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: dataDIVAT1 
+[2026-07-24 08:16:15] Veri okuma bitti: dataDIVAT1 - 5943 satir, 7 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: dataDIVAT3 
+[2026-07-24 08:16:15] Veri okuma bitti: dataDIVAT3 - 4267 satir, 9 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: TRACE 
+[2026-07-24 08:16:15] Veri okuma bitti: TRACE - 1878 satir, 8 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: FRTCS 
+[2026-07-24 08:16:15] Veri okuma bitti: FRTCS - 2088 satir, 7 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: zinc 
+[2026-07-24 08:16:15] Veri okuma bitti: zinc - 431 satir, 15 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: stagec 
+[2026-07-24 08:16:15] Veri okuma bitti: stagec - 136 satir, 9 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: LeukSurv 
+[2026-07-24 08:16:15] Veri okuma bitti: LeukSurv - 1043 satir, 9 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: nwtco 
+[2026-07-24 08:16:15] Veri okuma bitti: nwtco - 4028 satir, 9 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: retinopathy 
+[2026-07-24 08:16:15] Veri okuma bitti: retinopathy - 394 satir, 9 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: Framingham 
+[2026-07-24 08:16:15] Veri okuma bitti: Framingham - 4658 satir, 9 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: csl 
+[2026-07-24 08:16:15] Veri okuma bitti: csl - 2481 satir, 8 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: cancer 
+[2026-07-24 08:16:15] Veri okuma bitti: cancer - 169 satir, 10 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: whas500 
+[2026-07-24 08:16:15] Veri okuma bitti: whas500 - 461 satir, 18 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: cgd 
+[2026-07-24 08:16:15] Veri okuma bitti: cgd - 128 satir, 12 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: Pbc3 
+[2026-07-24 08:16:15] Veri okuma bitti: Pbc3 - 327 satir, 14 sutun 
+[2026-07-24 08:16:15] Veri okuma basladi: GBSG2 
+[2026-07-24 08:16:16] Veri okuma bitti: GBSG2 - 686 satir, 10 sutun 
+[2026-07-24 08:16:16] Veri okuma basladi: colon 
+[2026-07-24 08:16:16] Veri okuma bitti: colon - 911 satir, 11 sutun 
+[2026-07-24 08:16:16] Veri okuma basladi: flchain 
+[2026-07-24 08:16:16] Veri okuma bitti: flchain - 6524 satir, 12 sutun 
+[2026-07-24 08:16:16] Veri okuma basladi: Rossi 
+[2026-07-24 08:16:16] Veri okuma bitti: Rossi - 1405 satir, 11 sutun 
+[2026-07-24 08:16:16] Veri okuma basladi: burn 
+[2026-07-24 08:16:16] Veri okuma bitti: burn - 154 satir, 13 sutun 
+[2026-07-24 08:16:16] Veri okuma basladi: rott2 
+[2026-07-24 08:16:16] Veri okuma bitti: rott2 - 2982 satir, 13 sutun 
+[2026-07-24 08:16:16] Veri okuma basladi: d_oropha_rec 
+[2026-07-24 08:16:16] Veri okuma bitti: d_oropha_rec - 192 satir, 14 sutun 
+[2026-07-24 08:16:16] Veri okuma basladi: rdata 
+[2026-07-24 08:16:16] Veri okuma bitti: rdata - 1040 satir, 6 sutun 
+[2026-07-24 08:16:16] Task olusturuluyor: grace_task 
+[2026-07-24 08:16:16] Task olusturuldu: grace_task 
+[2026-07-24 08:16:16] Task olusturuluyor: melanoma_task 
+[2026-07-24 08:16:16] Task olusturuldu: melanoma_task 
+[2026-07-24 08:16:16] Task olusturuluyor: ova_task 
+[2026-07-24 08:16:16] Task olusturuldu: ova_task 
+[2026-07-24 08:16:16] Task olusturuluyor: aids2_task 
+[2026-07-24 08:16:16] Task olusturuldu: aids2_task 
+[2026-07-24 08:16:16] Task olusturuluyor: veteran_task 
+[2026-07-24 08:16:16] Task olusturuldu: veteran_task 
+[2026-07-24 08:16:16] Task olusturuluyor: breast_task 
+[2026-07-24 08:16:16] Task olusturuldu: breast_task 
+[2026-07-24 08:16:16] Task olusturuluyor: e1684_task 
+[2026-07-24 08:16:16] Task olusturuldu: e1684_task 
+[2026-07-24 08:16:16] Task olusturuluyor: epileptic_task 
+[2026-07-24 08:16:16] Task olusturuldu: epileptic_task 
+[2026-07-24 08:16:16] Task olusturuluyor: dialysis_task 
+[2026-07-24 08:16:16] Task olusturuldu: dialysis_task 
+[2026-07-24 08:16:16] Task olusturuluyor: pbc_task 
+[2026-07-24 08:16:16] Task olusturuldu: pbc_task 
+[2026-07-24 08:16:16] Task olusturuluyor: prostateSurvival_task 
+[2026-07-24 08:16:16] Task olusturuldu: prostateSurvival_task 
+[2026-07-24 08:16:16] Task olusturuluyor: acath_task 
+[2026-07-24 08:16:16] Task olusturuldu: acath_task 
+[2026-07-24 08:16:16] Task olusturuluyor: prostate_task 
+[2026-07-24 08:16:16] Task olusturuldu: prostate_task 
+[2026-07-24 08:16:16] Task olusturuluyor: dataDIVAT1_task 
+[2026-07-24 08:16:16] Task olusturuldu: dataDIVAT1_task 
+[2026-07-24 08:16:16] Task olusturuluyor: dataDIVAT3_task 
+[2026-07-24 08:16:16] Task olusturuldu: dataDIVAT3_task 
+[2026-07-24 08:16:16] Task olusturuluyor: TRACE_task 
+[2026-07-24 08:16:16] Task olusturuldu: TRACE_task 
+[2026-07-24 08:16:16] Task olusturuluyor: FRTCS_task 
+[2026-07-24 08:16:16] Task olusturuldu: FRTCS_task 
+[2026-07-24 08:16:16] Task olusturuluyor: zinc_task 
+[2026-07-24 08:16:16] Task olusturuldu: zinc_task 
+[2026-07-24 08:16:16] Task olusturuluyor: stagec_task 
+[2026-07-24 08:16:16] Task olusturuldu: stagec_task 
+[2026-07-24 08:16:16] Task olusturuluyor: LeukSurv_task 
+[2026-07-24 08:16:16] Task olusturuldu: LeukSurv_task 
+[2026-07-24 08:16:16] Task olusturuluyor: nwtco_task 
+[2026-07-24 08:16:16] Task olusturuldu: nwtco_task 
+[2026-07-24 08:16:16] Task olusturuluyor: retinopathy_task 
+[2026-07-24 08:16:16] Task olusturuldu: retinopathy_task 
+[2026-07-24 08:16:16] Task olusturuluyor: Framingham_task 
+[2026-07-24 08:16:16] Task olusturuldu: Framingham_task 
+[2026-07-24 08:16:16] Task olusturuluyor: csl_task 
+[2026-07-24 08:16:16] Task olusturuldu: csl_task 
+[2026-07-24 08:16:16] Task olusturuluyor: cancer_task 
+[2026-07-24 08:16:16] Task olusturuldu: cancer_task 
+[2026-07-24 08:16:16] Task olusturuluyor: whas500_task 
+[2026-07-24 08:16:16] Task olusturuldu: whas500_task 
+[2026-07-24 08:16:16] Task olusturuluyor: cgd_task 
+[2026-07-24 08:16:16] Task olusturuldu: cgd_task 
+[2026-07-24 08:16:16] Task olusturuluyor: Pbc3_task 
+[2026-07-24 08:16:16] Task olusturuldu: Pbc3_task 
+[2026-07-24 08:16:16] Task olusturuluyor: GBSG2_task 
+[2026-07-24 08:16:16] Task olusturuldu: GBSG2_task 
+[2026-07-24 08:16:16] Task olusturuluyor: colon_task 
+[2026-07-24 08:16:16] Task olusturuldu: colon_task 
+[2026-07-24 08:16:16] Task olusturuluyor: flchain_task 
+[2026-07-24 08:16:16] Task olusturuldu: flchain_task 
+[2026-07-24 08:16:16] Task olusturuluyor: Rossi_task 
+[2026-07-24 08:16:16] Task olusturuldu: Rossi_task 
+[2026-07-24 08:16:16] Task olusturuluyor: burn_task 
+[2026-07-24 08:16:16] Task olusturuldu: burn_task 
+[2026-07-24 08:16:16] Task olusturuluyor: rott2_task 
+[2026-07-24 08:16:16] Task olusturuldu: rott2_task 
+[2026-07-24 08:16:16] Task olusturuluyor: d_oropha_rec_task 
+[2026-07-24 08:16:16] Task olusturuldu: d_oropha_rec_task 
+[2026-07-24 08:16:16] Task olusturuluyor: rdata_task 
+[2026-07-24 08:16:16] Task olusturuldu: rdata_task 
+[2026-07-24 08:16:16] Toplam 36 task olusturuldu 
+[2026-07-24 08:16:16] ===== RUN ( dialysis ) BASLADI: 11 model ===== 
+[2026-07-24 08:16:16] ----- Veri seti basladi: dialysis ----- 
+[2026-07-24 08:16:16] Split basladi (ratio = 0.7 ) 
+[2026-07-24 08:16:16] Split bitti - train: 4764 test: 2041 
+[2026-07-24 08:16:16] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-24 08:16:16] Model egitimi basladi ( cox ) 
+[2026-07-24 08:16:16] Model egitimi bitti ( cox ) 
+[2026-07-24 08:16:16] Model kaydedildi: results/cox/dialysis/model.rds 
+[2026-07-24 08:16:16] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-24 08:16:16] Model egitimi basladi ( cforest ) 
+[2026-07-24 08:16:16] HATA: model egitilemedi - cforest - The following packages could not be loaded: coin 
+[2026-07-24 08:16:16] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-24 08:16:16] Model egitimi basladi ( coxboost ) 
+[2026-07-24 08:17:12] Model egitimi bitti ( coxboost ) 
+[2026-07-24 08:17:12] Model kaydedildi: results/coxboost/dialysis/model.rds 
+[2026-07-24 08:17:12] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-24 08:17:12] Model egitimi basladi ( ctree ) 
+[2026-07-24 08:17:12] HATA: model egitilemedi - ctree - The following packages could not be loaded: coin 
+[2026-07-24 08:17:12] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-24 08:17:12] Model egitimi basladi ( cv_glmnet ) 
+[2026-07-24 08:17:14] Model egitimi bitti ( cv_glmnet ) 
+[2026-07-24 08:17:14] Model kaydedildi: results/cv_glmnet/dialysis/model.rds 
+[2026-07-24 08:17:14] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-24 08:17:14] Model egitimi basladi ( glmboost ) 
+[2026-07-24 08:17:35] Model egitimi bitti ( glmboost ) 
+[2026-07-24 08:17:36] Model kaydedildi: results/glmboost/dialysis/model.rds 
+[2026-07-24 08:17:36] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-24 08:17:36] Model egitimi basladi ( glmnet ) 
+[2026-07-24 08:17:36] Model egitimi bitti ( glmnet ) 
+[2026-07-24 08:17:36] Model kaydedildi: results/glmnet/dialysis/model.rds 
+[2026-07-24 08:17:36] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-24 08:17:36] Model egitimi basladi ( penalized ) 
+[2026-07-24 08:17:37] Model egitimi bitti ( penalized ) 
+[2026-07-24 08:17:37] Model kaydedildi: results/penalized/dialysis/model.rds 
+[2026-07-24 08:17:37] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-24 08:17:37] Model egitimi basladi ( ranger ) 
+[2026-07-24 08:17:53] Model egitimi bitti ( ranger ) 
+[2026-07-24 08:17:56] Model kaydedildi: results/ranger/dialysis/model.rds 
+[2026-07-24 08:17:56] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-24 08:17:56] Model egitimi basladi ( rfsrc ) 
+[2026-07-24 08:18:02] Model egitimi bitti ( rfsrc ) 
+[2026-07-24 08:18:22] Model kaydedildi: results/rfsrc/dialysis/model.rds 
+[2026-07-24 08:18:22] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-24 08:18:22] Model egitimi basladi ( xgboost_cox ) 
+[2026-07-24 08:18:23] Model egitimi bitti ( xgboost_cox ) 
+[2026-07-24 08:18:23] Model kaydedildi: results/xgboost_cox/dialysis/model.rds 
+[2026-07-24 08:18:23] UYARI: su modeller basarisiz oldu, analiz disi birakildi: cforest_model, ctree_model 
+[2026-07-24 08:18:23] Performans hesaplama basladi: surv.coxph 
+[2026-07-24 08:18:25] Performans hesaplama bitti: surv.coxph - cindex: 0.643 - IBS (graf): 0.186 
+[2026-07-24 08:18:25] Performans kaydedildi: results/cox/dialysis/performance.csv 
+[2026-07-24 08:18:25] Performans hesaplama basladi: surv.coxboost 
+[2026-07-24 08:19:04] Performans hesaplama bitti: surv.coxboost - cindex: 0.643 - IBS (graf): 0.186 
+[2026-07-24 08:19:04] Performans kaydedildi: results/coxboost/dialysis/performance.csv 
+[2026-07-24 08:19:04] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-07-24 08:19:07] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.64 - IBS (graf): 0.194 
+[2026-07-24 08:19:07] Performans kaydedildi: results/cv_glmnet/dialysis/performance.csv 
+[2026-07-24 08:19:07] Performans hesaplama basladi: surv.glmboost 
+[2026-07-24 08:19:29] Performans hesaplama bitti: surv.glmboost - cindex: 0.64 - IBS (graf): 0.19 
+[2026-07-24 08:19:29] Performans kaydedildi: results/glmboost/dialysis/performance.csv 
+[2026-07-24 08:19:29] Performans hesaplama basladi: surv.glmnet 
+[2026-07-24 08:19:30] Performans hesaplama bitti: surv.glmnet - cindex: 0.641 - IBS (graf): 0.19 
+[2026-07-24 08:19:30] Performans kaydedildi: results/glmnet/dialysis/performance.csv 
+[2026-07-24 08:19:30] Performans hesaplama basladi: surv.penalized 
+[2026-07-24 08:19:33] Performans hesaplama bitti: surv.penalized - cindex: 0.643 - IBS (graf): 0.187 
+[2026-07-24 08:19:33] Performans kaydedildi: results/penalized/dialysis/performance.csv 
+[2026-07-24 08:19:33] Performans hesaplama basladi: surv.ranger 
+[2026-07-24 08:19:53] Performans hesaplama bitti: surv.ranger - cindex: 0.678 - IBS (graf): 0.192 
+[2026-07-24 08:19:53] Performans kaydedildi: results/ranger/dialysis/performance.csv 
+[2026-07-24 08:19:53] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-24 08:20:02] Performans hesaplama bitti: surv.rfsrc - cindex: 0.692 - IBS (graf): 0.18 
+[2026-07-24 08:20:02] Performans kaydedildi: results/rfsrc/dialysis/performance.csv 
+[2026-07-24 08:20:02] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-24 08:20:05] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.697 - IBS (graf): 0.191 
+[2026-07-24 08:20:05] Performans kaydedildi: results/xgboost_cox/dialysis/performance.csv 
+[2026-07-24 08:20:05] Global aciklama (PFI) basladi 
+[2026-07-24 08:20:05] Explainer kuruluyor: cox_model 
+[2026-07-24 08:20:28] Explainer kaydedildi: results/cox/dialysis/explainer.rds 
+[2026-07-24 08:20:28] Explainer kuruluyor: coxboost_model 
+[2026-07-24 08:20:52] Explainer kaydedildi: results/coxboost/dialysis/explainer.rds 
+[2026-07-24 08:20:52] Explainer kuruluyor: cv_glmnet_model 
+[2026-07-24 08:21:15] Explainer kaydedildi: results/cv_glmnet/dialysis/explainer.rds 
+[2026-07-24 08:21:15] Explainer kuruluyor: glmboost_model 
+[2026-07-24 08:21:39] Explainer kaydedildi: results/glmboost/dialysis/explainer.rds 
+[2026-07-24 08:21:39] Explainer kuruluyor: glmnet_model 
+[2026-07-24 08:22:02] Explainer kaydedildi: results/glmnet/dialysis/explainer.rds 
+[2026-07-24 08:22:02] Explainer kuruluyor: penalized_model 
+[2026-07-24 08:22:26] Explainer kaydedildi: results/penalized/dialysis/explainer.rds 
+[2026-07-24 08:22:26] Explainer kuruluyor: ranger_model 
+[2026-07-24 08:22:49] Explainer kaydedildi: results/ranger/dialysis/explainer.rds 
+[2026-07-24 08:22:49] Explainer kuruluyor: rfsrc_model 
+[2026-07-24 08:23:13] Explainer kaydedildi: results/rfsrc/dialysis/explainer.rds 
+[2026-07-24 08:23:13] Explainer kuruluyor: xgboost_cox_model 
+[2026-07-24 08:23:36] Explainer kaydedildi: results/xgboost_cox/dialysis/explainer.rds 
+[2026-07-24 08:23:36] PFI hesaplaniyor: cox_model 
+[2026-07-24 08:23:50] PFI hesaplaniyor: coxboost_model 
+[2026-07-24 08:24:03] PFI hesaplaniyor: cv_glmnet_model 
+[2026-07-24 08:24:17] PFI hesaplaniyor: glmboost_model 
+[2026-07-24 08:24:30] PFI hesaplaniyor: glmnet_model 
+[2026-07-24 08:24:46] PFI hesaplaniyor: penalized_model 
+[2026-07-24 08:24:59] PFI hesaplaniyor: ranger_model 
+[2026-07-24 08:27:03] PFI hesaplaniyor: rfsrc_model 
+[2026-07-24 08:28:05] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-24 08:28:19] Global aciklama (PFI) bitti 
+[2026-07-24 08:28:19] PFI kaydedildi: results/cox/dialysis/vimp.rds 
+[2026-07-24 08:28:20] Grafik kaydedildi: results/cox/dialysis/plots/pfi_plot.png 
+[2026-07-24 08:28:20] PFI ozeti kaydedildi: results/cox/dialysis/vimp_summary.csv 
+[2026-07-24 08:28:20] cox_model - PFI TIVM: 0.0028 
+[2026-07-24 08:28:20] PFI kaydedildi: results/coxboost/dialysis/vimp.rds 
+[2026-07-24 08:28:21] Grafik kaydedildi: results/coxboost/dialysis/plots/pfi_plot.png 
+[2026-07-24 08:28:21] PFI ozeti kaydedildi: results/coxboost/dialysis/vimp_summary.csv 
+[2026-07-24 08:28:21] coxboost_model - PFI TIVM: 0.0053 
+[2026-07-24 08:28:21] PFI kaydedildi: results/cv_glmnet/dialysis/vimp.rds 
+[2026-07-24 08:28:21] Grafik kaydedildi: results/cv_glmnet/dialysis/plots/pfi_plot.png 
+[2026-07-24 08:28:21] PFI ozeti kaydedildi: results/cv_glmnet/dialysis/vimp_summary.csv 
+[2026-07-24 08:28:21] cv_glmnet_model - PFI TIVM: 0.0016 
+[2026-07-24 08:28:21] PFI kaydedildi: results/glmboost/dialysis/vimp.rds 
+[2026-07-24 08:28:22] Grafik kaydedildi: results/glmboost/dialysis/plots/pfi_plot.png 
+[2026-07-24 08:28:22] PFI ozeti kaydedildi: results/glmboost/dialysis/vimp_summary.csv 
+[2026-07-24 08:28:22] glmboost_model - PFI TIVM: 0.0025 
+[2026-07-24 08:28:22] PFI kaydedildi: results/glmnet/dialysis/vimp.rds 
+[2026-07-24 08:28:22] Grafik kaydedildi: results/glmnet/dialysis/plots/pfi_plot.png 
+[2026-07-24 08:28:22] PFI ozeti kaydedildi: results/glmnet/dialysis/vimp_summary.csv 
+[2026-07-24 08:28:22] glmnet_model - PFI TIVM: 0.0035 
+[2026-07-24 08:28:22] PFI kaydedildi: results/penalized/dialysis/vimp.rds 
+[2026-07-24 08:28:23] Grafik kaydedildi: results/penalized/dialysis/plots/pfi_plot.png 
+[2026-07-24 08:28:23] PFI ozeti kaydedildi: results/penalized/dialysis/vimp_summary.csv 
+[2026-07-24 08:28:23] penalized_model - PFI TIVM: 0.0027 
+[2026-07-24 08:28:23] PFI kaydedildi: results/ranger/dialysis/vimp.rds 
+[2026-07-24 08:28:24] Grafik kaydedildi: results/ranger/dialysis/plots/pfi_plot.png 
+[2026-07-24 08:28:24] PFI ozeti kaydedildi: results/ranger/dialysis/vimp_summary.csv 
+[2026-07-24 08:28:24] ranger_model - PFI TIVM: 0.0026 
+[2026-07-24 08:28:24] PFI kaydedildi: results/rfsrc/dialysis/vimp.rds 
+[2026-07-24 08:28:24] Grafik kaydedildi: results/rfsrc/dialysis/plots/pfi_plot.png 
+[2026-07-24 08:28:24] PFI ozeti kaydedildi: results/rfsrc/dialysis/vimp_summary.csv 
+[2026-07-24 08:28:24] rfsrc_model - PFI TIVM: 0.004 
+[2026-07-24 08:28:24] PFI kaydedildi: results/xgboost_cox/dialysis/vimp.rds 
+[2026-07-24 08:28:25] Grafik kaydedildi: results/xgboost_cox/dialysis/plots/pfi_plot.png 
+[2026-07-24 08:28:25] PFI ozeti kaydedildi: results/xgboost_cox/dialysis/vimp_summary.csv 
+[2026-07-24 08:28:25] xgboost_cox_model - PFI TIVM: 0.0088 
+[2026-07-24 08:28:25] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-24 08:28:45] SHAP - gozlem 5 / 15 
+[2026-07-24 08:29:11] SHAP - gozlem 10 / 15 
+[2026-07-24 08:29:36] SHAP - gozlem 15 / 15 
+[2026-07-24 08:29:41] SHAP hesaplama bitti, kaydedildi: results/cox/dialysis/shap_long.csv 
+[2026-07-24 08:29:42] Grafik kaydedildi: results/cox/dialysis/plots/survshap_plot.png 
+[2026-07-24 08:29:42] SHAP ozeti kaydedildi: results/cox/dialysis/shap_summary.csv 
+[2026-07-24 08:29:42] cox_model - SHAP TIVM: 0.0032 
+[2026-07-24 08:29:42] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-24 08:30:02] SHAP - gozlem 5 / 15 
+[2026-07-24 08:30:27] SHAP - gozlem 10 / 15 
+[2026-07-24 08:30:52] SHAP - gozlem 15 / 15 
+[2026-07-24 08:30:57] SHAP hesaplama bitti, kaydedildi: results/coxboost/dialysis/shap_long.csv 
+[2026-07-24 08:30:58] Grafik kaydedildi: results/coxboost/dialysis/plots/survshap_plot.png 
+[2026-07-24 08:30:58] SHAP ozeti kaydedildi: results/coxboost/dialysis/shap_summary.csv 
+[2026-07-24 08:30:58] coxboost_model - SHAP TIVM: 0.0032 
+[2026-07-24 08:30:58] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-24 08:31:17] SHAP - gozlem 5 / 15 
+[2026-07-24 08:31:42] SHAP - gozlem 10 / 15 
+[2026-07-24 08:32:07] SHAP - gozlem 15 / 15 
+[2026-07-24 08:32:12] SHAP hesaplama bitti, kaydedildi: results/cv_glmnet/dialysis/shap_long.csv 
+[2026-07-24 08:32:12] Grafik kaydedildi: results/cv_glmnet/dialysis/plots/survshap_plot.png 
+[2026-07-24 08:32:12] SHAP ozeti kaydedildi: results/cv_glmnet/dialysis/shap_summary.csv 
+[2026-07-24 08:32:12] cv_glmnet_model - SHAP TIVM: 0.0019 
+[2026-07-24 08:32:12] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-24 08:32:30] SHAP - gozlem 5 / 15 
+[2026-07-24 08:32:53] SHAP - gozlem 10 / 15 
+[2026-07-24 08:33:16] SHAP - gozlem 15 / 15 
+[2026-07-24 08:33:21] SHAP hesaplama bitti, kaydedildi: results/glmboost/dialysis/shap_long.csv 
+[2026-07-24 08:33:21] Grafik kaydedildi: results/glmboost/dialysis/plots/survshap_plot.png 
+[2026-07-24 08:33:21] SHAP ozeti kaydedildi: results/glmboost/dialysis/shap_summary.csv 
+[2026-07-24 08:33:21] glmboost_model - SHAP TIVM: 0.0034 
+[2026-07-24 08:33:21] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-24 08:33:40] SHAP - gozlem 5 / 15 
+[2026-07-24 08:34:06] SHAP - gozlem 10 / 15 
+[2026-07-24 08:34:31] SHAP - gozlem 15 / 15 
+[2026-07-24 08:34:36] SHAP hesaplama bitti, kaydedildi: results/glmnet/dialysis/shap_long.csv 
+[2026-07-24 08:34:36] Grafik kaydedildi: results/glmnet/dialysis/plots/survshap_plot.png 
+[2026-07-24 08:34:36] SHAP ozeti kaydedildi: results/glmnet/dialysis/shap_summary.csv 
+[2026-07-24 08:34:36] glmnet_model - SHAP TIVM: 0.0034 
+[2026-07-24 08:34:36] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-24 08:34:56] SHAP - gozlem 5 / 15 
+[2026-07-24 08:35:21] SHAP - gozlem 10 / 15 
+[2026-07-24 08:35:46] SHAP - gozlem 15 / 15 
+[2026-07-24 08:35:51] SHAP hesaplama bitti, kaydedildi: results/penalized/dialysis/shap_long.csv 
+[2026-07-24 08:35:51] Grafik kaydedildi: results/penalized/dialysis/plots/survshap_plot.png 
+[2026-07-24 08:35:51] SHAP ozeti kaydedildi: results/penalized/dialysis/shap_summary.csv 
+[2026-07-24 08:35:51] penalized_model - SHAP TIVM: 0.0036 
+[2026-07-24 08:35:51] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-24 08:38:02] SHAP - gozlem 5 / 15 
+[2026-07-24 08:40:46] SHAP - gozlem 10 / 15 
+[2026-07-24 08:43:30] SHAP - gozlem 15 / 15 
+[2026-07-24 08:44:03] SHAP hesaplama bitti, kaydedildi: results/ranger/dialysis/shap_long.csv 
+[2026-07-24 08:44:03] Grafik kaydedildi: results/ranger/dialysis/plots/survshap_plot.png 
+[2026-07-24 08:44:03] SHAP ozeti kaydedildi: results/ranger/dialysis/shap_summary.csv 
+[2026-07-24 08:44:03] ranger_model - SHAP TIVM: 0.0092 
+[2026-07-24 08:44:03] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-24 08:44:56] SHAP - gozlem 5 / 15 
+[2026-07-24 08:45:59] SHAP - gozlem 10 / 15 
+[2026-07-24 08:47:04] SHAP - gozlem 15 / 15 
+[2026-07-24 08:47:16] SHAP hesaplama bitti, kaydedildi: results/rfsrc/dialysis/shap_long.csv 
+[2026-07-24 08:47:17] Grafik kaydedildi: results/rfsrc/dialysis/plots/survshap_plot.png 
+[2026-07-24 08:47:17] SHAP ozeti kaydedildi: results/rfsrc/dialysis/shap_summary.csv 
+[2026-07-24 08:47:17] rfsrc_model - SHAP TIVM: 0.0093 
+[2026-07-24 08:47:17] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-24 08:47:37] SHAP - gozlem 5 / 15 
+[2026-07-24 08:48:03] SHAP - gozlem 10 / 15 
+[2026-07-24 08:48:29] SHAP - gozlem 15 / 15 
+[2026-07-24 08:48:34] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/dialysis/shap_long.csv 
+[2026-07-24 08:48:34] Grafik kaydedildi: results/xgboost_cox/dialysis/plots/survshap_plot.png 
+[2026-07-24 08:48:34] SHAP ozeti kaydedildi: results/xgboost_cox/dialysis/shap_summary.csv 
+[2026-07-24 08:48:34] xgboost_cox_model - SHAP TIVM: 0.022 
+[2026-07-24 08:48:34] ===== BITTI: dialysis + cox - cindex: 0.643 - PFI TIVM: 0.0028 - SHAP TIVM: 0.0032 ===== 
+[2026-07-24 08:48:34] ===== BITTI: dialysis + coxboost - cindex: 0.643 - PFI TIVM: 0.0053 - SHAP TIVM: 0.0032 ===== 
+[2026-07-24 08:48:34] ===== BITTI: dialysis + cv_glmnet - cindex: 0.64 - PFI TIVM: 0.0016 - SHAP TIVM: 0.0019 ===== 
+[2026-07-24 08:48:34] ===== BITTI: dialysis + glmboost - cindex: 0.64 - PFI TIVM: 0.0025 - SHAP TIVM: 0.0034 ===== 
+[2026-07-24 08:48:34] ===== BITTI: dialysis + glmnet - cindex: 0.641 - PFI TIVM: 0.0035 - SHAP TIVM: 0.0034 ===== 
+[2026-07-24 08:48:34] ===== BITTI: dialysis + penalized - cindex: 0.643 - PFI TIVM: 0.0027 - SHAP TIVM: 0.0036 ===== 
+[2026-07-24 08:48:34] ===== BITTI: dialysis + ranger - cindex: 0.678 - PFI TIVM: 0.0026 - SHAP TIVM: 0.0092 ===== 
+[2026-07-24 08:48:34] ===== BITTI: dialysis + rfsrc - cindex: 0.692 - PFI TIVM: 0.004 - SHAP TIVM: 0.0093 ===== 
+[2026-07-24 08:48:34] ===== BITTI: dialysis + xgboost_cox - cindex: 0.697 - PFI TIVM: 0.0088 - SHAP TIVM: 0.022 ===== 
+[2026-07-24 08:48:34] ----- Veri seti bitti: dialysis ----- 
+[2026-07-24 08:48:34] ===== RUN ( dialysis ) TAMAMLANDI ===== 
