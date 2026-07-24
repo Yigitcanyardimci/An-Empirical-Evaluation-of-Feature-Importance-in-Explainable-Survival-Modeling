@@ -569,3 +569,8 @@
 [2026-07-24 15:49:30] SHAP - gozlem 5 / 15 
 [2026-07-24 16:09:49] SHAP - gozlem 10 / 15 
 [2026-07-24 16:29:23] SHAP - gozlem 15 / 15 
+[2026-07-24 16:33:20] SHAP hesaplama bitti, kaydedildi: results/glmboost/dataDIVAT1/shap_long.csv 
+[2026-07-24 16:33:20] Grafik kaydedildi: results/glmboost/dataDIVAT1/plots/survshap_plot.png 
+[2026-07-24 16:33:20] SHAP ozeti kaydedildi: results/glmboost/dataDIVAT1/shap_summary.csv 
+[2026-07-24 16:33:20] glmboost_model - SHAP TIVM: 0.001 
+[2026-07-24 16:33:20] SHAP hesaplama basladi, n_obs = 15 
