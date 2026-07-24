@@ -375,3 +375,6 @@
 [2026-07-24 23:52:04] Performans hesaplama bitti: surv.coxph - cindex: 0.743 - IBS (graf): 0.069 
 [2026-07-24 23:52:04] Performans kaydedildi: results/cox/prostateSurvival/performance.csv 
 [2026-07-24 23:52:04] Performans hesaplama basladi: surv.cforest 
+[2026-07-24 23:56:12] Performans hesaplama bitti: surv.cforest - cindex: 0.735 - IBS (graf): 0.069 
+[2026-07-24 23:56:12] Performans kaydedildi: results/cforest/prostateSurvival/performance.csv 
+[2026-07-24 23:56:12] Performans hesaplama basladi: surv.coxboost 
