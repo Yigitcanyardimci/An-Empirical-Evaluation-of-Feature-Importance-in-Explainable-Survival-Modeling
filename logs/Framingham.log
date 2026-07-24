@@ -426,3 +426,4 @@
 [2026-07-24 21:11:14] PFI hesaplaniyor: glmboost_model 
 [2026-07-24 21:17:59] PFI hesaplaniyor: glmnet_model 
 [2026-07-24 21:30:43] PFI hesaplaniyor: penalized_model 
+[2026-07-24 21:37:13] PFI hesaplaniyor: ranger_model 
