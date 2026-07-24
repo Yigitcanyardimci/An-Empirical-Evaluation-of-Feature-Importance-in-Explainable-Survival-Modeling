@@ -718,3 +718,15 @@
 [2026-07-24 12:59:22] Performans hesaplama bitti: surv.cforest - cindex: 0.716 - IBS (graf): 0.111 
 [2026-07-24 12:59:22] Performans kaydedildi: results/cforest/nwtco/performance.csv 
 [2026-07-24 12:59:22] Performans hesaplama basladi: surv.coxboost 
+[2026-07-24 12:59:59] Performans hesaplama bitti: surv.coxboost - cindex: 0.707 - IBS (graf): 0.113 
+[2026-07-24 12:59:59] Performans kaydedildi: results/coxboost/nwtco/performance.csv 
+[2026-07-24 12:59:59] Performans hesaplama basladi: surv.ctree 
+[2026-07-24 13:00:29] Performans hesaplama bitti: surv.ctree - cindex: 0.698 - IBS (graf): 0.116 
+[2026-07-24 13:00:29] Performans kaydedildi: results/ctree/nwtco/performance.csv 
+[2026-07-24 13:00:29] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-07-24 13:00:57] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.5 - IBS (graf): 0.121 
+[2026-07-24 13:00:57] Performans kaydedildi: results/cv_glmnet/nwtco/performance.csv 
+[2026-07-24 13:00:57] Performans hesaplama basladi: surv.glmboost 
+[2026-07-24 13:01:14] Performans hesaplama bitti: surv.glmboost - cindex: 0.708 - IBS (graf): 0.11 
+[2026-07-24 13:01:14] Performans kaydedildi: results/glmboost/nwtco/performance.csv 
+[2026-07-24 13:01:14] Performans hesaplama basladi: surv.glmnet 
