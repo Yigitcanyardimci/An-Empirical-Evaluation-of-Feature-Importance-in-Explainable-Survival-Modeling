@@ -1182,3 +1182,9 @@
 [2026-07-24 01:44:54] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-24 01:47:57] SHAP - gozlem 5 / 15 
 [2026-07-24 01:51:48] SHAP - gozlem 10 / 15 
+[2026-07-24 01:55:36] SHAP - gozlem 15 / 15 
+[2026-07-24 01:56:23] SHAP hesaplama bitti, kaydedildi: results/glmboost/colon/shap_long.csv 
+[2026-07-24 01:56:23] Grafik kaydedildi: results/glmboost/colon/plots/survshap_plot.png 
+[2026-07-24 01:56:23] SHAP ozeti kaydedildi: results/glmboost/colon/shap_summary.csv 
+[2026-07-24 01:56:23] glmboost_model - SHAP TIVM: 7e-04 
+[2026-07-24 01:56:23] SHAP hesaplama basladi, n_obs = 15 
