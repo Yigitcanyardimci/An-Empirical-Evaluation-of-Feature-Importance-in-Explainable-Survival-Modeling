@@ -574,3 +574,4 @@
 [2026-07-24 16:33:20] SHAP ozeti kaydedildi: results/glmboost/dataDIVAT1/shap_summary.csv 
 [2026-07-24 16:33:20] glmboost_model - SHAP TIVM: 0.001 
 [2026-07-24 16:33:20] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-24 17:21:12] SHAP - gozlem 5 / 15 
