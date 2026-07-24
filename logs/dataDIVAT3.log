@@ -515,3 +515,49 @@
 [2026-07-24 10:13:15] PFI hesaplaniyor: ranger_model 
 [2026-07-24 10:29:41] PFI hesaplaniyor: rfsrc_model 
 [2026-07-24 10:32:22] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-24 10:43:40] Global aciklama (PFI) bitti 
+[2026-07-24 10:43:40] PFI kaydedildi: results/cox/dataDIVAT3/vimp.rds 
+[2026-07-24 10:43:41] Grafik kaydedildi: results/cox/dataDIVAT3/plots/pfi_plot.png 
+[2026-07-24 10:43:41] PFI ozeti kaydedildi: results/cox/dataDIVAT3/vimp_summary.csv 
+[2026-07-24 10:43:41] cox_model - PFI TIVM: 3e-04 
+[2026-07-24 10:43:41] PFI kaydedildi: results/cforest/dataDIVAT3/vimp.rds 
+[2026-07-24 10:43:41] Grafik kaydedildi: results/cforest/dataDIVAT3/plots/pfi_plot.png 
+[2026-07-24 10:43:43] PFI ozeti kaydedildi: results/cforest/dataDIVAT3/vimp_summary.csv 
+[2026-07-24 10:43:43] cforest_model - PFI TIVM: 5e-04 
+[2026-07-24 10:43:43] PFI kaydedildi: results/coxboost/dataDIVAT3/vimp.rds 
+[2026-07-24 10:43:43] Grafik kaydedildi: results/coxboost/dataDIVAT3/plots/pfi_plot.png 
+[2026-07-24 10:43:43] PFI ozeti kaydedildi: results/coxboost/dataDIVAT3/vimp_summary.csv 
+[2026-07-24 10:43:43] coxboost_model - PFI TIVM: 5e-04 
+[2026-07-24 10:43:43] PFI kaydedildi: results/ctree/dataDIVAT3/vimp.rds 
+[2026-07-24 10:43:44] Grafik kaydedildi: results/ctree/dataDIVAT3/plots/pfi_plot.png 
+[2026-07-24 10:43:44] PFI ozeti kaydedildi: results/ctree/dataDIVAT3/vimp_summary.csv 
+[2026-07-24 10:43:44] ctree_model - PFI TIVM: 0.0012 
+[2026-07-24 10:43:44] PFI kaydedildi: results/cv_glmnet/dataDIVAT3/vimp.rds 
+[2026-07-24 10:43:45] Grafik kaydedildi: results/cv_glmnet/dataDIVAT3/plots/pfi_plot.png 
+[2026-07-24 10:43:45] PFI ozeti kaydedildi: results/cv_glmnet/dataDIVAT3/vimp_summary.csv 
+[2026-07-24 10:43:45] cv_glmnet_model - PFI TIVM: 0 
+[2026-07-24 10:43:45] PFI kaydedildi: results/glmboost/dataDIVAT3/vimp.rds 
+[2026-07-24 10:43:45] Grafik kaydedildi: results/glmboost/dataDIVAT3/plots/pfi_plot.png 
+[2026-07-24 10:43:45] PFI ozeti kaydedildi: results/glmboost/dataDIVAT3/vimp_summary.csv 
+[2026-07-24 10:43:45] glmboost_model - PFI TIVM: 2e-04 
+[2026-07-24 10:43:45] PFI kaydedildi: results/glmnet/dataDIVAT3/vimp.rds 
+[2026-07-24 10:43:46] Grafik kaydedildi: results/glmnet/dataDIVAT3/plots/pfi_plot.png 
+[2026-07-24 10:43:46] PFI ozeti kaydedildi: results/glmnet/dataDIVAT3/vimp_summary.csv 
+[2026-07-24 10:43:46] glmnet_model - PFI TIVM: 4e-04 
+[2026-07-24 10:43:46] PFI kaydedildi: results/penalized/dataDIVAT3/vimp.rds 
+[2026-07-24 10:43:47] Grafik kaydedildi: results/penalized/dataDIVAT3/plots/pfi_plot.png 
+[2026-07-24 10:43:47] PFI ozeti kaydedildi: results/penalized/dataDIVAT3/vimp_summary.csv 
+[2026-07-24 10:43:47] penalized_model - PFI TIVM: 5e-04 
+[2026-07-24 10:43:47] PFI kaydedildi: results/ranger/dataDIVAT3/vimp.rds 
+[2026-07-24 10:43:48] Grafik kaydedildi: results/ranger/dataDIVAT3/plots/pfi_plot.png 
+[2026-07-24 10:43:48] PFI ozeti kaydedildi: results/ranger/dataDIVAT3/vimp_summary.csv 
+[2026-07-24 10:43:48] ranger_model - PFI TIVM: 8e-04 
+[2026-07-24 10:43:48] PFI kaydedildi: results/rfsrc/dataDIVAT3/vimp.rds 
+[2026-07-24 10:43:48] Grafik kaydedildi: results/rfsrc/dataDIVAT3/plots/pfi_plot.png 
+[2026-07-24 10:43:48] PFI ozeti kaydedildi: results/rfsrc/dataDIVAT3/vimp_summary.csv 
+[2026-07-24 10:43:48] rfsrc_model - PFI TIVM: 4e-04 
+[2026-07-24 10:43:48] PFI kaydedildi: results/xgboost_cox/dataDIVAT3/vimp.rds 
+[2026-07-24 10:43:49] Grafik kaydedildi: results/xgboost_cox/dataDIVAT3/plots/pfi_plot.png 
+[2026-07-24 10:43:49] PFI ozeti kaydedildi: results/xgboost_cox/dataDIVAT3/vimp_summary.csv 
+[2026-07-24 10:43:49] xgboost_cox_model - PFI TIVM: 0.0055 
+[2026-07-24 10:43:49] SHAP hesaplama basladi, n_obs = 15 
