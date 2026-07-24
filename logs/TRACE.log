@@ -1895,3 +1895,36 @@
 [2026-07-24 02:45:03] SHAP - gozlem 5 / 15 
 [2026-07-24 03:41:52] SHAP - gozlem 10 / 15 
 [2026-07-24 04:38:31] SHAP - gozlem 15 / 15 
+[2026-07-24 04:50:07] SHAP hesaplama bitti, kaydedildi: results/ranger/TRACE/shap_long.csv 
+[2026-07-24 04:50:07] Grafik kaydedildi: results/ranger/TRACE/plots/survshap_plot.png 
+[2026-07-24 04:50:07] SHAP ozeti kaydedildi: results/ranger/TRACE/shap_summary.csv 
+[2026-07-24 04:50:07] ranger_model - SHAP TIVM: 9e-04 
+[2026-07-24 04:50:07] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-24 05:02:11] SHAP - gozlem 5 / 15 
+[2026-07-24 05:17:20] SHAP - gozlem 10 / 15 
+[2026-07-24 05:32:00] SHAP - gozlem 15 / 15 
+[2026-07-24 05:34:52] SHAP hesaplama bitti, kaydedildi: results/rfsrc/TRACE/shap_long.csv 
+[2026-07-24 05:34:52] Grafik kaydedildi: results/rfsrc/TRACE/plots/survshap_plot.png 
+[2026-07-24 05:34:52] SHAP ozeti kaydedildi: results/rfsrc/TRACE/shap_summary.csv 
+[2026-07-24 05:34:52] rfsrc_model - SHAP TIVM: 9e-04 
+[2026-07-24 05:34:52] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-24 05:44:14] SHAP - gozlem 5 / 15 
+[2026-07-24 05:55:50] SHAP - gozlem 10 / 15 
+[2026-07-24 06:07:27] SHAP - gozlem 15 / 15 
+[2026-07-24 06:09:49] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/TRACE/shap_long.csv 
+[2026-07-24 06:09:49] Grafik kaydedildi: results/xgboost_cox/TRACE/plots/survshap_plot.png 
+[2026-07-24 06:09:49] SHAP ozeti kaydedildi: results/xgboost_cox/TRACE/shap_summary.csv 
+[2026-07-24 06:09:49] xgboost_cox_model - SHAP TIVM: 6e-04 
+[2026-07-24 06:09:49] ===== BITTI: TRACE + cox - cindex: 0.741 - PFI TIVM: 0.002 - SHAP TIVM: 4e-04 ===== 
+[2026-07-24 06:09:49] ===== BITTI: TRACE + cforest - cindex: 0.74 - PFI TIVM: 0.0019 - SHAP TIVM: 0.001 ===== 
+[2026-07-24 06:09:49] ===== BITTI: TRACE + coxboost - cindex: 0.742 - PFI TIVM: 0.0019 - SHAP TIVM: 4e-04 ===== 
+[2026-07-24 06:09:49] ===== BITTI: TRACE + ctree - cindex: 0.714 - PFI TIVM: 0.002 - SHAP TIVM: 0.0011 ===== 
+[2026-07-24 06:09:49] ===== BITTI: TRACE + cv_glmnet - cindex: 0.734 - PFI TIVM: 0.001 - SHAP TIVM: 3e-04 ===== 
+[2026-07-24 06:09:49] ===== BITTI: TRACE + glmboost - cindex: 0.741 - PFI TIVM: 0.0016 - SHAP TIVM: 3e-04 ===== 
+[2026-07-24 06:09:49] ===== BITTI: TRACE + glmnet - cindex: 0.742 - PFI TIVM: 0.0018 - SHAP TIVM: 4e-04 ===== 
+[2026-07-24 06:09:49] ===== BITTI: TRACE + penalized - cindex: 0.741 - PFI TIVM: 0.0018 - SHAP TIVM: 4e-04 ===== 
+[2026-07-24 06:09:49] ===== BITTI: TRACE + ranger - cindex: 0.736 - PFI TIVM: 0.002 - SHAP TIVM: 9e-04 ===== 
+[2026-07-24 06:09:49] ===== BITTI: TRACE + rfsrc - cindex: 0.737 - PFI TIVM: 0.002 - SHAP TIVM: 9e-04 ===== 
+[2026-07-24 06:09:49] ===== BITTI: TRACE + xgboost_cox - cindex: 0.69 - PFI TIVM: 0.0047 - SHAP TIVM: 6e-04 ===== 
+[2026-07-24 06:09:49] ----- Veri seti bitti: TRACE ----- 
+[2026-07-24 06:09:49] ===== RUN ( TRACE ) TAMAMLANDI ===== 
