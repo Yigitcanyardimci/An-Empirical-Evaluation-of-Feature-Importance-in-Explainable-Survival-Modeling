@@ -411,3 +411,7 @@
 [2026-07-24 19:22:33] Explainer kuruluyor: glmnet_model 
 [2026-07-24 19:23:48] Explainer kaydedildi: results/glmnet/Framingham/explainer.rds 
 [2026-07-24 19:23:48] Explainer kuruluyor: penalized_model 
+[2026-07-24 19:25:03] Explainer kaydedildi: results/penalized/Framingham/explainer.rds 
+[2026-07-24 19:25:03] Explainer kuruluyor: ranger_model 
+[2026-07-24 19:26:17] Explainer kaydedildi: results/ranger/Framingham/explainer.rds 
+[2026-07-24 19:26:17] Explainer kuruluyor: rfsrc_model 
