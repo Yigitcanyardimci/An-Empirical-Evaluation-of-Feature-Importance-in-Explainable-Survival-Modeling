@@ -337,3 +337,4 @@
 [2026-07-24 23:25:19] Kaydedilmis model bulundu, okunuyor: results/cox/flchain/model.rds 
 [2026-07-24 23:25:19] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-24 23:25:19] Model egitimi basladi ( cforest ) 
+[2026-07-24 23:27:43] Model egitimi bitti ( cforest ) 
