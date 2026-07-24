@@ -527,3 +527,4 @@
 [2026-07-23 23:04:39] xgboost_cox_model - PFI TIVM: 0.0089 
 [2026-07-23 23:04:39] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-23 23:52:04] SHAP - gozlem 5 / 15 
+[2026-07-24 00:50:51] SHAP - gozlem 10 / 15 
