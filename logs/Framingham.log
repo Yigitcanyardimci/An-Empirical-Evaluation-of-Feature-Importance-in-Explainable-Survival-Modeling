@@ -339,3 +339,16 @@
 [2026-07-24 18:57:48] Kaydedilmis model bulundu, okunuyor: results/cox/Framingham/model.rds 
 [2026-07-24 18:57:48] Kaydedilmis model yok, sifirdan egitilecek 
 [2026-07-24 18:57:48] Model egitimi basladi ( cforest ) 
+[2026-07-24 18:59:18] Model egitimi bitti ( cforest ) 
+[2026-07-24 18:59:23] Model kaydedildi: results/cforest/Framingham/model.rds 
+[2026-07-24 18:59:23] Kaydedilmis model bulundu, okunuyor: results/coxboost/Framingham/model.rds 
+[2026-07-24 18:59:23] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-24 18:59:23] Model egitimi basladi ( ctree ) 
+[2026-07-24 18:59:23] Model egitimi bitti ( ctree ) 
+[2026-07-24 18:59:23] Model kaydedildi: results/ctree/Framingham/model.rds 
+[2026-07-24 18:59:23] Kaydedilmis model bulundu, okunuyor: results/cv_glmnet/Framingham/model.rds 
+[2026-07-24 18:59:23] Kaydedilmis model bulundu, okunuyor: results/glmboost/Framingham/model.rds 
+[2026-07-24 18:59:23] Kaydedilmis model bulundu, okunuyor: results/glmnet/Framingham/model.rds 
+[2026-07-24 18:59:23] Kaydedilmis model bulundu, okunuyor: results/penalized/Framingham/model.rds 
+[2026-07-24 18:59:23] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-24 18:59:23] Model egitimi basladi ( ranger ) 
