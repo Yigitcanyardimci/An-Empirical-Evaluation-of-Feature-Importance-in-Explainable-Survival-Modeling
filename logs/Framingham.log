@@ -1083,3 +1083,12 @@
 [2026-07-25 08:07:51] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.7 - IBS (graf): 0.125 
 [2026-07-25 08:07:51] Performans kaydedildi: results/cv_glmnet/Framingham/performance.csv 
 [2026-07-25 08:07:51] Performans hesaplama basladi: surv.glmboost 
+[2026-07-25 08:08:45] Performans hesaplama bitti: surv.glmboost - cindex: 0.712 - IBS (graf): 0.115 
+[2026-07-25 08:08:45] Performans kaydedildi: results/glmboost/Framingham/performance.csv 
+[2026-07-25 08:08:45] Performans hesaplama basladi: surv.glmnet 
+[2026-07-25 08:09:56] Performans hesaplama bitti: surv.glmnet - cindex: 0.714 - IBS (graf): 0.112 
+[2026-07-25 08:09:56] Performans kaydedildi: results/glmnet/Framingham/performance.csv 
+[2026-07-25 08:09:56] Performans hesaplama basladi: surv.penalized 
+[2026-07-25 08:10:59] Performans hesaplama bitti: surv.penalized - cindex: 0.714 - IBS (graf): 0.111 
+[2026-07-25 08:10:59] Performans kaydedildi: results/penalized/Framingham/performance.csv 
+[2026-07-25 08:10:59] Performans hesaplama basladi: surv.ranger 
