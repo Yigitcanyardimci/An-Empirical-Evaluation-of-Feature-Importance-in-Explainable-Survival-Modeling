@@ -557,3 +557,27 @@
 [2026-07-25 00:09:12] Performans hesaplama bitti: surv.penalized - cindex: 0.767 - IBS (graf): 0.099 
 [2026-07-25 00:09:12] Performans kaydedildi: results/penalized/flchain/performance.csv 
 [2026-07-25 00:09:12] Performans hesaplama basladi: surv.ranger 
+[2026-07-25 00:15:18] Performans hesaplama bitti: surv.ranger - cindex: 0.922 - IBS (graf): 0.051 
+[2026-07-25 00:15:18] Performans kaydedildi: results/ranger/flchain/performance.csv 
+[2026-07-25 00:15:18] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-25 00:20:11] Performans hesaplama bitti: surv.rfsrc - cindex: 0.924 - IBS (graf): 0.048 
+[2026-07-25 00:20:11] Performans kaydedildi: results/rfsrc/flchain/performance.csv 
+[2026-07-25 00:20:11] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-25 00:22:06] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.783 - IBS (graf): 0.159 
+[2026-07-25 00:22:06] Performans kaydedildi: results/xgboost_cox/flchain/performance.csv 
+[2026-07-25 00:22:06] Global aciklama (PFI) basladi 
+[2026-07-25 00:22:06] Explainer kuruluyor: cox_model 
+[2026-07-25 00:23:51] Explainer kaydedildi: results/cox/flchain/explainer.rds 
+[2026-07-25 00:23:51] Explainer kuruluyor: cforest_model 
+[2026-07-25 00:25:35] Explainer kaydedildi: results/cforest/flchain/explainer.rds 
+[2026-07-25 00:25:35] Explainer kuruluyor: coxboost_model 
+[2026-07-25 00:27:19] Explainer kaydedildi: results/coxboost/flchain/explainer.rds 
+[2026-07-25 00:27:19] Explainer kuruluyor: ctree_model 
+[2026-07-25 00:29:04] Explainer kaydedildi: results/ctree/flchain/explainer.rds 
+[2026-07-25 00:29:04] Explainer kuruluyor: glmboost_model 
+[2026-07-25 00:30:48] Explainer kaydedildi: results/glmboost/flchain/explainer.rds 
+[2026-07-25 00:30:48] Explainer kuruluyor: penalized_model 
+[2026-07-25 00:32:33] Explainer kaydedildi: results/penalized/flchain/explainer.rds 
+[2026-07-25 00:32:33] Explainer kuruluyor: ranger_model 
+[2026-07-25 00:34:17] Explainer kaydedildi: results/ranger/flchain/explainer.rds 
+[2026-07-25 00:34:17] Explainer kuruluyor: rfsrc_model 

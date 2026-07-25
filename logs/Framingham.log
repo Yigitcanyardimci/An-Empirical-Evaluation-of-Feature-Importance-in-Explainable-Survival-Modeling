@@ -619,3 +619,21 @@
 [2026-07-25 00:07:32] Performans hesaplama bitti: surv.ranger - cindex: 0.697 - IBS (graf): 0.115 
 [2026-07-25 00:07:32] Performans kaydedildi: results/ranger/Framingham/performance.csv 
 [2026-07-25 00:07:32] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-25 00:10:03] Performans hesaplama bitti: surv.rfsrc - cindex: 0.705 - IBS (graf): 0.112 
+[2026-07-25 00:10:04] Performans kaydedildi: results/rfsrc/Framingham/performance.csv 
+[2026-07-25 00:10:04] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-25 00:11:03] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.663 - IBS (graf): 0.158 
+[2026-07-25 00:11:03] Performans kaydedildi: results/xgboost_cox/Framingham/performance.csv 
+[2026-07-25 00:11:03] Global aciklama (PFI) basladi 
+[2026-07-25 00:11:03] Kaydedilmis explainer bulundu, okunuyor: results/cox/Framingham/explainer.rds 
+[2026-07-25 00:11:38] Kaydedilmis explainer bulundu, okunuyor: results/cforest/Framingham/explainer.rds 
+[2026-07-25 00:12:14] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/Framingham/explainer.rds 
+[2026-07-25 00:12:55] Kaydedilmis explainer bulundu, okunuyor: results/ctree/Framingham/explainer.rds 
+[2026-07-25 00:13:32] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/Framingham/explainer.rds 
+[2026-07-25 00:14:13] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/Framingham/explainer.rds 
+[2026-07-25 00:14:56] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/Framingham/explainer.rds 
+[2026-07-25 00:15:37] Kaydedilmis explainer bulundu, okunuyor: results/penalized/Framingham/explainer.rds 
+[2026-07-25 00:16:13] Kaydedilmis explainer bulundu, okunuyor: results/ranger/Framingham/explainer.rds 
+[2026-07-25 00:16:56] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/Framingham/explainer.rds 
+[2026-07-25 00:17:33] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/Framingham/explainer.rds 
+[2026-07-25 00:18:17] PFI hesaplaniyor: cox_model 
