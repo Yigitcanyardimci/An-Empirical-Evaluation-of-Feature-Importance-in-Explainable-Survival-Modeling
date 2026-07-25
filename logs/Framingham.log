@@ -1065,3 +1065,6 @@
 [2026-07-25 07:57:04] Kaydedilmis model bulundu, okunuyor: results/glmnet/Framingham/model.rds 
 [2026-07-25 07:57:04] Kaydedilmis model bulundu, okunuyor: results/penalized/Framingham/model.rds 
 [2026-07-25 07:57:04] Kaydedilmis model bulundu, okunuyor: results/ranger/Framingham/model.rds 
+[2026-07-25 07:57:25] Kaydedilmis model bulundu, okunuyor: results/rfsrc/Framingham/model.rds 
+[2026-07-25 07:58:16] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/Framingham/model.rds 
+[2026-07-25 07:58:16] Performans hesaplama basladi: surv.coxph 
