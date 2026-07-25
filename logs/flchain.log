@@ -1096,3 +1096,4 @@
 [2026-07-25 22:28:56] PFI hesaplaniyor: ctree_model 
 [2026-07-25 22:55:17] PFI hesaplaniyor: glmboost_model 
 [2026-07-25 23:11:28] PFI hesaplaniyor: penalized_model 
+[2026-07-25 23:27:52] PFI hesaplaniyor: ranger_model 
