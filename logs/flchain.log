@@ -577,3 +577,5 @@
 [2026-07-25 00:29:04] Explainer kuruluyor: glmboost_model 
 [2026-07-25 00:30:48] Explainer kaydedildi: results/glmboost/flchain/explainer.rds 
 [2026-07-25 00:30:48] Explainer kuruluyor: penalized_model 
+[2026-07-25 00:32:33] Explainer kaydedildi: results/penalized/flchain/explainer.rds 
+[2026-07-25 00:32:33] Explainer kuruluyor: ranger_model 
