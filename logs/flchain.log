@@ -573,3 +573,5 @@
 [2026-07-25 00:25:35] Explainer kuruluyor: coxboost_model 
 [2026-07-25 00:27:19] Explainer kaydedildi: results/coxboost/flchain/explainer.rds 
 [2026-07-25 00:27:19] Explainer kuruluyor: ctree_model 
+[2026-07-25 00:29:04] Explainer kaydedildi: results/ctree/flchain/explainer.rds 
+[2026-07-25 00:29:04] Explainer kuruluyor: glmboost_model 
