@@ -1366,3 +1366,6 @@
 [2026-07-25 01:52:44] Performans hesaplama bitti: surv.glmnet - cindex: 0.642 - IBS (graf): 0.149 
 [2026-07-25 01:52:44] Performans kaydedildi: results/glmnet/dataDIVAT1/performance.csv 
 [2026-07-25 01:52:44] Performans hesaplama basladi: surv.penalized 
+[2026-07-25 01:53:01] Performans hesaplama bitti: surv.penalized - cindex: 0.641 - IBS (graf): 0.144 
+[2026-07-25 01:53:01] Performans kaydedildi: results/penalized/dataDIVAT1/performance.csv 
+[2026-07-25 01:53:01] Performans hesaplama basladi: surv.ranger 
