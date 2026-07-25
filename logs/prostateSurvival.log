@@ -424,3 +424,45 @@
 [2026-07-25 00:50:11] PFI hesaplaniyor: glmboost_model 
 [2026-07-25 00:50:38] PFI hesaplaniyor: penalized_model 
 [2026-07-25 00:51:04] PFI hesaplaniyor: ranger_model 
+[2026-07-25 00:56:23] PFI hesaplaniyor: rfsrc_model 
+[2026-07-25 00:57:12] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-25 00:57:42] Global aciklama (PFI) bitti 
+[2026-07-25 00:57:42] PFI kaydedildi: results/cox/prostateSurvival/vimp.rds 
+[2026-07-25 00:57:44] Grafik kaydedildi: results/cox/prostateSurvival/plots/pfi_plot.png 
+[2026-07-25 00:57:44] PFI ozeti kaydedildi: results/cox/prostateSurvival/vimp_summary.csv 
+[2026-07-25 00:57:44] cox_model - PFI TIVM: 0.0017 
+[2026-07-25 00:57:44] PFI kaydedildi: results/cforest/prostateSurvival/vimp.rds 
+[2026-07-25 00:57:45] Grafik kaydedildi: results/cforest/prostateSurvival/plots/pfi_plot.png 
+[2026-07-25 00:57:45] PFI ozeti kaydedildi: results/cforest/prostateSurvival/vimp_summary.csv 
+[2026-07-25 00:57:45] cforest_model - PFI TIVM: 0.0014 
+[2026-07-25 00:57:45] PFI kaydedildi: results/coxboost/prostateSurvival/vimp.rds 
+[2026-07-25 00:57:46] Grafik kaydedildi: results/coxboost/prostateSurvival/plots/pfi_plot.png 
+[2026-07-25 00:57:46] PFI ozeti kaydedildi: results/coxboost/prostateSurvival/vimp_summary.csv 
+[2026-07-25 00:57:46] coxboost_model - PFI TIVM: 0.001 
+[2026-07-25 00:57:46] PFI kaydedildi: results/ctree/prostateSurvival/vimp.rds 
+[2026-07-25 00:57:46] Grafik kaydedildi: results/ctree/prostateSurvival/plots/pfi_plot.png 
+[2026-07-25 00:57:46] PFI ozeti kaydedildi: results/ctree/prostateSurvival/vimp_summary.csv 
+[2026-07-25 00:57:46] ctree_model - PFI TIVM: 0.0014 
+[2026-07-25 00:57:46] PFI kaydedildi: results/glmboost/prostateSurvival/vimp.rds 
+[2026-07-25 00:57:48] Grafik kaydedildi: results/glmboost/prostateSurvival/plots/pfi_plot.png 
+[2026-07-25 00:57:48] PFI ozeti kaydedildi: results/glmboost/prostateSurvival/vimp_summary.csv 
+[2026-07-25 00:57:48] glmboost_model - PFI TIVM: 8e-04 
+[2026-07-25 00:57:48] PFI kaydedildi: results/penalized/prostateSurvival/vimp.rds 
+[2026-07-25 00:57:48] Grafik kaydedildi: results/penalized/prostateSurvival/plots/pfi_plot.png 
+[2026-07-25 00:57:48] PFI ozeti kaydedildi: results/penalized/prostateSurvival/vimp_summary.csv 
+[2026-07-25 00:57:48] penalized_model - PFI TIVM: 0.0013 
+[2026-07-25 00:57:48] PFI kaydedildi: results/ranger/prostateSurvival/vimp.rds 
+[2026-07-25 00:57:49] Grafik kaydedildi: results/ranger/prostateSurvival/plots/pfi_plot.png 
+[2026-07-25 00:57:49] PFI ozeti kaydedildi: results/ranger/prostateSurvival/vimp_summary.csv 
+[2026-07-25 00:57:49] ranger_model - PFI TIVM: 0.0014 
+[2026-07-25 00:57:49] PFI kaydedildi: results/rfsrc/prostateSurvival/vimp.rds 
+[2026-07-25 00:57:50] Grafik kaydedildi: results/rfsrc/prostateSurvival/plots/pfi_plot.png 
+[2026-07-25 00:57:50] PFI ozeti kaydedildi: results/rfsrc/prostateSurvival/vimp_summary.csv 
+[2026-07-25 00:57:50] rfsrc_model - PFI TIVM: 0.0016 
+[2026-07-25 00:57:50] PFI kaydedildi: results/xgboost_cox/prostateSurvival/vimp.rds 
+[2026-07-25 00:57:51] Grafik kaydedildi: results/xgboost_cox/prostateSurvival/plots/pfi_plot.png 
+[2026-07-25 00:57:51] PFI ozeti kaydedildi: results/xgboost_cox/prostateSurvival/vimp_summary.csv 
+[2026-07-25 00:57:51] xgboost_cox_model - PFI TIVM: 0.002 
+[2026-07-25 00:57:51] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-25 00:58:54] SHAP - gozlem 5 / 15 
+[2026-07-25 01:00:09] SHAP - gozlem 10 / 15 
