@@ -412,3 +412,5 @@
 [2026-07-25 00:06:38] Explainer kuruluyor: penalized_model 
 [2026-07-25 00:07:32] Explainer kaydedildi: results/penalized/prostateSurvival/explainer.rds 
 [2026-07-25 00:07:32] Explainer kuruluyor: ranger_model 
+[2026-07-25 00:08:27] Explainer kaydedildi: results/ranger/prostateSurvival/explainer.rds 
+[2026-07-25 00:08:27] Explainer kuruluyor: rfsrc_model 
