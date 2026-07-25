@@ -1768,3 +1768,6 @@
 [2026-07-25 10:56:05] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/dataDIVAT3/explainer.rds 
 [2026-07-25 10:56:11] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/dataDIVAT3/explainer.rds 
 [2026-07-25 10:56:15] PFI hesaplaniyor: cforest_model 
+[2026-07-25 11:43:07] PFI hesaplaniyor: coxboost_model 
+[2026-07-25 11:56:51] PFI hesaplaniyor: ctree_model 
+[2026-07-25 12:11:14] PFI hesaplaniyor: cv_glmnet_model 
