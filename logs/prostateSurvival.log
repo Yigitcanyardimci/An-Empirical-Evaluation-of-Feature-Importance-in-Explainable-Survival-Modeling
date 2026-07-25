@@ -528,3 +528,5 @@
 [2026-07-25 05:06:38] SHAP ozeti kaydedildi: results/rfsrc/prostateSurvival/shap_summary.csv 
 [2026-07-25 05:06:38] rfsrc_model - SHAP TIVM: 0.0014 
 [2026-07-25 05:06:38] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-25 05:07:40] SHAP - gozlem 5 / 15 
+[2026-07-25 05:08:57] SHAP - gozlem 10 / 15 
