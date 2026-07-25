@@ -1422,3 +1422,4 @@
 [2026-07-25 10:15:07] SHAP ozeti kaydedildi: results/rfsrc/dataDIVAT1/shap_summary.csv 
 [2026-07-25 10:15:07] rfsrc_model - SHAP TIVM: 6e-04 
 [2026-07-25 10:15:07] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-25 10:43:56] SHAP - gozlem 5 / 15 
