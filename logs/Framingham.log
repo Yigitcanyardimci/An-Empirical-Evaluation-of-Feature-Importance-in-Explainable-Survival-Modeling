@@ -1807,3 +1807,5 @@
 [2026-07-25 19:35:17] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/Framingham/explainer.rds 
 [2026-07-25 19:35:50] Kaydedilmis explainer bulundu, okunuyor: results/penalized/Framingham/explainer.rds 
 [2026-07-25 19:36:19] Kaydedilmis explainer bulundu, okunuyor: results/ranger/Framingham/explainer.rds 
+[2026-07-25 19:36:52] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/Framingham/explainer.rds 
+[2026-07-25 19:37:20] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/Framingham/explainer.rds 
