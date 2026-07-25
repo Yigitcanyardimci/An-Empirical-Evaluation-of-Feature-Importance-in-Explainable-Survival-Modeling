@@ -489,3 +489,4 @@
 [2026-07-25 04:10:57] coxboost_model - SHAP TIVM: 0.0011 
 [2026-07-25 04:10:57] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-25 04:12:21] SHAP - gozlem 5 / 15 
+[2026-07-25 04:14:07] SHAP - gozlem 10 / 15 
