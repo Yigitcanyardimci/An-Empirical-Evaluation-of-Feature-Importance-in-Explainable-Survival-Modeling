@@ -975,3 +975,9 @@
 [2026-07-25 00:24:23] Performans hesaplama bitti: surv.coxboost - cindex: 0.642 - IBS (graf): 0.145 
 [2026-07-25 00:24:23] Performans kaydedildi: results/coxboost/dataDIVAT1/performance.csv 
 [2026-07-25 00:24:23] Performans hesaplama basladi: surv.ctree 
+[2026-07-25 00:25:22] Performans hesaplama bitti: surv.ctree - cindex: 0.624 - IBS (graf): 0.151 
+[2026-07-25 00:25:22] Performans kaydedildi: results/ctree/dataDIVAT1/performance.csv 
+[2026-07-25 00:25:22] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-07-25 00:26:20] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.5 - IBS (graf): 0.172 
+[2026-07-25 00:26:20] Performans kaydedildi: results/cv_glmnet/dataDIVAT1/performance.csv 
+[2026-07-25 00:26:20] Performans hesaplama basladi: surv.glmboost 
