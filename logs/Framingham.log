@@ -607,3 +607,6 @@
 [2026-07-25 00:01:00] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.7 - IBS (graf): 0.125 
 [2026-07-25 00:01:00] Performans kaydedildi: results/cv_glmnet/Framingham/performance.csv 
 [2026-07-25 00:01:00] Performans hesaplama basladi: surv.glmboost 
+[2026-07-25 00:01:53] Performans hesaplama bitti: surv.glmboost - cindex: 0.712 - IBS (graf): 0.115 
+[2026-07-25 00:01:53] Performans kaydedildi: results/glmboost/Framingham/performance.csv 
+[2026-07-25 00:01:53] Performans hesaplama basladi: surv.glmnet 
