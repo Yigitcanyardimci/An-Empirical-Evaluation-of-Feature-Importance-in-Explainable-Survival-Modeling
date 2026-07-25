@@ -1470,3 +1470,18 @@
 [2026-07-25 03:34:16] Split bitti - train: 2820 test: 1208 
 [2026-07-25 03:34:16] Kaydedilmis model bulundu, okunuyor: results/cox/nwtco/model.rds 
 [2026-07-25 03:34:16] Kaydedilmis model bulundu, okunuyor: results/cforest/nwtco/model.rds 
+[2026-07-25 03:34:18] Kaydedilmis model bulundu, okunuyor: results/coxboost/nwtco/model.rds 
+[2026-07-25 03:34:18] Kaydedilmis model bulundu, okunuyor: results/ctree/nwtco/model.rds 
+[2026-07-25 03:34:18] Kaydedilmis model bulundu, okunuyor: results/cv_glmnet/nwtco/model.rds 
+[2026-07-25 03:34:18] Kaydedilmis model bulundu, okunuyor: results/glmboost/nwtco/model.rds 
+[2026-07-25 03:34:19] Kaydedilmis model bulundu, okunuyor: results/glmnet/nwtco/model.rds 
+[2026-07-25 03:34:19] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-07-25 03:34:19] Model egitimi basladi ( penalized ) 
+[2026-07-25 03:34:19] HATA: model egitilemedi - penalized - Matrix inversion failed. Please increase lambda1 and/or lambda2 
+[2026-07-25 03:34:19] Kaydedilmis model bulundu, okunuyor: results/ranger/nwtco/model.rds 
+[2026-07-25 03:34:21] Kaydedilmis model bulundu, okunuyor: results/rfsrc/nwtco/model.rds 
+[2026-07-25 03:34:31] UYARI: su modeller basarisiz oldu, analiz disi birakildi: penalized_model 
+[2026-07-25 03:34:31] Performans hesaplama basladi: surv.coxph 
+[2026-07-25 03:34:59] Performans hesaplama bitti: surv.coxph - cindex: 0.706 - IBS (graf): 0.113 
+[2026-07-25 03:34:59] Performans kaydedildi: results/cox/nwtco/performance.csv 
+[2026-07-25 03:34:59] Performans hesaplama basladi: surv.cforest 
