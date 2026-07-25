@@ -1009,3 +1009,5 @@
 [2026-07-25 00:39:42] Kaydedilmis explainer bulundu, okunuyor: results/penalized/dataDIVAT1/explainer.rds 
 [2026-07-25 00:40:20] Kaydedilmis explainer bulundu, okunuyor: results/ranger/dataDIVAT1/explainer.rds 
 [2026-07-25 00:40:52] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/dataDIVAT1/explainer.rds 
+[2026-07-25 00:41:29] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/dataDIVAT1/explainer.rds 
+[2026-07-25 00:42:08] PFI hesaplaniyor: cox_model 
