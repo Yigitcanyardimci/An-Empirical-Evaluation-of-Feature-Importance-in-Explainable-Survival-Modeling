@@ -58,13 +58,40 @@ for (dataset_name in names(tasks)) {
       })
       names(perf_list) <- names(models)
 
-      global   <- global_explain(task, models, split, dataset_name, outputs_root)
-      pfi_tivm <- save_all_vimp(models, global$vimp_list, dataset_name, outputs_root)
+      pfi_tivm  <- list()
+      shap_tivm <- list()
 
-      shap_tivm <- save_all_survshap(
-        task, models, global$explainers, split,
-        dataset_name, outputs_root, n_obs = 15
-      )
+      needs_explainer <- character(0)
+      for (nm in names(models)) {
+        spec    <- learner_specs[[nm]]
+        out_dir <- file.path(outputs_root, spec$id, dataset_name)
+        vimp_path <- file.path(out_dir, "vimp_summary.csv")
+        shap_path <- file.path(out_dir, "shap_summary.csv")
+        vimp_done <- file.exists(vimp_path)
+        shap_done <- file.exists(shap_path)
+
+        if (vimp_done) pfi_tivm[[nm]]  <- calculate_TIVM(read.csv(vimp_path))
+        if (shap_done) shap_tivm[[nm]] <- calculate_TIVM(read.csv(shap_path))
+
+        if (!vimp_done || !shap_done) {
+          needs_explainer <- c(needs_explainer, nm)
+        } else {
+          log_msg(paste("PFI ve SHAP zaten tamam, explainer atlaniyor:", nm))
+        }
+      }
+
+      if (length(needs_explainer) > 0) {
+        models_subset <- models[needs_explainer]
+        global <- global_explain(task, models_subset, split, dataset_name, outputs_root)
+        pfi_tivm_new <- save_all_vimp(models_subset, global$vimp_list, dataset_name, outputs_root)
+        for (nm in names(pfi_tivm_new)) pfi_tivm[[nm]] <- pfi_tivm_new[[nm]]
+
+        shap_tivm_new <- save_all_survshap(
+          task, models_subset, global$explainers, split,
+          dataset_name, outputs_root, n_obs = 15
+        )
+        for (nm in names(shap_tivm_new)) shap_tivm[[nm]] <- shap_tivm_new[[nm]]
+      }
 
       for (nm in names(models)) {
         model_id <- learner_specs[[nm]]$id
