@@ -1717,3 +1717,30 @@
 [2026-07-25 02:13:58] Performans hesaplama bitti: surv.penalized - cindex: 0.624 - IBS (graf): 0.196 
 [2026-07-25 02:13:58] Performans kaydedildi: results/penalized/colon/performance.csv 
 [2026-07-25 02:13:58] Performans hesaplama basladi: surv.ranger 
+[2026-07-25 02:14:03] Performans hesaplama bitti: surv.ranger - cindex: 0.628 - IBS (graf): 0.195 
+[2026-07-25 02:14:03] Performans kaydedildi: results/ranger/colon/performance.csv 
+[2026-07-25 02:14:03] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-25 02:14:05] Performans hesaplama bitti: surv.rfsrc - cindex: 0.623 - IBS (graf): 0.194 
+[2026-07-25 02:14:05] Performans kaydedildi: results/rfsrc/colon/performance.csv 
+[2026-07-25 02:14:05] PFI ve SHAP zaten tamam, explainer atlaniyor: cox_model 
+[2026-07-25 02:14:05] PFI ve SHAP zaten tamam, explainer atlaniyor: cforest_model 
+[2026-07-25 02:14:05] PFI ve SHAP zaten tamam, explainer atlaniyor: coxboost_model 
+[2026-07-25 02:14:05] PFI ve SHAP zaten tamam, explainer atlaniyor: ctree_model 
+[2026-07-25 02:14:05] PFI ve SHAP zaten tamam, explainer atlaniyor: cv_glmnet_model 
+[2026-07-25 02:14:05] PFI ve SHAP zaten tamam, explainer atlaniyor: glmboost_model 
+[2026-07-25 02:14:05] PFI ve SHAP zaten tamam, explainer atlaniyor: glmnet_model 
+[2026-07-25 02:14:05] PFI ve SHAP zaten tamam, explainer atlaniyor: penalized_model 
+[2026-07-25 02:14:05] PFI ve SHAP zaten tamam, explainer atlaniyor: ranger_model 
+[2026-07-25 02:14:05] PFI ve SHAP zaten tamam, explainer atlaniyor: rfsrc_model 
+[2026-07-25 02:14:05] ===== BITTI: colon + cox - cindex: 0.624 - PFI TIVM: 0.0043 - SHAP TIVM: 7e-04 ===== 
+[2026-07-25 02:14:05] ===== BITTI: colon + cforest - cindex: 0.627 - PFI TIVM: 0.0021 - SHAP TIVM: 0.0014 ===== 
+[2026-07-25 02:14:05] ===== BITTI: colon + coxboost - cindex: 0.623 - PFI TIVM: 0.0032 - SHAP TIVM: 7e-04 ===== 
+[2026-07-25 02:14:05] ===== BITTI: colon + ctree - cindex: 0.602 - PFI TIVM: 0.0025 - SHAP TIVM: 0.0041 ===== 
+[2026-07-25 02:14:05] ===== BITTI: colon + cv_glmnet - cindex: 0.5 - PFI TIVM: 0 - SHAP TIVM: 0 ===== 
+[2026-07-25 02:14:05] ===== BITTI: colon + glmboost - cindex: 0.622 - PFI TIVM: 0.0037 - SHAP TIVM: 7e-04 ===== 
+[2026-07-25 02:14:05] ===== BITTI: colon + glmnet - cindex: 0.624 - PFI TIVM: 0.0031 - SHAP TIVM: 7e-04 ===== 
+[2026-07-25 02:14:05] ===== BITTI: colon + penalized - cindex: 0.624 - PFI TIVM: 0.004 - SHAP TIVM: 7e-04 ===== 
+[2026-07-25 02:14:05] ===== BITTI: colon + ranger - cindex: 0.628 - PFI TIVM: 0.0019 - SHAP TIVM: 0.0012 ===== 
+[2026-07-25 02:14:05] ===== BITTI: colon + rfsrc - cindex: 0.623 - PFI TIVM: 0.0016 - SHAP TIVM: 0.0014 ===== 
+[2026-07-25 02:14:05] ----- Veri seti bitti: colon ----- 
+[2026-07-25 02:14:05] ===== RUN ( colon ) TAMAMLANDI ===== 
