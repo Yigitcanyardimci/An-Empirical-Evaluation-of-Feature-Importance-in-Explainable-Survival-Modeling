@@ -414,3 +414,8 @@
 [2026-07-25 00:07:32] Explainer kuruluyor: ranger_model 
 [2026-07-25 00:08:27] Explainer kaydedildi: results/ranger/prostateSurvival/explainer.rds 
 [2026-07-25 00:08:27] Explainer kuruluyor: rfsrc_model 
+[2026-07-25 00:09:21] Explainer kaydedildi: results/rfsrc/prostateSurvival/explainer.rds 
+[2026-07-25 00:09:21] Explainer kuruluyor: xgboost_cox_model 
+[2026-07-25 00:10:16] Explainer kaydedildi: results/xgboost_cox/prostateSurvival/explainer.rds 
+[2026-07-25 00:10:16] PFI hesaplaniyor: cox_model 
+[2026-07-25 00:10:45] PFI hesaplaniyor: cforest_model 
