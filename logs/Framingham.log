@@ -1801,3 +1801,6 @@
 [2026-07-25 19:32:10] Kaydedilmis explainer bulundu, okunuyor: results/cox/Framingham/explainer.rds 
 [2026-07-25 19:32:39] Kaydedilmis explainer bulundu, okunuyor: results/cforest/Framingham/explainer.rds 
 [2026-07-25 19:33:10] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/Framingham/explainer.rds 
+[2026-07-25 19:33:41] Kaydedilmis explainer bulundu, okunuyor: results/ctree/Framingham/explainer.rds 
+[2026-07-25 19:34:13] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/Framingham/explainer.rds 
+[2026-07-25 19:34:45] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/Framingham/explainer.rds 
