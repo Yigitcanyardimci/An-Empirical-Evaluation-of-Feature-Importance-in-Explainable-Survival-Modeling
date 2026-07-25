@@ -593,3 +593,41 @@
 [2026-07-25 05:02:41] PFI hesaplaniyor: ranger_model 
 [2026-07-25 08:42:36] PFI hesaplaniyor: rfsrc_model 
 [2026-07-25 09:58:37] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-25 10:33:08] Global aciklama (PFI) bitti 
+[2026-07-25 10:33:08] PFI kaydedildi: results/cox/flchain/vimp.rds 
+[2026-07-25 10:33:10] Grafik kaydedildi: results/cox/flchain/plots/pfi_plot.png 
+[2026-07-25 10:33:10] PFI ozeti kaydedildi: results/cox/flchain/vimp_summary.csv 
+[2026-07-25 10:33:10] cox_model - PFI TIVM: 9e-04 
+[2026-07-25 10:33:10] PFI kaydedildi: results/cforest/flchain/vimp.rds 
+[2026-07-25 10:33:11] Grafik kaydedildi: results/cforest/flchain/plots/pfi_plot.png 
+[2026-07-25 10:33:12] PFI ozeti kaydedildi: results/cforest/flchain/vimp_summary.csv 
+[2026-07-25 10:33:12] cforest_model - PFI TIVM: 0.0032 
+[2026-07-25 10:33:12] PFI kaydedildi: results/coxboost/flchain/vimp.rds 
+[2026-07-25 10:33:12] Grafik kaydedildi: results/coxboost/flchain/plots/pfi_plot.png 
+[2026-07-25 10:33:13] PFI ozeti kaydedildi: results/coxboost/flchain/vimp_summary.csv 
+[2026-07-25 10:33:13] coxboost_model - PFI TIVM: 0.0012 
+[2026-07-25 10:33:13] PFI kaydedildi: results/ctree/flchain/vimp.rds 
+[2026-07-25 10:33:14] Grafik kaydedildi: results/ctree/flchain/plots/pfi_plot.png 
+[2026-07-25 10:33:14] PFI ozeti kaydedildi: results/ctree/flchain/vimp_summary.csv 
+[2026-07-25 10:33:14] ctree_model - PFI TIVM: 0.0022 
+[2026-07-25 10:33:14] PFI kaydedildi: results/glmboost/flchain/vimp.rds 
+[2026-07-25 10:33:15] Grafik kaydedildi: results/glmboost/flchain/plots/pfi_plot.png 
+[2026-07-25 10:33:15] PFI ozeti kaydedildi: results/glmboost/flchain/vimp_summary.csv 
+[2026-07-25 10:33:15] glmboost_model - PFI TIVM: 0.001 
+[2026-07-25 10:33:15] PFI kaydedildi: results/penalized/flchain/vimp.rds 
+[2026-07-25 10:33:16] Grafik kaydedildi: results/penalized/flchain/plots/pfi_plot.png 
+[2026-07-25 10:33:16] PFI ozeti kaydedildi: results/penalized/flchain/vimp_summary.csv 
+[2026-07-25 10:33:16] penalized_model - PFI TIVM: 0.0012 
+[2026-07-25 10:33:16] PFI kaydedildi: results/ranger/flchain/vimp.rds 
+[2026-07-25 10:33:17] Grafik kaydedildi: results/ranger/flchain/plots/pfi_plot.png 
+[2026-07-25 10:33:17] PFI ozeti kaydedildi: results/ranger/flchain/vimp_summary.csv 
+[2026-07-25 10:33:17] ranger_model - PFI TIVM: 0.0019 
+[2026-07-25 10:33:17] PFI kaydedildi: results/rfsrc/flchain/vimp.rds 
+[2026-07-25 10:33:18] Grafik kaydedildi: results/rfsrc/flchain/plots/pfi_plot.png 
+[2026-07-25 10:33:18] PFI ozeti kaydedildi: results/rfsrc/flchain/vimp_summary.csv 
+[2026-07-25 10:33:18] rfsrc_model - PFI TIVM: 0.0026 
+[2026-07-25 10:33:18] PFI kaydedildi: results/xgboost_cox/flchain/vimp.rds 
+[2026-07-25 10:33:19] Grafik kaydedildi: results/xgboost_cox/flchain/plots/pfi_plot.png 
+[2026-07-25 10:33:19] PFI ozeti kaydedildi: results/xgboost_cox/flchain/vimp_summary.csv 
+[2026-07-25 10:33:19] xgboost_cox_model - PFI TIVM: 7e-04 
+[2026-07-25 10:33:19] SHAP hesaplama basladi, n_obs = 15 
