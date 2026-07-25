@@ -1029,3 +1029,22 @@
 [2026-07-25 02:45:43] Performans hesaplama bitti: surv.penalized - cindex: 0.766 - IBS (graf): 0.069 
 [2026-07-25 02:45:43] Performans kaydedildi: results/penalized/dataDIVAT3/performance.csv 
 [2026-07-25 02:45:43] Performans hesaplama basladi: surv.ranger 
+[2026-07-25 02:46:04] Performans hesaplama bitti: surv.ranger - cindex: 0.628 - IBS (graf): 0.077 
+[2026-07-25 02:46:04] Performans kaydedildi: results/ranger/dataDIVAT3/performance.csv 
+[2026-07-25 02:46:04] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-25 02:46:17] Performans hesaplama bitti: surv.rfsrc - cindex: 0.671 - IBS (graf): 0.074 
+[2026-07-25 02:46:17] Performans kaydedildi: results/rfsrc/dataDIVAT3/performance.csv 
+[2026-07-25 02:46:17] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-25 02:46:39] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.567 - IBS (graf): 0.113 
+[2026-07-25 02:46:39] Performans kaydedildi: results/xgboost_cox/dataDIVAT3/performance.csv 
+[2026-07-25 02:46:39] PFI ve SHAP zaten tamam, explainer atlaniyor: cox_model 
+[2026-07-25 02:46:39] Global aciklama (PFI) basladi 
+[2026-07-25 02:46:39] Kaydedilmis explainer bulundu, okunuyor: results/cforest/dataDIVAT3/explainer.rds 
+[2026-07-25 02:46:46] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/dataDIVAT3/explainer.rds 
+[2026-07-25 02:46:52] Kaydedilmis explainer bulundu, okunuyor: results/ctree/dataDIVAT3/explainer.rds 
+[2026-07-25 02:47:01] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/dataDIVAT3/explainer.rds 
+[2026-07-25 02:47:07] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/dataDIVAT3/explainer.rds 
+[2026-07-25 02:47:12] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/dataDIVAT3/explainer.rds 
+[2026-07-25 02:47:18] Kaydedilmis explainer bulundu, okunuyor: results/penalized/dataDIVAT3/explainer.rds 
+[2026-07-25 02:47:24] Kaydedilmis explainer bulundu, okunuyor: results/ranger/dataDIVAT3/explainer.rds 
+[2026-07-25 02:47:28] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/dataDIVAT3/explainer.rds 
