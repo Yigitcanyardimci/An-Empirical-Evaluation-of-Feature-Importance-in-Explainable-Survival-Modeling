@@ -1083,3 +1083,6 @@
 [2026-07-25 19:58:08] Global aciklama (PFI) basladi 
 [2026-07-25 19:58:08] Kaydedilmis explainer bulundu, okunuyor: results/cox/flchain/explainer.rds 
 [2026-07-25 19:58:42] Kaydedilmis explainer bulundu, okunuyor: results/cforest/flchain/explainer.rds 
+[2026-07-25 19:59:16] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/flchain/explainer.rds 
+[2026-07-25 19:59:55] Kaydedilmis explainer bulundu, okunuyor: results/ctree/flchain/explainer.rds 
+[2026-07-25 20:00:32] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/flchain/explainer.rds 
