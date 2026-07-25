@@ -1600,3 +1600,12 @@
 [2026-07-25 10:54:43] Performans hesaplama bitti: surv.ctree - cindex: 0.624 - IBS (graf): 0.151 
 [2026-07-25 10:54:43] Performans kaydedildi: results/ctree/dataDIVAT1/performance.csv 
 [2026-07-25 10:54:43] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-07-25 10:55:28] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.5 - IBS (graf): 0.172 
+[2026-07-25 10:55:28] Performans kaydedildi: results/cv_glmnet/dataDIVAT1/performance.csv 
+[2026-07-25 10:55:28] Performans hesaplama basladi: surv.glmboost 
+[2026-07-25 10:56:05] Performans hesaplama bitti: surv.glmboost - cindex: 0.639 - IBS (graf): 0.159 
+[2026-07-25 10:56:05] Performans kaydedildi: results/glmboost/dataDIVAT1/performance.csv 
+[2026-07-25 10:56:05] Performans hesaplama basladi: surv.glmnet 
+[2026-07-25 10:56:50] Performans hesaplama bitti: surv.glmnet - cindex: 0.642 - IBS (graf): 0.149 
+[2026-07-25 10:56:50] Performans kaydedildi: results/glmnet/dataDIVAT1/performance.csv 
+[2026-07-25 10:56:50] Performans hesaplama basladi: surv.penalized 

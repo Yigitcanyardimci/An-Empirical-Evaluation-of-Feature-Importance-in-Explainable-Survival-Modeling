@@ -1980,3 +1980,6 @@
 [2026-07-25 10:55:08] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/nwtco/explainer.rds 
 [2026-07-25 10:55:16] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/nwtco/explainer.rds 
 [2026-07-25 10:55:23] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/nwtco/explainer.rds 
+[2026-07-25 10:55:30] Kaydedilmis explainer bulundu, okunuyor: results/ranger/nwtco/explainer.rds 
+[2026-07-25 10:55:38] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/nwtco/explainer.rds 
+[2026-07-25 10:55:46] PFI hesaplaniyor: cox_model 
