@@ -1814,3 +1814,4 @@
 [2026-07-25 20:46:33] PFI hesaplaniyor: coxboost_model 
 [2026-07-25 21:02:11] PFI hesaplaniyor: ctree_model 
 [2026-07-25 21:17:53] PFI hesaplaniyor: cv_glmnet_model 
+[2026-07-25 21:33:34] PFI hesaplaniyor: glmboost_model 
