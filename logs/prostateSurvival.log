@@ -498,3 +498,9 @@
 [2026-07-25 04:16:14] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-25 04:17:08] SHAP - gozlem 5 / 15 
 [2026-07-25 04:18:16] SHAP - gozlem 10 / 15 
+[2026-07-25 04:19:23] SHAP - gozlem 15 / 15 
+[2026-07-25 04:19:36] SHAP hesaplama bitti, kaydedildi: results/glmboost/prostateSurvival/shap_long.csv 
+[2026-07-25 04:19:37] Grafik kaydedildi: results/glmboost/prostateSurvival/plots/survshap_plot.png 
+[2026-07-25 04:19:37] SHAP ozeti kaydedildi: results/glmboost/prostateSurvival/shap_summary.csv 
+[2026-07-25 04:19:37] glmboost_model - SHAP TIVM: 7e-04 
+[2026-07-25 04:19:37] SHAP hesaplama basladi, n_obs = 15 
