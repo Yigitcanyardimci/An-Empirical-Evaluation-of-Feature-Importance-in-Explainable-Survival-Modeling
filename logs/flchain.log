@@ -825,3 +825,9 @@
 [2026-07-25 11:05:47] Performans hesaplama bitti: surv.rfsrc - cindex: 0.924 - IBS (graf): 0.048 
 [2026-07-25 11:05:47] Performans kaydedildi: results/rfsrc/flchain/performance.csv 
 [2026-07-25 11:05:47] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-25 11:07:16] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.783 - IBS (graf): 0.159 
+[2026-07-25 11:07:16] Performans kaydedildi: results/xgboost_cox/flchain/performance.csv 
+[2026-07-25 11:07:16] Global aciklama (PFI) basladi 
+[2026-07-25 11:07:16] Kaydedilmis explainer bulundu, okunuyor: results/cox/flchain/explainer.rds 
+[2026-07-25 11:07:51] Kaydedilmis explainer bulundu, okunuyor: results/cforest/flchain/explainer.rds 
+[2026-07-25 11:08:27] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/flchain/explainer.rds 
