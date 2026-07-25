@@ -1005,3 +1005,7 @@
 [2026-07-25 00:37:15] Kaydedilmis explainer bulundu, okunuyor: results/ctree/dataDIVAT1/explainer.rds 
 [2026-07-25 00:37:54] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/dataDIVAT1/explainer.rds 
 [2026-07-25 00:38:30] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/dataDIVAT1/explainer.rds 
+[2026-07-25 00:39:04] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/dataDIVAT1/explainer.rds 
+[2026-07-25 00:39:42] Kaydedilmis explainer bulundu, okunuyor: results/penalized/dataDIVAT1/explainer.rds 
+[2026-07-25 00:40:20] Kaydedilmis explainer bulundu, okunuyor: results/ranger/dataDIVAT1/explainer.rds 
+[2026-07-25 00:40:52] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/dataDIVAT1/explainer.rds 
