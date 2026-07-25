@@ -1531,3 +1531,6 @@
 [2026-07-25 10:39:57] Performans hesaplama bitti: surv.coxph - cindex: 0.766 - IBS (graf): 0.069 
 [2026-07-25 10:39:57] Performans kaydedildi: results/cox/dataDIVAT3/performance.csv 
 [2026-07-25 10:39:57] Performans hesaplama basladi: surv.cforest 
+[2026-07-25 10:42:05] Performans hesaplama bitti: surv.cforest - cindex: 0.679 - IBS (graf): 0.071 
+[2026-07-25 10:42:05] Performans kaydedildi: results/cforest/dataDIVAT3/performance.csv 
+[2026-07-25 10:42:05] Performans hesaplama basladi: surv.coxboost 
