@@ -2032,3 +2032,8 @@
 [2026-07-25 13:35:22] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-25 13:35:22] SHAP - gozlem 10 / 15 
 [2026-07-25 16:07:38] SHAP - gozlem 15 / 15 
+[2026-07-25 16:37:50] SHAP hesaplama bitti, kaydedildi: results/cox/nwtco/shap_long.csv 
+[2026-07-25 16:37:51] Grafik kaydedildi: results/cox/nwtco/plots/survshap_plot.png 
+[2026-07-25 16:37:51] SHAP ozeti kaydedildi: results/cox/nwtco/shap_summary.csv 
+[2026-07-25 16:37:51] cox_model - SHAP TIVM: 2e-04 
+[2026-07-25 16:37:51] SHAP hesaplama basladi, n_obs = 15 
