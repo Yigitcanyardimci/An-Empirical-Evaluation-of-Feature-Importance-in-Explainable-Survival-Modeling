@@ -567,3 +567,5 @@
 [2026-07-25 00:22:06] Performans kaydedildi: results/xgboost_cox/flchain/performance.csv 
 [2026-07-25 00:22:06] Global aciklama (PFI) basladi 
 [2026-07-25 00:22:06] Explainer kuruluyor: cox_model 
+[2026-07-25 00:23:51] Explainer kaydedildi: results/cox/flchain/explainer.rds 
+[2026-07-25 00:23:51] Explainer kuruluyor: cforest_model 
