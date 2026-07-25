@@ -419,3 +419,5 @@
 [2026-07-25 00:10:16] Explainer kaydedildi: results/xgboost_cox/prostateSurvival/explainer.rds 
 [2026-07-25 00:10:16] PFI hesaplaniyor: cox_model 
 [2026-07-25 00:10:45] PFI hesaplaniyor: cforest_model 
+[2026-07-25 00:49:01] PFI hesaplaniyor: coxboost_model 
+[2026-07-25 00:49:29] PFI hesaplaniyor: ctree_model 
