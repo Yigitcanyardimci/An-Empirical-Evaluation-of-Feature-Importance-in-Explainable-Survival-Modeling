@@ -1392,3 +1392,17 @@
 [2026-07-25 01:58:08] PFI hesaplaniyor: ranger_model 
 [2026-07-25 02:35:00] PFI hesaplaniyor: rfsrc_model 
 [2026-07-25 02:41:04] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-25 02:48:55] Global aciklama (PFI) bitti 
+[2026-07-25 02:48:55] PFI kaydedildi: results/ranger/dataDIVAT1/vimp.rds 
+[2026-07-25 02:48:57] Grafik kaydedildi: results/ranger/dataDIVAT1/plots/pfi_plot.png 
+[2026-07-25 02:48:58] PFI ozeti kaydedildi: results/ranger/dataDIVAT1/vimp_summary.csv 
+[2026-07-25 02:48:58] ranger_model - PFI TIVM: 0.0037 
+[2026-07-25 02:48:58] PFI kaydedildi: results/rfsrc/dataDIVAT1/vimp.rds 
+[2026-07-25 02:48:58] Grafik kaydedildi: results/rfsrc/dataDIVAT1/plots/pfi_plot.png 
+[2026-07-25 02:48:58] PFI ozeti kaydedildi: results/rfsrc/dataDIVAT1/vimp_summary.csv 
+[2026-07-25 02:48:58] rfsrc_model - PFI TIVM: 0.0022 
+[2026-07-25 02:48:58] PFI kaydedildi: results/xgboost_cox/dataDIVAT1/vimp.rds 
+[2026-07-25 02:48:59] Grafik kaydedildi: results/xgboost_cox/dataDIVAT1/plots/pfi_plot.png 
+[2026-07-25 02:48:59] PFI ozeti kaydedildi: results/xgboost_cox/dataDIVAT1/vimp_summary.csv 
+[2026-07-25 02:48:59] xgboost_cox_model - PFI TIVM: 0.0095 
+[2026-07-25 02:48:59] SHAP hesaplama basladi, n_obs = 15 
