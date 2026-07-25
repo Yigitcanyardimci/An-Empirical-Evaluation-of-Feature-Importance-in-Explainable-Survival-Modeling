@@ -1642,3 +1642,21 @@
 [2026-07-25 11:12:53] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-25 11:12:53] SHAP - gozlem 5 / 15 
 [2026-07-25 11:58:50] SHAP - gozlem 10 / 15 
+[2026-07-25 12:44:16] SHAP - gozlem 15 / 15 
+[2026-07-25 12:53:21] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/dataDIVAT1/shap_long.csv 
+[2026-07-25 12:53:21] Grafik kaydedildi: results/xgboost_cox/dataDIVAT1/plots/survshap_plot.png 
+[2026-07-25 12:53:21] SHAP ozeti kaydedildi: results/xgboost_cox/dataDIVAT1/shap_summary.csv 
+[2026-07-25 12:53:21] xgboost_cox_model - SHAP TIVM: 0.0017 
+[2026-07-25 12:53:21] ===== BITTI: dataDIVAT1 + cox - cindex: 0.641 - PFI TIVM: 0.0027 - SHAP TIVM: 0.0022 ===== 
+[2026-07-25 12:53:21] ===== BITTI: dataDIVAT1 + cforest - cindex: 0.565 - PFI TIVM: 0.0031 - SHAP TIVM: 0.001 ===== 
+[2026-07-25 12:53:21] ===== BITTI: dataDIVAT1 + coxboost - cindex: 0.642 - PFI TIVM: 0.0012 - SHAP TIVM: 0.0021 ===== 
+[2026-07-25 12:53:21] ===== BITTI: dataDIVAT1 + ctree - cindex: 0.624 - PFI TIVM: 0.0047 - SHAP TIVM: 0.0023 ===== 
+[2026-07-25 12:53:21] ===== BITTI: dataDIVAT1 + cv_glmnet - cindex: 0.5 - PFI TIVM: 0 - SHAP TIVM: 0 ===== 
+[2026-07-25 12:53:21] ===== BITTI: dataDIVAT1 + glmboost - cindex: 0.639 - PFI TIVM: 9e-04 - SHAP TIVM: 0.001 ===== 
+[2026-07-25 12:53:21] ===== BITTI: dataDIVAT1 + glmnet - cindex: 0.642 - PFI TIVM: 0.0012 - SHAP TIVM: 0.0018 ===== 
+[2026-07-25 12:53:21] ===== BITTI: dataDIVAT1 + penalized - cindex: 0.641 - PFI TIVM: 0.0017 - SHAP TIVM: 0.0022 ===== 
+[2026-07-25 12:53:21] ===== BITTI: dataDIVAT1 + ranger - cindex: 0.557 - PFI TIVM: 0.0037 - SHAP TIVM: 5e-04 ===== 
+[2026-07-25 12:53:21] ===== BITTI: dataDIVAT1 + rfsrc - cindex: 0.592 - PFI TIVM: 0.0022 - SHAP TIVM: 6e-04 ===== 
+[2026-07-25 12:53:21] ===== BITTI: dataDIVAT1 + xgboost_cox - cindex: 0.552 - PFI TIVM: 0.0093 - SHAP TIVM: 0.0017 ===== 
+[2026-07-25 12:53:21] ----- Veri seti bitti: dataDIVAT1 ----- 
+[2026-07-25 12:53:21] ===== RUN ( dataDIVAT1 ) TAMAMLANDI ===== 
