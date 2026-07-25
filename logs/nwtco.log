@@ -1738,3 +1738,6 @@
 [2026-07-25 08:51:10] Performans hesaplama bitti: surv.coxph - cindex: 0.706 - IBS (graf): 0.113 
 [2026-07-25 08:51:10] Performans kaydedildi: results/cox/nwtco/performance.csv 
 [2026-07-25 08:51:10] Performans hesaplama basladi: surv.cforest 
+[2026-07-25 08:52:38] Performans hesaplama bitti: surv.cforest - cindex: 0.716 - IBS (graf): 0.111 
+[2026-07-25 08:52:38] Performans kaydedildi: results/cforest/nwtco/performance.csv 
+[2026-07-25 08:52:38] Performans hesaplama basladi: surv.coxboost 
