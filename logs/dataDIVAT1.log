@@ -1391,3 +1391,4 @@
 [2026-07-25 01:57:32] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/dataDIVAT1/explainer.rds 
 [2026-07-25 01:58:08] PFI hesaplaniyor: ranger_model 
 [2026-07-25 02:35:00] PFI hesaplaniyor: rfsrc_model 
+[2026-07-25 02:41:04] PFI hesaplaniyor: xgboost_cox_model 
