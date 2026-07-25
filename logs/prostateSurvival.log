@@ -520,3 +520,4 @@
 [2026-07-25 04:59:58] SHAP ozeti kaydedildi: results/ranger/prostateSurvival/shap_summary.csv 
 [2026-07-25 04:59:58] ranger_model - SHAP TIVM: 0.0013 
 [2026-07-25 04:59:58] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-25 05:01:45] SHAP - gozlem 5 / 15 
