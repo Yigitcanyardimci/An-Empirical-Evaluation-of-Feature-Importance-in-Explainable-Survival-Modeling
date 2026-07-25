@@ -993,3 +993,10 @@
 [2026-07-25 00:33:11] Performans hesaplama bitti: surv.ranger - cindex: 0.557 - IBS (graf): 0.214 
 [2026-07-25 00:33:11] Performans kaydedildi: results/ranger/dataDIVAT1/performance.csv 
 [2026-07-25 00:33:11] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-25 00:34:31] Performans hesaplama bitti: surv.rfsrc - cindex: 0.592 - IBS (graf): 0.193 
+[2026-07-25 00:34:31] Performans kaydedildi: results/rfsrc/dataDIVAT1/performance.csv 
+[2026-07-25 00:34:31] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-25 00:35:24] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.552 - IBS (graf): 0.217 
+[2026-07-25 00:35:24] Performans kaydedildi: results/xgboost_cox/dataDIVAT1/performance.csv 
+[2026-07-25 00:35:24] Global aciklama (PFI) basladi 
+[2026-07-25 00:35:24] Kaydedilmis explainer bulundu, okunuyor: results/cox/dataDIVAT1/explainer.rds 
