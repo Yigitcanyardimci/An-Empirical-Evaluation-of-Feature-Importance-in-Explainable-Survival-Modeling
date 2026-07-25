@@ -2204,3 +2204,6 @@
 [2026-07-25 20:16:51] Kaydedilmis model bulundu, okunuyor: results/rfsrc/nwtco/model.rds 
 [2026-07-25 20:16:59] UYARI: su modeller basarisiz oldu, analiz disi birakildi: penalized_model 
 [2026-07-25 20:16:59] Performans hesaplama basladi: surv.coxph 
+[2026-07-25 20:17:36] Performans hesaplama bitti: surv.coxph - cindex: 0.706 - IBS (graf): 0.113 
+[2026-07-25 20:17:36] Performans kaydedildi: results/cox/nwtco/performance.csv 
+[2026-07-25 20:17:36] Performans hesaplama basladi: surv.cforest 
