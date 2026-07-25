@@ -1311,3 +1311,9 @@
 [2026-07-25 10:57:18] Performans hesaplama bitti: surv.rfsrc - cindex: 0.705 - IBS (graf): 0.112 
 [2026-07-25 10:57:18] Performans kaydedildi: results/rfsrc/Framingham/performance.csv 
 [2026-07-25 10:57:18] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-25 10:58:05] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.663 - IBS (graf): 0.158 
+[2026-07-25 10:58:05] Performans kaydedildi: results/xgboost_cox/Framingham/performance.csv 
+[2026-07-25 10:58:05] Global aciklama (PFI) basladi 
+[2026-07-25 10:58:05] Kaydedilmis explainer bulundu, okunuyor: results/cox/Framingham/explainer.rds 
+[2026-07-25 10:58:33] Kaydedilmis explainer bulundu, okunuyor: results/cforest/Framingham/explainer.rds 
+[2026-07-25 10:59:05] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/Framingham/explainer.rds 
