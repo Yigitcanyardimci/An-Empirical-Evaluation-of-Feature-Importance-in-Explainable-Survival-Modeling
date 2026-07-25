@@ -384,3 +384,9 @@
 [2026-07-24 23:58:20] Performans hesaplama bitti: surv.ctree - cindex: 0.738 - IBS (graf): 0.069 
 [2026-07-24 23:58:20] Performans kaydedildi: results/ctree/prostateSurvival/performance.csv 
 [2026-07-24 23:58:20] Performans hesaplama basladi: surv.glmboost 
+[2026-07-25 00:00:36] Performans hesaplama bitti: surv.glmboost - cindex: 0.676 - IBS (graf): 0.073 
+[2026-07-25 00:00:36] Performans kaydedildi: results/glmboost/prostateSurvival/performance.csv 
+[2026-07-25 00:00:36] Performans hesaplama basladi: surv.penalized 
+[2026-07-25 00:00:47] Performans hesaplama bitti: surv.penalized - cindex: 0.743 - IBS (graf): 0.069 
+[2026-07-25 00:00:47] Performans kaydedildi: results/penalized/prostateSurvival/performance.csv 
+[2026-07-25 00:00:47] Performans hesaplama basladi: surv.ranger 
