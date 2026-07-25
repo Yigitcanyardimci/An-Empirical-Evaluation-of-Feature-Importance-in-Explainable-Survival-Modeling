@@ -1066,3 +1066,9 @@
 [2026-07-25 19:45:32] Performans hesaplama bitti: surv.ctree - cindex: 0.895 - IBS (graf): 0.05 
 [2026-07-25 19:45:32] Performans kaydedildi: results/ctree/flchain/performance.csv 
 [2026-07-25 19:45:32] Performans hesaplama basladi: surv.glmboost 
+[2026-07-25 19:47:03] Performans hesaplama bitti: surv.glmboost - cindex: 0.744 - IBS (graf): 0.104 
+[2026-07-25 19:47:03] Performans kaydedildi: results/glmboost/flchain/performance.csv 
+[2026-07-25 19:47:03] Performans hesaplama basladi: surv.penalized 
+[2026-07-25 19:48:12] Performans hesaplama bitti: surv.penalized - cindex: 0.767 - IBS (graf): 0.099 
+[2026-07-25 19:48:12] Performans kaydedildi: results/penalized/flchain/performance.csv 
+[2026-07-25 19:48:12] Performans hesaplama basladi: surv.ranger 
