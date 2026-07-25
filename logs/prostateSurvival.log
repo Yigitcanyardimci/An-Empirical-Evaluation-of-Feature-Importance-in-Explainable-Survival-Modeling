@@ -400,3 +400,7 @@
 [2026-07-25 00:02:06] Performans kaydedildi: results/xgboost_cox/prostateSurvival/performance.csv 
 [2026-07-25 00:02:06] Global aciklama (PFI) basladi 
 [2026-07-25 00:02:06] Explainer kuruluyor: cox_model 
+[2026-07-25 00:03:01] Explainer kaydedildi: results/cox/prostateSurvival/explainer.rds 
+[2026-07-25 00:03:01] Explainer kuruluyor: cforest_model 
+[2026-07-25 00:03:55] Explainer kaydedildi: results/cforest/prostateSurvival/explainer.rds 
+[2026-07-25 00:03:55] Explainer kuruluyor: coxboost_model 
