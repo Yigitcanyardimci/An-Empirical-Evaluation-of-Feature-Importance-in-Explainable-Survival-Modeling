@@ -1308,3 +1308,6 @@
 [2026-07-25 10:55:25] Performans hesaplama bitti: surv.ranger - cindex: 0.697 - IBS (graf): 0.115 
 [2026-07-25 10:55:25] Performans kaydedildi: results/ranger/Framingham/performance.csv 
 [2026-07-25 10:55:25] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-25 10:57:18] Performans hesaplama bitti: surv.rfsrc - cindex: 0.705 - IBS (graf): 0.112 
+[2026-07-25 10:57:18] Performans kaydedildi: results/rfsrc/Framingham/performance.csv 
+[2026-07-25 10:57:18] Performans hesaplama basladi: surv.xgboost.cox 
