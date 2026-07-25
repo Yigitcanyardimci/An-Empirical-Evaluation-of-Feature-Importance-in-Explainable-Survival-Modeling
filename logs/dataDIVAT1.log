@@ -1372,3 +1372,19 @@
 [2026-07-25 01:55:11] Performans hesaplama bitti: surv.ranger - cindex: 0.557 - IBS (graf): 0.214 
 [2026-07-25 01:55:11] Performans kaydedildi: results/ranger/dataDIVAT1/performance.csv 
 [2026-07-25 01:55:11] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-25 01:55:55] Performans hesaplama bitti: surv.rfsrc - cindex: 0.592 - IBS (graf): 0.193 
+[2026-07-25 01:55:55] Performans kaydedildi: results/rfsrc/dataDIVAT1/performance.csv 
+[2026-07-25 01:55:55] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-25 01:56:26] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.552 - IBS (graf): 0.217 
+[2026-07-25 01:56:26] Performans kaydedildi: results/xgboost_cox/dataDIVAT1/performance.csv 
+[2026-07-25 01:56:26] PFI ve SHAP zaten tamam, explainer atlaniyor: cox_model 
+[2026-07-25 01:56:26] PFI ve SHAP zaten tamam, explainer atlaniyor: cforest_model 
+[2026-07-25 01:56:26] PFI ve SHAP zaten tamam, explainer atlaniyor: coxboost_model 
+[2026-07-25 01:56:26] PFI ve SHAP zaten tamam, explainer atlaniyor: ctree_model 
+[2026-07-25 01:56:26] PFI ve SHAP zaten tamam, explainer atlaniyor: cv_glmnet_model 
+[2026-07-25 01:56:26] PFI ve SHAP zaten tamam, explainer atlaniyor: glmboost_model 
+[2026-07-25 01:56:26] PFI ve SHAP zaten tamam, explainer atlaniyor: glmnet_model 
+[2026-07-25 01:56:26] PFI ve SHAP zaten tamam, explainer atlaniyor: penalized_model 
+[2026-07-25 01:56:26] Global aciklama (PFI) basladi 
+[2026-07-25 01:56:26] Kaydedilmis explainer bulundu, okunuyor: results/ranger/dataDIVAT1/explainer.rds 
+[2026-07-25 01:57:00] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/dataDIVAT1/explainer.rds 
