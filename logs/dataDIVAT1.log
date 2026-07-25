@@ -1633,3 +1633,11 @@
 [2026-07-25 11:01:56] Global aciklama (PFI) basladi 
 [2026-07-25 11:01:56] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/dataDIVAT1/explainer.rds 
 [2026-07-25 11:02:28] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-25 11:12:50] Global aciklama (PFI) bitti 
+[2026-07-25 11:12:50] PFI kaydedildi: results/xgboost_cox/dataDIVAT1/vimp.rds 
+[2026-07-25 11:12:52] Grafik kaydedildi: results/xgboost_cox/dataDIVAT1/plots/pfi_plot.png 
+[2026-07-25 11:12:52] PFI ozeti kaydedildi: results/xgboost_cox/dataDIVAT1/vimp_summary.csv 
+[2026-07-25 11:12:52] xgboost_cox_model - PFI TIVM: 0.0093 
+[2026-07-25 11:12:53] Kismi SHAP bulundu, 4 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-07-25 11:12:53] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-25 11:12:53] SHAP - gozlem 5 / 15 
