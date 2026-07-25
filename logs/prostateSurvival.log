@@ -480,3 +480,5 @@
 [2026-07-25 04:07:05] SHAP ozeti kaydedildi: results/cforest/prostateSurvival/shap_summary.csv 
 [2026-07-25 04:07:05] cforest_model - SHAP TIVM: 0.0013 
 [2026-07-25 04:07:05] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-25 04:08:07] SHAP - gozlem 5 / 15 
+[2026-07-25 04:09:23] SHAP - gozlem 10 / 15 
