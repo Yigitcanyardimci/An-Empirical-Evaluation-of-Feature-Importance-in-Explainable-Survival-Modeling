@@ -822,3 +822,6 @@
 [2026-07-25 11:02:09] Performans hesaplama bitti: surv.ranger - cindex: 0.922 - IBS (graf): 0.051 
 [2026-07-25 11:02:09] Performans kaydedildi: results/ranger/flchain/performance.csv 
 [2026-07-25 11:02:09] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-25 11:05:47] Performans hesaplama bitti: surv.rfsrc - cindex: 0.924 - IBS (graf): 0.048 
+[2026-07-25 11:05:47] Performans kaydedildi: results/rfsrc/flchain/performance.csv 
+[2026-07-25 11:05:47] Performans hesaplama basladi: surv.xgboost.cox 
