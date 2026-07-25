@@ -581,3 +581,7 @@
 [2026-07-25 00:32:33] Explainer kuruluyor: ranger_model 
 [2026-07-25 00:34:17] Explainer kaydedildi: results/ranger/flchain/explainer.rds 
 [2026-07-25 00:34:17] Explainer kuruluyor: rfsrc_model 
+[2026-07-25 00:36:02] Explainer kaydedildi: results/rfsrc/flchain/explainer.rds 
+[2026-07-25 00:36:02] Explainer kuruluyor: xgboost_cox_model 
+[2026-07-25 00:37:52] Explainer kaydedildi: results/xgboost_cox/flchain/explainer.rds 
+[2026-07-25 00:37:52] PFI hesaplaniyor: cox_model 
