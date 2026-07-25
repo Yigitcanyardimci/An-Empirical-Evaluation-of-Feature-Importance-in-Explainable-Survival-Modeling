@@ -404,3 +404,7 @@
 [2026-07-25 00:03:01] Explainer kuruluyor: cforest_model 
 [2026-07-25 00:03:55] Explainer kaydedildi: results/cforest/prostateSurvival/explainer.rds 
 [2026-07-25 00:03:55] Explainer kuruluyor: coxboost_model 
+[2026-07-25 00:04:50] Explainer kaydedildi: results/coxboost/prostateSurvival/explainer.rds 
+[2026-07-25 00:04:50] Explainer kuruluyor: ctree_model 
+[2026-07-25 00:05:44] Explainer kaydedildi: results/ctree/prostateSurvival/explainer.rds 
+[2026-07-25 00:05:44] Explainer kuruluyor: glmboost_model 
