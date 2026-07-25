@@ -1764,3 +1764,11 @@
 [2026-07-25 08:55:54] Global aciklama (PFI) basladi 
 [2026-07-25 08:55:54] Kaydedilmis explainer bulundu, okunuyor: results/cox/nwtco/explainer.rds 
 [2026-07-25 08:56:02] Kaydedilmis explainer bulundu, okunuyor: results/cforest/nwtco/explainer.rds 
+[2026-07-25 08:56:11] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/nwtco/explainer.rds 
+[2026-07-25 08:56:19] Kaydedilmis explainer bulundu, okunuyor: results/ctree/nwtco/explainer.rds 
+[2026-07-25 08:56:28] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/nwtco/explainer.rds 
+[2026-07-25 08:56:36] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/nwtco/explainer.rds 
+[2026-07-25 08:56:45] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/nwtco/explainer.rds 
+[2026-07-25 08:56:52] Kaydedilmis explainer bulundu, okunuyor: results/ranger/nwtco/explainer.rds 
+[2026-07-25 08:57:02] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/nwtco/explainer.rds 
+[2026-07-25 08:57:11] PFI hesaplaniyor: cox_model 
