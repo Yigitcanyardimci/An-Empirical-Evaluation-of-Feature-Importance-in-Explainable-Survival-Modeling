@@ -1388,3 +1388,5 @@
 [2026-07-25 01:56:26] Global aciklama (PFI) basladi 
 [2026-07-25 01:56:26] Kaydedilmis explainer bulundu, okunuyor: results/ranger/dataDIVAT1/explainer.rds 
 [2026-07-25 01:57:00] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/dataDIVAT1/explainer.rds 
+[2026-07-25 01:57:32] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/dataDIVAT1/explainer.rds 
+[2026-07-25 01:58:08] PFI hesaplaniyor: ranger_model 
