@@ -1417,3 +1417,8 @@
 [2026-07-25 09:16:12] SHAP - gozlem 5 / 15 
 [2026-07-25 09:43:58] SHAP - gozlem 10 / 15 
 [2026-07-25 10:10:10] SHAP - gozlem 15 / 15 
+[2026-07-25 10:15:06] SHAP hesaplama bitti, kaydedildi: results/rfsrc/dataDIVAT1/shap_long.csv 
+[2026-07-25 10:15:07] Grafik kaydedildi: results/rfsrc/dataDIVAT1/plots/survshap_plot.png 
+[2026-07-25 10:15:07] SHAP ozeti kaydedildi: results/rfsrc/dataDIVAT1/shap_summary.csv 
+[2026-07-25 10:15:07] rfsrc_model - SHAP TIVM: 6e-04 
+[2026-07-25 10:15:07] SHAP hesaplama basladi, n_obs = 15 
