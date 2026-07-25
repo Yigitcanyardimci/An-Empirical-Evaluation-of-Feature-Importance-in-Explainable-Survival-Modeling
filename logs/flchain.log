@@ -571,3 +571,5 @@
 [2026-07-25 00:23:51] Explainer kuruluyor: cforest_model 
 [2026-07-25 00:25:35] Explainer kaydedildi: results/cforest/flchain/explainer.rds 
 [2026-07-25 00:25:35] Explainer kuruluyor: coxboost_model 
+[2026-07-25 00:27:19] Explainer kaydedildi: results/coxboost/flchain/explainer.rds 
+[2026-07-25 00:27:19] Explainer kuruluyor: ctree_model 
