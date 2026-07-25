@@ -1068,3 +1068,6 @@
 [2026-07-25 07:57:25] Kaydedilmis model bulundu, okunuyor: results/rfsrc/Framingham/model.rds 
 [2026-07-25 07:58:16] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/Framingham/model.rds 
 [2026-07-25 07:58:16] Performans hesaplama basladi: surv.coxph 
+[2026-07-25 07:59:52] Performans hesaplama bitti: surv.coxph - cindex: 0.714 - IBS (graf): 0.111 
+[2026-07-25 07:59:52] Performans kaydedildi: results/cox/Framingham/performance.csv 
+[2026-07-25 07:59:52] Performans hesaplama basladi: surv.cforest 
