@@ -2705,3 +2705,9 @@
 [2026-07-26 06:45:58] HATA: model egitilemedi - penalized - Matrix inversion failed. Please increase lambda1 and/or lambda2 
 [2026-07-26 06:45:58] Kaydedilmis model bulundu, okunuyor: results/ranger/nwtco/model.rds 
 [2026-07-26 06:46:01] Kaydedilmis model bulundu, okunuyor: results/rfsrc/nwtco/model.rds 
+[2026-07-26 06:46:09] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/nwtco/model.rds 
+[2026-07-26 06:46:09] UYARI: su modeller basarisiz oldu, analiz disi birakildi: penalized_model 
+[2026-07-26 06:46:09] Performans hesaplama basladi: surv.coxph 
+[2026-07-26 06:46:46] Performans hesaplama bitti: surv.coxph - cindex: 0.706 - IBS (graf): 0.113 
+[2026-07-26 06:46:46] Performans kaydedildi: results/cox/nwtco/performance.csv 
+[2026-07-26 06:46:46] Performans hesaplama basladi: surv.cforest 
