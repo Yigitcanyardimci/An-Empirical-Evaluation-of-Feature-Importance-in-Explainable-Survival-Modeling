@@ -1319,3 +1319,28 @@
 [2026-07-26 04:25:51] Performans hesaplama bitti: surv.ctree - cindex: 0.895 - IBS (graf): 0.05 
 [2026-07-26 04:25:51] Performans kaydedildi: results/ctree/flchain/performance.csv 
 [2026-07-26 04:25:51] Performans hesaplama basladi: surv.glmboost 
+[2026-07-26 04:27:23] Performans hesaplama bitti: surv.glmboost - cindex: 0.744 - IBS (graf): 0.104 
+[2026-07-26 04:27:23] Performans kaydedildi: results/glmboost/flchain/performance.csv 
+[2026-07-26 04:27:23] Performans hesaplama basladi: surv.penalized 
+[2026-07-26 04:28:32] Performans hesaplama bitti: surv.penalized - cindex: 0.767 - IBS (graf): 0.099 
+[2026-07-26 04:28:32] Performans kaydedildi: results/penalized/flchain/performance.csv 
+[2026-07-26 04:28:32] Performans hesaplama basladi: surv.ranger 
+[2026-07-26 04:33:07] Performans hesaplama bitti: surv.ranger - cindex: 0.922 - IBS (graf): 0.051 
+[2026-07-26 04:33:07] Performans kaydedildi: results/ranger/flchain/performance.csv 
+[2026-07-26 04:33:07] Performans hesaplama basladi: surv.rfsrc 
+[2026-07-26 04:36:45] Performans hesaplama bitti: surv.rfsrc - cindex: 0.924 - IBS (graf): 0.048 
+[2026-07-26 04:36:45] Performans kaydedildi: results/rfsrc/flchain/performance.csv 
+[2026-07-26 04:36:45] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-26 04:38:15] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.783 - IBS (graf): 0.159 
+[2026-07-26 04:38:15] Performans kaydedildi: results/xgboost_cox/flchain/performance.csv 
+[2026-07-26 04:38:15] Global aciklama (PFI) basladi 
+[2026-07-26 04:38:15] Kaydedilmis explainer bulundu, okunuyor: results/cox/flchain/explainer.rds 
+[2026-07-26 04:38:50] Kaydedilmis explainer bulundu, okunuyor: results/cforest/flchain/explainer.rds 
+[2026-07-26 04:39:26] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/flchain/explainer.rds 
+[2026-07-26 04:40:05] Kaydedilmis explainer bulundu, okunuyor: results/ctree/flchain/explainer.rds 
+[2026-07-26 04:40:45] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/flchain/explainer.rds 
+[2026-07-26 04:41:24] Kaydedilmis explainer bulundu, okunuyor: results/penalized/flchain/explainer.rds 
+[2026-07-26 04:42:03] Kaydedilmis explainer bulundu, okunuyor: results/ranger/flchain/explainer.rds 
+[2026-07-26 04:42:46] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/flchain/explainer.rds 
+[2026-07-26 04:43:19] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/flchain/explainer.rds 
+[2026-07-26 04:43:58] PFI hesaplaniyor: cox_model 
