@@ -2500,3 +2500,4 @@
 [2026-07-26 04:00:14] PFI hesaplaniyor: glmnet_model 
 [2026-07-26 04:17:15] PFI hesaplaniyor: ranger_model 
 [2026-07-26 04:44:45] PFI hesaplaniyor: rfsrc_model 
+[2026-07-26 04:51:33] PFI hesaplaniyor: xgboost_cox_model 
