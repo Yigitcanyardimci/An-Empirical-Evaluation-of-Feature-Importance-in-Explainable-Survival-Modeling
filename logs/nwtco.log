@@ -2723,3 +2723,12 @@
 [2026-07-26 06:50:27] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.5 - IBS (graf): 0.121 
 [2026-07-26 06:50:27] Performans kaydedildi: results/cv_glmnet/nwtco/performance.csv 
 [2026-07-26 06:50:27] Performans hesaplama basladi: surv.glmboost 
+[2026-07-26 06:50:48] Performans hesaplama bitti: surv.glmboost - cindex: 0.708 - IBS (graf): 0.11 
+[2026-07-26 06:50:48] Performans kaydedildi: results/glmboost/nwtco/performance.csv 
+[2026-07-26 06:50:48] Performans hesaplama basladi: surv.glmnet 
+[2026-07-26 06:51:24] Performans hesaplama bitti: surv.glmnet - cindex: 0.711 - IBS (graf): 0.111 
+[2026-07-26 06:51:24] Performans kaydedildi: results/glmnet/nwtco/performance.csv 
+[2026-07-26 06:51:24] Performans hesaplama basladi: surv.ranger 
+[2026-07-26 06:52:03] Performans hesaplama bitti: surv.ranger - cindex: 0.699 - IBS (graf): 0.111 
+[2026-07-26 06:52:03] Performans kaydedildi: results/ranger/nwtco/performance.csv 
+[2026-07-26 06:52:03] Performans hesaplama basladi: surv.rfsrc 
