@@ -2073,3 +2073,6 @@
 [2026-07-26 01:12:27] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/Framingham/explainer.rds 
 [2026-07-26 01:13:00] Kaydedilmis explainer bulundu, okunuyor: results/penalized/Framingham/explainer.rds 
 [2026-07-26 01:13:28] Kaydedilmis explainer bulundu, okunuyor: results/ranger/Framingham/explainer.rds 
+[2026-07-26 01:14:02] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/Framingham/explainer.rds 
+[2026-07-26 01:14:30] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/Framingham/explainer.rds 
+[2026-07-26 01:15:05] PFI hesaplaniyor: cox_model 
