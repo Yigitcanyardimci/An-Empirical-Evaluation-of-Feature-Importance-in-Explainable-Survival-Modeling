@@ -1344,3 +1344,4 @@
 [2026-07-26 04:42:46] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/flchain/explainer.rds 
 [2026-07-26 04:43:19] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/flchain/explainer.rds 
 [2026-07-26 04:43:58] PFI hesaplaniyor: cox_model 
+[2026-07-26 05:11:04] PFI hesaplaniyor: cforest_model 
