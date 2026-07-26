@@ -1820,3 +1820,49 @@
 [2026-07-25 22:05:20] PFI hesaplaniyor: ranger_model 
 [2026-07-25 23:59:03] PFI hesaplaniyor: rfsrc_model 
 [2026-07-26 00:32:49] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-26 00:48:19] Global aciklama (PFI) bitti 
+[2026-07-26 00:48:19] PFI kaydedildi: results/cox/Framingham/vimp.rds 
+[2026-07-26 00:48:21] Grafik kaydedildi: results/cox/Framingham/plots/pfi_plot.png 
+[2026-07-26 00:48:21] PFI ozeti kaydedildi: results/cox/Framingham/vimp_summary.csv 
+[2026-07-26 00:48:21] cox_model - PFI TIVM: 1e-04 
+[2026-07-26 00:48:21] PFI kaydedildi: results/cforest/Framingham/vimp.rds 
+[2026-07-26 00:48:22] Grafik kaydedildi: results/cforest/Framingham/plots/pfi_plot.png 
+[2026-07-26 00:48:22] PFI ozeti kaydedildi: results/cforest/Framingham/vimp_summary.csv 
+[2026-07-26 00:48:22] cforest_model - PFI TIVM: 2e-04 
+[2026-07-26 00:48:22] PFI kaydedildi: results/coxboost/Framingham/vimp.rds 
+[2026-07-26 00:48:23] Grafik kaydedildi: results/coxboost/Framingham/plots/pfi_plot.png 
+[2026-07-26 00:48:23] PFI ozeti kaydedildi: results/coxboost/Framingham/vimp_summary.csv 
+[2026-07-26 00:48:23] coxboost_model - PFI TIVM: 1e-04 
+[2026-07-26 00:48:23] PFI kaydedildi: results/ctree/Framingham/vimp.rds 
+[2026-07-26 00:48:24] Grafik kaydedildi: results/ctree/Framingham/plots/pfi_plot.png 
+[2026-07-26 00:48:24] PFI ozeti kaydedildi: results/ctree/Framingham/vimp_summary.csv 
+[2026-07-26 00:48:24] ctree_model - PFI TIVM: 2e-04 
+[2026-07-26 00:48:24] PFI kaydedildi: results/cv_glmnet/Framingham/vimp.rds 
+[2026-07-26 00:48:25] Grafik kaydedildi: results/cv_glmnet/Framingham/plots/pfi_plot.png 
+[2026-07-26 00:48:25] PFI ozeti kaydedildi: results/cv_glmnet/Framingham/vimp_summary.csv 
+[2026-07-26 00:48:25] cv_glmnet_model - PFI TIVM: 0 
+[2026-07-26 00:48:25] PFI kaydedildi: results/glmboost/Framingham/vimp.rds 
+[2026-07-26 00:48:25] Grafik kaydedildi: results/glmboost/Framingham/plots/pfi_plot.png 
+[2026-07-26 00:48:25] PFI ozeti kaydedildi: results/glmboost/Framingham/vimp_summary.csv 
+[2026-07-26 00:48:25] glmboost_model - PFI TIVM: 1e-04 
+[2026-07-26 00:48:25] PFI kaydedildi: results/glmnet/Framingham/vimp.rds 
+[2026-07-26 00:48:26] Grafik kaydedildi: results/glmnet/Framingham/plots/pfi_plot.png 
+[2026-07-26 00:48:26] PFI ozeti kaydedildi: results/glmnet/Framingham/vimp_summary.csv 
+[2026-07-26 00:48:26] glmnet_model - PFI TIVM: 1e-04 
+[2026-07-26 00:48:26] PFI kaydedildi: results/penalized/Framingham/vimp.rds 
+[2026-07-26 00:48:27] Grafik kaydedildi: results/penalized/Framingham/plots/pfi_plot.png 
+[2026-07-26 00:48:27] PFI ozeti kaydedildi: results/penalized/Framingham/vimp_summary.csv 
+[2026-07-26 00:48:27] penalized_model - PFI TIVM: 1e-04 
+[2026-07-26 00:48:27] PFI kaydedildi: results/ranger/Framingham/vimp.rds 
+[2026-07-26 00:48:28] Grafik kaydedildi: results/ranger/Framingham/plots/pfi_plot.png 
+[2026-07-26 00:48:28] PFI ozeti kaydedildi: results/ranger/Framingham/vimp_summary.csv 
+[2026-07-26 00:48:28] ranger_model - PFI TIVM: 2e-04 
+[2026-07-26 00:48:28] PFI kaydedildi: results/rfsrc/Framingham/vimp.rds 
+[2026-07-26 00:48:29] Grafik kaydedildi: results/rfsrc/Framingham/plots/pfi_plot.png 
+[2026-07-26 00:48:29] PFI ozeti kaydedildi: results/rfsrc/Framingham/vimp_summary.csv 
+[2026-07-26 00:48:29] rfsrc_model - PFI TIVM: 2e-04 
+[2026-07-26 00:48:29] PFI kaydedildi: results/xgboost_cox/Framingham/vimp.rds 
+[2026-07-26 00:48:29] Grafik kaydedildi: results/xgboost_cox/Framingham/plots/pfi_plot.png 
+[2026-07-26 00:48:29] PFI ozeti kaydedildi: results/xgboost_cox/Framingham/vimp_summary.csv 
+[2026-07-26 00:48:29] xgboost_cox_model - PFI TIVM: 5e-04 
+[2026-07-26 00:48:30] SHAP hesaplama basladi, n_obs = 15 
