@@ -2561,3 +2561,4 @@
 [2026-07-26 09:56:33] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/Framingham/explainer.rds 
 [2026-07-26 09:57:08] PFI hesaplaniyor: cox_model 
 [2026-07-26 10:12:49] PFI hesaplaniyor: cforest_model 
+[2026-07-26 11:05:29] PFI hesaplaniyor: coxboost_model 
