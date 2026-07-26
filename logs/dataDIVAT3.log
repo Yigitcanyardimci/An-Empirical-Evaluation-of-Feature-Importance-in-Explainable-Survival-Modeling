@@ -1839,3 +1839,8 @@
 [2026-07-26 07:49:10] SHAP - gozlem 5 / 15 
 [2026-07-26 10:10:27] SHAP - gozlem 10 / 15 
 [2026-07-26 12:32:47] SHAP - gozlem 15 / 15 
+[2026-07-26 13:00:49] SHAP hesaplama bitti, kaydedildi: results/ctree/dataDIVAT3/shap_long.csv 
+[2026-07-26 13:00:50] Grafik kaydedildi: results/ctree/dataDIVAT3/plots/survshap_plot.png 
+[2026-07-26 13:00:50] SHAP ozeti kaydedildi: results/ctree/dataDIVAT3/shap_summary.csv 
+[2026-07-26 13:00:50] ctree_model - SHAP TIVM: 4e-04 
+[2026-07-26 13:00:50] SHAP hesaplama basladi, n_obs = 15 
