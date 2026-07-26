@@ -1304,3 +1304,6 @@
 [2026-07-26 04:14:24] Kaydedilmis model bulundu, okunuyor: results/penalized/flchain/model.rds 
 [2026-07-26 04:14:24] Kaydedilmis model bulundu, okunuyor: results/ranger/flchain/model.rds 
 [2026-07-26 04:14:38] Kaydedilmis model bulundu, okunuyor: results/rfsrc/flchain/model.rds 
+[2026-07-26 04:15:04] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/flchain/model.rds 
+[2026-07-26 04:15:04] UYARI: su modeller basarisiz oldu, analiz disi birakildi: cv_glmnet_model, glmnet_model 
+[2026-07-26 04:15:04] Performans hesaplama basladi: surv.coxph 
