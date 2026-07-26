@@ -1339,3 +1339,5 @@
 [2026-07-26 04:39:26] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/flchain/explainer.rds 
 [2026-07-26 04:40:05] Kaydedilmis explainer bulundu, okunuyor: results/ctree/flchain/explainer.rds 
 [2026-07-26 04:40:45] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/flchain/explainer.rds 
+[2026-07-26 04:41:24] Kaydedilmis explainer bulundu, okunuyor: results/penalized/flchain/explainer.rds 
+[2026-07-26 04:42:03] Kaydedilmis explainer bulundu, okunuyor: results/ranger/flchain/explainer.rds 
