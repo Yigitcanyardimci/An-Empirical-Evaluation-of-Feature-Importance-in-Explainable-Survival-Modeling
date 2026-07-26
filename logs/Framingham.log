@@ -2016,3 +2016,18 @@
 [2026-07-26 00:53:53] Task olusturuldu: rdata_task 
 [2026-07-26 00:53:53] Toplam 36 task olusturuldu 
 [2026-07-26 00:53:53] ===== RUN ( Framingham ) BASLADI: 11 model ===== 
+[2026-07-26 00:53:54] ----- Veri seti basladi: Framingham ----- 
+[2026-07-26 00:53:54] Split basladi (ratio = 0.7 ) 
+[2026-07-26 00:53:54] Split bitti - train: 3261 test: 1397 
+[2026-07-26 00:53:54] Kaydedilmis model bulundu, okunuyor: results/cox/Framingham/model.rds 
+[2026-07-26 00:53:54] Kaydedilmis model bulundu, okunuyor: results/cforest/Framingham/model.rds 
+[2026-07-26 00:53:59] Kaydedilmis model bulundu, okunuyor: results/coxboost/Framingham/model.rds 
+[2026-07-26 00:53:59] Kaydedilmis model bulundu, okunuyor: results/ctree/Framingham/model.rds 
+[2026-07-26 00:53:59] Kaydedilmis model bulundu, okunuyor: results/cv_glmnet/Framingham/model.rds 
+[2026-07-26 00:53:59] Kaydedilmis model bulundu, okunuyor: results/glmboost/Framingham/model.rds 
+[2026-07-26 00:53:59] Kaydedilmis model bulundu, okunuyor: results/glmnet/Framingham/model.rds 
+[2026-07-26 00:53:59] Kaydedilmis model bulundu, okunuyor: results/penalized/Framingham/model.rds 
+[2026-07-26 00:53:59] Kaydedilmis model bulundu, okunuyor: results/ranger/Framingham/model.rds 
+[2026-07-26 00:54:15] Kaydedilmis model bulundu, okunuyor: results/rfsrc/Framingham/model.rds 
+[2026-07-26 00:54:37] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/Framingham/model.rds 
+[2026-07-26 00:54:37] Performans hesaplama basladi: surv.coxph 
