@@ -2736,3 +2736,6 @@
 [2026-07-26 12:33:17] Performans hesaplama bitti: surv.coxph - cindex: 0.714 - IBS (graf): 0.111 
 [2026-07-26 12:33:17] Performans kaydedildi: results/cox/Framingham/performance.csv 
 [2026-07-26 12:33:17] Performans hesaplama basladi: surv.cforest 
+[2026-07-26 12:36:26] Performans hesaplama bitti: surv.cforest - cindex: 0.705 - IBS (graf): 0.113 
+[2026-07-26 12:36:26] Performans kaydedildi: results/cforest/Framingham/performance.csv 
+[2026-07-26 12:36:26] Performans hesaplama basladi: surv.coxboost 
