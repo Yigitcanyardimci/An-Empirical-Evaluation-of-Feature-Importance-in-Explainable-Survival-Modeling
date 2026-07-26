@@ -2270,3 +2270,6 @@
 [2026-07-26 04:00:57] Performans hesaplama bitti: surv.glmnet - cindex: 0.714 - IBS (graf): 0.112 
 [2026-07-26 04:00:57] Performans kaydedildi: results/glmnet/Framingham/performance.csv 
 [2026-07-26 04:00:57] Performans hesaplama basladi: surv.penalized 
+[2026-07-26 04:01:30] Performans hesaplama bitti: surv.penalized - cindex: 0.714 - IBS (graf): 0.111 
+[2026-07-26 04:01:30] Performans kaydedildi: results/penalized/Framingham/performance.csv 
+[2026-07-26 04:01:30] Performans hesaplama basladi: surv.ranger 
