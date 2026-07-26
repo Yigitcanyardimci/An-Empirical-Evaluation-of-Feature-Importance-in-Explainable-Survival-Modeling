@@ -2501,3 +2501,42 @@
 [2026-07-26 04:17:15] PFI hesaplaniyor: ranger_model 
 [2026-07-26 04:44:45] PFI hesaplaniyor: rfsrc_model 
 [2026-07-26 04:51:33] PFI hesaplaniyor: xgboost_cox_model 
+[2026-07-26 05:08:36] Global aciklama (PFI) bitti 
+[2026-07-26 05:08:36] PFI kaydedildi: results/cforest/nwtco/vimp.rds 
+[2026-07-26 05:08:38] Grafik kaydedildi: results/cforest/nwtco/plots/pfi_plot.png 
+[2026-07-26 05:08:39] PFI ozeti kaydedildi: results/cforest/nwtco/vimp_summary.csv 
+[2026-07-26 05:08:39] cforest_model - PFI TIVM: 0.0035 
+[2026-07-26 05:08:39] PFI kaydedildi: results/coxboost/nwtco/vimp.rds 
+[2026-07-26 05:08:39] Grafik kaydedildi: results/coxboost/nwtco/plots/pfi_plot.png 
+[2026-07-26 05:08:40] PFI ozeti kaydedildi: results/coxboost/nwtco/vimp_summary.csv 
+[2026-07-26 05:08:40] coxboost_model - PFI TIVM: 0.0021 
+[2026-07-26 05:08:40] PFI kaydedildi: results/ctree/nwtco/vimp.rds 
+[2026-07-26 05:08:40] Grafik kaydedildi: results/ctree/nwtco/plots/pfi_plot.png 
+[2026-07-26 05:08:40] PFI ozeti kaydedildi: results/ctree/nwtco/vimp_summary.csv 
+[2026-07-26 05:08:40] ctree_model - PFI TIVM: 0.0063 
+[2026-07-26 05:08:40] PFI kaydedildi: results/cv_glmnet/nwtco/vimp.rds 
+[2026-07-26 05:08:41] Grafik kaydedildi: results/cv_glmnet/nwtco/plots/pfi_plot.png 
+[2026-07-26 05:08:41] PFI ozeti kaydedildi: results/cv_glmnet/nwtco/vimp_summary.csv 
+[2026-07-26 05:08:41] cv_glmnet_model - PFI TIVM: 0 
+[2026-07-26 05:08:41] PFI kaydedildi: results/glmboost/nwtco/vimp.rds 
+[2026-07-26 05:08:42] Grafik kaydedildi: results/glmboost/nwtco/plots/pfi_plot.png 
+[2026-07-26 05:08:42] PFI ozeti kaydedildi: results/glmboost/nwtco/vimp_summary.csv 
+[2026-07-26 05:08:42] glmboost_model - PFI TIVM: 0.0014 
+[2026-07-26 05:08:42] PFI kaydedildi: results/glmnet/nwtco/vimp.rds 
+[2026-07-26 05:08:42] Grafik kaydedildi: results/glmnet/nwtco/plots/pfi_plot.png 
+[2026-07-26 05:08:43] PFI ozeti kaydedildi: results/glmnet/nwtco/vimp_summary.csv 
+[2026-07-26 05:08:43] glmnet_model - PFI TIVM: 0.0021 
+[2026-07-26 05:08:43] PFI kaydedildi: results/ranger/nwtco/vimp.rds 
+[2026-07-26 05:08:43] Grafik kaydedildi: results/ranger/nwtco/plots/pfi_plot.png 
+[2026-07-26 05:08:43] PFI ozeti kaydedildi: results/ranger/nwtco/vimp_summary.csv 
+[2026-07-26 05:08:43] ranger_model - PFI TIVM: 0.0025 
+[2026-07-26 05:08:43] PFI kaydedildi: results/rfsrc/nwtco/vimp.rds 
+[2026-07-26 05:08:44] Grafik kaydedildi: results/rfsrc/nwtco/plots/pfi_plot.png 
+[2026-07-26 05:08:44] PFI ozeti kaydedildi: results/rfsrc/nwtco/vimp_summary.csv 
+[2026-07-26 05:08:44] rfsrc_model - PFI TIVM: 0.0027 
+[2026-07-26 05:08:44] PFI kaydedildi: results/xgboost_cox/nwtco/vimp.rds 
+[2026-07-26 05:08:45] Grafik kaydedildi: results/xgboost_cox/nwtco/plots/pfi_plot.png 
+[2026-07-26 05:08:45] PFI ozeti kaydedildi: results/xgboost_cox/nwtco/vimp_summary.csv 
+[2026-07-26 05:08:45] xgboost_cox_model - PFI TIVM: 0.004 
+[2026-07-26 05:08:45] Kismi SHAP bulundu, 6 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-07-26 05:08:45] SHAP hesaplama basladi, n_obs = 15 
