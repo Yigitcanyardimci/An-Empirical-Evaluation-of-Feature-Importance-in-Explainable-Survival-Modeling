@@ -2991,3 +2991,17 @@
 [2026-07-26 11:24:21] Performans hesaplama bitti: surv.rfsrc - cindex: 0.702 - IBS (graf): 0.111 
 [2026-07-26 11:24:21] Performans kaydedildi: results/rfsrc/nwtco/performance.csv 
 [2026-07-26 11:24:21] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-07-26 11:24:56] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.623 - IBS (graf): 0.148 
+[2026-07-26 11:24:56] Performans kaydedildi: results/xgboost_cox/nwtco/performance.csv 
+[2026-07-26 11:24:56] PFI ve SHAP zaten tamam, explainer atlaniyor: cox_model 
+[2026-07-26 11:24:56] Global aciklama (PFI) basladi 
+[2026-07-26 11:24:56] Kaydedilmis explainer bulundu, okunuyor: results/cforest/nwtco/explainer.rds 
+[2026-07-26 11:25:05] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/nwtco/explainer.rds 
+[2026-07-26 11:25:12] Kaydedilmis explainer bulundu, okunuyor: results/ctree/nwtco/explainer.rds 
+[2026-07-26 11:25:21] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/nwtco/explainer.rds 
+[2026-07-26 11:25:29] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/nwtco/explainer.rds 
+[2026-07-26 11:25:36] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/nwtco/explainer.rds 
+[2026-07-26 11:25:43] Kaydedilmis explainer bulundu, okunuyor: results/ranger/nwtco/explainer.rds 
+[2026-07-26 11:25:50] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/nwtco/explainer.rds 
+[2026-07-26 11:25:58] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/nwtco/explainer.rds 
+[2026-07-26 11:26:06] PFI hesaplaniyor: cforest_model 
