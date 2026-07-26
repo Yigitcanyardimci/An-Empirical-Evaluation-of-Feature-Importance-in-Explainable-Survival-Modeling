@@ -3005,3 +3005,4 @@
 [2026-07-26 11:25:50] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/nwtco/explainer.rds 
 [2026-07-26 11:25:58] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/nwtco/explainer.rds 
 [2026-07-26 11:26:06] PFI hesaplaniyor: cforest_model 
+[2026-07-26 12:10:29] PFI hesaplaniyor: coxboost_model 
