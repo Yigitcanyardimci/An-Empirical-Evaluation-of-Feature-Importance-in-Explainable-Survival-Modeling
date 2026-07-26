@@ -2767,3 +2767,6 @@
 [2026-07-26 12:47:01] Performans kaydedildi: results/xgboost_cox/Framingham/performance.csv 
 [2026-07-26 12:47:01] Global aciklama (PFI) basladi 
 [2026-07-26 12:47:01] Kaydedilmis explainer bulundu, okunuyor: results/cox/Framingham/explainer.rds 
+[2026-07-26 12:47:30] Kaydedilmis explainer bulundu, okunuyor: results/cforest/Framingham/explainer.rds 
+[2026-07-26 12:48:01] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/Framingham/explainer.rds 
+[2026-07-26 12:48:32] Kaydedilmis explainer bulundu, okunuyor: results/ctree/Framingham/explainer.rds 
