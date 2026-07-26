@@ -1836,3 +1836,4 @@
 [2026-07-26 05:52:06] SHAP ozeti kaydedildi: results/coxboost/dataDIVAT3/shap_summary.csv 
 [2026-07-26 05:52:06] coxboost_model - SHAP TIVM: 3e-04 
 [2026-07-26 05:52:06] SHAP hesaplama basladi, n_obs = 15 
+[2026-07-26 07:49:10] SHAP - gozlem 5 / 15 
