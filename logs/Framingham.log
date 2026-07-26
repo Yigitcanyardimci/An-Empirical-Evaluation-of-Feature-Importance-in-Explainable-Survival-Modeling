@@ -2240,3 +2240,15 @@
 [2026-07-26 03:51:50] Kaydedilmis model bulundu, okunuyor: results/cox/Framingham/model.rds 
 [2026-07-26 03:51:50] Kaydedilmis model bulundu, okunuyor: results/cforest/Framingham/model.rds 
 [2026-07-26 03:51:55] Kaydedilmis model bulundu, okunuyor: results/coxboost/Framingham/model.rds 
+[2026-07-26 03:51:55] Kaydedilmis model bulundu, okunuyor: results/ctree/Framingham/model.rds 
+[2026-07-26 03:51:55] Kaydedilmis model bulundu, okunuyor: results/cv_glmnet/Framingham/model.rds 
+[2026-07-26 03:51:55] Kaydedilmis model bulundu, okunuyor: results/glmboost/Framingham/model.rds 
+[2026-07-26 03:51:56] Kaydedilmis model bulundu, okunuyor: results/glmnet/Framingham/model.rds 
+[2026-07-26 03:51:56] Kaydedilmis model bulundu, okunuyor: results/penalized/Framingham/model.rds 
+[2026-07-26 03:51:56] Kaydedilmis model bulundu, okunuyor: results/ranger/Framingham/model.rds 
+[2026-07-26 03:52:11] Kaydedilmis model bulundu, okunuyor: results/rfsrc/Framingham/model.rds 
+[2026-07-26 03:52:32] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/Framingham/model.rds 
+[2026-07-26 03:52:33] Performans hesaplama basladi: surv.coxph 
+[2026-07-26 03:53:25] Performans hesaplama bitti: surv.coxph - cindex: 0.714 - IBS (graf): 0.111 
+[2026-07-26 03:53:25] Performans kaydedildi: results/cox/Framingham/performance.csv 
+[2026-07-26 03:53:25] Performans hesaplama basladi: surv.cforest 
