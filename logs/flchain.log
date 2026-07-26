@@ -1313,3 +1313,6 @@
 [2026-07-26 04:21:53] Performans hesaplama bitti: surv.cforest - cindex: 0.917 - IBS (graf): 0.049 
 [2026-07-26 04:21:53] Performans kaydedildi: results/cforest/flchain/performance.csv 
 [2026-07-26 04:21:53] Performans hesaplama basladi: surv.coxboost 
+[2026-07-26 04:24:18] Performans hesaplama bitti: surv.coxboost - cindex: 0.764 - IBS (graf): 0.1 
+[2026-07-26 04:24:18] Performans kaydedildi: results/coxboost/flchain/performance.csv 
+[2026-07-26 04:24:18] Performans hesaplama basladi: surv.ctree 
