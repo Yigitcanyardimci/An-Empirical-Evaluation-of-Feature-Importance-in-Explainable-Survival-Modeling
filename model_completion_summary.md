@@ -8,7 +8,7 @@
 | 4 | burn | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
 | 5 | cancer | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
 | 6 | cgd | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 7 | colon | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
+| 7 | colon | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc | 10 (xgboost_cox: sadece PFI, SHAP yok) |
 | 8 | csl | cox, cforest, coxboost, ctree, glmboost, penalized, ranger, rfsrc, xgboost_cox | 9 |
 | 9 | d_oropha_rec | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, ranger, rfsrc, xgboost_cox | 10 |
 | 10 | dataDIVAT1 | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
@@ -28,11 +28,13 @@
 | 24 | rdata | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
 | 25 | retinopathy | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
 | 26 | Rossi | cox, cforest, coxboost, ctree, glmboost, penalized, ranger, rfsrc, xgboost_cox | 9 |
-| 27 | rott2 | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
+| 27 | rott2 | (yok - sadece performance.csv var, PFI/SHAP hicbir modelde yok) | 0 |
 | 28 | stagec | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
 | 29 | TRACE | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
 | 30 | veteran | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
 | 31 | whas500 | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
 | 32 | zinc | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
 
-**Toplam model-veri seti kombinasyonu: 331**
+**Toplam model-veri seti kombinasyonu (PFI+SHAP tam olan): 319**
+
+*Not: rott2 ve colon/xgboost_cox icin log dosyasi "TAMAMLANDI" gostermesine ragmen, GitHub'daki gercek sonuc dosyalari (vimp_summary.csv / shap_summary.csv) dogrudan kontrol edilerek eksik oldugu tespit edildi.*
