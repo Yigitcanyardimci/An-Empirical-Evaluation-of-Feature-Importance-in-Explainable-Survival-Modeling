@@ -60,5 +60,3 @@
 - **xgboost_cox** — XGBoost (Cox)
 
 Örneğin "9/11" bu 11 modelden 9'unun başarıyla çalıştığı anlamına gelir.
-
-**Notlar:** acath, aids2, csl, epileptic, FRTCS, prostate, Rossi: cv_glmnet ve glmnet hiç eğitilemedi (zaman değişkeninde ≤0 değer var). dialysis: cforest ve ctree hiç eğitilemedi (coin paketi yüklenemedi). d_oropha_rec: penalized hiç eğitilemedi (matris tersi alınamadı). prostateSurvival: cforest, ctree, cv_glmnet, glmnet hiç eğitilemedi. colon: xgboost_cox'ta SHAP eksik. rott2: modeller eğitilip performans hesaplanmış ama PFI/SHAP hiç çalıştırılmamış (log dosyası yanlışlıkla "TAMAMLANDI" göstermiş). flchain: cv_glmnet ve glmnet hiç eğitilemedi. 33-36 (nwtco, dataDIVAT3, Framingham, flchain), pipeline'in bellek (OOM) sorunu nedeniyle SHAP aşamasında takılı kalan, henüz tamamlanmamış veri setleridir.
