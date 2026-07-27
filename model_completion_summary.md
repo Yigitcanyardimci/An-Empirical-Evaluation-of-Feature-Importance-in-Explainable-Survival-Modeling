@@ -1,44 +1,52 @@
-# Model Tamamlanma Özeti (Tüm 36 Veri Seti — 1-32 tamamlandı, 33-36 devam ediyor)
+# Model Tamamlanma Özeti (Tüm 36 Veri Seti)
 
-| # | Veri Seti | Bulunan Modeller | Sayı |
-|---|---|---|---|
-| 1 | acath | cox, cforest, coxboost, ctree, glmboost, penalized, ranger, rfsrc, xgboost_cox | 9 |
-| 2 | aids2 | cox, cforest, coxboost, ctree, glmboost, penalized, ranger, rfsrc, xgboost_cox | 9 |
-| 3 | breast | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 4 | burn | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 5 | cancer | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 6 | cgd | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 7 | colon | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc | 10 (xgboost_cox: sadece PFI, SHAP yok) |
-| 8 | csl | cox, cforest, coxboost, ctree, glmboost, penalized, ranger, rfsrc, xgboost_cox | 9 |
-| 9 | d_oropha_rec | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, ranger, rfsrc, xgboost_cox | 10 |
-| 10 | dataDIVAT1 | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 11 | dialysis | cox, coxboost, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 9 |
-| 12 | e1684 | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 13 | epileptic | cox, cforest, coxboost, ctree, glmboost, penalized, ranger, rfsrc, xgboost_cox | 9 |
-| 14 | FRTCS | cox, cforest, coxboost, ctree, glmboost, penalized, ranger, rfsrc, xgboost_cox | 9 |
-| 15 | GBSG2 | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 16 | grace | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 17 | LeukSurv | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 18 | melanoma | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 19 | ova | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 20 | pbc | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 21 | Pbc3 | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 22 | prostate | cox, cforest, coxboost, ctree, glmboost, penalized, ranger, rfsrc, xgboost_cox | 9 |
-| 23 | prostateSurvival | cox, coxboost, glmboost, penalized, ranger, rfsrc, xgboost_cox | 7 |
-| 24 | rdata | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 25 | retinopathy | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 26 | Rossi | cox, cforest, coxboost, ctree, glmboost, penalized, ranger, rfsrc, xgboost_cox | 9 |
-| 27 | rott2 | (yok - sadece performance.csv var, PFI/SHAP hicbir modelde yok) | 0 |
-| 28 | stagec | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 29 | TRACE | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 30 | veteran | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 31 | whas500 | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 32 | zinc | cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox | 11 |
-| 33 | nwtco | PFI+SHAP tam: cox (1). Performans+PFI hazır, SHAP yok: cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, ranger, rfsrc, xgboost_cox (9). Hiç yok: penalized (1) | 1 |
-| 34 | dataDIVAT3 | PFI+SHAP tam: cox, cforest, coxboost, ctree (4). Performans+PFI hazır, SHAP yok: cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox (7) | 4 |
-| 35 | Framingham | PFI+SHAP tam: yok (0). Performans+PFI hazır, SHAP yok: tüm 11 model | 0 |
-| 36 | flchain | PFI+SHAP tam: yok (0). Performans+PFI hazır, SHAP yok: cox, cforest, coxboost, ctree, glmboost, penalized, ranger, rfsrc, xgboost_cox (9). Hiç eğitilemedi: cv_glmnet, glmnet (Non-positive event times) | 0 |
+Hedef: veri seti başına 11 model (cox, cforest, coxboost, ctree, cv_glmnet, glmboost, glmnet, penalized, ranger, rfsrc, xgboost_cox)
 
-**Toplam model-veri seti kombinasyonu (PFI+SHAP tam olan): 324 / 396 hedeflenen (36 veri seti × 11 model)**
+| # | Veri Seti | Performans | PFI | SHAP | Not |
+|---|---|---|---|---|---|
+| 1 | acath | 9/11 | 9/11 | 9/11 | cv_glmnet, glmnet hiç eğitilemedi |
+| 2 | aids2 | 9/11 | 9/11 | 9/11 | cv_glmnet, glmnet hiç eğitilemedi |
+| 3 | breast | 11/11 | 11/11 | 11/11 | - |
+| 4 | burn | 11/11 | 11/11 | 11/11 | - |
+| 5 | cancer | 11/11 | 11/11 | 11/11 | - |
+| 6 | cgd | 11/11 | 11/11 | 11/11 | - |
+| 7 | colon | 11/11 | 11/11 | 10/11 | xgboost_cox: SHAP eksik |
+| 8 | csl | 9/11 | 9/11 | 9/11 | cv_glmnet, glmnet hiç eğitilemedi |
+| 9 | d_oropha_rec | 10/11 | 10/11 | 10/11 | penalized hiç eğitilemedi |
+| 10 | dataDIVAT1 | 11/11 | 11/11 | 11/11 | - |
+| 11 | dialysis | 9/11 | 9/11 | 9/11 | cforest, ctree hiç eğitilemedi |
+| 12 | e1684 | 11/11 | 11/11 | 11/11 | - |
+| 13 | epileptic | 9/11 | 9/11 | 9/11 | cv_glmnet, glmnet hiç eğitilemedi |
+| 14 | FRTCS | 9/11 | 9/11 | 9/11 | cv_glmnet, glmnet hiç eğitilemedi |
+| 15 | GBSG2 | 11/11 | 11/11 | 11/11 | - |
+| 16 | grace | 11/11 | 11/11 | 11/11 | - |
+| 17 | LeukSurv | 11/11 | 11/11 | 11/11 | - |
+| 18 | melanoma | 11/11 | 11/11 | 11/11 | - |
+| 19 | ova | 11/11 | 11/11 | 11/11 | - |
+| 20 | pbc | 11/11 | 11/11 | 11/11 | - |
+| 21 | Pbc3 | 11/11 | 11/11 | 11/11 | - |
+| 22 | prostate | 9/11 | 9/11 | 9/11 | cv_glmnet, glmnet hiç eğitilemedi |
+| 23 | prostateSurvival | 7/11 | 7/11 | 7/11 | cforest, ctree, cv_glmnet, glmnet hiç eğitilemedi |
+| 24 | rdata | 11/11 | 11/11 | 11/11 | - |
+| 25 | retinopathy | 11/11 | 11/11 | 11/11 | - |
+| 26 | Rossi | 9/11 | 9/11 | 9/11 | cv_glmnet, glmnet hiç eğitilemedi |
+| 27 | rott2 | 11/11 | **0/11** | **0/11** | Modeller eğitildi, PFI/SHAP hiç hesaplanmadı |
+| 28 | stagec | 11/11 | 11/11 | 11/11 | - |
+| 29 | TRACE | 11/11 | 11/11 | 11/11 | - |
+| 30 | veteran | 11/11 | 11/11 | 11/11 | - |
+| 31 | whas500 | 11/11 | 11/11 | 11/11 | - |
+| 32 | zinc | 11/11 | 11/11 | 11/11 | - |
+| **—** | **Devam eden veri setleri (bellek/OOM sorunu, SHAP aşamasında takılı)** | | | | |
+| 33 | nwtco | var | var | **yok** | - |
+| 34 | dataDIVAT3 | var | var | **yok** | - |
+| 35 | Framingham | var | var | **yok** | - |
+| 36 | flchain | var | var | **yok** | - |
 
-*Not: rott2 ve colon/xgboost_cox icin log dosyasi "TAMAMLANDI" gostermesine ragmen, GitHub'daki gercek sonuc dosyalari (vimp_summary.csv / shap_summary.csv) dogrudan kontrol edilerek eksik oldugu tespit edildi. Satır 33-36 (nwtco, dataDIVAT3, Framingham, flchain), pipeline'in bellek (OOM) sorunu nedeniyle SHAP aşamasında takılı kalan, henüz tamamlanmamış veri setleridir — bu setlerde model eğitimi ve performans metrikleri büyük ölçüde hazırdır, sadece SHAP eksiktir.*
+**Toplam (1-32, hedef 352):**
+- Performans: **331 / 352**
+- PFI: **320 / 352**
+- SHAP: **319 / 352**
+
+**33-36:** Performans ve PFI çoğu modelde var, SHAP hiçbirinde yok.
+
+*Not: rott2'de modeller eğitilip performans metrikleri hesaplanmış ama PFI/SHAP hiç çalıştırılmamış (log dosyası yanlışlıkla "TAMAMLANDI" göstermiş). "Hiç eğitilemedi" notu olan modeller, o veri setinde zaman değişkeninde ≤0 değer olması (cv_glmnet/glmnet) veya paket bağımlılığı eksikliği (cforest/ctree: coin paketi) gibi veri/ortam kaynaklı sorunlardır.*
