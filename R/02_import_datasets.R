@@ -47,7 +47,10 @@ aids2_data <- aids2_raw |>
   mutate(
     fac_state   = as.numeric(as.factor(fac_state)),
     fac_sex     = as.numeric(as.factor(fac_sex)),
-    fac_T_categ = as.numeric(as.factor(fac_T_categ))
+    fac_T_categ = as.numeric(as.factor(fac_T_categ)),
+    # cv_glmnet/glmnet time>0 gerektiriyor; time=0 olan gozlemlere ihmal
+    # edilebilir kucuklukte bir epsilon ekleniyor (veriyi bozmadan).
+    time = ifelse(time == 0, 1e-5, time)
   ) |>
   select(-pid) |>
   na.omit()
@@ -99,7 +102,10 @@ epileptic_data <- epileptic_raw |>
   mutate(
     fac_treat     = as.numeric(as.factor(fac_treat)),
     fac_gender    = as.numeric(as.factor(fac_gender)),
-    fac_learn_dis = as.numeric(as.factor(fac_learn_dis))
+    fac_learn_dis = as.numeric(as.factor(fac_learn_dis)),
+    # cv_glmnet/glmnet time>0 gerektiriyor; time=0 olan gozlemlere ihmal
+    # edilebilir kucuklukte bir epsilon ekleniyor (veriyi bozmadan).
+    time = ifelse(time == 0, 1e-5, time)
   ) |>
   select(-pid) |>
   na.omit()
@@ -150,7 +156,10 @@ log_msg("Veri okuma basladi: acath")
 acath_raw <- read_csv(file.path(data_dir, "acath.csv"))
 acath_data <- acath_raw |>
   mutate(
-    fac_sex = as.numeric(as.factor(fac_sex))
+    fac_sex = as.numeric(as.factor(fac_sex)),
+    # cv_glmnet/glmnet time>0 gerektiriyor; time=0 olan gozlemlere ihmal
+    # edilebilir kucuklukte bir epsilon ekleniyor (veriyi bozmadan).
+    time = ifelse(time == 0, 1e-5, time)
   ) |>
   select(-pid) |>
   na.omit()
@@ -166,7 +175,10 @@ prostate_data <- prostate_raw |>
     fac_pf    = as.numeric(as.factor(fac_pf)),
     fac_hx    = as.numeric(as.factor(fac_hx)),
     fac_ekg   = as.numeric(as.factor(fac_ekg)),
-    fac_bm    = as.numeric(as.factor(fac_bm))
+    fac_bm    = as.numeric(as.factor(fac_bm)),
+    # cv_glmnet/glmnet time>0 gerektiriyor; time=0 olan gozlemlere ihmal
+    # edilebilir kucuklukte bir epsilon ekleniyor (veriyi bozmadan).
+    time = ifelse(time == 0, 1e-5, time)
   ) |>
   select(-pid) |>
   na.omit()
@@ -220,7 +232,10 @@ FRTCS_raw <- read_csv(file.path(data_dir, "FRTCS.csv"))
 FRTCS_data <- FRTCS_raw |>
   mutate(
     fac_sex     = as.numeric(as.factor(fac_sex)),
-    fac_antihyp = as.numeric(as.factor(fac_antihyp))
+    fac_antihyp = as.numeric(as.factor(fac_antihyp)),
+    # cv_glmnet/glmnet time>0 gerektiriyor; time=0 olan gozlemlere ihmal
+    # edilebilir kucuklukte bir epsilon ekleniyor (veriyi bozmadan).
+    time = ifelse(time == 0, 1e-5, time)
   ) |>
   select(-pid, -time2) |>
   na.omit()
@@ -322,7 +337,10 @@ csl_raw <- read_csv(file.path(data_dir, "csl.csv"))
 csl_data <- csl_raw |>
   mutate(
     fac_sex   = as.numeric(as.factor(fac_sex)),
-    fac_treat = as.numeric(as.factor(fac_treat))
+    fac_treat = as.numeric(as.factor(fac_treat)),
+    # cv_glmnet/glmnet time>0 gerektiriyor; time=0 olan gozlemlere ihmal
+    # edilebilir kucuklukte bir epsilon ekleniyor (veriyi bozmadan).
+    time = ifelse(time == 0, 1e-5, time)
   ) |>
   select(-pid, -time2) |>
   na.omit()
@@ -449,7 +467,10 @@ Rossi_data <- Rossi_raw |>
     fac_paro = as.numeric(as.factor(fac_paro)),
     fac_prio = as.numeric(as.factor(fac_prio)),
     fac_educ = as.numeric(as.factor(fac_educ)),
-    fac_emp  = as.numeric(as.factor(fac_emp))
+    fac_emp  = as.numeric(as.factor(fac_emp)),
+    # cv_glmnet/glmnet time>0 gerektiriyor; time=0 olan gozlemlere ihmal
+    # edilebilir kucuklukte bir epsilon ekleniyor (veriyi bozmadan).
+    time = ifelse(time == 0, 1e-5, time)
   ) |>
   select(-pid, -time2) |>
   na.omit()
