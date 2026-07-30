@@ -145,7 +145,8 @@ prostateSurvival_data <- prostateSurvival_raw |>
   mutate(
     fac_grade    = as.numeric(as.factor(fac_grade)),
     fac_stage    = as.numeric(as.factor(fac_stage)),
-    fac_ageGroup = as.numeric(as.factor(fac_ageGroup))
+    fac_ageGroup = as.numeric(as.factor(fac_ageGroup)),
+    time = ifelse(time == 0, 1e-5, time)
   ) |>
   select(-pid) |>
   na.omit()
