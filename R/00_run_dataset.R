@@ -151,12 +151,29 @@ for (dataset_name in names(tasks)) {
         log_mem(paste0("[", dataset_name, "/", spec$id, "] PFI sonrasi"))
         if (!is.null(vimp_obj)) {
           save_vimp(vimp_obj, out_dir)
+
+          pfi_plot <- tryCatch(
+            plot(vimp_obj) +
+              theme(
+                legend.title    = element_blank(),
+                plot.subtitle   = element_blank(),
+                plot.tag        = element_blank(),
+                plot.title      = element_blank(),
+                legend.position = "bottom"
+              ),
+            error = function(e) {
+              log_msg(paste("HATA: PFI grafigi cizilemedi -", nm, "-", conditionMessage(e)))
+              NULL
+            }
+          )
+          if (!is.null(pfi_plot)) save_plot(pfi_plot, out_dir, "pfi_plot")
+
           summary_df <- calculate_vimp_summary(vimp_obj)
           save_vimp_summary(summary_df, out_dir)
           TIVM <- calculate_TIVM(summary_df)
           pfi_tivm[[nm]] <- TIVM
           log_msg(paste(nm, "- PFI TIVM:", round(TIVM, 4)))
-          rm(vimp_obj, summary_df)
+          rm(vimp_obj, summary_df, pfi_plot)
         }
       }
 
