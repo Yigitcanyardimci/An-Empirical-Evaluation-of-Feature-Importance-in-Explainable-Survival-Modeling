@@ -32,79 +32,185 @@ if (!is.null(models_arg)) {
 
 log_msg(paste("===== RUN (", dataset_name_arg, ") BASLADI:", length(learner_specs), "model ====="))
 
+# Model bazinda sirali isleme: her model icin egit/yukle -> performans -> PFI -> SHAP -> BELLEKTEN SIL,
+# sonra siradaki modele gec. Boylece herhangi bir anda bellekte sadece 1 modelin
+# (ve o modelin explainer'inin) verisi tutulur; N model/explainer'in ayni anda
+# birikmesi (eski OOM'larin ana nedeni) engellenir.
 for (dataset_name in names(tasks)) {
   result <- tryCatch({
     task <- tasks[[dataset_name]]
     log_msg(paste("----- Veri seti basladi:", dataset_name, "-----"))
+    log_mem(paste0("[", dataset_name, "] veri seti basi"))
 
-    split  <- data_split(task)
-    models <- train_or_load_models(task, split, dataset_name, outputs_root)
+    split <- data_split(task)
 
-    if (length(models) == 0) {
-      log_msg(paste("UYARI: hicbir model egitilemedi, veri seti atlaniyor:", dataset_name))
-    } else {
-      perf_list <- lapply(names(models), function(nm) {
-        spec    <- learner_specs[[nm]]
-        out_dir <- file.path(outputs_root, spec$id, dataset_name)
-        perf <- tryCatch(
-          measure_performance(models[[nm]], task, split, spec$key),
+    target_names <- task$target_names
+    test_df <- as.data.frame(task$data(rows = split$test))
+    X      <- test_df |> select(-all_of(target_names))
+    y      <- task$truth(rows = split$test)
+    X_test <- X   # aciklanacak gozlemler (n_obs=15) hep tam test setinden secilir, degismedi
+
+    # NOT: Bu surumde zaman izgarasina (times) VE referans veriye (N/background)
+    # HIC dokunulmuyor - ikisi de TAM/varsayilan haliyle kullaniliyor. Tek
+    # degisiklik: her model icin explainer/PFI/SHAP hesaplanip HEMEN bellekten
+    # silinip (rm+gc) siradaki modele geciliyor - boylece ayni anda bellekte
+    # sadece 1 modelin verisi olur (eski OOM'larin sebebi: N modelin explainer'i
+    # ayni anda birikmesiydi).
+    set.seed(123)
+
+    pfi_tivm  <- list()
+    shap_tivm <- list()
+    cindex_list <- list()
+    basarisiz <- character(0)
+
+    for (nm in names(learner_specs)) {
+      spec    <- learner_specs[[nm]]
+      out_dir <- file.path(outputs_root, spec$id, dataset_name)
+      log_mem(paste0("[", dataset_name, "/", spec$id, "] model dongusu basi"))
+
+      # 1) Model: yukle ya da egit
+      model <- load_model_if_exists(out_dir)
+      if (is.null(model)) {
+        model <- tryCatch(
+          train_one_model(task, split, spec$key, spec$id, params = spec$params),
           error = function(e) {
-            log_msg(paste("HATA: performans hesaplanamadi -", spec$id, dataset_name, "-", conditionMessage(e)))
+            log_msg(paste("HATA: model egitilemedi -", spec$id, "-", conditionMessage(e)))
             NULL
           }
         )
-        if (!is.null(perf)) save_performance(perf, out_dir)
-        perf
-      })
-      names(perf_list) <- names(models)
+        if (!is.null(model)) save_model(model, out_dir)
+      }
 
-      pfi_tivm  <- list()
-      shap_tivm <- list()
+      if (is.null(model)) {
+        basarisiz <- c(basarisiz, nm)
+        next
+      }
+      log_mem(paste0("[", dataset_name, "/", spec$id, "] model hazir"))
 
-      needs_explainer <- character(0)
-      for (nm in names(models)) {
-        spec    <- learner_specs[[nm]]
-        out_dir <- file.path(outputs_root, spec$id, dataset_name)
-        vimp_path <- file.path(out_dir, "vimp_summary.csv")
-        shap_path <- file.path(out_dir, "shap_summary.csv")
-        vimp_done <- file.exists(vimp_path)
-        shap_done <- file.exists(shap_path)
+      # 2) Performans
+      perf <- tryCatch(
+        measure_performance(model, task, split, spec$key, params = spec$params),
+        error = function(e) {
+          log_msg(paste("HATA: performans hesaplanamadi -", spec$id, dataset_name, "-", conditionMessage(e)))
+          NULL
+        }
+      )
+      if (!is.null(perf)) {
+        save_performance(perf, out_dir)
+        cindex_list[[nm]] <- perf$surv.cindex
+      }
 
-        if (vimp_done) pfi_tivm[[nm]]  <- calculate_TIVM(read.csv(vimp_path))
-        if (shap_done) shap_tivm[[nm]] <- calculate_TIVM(read.csv(shap_path))
+      # 3) PFI + SHAP icin explainer gerekiyor mu kontrol et
+      vimp_path <- file.path(out_dir, "vimp_summary.csv")
+      shap_path <- file.path(out_dir, "shap_summary.csv")
+      vimp_done <- file.exists(vimp_path)
+      shap_done <- file.exists(shap_path)
 
-        if (!vimp_done || !shap_done) {
-          needs_explainer <- c(needs_explainer, nm)
-        } else {
-          log_msg(paste("PFI ve SHAP zaten tamam, explainer atlaniyor:", nm))
+      if (vimp_done) pfi_tivm[[nm]]  <- calculate_TIVM(read.csv(vimp_path))
+      if (shap_done) shap_tivm[[nm]] <- calculate_TIVM(read.csv(shap_path))
+
+      if (vimp_done && shap_done) {
+        log_msg(paste("PFI ve SHAP zaten tamam, explainer atlaniyor:", nm))
+        rm(model); gc()
+        log_mem(paste0("[", dataset_name, "/", spec$id, "] model silindi (PFI/SHAP zaten tamamdi)"))
+        next
+      }
+
+      # 4) Explainer - TAM veri (X, y), TAM zaman izgarasi ile, TEK SEFERDE kuruluyor.
+      #    N/m/max_iter'a dokunulmuyor, survex'in varsayilanlari aynen kullaniliyor.
+      time_grid_full <- sort(unique(y[, 1]))
+      explainer <- load_explainer_if_exists(out_dir)
+      if (is.null(explainer)) {
+        log_msg(paste("Explainer kuruluyor (tam veri, tam zaman izgarasi):", nm))
+        explainer <- tryCatch(
+          survex::explain(model, data = X, y = y, times = time_grid_full, label = nm),
+          error = function(e) {
+            log_msg(paste("HATA: explainer kurulamadi -", nm, "-", conditionMessage(e)))
+            NULL
+          }
+        )
+        if (!is.null(explainer)) save_explainer(explainer, out_dir)
+      }
+      log_mem(paste0("[", dataset_name, "/", spec$id, "] explainer hazir"))
+
+      if (is.null(explainer)) {
+        rm(model); gc()
+        next
+      }
+
+      # 5) PFI
+      if (!vimp_done) {
+        log_msg(paste("PFI hesaplaniyor:", nm))
+        vimp_obj <- tryCatch(
+          survex::model_parts(explainer),
+          error = function(e) {
+            log_msg(paste("HATA: PFI hesaplanamadi -", nm, "-", conditionMessage(e)))
+            NULL
+          }
+        )
+        log_mem(paste0("[", dataset_name, "/", spec$id, "] PFI sonrasi"))
+        if (!is.null(vimp_obj)) {
+          save_vimp(vimp_obj, out_dir)
+          summary_df <- calculate_vimp_summary(vimp_obj)
+          save_vimp_summary(summary_df, out_dir)
+          TIVM <- calculate_TIVM(summary_df)
+          pfi_tivm[[nm]] <- TIVM
+          log_msg(paste(nm, "- PFI TIVM:", round(TIVM, 4)))
+          rm(vimp_obj, summary_df)
         }
       }
 
-      if (length(needs_explainer) > 0) {
-        models_subset <- models[needs_explainer]
-        global <- global_explain(task, models_subset, split, dataset_name, outputs_root)
-        pfi_tivm_new <- save_all_vimp(models_subset, global$vimp_list, dataset_name, outputs_root)
-        for (nm in names(pfi_tivm_new)) pfi_tivm[[nm]] <- pfi_tivm_new[[nm]]
-
-        shap_tivm_new <- save_all_survshap(
-          task, models_subset, global$explainers, split,
-          dataset_name, outputs_root, n_obs = 15
+      # 6) SHAP - orijinal (parcasiz) fonksiyon, ayni explainer, n_obs=15 sabit.
+      if (!shap_done) {
+        log_msg(paste("SHAP hesaplaniyor:", nm))
+        shap_long <- tryCatch(
+          compute_survshap(explainer, X_test, out_dir, n_obs = 15),
+          error = function(e) {
+            log_msg(paste("HATA: SHAP hesaplanamadi -", nm, "-", conditionMessage(e)))
+            NULL
+          }
         )
-        for (nm in names(shap_tivm_new)) shap_tivm[[nm]] <- shap_tivm_new[[nm]]
+        log_mem(paste0("[", dataset_name, "/", spec$id, "] SHAP sonrasi"))
+        if (!is.null(shap_long)) {
+          shap_curve <- calculate_survshap_curve(shap_long)
+          shap_plot  <- plot_survshap(shap_curve)
+          save_plot(shap_plot, out_dir, "survshap_plot")
+
+          shap_summary <- calculate_vimp_summary_from_long(shap_curve)
+          write.csv(shap_summary, shap_path, row.names = FALSE)
+          log_msg(paste("SHAP ozeti kaydedildi:", shap_path))
+
+          TIVM <- calculate_TIVM(shap_summary)
+          shap_tivm[[nm]] <- TIVM
+          log_msg(paste(nm, "- SHAP TIVM:", round(TIVM, 4)))
+          rm(shap_long, shap_curve, shap_summary)
+        }
       }
 
-      for (nm in names(models)) {
-        model_id <- learner_specs[[nm]]$id
-        cindex   <- if (!is.null(perf_list[[nm]])) perf_list[[nm]]$surv.cindex else NA
-        log_msg(paste0(
-          "===== BITTI: ", dataset_name, " + ", model_id,
-          " - cindex: ", fmt(cindex, 3),
-          " - PFI TIVM: ", fmt(pfi_tivm[[nm]]),
-          " - SHAP TIVM: ", fmt(shap_tivm[[nm]]),
-          " ====="
-        ))
-      }
+      # 7) Bu modelin tum verisini (model + explainer) bellekten sil, siradaki modele gec
+      rm(model, explainer)
+      gc()
+      log_mem(paste0("[", dataset_name, "/", spec$id, "] model+explainer silindi, dongu sonu"))
     }
+
+    if (length(basarisiz) > 0) {
+      log_msg(paste("UYARI: su modeller basarisiz oldu, analiz disi birakildi:",
+                    paste(basarisiz, collapse = ", ")))
+    }
+
+    for (nm in names(learner_specs)) {
+      if (nm %in% basarisiz) next
+      model_id <- learner_specs[[nm]]$id
+      cindex   <- cindex_list[[nm]]
+      log_msg(paste0(
+        "===== BITTI: ", dataset_name, " + ", model_id,
+        " - cindex: ", fmt(cindex, 3),
+        " - PFI TIVM: ", fmt(pfi_tivm[[nm]]),
+        " - SHAP TIVM: ", fmt(shap_tivm[[nm]]),
+        " ====="
+      ))
+    }
+
     log_msg(paste("----- Veri seti bitti:", dataset_name, "-----"))
     TRUE
   }, error = function(e) {
