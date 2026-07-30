@@ -1,9 +1,9 @@
 # 04_performance.R
-measure_performance <- function(model, task, split, model_id) {
+measure_performance <- function(model, task, split, model_id, params = NULL) {
   log_msg(paste("Performans hesaplama basladi:", model_id))
-  
+
   preds <- model$predict(task, row_ids = split$test)
-  
+
   get_score <- function(key, ...) {
     tryCatch(
       as.numeric(preds$score(msr(key), task = task, ...))[1],
@@ -13,11 +13,15 @@ measure_performance <- function(model, task, split, model_id) {
       }
     )
   }
-  
+
   response_metrics <- tryCatch({
+    response_base_learner <- lrn(model_id, id = paste0(model_id, "_response"))
+    if (!is.null(params) && length(params) > 0) {
+      response_base_learner$param_set$set_values(.values = params)
+    }
     response_learner <- mlr3pipelines::ppl(
       "responsecompositor",
-      learner       = lrn(model_id, id = paste0(model_id, "_response")),
+      learner       = response_base_learner,
       method        = "median",
       overwrite     = TRUE,
       graph_learner = TRUE
