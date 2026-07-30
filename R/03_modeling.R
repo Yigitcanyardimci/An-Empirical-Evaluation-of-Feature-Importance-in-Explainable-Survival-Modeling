@@ -202,17 +202,29 @@ learner_specs <- list(
   cv_glmnet_model   = list(key = "surv.cv_glmnet",    id = "cv_glmnet"),
   glmboost_model    = list(key = "surv.glmboost",     id = "glmboost"),
   glmnet_model      = list(key = "surv.glmnet",       id = "glmnet"),
-  penalized_model   = list(key = "surv.penalized",    id = "penalized"),
+  penalized_model   = list(key = "surv.penalized",    id = "penalized",
+                            # lambda2=0 varsayilaniyla, mukerrer/tam iliskili
+                            # degiskenler iceren veri setlerinde (orn. d_oropha_rec)
+                            # Hessian matrisi tekil hale gelip "Matrix inversion
+                            # failed" hatasi veriyordu. Hafif bir ridge (L2) cezasi
+                            # matrisi tersine cevrilebilir hale getirir - veriye
+                            # dokunmadan, tum veri setlerinde tutarli bir cozum.
+                            params = list(lambda2 = 1)),
   ranger_model      = list(key = "surv.ranger",       id = "ranger"),
   rfsrc_model       = list(key = "surv.rfsrc",        id = "rfsrc"),
   xgboost_cox_model = list(key = "surv.xgboost.cox",  id = "xgboost_cox")
 )
 
-train_one_model <- function(task, split, learner_key, learner_id) {
+train_one_model <- function(task, split, learner_key, learner_id, params = NULL) {
   log_msg(paste("Model egitimi basladi (", learner_id, ")"))
   set.seed(123)
   model <- lrn(learner_key, id = learner_id)
-  
+  if (!is.null(params) && length(params) > 0) {
+    model$param_set$set_values(.values = params)
+    log_msg(paste("Ozel parametreler uygulandi (", learner_id, "):",
+                   paste(names(params), params, sep = "=", collapse = ", ")))
+  }
+
   if ("distr" %in% model$predict_types) {
     model$predict_type <- "distr"
   } else {
