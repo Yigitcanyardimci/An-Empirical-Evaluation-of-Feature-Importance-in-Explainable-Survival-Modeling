@@ -42,6 +42,22 @@ for (dataset_name in names(tasks)) {
     log_msg(paste("----- Veri seti basladi:", dataset_name, "-----"))
     log_mem(paste0("[", dataset_name, "] veri seti basi"))
 
+    # NOT: Genel olarak N/m/max_iter'a dokunulmuyor. TEK ISTISNA: buyuk/yavas
+    # 4 veri seti (nwtco, dataDIVAT3, Framingham, flchain) icin TUM veri seti
+    # (model egitimi dahil) en bastan 1/3'e rastgele orneklenir - bu, kullanicinin
+    # acikca onayladigi, standart "N/m/max_iter'a dokunma" kuralinin bilinçli bir
+    # istisnasidir (sadece bu 4 veri seti icin, sadece hiz amacli).
+    kucultulecek_veri_setleri <- c("nwtco", "dataDIVAT3", "Framingham", "flchain")
+    set.seed(123)
+    if (dataset_name %in% kucultulecek_veri_setleri) {
+      n_orig <- task$nrow
+      n_new  <- max(10, round(n_orig / 3))
+      keep_rows <- sample(task$row_ids, n_new)
+      task <- task$clone()$filter(keep_rows)
+      log_msg(paste0("Buyuk veri seti en bastan 1/3'e indirildi: ",
+                     n_orig, " -> ", n_new, " satir"))
+    }
+
     split <- data_split(task)
 
     target_names <- task$target_names
@@ -49,14 +65,6 @@ for (dataset_name in names(tasks)) {
     X      <- test_df |> select(-all_of(target_names))
     y      <- task$truth(rows = split$test)
     X_test <- X   # aciklanacak gozlemler (n_obs=15) hep tam test setinden secilir, degismedi
-
-    # NOT: Bu surumde zaman izgarasina (times) VE referans veriye (N/background)
-    # HIC dokunulmuyor - ikisi de TAM/varsayilan haliyle kullaniliyor. Tek
-    # degisiklik: her model icin explainer/PFI/SHAP hesaplanip HEMEN bellekten
-    # silinip (rm+gc) siradaki modele geciliyor - boylece ayni anda bellekte
-    # sadece 1 modelin verisi olur (eski OOM'larin sebebi: N modelin explainer'i
-    # ayni anda birikmesiydi).
-    set.seed(123)
 
     pfi_tivm  <- list()
     shap_tivm <- list()
