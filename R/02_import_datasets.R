@@ -449,7 +449,8 @@ flchain_data <- flchain_raw |>
     fac_sex       = as.numeric(as.factor(fac_sex)),
     fac_chapter   = as.numeric(as.factor(fac_chapter)),
     fac_sample_yr = as.numeric(as.factor(fac_sample_yr)),
-    fac_mgus      = as.numeric(as.factor(fac_mgus))
+    fac_mgus      = as.numeric(as.factor(fac_mgus)),
+    time = ifelse(time == 0, 1e-5, time)
   ) |>
   select(-pid) |>
   na.omit()
