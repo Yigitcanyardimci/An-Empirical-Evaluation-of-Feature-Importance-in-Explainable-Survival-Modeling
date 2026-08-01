@@ -47,7 +47,7 @@ for (dataset_name in names(tasks)) {
     # (model egitimi dahil) en bastan 1/3'e rastgele orneklenir - bu, kullanicinin
     # acikca onayladigi, standart "N/m/max_iter'a dokunma" kuralinin bilinçli bir
     # istisnasidir (sadece bu 4 veri seti icin, sadece hiz amacli).
-    kucultulecek_veri_setleri <- c("nwtco", "dataDIVAT3", "Framingham", "flchain")
+    kucultulecek_veri_setleri <- c("nwtco", "dataDIVAT3", "Framingham", "flchain", "rott2")
     set.seed(123)
     if (dataset_name %in% kucultulecek_veri_setleri) {
       n_orig <- task$nrow
