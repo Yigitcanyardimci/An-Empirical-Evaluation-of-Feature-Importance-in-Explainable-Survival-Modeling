@@ -1,0 +1,2 @@
+"model","surv.cindex","surv.dcalib","surv.brier","surv.graf","surv.logloss","surv.mae","surv.mse"
+"surv.cv_glmnet",0.712503612041473,2.44847109692859,0.140330332864158,0.140330332864158,6.17378829724556,32.9318152272727,1314.34061545458
