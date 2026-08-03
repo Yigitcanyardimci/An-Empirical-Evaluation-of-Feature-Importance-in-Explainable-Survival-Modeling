@@ -12,6 +12,14 @@ source("R/03_modeling.R")
 source("R/04_performance.R")
 source("R/05_global_explain.R")
 source("R/06_shap_analysis.R")
+source("R/penalized_manual_fix.R")
+
+# penalized paketinin kendi predict() fonksiyonunda, merkezlenmemis lp'den
+# kaynaklanan bir bug var (bkz. R/penalized_manual_fix.R basindaki not) -
+# TUM hastalar icin ayni (dejenere) sagkalim egrisi donduruyor, cindex=0.5
+# oluyor. Bu SADECE su 3 veri setinde (dataDIVAT3, melanoma, rott2) gozlemlendi
+# ve dogrulandi; elle Breslow taban tahmincisi kurarak duzeltiliyor.
+penalized_manuel_veri_setleri <- c("dataDIVAT3", "melanoma", "rott2")
 
 fmt <- function(x, d = 4) {
   if (is.null(x) || length(x) == 0 || is.na(x)) return("NA")
@@ -47,7 +55,7 @@ for (dataset_name in names(tasks)) {
     # (model egitimi dahil) en bastan 1/3'e rastgele orneklenir - bu, kullanicinin
     # acikca onayladigi, standart "N/m/max_iter'a dokunma" kuralinin bilinçli bir
     # istisnasidir (sadece bu 4 veri seti icin, sadece hiz amacli).
-    kucultulecek_veri_setleri <- c("nwtco", "dataDIVAT3", "Framingham", "flchain", "rott2")
+    kucultulecek_veri_setleri <- c("nwtco", "dataDIVAT3", "Framingham", "flchain")
     set.seed(123)
     if (dataset_name %in% kucultulecek_veri_setleri) {
       n_orig <- task$nrow
@@ -95,9 +103,30 @@ for (dataset_name in names(tasks)) {
       }
       log_mem(paste0("[", dataset_name, "/", spec$id, "] model hazir"))
 
+      # 1b) penalized paketinin predict() bug'i icin manuel Breslow taban
+      #     tahmincisi (sadece etkilenen 3 veri setinde, sadece penalized modeli icin)
+      penalized_baseline <- NULL
+      if (spec$id == "penalized" && dataset_name %in% penalized_manuel_veri_setleri) {
+        train_task_pen <- task$clone()$filter(split$train)
+        penalized_baseline <- tryCatch(
+          penalized_build_baseline(model$model$model, train_task_pen),
+          error = function(e) {
+            log_msg(paste("HATA: penalized manuel baseline kurulamadi -", dataset_name, "-", conditionMessage(e)))
+            NULL
+          }
+        )
+        if (!is.null(penalized_baseline)) {
+          log_msg(paste("penalized icin manuel Breslow taban tahmincisi kuruldu (predict() bug duzeltmesi):", dataset_name))
+        }
+      }
+
       # 2) Performans
       perf <- tryCatch(
-        measure_performance(model, task, split, spec$key, params = spec$params),
+        if (!is.null(penalized_baseline)) {
+          measure_performance_penalized_manual(model$model$model, task, split, spec$key, penalized_baseline)
+        } else {
+          measure_performance(model, task, split, spec$key, params = spec$params)
+        },
         error = function(e) {
           log_msg(paste("HATA: performans hesaplanamadi -", spec$id, dataset_name, "-", conditionMessage(e)))
           NULL
@@ -131,7 +160,14 @@ for (dataset_name in names(tasks)) {
       if (is.null(explainer)) {
         log_msg(paste("Explainer kuruluyor (tam veri, tam zaman izgarasi):", nm))
         explainer <- tryCatch(
-          survex::explain(model, data = X, y = y, times = time_grid_full, label = nm),
+          if (!is.null(penalized_baseline)) {
+            survex::explain(model, data = X, y = y, times = time_grid_full, label = nm,
+                             predict_survival_function = make_penalized_survival_fn(penalized_baseline),
+                             predict_function = make_penalized_crank_fn(penalized_baseline),
+                             verbose = FALSE)
+          } else {
+            survex::explain(model, data = X, y = y, times = time_grid_full, label = nm)
+          },
           error = function(e) {
             log_msg(paste("HATA: explainer kurulamadi -", nm, "-", conditionMessage(e)))
             NULL
