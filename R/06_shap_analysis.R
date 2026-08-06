@@ -1,8 +1,14 @@
 # 06_shap_analysis.R
 compute_survshap <- function(explainer, X_test, out_dir, n_obs = 15) {
   dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
-  path <- file.path(out_dir, "shap_long.csv")
-  partial_path <- file.path(out_dir, "shap_long_partial.csv")
+  # n_obs=15 icin dosya adlari eskisiyle birebir ayni (bu dosyalar hicbir
+  # zaman silinmez/uzerine yazilmaz). n_obs != 15 icin "_n<n_obs>" ekli
+  # AYRI dosyalar kullanilir (orn. shap_long_n50.csv), n=15 sonuclarinin
+  # yanina eklenir.
+  suffix       <- if (n_obs == 15) "" else paste0("_n", n_obs)
+  path         <- file.path(out_dir, paste0("shap_long", suffix, ".csv"))
+  partial_path <- file.path(out_dir, paste0("shap_long", suffix, "_partial.csv"))
+  seed_path    <- file.path(out_dir, "shap_long.csv")
 
   if (file.exists(path)) {
     log_msg(paste("Kaydedilmis SHAP bulundu, okunuyor:", path))
@@ -11,6 +17,19 @@ compute_survshap <- function(explainer, X_test, out_dir, n_obs = 15) {
 
   n_obs      <- min(n_obs, nrow(X_test))
   obs_subset <- X_test[seq_len(n_obs), , drop = FALSE]
+
+  # X_test'in ilk n_obs satiri deterministik oldugu icin, n=15 icin daha once
+  # hesaplanmis sonuc (seed_path) birebir gecerli bir alt kumedir - SILINMEDEN
+  # sadece okunup kismi dosyaya kopyalanir, boylece 1-15 arasi gozlemler
+  # tekrar hesaplanmaz.
+  if (n_obs > 15 && !file.exists(partial_path) && file.exists(seed_path)) {
+    seed_df <- tryCatch(read.csv(seed_path, check.names = FALSE), error = function(e) NULL)
+    if (!is.null(seed_df) && "obs_id" %in% names(seed_df)) {
+      write.table(seed_df, partial_path, sep = ",", row.names = FALSE, col.names = TRUE, append = FALSE)
+      log_msg(paste("Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi):",
+                    length(unique(seed_df$obs_id)), "gozlem"))
+    }
+  }
 
   done_obs <- integer(0)
   if (file.exists(partial_path)) {

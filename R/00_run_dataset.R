@@ -1,7 +1,11 @@
 args <- commandArgs(trailingOnly = TRUE)
-if (length(args) < 1) stop("Kullanim: Rscript R/00_run_dataset.R <dataset_adi> [model1,model2,...]")
+if (length(args) < 1) stop("Kullanim: Rscript R/00_run_dataset.R <dataset_adi> [model1,model2,...] [n_obs]")
 dataset_name_arg <- args[1]
-models_arg <- if (length(args) >= 2) strsplit(args[2], ",")[[1]] else NULL
+models_arg <- if (length(args) >= 2 && nzchar(args[2])) strsplit(args[2], ",")[[1]] else NULL
+# n_obs: SHAP hesaplanacak gozlem sayisi. Varsayilan 15 (eski davranisla
+# birebir ayni). Farkli bir n_obs verilirse, SHAP sonuclari n=15 dosyalarina
+# DOKUNMADAN ayri "_n<n_obs>" dosyalarina yazilir (bkz. R/06_shap_analysis.R).
+shap_n_obs <- if (length(args) >= 3 && nzchar(args[3])) as.integer(args[3]) else 15
 
 dir.create("logs", showWarnings = FALSE)
 LOG_FILE <- file.path("logs", paste0(dataset_name_arg, ".log"))
@@ -138,8 +142,12 @@ for (dataset_name in names(tasks)) {
       }
 
       # 3) PFI + SHAP icin explainer gerekiyor mu kontrol et
+      # shap_n_obs=15 icin dosya adi eskisiyle birebir ayni (shap_summary.csv,
+      # hicbir zaman silinmez/uzerine yazilmaz). Farkli n_obs icin "_n<n_obs>"
+      # ekli AYRI bir dosya kullanilir (orn. shap_summary_n50.csv).
+      shap_suffix <- if (shap_n_obs == 15) "" else paste0("_n", shap_n_obs)
       vimp_path <- file.path(out_dir, "vimp_summary.csv")
-      shap_path <- file.path(out_dir, "shap_summary.csv")
+      shap_path <- file.path(out_dir, paste0("shap_summary", shap_suffix, ".csv"))
       vimp_done <- file.exists(vimp_path)
       shap_done <- file.exists(shap_path)
 
@@ -221,11 +229,11 @@ for (dataset_name in names(tasks)) {
         }
       }
 
-      # 6) SHAP - orijinal (parcasiz) fonksiyon, ayni explainer, n_obs=15 sabit.
+      # 6) SHAP - orijinal (parcasiz) fonksiyon, ayni explainer, n_obs = shap_n_obs.
       if (!shap_done) {
-        log_msg(paste("SHAP hesaplaniyor:", nm))
+        log_msg(paste("SHAP hesaplaniyor:", nm, "- n_obs =", shap_n_obs))
         shap_long <- tryCatch(
-          compute_survshap(explainer, X_test, out_dir, n_obs = 15),
+          compute_survshap(explainer, X_test, out_dir, n_obs = shap_n_obs),
           error = function(e) {
             log_msg(paste("HATA: SHAP hesaplanamadi -", nm, "-", conditionMessage(e)))
             NULL
@@ -235,7 +243,7 @@ for (dataset_name in names(tasks)) {
         if (!is.null(shap_long)) {
           shap_curve <- calculate_survshap_curve(shap_long)
           shap_plot  <- plot_survshap(shap_curve)
-          save_plot(shap_plot, out_dir, "survshap_plot")
+          save_plot(shap_plot, out_dir, paste0("survshap_plot", shap_suffix))
 
           shap_summary <- calculate_vimp_summary_from_long(shap_curve)
           write.csv(shap_summary, shap_path, row.names = FALSE)

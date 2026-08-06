@@ -5509,3 +5509,37 @@ This happened in PipeOp responsecompose's $predict()
 [2026-07-21 13:51:47] SHAP hesaplama basladi, n_obs = 15 
 [2026-07-21 14:04:36] SHAP - gozlem 5 / 15 
 [2026-07-21 14:20:43] SHAP - gozlem 10 / 15 
+[2026-08-06 12:50:50] Paket kurulumu basladi 
+[2026-08-06 12:50:50] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-06 12:50:52] Eksik paketler kuruluyor: dplyr, tidyr, mlr3, mlr3pipelines, survex, ggplot2, remotes 
+[2026-08-06 12:52:00] Paket kurulumu basladi 
+[2026-08-06 12:52:00] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-06 12:52:01] Eksik paketler kuruluyor: dplyr, tidyr, mlr3, mlr3pipelines, survex, ggplot2, remotes 
+[2026-08-06 13:13:28] mlr3proba GitHub'dan kuruluyor 
+[2026-08-06 13:17:10] mlr3extralearners GitHub'dan kuruluyor 
+[2026-08-06 13:22:36] Paket kurulumu basladi 
+[2026-08-06 13:22:36] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-06 13:22:38] Eksik paketler kuruluyor: dplyr, tidyr, mlr3, mlr3pipelines, survex, ggplot2 
+[2026-08-06 13:29:07] mlr3proba GitHub'dan kuruluyor 
+[2026-08-06 14:32:16] Paket kurulumu basladi 
+[2026-08-06 14:32:16] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-06 14:32:18] Eksik paketler kuruluyor: dplyr, tidyr, mlr3, mlr3pipelines, survex, ggplot2 
+[2026-08-06 14:32:53] mlr3proba GitHub'dan kuruluyor 
+[2026-08-06 14:33:14] mlr3extralearners GitHub'dan kuruluyor 
+[2026-08-06 14:33:52] CoxBoost GitHub'dan kuruluyor 
+[2026-08-06 14:39:11] Paket kurulumu basladi 
+[2026-08-06 14:39:11] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-06 14:39:14] Eksik paketler kuruluyor: dplyr, tidyr, mlr3, mlr3pipelines, survex, ggplot2 
+[2026-08-06 14:40:00] mlr3proba GitHub'dan kuruluyor 
+[2026-08-06 14:40:20] mlr3extralearners GitHub'dan kuruluyor 
+[2026-08-06 14:51:31] Paket kurulumu basladi 
+[2026-08-06 14:51:31] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-06 14:51:33] Eksik paketler kuruluyor: dplyr, tidyr, mlr3, mlr3pipelines, survex, ggplot2, remotes 
+[2026-08-06 15:28:37] mlr3proba GitHub'dan kuruluyor 
+[2026-08-06 16:32:27] Paket kurulumu basladi 
+[2026-08-06 16:32:27] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-06 16:32:31] mlr3proba GitHub'dan kuruluyor 
+[2026-08-06 16:35:15] mlr3extralearners GitHub'dan kuruluyor 
+[2026-08-06 16:36:56] CoxBoost GitHub'dan kuruluyor 
+[2026-08-06 16:37:07] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-08-06 17:09:14] Paket kurulumu tamamlandi 
