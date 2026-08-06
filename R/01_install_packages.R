@@ -5,6 +5,19 @@ log_msg <- function(msg) {
   cat(satir, "\n")
   cat(satir, "\n", file = LOG_FILE, append = TRUE)
 }
+
+log_mem <- function(label = "") {
+  rss_gb <- tryCatch({
+    status <- readLines("/proc/self/status")
+    line <- grep("^VmRSS:", status, value = TRUE)
+    kb <- as.numeric(gsub("[^0-9]", "", line))
+    round(kb / 1024 / 1024, 3)
+  }, error = function(e) NA)
+  gc_info <- gc(verbose = FALSE)
+  r_heap_gb <- round(sum(gc_info[, 2]) / 1024, 3)
+  log_msg(paste0("[BELLEK] ", label, " - Sistem RSS: ", rss_gb, " GB | R heap (gc): ", r_heap_gb, " GB"))
+}
+
 log_msg("Paket kurulumu basladi")
 
 if (file.exists("renv.lock")) {
