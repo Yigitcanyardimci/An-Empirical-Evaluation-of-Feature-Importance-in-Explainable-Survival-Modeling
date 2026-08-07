@@ -794,3 +794,445 @@
 [2026-08-06 19:47:17] ===== BITTI: cancer + cox - cindex: 0.56 - PFI TIVM: 0.0053 - SHAP TIVM: 0.0044 ===== 
 [2026-08-06 19:47:17] ----- Veri seti bitti: cancer ----- 
 [2026-08-06 19:47:17] ===== RUN ( cancer ) TAMAMLANDI ===== 
+[2026-08-06 19:56:06] Paket kurulumu basladi 
+[2026-08-06 19:56:06] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-06 19:56:11] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-08-06 19:56:13] Paket kurulumu tamamlandi 
+[2026-08-06 19:56:14] Veri okuma basladi: grace 
+[2026-08-06 19:56:14] Veri okuma bitti: grace - 1000 satir, 7 sutun 
+[2026-08-06 19:56:14] Veri okuma basladi: melanoma 
+[2026-08-06 19:56:14] Veri okuma bitti: melanoma - 205 satir, 7 sutun 
+[2026-08-06 19:56:14] Veri okuma basladi: ova 
+[2026-08-06 19:56:14] Veri okuma bitti: ova - 358 satir, 7 sutun 
+[2026-08-06 19:56:14] Veri okuma basladi: aids2 
+[2026-08-06 19:56:14] Veri okuma bitti: aids2 - 2839 satir, 6 sutun 
+[2026-08-06 19:56:14] Veri okuma basladi: veteran 
+[2026-08-06 19:56:14] Veri okuma bitti: veteran - 137 satir, 8 sutun 
+[2026-08-06 19:56:14] Veri okuma basladi: breast 
+[2026-08-06 19:56:14] Veri okuma bitti: breast - 100 satir, 6 sutun 
+[2026-08-06 19:56:14] Veri okuma basladi: e1684 
+[2026-08-06 19:56:14] Veri okuma bitti: e1684 - 284 satir, 5 sutun 
+[2026-08-06 19:56:14] Veri okuma basladi: epileptic 
+[2026-08-06 19:56:14] Veri okuma bitti: epileptic - 1286 satir, 8 sutun 
+[2026-08-06 19:56:14] Veri okuma basladi: dialysis 
+[2026-08-06 19:56:14] Veri okuma bitti: dialysis - 6805 satir, 6 sutun 
+[2026-08-06 19:56:14] Veri okuma basladi: pbc 
+[2026-08-06 19:56:14] Veri okuma bitti: pbc - 312 satir, 8 sutun 
+[2026-08-06 19:56:14] Veri okuma basladi: prostateSurvival 
+[2026-08-06 19:56:14] Veri okuma bitti: prostateSurvival - 14294 satir, 5 sutun 
+[2026-08-06 19:56:14] Veri okuma basladi: acath 
+[2026-08-06 19:56:14] Veri okuma bitti: acath - 2258 satir, 5 sutun 
+[2026-08-06 19:56:14] Veri okuma basladi: prostate 
+[2026-08-06 19:56:15] Veri okuma bitti: prostate - 475 satir, 17 sutun 
+[2026-08-06 19:56:15] Veri okuma basladi: dataDIVAT1 
+[2026-08-06 19:56:15] Veri okuma bitti: dataDIVAT1 - 5943 satir, 7 sutun 
+[2026-08-06 19:56:15] Veri okuma basladi: dataDIVAT3 
+[2026-08-06 19:56:15] Veri okuma bitti: dataDIVAT3 - 4267 satir, 9 sutun 
+[2026-08-06 19:56:15] Veri okuma basladi: TRACE 
+[2026-08-06 19:56:15] Veri okuma bitti: TRACE - 1878 satir, 8 sutun 
+[2026-08-06 19:56:15] Veri okuma basladi: FRTCS 
+[2026-08-06 19:56:15] Veri okuma bitti: FRTCS - 2088 satir, 7 sutun 
+[2026-08-06 19:56:15] Veri okuma basladi: zinc 
+[2026-08-06 19:56:15] Veri okuma bitti: zinc - 431 satir, 15 sutun 
+[2026-08-06 19:56:15] Veri okuma basladi: stagec 
+[2026-08-06 19:56:15] Veri okuma bitti: stagec - 136 satir, 9 sutun 
+[2026-08-06 19:56:15] Veri okuma basladi: LeukSurv 
+[2026-08-06 19:56:15] Veri okuma bitti: LeukSurv - 1043 satir, 9 sutun 
+[2026-08-06 19:56:15] Veri okuma basladi: nwtco 
+[2026-08-06 19:56:15] Veri okuma bitti: nwtco - 4028 satir, 9 sutun 
+[2026-08-06 19:56:15] Veri okuma basladi: retinopathy 
+[2026-08-06 19:56:15] Veri okuma bitti: retinopathy - 394 satir, 9 sutun 
+[2026-08-06 19:56:15] Veri okuma basladi: Framingham 
+[2026-08-06 19:56:15] Veri okuma bitti: Framingham - 4658 satir, 9 sutun 
+[2026-08-06 19:56:15] Veri okuma basladi: csl 
+[2026-08-06 19:56:15] Veri okuma bitti: csl - 2481 satir, 8 sutun 
+[2026-08-06 19:56:15] Veri okuma basladi: cancer 
+[2026-08-06 19:56:15] Veri okuma bitti: cancer - 169 satir, 10 sutun 
+[2026-08-06 19:56:15] Veri okuma basladi: whas500 
+[2026-08-06 19:56:15] Veri okuma bitti: whas500 - 461 satir, 18 sutun 
+[2026-08-06 19:56:15] Veri okuma basladi: cgd 
+[2026-08-06 19:56:15] Veri okuma bitti: cgd - 128 satir, 12 sutun 
+[2026-08-06 19:56:15] Veri okuma basladi: Pbc3 
+[2026-08-06 19:56:15] Veri okuma bitti: Pbc3 - 327 satir, 14 sutun 
+[2026-08-06 19:56:15] Veri okuma basladi: GBSG2 
+[2026-08-06 19:56:16] Veri okuma bitti: GBSG2 - 686 satir, 10 sutun 
+[2026-08-06 19:56:16] Veri okuma basladi: colon 
+[2026-08-06 19:56:16] Veri okuma bitti: colon - 911 satir, 11 sutun 
+[2026-08-06 19:56:16] Veri okuma basladi: flchain 
+[2026-08-06 19:56:16] Veri okuma bitti: flchain - 6524 satir, 12 sutun 
+[2026-08-06 19:56:16] Veri okuma basladi: Rossi 
+[2026-08-06 19:56:16] Veri okuma bitti: Rossi - 1405 satir, 11 sutun 
+[2026-08-06 19:56:16] Veri okuma basladi: burn 
+[2026-08-06 19:56:16] Veri okuma bitti: burn - 154 satir, 13 sutun 
+[2026-08-06 19:56:16] Veri okuma basladi: rott2 
+[2026-08-06 19:56:16] Veri okuma bitti: rott2 - 2982 satir, 13 sutun 
+[2026-08-06 19:56:16] Veri okuma basladi: d_oropha_rec 
+[2026-08-06 19:56:16] Veri okuma bitti: d_oropha_rec - 192 satir, 14 sutun 
+[2026-08-06 19:56:16] Veri okuma basladi: rdata 
+[2026-08-06 19:56:16] Veri okuma bitti: rdata - 1040 satir, 6 sutun 
+[2026-08-06 19:56:16] Task olusturuluyor: grace_task 
+[2026-08-06 19:56:16] Task olusturuldu: grace_task 
+[2026-08-06 19:56:16] Task olusturuluyor: melanoma_task 
+[2026-08-06 19:56:16] Task olusturuldu: melanoma_task 
+[2026-08-06 19:56:16] Task olusturuluyor: ova_task 
+[2026-08-06 19:56:16] Task olusturuldu: ova_task 
+[2026-08-06 19:56:16] Task olusturuluyor: aids2_task 
+[2026-08-06 19:56:16] Task olusturuldu: aids2_task 
+[2026-08-06 19:56:16] Task olusturuluyor: veteran_task 
+[2026-08-06 19:56:16] Task olusturuldu: veteran_task 
+[2026-08-06 19:56:16] Task olusturuluyor: breast_task 
+[2026-08-06 19:56:16] Task olusturuldu: breast_task 
+[2026-08-06 19:56:16] Task olusturuluyor: e1684_task 
+[2026-08-06 19:56:16] Task olusturuldu: e1684_task 
+[2026-08-06 19:56:16] Task olusturuluyor: epileptic_task 
+[2026-08-06 19:56:16] Task olusturuldu: epileptic_task 
+[2026-08-06 19:56:16] Task olusturuluyor: dialysis_task 
+[2026-08-06 19:56:16] Task olusturuldu: dialysis_task 
+[2026-08-06 19:56:16] Task olusturuluyor: pbc_task 
+[2026-08-06 19:56:16] Task olusturuldu: pbc_task 
+[2026-08-06 19:56:16] Task olusturuluyor: prostateSurvival_task 
+[2026-08-06 19:56:16] Task olusturuldu: prostateSurvival_task 
+[2026-08-06 19:56:16] Task olusturuluyor: acath_task 
+[2026-08-06 19:56:16] Task olusturuldu: acath_task 
+[2026-08-06 19:56:16] Task olusturuluyor: prostate_task 
+[2026-08-06 19:56:16] Task olusturuldu: prostate_task 
+[2026-08-06 19:56:16] Task olusturuluyor: dataDIVAT1_task 
+[2026-08-06 19:56:16] Task olusturuldu: dataDIVAT1_task 
+[2026-08-06 19:56:16] Task olusturuluyor: dataDIVAT3_task 
+[2026-08-06 19:56:16] Task olusturuldu: dataDIVAT3_task 
+[2026-08-06 19:56:16] Task olusturuluyor: TRACE_task 
+[2026-08-06 19:56:16] Task olusturuldu: TRACE_task 
+[2026-08-06 19:56:16] Task olusturuluyor: FRTCS_task 
+[2026-08-06 19:56:16] Task olusturuldu: FRTCS_task 
+[2026-08-06 19:56:16] Task olusturuluyor: zinc_task 
+[2026-08-06 19:56:16] Task olusturuldu: zinc_task 
+[2026-08-06 19:56:16] Task olusturuluyor: stagec_task 
+[2026-08-06 19:56:16] Task olusturuldu: stagec_task 
+[2026-08-06 19:56:16] Task olusturuluyor: LeukSurv_task 
+[2026-08-06 19:56:16] Task olusturuldu: LeukSurv_task 
+[2026-08-06 19:56:16] Task olusturuluyor: nwtco_task 
+[2026-08-06 19:56:16] Task olusturuldu: nwtco_task 
+[2026-08-06 19:56:16] Task olusturuluyor: retinopathy_task 
+[2026-08-06 19:56:16] Task olusturuldu: retinopathy_task 
+[2026-08-06 19:56:16] Task olusturuluyor: Framingham_task 
+[2026-08-06 19:56:16] Task olusturuldu: Framingham_task 
+[2026-08-06 19:56:16] Task olusturuluyor: csl_task 
+[2026-08-06 19:56:16] Task olusturuldu: csl_task 
+[2026-08-06 19:56:16] Task olusturuluyor: cancer_task 
+[2026-08-06 19:56:16] Task olusturuldu: cancer_task 
+[2026-08-06 19:56:16] Task olusturuluyor: whas500_task 
+[2026-08-06 19:56:16] Task olusturuldu: whas500_task 
+[2026-08-06 19:56:16] Task olusturuluyor: cgd_task 
+[2026-08-06 19:56:16] Task olusturuldu: cgd_task 
+[2026-08-06 19:56:16] Task olusturuluyor: Pbc3_task 
+[2026-08-06 19:56:16] Task olusturuldu: Pbc3_task 
+[2026-08-06 19:56:16] Task olusturuluyor: GBSG2_task 
+[2026-08-06 19:56:16] Task olusturuldu: GBSG2_task 
+[2026-08-06 19:56:16] Task olusturuluyor: colon_task 
+[2026-08-06 19:56:16] Task olusturuldu: colon_task 
+[2026-08-06 19:56:16] Task olusturuluyor: flchain_task 
+[2026-08-06 19:56:16] Task olusturuldu: flchain_task 
+[2026-08-06 19:56:16] Task olusturuluyor: Rossi_task 
+[2026-08-06 19:56:16] Task olusturuldu: Rossi_task 
+[2026-08-06 19:56:16] Task olusturuluyor: burn_task 
+[2026-08-06 19:56:16] Task olusturuldu: burn_task 
+[2026-08-06 19:56:16] Task olusturuluyor: rott2_task 
+[2026-08-06 19:56:16] Task olusturuldu: rott2_task 
+[2026-08-06 19:56:16] Task olusturuluyor: d_oropha_rec_task 
+[2026-08-06 19:56:16] Task olusturuldu: d_oropha_rec_task 
+[2026-08-06 19:56:16] Task olusturuluyor: rdata_task 
+[2026-08-06 19:56:16] Task olusturuldu: rdata_task 
+[2026-08-06 19:56:16] Toplam 36 task olusturuldu 
+[2026-08-06 19:56:16] ===== RUN ( cancer ) BASLADI: 11 model ===== 
+[2026-08-06 19:56:17] ----- Veri seti basladi: cancer ----- 
+[2026-08-06 19:56:17] [BELLEK] [cancer] veri seti basi - Sistem RSS: 0.475 GB | R heap (gc): 0.266 GB 
+[2026-08-06 19:56:17] Split basladi (ratio = 0.7 ) 
+[2026-08-06 19:56:17] Split bitti - train: 118 test: 51 
+[2026-08-06 19:56:17] [BELLEK] [cancer/aorsf] model dongusu basi - Sistem RSS: 0.475 GB | R heap (gc): 0.268 GB 
+[2026-08-06 19:56:17] Kaydedilmis model bulundu, okunuyor: results/aorsf/cancer/model.rds 
+[2026-08-06 19:56:18] [BELLEK] [cancer/aorsf] model hazir - Sistem RSS: 0.475 GB | R heap (gc): 0.275 GB 
+[2026-08-06 19:56:18] Performans hesaplama basladi: surv.aorsf 
+[2026-08-06 19:56:19] Performans hesaplama bitti: surv.aorsf - cindex: 0.563 - IBS (graf): 0.162 
+[2026-08-06 19:56:19] Performans kaydedildi: results/aorsf/cancer/performance.csv 
+[2026-08-06 19:56:19] Kaydedilmis explainer bulundu, okunuyor: results/aorsf/cancer/explainer.rds 
+[2026-08-06 19:56:20] [BELLEK] [cancer/aorsf] explainer hazir - Sistem RSS: 0.531 GB | R heap (gc): 0.352 GB 
+[2026-08-06 19:56:20] SHAP hesaplaniyor: aorsf_model - n_obs = 50 
+[2026-08-06 19:56:21] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-06 19:56:21] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-06 19:56:21] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-06 19:56:52] SHAP - gozlem 20 / 50 
+[2026-08-06 19:57:27] SHAP - gozlem 25 / 50 
+[2026-08-06 19:58:02] SHAP - gozlem 30 / 50 
+[2026-08-06 19:58:37] SHAP - gozlem 35 / 50 
+[2026-08-06 19:59:12] SHAP - gozlem 40 / 50 
+[2026-08-06 19:59:47] SHAP - gozlem 45 / 50 
+[2026-08-06 20:00:23] SHAP - gozlem 50 / 50 
+[2026-08-06 20:00:30] SHAP hesaplama bitti, kaydedildi: results/aorsf/cancer/shap_long_n50.csv 
+[2026-08-06 20:00:31] [BELLEK] [cancer/aorsf] SHAP sonrasi - Sistem RSS: 0.883 GB | R heap (gc): 0.354 GB 
+[2026-08-06 20:00:31] Grafik kaydedildi: results/aorsf/cancer/plots/survshap_plot_n50.png 
+[2026-08-06 20:00:31] SHAP ozeti kaydedildi: results/aorsf/cancer/shap_summary_n50.csv 
+[2026-08-06 20:00:31] aorsf_model - SHAP TIVM: 0.0041 
+[2026-08-06 20:00:32] [BELLEK] [cancer/aorsf] model+explainer silindi, dongu sonu - Sistem RSS: 0.892 GB | R heap (gc): 0.306 GB 
+[2026-08-06 20:00:33] [BELLEK] [cancer/cforest] model dongusu basi - Sistem RSS: 0.892 GB | R heap (gc): 0.306 GB 
+[2026-08-06 20:00:33] Kaydedilmis model bulundu, okunuyor: results/cforest/cancer/model.rds 
+[2026-08-06 20:00:33] [BELLEK] [cancer/cforest] model hazir - Sistem RSS: 0.892 GB | R heap (gc): 0.321 GB 
+[2026-08-06 20:00:33] Performans hesaplama basladi: surv.cforest 
+[2026-08-06 20:00:39] Performans hesaplama bitti: surv.cforest - cindex: 0.529 - IBS (graf): 0.162 
+[2026-08-06 20:00:39] Performans kaydedildi: results/cforest/cancer/performance.csv 
+[2026-08-06 20:00:39] Kaydedilmis explainer bulundu, okunuyor: results/cforest/cancer/explainer.rds 
+[2026-08-06 20:00:40] [BELLEK] [cancer/cforest] explainer hazir - Sistem RSS: 0.892 GB | R heap (gc): 0.38 GB 
+[2026-08-06 20:00:40] SHAP hesaplaniyor: cforest_model - n_obs = 50 
+[2026-08-06 20:00:40] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-06 20:00:40] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-06 20:00:40] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-06 20:02:56] SHAP - gozlem 20 / 50 
+[2026-08-06 20:06:12] SHAP - gozlem 25 / 50 
+[2026-08-06 20:09:14] SHAP - gozlem 30 / 50 
+[2026-08-06 20:12:11] SHAP - gozlem 35 / 50 
+[2026-08-06 20:15:08] SHAP - gozlem 40 / 50 
+[2026-08-06 20:18:07] SHAP - gozlem 45 / 50 
+[2026-08-06 20:21:01] SHAP - gozlem 50 / 50 
+[2026-08-06 20:21:34] SHAP hesaplama bitti, kaydedildi: results/cforest/cancer/shap_long_n50.csv 
+[2026-08-06 20:21:34] [BELLEK] [cancer/cforest] SHAP sonrasi - Sistem RSS: 1.32 GB | R heap (gc): 0.39 GB 
+[2026-08-06 20:21:35] Grafik kaydedildi: results/cforest/cancer/plots/survshap_plot_n50.png 
+[2026-08-06 20:21:35] SHAP ozeti kaydedildi: results/cforest/cancer/shap_summary_n50.csv 
+[2026-08-06 20:21:35] cforest_model - SHAP TIVM: 0.0046 
+[2026-08-06 20:21:36] [BELLEK] [cancer/cforest] model+explainer silindi, dongu sonu - Sistem RSS: 1.142 GB | R heap (gc): 0.318 GB 
+[2026-08-06 20:21:37] [BELLEK] [cancer/coxboost] model dongusu basi - Sistem RSS: 1.142 GB | R heap (gc): 0.318 GB 
+[2026-08-06 20:21:37] Kaydedilmis model bulundu, okunuyor: results/coxboost/cancer/model.rds 
+[2026-08-06 20:21:38] [BELLEK] [cancer/coxboost] model hazir - Sistem RSS: 1.142 GB | R heap (gc): 0.318 GB 
+[2026-08-06 20:21:38] Performans hesaplama basladi: surv.coxboost 
+[2026-08-06 20:21:39] Performans hesaplama bitti: surv.coxboost - cindex: 0.563 - IBS (graf): 0.169 
+[2026-08-06 20:21:39] Performans kaydedildi: results/coxboost/cancer/performance.csv 
+[2026-08-06 20:21:39] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/cancer/explainer.rds 
+[2026-08-06 20:21:41] [BELLEK] [cancer/coxboost] explainer hazir - Sistem RSS: 1.143 GB | R heap (gc): 0.377 GB 
+[2026-08-06 20:21:41] SHAP hesaplaniyor: coxboost_model - n_obs = 50 
+[2026-08-06 20:21:41] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-06 20:21:41] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-06 20:21:41] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-06 20:22:09] SHAP - gozlem 20 / 50 
+[2026-08-06 20:22:47] SHAP - gozlem 25 / 50 
+[2026-08-06 20:23:21] SHAP - gozlem 30 / 50 
+[2026-08-06 20:23:55] SHAP - gozlem 35 / 50 
+[2026-08-06 20:24:29] SHAP - gozlem 40 / 50 
+[2026-08-06 20:25:02] SHAP - gozlem 45 / 50 
+[2026-08-06 20:25:36] SHAP - gozlem 50 / 50 
+[2026-08-06 20:25:43] SHAP hesaplama bitti, kaydedildi: results/coxboost/cancer/shap_long_n50.csv 
+[2026-08-06 20:25:44] [BELLEK] [cancer/coxboost] SHAP sonrasi - Sistem RSS: 1.253 GB | R heap (gc): 0.377 GB 
+[2026-08-06 20:25:44] Grafik kaydedildi: results/coxboost/cancer/plots/survshap_plot_n50.png 
+[2026-08-06 20:25:44] SHAP ozeti kaydedildi: results/coxboost/cancer/shap_summary_n50.csv 
+[2026-08-06 20:25:44] coxboost_model - SHAP TIVM: 0.0041 
+[2026-08-06 20:25:45] [BELLEK] [cancer/coxboost] model+explainer silindi, dongu sonu - Sistem RSS: 1.164 GB | R heap (gc): 0.32 GB 
+[2026-08-06 20:25:45] [BELLEK] [cancer/ctree] model dongusu basi - Sistem RSS: 1.164 GB | R heap (gc): 0.32 GB 
+[2026-08-06 20:25:46] Kaydedilmis model bulundu, okunuyor: results/ctree/cancer/model.rds 
+[2026-08-06 20:25:46] [BELLEK] [cancer/ctree] model hazir - Sistem RSS: 1.164 GB | R heap (gc): 0.32 GB 
+[2026-08-06 20:25:46] Performans hesaplama basladi: surv.ctree 
+[2026-08-06 20:25:46] Performans hesaplama bitti: surv.ctree - cindex: 0.538 - IBS (graf): 0.169 
+[2026-08-06 20:25:46] Performans kaydedildi: results/ctree/cancer/performance.csv 
+[2026-08-06 20:25:46] Kaydedilmis explainer bulundu, okunuyor: results/ctree/cancer/explainer.rds 
+[2026-08-06 20:25:48] [BELLEK] [cancer/ctree] explainer hazir - Sistem RSS: 1.164 GB | R heap (gc): 0.378 GB 
+[2026-08-06 20:25:48] SHAP hesaplaniyor: ctree_model - n_obs = 50 
+[2026-08-06 20:25:48] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-06 20:25:48] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-06 20:25:48] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-06 20:26:19] SHAP - gozlem 20 / 50 
+[2026-08-06 20:27:00] SHAP - gozlem 25 / 50 
+[2026-08-06 20:27:42] SHAP - gozlem 30 / 50 
+[2026-08-06 20:28:22] SHAP - gozlem 35 / 50 
+[2026-08-06 20:29:03] SHAP - gozlem 40 / 50 
+[2026-08-06 20:29:44] SHAP - gozlem 45 / 50 
+[2026-08-06 20:30:25] SHAP - gozlem 50 / 50 
+[2026-08-06 20:30:34] SHAP hesaplama bitti, kaydedildi: results/ctree/cancer/shap_long_n50.csv 
+[2026-08-06 20:30:34] [BELLEK] [cancer/ctree] SHAP sonrasi - Sistem RSS: 1.237 GB | R heap (gc): 0.378 GB 
+[2026-08-06 20:30:35] Grafik kaydedildi: results/ctree/cancer/plots/survshap_plot_n50.png 
+[2026-08-06 20:30:35] SHAP ozeti kaydedildi: results/ctree/cancer/shap_summary_n50.csv 
+[2026-08-06 20:30:35] ctree_model - SHAP TIVM: 0.0092 
+[2026-08-06 20:30:36] [BELLEK] [cancer/ctree] model+explainer silindi, dongu sonu - Sistem RSS: 1.143 GB | R heap (gc): 0.32 GB 
+[2026-08-06 20:30:36] [BELLEK] [cancer/cv_glmnet] model dongusu basi - Sistem RSS: 1.143 GB | R heap (gc): 0.32 GB 
+[2026-08-06 20:30:36] Kaydedilmis model bulundu, okunuyor: results/cv_glmnet/cancer/model.rds 
+[2026-08-06 20:30:37] [BELLEK] [cancer/cv_glmnet] model hazir - Sistem RSS: 1.143 GB | R heap (gc): 0.321 GB 
+[2026-08-06 20:30:37] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-08-06 20:30:37] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.554 - IBS (graf): 0.163 
+[2026-08-06 20:30:37] Performans kaydedildi: results/cv_glmnet/cancer/performance.csv 
+[2026-08-06 20:30:37] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/cancer/explainer.rds 
+[2026-08-06 20:30:38] [BELLEK] [cancer/cv_glmnet] explainer hazir - Sistem RSS: 1.143 GB | R heap (gc): 0.324 GB 
+[2026-08-06 20:30:38] SHAP hesaplaniyor: cv_glmnet_model - n_obs = 50 
+[2026-08-06 20:30:38] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-06 20:30:38] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-06 20:30:38] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-06 20:31:04] SHAP - gozlem 20 / 50 
+[2026-08-06 20:31:37] SHAP - gozlem 25 / 50 
+[2026-08-06 20:32:11] SHAP - gozlem 30 / 50 
+[2026-08-06 20:32:44] SHAP - gozlem 35 / 50 
+[2026-08-06 20:33:17] SHAP - gozlem 40 / 50 
+[2026-08-06 20:33:51] SHAP - gozlem 45 / 50 
+[2026-08-06 20:34:24] SHAP - gozlem 50 / 50 
+[2026-08-06 20:34:31] SHAP hesaplama bitti, kaydedildi: results/cv_glmnet/cancer/shap_long_n50.csv 
+[2026-08-06 20:34:32] [BELLEK] [cancer/cv_glmnet] SHAP sonrasi - Sistem RSS: 1.217 GB | R heap (gc): 0.325 GB 
+[2026-08-06 20:34:32] Grafik kaydedildi: results/cv_glmnet/cancer/plots/survshap_plot_n50.png 
+[2026-08-06 20:34:32] SHAP ozeti kaydedildi: results/cv_glmnet/cancer/shap_summary_n50.csv 
+[2026-08-06 20:34:32] cv_glmnet_model - SHAP TIVM: 0.0041 
+[2026-08-06 20:34:33] [BELLEK] [cancer/cv_glmnet] model+explainer silindi, dongu sonu - Sistem RSS: 1.154 GB | R heap (gc): 0.323 GB 
+[2026-08-06 20:34:34] [BELLEK] [cancer/glmboost] model dongusu basi - Sistem RSS: 1.154 GB | R heap (gc): 0.323 GB 
+[2026-08-06 20:34:34] Kaydedilmis model bulundu, okunuyor: results/glmboost/cancer/model.rds 
+[2026-08-06 20:34:34] [BELLEK] [cancer/glmboost] model hazir - Sistem RSS: 1.154 GB | R heap (gc): 0.327 GB 
+[2026-08-06 20:34:34] Performans hesaplama basladi: surv.glmboost 
+[2026-08-06 20:34:35] Performans hesaplama bitti: surv.glmboost - cindex: 0.555 - IBS (graf): 0.164 
+[2026-08-06 20:34:35] Performans kaydedildi: results/glmboost/cancer/performance.csv 
+[2026-08-06 20:34:35] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/cancer/explainer.rds 
+[2026-08-06 20:34:36] [BELLEK] [cancer/glmboost] explainer hazir - Sistem RSS: 1.154 GB | R heap (gc): 0.385 GB 
+[2026-08-06 20:34:36] SHAP hesaplaniyor: glmboost_model - n_obs = 50 
+[2026-08-06 20:34:36] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-06 20:34:36] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-06 20:34:36] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-06 20:35:08] SHAP - gozlem 20 / 50 
+[2026-08-06 20:35:33] SHAP - gozlem 25 / 50 
+[2026-08-06 20:35:57] SHAP - gozlem 30 / 50 
+[2026-08-06 20:36:20] SHAP - gozlem 35 / 50 
+[2026-08-06 20:36:44] SHAP - gozlem 40 / 50 
+[2026-08-06 20:37:08] SHAP - gozlem 45 / 50 
+[2026-08-06 20:37:31] SHAP - gozlem 50 / 50 
+[2026-08-06 20:37:36] SHAP hesaplama bitti, kaydedildi: results/glmboost/cancer/shap_long_n50.csv 
+[2026-08-06 20:37:37] [BELLEK] [cancer/glmboost] SHAP sonrasi - Sistem RSS: 1.202 GB | R heap (gc): 0.386 GB 
+[2026-08-06 20:37:38] Grafik kaydedildi: results/glmboost/cancer/plots/survshap_plot_n50.png 
+[2026-08-06 20:37:38] SHAP ozeti kaydedildi: results/glmboost/cancer/shap_summary_n50.csv 
+[2026-08-06 20:37:38] glmboost_model - SHAP TIVM: 0.004 
+[2026-08-06 20:37:39] [BELLEK] [cancer/glmboost] model+explainer silindi, dongu sonu - Sistem RSS: 1.143 GB | R heap (gc): 0.325 GB 
+[2026-08-06 20:37:39] [BELLEK] [cancer/glmnet] model dongusu basi - Sistem RSS: 1.143 GB | R heap (gc): 0.325 GB 
+[2026-08-06 20:37:39] Kaydedilmis model bulundu, okunuyor: results/glmnet/cancer/model.rds 
+[2026-08-06 20:37:39] [BELLEK] [cancer/glmnet] model hazir - Sistem RSS: 1.143 GB | R heap (gc): 0.325 GB 
+[2026-08-06 20:37:39] Performans hesaplama basladi: surv.glmnet 
+[2026-08-06 20:37:40] Performans hesaplama bitti: surv.glmnet - cindex: 0.564 - IBS (graf): 0.179 
+[2026-08-06 20:37:40] Performans kaydedildi: results/glmnet/cancer/performance.csv 
+[2026-08-06 20:37:40] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/cancer/explainer.rds 
+[2026-08-06 20:37:41] [BELLEK] [cancer/glmnet] explainer hazir - Sistem RSS: 1.143 GB | R heap (gc): 0.382 GB 
+[2026-08-06 20:37:41] SHAP hesaplaniyor: glmnet_model - n_obs = 50 
+[2026-08-06 20:37:41] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-06 20:37:41] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-06 20:37:41] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-06 20:38:08] SHAP - gozlem 20 / 50 
+[2026-08-06 20:38:43] SHAP - gozlem 25 / 50 
+[2026-08-06 20:39:17] SHAP - gozlem 30 / 50 
+[2026-08-06 20:39:51] SHAP - gozlem 35 / 50 
+[2026-08-06 20:40:26] SHAP - gozlem 40 / 50 
+[2026-08-06 20:41:00] SHAP - gozlem 45 / 50 
+[2026-08-06 20:41:34] SHAP - gozlem 50 / 50 
+[2026-08-06 20:41:41] SHAP hesaplama bitti, kaydedildi: results/glmnet/cancer/shap_long_n50.csv 
+[2026-08-06 20:41:42] [BELLEK] [cancer/glmnet] SHAP sonrasi - Sistem RSS: 1.222 GB | R heap (gc): 0.383 GB 
+[2026-08-06 20:41:42] Grafik kaydedildi: results/glmnet/cancer/plots/survshap_plot_n50.png 
+[2026-08-06 20:41:42] SHAP ozeti kaydedildi: results/glmnet/cancer/shap_summary_n50.csv 
+[2026-08-06 20:41:42] glmnet_model - SHAP TIVM: 0.0044 
+[2026-08-06 20:41:43] [BELLEK] [cancer/glmnet] model+explainer silindi, dongu sonu - Sistem RSS: 1.143 GB | R heap (gc): 0.325 GB 
+[2026-08-06 20:41:44] [BELLEK] [cancer/penalized] model dongusu basi - Sistem RSS: 1.143 GB | R heap (gc): 0.325 GB 
+[2026-08-06 20:41:44] Kaydedilmis model bulundu, okunuyor: results/penalized/cancer/model.rds 
+[2026-08-06 20:41:44] [BELLEK] [cancer/penalized] model hazir - Sistem RSS: 1.143 GB | R heap (gc): 0.326 GB 
+[2026-08-06 20:41:44] Performans hesaplama basladi: surv.penalized 
+[2026-08-06 20:41:45] Performans hesaplama bitti: surv.penalized - cindex: 0.56 - IBS (graf): 0.187 
+[2026-08-06 20:41:45] Performans kaydedildi: results/penalized/cancer/performance.csv 
+[2026-08-06 20:41:45] Kaydedilmis explainer bulundu, okunuyor: results/penalized/cancer/explainer.rds 
+[2026-08-06 20:41:46] [BELLEK] [cancer/penalized] explainer hazir - Sistem RSS: 1.143 GB | R heap (gc): 0.383 GB 
+[2026-08-06 20:41:46] SHAP hesaplaniyor: penalized_model - n_obs = 50 
+[2026-08-06 20:41:46] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-06 20:41:46] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-06 20:41:46] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-06 20:42:06] SHAP - gozlem 20 / 50 
+[2026-08-06 20:42:30] SHAP - gozlem 25 / 50 
+[2026-08-06 20:42:57] SHAP - gozlem 30 / 50 
+[2026-08-06 20:43:21] SHAP - gozlem 35 / 50 
+[2026-08-06 20:43:46] SHAP - gozlem 40 / 50 
+[2026-08-06 20:44:11] SHAP - gozlem 45 / 50 
+[2026-08-06 20:44:36] SHAP - gozlem 50 / 50 
+[2026-08-06 20:44:42] SHAP hesaplama bitti, kaydedildi: results/penalized/cancer/shap_long_n50.csv 
+[2026-08-06 20:44:42] [BELLEK] [cancer/penalized] SHAP sonrasi - Sistem RSS: 1.201 GB | R heap (gc): 0.384 GB 
+[2026-08-06 20:44:43] Grafik kaydedildi: results/penalized/cancer/plots/survshap_plot_n50.png 
+[2026-08-06 20:44:43] SHAP ozeti kaydedildi: results/penalized/cancer/shap_summary_n50.csv 
+[2026-08-06 20:44:43] penalized_model - SHAP TIVM: 0.0045 
+[2026-08-06 20:44:44] [BELLEK] [cancer/penalized] model+explainer silindi, dongu sonu - Sistem RSS: 1.143 GB | R heap (gc): 0.326 GB 
+[2026-08-06 20:44:44] [BELLEK] [cancer/ranger] model dongusu basi - Sistem RSS: 1.143 GB | R heap (gc): 0.326 GB 
+[2026-08-06 20:44:44] Kaydedilmis model bulundu, okunuyor: results/ranger/cancer/model.rds 
+[2026-08-06 20:44:45] [BELLEK] [cancer/ranger] model hazir - Sistem RSS: 1.143 GB | R heap (gc): 0.338 GB 
+[2026-08-06 20:44:45] Performans hesaplama basladi: surv.ranger 
+[2026-08-06 20:44:46] Performans hesaplama bitti: surv.ranger - cindex: 0.524 - IBS (graf): 0.187 
+[2026-08-06 20:44:46] Performans kaydedildi: results/ranger/cancer/performance.csv 
+[2026-08-06 20:44:46] Kaydedilmis explainer bulundu, okunuyor: results/ranger/cancer/explainer.rds 
+[2026-08-06 20:44:47] [BELLEK] [cancer/ranger] explainer hazir - Sistem RSS: 1.154 GB | R heap (gc): 0.395 GB 
+[2026-08-06 20:44:47] SHAP hesaplaniyor: ranger_model - n_obs = 50 
+[2026-08-06 20:44:47] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-06 20:44:47] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-06 20:44:47] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-06 20:47:27] SHAP - gozlem 20 / 50 
+[2026-08-06 20:50:46] SHAP - gozlem 25 / 50 
+[2026-08-06 20:53:55] SHAP - gozlem 30 / 50 
+[2026-08-06 20:57:09] SHAP - gozlem 35 / 50 
+[2026-08-06 21:00:28] SHAP - gozlem 40 / 50 
+[2026-08-06 21:03:39] SHAP - gozlem 45 / 50 
+[2026-08-06 21:06:50] SHAP - gozlem 50 / 50 
+[2026-08-06 21:07:28] SHAP hesaplama bitti, kaydedildi: results/ranger/cancer/shap_long_n50.csv 
+[2026-08-06 21:07:29] [BELLEK] [cancer/ranger] SHAP sonrasi - Sistem RSS: 1.143 GB | R heap (gc): 0.396 GB 
+[2026-08-06 21:07:29] Grafik kaydedildi: results/ranger/cancer/plots/survshap_plot_n50.png 
+[2026-08-06 21:07:29] SHAP ozeti kaydedildi: results/ranger/cancer/shap_summary_n50.csv 
+[2026-08-06 21:07:29] ranger_model - SHAP TIVM: 0.0034 
+[2026-08-06 21:07:30] [BELLEK] [cancer/ranger] model+explainer silindi, dongu sonu - Sistem RSS: 1.143 GB | R heap (gc): 0.327 GB 
+[2026-08-06 21:07:31] [BELLEK] [cancer/rfsrc] model dongusu basi - Sistem RSS: 1.143 GB | R heap (gc): 0.327 GB 
+[2026-08-06 21:07:31] Kaydedilmis model bulundu, okunuyor: results/rfsrc/cancer/model.rds 
+[2026-08-06 21:07:31] [BELLEK] [cancer/rfsrc] model hazir - Sistem RSS: 1.143 GB | R heap (gc): 0.344 GB 
+[2026-08-06 21:07:31] Performans hesaplama basladi: surv.rfsrc 
+[2026-08-06 21:07:32] Performans hesaplama bitti: surv.rfsrc - cindex: 0.548 - IBS (graf): 0.159 
+[2026-08-06 21:07:32] Performans kaydedildi: results/rfsrc/cancer/performance.csv 
+[2026-08-06 21:07:32] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/cancer/explainer.rds 
+[2026-08-06 21:07:33] [BELLEK] [cancer/rfsrc] explainer hazir - Sistem RSS: 1.144 GB | R heap (gc): 0.404 GB 
+[2026-08-06 21:07:33] SHAP hesaplaniyor: rfsrc_model - n_obs = 50 
+[2026-08-06 21:07:33] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-06 21:07:34] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-06 21:07:34] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-06 21:08:12] SHAP - gozlem 20 / 50 
+[2026-08-06 21:08:59] SHAP - gozlem 25 / 50 
+[2026-08-06 21:09:45] SHAP - gozlem 30 / 50 
+[2026-08-06 21:10:32] SHAP - gozlem 35 / 50 
+[2026-08-06 21:11:20] SHAP - gozlem 40 / 50 
+[2026-08-06 21:12:08] SHAP - gozlem 45 / 50 
+[2026-08-06 21:12:55] SHAP - gozlem 50 / 50 
+[2026-08-06 21:13:05] SHAP hesaplama bitti, kaydedildi: results/rfsrc/cancer/shap_long_n50.csv 
+[2026-08-06 21:13:06] [BELLEK] [cancer/rfsrc] SHAP sonrasi - Sistem RSS: 1.144 GB | R heap (gc): 0.404 GB 
+[2026-08-06 21:13:06] Grafik kaydedildi: results/rfsrc/cancer/plots/survshap_plot_n50.png 
+[2026-08-06 21:13:06] SHAP ozeti kaydedildi: results/rfsrc/cancer/shap_summary_n50.csv 
+[2026-08-06 21:13:06] rfsrc_model - SHAP TIVM: 0.003 
+[2026-08-06 21:13:07] [BELLEK] [cancer/rfsrc] model+explainer silindi, dongu sonu - Sistem RSS: 1.144 GB | R heap (gc): 0.33 GB 
+[2026-08-06 21:13:08] [BELLEK] [cancer/xgboost_cox] model dongusu basi - Sistem RSS: 1.144 GB | R heap (gc): 0.33 GB 
+[2026-08-06 21:13:08] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/cancer/model.rds 
+[2026-08-06 21:13:08] [BELLEK] [cancer/xgboost_cox] model hazir - Sistem RSS: 1.144 GB | R heap (gc): 0.33 GB 
+[2026-08-06 21:13:08] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-08-06 21:13:09] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.468 - IBS (graf): 0.243 
+[2026-08-06 21:13:09] Performans kaydedildi: results/xgboost_cox/cancer/performance.csv 
+[2026-08-06 21:13:09] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/cancer/explainer.rds 
+[2026-08-06 21:13:10] [BELLEK] [cancer/xgboost_cox] explainer hazir - Sistem RSS: 1.145 GB | R heap (gc): 0.388 GB 
+[2026-08-06 21:13:10] SHAP hesaplaniyor: xgboost_cox_model - n_obs = 50 
+[2026-08-06 21:13:11] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-06 21:13:11] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-06 21:13:11] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-06 21:13:39] SHAP - gozlem 20 / 50 
+[2026-08-06 21:14:16] SHAP - gozlem 25 / 50 
+[2026-08-06 21:14:53] SHAP - gozlem 30 / 50 
+[2026-08-06 21:15:32] SHAP - gozlem 35 / 50 
+[2026-08-06 21:16:06] SHAP - gozlem 40 / 50 
+[2026-08-06 21:16:41] SHAP - gozlem 45 / 50 
+[2026-08-06 21:17:16] SHAP - gozlem 50 / 50 
+[2026-08-06 21:17:23] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/cancer/shap_long_n50.csv 
+[2026-08-06 21:17:23] [BELLEK] [cancer/xgboost_cox] SHAP sonrasi - Sistem RSS: 1.229 GB | R heap (gc): 0.389 GB 
+[2026-08-06 21:17:24] Grafik kaydedildi: results/xgboost_cox/cancer/plots/survshap_plot_n50.png 
+[2026-08-06 21:17:24] SHAP ozeti kaydedildi: results/xgboost_cox/cancer/shap_summary_n50.csv 
+[2026-08-06 21:17:24] xgboost_cox_model - SHAP TIVM: 0.007 
+[2026-08-06 21:17:25] [BELLEK] [cancer/xgboost_cox] model+explainer silindi, dongu sonu - Sistem RSS: 1.145 GB | R heap (gc): 0.331 GB 
+[2026-08-06 21:17:25] ===== BITTI: cancer + aorsf - cindex: 0.563 - PFI TIVM: 0.0026 - SHAP TIVM: 0.0041 ===== 
+[2026-08-06 21:17:25] ===== BITTI: cancer + cforest - cindex: 0.529 - PFI TIVM: 0.0019 - SHAP TIVM: 0.0046 ===== 
+[2026-08-06 21:17:25] ===== BITTI: cancer + coxboost - cindex: 0.563 - PFI TIVM: 0.0049 - SHAP TIVM: 0.0041 ===== 
+[2026-08-06 21:17:25] ===== BITTI: cancer + ctree - cindex: 0.538 - PFI TIVM: 0.0061 - SHAP TIVM: 0.0092 ===== 
+[2026-08-06 21:17:25] ===== BITTI: cancer + cv_glmnet - cindex: 0.554 - PFI TIVM: 0.0054 - SHAP TIVM: 0.0041 ===== 
+[2026-08-06 21:17:25] ===== BITTI: cancer + glmboost - cindex: 0.555 - PFI TIVM: 0.0052 - SHAP TIVM: 0.004 ===== 
+[2026-08-06 21:17:25] ===== BITTI: cancer + glmnet - cindex: 0.564 - PFI TIVM: 0.006 - SHAP TIVM: 0.0044 ===== 
+[2026-08-06 21:17:25] ===== BITTI: cancer + penalized - cindex: 0.56 - PFI TIVM: 0.006 - SHAP TIVM: 0.0045 ===== 
+[2026-08-06 21:17:25] ===== BITTI: cancer + ranger - cindex: 0.524 - PFI TIVM: 0.0021 - SHAP TIVM: 0.0034 ===== 
+[2026-08-06 21:17:25] ===== BITTI: cancer + rfsrc - cindex: 0.548 - PFI TIVM: 0.0017 - SHAP TIVM: 0.003 ===== 
+[2026-08-06 21:17:25] ===== BITTI: cancer + xgboost_cox - cindex: 0.468 - PFI TIVM: 0.0074 - SHAP TIVM: 0.007 ===== 
+[2026-08-06 21:17:25] ----- Veri seti bitti: cancer ----- 
+[2026-08-06 21:17:25] ===== RUN ( cancer ) TAMAMLANDI ===== 
