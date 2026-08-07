@@ -794,3 +794,279 @@
 [2026-08-07 08:32:05] SHAP hesaplama basladi, n_obs = 50 
 [2026-08-07 08:34:48] SHAP - gozlem 20 / 50 
 [2026-08-07 08:38:07] SHAP - gozlem 25 / 50 
+[2026-08-07 08:41:29] SHAP - gozlem 30 / 50 
+[2026-08-07 08:44:55] SHAP - gozlem 35 / 50 
+[2026-08-07 08:48:12] SHAP - gozlem 40 / 50 
+[2026-08-07 08:51:30] SHAP - gozlem 45 / 50 
+[2026-08-07 08:54:44] SHAP - gozlem 50 / 50 
+[2026-08-07 08:55:24] SHAP hesaplama bitti, kaydedildi: results/cforest/acath/shap_long_n50.csv 
+[2026-08-07 08:55:25] [BELLEK] [acath/cforest] SHAP sonrasi - Sistem RSS: 3.095 GB | R heap (gc): 1.456 GB 
+[2026-08-07 08:55:26] Grafik kaydedildi: results/cforest/acath/plots/survshap_plot_n50.png 
+[2026-08-07 08:55:26] SHAP ozeti kaydedildi: results/cforest/acath/shap_summary_n50.csv 
+[2026-08-07 08:55:26] cforest_model - SHAP TIVM: 0.003 
+[2026-08-07 08:55:27] [BELLEK] [acath/cforest] model+explainer silindi, dongu sonu - Sistem RSS: 2.696 GB | R heap (gc): 0.313 GB 
+[2026-08-07 08:55:28] [BELLEK] [acath/coxboost] model dongusu basi - Sistem RSS: 2.696 GB | R heap (gc): 0.313 GB 
+[2026-08-07 08:55:28] Kaydedilmis model bulundu, okunuyor: results/coxboost/acath/model.rds 
+[2026-08-07 08:55:28] [BELLEK] [acath/coxboost] model hazir - Sistem RSS: 2.696 GB | R heap (gc): 0.314 GB 
+[2026-08-07 08:55:28] Performans hesaplama basladi: surv.coxboost 
+[2026-08-07 08:55:42] Performans hesaplama bitti: surv.coxboost - cindex: 0.611 - IBS (graf): 0.109 
+[2026-08-07 08:55:42] Performans kaydedildi: results/coxboost/acath/performance.csv 
+[2026-08-07 08:55:42] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/acath/explainer.rds 
+[2026-08-07 08:55:50] [BELLEK] [acath/coxboost] explainer hazir - Sistem RSS: 2.746 GB | R heap (gc): 1.243 GB 
+[2026-08-07 08:55:50] SHAP hesaplaniyor: coxboost_model - n_obs = 50 
+[2026-08-07 08:55:50] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 08:55:50] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 08:55:50] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 08:56:09] SHAP - gozlem 20 / 50 
+[2026-08-07 08:56:32] SHAP - gozlem 25 / 50 
+[2026-08-07 08:56:55] SHAP - gozlem 30 / 50 
+[2026-08-07 08:57:18] SHAP - gozlem 35 / 50 
+[2026-08-07 08:57:41] SHAP - gozlem 40 / 50 
+[2026-08-07 08:58:04] SHAP - gozlem 45 / 50 
+[2026-08-07 08:58:28] SHAP - gozlem 50 / 50 
+[2026-08-07 08:58:32] SHAP hesaplama bitti, kaydedildi: results/coxboost/acath/shap_long_n50.csv 
+[2026-08-07 08:58:33] [BELLEK] [acath/coxboost] SHAP sonrasi - Sistem RSS: 2.746 GB | R heap (gc): 1.244 GB 
+[2026-08-07 08:58:34] Grafik kaydedildi: results/coxboost/acath/plots/survshap_plot_n50.png 
+[2026-08-07 08:58:34] SHAP ozeti kaydedildi: results/coxboost/acath/shap_summary_n50.csv 
+[2026-08-07 08:58:34] coxboost_model - SHAP TIVM: 0.002 
+[2026-08-07 08:58:35] [BELLEK] [acath/coxboost] model+explainer silindi, dongu sonu - Sistem RSS: 2.696 GB | R heap (gc): 0.314 GB 
+[2026-08-07 08:58:35] [BELLEK] [acath/cv_coxboost] model dongusu basi - Sistem RSS: 2.678 GB | R heap (gc): 0.314 GB 
+[2026-08-07 08:58:35] Kaydedilmis model bulundu, okunuyor: results/cv_coxboost/acath/model.rds 
+[2026-08-07 08:58:36] [BELLEK] [acath/cv_coxboost] model hazir - Sistem RSS: 2.678 GB | R heap (gc): 0.315 GB 
+[2026-08-07 08:58:36] Performans hesaplama basladi: surv.cv_coxboost 
+[2026-08-07 09:02:27] Performans hesaplama bitti: surv.cv_coxboost - cindex: 0.576 - IBS (graf): 0.111 
+[2026-08-07 09:02:27] Performans kaydedildi: results/cv_coxboost/acath/performance.csv 
+[2026-08-07 09:02:27] Kaydedilmis explainer bulundu, okunuyor: results/cv_coxboost/acath/explainer.rds 
+[2026-08-07 09:02:27] [BELLEK] [acath/cv_coxboost] explainer hazir - Sistem RSS: 2.661 GB | R heap (gc): 0.316 GB 
+[2026-08-07 09:02:27] SHAP hesaplaniyor: cv_coxboost_model - n_obs = 50 
+[2026-08-07 09:02:27] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 09:02:27] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 09:02:27] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 09:02:45] SHAP - gozlem 20 / 50 
+[2026-08-07 09:03:05] SHAP - gozlem 25 / 50 
+[2026-08-07 09:03:27] SHAP - gozlem 30 / 50 
+[2026-08-07 09:03:47] SHAP - gozlem 35 / 50 
+[2026-08-07 09:04:09] SHAP - gozlem 40 / 50 
+[2026-08-07 09:04:31] SHAP - gozlem 45 / 50 
+[2026-08-07 09:04:54] SHAP - gozlem 50 / 50 
+[2026-08-07 09:05:07] SHAP hesaplama bitti, kaydedildi: results/cv_coxboost/acath/shap_long_n50.csv 
+[2026-08-07 09:05:08] [BELLEK] [acath/cv_coxboost] SHAP sonrasi - Sistem RSS: 2.661 GB | R heap (gc): 0.317 GB 
+[2026-08-07 09:05:08] Grafik kaydedildi: results/cv_coxboost/acath/plots/survshap_plot_n50.png 
+[2026-08-07 09:05:08] SHAP ozeti kaydedildi: results/cv_coxboost/acath/shap_summary_n50.csv 
+[2026-08-07 09:05:08] cv_coxboost_model - SHAP TIVM: 8e-04 
+[2026-08-07 09:05:09] [BELLEK] [acath/cv_coxboost] model+explainer silindi, dongu sonu - Sistem RSS: 2.661 GB | R heap (gc): 0.315 GB 
+[2026-08-07 09:05:10] [BELLEK] [acath/ctree] model dongusu basi - Sistem RSS: 2.661 GB | R heap (gc): 0.315 GB 
+[2026-08-07 09:05:10] Kaydedilmis model bulundu, okunuyor: results/ctree/acath/model.rds 
+[2026-08-07 09:05:10] [BELLEK] [acath/ctree] model hazir - Sistem RSS: 2.661 GB | R heap (gc): 0.316 GB 
+[2026-08-07 09:05:10] Performans hesaplama basladi: surv.ctree 
+[2026-08-07 09:05:12] Performans hesaplama bitti: surv.ctree - cindex: 0.597 - IBS (graf): 0.11 
+[2026-08-07 09:05:12] Performans kaydedildi: results/ctree/acath/performance.csv 
+[2026-08-07 09:05:12] Kaydedilmis explainer bulundu, okunuyor: results/ctree/acath/explainer.rds 
+[2026-08-07 09:05:22] [BELLEK] [acath/ctree] explainer hazir - Sistem RSS: 2.661 GB | R heap (gc): 1.244 GB 
+[2026-08-07 09:05:22] SHAP hesaplaniyor: ctree_model - n_obs = 50 
+[2026-08-07 09:05:22] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 09:05:22] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 09:05:22] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 09:05:45] SHAP - gozlem 20 / 50 
+[2026-08-07 09:06:11] SHAP - gozlem 25 / 50 
+[2026-08-07 09:06:38] SHAP - gozlem 30 / 50 
+[2026-08-07 09:07:05] SHAP - gozlem 35 / 50 
+[2026-08-07 09:07:32] SHAP - gozlem 40 / 50 
+[2026-08-07 09:07:59] SHAP - gozlem 45 / 50 
+[2026-08-07 09:08:25] SHAP - gozlem 50 / 50 
+[2026-08-07 09:08:31] SHAP hesaplama bitti, kaydedildi: results/ctree/acath/shap_long_n50.csv 
+[2026-08-07 09:08:32] [BELLEK] [acath/ctree] SHAP sonrasi - Sistem RSS: 2.661 GB | R heap (gc): 1.246 GB 
+[2026-08-07 09:08:33] Grafik kaydedildi: results/ctree/acath/plots/survshap_plot_n50.png 
+[2026-08-07 09:08:33] SHAP ozeti kaydedildi: results/ctree/acath/shap_summary_n50.csv 
+[2026-08-07 09:08:33] ctree_model - SHAP TIVM: 0.0038 
+[2026-08-07 09:08:34] [BELLEK] [acath/ctree] model+explainer silindi, dongu sonu - Sistem RSS: 2.661 GB | R heap (gc): 0.317 GB 
+[2026-08-07 09:08:34] [BELLEK] [acath/cv_glmnet] model dongusu basi - Sistem RSS: 2.661 GB | R heap (gc): 0.317 GB 
+[2026-08-07 09:08:34] Kaydedilmis model bulundu, okunuyor: results/cv_glmnet/acath/model.rds 
+[2026-08-07 09:08:35] [BELLEK] [acath/cv_glmnet] model hazir - Sistem RSS: 2.661 GB | R heap (gc): 0.318 GB 
+[2026-08-07 09:08:35] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-08-07 09:08:38] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.576 - IBS (graf): 0.112 
+[2026-08-07 09:08:38] Performans kaydedildi: results/cv_glmnet/acath/performance.csv 
+[2026-08-07 09:08:38] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/acath/explainer.rds 
+[2026-08-07 09:08:38] [BELLEK] [acath/cv_glmnet] explainer hazir - Sistem RSS: 2.661 GB | R heap (gc): 0.32 GB 
+[2026-08-07 09:08:38] SHAP hesaplaniyor: cv_glmnet_model - n_obs = 50 
+[2026-08-07 09:08:38] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 09:08:38] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 09:08:38] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 09:08:55] SHAP - gozlem 20 / 50 
+[2026-08-07 09:09:16] SHAP - gozlem 25 / 50 
+[2026-08-07 09:09:37] SHAP - gozlem 30 / 50 
+[2026-08-07 09:09:59] SHAP - gozlem 35 / 50 
+[2026-08-07 09:10:20] SHAP - gozlem 40 / 50 
+[2026-08-07 09:10:42] SHAP - gozlem 45 / 50 
+[2026-08-07 09:11:03] SHAP - gozlem 50 / 50 
+[2026-08-07 09:11:07] SHAP hesaplama bitti, kaydedildi: results/cv_glmnet/acath/shap_long_n50.csv 
+[2026-08-07 09:11:08] [BELLEK] [acath/cv_glmnet] SHAP sonrasi - Sistem RSS: 2.661 GB | R heap (gc): 0.32 GB 
+[2026-08-07 09:11:08] Grafik kaydedildi: results/cv_glmnet/acath/plots/survshap_plot_n50.png 
+[2026-08-07 09:11:08] SHAP ozeti kaydedildi: results/cv_glmnet/acath/shap_summary_n50.csv 
+[2026-08-07 09:11:08] cv_glmnet_model - SHAP TIVM: 2e-04 
+[2026-08-07 09:11:09] [BELLEK] [acath/cv_glmnet] model+explainer silindi, dongu sonu - Sistem RSS: 2.661 GB | R heap (gc): 0.319 GB 
+[2026-08-07 09:11:10] [BELLEK] [acath/glmboost] model dongusu basi - Sistem RSS: 2.661 GB | R heap (gc): 0.319 GB 
+[2026-08-07 09:11:10] Kaydedilmis model bulundu, okunuyor: results/glmboost/acath/model.rds 
+[2026-08-07 09:11:10] [BELLEK] [acath/glmboost] model hazir - Sistem RSS: 2.661 GB | R heap (gc): 0.324 GB 
+[2026-08-07 09:11:10] Performans hesaplama basladi: surv.glmboost 
+[2026-08-07 09:11:17] Performans hesaplama bitti: surv.glmboost - cindex: 0.611 - IBS (graf): 0.109 
+[2026-08-07 09:11:17] Performans kaydedildi: results/glmboost/acath/performance.csv 
+[2026-08-07 09:11:17] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/acath/explainer.rds 
+[2026-08-07 09:11:26] [BELLEK] [acath/glmboost] explainer hazir - Sistem RSS: 2.661 GB | R heap (gc): 1.253 GB 
+[2026-08-07 09:11:26] SHAP hesaplaniyor: glmboost_model - n_obs = 50 
+[2026-08-07 09:11:26] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 09:11:26] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 09:11:26] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 09:11:43] SHAP - gozlem 20 / 50 
+[2026-08-07 09:12:04] SHAP - gozlem 25 / 50 
+[2026-08-07 09:12:25] SHAP - gozlem 30 / 50 
+[2026-08-07 09:12:46] SHAP - gozlem 35 / 50 
+[2026-08-07 09:13:07] SHAP - gozlem 40 / 50 
+[2026-08-07 09:13:28] SHAP - gozlem 45 / 50 
+[2026-08-07 09:13:50] SHAP - gozlem 50 / 50 
+[2026-08-07 09:13:54] SHAP hesaplama bitti, kaydedildi: results/glmboost/acath/shap_long_n50.csv 
+[2026-08-07 09:13:55] [BELLEK] [acath/glmboost] SHAP sonrasi - Sistem RSS: 2.661 GB | R heap (gc): 1.253 GB 
+[2026-08-07 09:13:55] Grafik kaydedildi: results/glmboost/acath/plots/survshap_plot_n50.png 
+[2026-08-07 09:13:55] SHAP ozeti kaydedildi: results/glmboost/acath/shap_summary_n50.csv 
+[2026-08-07 09:13:55] glmboost_model - SHAP TIVM: 0.002 
+[2026-08-07 09:13:56] [BELLEK] [acath/glmboost] model+explainer silindi, dongu sonu - Sistem RSS: 2.661 GB | R heap (gc): 0.32 GB 
+[2026-08-07 09:13:57] [BELLEK] [acath/glmnet] model dongusu basi - Sistem RSS: 2.661 GB | R heap (gc): 0.32 GB 
+[2026-08-07 09:13:57] Kaydedilmis model bulundu, okunuyor: results/glmnet/acath/model.rds 
+[2026-08-07 09:13:57] [BELLEK] [acath/glmnet] model hazir - Sistem RSS: 2.661 GB | R heap (gc): 0.321 GB 
+[2026-08-07 09:13:57] Performans hesaplama basladi: surv.glmnet 
+[2026-08-07 09:13:59] Performans hesaplama bitti: surv.glmnet - cindex: 0.611 - IBS (graf): 0.109 
+[2026-08-07 09:13:59] Performans kaydedildi: results/glmnet/acath/performance.csv 
+[2026-08-07 09:13:59] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/acath/explainer.rds 
+[2026-08-07 09:14:00] [BELLEK] [acath/glmnet] explainer hazir - Sistem RSS: 2.661 GB | R heap (gc): 0.321 GB 
+[2026-08-07 09:14:00] SHAP hesaplaniyor: glmnet_model - n_obs = 50 
+[2026-08-07 09:14:00] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 09:14:00] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 09:14:00] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 09:14:18] SHAP - gozlem 20 / 50 
+[2026-08-07 09:14:40] SHAP - gozlem 25 / 50 
+[2026-08-07 09:15:03] SHAP - gozlem 30 / 50 
+[2026-08-07 09:15:25] SHAP - gozlem 35 / 50 
+[2026-08-07 09:15:48] SHAP - gozlem 40 / 50 
+[2026-08-07 09:16:10] SHAP - gozlem 45 / 50 
+[2026-08-07 09:16:33] SHAP - gozlem 50 / 50 
+[2026-08-07 09:16:37] SHAP hesaplama bitti, kaydedildi: results/glmnet/acath/shap_long_n50.csv 
+[2026-08-07 09:16:38] [BELLEK] [acath/glmnet] SHAP sonrasi - Sistem RSS: 2.661 GB | R heap (gc): 0.322 GB 
+[2026-08-07 09:16:38] Grafik kaydedildi: results/glmnet/acath/plots/survshap_plot_n50.png 
+[2026-08-07 09:16:38] SHAP ozeti kaydedildi: results/glmnet/acath/shap_summary_n50.csv 
+[2026-08-07 09:16:38] glmnet_model - SHAP TIVM: 0.0019 
+[2026-08-07 09:16:39] [BELLEK] [acath/glmnet] model+explainer silindi, dongu sonu - Sistem RSS: 2.661 GB | R heap (gc): 0.32 GB 
+[2026-08-07 09:16:40] [BELLEK] [acath/penalized] model dongusu basi - Sistem RSS: 2.661 GB | R heap (gc): 0.32 GB 
+[2026-08-07 09:16:40] Kaydedilmis model bulundu, okunuyor: results/penalized/acath/model.rds 
+[2026-08-07 09:16:40] [BELLEK] [acath/penalized] model hazir - Sistem RSS: 2.661 GB | R heap (gc): 0.321 GB 
+[2026-08-07 09:16:40] Performans hesaplama basladi: surv.penalized 
+[2026-08-07 09:16:43] Performans hesaplama bitti: surv.penalized - cindex: 0.611 - IBS (graf): 0.109 
+[2026-08-07 09:16:43] Performans kaydedildi: results/penalized/acath/performance.csv 
+[2026-08-07 09:16:43] Kaydedilmis explainer bulundu, okunuyor: results/penalized/acath/explainer.rds 
+[2026-08-07 09:16:52] [BELLEK] [acath/penalized] explainer hazir - Sistem RSS: 2.662 GB | R heap (gc): 1.25 GB 
+[2026-08-07 09:16:52] SHAP hesaplaniyor: penalized_model - n_obs = 50 
+[2026-08-07 09:16:52] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 09:16:52] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 09:16:52] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 09:17:10] SHAP - gozlem 20 / 50 
+[2026-08-07 09:17:31] SHAP - gozlem 25 / 50 
+[2026-08-07 09:17:53] SHAP - gozlem 30 / 50 
+[2026-08-07 09:18:15] SHAP - gozlem 35 / 50 
+[2026-08-07 09:18:36] SHAP - gozlem 40 / 50 
+[2026-08-07 09:18:58] SHAP - gozlem 45 / 50 
+[2026-08-07 09:19:18] SHAP - gozlem 50 / 50 
+[2026-08-07 09:19:23] SHAP hesaplama bitti, kaydedildi: results/penalized/acath/shap_long_n50.csv 
+[2026-08-07 09:19:24] [BELLEK] [acath/penalized] SHAP sonrasi - Sistem RSS: 2.662 GB | R heap (gc): 1.25 GB 
+[2026-08-07 09:19:25] Grafik kaydedildi: results/penalized/acath/plots/survshap_plot_n50.png 
+[2026-08-07 09:19:25] SHAP ozeti kaydedildi: results/penalized/acath/shap_summary_n50.csv 
+[2026-08-07 09:19:25] penalized_model - SHAP TIVM: 0.0021 
+[2026-08-07 09:19:26] [BELLEK] [acath/penalized] model+explainer silindi, dongu sonu - Sistem RSS: 2.662 GB | R heap (gc): 0.322 GB 
+[2026-08-07 09:19:26] [BELLEK] [acath/ranger] model dongusu basi - Sistem RSS: 2.662 GB | R heap (gc): 0.322 GB 
+[2026-08-07 09:19:26] Kaydedilmis model bulundu, okunuyor: results/ranger/acath/model.rds 
+[2026-08-07 09:19:28] [BELLEK] [acath/ranger] model hazir - Sistem RSS: 2.662 GB | R heap (gc): 0.558 GB 
+[2026-08-07 09:19:28] Performans hesaplama basladi: surv.ranger 
+[2026-08-07 09:19:47] Performans hesaplama bitti: surv.ranger - cindex: 0.58 - IBS (graf): 0.155 
+[2026-08-07 09:19:47] Performans kaydedildi: results/ranger/acath/performance.csv 
+[2026-08-07 09:19:47] Kaydedilmis explainer bulundu, okunuyor: results/ranger/acath/explainer.rds 
+[2026-08-07 09:19:55] [BELLEK] [acath/ranger] explainer hazir - Sistem RSS: 2.664 GB | R heap (gc): 1.487 GB 
+[2026-08-07 09:19:55] SHAP hesaplaniyor: ranger_model - n_obs = 50 
+[2026-08-07 09:19:55] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 09:19:55] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 09:19:55] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 09:22:35] SHAP - gozlem 20 / 50 
+[2026-08-07 09:25:53] SHAP - gozlem 25 / 50 
+[2026-08-07 09:29:10] SHAP - gozlem 30 / 50 
+[2026-08-07 09:32:29] SHAP - gozlem 35 / 50 
+[2026-08-07 09:35:49] SHAP - gozlem 40 / 50 
+[2026-08-07 09:39:06] SHAP - gozlem 45 / 50 
+[2026-08-07 09:42:23] SHAP - gozlem 50 / 50 
+[2026-08-07 09:43:03] SHAP hesaplama bitti, kaydedildi: results/ranger/acath/shap_long_n50.csv 
+[2026-08-07 09:43:04] [BELLEK] [acath/ranger] SHAP sonrasi - Sistem RSS: 2.677 GB | R heap (gc): 1.487 GB 
+[2026-08-07 09:43:04] Grafik kaydedildi: results/ranger/acath/plots/survshap_plot_n50.png 
+[2026-08-07 09:43:04] SHAP ozeti kaydedildi: results/ranger/acath/shap_summary_n50.csv 
+[2026-08-07 09:43:04] ranger_model - SHAP TIVM: 0.0025 
+[2026-08-07 09:43:06] [BELLEK] [acath/ranger] model+explainer silindi, dongu sonu - Sistem RSS: 2.677 GB | R heap (gc): 0.323 GB 
+[2026-08-07 09:43:06] [BELLEK] [acath/rfsrc] model dongusu basi - Sistem RSS: 2.677 GB | R heap (gc): 0.323 GB 
+[2026-08-07 09:43:06] Kaydedilmis model bulundu, okunuyor: results/rfsrc/acath/model.rds 
+[2026-08-07 09:43:09] [BELLEK] [acath/rfsrc] model hazir - Sistem RSS: 2.677 GB | R heap (gc): 0.788 GB 
+[2026-08-07 09:43:09] Performans hesaplama basladi: surv.rfsrc 
+[2026-08-07 09:43:16] Performans hesaplama bitti: surv.rfsrc - cindex: 0.592 - IBS (graf): 0.119 
+[2026-08-07 09:43:16] Performans kaydedildi: results/rfsrc/acath/performance.csv 
+[2026-08-07 09:43:16] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/acath/explainer.rds 
+[2026-08-07 09:43:24] [BELLEK] [acath/rfsrc] explainer hazir - Sistem RSS: 3.022 GB | R heap (gc): 1.719 GB 
+[2026-08-07 09:43:24] SHAP hesaplaniyor: rfsrc_model - n_obs = 50 
+[2026-08-07 09:43:24] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 09:43:24] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 09:43:24] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 09:43:58] SHAP - gozlem 20 / 50 
+[2026-08-07 09:44:38] SHAP - gozlem 25 / 50 
+[2026-08-07 09:45:18] SHAP - gozlem 30 / 50 
+[2026-08-07 09:45:59] SHAP - gozlem 35 / 50 
+[2026-08-07 09:46:40] SHAP - gozlem 40 / 50 
+[2026-08-07 09:47:20] SHAP - gozlem 45 / 50 
+[2026-08-07 09:48:01] SHAP - gozlem 50 / 50 
+[2026-08-07 09:48:09] SHAP hesaplama bitti, kaydedildi: results/rfsrc/acath/shap_long_n50.csv 
+[2026-08-07 09:48:10] [BELLEK] [acath/rfsrc] SHAP sonrasi - Sistem RSS: 3.022 GB | R heap (gc): 1.719 GB 
+[2026-08-07 09:48:11] Grafik kaydedildi: results/rfsrc/acath/plots/survshap_plot_n50.png 
+[2026-08-07 09:48:11] SHAP ozeti kaydedildi: results/rfsrc/acath/shap_summary_n50.csv 
+[2026-08-07 09:48:11] rfsrc_model - SHAP TIVM: 0.0027 
+[2026-08-07 09:48:12] [BELLEK] [acath/rfsrc] model+explainer silindi, dongu sonu - Sistem RSS: 2.677 GB | R heap (gc): 0.325 GB 
+[2026-08-07 09:48:12] [BELLEK] [acath/xgboost_cox] model dongusu basi - Sistem RSS: 2.677 GB | R heap (gc): 0.325 GB 
+[2026-08-07 09:48:12] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/acath/model.rds 
+[2026-08-07 09:48:13] [BELLEK] [acath/xgboost_cox] model hazir - Sistem RSS: 2.677 GB | R heap (gc): 0.326 GB 
+[2026-08-07 09:48:13] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-08-07 09:48:15] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.551 - IBS (graf): 0.143 
+[2026-08-07 09:48:15] Performans kaydedildi: results/xgboost_cox/acath/performance.csv 
+[2026-08-07 09:48:15] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/acath/explainer.rds 
+[2026-08-07 09:48:21] [BELLEK] [acath/xgboost_cox] explainer hazir - Sistem RSS: 2.678 GB | R heap (gc): 1.255 GB 
+[2026-08-07 09:48:21] SHAP hesaplaniyor: xgboost_cox_model - n_obs = 50 
+[2026-08-07 09:48:21] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 09:48:21] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 09:48:21] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 09:48:39] SHAP - gozlem 20 / 50 
+[2026-08-07 09:49:02] SHAP - gozlem 25 / 50 
+[2026-08-07 09:49:25] SHAP - gozlem 30 / 50 
+[2026-08-07 09:49:48] SHAP - gozlem 35 / 50 
+[2026-08-07 09:50:12] SHAP - gozlem 40 / 50 
+[2026-08-07 09:50:35] SHAP - gozlem 45 / 50 
+[2026-08-07 09:50:58] SHAP - gozlem 50 / 50 
+[2026-08-07 09:51:04] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/acath/shap_long_n50.csv 
+[2026-08-07 09:51:04] [BELLEK] [acath/xgboost_cox] SHAP sonrasi - Sistem RSS: 2.678 GB | R heap (gc): 1.256 GB 
+[2026-08-07 09:51:05] Grafik kaydedildi: results/xgboost_cox/acath/plots/survshap_plot_n50.png 
+[2026-08-07 09:51:05] SHAP ozeti kaydedildi: results/xgboost_cox/acath/shap_summary_n50.csv 
+[2026-08-07 09:51:05] xgboost_cox_model - SHAP TIVM: 0.0033 
+[2026-08-07 09:51:06] [BELLEK] [acath/xgboost_cox] model+explainer silindi, dongu sonu - Sistem RSS: 2.678 GB | R heap (gc): 0.327 GB 
+[2026-08-07 09:51:06] ===== BITTI: acath + cox - cindex: 0.611 - PFI TIVM: 8e-04 - SHAP TIVM: 0.0021 ===== 
+[2026-08-07 09:51:06] ===== BITTI: acath + aorsf - cindex: 0.608 - PFI TIVM: 9e-04 - SHAP TIVM: 0.0027 ===== 
+[2026-08-07 09:51:06] ===== BITTI: acath + cforest - cindex: 0.586 - PFI TIVM: 0.0012 - SHAP TIVM: 0.003 ===== 
+[2026-08-07 09:51:06] ===== BITTI: acath + coxboost - cindex: 0.611 - PFI TIVM: 7e-04 - SHAP TIVM: 0.002 ===== 
+[2026-08-07 09:51:06] ===== BITTI: acath + cv_coxboost - cindex: 0.576 - PFI TIVM: 3e-04 - SHAP TIVM: 8e-04 ===== 
+[2026-08-07 09:51:06] ===== BITTI: acath + ctree - cindex: 0.597 - PFI TIVM: 9e-04 - SHAP TIVM: 0.0038 ===== 
+[2026-08-07 09:51:06] ===== BITTI: acath + cv_glmnet - cindex: 0.576 - PFI TIVM: 1e-04 - SHAP TIVM: 2e-04 ===== 
+[2026-08-07 09:51:06] ===== BITTI: acath + glmboost - cindex: 0.611 - PFI TIVM: 7e-04 - SHAP TIVM: 0.002 ===== 
+[2026-08-07 09:51:06] ===== BITTI: acath + glmnet - cindex: 0.611 - PFI TIVM: 7e-04 - SHAP TIVM: 0.0019 ===== 
+[2026-08-07 09:51:06] ===== BITTI: acath + penalized - cindex: 0.611 - PFI TIVM: 8e-04 - SHAP TIVM: 0.0021 ===== 
+[2026-08-07 09:51:06] ===== BITTI: acath + ranger - cindex: 0.58 - PFI TIVM: 0.0014 - SHAP TIVM: 0.0025 ===== 
+[2026-08-07 09:51:06] ===== BITTI: acath + rfsrc - cindex: 0.592 - PFI TIVM: 0.0011 - SHAP TIVM: 0.0027 ===== 
+[2026-08-07 09:51:06] ===== BITTI: acath + xgboost_cox - cindex: 0.551 - PFI TIVM: 0.0019 - SHAP TIVM: 0.0033 ===== 
+[2026-08-07 09:51:06] ----- Veri seti bitti: acath ----- 
+[2026-08-07 09:51:06] ===== RUN ( acath ) TAMAMLANDI ===== 
