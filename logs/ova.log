@@ -454,3 +454,224 @@
 [2026-07-22 22:23:45] ===== BITTI: ova + xgboost_cox - cindex: 0.641 - PFI TIVM: 0.0047 - SHAP TIVM: 0.0022 ===== 
 [2026-07-22 22:23:45] ----- Veri seti bitti: ova ----- 
 [2026-07-22 22:23:45] ===== RUN ( ova ) TAMAMLANDI ===== 
+[2026-08-07 07:59:57] Paket kurulumu basladi 
+[2026-08-07 07:59:57] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-07 08:00:03] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-08-07 08:00:06] Paket kurulumu tamamlandi 
+[2026-08-07 08:00:06] Veri okuma basladi: grace 
+[2026-08-07 08:00:06] Veri okuma bitti: grace - 1000 satir, 7 sutun 
+[2026-08-07 08:00:06] Veri okuma basladi: melanoma 
+[2026-08-07 08:00:06] Veri okuma bitti: melanoma - 205 satir, 7 sutun 
+[2026-08-07 08:00:06] Veri okuma basladi: ova 
+[2026-08-07 08:00:07] Veri okuma bitti: ova - 358 satir, 7 sutun 
+[2026-08-07 08:00:07] Veri okuma basladi: aids2 
+[2026-08-07 08:00:07] Veri okuma bitti: aids2 - 2839 satir, 6 sutun 
+[2026-08-07 08:00:07] Veri okuma basladi: veteran 
+[2026-08-07 08:00:07] Veri okuma bitti: veteran - 137 satir, 8 sutun 
+[2026-08-07 08:00:07] Veri okuma basladi: breast 
+[2026-08-07 08:00:07] Veri okuma bitti: breast - 100 satir, 6 sutun 
+[2026-08-07 08:00:07] Veri okuma basladi: e1684 
+[2026-08-07 08:00:07] Veri okuma bitti: e1684 - 284 satir, 5 sutun 
+[2026-08-07 08:00:07] Veri okuma basladi: epileptic 
+[2026-08-07 08:00:07] Veri okuma bitti: epileptic - 1286 satir, 8 sutun 
+[2026-08-07 08:00:07] Veri okuma basladi: dialysis 
+[2026-08-07 08:00:07] Veri okuma bitti: dialysis - 6805 satir, 6 sutun 
+[2026-08-07 08:00:07] Veri okuma basladi: pbc 
+[2026-08-07 08:00:07] Veri okuma bitti: pbc - 312 satir, 8 sutun 
+[2026-08-07 08:00:07] Veri okuma basladi: prostateSurvival 
+[2026-08-07 08:00:07] Veri okuma bitti: prostateSurvival - 14294 satir, 5 sutun 
+[2026-08-07 08:00:07] Veri okuma basladi: acath 
+[2026-08-07 08:00:07] Veri okuma bitti: acath - 2258 satir, 5 sutun 
+[2026-08-07 08:00:07] Veri okuma basladi: prostate 
+[2026-08-07 08:00:07] Veri okuma bitti: prostate - 475 satir, 17 sutun 
+[2026-08-07 08:00:07] Veri okuma basladi: dataDIVAT1 
+[2026-08-07 08:00:08] Veri okuma bitti: dataDIVAT1 - 5943 satir, 7 sutun 
+[2026-08-07 08:00:08] Veri okuma basladi: dataDIVAT3 
+[2026-08-07 08:00:08] Veri okuma bitti: dataDIVAT3 - 4267 satir, 9 sutun 
+[2026-08-07 08:00:08] Veri okuma basladi: TRACE 
+[2026-08-07 08:00:08] Veri okuma bitti: TRACE - 1878 satir, 8 sutun 
+[2026-08-07 08:00:08] Veri okuma basladi: FRTCS 
+[2026-08-07 08:00:08] Veri okuma bitti: FRTCS - 2088 satir, 7 sutun 
+[2026-08-07 08:00:08] Veri okuma basladi: zinc 
+[2026-08-07 08:00:08] Veri okuma bitti: zinc - 431 satir, 15 sutun 
+[2026-08-07 08:00:08] Veri okuma basladi: stagec 
+[2026-08-07 08:00:08] Veri okuma bitti: stagec - 136 satir, 9 sutun 
+[2026-08-07 08:00:08] Veri okuma basladi: LeukSurv 
+[2026-08-07 08:00:08] Veri okuma bitti: LeukSurv - 1043 satir, 9 sutun 
+[2026-08-07 08:00:08] Veri okuma basladi: nwtco 
+[2026-08-07 08:00:08] Veri okuma bitti: nwtco - 4028 satir, 9 sutun 
+[2026-08-07 08:00:08] Veri okuma basladi: retinopathy 
+[2026-08-07 08:00:08] Veri okuma bitti: retinopathy - 394 satir, 9 sutun 
+[2026-08-07 08:00:08] Veri okuma basladi: Framingham 
+[2026-08-07 08:00:09] Veri okuma bitti: Framingham - 4658 satir, 9 sutun 
+[2026-08-07 08:00:09] Veri okuma basladi: csl 
+[2026-08-07 08:00:09] Veri okuma bitti: csl - 2481 satir, 8 sutun 
+[2026-08-07 08:00:09] Veri okuma basladi: cancer 
+[2026-08-07 08:00:09] Veri okuma bitti: cancer - 169 satir, 10 sutun 
+[2026-08-07 08:00:09] Veri okuma basladi: whas500 
+[2026-08-07 08:00:09] Veri okuma bitti: whas500 - 461 satir, 18 sutun 
+[2026-08-07 08:00:09] Veri okuma basladi: cgd 
+[2026-08-07 08:00:09] Veri okuma bitti: cgd - 128 satir, 12 sutun 
+[2026-08-07 08:00:09] Veri okuma basladi: Pbc3 
+[2026-08-07 08:00:09] Veri okuma bitti: Pbc3 - 327 satir, 14 sutun 
+[2026-08-07 08:00:09] Veri okuma basladi: GBSG2 
+[2026-08-07 08:00:09] Veri okuma bitti: GBSG2 - 686 satir, 10 sutun 
+[2026-08-07 08:00:09] Veri okuma basladi: colon 
+[2026-08-07 08:00:09] Veri okuma bitti: colon - 911 satir, 11 sutun 
+[2026-08-07 08:00:09] Veri okuma basladi: flchain 
+[2026-08-07 08:00:09] Veri okuma bitti: flchain - 6524 satir, 12 sutun 
+[2026-08-07 08:00:09] Veri okuma basladi: Rossi 
+[2026-08-07 08:00:09] Veri okuma bitti: Rossi - 1405 satir, 11 sutun 
+[2026-08-07 08:00:09] Veri okuma basladi: burn 
+[2026-08-07 08:00:10] Veri okuma bitti: burn - 154 satir, 13 sutun 
+[2026-08-07 08:00:10] Veri okuma basladi: rott2 
+[2026-08-07 08:00:10] Veri okuma bitti: rott2 - 2982 satir, 13 sutun 
+[2026-08-07 08:00:10] Veri okuma basladi: d_oropha_rec 
+[2026-08-07 08:00:10] Veri okuma bitti: d_oropha_rec - 192 satir, 14 sutun 
+[2026-08-07 08:00:10] Veri okuma basladi: rdata 
+[2026-08-07 08:00:10] Veri okuma bitti: rdata - 1040 satir, 6 sutun 
+[2026-08-07 08:00:10] Task olusturuluyor: grace_task 
+[2026-08-07 08:00:10] Task olusturuldu: grace_task 
+[2026-08-07 08:00:10] Task olusturuluyor: melanoma_task 
+[2026-08-07 08:00:10] Task olusturuldu: melanoma_task 
+[2026-08-07 08:00:10] Task olusturuluyor: ova_task 
+[2026-08-07 08:00:10] Task olusturuldu: ova_task 
+[2026-08-07 08:00:10] Task olusturuluyor: aids2_task 
+[2026-08-07 08:00:10] Task olusturuldu: aids2_task 
+[2026-08-07 08:00:10] Task olusturuluyor: veteran_task 
+[2026-08-07 08:00:10] Task olusturuldu: veteran_task 
+[2026-08-07 08:00:10] Task olusturuluyor: breast_task 
+[2026-08-07 08:00:10] Task olusturuldu: breast_task 
+[2026-08-07 08:00:10] Task olusturuluyor: e1684_task 
+[2026-08-07 08:00:10] Task olusturuldu: e1684_task 
+[2026-08-07 08:00:10] Task olusturuluyor: epileptic_task 
+[2026-08-07 08:00:10] Task olusturuldu: epileptic_task 
+[2026-08-07 08:00:10] Task olusturuluyor: dialysis_task 
+[2026-08-07 08:00:10] Task olusturuldu: dialysis_task 
+[2026-08-07 08:00:10] Task olusturuluyor: pbc_task 
+[2026-08-07 08:00:10] Task olusturuldu: pbc_task 
+[2026-08-07 08:00:10] Task olusturuluyor: prostateSurvival_task 
+[2026-08-07 08:00:10] Task olusturuldu: prostateSurvival_task 
+[2026-08-07 08:00:10] Task olusturuluyor: acath_task 
+[2026-08-07 08:00:10] Task olusturuldu: acath_task 
+[2026-08-07 08:00:10] Task olusturuluyor: prostate_task 
+[2026-08-07 08:00:10] Task olusturuldu: prostate_task 
+[2026-08-07 08:00:10] Task olusturuluyor: dataDIVAT1_task 
+[2026-08-07 08:00:10] Task olusturuldu: dataDIVAT1_task 
+[2026-08-07 08:00:10] Task olusturuluyor: dataDIVAT3_task 
+[2026-08-07 08:00:10] Task olusturuldu: dataDIVAT3_task 
+[2026-08-07 08:00:10] Task olusturuluyor: TRACE_task 
+[2026-08-07 08:00:10] Task olusturuldu: TRACE_task 
+[2026-08-07 08:00:10] Task olusturuluyor: FRTCS_task 
+[2026-08-07 08:00:10] Task olusturuldu: FRTCS_task 
+[2026-08-07 08:00:10] Task olusturuluyor: zinc_task 
+[2026-08-07 08:00:10] Task olusturuldu: zinc_task 
+[2026-08-07 08:00:10] Task olusturuluyor: stagec_task 
+[2026-08-07 08:00:10] Task olusturuldu: stagec_task 
+[2026-08-07 08:00:10] Task olusturuluyor: LeukSurv_task 
+[2026-08-07 08:00:10] Task olusturuldu: LeukSurv_task 
+[2026-08-07 08:00:10] Task olusturuluyor: nwtco_task 
+[2026-08-07 08:00:10] Task olusturuldu: nwtco_task 
+[2026-08-07 08:00:10] Task olusturuluyor: retinopathy_task 
+[2026-08-07 08:00:10] Task olusturuldu: retinopathy_task 
+[2026-08-07 08:00:10] Task olusturuluyor: Framingham_task 
+[2026-08-07 08:00:10] Task olusturuldu: Framingham_task 
+[2026-08-07 08:00:10] Task olusturuluyor: csl_task 
+[2026-08-07 08:00:10] Task olusturuldu: csl_task 
+[2026-08-07 08:00:10] Task olusturuluyor: cancer_task 
+[2026-08-07 08:00:10] Task olusturuldu: cancer_task 
+[2026-08-07 08:00:10] Task olusturuluyor: whas500_task 
+[2026-08-07 08:00:10] Task olusturuldu: whas500_task 
+[2026-08-07 08:00:10] Task olusturuluyor: cgd_task 
+[2026-08-07 08:00:10] Task olusturuldu: cgd_task 
+[2026-08-07 08:00:10] Task olusturuluyor: Pbc3_task 
+[2026-08-07 08:00:10] Task olusturuldu: Pbc3_task 
+[2026-08-07 08:00:10] Task olusturuluyor: GBSG2_task 
+[2026-08-07 08:00:10] Task olusturuldu: GBSG2_task 
+[2026-08-07 08:00:10] Task olusturuluyor: colon_task 
+[2026-08-07 08:00:10] Task olusturuldu: colon_task 
+[2026-08-07 08:00:10] Task olusturuluyor: flchain_task 
+[2026-08-07 08:00:10] Task olusturuldu: flchain_task 
+[2026-08-07 08:00:10] Task olusturuluyor: Rossi_task 
+[2026-08-07 08:00:10] Task olusturuldu: Rossi_task 
+[2026-08-07 08:00:10] Task olusturuluyor: burn_task 
+[2026-08-07 08:00:10] Task olusturuldu: burn_task 
+[2026-08-07 08:00:10] Task olusturuluyor: rott2_task 
+[2026-08-07 08:00:10] Task olusturuldu: rott2_task 
+[2026-08-07 08:00:10] Task olusturuluyor: d_oropha_rec_task 
+[2026-08-07 08:00:10] Task olusturuldu: d_oropha_rec_task 
+[2026-08-07 08:00:10] Task olusturuluyor: rdata_task 
+[2026-08-07 08:00:10] Task olusturuldu: rdata_task 
+[2026-08-07 08:00:10] Toplam 36 task olusturuldu 
+[2026-08-07 08:00:10] ===== RUN ( ova ) BASLADI: 13 model ===== 
+[2026-08-07 08:00:11] ----- Veri seti basladi: ova ----- 
+[2026-08-07 08:00:11] [BELLEK] [ova] veri seti basi - Sistem RSS: 0.491 GB | R heap (gc): 0.266 GB 
+[2026-08-07 08:00:11] Split basladi (ratio = 0.7 ) 
+[2026-08-07 08:00:11] Split bitti - train: 251 test: 107 
+[2026-08-07 08:00:12] [BELLEK] [ova/cox] model dongusu basi - Sistem RSS: 0.491 GB | R heap (gc): 0.267 GB 
+[2026-08-07 08:00:12] Kaydedilmis model bulundu, okunuyor: results/cox/ova/model.rds 
+[2026-08-07 08:00:12] [BELLEK] [ova/cox] model hazir - Sistem RSS: 0.491 GB | R heap (gc): 0.268 GB 
+[2026-08-07 08:00:12] Performans hesaplama basladi: surv.coxph 
+[2026-08-07 08:00:14] Performans hesaplama bitti: surv.coxph - cindex: 0.659 - IBS (graf): 0.171 
+[2026-08-07 08:00:14] Performans kaydedildi: results/cox/ova/performance.csv 
+[2026-08-07 08:00:14] Kaydedilmis explainer bulundu, okunuyor: results/cox/ova/explainer.rds 
+[2026-08-07 08:00:17] [BELLEK] [ova/cox] explainer hazir - Sistem RSS: 0.571 GB | R heap (gc): 0.416 GB 
+[2026-08-07 08:00:17] SHAP hesaplaniyor: cox_model - n_obs = 50 
+[2026-08-07 08:00:17] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 08:00:17] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 08:00:17] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 08:00:46] SHAP - gozlem 20 / 50 
+[2026-08-07 08:01:21] SHAP - gozlem 25 / 50 
+[2026-08-07 08:01:56] SHAP - gozlem 30 / 50 
+[2026-08-07 08:02:32] SHAP - gozlem 35 / 50 
+[2026-08-07 08:03:07] SHAP - gozlem 40 / 50 
+[2026-08-07 08:03:43] SHAP - gozlem 45 / 50 
+[2026-08-07 08:04:17] SHAP - gozlem 50 / 50 
+[2026-08-07 08:04:25] SHAP hesaplama bitti, kaydedildi: results/cox/ova/shap_long_n50.csv 
+[2026-08-07 08:04:25] [BELLEK] [ova/cox] SHAP sonrasi - Sistem RSS: 1.02 GB | R heap (gc): 0.418 GB 
+[2026-08-07 08:04:26] Grafik kaydedildi: results/cox/ova/plots/survshap_plot_n50.png 
+[2026-08-07 08:04:27] SHAP ozeti kaydedildi: results/cox/ova/shap_summary_n50.csv 
+[2026-08-07 08:04:27] cox_model - SHAP TIVM: 0.0015 
+[2026-08-07 08:04:28] [BELLEK] [ova/cox] model+explainer silindi, dongu sonu - Sistem RSS: 0.975 GB | R heap (gc): 0.304 GB 
+[2026-08-07 08:04:28] [BELLEK] [ova/aorsf] model dongusu basi - Sistem RSS: 0.975 GB | R heap (gc): 0.304 GB 
+[2026-08-07 08:04:28] Kaydedilmis model bulundu, okunuyor: results/aorsf/ova/model.rds 
+[2026-08-07 08:04:29] [BELLEK] [ova/aorsf] model hazir - Sistem RSS: 0.975 GB | R heap (gc): 0.31 GB 
+[2026-08-07 08:04:29] Performans hesaplama basladi: surv.aorsf 
+[2026-08-07 08:04:30] Performans hesaplama bitti: surv.aorsf - cindex: 0.663 - IBS (graf): 0.17 
+[2026-08-07 08:04:30] Performans kaydedildi: results/aorsf/ova/performance.csv 
+[2026-08-07 08:04:30] Kaydedilmis explainer bulundu, okunuyor: results/aorsf/ova/explainer.rds 
+[2026-08-07 08:04:32] [BELLEK] [ova/aorsf] explainer hazir - Sistem RSS: 0.975 GB | R heap (gc): 0.443 GB 
+[2026-08-07 08:04:32] SHAP hesaplaniyor: aorsf_model - n_obs = 50 
+[2026-08-07 08:04:32] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 08:04:32] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 08:04:32] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 08:04:59] SHAP - gozlem 20 / 50 
+[2026-08-07 08:05:33] SHAP - gozlem 25 / 50 
+[2026-08-07 08:06:07] SHAP - gozlem 30 / 50 
+[2026-08-07 08:06:41] SHAP - gozlem 35 / 50 
+[2026-08-07 08:07:13] SHAP - gozlem 40 / 50 
+[2026-08-07 08:07:47] SHAP - gozlem 45 / 50 
+[2026-08-07 08:08:20] SHAP - gozlem 50 / 50 
+[2026-08-07 08:08:28] SHAP hesaplama bitti, kaydedildi: results/aorsf/ova/shap_long_n50.csv 
+[2026-08-07 08:08:28] [BELLEK] [ova/aorsf] SHAP sonrasi - Sistem RSS: 0.999 GB | R heap (gc): 0.444 GB 
+[2026-08-07 08:08:30] Grafik kaydedildi: results/aorsf/ova/plots/survshap_plot_n50.png 
+[2026-08-07 08:08:30] SHAP ozeti kaydedildi: results/aorsf/ova/shap_summary_n50.csv 
+[2026-08-07 08:08:30] aorsf_model - SHAP TIVM: 0.002 
+[2026-08-07 08:08:31] [BELLEK] [ova/aorsf] model+explainer silindi, dongu sonu - Sistem RSS: 0.999 GB | R heap (gc): 0.308 GB 
+[2026-08-07 08:08:31] [BELLEK] [ova/cforest] model dongusu basi - Sistem RSS: 0.999 GB | R heap (gc): 0.308 GB 
+[2026-08-07 08:08:31] Kaydedilmis model bulundu, okunuyor: results/cforest/ova/model.rds 
+[2026-08-07 08:08:32] [BELLEK] [ova/cforest] model hazir - Sistem RSS: 0.999 GB | R heap (gc): 0.338 GB 
+[2026-08-07 08:08:32] Performans hesaplama basladi: surv.cforest 
+[2026-08-07 08:08:51] Performans hesaplama bitti: surv.cforest - cindex: 0.634 - IBS (graf): 0.176 
+[2026-08-07 08:08:51] Performans kaydedildi: results/cforest/ova/performance.csv 
+[2026-08-07 08:08:51] Kaydedilmis explainer bulundu, okunuyor: results/cforest/ova/explainer.rds 
+[2026-08-07 08:08:53] [BELLEK] [ova/cforest] explainer hazir - Sistem RSS: 0.999 GB | R heap (gc): 0.47 GB 
+[2026-08-07 08:08:53] SHAP hesaplaniyor: cforest_model - n_obs = 50 
+[2026-08-07 08:08:53] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 08:08:53] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 08:08:53] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 08:10:31] SHAP - gozlem 20 / 50 
+[2026-08-07 08:12:35] SHAP - gozlem 25 / 50 
+[2026-08-07 08:14:37] SHAP - gozlem 30 / 50 
+[2026-08-07 08:16:41] SHAP - gozlem 35 / 50 
+[2026-08-07 08:18:47] SHAP - gozlem 40 / 50 
