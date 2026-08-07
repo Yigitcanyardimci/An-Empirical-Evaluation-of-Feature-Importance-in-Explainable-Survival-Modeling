@@ -1719,3 +1719,4 @@ dbl (6): pid, event, time, fac_sex, num_age, num_year
 [2026-08-07 10:16:28] SHAP hesaplama basladi, n_obs = 50 
 [2026-08-07 10:29:18] BITTI: dataDIVAT3 (0/13 model tamam)
 [2026-08-07 10:29:18] UYARI: dataDIVAT3 eksik kaldi (0/13) - OOM/hata suphesi
+[2026-08-07 17:07:02] BITTI: rdata (13/13 model tamam)
