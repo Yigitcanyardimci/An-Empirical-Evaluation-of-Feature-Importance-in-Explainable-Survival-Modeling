@@ -2190,3 +2190,12 @@ dbl (6): pid, event, time, fac_sex, num_age, num_year
 [2026-08-07 17:09:42] SHAP hesaplama basladi, n_obs = 50 
 [2026-08-07 17:10:23] BITTI: dataDIVAT1 (0/13 model tamam)
 [2026-08-07 17:10:23] UYARI: dataDIVAT1 eksik kaldi (0/13)
+From github.com:Yigitcanyardimci/Survival-XAI
+ * branch              main       -> FETCH_HEAD
+error: cannot rebase: You have unstaged changes.
+error: Please commit or stash them.
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-08-07 17:10:54] ===== VM5 KUCUK/ORTA KUYRUK TAMAMLANDI (Framingham beklet havuzunda) =====
