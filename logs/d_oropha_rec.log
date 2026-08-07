@@ -1351,3 +1351,80 @@
 [2026-08-07 00:25:30] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
 [2026-08-07 00:25:30] SHAP hesaplama basladi, n_obs = 50 
 [2026-08-07 00:34:28] SHAP - gozlem 20 / 50 
+[2026-08-07 00:52:27] SHAP - gozlem 25 / 50 
+[2026-08-07 01:12:17] SHAP - gozlem 30 / 50 
+[2026-08-07 01:38:54] SHAP - gozlem 35 / 50 
+[2026-08-07 01:50:00] SHAP - gozlem 40 / 50 
+[2026-08-07 02:06:34] SHAP - gozlem 45 / 50 
+[2026-08-07 02:22:20] SHAP - gozlem 50 / 50 
+[2026-08-07 02:25:10] SHAP hesaplama bitti, kaydedildi: results/ranger/d_oropha_rec/shap_long_n50.csv 
+[2026-08-07 02:25:11] [BELLEK] [d_oropha_rec/ranger] SHAP sonrasi - Sistem RSS: 1.229 GB | R heap (gc): 0.405 GB 
+[2026-08-07 02:25:11] Grafik kaydedildi: results/ranger/d_oropha_rec/plots/survshap_plot_n50.png 
+[2026-08-07 02:25:11] SHAP ozeti kaydedildi: results/ranger/d_oropha_rec/shap_summary_n50.csv 
+[2026-08-07 02:25:11] ranger_model - SHAP TIVM: 0.0033 
+[2026-08-07 02:25:12] [BELLEK] [d_oropha_rec/ranger] model+explainer silindi, dongu sonu - Sistem RSS: 1.23 GB | R heap (gc): 0.324 GB 
+[2026-08-07 02:25:13] [BELLEK] [d_oropha_rec/rfsrc] model dongusu basi - Sistem RSS: 1.23 GB | R heap (gc): 0.324 GB 
+[2026-08-07 02:25:13] Kaydedilmis model bulundu, okunuyor: results/rfsrc/d_oropha_rec/model.rds 
+[2026-08-07 02:25:14] [BELLEK] [d_oropha_rec/rfsrc] model hazir - Sistem RSS: 1.23 GB | R heap (gc): 0.345 GB 
+[2026-08-07 02:25:14] Performans hesaplama basladi: surv.rfsrc 
+[2026-08-07 02:25:15] Performans hesaplama bitti: surv.rfsrc - cindex: 0.681 - IBS (graf): 0.16 
+[2026-08-07 02:25:15] Performans kaydedildi: results/rfsrc/d_oropha_rec/performance.csv 
+[2026-08-07 02:25:15] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/d_oropha_rec/explainer.rds 
+[2026-08-07 02:25:16] [BELLEK] [d_oropha_rec/rfsrc] explainer hazir - Sistem RSS: 1.231 GB | R heap (gc): 0.413 GB 
+[2026-08-07 02:25:16] SHAP hesaplaniyor: rfsrc_model - n_obs = 50 
+[2026-08-07 02:25:16] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 02:25:16] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 02:25:16] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 02:25:58] SHAP - gozlem 20 / 50 
+[2026-08-07 02:27:44] SHAP - gozlem 25 / 50 
+[2026-08-07 02:29:40] SHAP - gozlem 30 / 50 
+[2026-08-07 02:32:03] SHAP - gozlem 35 / 50 
+[2026-08-07 02:33:23] SHAP - gozlem 40 / 50 
+[2026-08-07 02:34:39] SHAP - gozlem 45 / 50 
+[2026-08-07 02:36:03] SHAP - gozlem 50 / 50 
+[2026-08-07 02:36:14] SHAP hesaplama bitti, kaydedildi: results/rfsrc/d_oropha_rec/shap_long_n50.csv 
+[2026-08-07 02:36:14] [BELLEK] [d_oropha_rec/rfsrc] SHAP sonrasi - Sistem RSS: 1.303 GB | R heap (gc): 0.414 GB 
+[2026-08-07 02:36:15] Grafik kaydedildi: results/rfsrc/d_oropha_rec/plots/survshap_plot_n50.png 
+[2026-08-07 02:36:15] SHAP ozeti kaydedildi: results/rfsrc/d_oropha_rec/shap_summary_n50.csv 
+[2026-08-07 02:36:15] rfsrc_model - SHAP TIVM: 0.0034 
+[2026-08-07 02:36:16] [BELLEK] [d_oropha_rec/rfsrc] model+explainer silindi, dongu sonu - Sistem RSS: 1.231 GB | R heap (gc): 0.326 GB 
+[2026-08-07 02:36:16] [BELLEK] [d_oropha_rec/xgboost_cox] model dongusu basi - Sistem RSS: 1.231 GB | R heap (gc): 0.326 GB 
+[2026-08-07 02:36:16] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/d_oropha_rec/model.rds 
+[2026-08-07 02:36:17] [BELLEK] [d_oropha_rec/xgboost_cox] model hazir - Sistem RSS: 1.231 GB | R heap (gc): 0.327 GB 
+[2026-08-07 02:36:17] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-08-07 02:36:17] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.737 - IBS (graf): 0.164 
+[2026-08-07 02:36:17] Performans kaydedildi: results/xgboost_cox/d_oropha_rec/performance.csv 
+[2026-08-07 02:36:18] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/d_oropha_rec/explainer.rds 
+[2026-08-07 02:36:19] [BELLEK] [d_oropha_rec/xgboost_cox] explainer hazir - Sistem RSS: 1.232 GB | R heap (gc): 0.394 GB 
+[2026-08-07 02:36:19] SHAP hesaplaniyor: xgboost_cox_model - n_obs = 50 
+[2026-08-07 02:36:19] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 02:36:19] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 02:36:19] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 02:42:15] SHAP - gozlem 20 / 50 
+[2026-08-07 02:49:37] SHAP - gozlem 25 / 50 
+[2026-08-07 02:57:02] SHAP - gozlem 30 / 50 
+[2026-08-07 03:04:29] SHAP - gozlem 35 / 50 
+[2026-08-07 03:11:56] SHAP - gozlem 40 / 50 
+[2026-08-07 03:19:21] SHAP - gozlem 45 / 50 
+[2026-08-07 03:26:43] SHAP - gozlem 50 / 50 
+[2026-08-07 03:28:12] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/d_oropha_rec/shap_long_n50.csv 
+[2026-08-07 03:28:12] [BELLEK] [d_oropha_rec/xgboost_cox] SHAP sonrasi - Sistem RSS: 1.238 GB | R heap (gc): 0.395 GB 
+[2026-08-07 03:28:13] Grafik kaydedildi: results/xgboost_cox/d_oropha_rec/plots/survshap_plot_n50.png 
+[2026-08-07 03:28:13] SHAP ozeti kaydedildi: results/xgboost_cox/d_oropha_rec/shap_summary_n50.csv 
+[2026-08-07 03:28:13] xgboost_cox_model - SHAP TIVM: 0.0062 
+[2026-08-07 03:28:14] [BELLEK] [d_oropha_rec/xgboost_cox] model+explainer silindi, dongu sonu - Sistem RSS: 1.238 GB | R heap (gc): 0.328 GB 
+[2026-08-07 03:28:14] ===== BITTI: d_oropha_rec + cox - cindex: 0.662 - PFI TIVM: 0.0055 - SHAP TIVM: 0.0031 ===== 
+[2026-08-07 03:28:14] ===== BITTI: d_oropha_rec + aorsf - cindex: 0.69 - PFI TIVM: 0.0046 - SHAP TIVM: 0.0029 ===== 
+[2026-08-07 03:28:14] ===== BITTI: d_oropha_rec + cforest - cindex: 0.683 - PFI TIVM: 0.0026 - SHAP TIVM: 0.0036 ===== 
+[2026-08-07 03:28:14] ===== BITTI: d_oropha_rec + coxboost - cindex: 0.65 - PFI TIVM: 0.0056 - SHAP TIVM: 0.0033 ===== 
+[2026-08-07 03:28:14] ===== BITTI: d_oropha_rec + cv_coxboost - cindex: 0.629 - PFI TIVM: 0.0023 - SHAP TIVM: 8e-04 ===== 
+[2026-08-07 03:28:14] ===== BITTI: d_oropha_rec + ctree - cindex: 0.626 - PFI TIVM: 0.0083 - SHAP TIVM: 0.0122 ===== 
+[2026-08-07 03:28:14] ===== BITTI: d_oropha_rec + cv_glmnet - cindex: 0.649 - PFI TIVM: 0.0059 - SHAP TIVM: 0.0036 ===== 
+[2026-08-07 03:28:14] ===== BITTI: d_oropha_rec + glmboost - cindex: 0.643 - PFI TIVM: 0.0072 - SHAP TIVM: 0.0035 ===== 
+[2026-08-07 03:28:14] ===== BITTI: d_oropha_rec + glmnet - cindex: 0.647 - PFI TIVM: 0.0077 - SHAP TIVM: 0.0034 ===== 
+[2026-08-07 03:28:14] ===== BITTI: d_oropha_rec + penalized - cindex: 0.664 - PFI TIVM: 0.0031 - SHAP TIVM: 0.0018 ===== 
+[2026-08-07 03:28:14] ===== BITTI: d_oropha_rec + ranger - cindex: 0.704 - PFI TIVM: 0.0027 - SHAP TIVM: 0.0033 ===== 
+[2026-08-07 03:28:14] ===== BITTI: d_oropha_rec + rfsrc - cindex: 0.681 - PFI TIVM: 0.0025 - SHAP TIVM: 0.0034 ===== 
+[2026-08-07 03:28:14] ===== BITTI: d_oropha_rec + xgboost_cox - cindex: 0.737 - PFI TIVM: 0.0133 - SHAP TIVM: 0.0062 ===== 
+[2026-08-07 03:28:14] ----- Veri seti bitti: d_oropha_rec ----- 
+[2026-08-07 03:28:14] ===== RUN ( d_oropha_rec ) TAMAMLANDI ===== 
