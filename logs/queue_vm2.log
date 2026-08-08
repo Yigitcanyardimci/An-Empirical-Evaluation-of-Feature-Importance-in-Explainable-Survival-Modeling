@@ -3486,3 +3486,4 @@ dbl (6): pid, event, time, fac_sex, num_age, num_year
 [2026-08-07 13:40:01] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
 [2026-08-07 13:40:01] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
 [2026-08-07 13:40:01] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 17:29:35] BITTI: whas500 (13/13 model tamam)
