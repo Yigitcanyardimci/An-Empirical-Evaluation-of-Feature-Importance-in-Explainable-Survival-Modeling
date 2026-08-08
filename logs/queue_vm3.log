@@ -2712,3 +2712,10 @@ dbl (6): pid, event, time, fac_sex, num_age, num_year
 [2026-08-08 10:27:34] SHAP hesaplama basladi, n_obs = 50 
 [2026-08-08 11:52:55] BITTI: aids2 (2/13 model tamam)
 [2026-08-08 11:52:55] UYARI: aids2 eksik kaldi (2/13)
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-08-08 11:53:26] ===== VM3 KUCUK/ORTA KUYRUK TAMAMLANDI (nwtco beklet havuzunda) =====
