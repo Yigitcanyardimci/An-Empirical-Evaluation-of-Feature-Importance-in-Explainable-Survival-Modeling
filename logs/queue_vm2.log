@@ -3487,3 +3487,583 @@ dbl (6): pid, event, time, fac_sex, num_age, num_year
 [2026-08-07 13:40:01] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
 [2026-08-07 13:40:01] SHAP hesaplama basladi, n_obs = 50 
 [2026-08-08 17:29:35] BITTI: whas500 (13/13 model tamam)
+From github.com:Yigitcanyardimci/Survival-XAI
+ * branch              main       -> FETCH_HEAD
+   0421db84..7edd5eb2  main       -> origin/main
+error: cannot rebase: You have unstaged changes.
+error: Please commit or stash them.
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-08-08 17:30:08] BASLIYOR/DEVAM: pbc (n=50)
+[2026-08-08 17:30:09] Paket kurulumu basladi 
+[2026-08-08 17:30:09] renv.lock bulunamadi, normal kurulum yapiliyor 
+renv.lock bulunamadi, normal kurulum yapiliyor. Reproducibility icin projede bir kere renv::init() calistirabilirsin.
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘survex’
+
+The following object is masked from ‘package:dplyr’:
+
+    explain
+
+[2026-08-08 17:30:12] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-08-08 17:30:14] Paket kurulumu tamamlandi 
+[2026-08-08 17:30:14] Veri okuma basladi: grace 
+Rows: 1000 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (8): pid, event, time, num_los, num_age, num_sysbp, fac_revasc, fac_stch...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:14] Veri okuma bitti: grace - 1000 satir, 7 sutun 
+[2026-08-08 17:30:14] Veri okuma basladi: melanoma 
+Rows: 205 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (8): pid, event, time, fac_sex, fac_ulcer, num_age, num_year, num_thickness
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:14] Veri okuma bitti: melanoma - 205 satir, 7 sutun 
+[2026-08-08 17:30:14] Veri okuma basladi: ova 
+Rows: 358 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (8): pid, event, time, fac_karn, fac_diam, fac_figo, num_karn, num_diam
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:14] Veri okuma bitti: ova - 358 satir, 7 sutun 
+[2026-08-08 17:30:14] Veri okuma basladi: aids2 
+Rows: 2839 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_state, fac_sex, fac_T_categ
+dbl (4): pid, event, time, num_age
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:14] Veri okuma bitti: aids2 - 2839 satir, 6 sutun 
+[2026-08-08 17:30:14] Veri okuma basladi: veteran 
+Rows: 137 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_celltype
+dbl (8): pid, event, time, num_karno, num_diagtime, num_age, fac_trt, fac_prior
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:14] Veri okuma bitti: veteran - 137 satir, 8 sutun 
+[2026-08-08 17:30:14] Veri okuma basladi: breast 
+Rows: 100 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (7): pid, event, time, fac_TumorStage, fac_NodalStatus, fac_Histology, f...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:14] Veri okuma bitti: breast - 100 satir, 6 sutun 
+[2026-08-08 17:30:14] Veri okuma basladi: e1684 
+Rows: 284 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (6): pid, event, time, num_age, fac_sex, fac_trt
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:14] Veri okuma bitti: e1684 - 284 satir, 5 sutun 
+[2026-08-08 17:30:14] Veri okuma basladi: epileptic 
+Rows: 1286 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_treat, fac_gender, fac_learn_dis
+dbl (6): pid, event, time, time2, num_dose, num_age
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:15] Veri okuma bitti: epileptic - 1286 satir, 8 sutun 
+[2026-08-08 17:30:15] Veri okuma basladi: dialysis 
+Rows: 6805 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_disease
+dbl (6): pid, event, time, fac_center, num_age, num_begin
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:15] Veri okuma bitti: dialysis - 6805 satir, 6 sutun 
+[2026-08-08 17:30:15] Veri okuma basladi: pbc 
+Rows: 312 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_sex
+dbl (8): pid, event, time, num_age, fac_trt, fac_ascites, fac_hepato, fac_sp...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:15] Veri okuma bitti: pbc - 312 satir, 8 sutun 
+[2026-08-08 17:30:15] Veri okuma basladi: prostateSurvival 
+Rows: 14294 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_grade, fac_stage, fac_ageGroup
+dbl (3): pid, event, time
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:15] Veri okuma bitti: prostateSurvival - 14294 satir, 5 sutun 
+[2026-08-08 17:30:15] Veri okuma basladi: acath 
+Rows: 3504 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (6): pid, event, time, num_age, num_choleste, fac_sex
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:15] Veri okuma bitti: acath - 2258 satir, 5 sutun 
+[2026-08-08 17:30:15] Veri okuma basladi: prostate 
+Rows: 502 Columns: 18
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (3): fac_rx, fac_pf, fac_ekg
+dbl (15): pid, event, time, fac_stage, fac_hx, fac_bm, num_age, num_wt, num_...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:15] Veri okuma bitti: prostate - 475 satir, 17 sutun 
+[2026-08-08 17:30:15] Veri okuma basladi: dataDIVAT1 
+Rows: 5943 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_sexR
+dbl (7): pid, event, time, num_ageR, num_year_tx, fac_graft, fac_year_tx
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:15] Veri okuma bitti: dataDIVAT1 - 5943 satir, 7 sutun 
+[2026-08-08 17:30:15] Veri okuma basladi: dataDIVAT3 
+Rows: 4267 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, fac_sexeR, fac_year_tx, fac_ante_diab, fac_pra, ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:15] Veri okuma bitti: dataDIVAT3 - 4267 satir, 9 sutun 
+[2026-08-08 17:30:15] Veri okuma basladi: TRACE 
+Rows: 1878 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (9): pid, event, time, num_wmi, num_age, fac_sex, fac_chf, fac_diabetes,...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:15] Veri okuma bitti: TRACE - 1878 satir, 8 sutun 
+[2026-08-08 17:30:15] Veri okuma basladi: FRTCS 
+Rows: 2091 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (2): fac_sex, fac_antihyp
+dbl (7): pid, event, time, time2, num_age, num_sbp, num_dbp
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:15] Veri okuma bitti: FRTCS - 2088 satir, 7 sutun 
+[2026-08-08 17:30:15] Veri okuma basladi: zinc 
+Rows: 431 Columns: 16
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (9): fac_sex, fac_agestr, fac_smoke, fac_drink, fac_basehist, fac_sevdys...
+dbl (7): pid, event, time, fac_dysp1, fac_dysp2, num_agepill, num_stdagepill
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:15] Veri okuma bitti: zinc - 431 satir, 15 sutun 
+[2026-08-08 17:30:15] Veri okuma basladi: stagec 
+Rows: 146 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_ploidy, fac_eet, fac_gleason
+dbl (7): pid, event, time, fac_grade, num_age, num_g2, num_gleason
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:15] Veri okuma bitti: stagec - 136 satir, 9 sutun 
+[2026-08-08 17:30:15] Veri okuma basladi: LeukSurv 
+Rows: 1043 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, fac_sex, fac_district, num_xcoord, num_ycoord, n...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:15] Veri okuma bitti: LeukSurv - 1043 satir, 9 sutun 
+[2026-08-08 17:30:15] Veri okuma basladi: nwtco 
+Rows: 4028 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (9): pid, event, time, fac_stage, fac_study, fac_instit, fac_histol, num...
+lgl (1): fac_in_subcohort
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:15] Veri okuma bitti: nwtco - 4028 satir, 9 sutun 
+[2026-08-08 17:30:15] Veri okuma basladi: retinopathy 
+Rows: 394 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_laser, fac_eye, fac_type
+dbl (7): pid, event, time, fac_trt, fac_risk, num_age, num_risk
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:15] Veri okuma bitti: retinopathy - 394 satir, 9 sutun 
+[2026-08-08 17:30:15] Veri okuma basladi: Framingham 
+Rows: 4699 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, num_sbp, num_dbp, num_scl, num_age, num_bmi, fac...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:15] Veri okuma bitti: Framingham - 4658 satir, 9 sutun 
+[2026-08-08 17:30:15] Veri okuma basladi: csl 
+Rows: 2481 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, time2, num_age, num_prot, num_prot_prev, num_pro...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:15] Veri okuma bitti: csl - 2481 satir, 8 sutun 
+[2026-08-08 17:30:15] Veri okuma basladi: cancer 
+Rows: 228 Columns: 11
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (2): fac_inst, fac_ph_ecog
+dbl (9): pid, event, time, num_wt_loss, num_ph_karno, num_pat_karno, num_mea...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:16] Veri okuma bitti: cancer - 169 satir, 10 sutun 
+[2026-08-08 17:30:16] Veri okuma basladi: whas500 
+Rows: 461 Columns: 19
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (19): pid, event, time, fac_gender, fac_cvd, fac_afb, fac_sho, fac_chf, ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:16] Veri okuma bitti: whas500 - 461 satir, 18 sutun 
+[2026-08-08 17:30:16] Veri okuma basladi: cgd 
+Rows: 128 Columns: 13
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): fac_center, fac_treat, fac_sex, fac_inherit, fac_hos_cat
+dbl (8): pid, event, time, fac_steroids, fac_propylac, num_age, num_height, ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:16] Veri okuma bitti: cgd - 128 satir, 12 sutun 
+[2026-08-08 17:30:16] Veri okuma basladi: Pbc3 
+Rows: 349 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (1): fac_stage
+dbl (14): pid, event, time, num_age, num_crea, num_alb, num_bili, num_alkph,...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:16] Veri okuma bitti: Pbc3 - 327 satir, 14 sutun 
+[2026-08-08 17:30:16] Veri okuma basladi: GBSG2 
+Rows: 686 Columns: 11
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_horTh, fac_menostat, fac_tgrade
+dbl (8): pid, event, time, num_age, num_tsize, num_pnodes, num_progrec, num_...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:16] Veri okuma bitti: GBSG2 - 686 satir, 10 sutun 
+[2026-08-08 17:30:16] Veri okuma basladi: colon 
+Rows: 929 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (2): fac_rx, fac_differ
+dbl (10): pid, event, time, num_age, num_nodes, fac_sex, fac_obstruct, fac_p...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:16] Veri okuma bitti: colon - 911 satir, 11 sutun 
+[2026-08-08 17:30:16] Veri okuma basladi: flchain 
+Rows: 7874 Columns: 13
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (2): fac_sex, fac_chapter
+dbl (11): pid, event, time, num_age, num_kappa, num_lambda, num_flc_grp, num...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:16] Veri okuma bitti: flchain - 6524 satir, 12 sutun 
+[2026-08-08 17:30:16] Veri okuma basladi: Rossi 
+Rows: 1405 Columns: 13
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): fac_fin, fac_race, fac_wexp, fac_mar, fac_paro
+dbl (8): pid, event, time, time2, fac_prio, fac_educ, fac_emp, num_age
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:16] Veri okuma bitti: Rossi - 1405 satir, 11 sutun 
+[2026-08-08 17:30:16] Veri okuma basladi: burn 
+Rows: 154 Columns: 14
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (14): pid, event, time, fac_burn_buttock, fac_burn_head, fac_burn_lower_...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:16] Veri okuma bitti: burn - 154 satir, 13 sutun 
+[2026-08-08 17:30:16] Veri okuma basladi: rott2 
+Rows: 2982 Columns: 14
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): fac_meno, fac_tsize, fac_hormon, fac_chemo, fac_recent
+dbl (9): pid, event, time, fac_grade, num_year, num_age, num_nodes, num_prog...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:16] Veri okuma bitti: rott2 - 2982 satir, 13 sutun 
+[2026-08-08 17:30:16] Veri okuma basladi: d_oropha_rec 
+Rows: 192 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (15): pid, event, time, fac_inst, fac_sex, fac_treatm, fac_grade, fac_co...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:16] Veri okuma bitti: d_oropha_rec - 192 satir, 14 sutun 
+[2026-08-08 17:30:16] Veri okuma basladi: rdata 
+Rows: 1040 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_agegr
+dbl (6): pid, event, time, fac_sex, num_age, num_year
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 17:30:16] Veri okuma bitti: rdata - 1040 satir, 6 sutun 
+[2026-08-08 17:30:16] Task olusturuluyor: grace_task 
+[2026-08-08 17:30:16] Task olusturuldu: grace_task 
+[2026-08-08 17:30:16] Task olusturuluyor: melanoma_task 
+[2026-08-08 17:30:16] Task olusturuldu: melanoma_task 
+[2026-08-08 17:30:16] Task olusturuluyor: ova_task 
+[2026-08-08 17:30:16] Task olusturuldu: ova_task 
+[2026-08-08 17:30:16] Task olusturuluyor: aids2_task 
+[2026-08-08 17:30:16] Task olusturuldu: aids2_task 
+[2026-08-08 17:30:16] Task olusturuluyor: veteran_task 
+[2026-08-08 17:30:16] Task olusturuldu: veteran_task 
+[2026-08-08 17:30:16] Task olusturuluyor: breast_task 
+[2026-08-08 17:30:16] Task olusturuldu: breast_task 
+[2026-08-08 17:30:16] Task olusturuluyor: e1684_task 
+[2026-08-08 17:30:16] Task olusturuldu: e1684_task 
+[2026-08-08 17:30:16] Task olusturuluyor: epileptic_task 
+[2026-08-08 17:30:16] Task olusturuldu: epileptic_task 
+[2026-08-08 17:30:16] Task olusturuluyor: dialysis_task 
+[2026-08-08 17:30:16] Task olusturuldu: dialysis_task 
+[2026-08-08 17:30:16] Task olusturuluyor: pbc_task 
+[2026-08-08 17:30:16] Task olusturuldu: pbc_task 
+[2026-08-08 17:30:16] Task olusturuluyor: prostateSurvival_task 
+[2026-08-08 17:30:16] Task olusturuldu: prostateSurvival_task 
+[2026-08-08 17:30:16] Task olusturuluyor: acath_task 
+[2026-08-08 17:30:16] Task olusturuldu: acath_task 
+[2026-08-08 17:30:16] Task olusturuluyor: prostate_task 
+[2026-08-08 17:30:16] Task olusturuldu: prostate_task 
+[2026-08-08 17:30:16] Task olusturuluyor: dataDIVAT1_task 
+[2026-08-08 17:30:16] Task olusturuldu: dataDIVAT1_task 
+[2026-08-08 17:30:16] Task olusturuluyor: dataDIVAT3_task 
+[2026-08-08 17:30:16] Task olusturuldu: dataDIVAT3_task 
+[2026-08-08 17:30:16] Task olusturuluyor: TRACE_task 
+[2026-08-08 17:30:16] Task olusturuldu: TRACE_task 
+[2026-08-08 17:30:16] Task olusturuluyor: FRTCS_task 
+[2026-08-08 17:30:16] Task olusturuldu: FRTCS_task 
+[2026-08-08 17:30:16] Task olusturuluyor: zinc_task 
+[2026-08-08 17:30:16] Task olusturuldu: zinc_task 
+[2026-08-08 17:30:16] Task olusturuluyor: stagec_task 
+[2026-08-08 17:30:16] Task olusturuldu: stagec_task 
+[2026-08-08 17:30:16] Task olusturuluyor: LeukSurv_task 
+[2026-08-08 17:30:16] Task olusturuldu: LeukSurv_task 
+[2026-08-08 17:30:16] Task olusturuluyor: nwtco_task 
+[2026-08-08 17:30:16] Task olusturuldu: nwtco_task 
+[2026-08-08 17:30:16] Task olusturuluyor: retinopathy_task 
+[2026-08-08 17:30:16] Task olusturuldu: retinopathy_task 
+[2026-08-08 17:30:16] Task olusturuluyor: Framingham_task 
+[2026-08-08 17:30:16] Task olusturuldu: Framingham_task 
+[2026-08-08 17:30:16] Task olusturuluyor: csl_task 
+[2026-08-08 17:30:16] Task olusturuldu: csl_task 
+[2026-08-08 17:30:16] Task olusturuluyor: cancer_task 
+[2026-08-08 17:30:16] Task olusturuldu: cancer_task 
+[2026-08-08 17:30:16] Task olusturuluyor: whas500_task 
+[2026-08-08 17:30:16] Task olusturuldu: whas500_task 
+[2026-08-08 17:30:16] Task olusturuluyor: cgd_task 
+[2026-08-08 17:30:16] Task olusturuldu: cgd_task 
+[2026-08-08 17:30:16] Task olusturuluyor: Pbc3_task 
+[2026-08-08 17:30:16] Task olusturuldu: Pbc3_task 
+[2026-08-08 17:30:16] Task olusturuluyor: GBSG2_task 
+[2026-08-08 17:30:16] Task olusturuldu: GBSG2_task 
+[2026-08-08 17:30:16] Task olusturuluyor: colon_task 
+[2026-08-08 17:30:16] Task olusturuldu: colon_task 
+[2026-08-08 17:30:16] Task olusturuluyor: flchain_task 
+[2026-08-08 17:30:16] Task olusturuldu: flchain_task 
+[2026-08-08 17:30:16] Task olusturuluyor: Rossi_task 
+[2026-08-08 17:30:16] Task olusturuldu: Rossi_task 
+[2026-08-08 17:30:16] Task olusturuluyor: burn_task 
+[2026-08-08 17:30:16] Task olusturuldu: burn_task 
+[2026-08-08 17:30:16] Task olusturuluyor: rott2_task 
+[2026-08-08 17:30:16] Task olusturuldu: rott2_task 
+[2026-08-08 17:30:16] Task olusturuluyor: d_oropha_rec_task 
+[2026-08-08 17:30:16] Task olusturuldu: d_oropha_rec_task 
+[2026-08-08 17:30:16] Task olusturuluyor: rdata_task 
+[2026-08-08 17:30:16] Task olusturuldu: rdata_task 
+[2026-08-08 17:30:16] Toplam 36 task olusturuldu 
+[2026-08-08 17:30:16] ===== RUN ( pbc ) BASLADI: 13 model ===== 
+[2026-08-08 17:30:17] ----- Veri seti basladi: pbc ----- 
+[2026-08-08 17:30:17] [BELLEK] [pbc] veri seti basi - Sistem RSS: 0.491 GB | R heap (gc): 0.266 GB 
+[2026-08-08 17:30:17] Split basladi (ratio = 0.7 ) 
+[2026-08-08 17:30:17] Split bitti - train: 218 test: 94 
+[2026-08-08 17:30:17] [BELLEK] [pbc/cox] model dongusu basi - Sistem RSS: 0.491 GB | R heap (gc): 0.267 GB 
+[2026-08-08 17:30:17] Kaydedilmis model bulundu, okunuyor: results/cox/pbc/model.rds 
+[2026-08-08 17:30:18] [BELLEK] [pbc/cox] model hazir - Sistem RSS: 0.491 GB | R heap (gc): 0.268 GB 
+[2026-08-08 17:30:18] Performans hesaplama basladi: surv.coxph 
+[2026-08-08 17:30:18] Performans hesaplama bitti: surv.coxph - cindex: 0.791 - IBS (graf): 0.176 
+[2026-08-08 17:30:18] Performans kaydedildi: results/cox/pbc/performance.csv 
+[2026-08-08 17:30:18] PFI ve SHAP zaten tamam, explainer atlaniyor: cox_model 
+[2026-08-08 17:30:19] [BELLEK] [pbc/cox] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.491 GB | R heap (gc): 0.286 GB 
+[2026-08-08 17:30:19] [BELLEK] [pbc/aorsf] model dongusu basi - Sistem RSS: 0.491 GB | R heap (gc): 0.286 GB 
+[2026-08-08 17:30:19] Kaydedilmis model bulundu, okunuyor: results/aorsf/pbc/model.rds 
+[2026-08-08 17:30:20] [BELLEK] [pbc/aorsf] model hazir - Sistem RSS: 0.491 GB | R heap (gc): 0.293 GB 
+[2026-08-08 17:30:20] Performans hesaplama basladi: surv.aorsf 
+[2026-08-08 17:30:21] Performans hesaplama bitti: surv.aorsf - cindex: 0.8 - IBS (graf): 0.172 
+[2026-08-08 17:30:21] Performans kaydedildi: results/aorsf/pbc/performance.csv 
+[2026-08-08 17:30:21] PFI ve SHAP zaten tamam, explainer atlaniyor: aorsf_model 
+[2026-08-08 17:30:21] [BELLEK] [pbc/aorsf] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.548 GB | R heap (gc): 0.29 GB 
+[2026-08-08 17:30:22] [BELLEK] [pbc/cforest] model dongusu basi - Sistem RSS: 0.548 GB | R heap (gc): 0.29 GB 
+[2026-08-08 17:30:22] Kaydedilmis model bulundu, okunuyor: results/cforest/pbc/model.rds 
+[2026-08-08 17:30:22] [BELLEK] [pbc/cforest] model hazir - Sistem RSS: 0.548 GB | R heap (gc): 0.312 GB 
+[2026-08-08 17:30:22] Performans hesaplama basladi: surv.cforest 
+[2026-08-08 17:30:31] Performans hesaplama bitti: surv.cforest - cindex: 0.804 - IBS (graf): 0.177 
+[2026-08-08 17:30:31] Performans kaydedildi: results/cforest/pbc/performance.csv 
+[2026-08-08 17:30:31] PFI ve SHAP zaten tamam, explainer atlaniyor: cforest_model 
+[2026-08-08 17:30:32] [BELLEK] [pbc/cforest] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.625 GB | R heap (gc): 0.292 GB 
+[2026-08-08 17:30:32] [BELLEK] [pbc/coxboost] model dongusu basi - Sistem RSS: 0.625 GB | R heap (gc): 0.292 GB 
+[2026-08-08 17:30:32] Kaydedilmis model bulundu, okunuyor: results/coxboost/pbc/model.rds 
+[2026-08-08 17:30:32] [BELLEK] [pbc/coxboost] model hazir - Sistem RSS: 0.625 GB | R heap (gc): 0.293 GB 
+[2026-08-08 17:30:32] Performans hesaplama basladi: surv.coxboost 
+[2026-08-08 17:30:33] Performans hesaplama bitti: surv.coxboost - cindex: 0.796 - IBS (graf): 0.175 
+[2026-08-08 17:30:33] Performans kaydedildi: results/coxboost/pbc/performance.csv 
+[2026-08-08 17:30:33] PFI ve SHAP zaten tamam, explainer atlaniyor: coxboost_model 
+[2026-08-08 17:30:34] [BELLEK] [pbc/coxboost] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.625 GB | R heap (gc): 0.294 GB 
+[2026-08-08 17:30:34] [BELLEK] [pbc/cv_coxboost] model dongusu basi - Sistem RSS: 0.625 GB | R heap (gc): 0.294 GB 
+[2026-08-08 17:30:34] Kaydedilmis model yok, sifirdan egitilecek 
+[2026-08-08 17:30:34] Model egitimi basladi ( cv_coxboost ) 
+[2026-08-08 17:30:35] HATA: model egitilemedi - cv_coxboost - missing value where TRUE/FALSE needed 
+[2026-08-08 17:30:35] [BELLEK] [pbc/ctree] model dongusu basi - Sistem RSS: 0.625 GB | R heap (gc): 0.294 GB 
+[2026-08-08 17:30:35] Kaydedilmis model bulundu, okunuyor: results/ctree/pbc/model.rds 
+[2026-08-08 17:30:36] [BELLEK] [pbc/ctree] model hazir - Sistem RSS: 0.625 GB | R heap (gc): 0.295 GB 
+[2026-08-08 17:30:36] Performans hesaplama basladi: surv.ctree 
+[2026-08-08 17:30:36] Performans hesaplama bitti: surv.ctree - cindex: 0.739 - IBS (graf): 0.188 
+[2026-08-08 17:30:36] Performans kaydedildi: results/ctree/pbc/performance.csv 
+[2026-08-08 17:30:36] PFI ve SHAP zaten tamam, explainer atlaniyor: ctree_model 
+[2026-08-08 17:30:37] [BELLEK] [pbc/ctree] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.625 GB | R heap (gc): 0.295 GB 
+[2026-08-08 17:30:37] [BELLEK] [pbc/cv_glmnet] model dongusu basi - Sistem RSS: 0.625 GB | R heap (gc): 0.295 GB 
+[2026-08-08 17:30:37] Kaydedilmis model bulundu, okunuyor: results/cv_glmnet/pbc/model.rds 
+[2026-08-08 17:30:38] [BELLEK] [pbc/cv_glmnet] model hazir - Sistem RSS: 0.625 GB | R heap (gc): 0.295 GB 
+[2026-08-08 17:30:38] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-08-08 17:30:39] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.801 - IBS (graf): 0.178 
+[2026-08-08 17:30:39] Performans kaydedildi: results/cv_glmnet/pbc/performance.csv 
+[2026-08-08 17:30:39] PFI ve SHAP zaten tamam, explainer atlaniyor: cv_glmnet_model 
+[2026-08-08 17:30:39] [BELLEK] [pbc/cv_glmnet] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.626 GB | R heap (gc): 0.297 GB 
+[2026-08-08 17:30:40] [BELLEK] [pbc/glmboost] model dongusu basi - Sistem RSS: 0.626 GB | R heap (gc): 0.297 GB 
+[2026-08-08 17:30:40] Kaydedilmis model bulundu, okunuyor: results/glmboost/pbc/model.rds 
+[2026-08-08 17:30:40] [BELLEK] [pbc/glmboost] model hazir - Sistem RSS: 0.626 GB | R heap (gc): 0.3 GB 
+[2026-08-08 17:30:40] Performans hesaplama basladi: surv.glmboost 
+[2026-08-08 17:30:41] Performans hesaplama bitti: surv.glmboost - cindex: 0.801 - IBS (graf): 0.178 
+[2026-08-08 17:30:41] Performans kaydedildi: results/glmboost/pbc/performance.csv 
+[2026-08-08 17:30:41] PFI ve SHAP zaten tamam, explainer atlaniyor: glmboost_model 
+[2026-08-08 17:30:41] [BELLEK] [pbc/glmboost] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.626 GB | R heap (gc): 0.298 GB 
+[2026-08-08 17:30:42] [BELLEK] [pbc/glmnet] model dongusu basi - Sistem RSS: 0.626 GB | R heap (gc): 0.298 GB 
+[2026-08-08 17:30:42] Kaydedilmis model bulundu, okunuyor: results/glmnet/pbc/model.rds 
+[2026-08-08 17:30:42] [BELLEK] [pbc/glmnet] model hazir - Sistem RSS: 0.626 GB | R heap (gc): 0.298 GB 
+[2026-08-08 17:30:42] Performans hesaplama basladi: surv.glmnet 
+[2026-08-08 17:30:42] Performans hesaplama bitti: surv.glmnet - cindex: 0.799 - IBS (graf): 0.175 
+[2026-08-08 17:30:42] Performans kaydedildi: results/glmnet/pbc/performance.csv 
+[2026-08-08 17:30:42] PFI ve SHAP zaten tamam, explainer atlaniyor: glmnet_model 
+[2026-08-08 17:30:43] [BELLEK] [pbc/glmnet] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.626 GB | R heap (gc): 0.298 GB 
+[2026-08-08 17:30:43] [BELLEK] [pbc/penalized] model dongusu basi - Sistem RSS: 0.626 GB | R heap (gc): 0.298 GB 
+[2026-08-08 17:30:43] Kaydedilmis model bulundu, okunuyor: results/penalized/pbc/model.rds 
+[2026-08-08 17:30:44] [BELLEK] [pbc/penalized] model hazir - Sistem RSS: 0.626 GB | R heap (gc): 0.299 GB 
+[2026-08-08 17:30:44] Performans hesaplama basladi: surv.penalized 
+[2026-08-08 17:30:44] Performans hesaplama bitti: surv.penalized - cindex: 0.791 - IBS (graf): 0.176 
+[2026-08-08 17:30:44] Performans kaydedildi: results/penalized/pbc/performance.csv 
+[2026-08-08 17:30:44] PFI ve SHAP zaten tamam, explainer atlaniyor: penalized_model 
+[2026-08-08 17:30:45] [BELLEK] [pbc/penalized] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.626 GB | R heap (gc): 0.299 GB 
+[2026-08-08 17:30:45] [BELLEK] [pbc/ranger] model dongusu basi - Sistem RSS: 0.626 GB | R heap (gc): 0.299 GB 
+[2026-08-08 17:30:45] Kaydedilmis model bulundu, okunuyor: results/ranger/pbc/model.rds 
+[2026-08-08 17:30:46] [BELLEK] [pbc/ranger] model hazir - Sistem RSS: 0.626 GB | R heap (gc): 0.309 GB 
+[2026-08-08 17:30:46] Performans hesaplama basladi: surv.ranger 
+[2026-08-08 17:30:47] Performans hesaplama bitti: surv.ranger - cindex: 0.796 - IBS (graf): 0.184 
+[2026-08-08 17:30:47] Performans kaydedildi: results/ranger/pbc/performance.csv 
+[2026-08-08 17:30:47] PFI ve SHAP zaten tamam, explainer atlaniyor: ranger_model 
+[2026-08-08 17:30:47] [BELLEK] [pbc/ranger] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.636 GB | R heap (gc): 0.3 GB 
+[2026-08-08 17:30:48] [BELLEK] [pbc/rfsrc] model dongusu basi - Sistem RSS: 0.636 GB | R heap (gc): 0.3 GB 
+[2026-08-08 17:30:48] Kaydedilmis model bulundu, okunuyor: results/rfsrc/pbc/model.rds 
+[2026-08-08 17:30:48] [BELLEK] [pbc/rfsrc] model hazir - Sistem RSS: 0.647 GB | R heap (gc): 0.331 GB 
+[2026-08-08 17:30:48] Performans hesaplama basladi: surv.rfsrc 
+[2026-08-08 17:30:49] Performans hesaplama bitti: surv.rfsrc - cindex: 0.794 - IBS (graf): 0.174 
+[2026-08-08 17:30:49] Performans kaydedildi: results/rfsrc/pbc/performance.csv 
+[2026-08-08 17:30:49] PFI ve SHAP zaten tamam, explainer atlaniyor: rfsrc_model 
+[2026-08-08 17:30:50] [BELLEK] [pbc/rfsrc] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.634 GB | R heap (gc): 0.303 GB 
+[2026-08-08 17:30:50] [BELLEK] [pbc/xgboost_cox] model dongusu basi - Sistem RSS: 0.634 GB | R heap (gc): 0.303 GB 
+[2026-08-08 17:30:50] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/pbc/model.rds 
+[2026-08-08 17:30:51] [BELLEK] [pbc/xgboost_cox] model hazir - Sistem RSS: 0.634 GB | R heap (gc): 0.303 GB 
+[2026-08-08 17:30:51] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-08-08 17:30:51] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.771 - IBS (graf): 0.198 
+[2026-08-08 17:30:51] Performans kaydedildi: results/xgboost_cox/pbc/performance.csv 
+[2026-08-08 17:30:51] PFI ve SHAP zaten tamam, explainer atlaniyor: xgboost_cox_model 
+[2026-08-08 17:30:52] [BELLEK] [pbc/xgboost_cox] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.663 GB | R heap (gc): 0.304 GB 
+[2026-08-08 17:30:52] UYARI: su modeller basarisiz oldu, analiz disi birakildi: cv_coxboost_model 
+[2026-08-08 17:30:52] ===== BITTI: pbc + cox - cindex: 0.791 - PFI TIVM: 0.0028 - SHAP TIVM: 0.0018 ===== 
+[2026-08-08 17:30:52] ===== BITTI: pbc + aorsf - cindex: 0.8 - PFI TIVM: 0.0033 - SHAP TIVM: 0.004 ===== 
+[2026-08-08 17:30:52] ===== BITTI: pbc + cforest - cindex: 0.804 - PFI TIVM: 0.0034 - SHAP TIVM: 0.0057 ===== 
+[2026-08-08 17:30:52] ===== BITTI: pbc + coxboost - cindex: 0.796 - PFI TIVM: 0.0035 - SHAP TIVM: 0.0018 ===== 
+[2026-08-08 17:30:52] ===== BITTI: pbc + ctree - cindex: 0.739 - PFI TIVM: 0.0052 - SHAP TIVM: 0.007 ===== 
+[2026-08-08 17:30:52] ===== BITTI: pbc + cv_glmnet - cindex: 0.801 - PFI TIVM: 0.0031 - SHAP TIVM: 0.0017 ===== 
+[2026-08-08 17:30:52] ===== BITTI: pbc + glmboost - cindex: 0.801 - PFI TIVM: 0.0025 - SHAP TIVM: 0.0017 ===== 
+[2026-08-08 17:30:52] ===== BITTI: pbc + glmnet - cindex: 0.799 - PFI TIVM: 0.0031 - SHAP TIVM: 0.0018 ===== 
+[2026-08-08 17:30:52] ===== BITTI: pbc + penalized - cindex: 0.791 - PFI TIVM: 0.0033 - SHAP TIVM: 0.0019 ===== 
+[2026-08-08 17:30:52] ===== BITTI: pbc + ranger - cindex: 0.796 - PFI TIVM: 0.0033 - SHAP TIVM: 0.0042 ===== 
+[2026-08-08 17:30:52] ===== BITTI: pbc + rfsrc - cindex: 0.794 - PFI TIVM: 0.0042 - SHAP TIVM: 0.005 ===== 
+[2026-08-08 17:30:52] ===== BITTI: pbc + xgboost_cox - cindex: 0.771 - PFI TIVM: 0.0104 - SHAP TIVM: 0.0036 ===== 
+[2026-08-08 17:30:52] ----- Veri seti bitti: pbc ----- 
+Warning messages:
+1: In glmboost.matrix(as.matrix(task$data(cols = task$feature_names)),  :
+  model with centered covariates does not contain intercept
+This happened in PipeOp surv.glmboost_response's $train()
+2: Multiple lambdas have been fit. Lambda will be set to 0.01 (see parameter 's'). 
+3: Multiple lambdas have been fit. Lambda will be set to 0.01 (see parameter 's').
+This happened in PipeOp surv.glmnet_response's $predict() 
+[2026-08-08 17:30:52] ===== RUN ( pbc ) TAMAMLANDI ===== 
+[2026-08-08 17:30:53] BITTI: pbc (12/13 model tamam)
