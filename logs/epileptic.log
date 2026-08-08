@@ -1885,3 +1885,5 @@ There were 50 or more warnings (use warnings() to see the first 50)
 [2026-08-08 17:59:10] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
 [2026-08-08 17:59:10] SHAP hesaplama basladi, n_obs = 50 
 [2026-08-08 18:08:16] SHAP - gozlem 20 / 50 
+[2026-08-08 18:19:22] SHAP - gozlem 25 / 50 
+[2026-08-08 18:30:27] SHAP - gozlem 30 / 50 

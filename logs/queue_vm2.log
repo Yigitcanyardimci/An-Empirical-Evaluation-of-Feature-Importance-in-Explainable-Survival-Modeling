@@ -4586,3 +4586,4 @@ dbl (6): pid, event, time, fac_sex, num_age, num_year
 [2026-08-08 17:59:10] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
 [2026-08-08 17:59:10] SHAP hesaplama basladi, n_obs = 50 
 [2026-08-08 18:08:16] SHAP - gozlem 20 / 50 
+[2026-08-08 18:32:35] BITTI: epileptic (12/13 model tamam)
