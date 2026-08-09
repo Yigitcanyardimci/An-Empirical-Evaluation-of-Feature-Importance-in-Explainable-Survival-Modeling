@@ -2948,3 +2948,1657 @@
 [2026-08-07 00:45:33] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
 [2026-08-07 00:45:33] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
 [2026-08-07 00:45:33] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 19:50:23] Paket kurulumu basladi 
+[2026-08-07 19:50:23] Paket kurulumu basladi 
+[2026-08-07 19:50:23] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-07 19:50:23] renv.lock bulunamadi, normal kurulum yapiliyor 
+renv.lock bulunamadi, normal kurulum yapiliyor. Reproducibility icin projede bir kere renv::init() calistirabilirsin.
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘survex’
+
+The following object is masked from ‘package:dplyr’:
+
+    explain
+
+[2026-08-07 19:50:26] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-08-07 19:50:26] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-08-07 19:50:28] Paket kurulumu tamamlandi 
+[2026-08-07 19:50:28] Paket kurulumu tamamlandi 
+[2026-08-07 19:50:28] Veri okuma basladi: grace 
+[2026-08-07 19:50:28] Veri okuma basladi: grace 
+Rows: 1000 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (8): pid, event, time, num_los, num_age, num_sysbp, fac_revasc, fac_stch...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:28] Veri okuma bitti: grace - 1000 satir, 7 sutun 
+[2026-08-07 19:50:28] Veri okuma bitti: grace - 1000 satir, 7 sutun 
+[2026-08-07 19:50:28] Veri okuma basladi: melanoma 
+[2026-08-07 19:50:28] Veri okuma basladi: melanoma 
+Rows: 205 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (8): pid, event, time, fac_sex, fac_ulcer, num_age, num_year, num_thickness
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:28] Veri okuma bitti: melanoma - 205 satir, 7 sutun 
+[2026-08-07 19:50:28] Veri okuma bitti: melanoma - 205 satir, 7 sutun 
+[2026-08-07 19:50:28] Veri okuma basladi: ova 
+[2026-08-07 19:50:28] Veri okuma basladi: ova 
+Rows: 358 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (8): pid, event, time, fac_karn, fac_diam, fac_figo, num_karn, num_diam
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:28] Veri okuma bitti: ova - 358 satir, 7 sutun 
+[2026-08-07 19:50:28] Veri okuma bitti: ova - 358 satir, 7 sutun 
+[2026-08-07 19:50:28] Veri okuma basladi: aids2 
+[2026-08-07 19:50:28] Veri okuma basladi: aids2 
+Rows: 2839 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_state, fac_sex, fac_T_categ
+dbl (4): pid, event, time, num_age
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:28] Veri okuma bitti: aids2 - 2839 satir, 6 sutun 
+[2026-08-07 19:50:28] Veri okuma bitti: aids2 - 2839 satir, 6 sutun 
+[2026-08-07 19:50:28] Veri okuma basladi: veteran 
+[2026-08-07 19:50:28] Veri okuma basladi: veteran 
+Rows: 137 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_celltype
+dbl (8): pid, event, time, num_karno, num_diagtime, num_age, fac_trt, fac_prior
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:28] Veri okuma bitti: veteran - 137 satir, 8 sutun 
+[2026-08-07 19:50:28] Veri okuma bitti: veteran - 137 satir, 8 sutun 
+[2026-08-07 19:50:28] Veri okuma basladi: breast 
+[2026-08-07 19:50:28] Veri okuma basladi: breast 
+Rows: 100 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (7): pid, event, time, fac_TumorStage, fac_NodalStatus, fac_Histology, f...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:28] Veri okuma bitti: breast - 100 satir, 6 sutun 
+[2026-08-07 19:50:28] Veri okuma bitti: breast - 100 satir, 6 sutun 
+[2026-08-07 19:50:28] Veri okuma basladi: e1684 
+[2026-08-07 19:50:28] Veri okuma basladi: e1684 
+Rows: 284 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (6): pid, event, time, num_age, fac_sex, fac_trt
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:28] Veri okuma bitti: e1684 - 284 satir, 5 sutun 
+[2026-08-07 19:50:28] Veri okuma bitti: e1684 - 284 satir, 5 sutun 
+[2026-08-07 19:50:28] Veri okuma basladi: epileptic 
+[2026-08-07 19:50:28] Veri okuma basladi: epileptic 
+Rows: 1286 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_treat, fac_gender, fac_learn_dis
+dbl (6): pid, event, time, time2, num_dose, num_age
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:28] Veri okuma bitti: epileptic - 1286 satir, 8 sutun 
+[2026-08-07 19:50:28] Veri okuma bitti: epileptic - 1286 satir, 8 sutun 
+[2026-08-07 19:50:28] Veri okuma basladi: dialysis 
+[2026-08-07 19:50:28] Veri okuma basladi: dialysis 
+Rows: 6805 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_disease
+dbl (6): pid, event, time, fac_center, num_age, num_begin
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:28] Veri okuma bitti: dialysis - 6805 satir, 6 sutun 
+[2026-08-07 19:50:28] Veri okuma bitti: dialysis - 6805 satir, 6 sutun 
+[2026-08-07 19:50:28] Veri okuma basladi: pbc 
+[2026-08-07 19:50:28] Veri okuma basladi: pbc 
+Rows: 312 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_sex
+dbl (8): pid, event, time, num_age, fac_trt, fac_ascites, fac_hepato, fac_sp...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:28] Veri okuma bitti: pbc - 312 satir, 8 sutun 
+[2026-08-07 19:50:28] Veri okuma bitti: pbc - 312 satir, 8 sutun 
+[2026-08-07 19:50:28] Veri okuma basladi: prostateSurvival 
+[2026-08-07 19:50:28] Veri okuma basladi: prostateSurvival 
+Rows: 14294 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_grade, fac_stage, fac_ageGroup
+dbl (3): pid, event, time
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:29] Veri okuma bitti: prostateSurvival - 14294 satir, 5 sutun 
+[2026-08-07 19:50:29] Veri okuma bitti: prostateSurvival - 14294 satir, 5 sutun 
+[2026-08-07 19:50:29] Veri okuma basladi: acath 
+[2026-08-07 19:50:29] Veri okuma basladi: acath 
+Rows: 3504 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (6): pid, event, time, num_age, num_choleste, fac_sex
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:29] Veri okuma bitti: acath - 2258 satir, 5 sutun 
+[2026-08-07 19:50:29] Veri okuma bitti: acath - 2258 satir, 5 sutun 
+[2026-08-07 19:50:29] Veri okuma basladi: prostate 
+[2026-08-07 19:50:29] Veri okuma basladi: prostate 
+Rows: 502 Columns: 18
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (3): fac_rx, fac_pf, fac_ekg
+dbl (15): pid, event, time, fac_stage, fac_hx, fac_bm, num_age, num_wt, num_...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:29] Veri okuma bitti: prostate - 475 satir, 17 sutun 
+[2026-08-07 19:50:29] Veri okuma bitti: prostate - 475 satir, 17 sutun 
+[2026-08-07 19:50:29] Veri okuma basladi: dataDIVAT1 
+[2026-08-07 19:50:29] Veri okuma basladi: dataDIVAT1 
+Rows: 5943 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_sexR
+dbl (7): pid, event, time, num_ageR, num_year_tx, fac_graft, fac_year_tx
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:29] Veri okuma bitti: dataDIVAT1 - 5943 satir, 7 sutun 
+[2026-08-07 19:50:29] Veri okuma bitti: dataDIVAT1 - 5943 satir, 7 sutun 
+[2026-08-07 19:50:29] Veri okuma basladi: dataDIVAT3 
+[2026-08-07 19:50:29] Veri okuma basladi: dataDIVAT3 
+Rows: 4267 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, fac_sexeR, fac_year_tx, fac_ante_diab, fac_pra, ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:29] Veri okuma bitti: dataDIVAT3 - 4267 satir, 9 sutun 
+[2026-08-07 19:50:29] Veri okuma bitti: dataDIVAT3 - 4267 satir, 9 sutun 
+[2026-08-07 19:50:29] Veri okuma basladi: TRACE 
+[2026-08-07 19:50:29] Veri okuma basladi: TRACE 
+Rows: 1878 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (9): pid, event, time, num_wmi, num_age, fac_sex, fac_chf, fac_diabetes,...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:29] Veri okuma bitti: TRACE - 1878 satir, 8 sutun 
+[2026-08-07 19:50:29] Veri okuma bitti: TRACE - 1878 satir, 8 sutun 
+[2026-08-07 19:50:29] Veri okuma basladi: FRTCS 
+[2026-08-07 19:50:29] Veri okuma basladi: FRTCS 
+Rows: 2091 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (2): fac_sex, fac_antihyp
+dbl (7): pid, event, time, time2, num_age, num_sbp, num_dbp
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:29] Veri okuma bitti: FRTCS - 2088 satir, 7 sutun 
+[2026-08-07 19:50:29] Veri okuma bitti: FRTCS - 2088 satir, 7 sutun 
+[2026-08-07 19:50:29] Veri okuma basladi: zinc 
+[2026-08-07 19:50:29] Veri okuma basladi: zinc 
+Rows: 431 Columns: 16
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (9): fac_sex, fac_agestr, fac_smoke, fac_drink, fac_basehist, fac_sevdys...
+dbl (7): pid, event, time, fac_dysp1, fac_dysp2, num_agepill, num_stdagepill
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:29] Veri okuma bitti: zinc - 431 satir, 15 sutun 
+[2026-08-07 19:50:29] Veri okuma bitti: zinc - 431 satir, 15 sutun 
+[2026-08-07 19:50:29] Veri okuma basladi: stagec 
+[2026-08-07 19:50:29] Veri okuma basladi: stagec 
+Rows: 146 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_ploidy, fac_eet, fac_gleason
+dbl (7): pid, event, time, fac_grade, num_age, num_g2, num_gleason
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:29] Veri okuma bitti: stagec - 136 satir, 9 sutun 
+[2026-08-07 19:50:29] Veri okuma bitti: stagec - 136 satir, 9 sutun 
+[2026-08-07 19:50:29] Veri okuma basladi: LeukSurv 
+[2026-08-07 19:50:29] Veri okuma basladi: LeukSurv 
+Rows: 1043 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, fac_sex, fac_district, num_xcoord, num_ycoord, n...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:29] Veri okuma bitti: LeukSurv - 1043 satir, 9 sutun 
+[2026-08-07 19:50:29] Veri okuma bitti: LeukSurv - 1043 satir, 9 sutun 
+[2026-08-07 19:50:29] Veri okuma basladi: nwtco 
+[2026-08-07 19:50:29] Veri okuma basladi: nwtco 
+Rows: 4028 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (9): pid, event, time, fac_stage, fac_study, fac_instit, fac_histol, num...
+lgl (1): fac_in_subcohort
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:29] Veri okuma bitti: nwtco - 4028 satir, 9 sutun 
+[2026-08-07 19:50:29] Veri okuma bitti: nwtco - 4028 satir, 9 sutun 
+[2026-08-07 19:50:29] Veri okuma basladi: retinopathy 
+[2026-08-07 19:50:29] Veri okuma basladi: retinopathy 
+Rows: 394 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_laser, fac_eye, fac_type
+dbl (7): pid, event, time, fac_trt, fac_risk, num_age, num_risk
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:29] Veri okuma bitti: retinopathy - 394 satir, 9 sutun 
+[2026-08-07 19:50:29] Veri okuma bitti: retinopathy - 394 satir, 9 sutun 
+[2026-08-07 19:50:29] Veri okuma basladi: Framingham 
+[2026-08-07 19:50:29] Veri okuma basladi: Framingham 
+Rows: 4699 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, num_sbp, num_dbp, num_scl, num_age, num_bmi, fac...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:29] Veri okuma bitti: Framingham - 4658 satir, 9 sutun 
+[2026-08-07 19:50:29] Veri okuma bitti: Framingham - 4658 satir, 9 sutun 
+[2026-08-07 19:50:29] Veri okuma basladi: csl 
+[2026-08-07 19:50:29] Veri okuma basladi: csl 
+Rows: 2481 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, time2, num_age, num_prot, num_prot_prev, num_pro...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:29] Veri okuma bitti: csl - 2481 satir, 8 sutun 
+[2026-08-07 19:50:29] Veri okuma bitti: csl - 2481 satir, 8 sutun 
+[2026-08-07 19:50:29] Veri okuma basladi: cancer 
+[2026-08-07 19:50:29] Veri okuma basladi: cancer 
+Rows: 228 Columns: 11
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (2): fac_inst, fac_ph_ecog
+dbl (9): pid, event, time, num_wt_loss, num_ph_karno, num_pat_karno, num_mea...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:29] Veri okuma bitti: cancer - 169 satir, 10 sutun 
+[2026-08-07 19:50:29] Veri okuma bitti: cancer - 169 satir, 10 sutun 
+[2026-08-07 19:50:29] Veri okuma basladi: whas500 
+[2026-08-07 19:50:29] Veri okuma basladi: whas500 
+Rows: 461 Columns: 19
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (19): pid, event, time, fac_gender, fac_cvd, fac_afb, fac_sho, fac_chf, ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:29] Veri okuma bitti: whas500 - 461 satir, 18 sutun 
+[2026-08-07 19:50:29] Veri okuma bitti: whas500 - 461 satir, 18 sutun 
+[2026-08-07 19:50:29] Veri okuma basladi: cgd 
+[2026-08-07 19:50:29] Veri okuma basladi: cgd 
+Rows: 128 Columns: 13
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): fac_center, fac_treat, fac_sex, fac_inherit, fac_hos_cat
+dbl (8): pid, event, time, fac_steroids, fac_propylac, num_age, num_height, ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:29] Veri okuma bitti: cgd - 128 satir, 12 sutun 
+[2026-08-07 19:50:29] Veri okuma bitti: cgd - 128 satir, 12 sutun 
+[2026-08-07 19:50:30] Veri okuma basladi: Pbc3 
+[2026-08-07 19:50:30] Veri okuma basladi: Pbc3 
+Rows: 349 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (1): fac_stage
+dbl (14): pid, event, time, num_age, num_crea, num_alb, num_bili, num_alkph,...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:30] Veri okuma bitti: Pbc3 - 327 satir, 14 sutun 
+[2026-08-07 19:50:30] Veri okuma bitti: Pbc3 - 327 satir, 14 sutun 
+[2026-08-07 19:50:30] Veri okuma basladi: GBSG2 
+[2026-08-07 19:50:30] Veri okuma basladi: GBSG2 
+Rows: 686 Columns: 11
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_horTh, fac_menostat, fac_tgrade
+dbl (8): pid, event, time, num_age, num_tsize, num_pnodes, num_progrec, num_...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:30] Veri okuma bitti: GBSG2 - 686 satir, 10 sutun 
+[2026-08-07 19:50:30] Veri okuma bitti: GBSG2 - 686 satir, 10 sutun 
+[2026-08-07 19:50:30] Veri okuma basladi: colon 
+[2026-08-07 19:50:30] Veri okuma basladi: colon 
+Rows: 929 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (2): fac_rx, fac_differ
+dbl (10): pid, event, time, num_age, num_nodes, fac_sex, fac_obstruct, fac_p...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:30] Veri okuma bitti: colon - 911 satir, 11 sutun 
+[2026-08-07 19:50:30] Veri okuma bitti: colon - 911 satir, 11 sutun 
+[2026-08-07 19:50:30] Veri okuma basladi: flchain 
+[2026-08-07 19:50:30] Veri okuma basladi: flchain 
+Rows: 7874 Columns: 13
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (2): fac_sex, fac_chapter
+dbl (11): pid, event, time, num_age, num_kappa, num_lambda, num_flc_grp, num...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:30] Veri okuma bitti: flchain - 6524 satir, 12 sutun 
+[2026-08-07 19:50:30] Veri okuma bitti: flchain - 6524 satir, 12 sutun 
+[2026-08-07 19:50:30] Veri okuma basladi: Rossi 
+[2026-08-07 19:50:30] Veri okuma basladi: Rossi 
+Rows: 1405 Columns: 13
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): fac_fin, fac_race, fac_wexp, fac_mar, fac_paro
+dbl (8): pid, event, time, time2, fac_prio, fac_educ, fac_emp, num_age
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:30] Veri okuma bitti: Rossi - 1405 satir, 11 sutun 
+[2026-08-07 19:50:30] Veri okuma bitti: Rossi - 1405 satir, 11 sutun 
+[2026-08-07 19:50:30] Veri okuma basladi: burn 
+[2026-08-07 19:50:30] Veri okuma basladi: burn 
+Rows: 154 Columns: 14
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (14): pid, event, time, fac_burn_buttock, fac_burn_head, fac_burn_lower_...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:30] Veri okuma bitti: burn - 154 satir, 13 sutun 
+[2026-08-07 19:50:30] Veri okuma bitti: burn - 154 satir, 13 sutun 
+[2026-08-07 19:50:30] Veri okuma basladi: rott2 
+[2026-08-07 19:50:30] Veri okuma basladi: rott2 
+Rows: 2982 Columns: 14
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): fac_meno, fac_tsize, fac_hormon, fac_chemo, fac_recent
+dbl (9): pid, event, time, fac_grade, num_year, num_age, num_nodes, num_prog...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:30] Veri okuma bitti: rott2 - 2982 satir, 13 sutun 
+[2026-08-07 19:50:30] Veri okuma bitti: rott2 - 2982 satir, 13 sutun 
+[2026-08-07 19:50:30] Veri okuma basladi: d_oropha_rec 
+[2026-08-07 19:50:30] Veri okuma basladi: d_oropha_rec 
+Rows: 192 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (15): pid, event, time, fac_inst, fac_sex, fac_treatm, fac_grade, fac_co...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:30] Veri okuma bitti: d_oropha_rec - 192 satir, 14 sutun 
+[2026-08-07 19:50:30] Veri okuma bitti: d_oropha_rec - 192 satir, 14 sutun 
+[2026-08-07 19:50:30] Veri okuma basladi: rdata 
+[2026-08-07 19:50:30] Veri okuma basladi: rdata 
+Rows: 1040 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_agegr
+dbl (6): pid, event, time, fac_sex, num_age, num_year
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:50:30] Veri okuma bitti: rdata - 1040 satir, 6 sutun 
+[2026-08-07 19:50:30] Veri okuma bitti: rdata - 1040 satir, 6 sutun 
+[2026-08-07 19:50:30] Task olusturuluyor: grace_task 
+[2026-08-07 19:50:30] Task olusturuluyor: grace_task 
+[2026-08-07 19:50:30] Task olusturuldu: grace_task 
+[2026-08-07 19:50:30] Task olusturuldu: grace_task 
+[2026-08-07 19:50:30] Task olusturuluyor: melanoma_task 
+[2026-08-07 19:50:30] Task olusturuluyor: melanoma_task 
+[2026-08-07 19:50:30] Task olusturuldu: melanoma_task 
+[2026-08-07 19:50:30] Task olusturuldu: melanoma_task 
+[2026-08-07 19:50:30] Task olusturuluyor: ova_task 
+[2026-08-07 19:50:30] Task olusturuluyor: ova_task 
+[2026-08-07 19:50:30] Task olusturuldu: ova_task 
+[2026-08-07 19:50:30] Task olusturuldu: ova_task 
+[2026-08-07 19:50:30] Task olusturuluyor: aids2_task 
+[2026-08-07 19:50:30] Task olusturuluyor: aids2_task 
+[2026-08-07 19:50:30] Task olusturuldu: aids2_task 
+[2026-08-07 19:50:30] Task olusturuldu: aids2_task 
+[2026-08-07 19:50:30] Task olusturuluyor: veteran_task 
+[2026-08-07 19:50:30] Task olusturuluyor: veteran_task 
+[2026-08-07 19:50:30] Task olusturuldu: veteran_task 
+[2026-08-07 19:50:30] Task olusturuldu: veteran_task 
+[2026-08-07 19:50:30] Task olusturuluyor: breast_task 
+[2026-08-07 19:50:30] Task olusturuluyor: breast_task 
+[2026-08-07 19:50:30] Task olusturuldu: breast_task 
+[2026-08-07 19:50:30] Task olusturuldu: breast_task 
+[2026-08-07 19:50:30] Task olusturuluyor: e1684_task 
+[2026-08-07 19:50:30] Task olusturuluyor: e1684_task 
+[2026-08-07 19:50:30] Task olusturuldu: e1684_task 
+[2026-08-07 19:50:30] Task olusturuldu: e1684_task 
+[2026-08-07 19:50:30] Task olusturuluyor: epileptic_task 
+[2026-08-07 19:50:30] Task olusturuluyor: epileptic_task 
+[2026-08-07 19:50:30] Task olusturuldu: epileptic_task 
+[2026-08-07 19:50:30] Task olusturuldu: epileptic_task 
+[2026-08-07 19:50:30] Task olusturuluyor: dialysis_task 
+[2026-08-07 19:50:30] Task olusturuluyor: dialysis_task 
+[2026-08-07 19:50:30] Task olusturuldu: dialysis_task 
+[2026-08-07 19:50:30] Task olusturuldu: dialysis_task 
+[2026-08-07 19:50:30] Task olusturuluyor: pbc_task 
+[2026-08-07 19:50:30] Task olusturuluyor: pbc_task 
+[2026-08-07 19:50:30] Task olusturuldu: pbc_task 
+[2026-08-07 19:50:30] Task olusturuldu: pbc_task 
+[2026-08-07 19:50:30] Task olusturuluyor: prostateSurvival_task 
+[2026-08-07 19:50:30] Task olusturuluyor: prostateSurvival_task 
+[2026-08-07 19:50:30] Task olusturuldu: prostateSurvival_task 
+[2026-08-07 19:50:30] Task olusturuldu: prostateSurvival_task 
+[2026-08-07 19:50:30] Task olusturuluyor: acath_task 
+[2026-08-07 19:50:30] Task olusturuluyor: acath_task 
+[2026-08-07 19:50:30] Task olusturuldu: acath_task 
+[2026-08-07 19:50:30] Task olusturuldu: acath_task 
+[2026-08-07 19:50:30] Task olusturuluyor: prostate_task 
+[2026-08-07 19:50:30] Task olusturuluyor: prostate_task 
+[2026-08-07 19:50:30] Task olusturuldu: prostate_task 
+[2026-08-07 19:50:30] Task olusturuldu: prostate_task 
+[2026-08-07 19:50:30] Task olusturuluyor: dataDIVAT1_task 
+[2026-08-07 19:50:30] Task olusturuluyor: dataDIVAT1_task 
+[2026-08-07 19:50:30] Task olusturuldu: dataDIVAT1_task 
+[2026-08-07 19:50:30] Task olusturuldu: dataDIVAT1_task 
+[2026-08-07 19:50:30] Task olusturuluyor: dataDIVAT3_task 
+[2026-08-07 19:50:30] Task olusturuluyor: dataDIVAT3_task 
+[2026-08-07 19:50:30] Task olusturuldu: dataDIVAT3_task 
+[2026-08-07 19:50:30] Task olusturuldu: dataDIVAT3_task 
+[2026-08-07 19:50:30] Task olusturuluyor: TRACE_task 
+[2026-08-07 19:50:30] Task olusturuluyor: TRACE_task 
+[2026-08-07 19:50:30] Task olusturuldu: TRACE_task 
+[2026-08-07 19:50:30] Task olusturuldu: TRACE_task 
+[2026-08-07 19:50:30] Task olusturuluyor: FRTCS_task 
+[2026-08-07 19:50:30] Task olusturuluyor: FRTCS_task 
+[2026-08-07 19:50:30] Task olusturuldu: FRTCS_task 
+[2026-08-07 19:50:30] Task olusturuldu: FRTCS_task 
+[2026-08-07 19:50:30] Task olusturuluyor: zinc_task 
+[2026-08-07 19:50:30] Task olusturuluyor: zinc_task 
+[2026-08-07 19:50:30] Task olusturuldu: zinc_task 
+[2026-08-07 19:50:30] Task olusturuldu: zinc_task 
+[2026-08-07 19:50:30] Task olusturuluyor: stagec_task 
+[2026-08-07 19:50:30] Task olusturuluyor: stagec_task 
+[2026-08-07 19:50:30] Task olusturuldu: stagec_task 
+[2026-08-07 19:50:30] Task olusturuldu: stagec_task 
+[2026-08-07 19:50:30] Task olusturuluyor: LeukSurv_task 
+[2026-08-07 19:50:30] Task olusturuluyor: LeukSurv_task 
+[2026-08-07 19:50:30] Task olusturuldu: LeukSurv_task 
+[2026-08-07 19:50:30] Task olusturuldu: LeukSurv_task 
+[2026-08-07 19:50:30] Task olusturuluyor: nwtco_task 
+[2026-08-07 19:50:30] Task olusturuluyor: nwtco_task 
+[2026-08-07 19:50:30] Task olusturuldu: nwtco_task 
+[2026-08-07 19:50:30] Task olusturuldu: nwtco_task 
+[2026-08-07 19:50:30] Task olusturuluyor: retinopathy_task 
+[2026-08-07 19:50:30] Task olusturuluyor: retinopathy_task 
+[2026-08-07 19:50:30] Task olusturuldu: retinopathy_task 
+[2026-08-07 19:50:30] Task olusturuldu: retinopathy_task 
+[2026-08-07 19:50:30] Task olusturuluyor: Framingham_task 
+[2026-08-07 19:50:30] Task olusturuluyor: Framingham_task 
+[2026-08-07 19:50:30] Task olusturuldu: Framingham_task 
+[2026-08-07 19:50:30] Task olusturuldu: Framingham_task 
+[2026-08-07 19:50:30] Task olusturuluyor: csl_task 
+[2026-08-07 19:50:30] Task olusturuluyor: csl_task 
+[2026-08-07 19:50:30] Task olusturuldu: csl_task 
+[2026-08-07 19:50:30] Task olusturuldu: csl_task 
+[2026-08-07 19:50:30] Task olusturuluyor: cancer_task 
+[2026-08-07 19:50:30] Task olusturuluyor: cancer_task 
+[2026-08-07 19:50:30] Task olusturuldu: cancer_task 
+[2026-08-07 19:50:30] Task olusturuldu: cancer_task 
+[2026-08-07 19:50:30] Task olusturuluyor: whas500_task 
+[2026-08-07 19:50:30] Task olusturuluyor: whas500_task 
+[2026-08-07 19:50:30] Task olusturuldu: whas500_task 
+[2026-08-07 19:50:30] Task olusturuldu: whas500_task 
+[2026-08-07 19:50:30] Task olusturuluyor: cgd_task 
+[2026-08-07 19:50:30] Task olusturuluyor: cgd_task 
+[2026-08-07 19:50:30] Task olusturuldu: cgd_task 
+[2026-08-07 19:50:30] Task olusturuldu: cgd_task 
+[2026-08-07 19:50:30] Task olusturuluyor: Pbc3_task 
+[2026-08-07 19:50:30] Task olusturuluyor: Pbc3_task 
+[2026-08-07 19:50:30] Task olusturuldu: Pbc3_task 
+[2026-08-07 19:50:30] Task olusturuldu: Pbc3_task 
+[2026-08-07 19:50:30] Task olusturuluyor: GBSG2_task 
+[2026-08-07 19:50:30] Task olusturuluyor: GBSG2_task 
+[2026-08-07 19:50:30] Task olusturuldu: GBSG2_task 
+[2026-08-07 19:50:30] Task olusturuldu: GBSG2_task 
+[2026-08-07 19:50:30] Task olusturuluyor: colon_task 
+[2026-08-07 19:50:30] Task olusturuluyor: colon_task 
+[2026-08-07 19:50:30] Task olusturuldu: colon_task 
+[2026-08-07 19:50:30] Task olusturuldu: colon_task 
+[2026-08-07 19:50:30] Task olusturuluyor: flchain_task 
+[2026-08-07 19:50:30] Task olusturuluyor: flchain_task 
+[2026-08-07 19:50:30] Task olusturuldu: flchain_task 
+[2026-08-07 19:50:30] Task olusturuldu: flchain_task 
+[2026-08-07 19:50:30] Task olusturuluyor: Rossi_task 
+[2026-08-07 19:50:30] Task olusturuluyor: Rossi_task 
+[2026-08-07 19:50:30] Task olusturuldu: Rossi_task 
+[2026-08-07 19:50:30] Task olusturuldu: Rossi_task 
+[2026-08-07 19:50:30] Task olusturuluyor: burn_task 
+[2026-08-07 19:50:30] Task olusturuluyor: burn_task 
+[2026-08-07 19:50:30] Task olusturuldu: burn_task 
+[2026-08-07 19:50:30] Task olusturuldu: burn_task 
+[2026-08-07 19:50:30] Task olusturuluyor: rott2_task 
+[2026-08-07 19:50:30] Task olusturuluyor: rott2_task 
+[2026-08-07 19:50:30] Task olusturuldu: rott2_task 
+[2026-08-07 19:50:30] Task olusturuldu: rott2_task 
+[2026-08-07 19:50:30] Task olusturuluyor: d_oropha_rec_task 
+[2026-08-07 19:50:30] Task olusturuluyor: d_oropha_rec_task 
+[2026-08-07 19:50:30] Task olusturuldu: d_oropha_rec_task 
+[2026-08-07 19:50:30] Task olusturuldu: d_oropha_rec_task 
+[2026-08-07 19:50:30] Task olusturuluyor: rdata_task 
+[2026-08-07 19:50:30] Task olusturuluyor: rdata_task 
+[2026-08-07 19:50:30] Task olusturuldu: rdata_task 
+[2026-08-07 19:50:30] Task olusturuldu: rdata_task 
+[2026-08-07 19:50:30] Toplam 36 task olusturuldu 
+[2026-08-07 19:50:30] Toplam 36 task olusturuldu 
+[2026-08-07 19:50:30] ===== RUN ( Framingham ) BASLADI: 12 model ===== 
+[2026-08-07 19:50:30] ===== RUN ( Framingham ) BASLADI: 12 model ===== 
+[2026-08-07 19:50:31] ----- Veri seti basladi: Framingham ----- 
+[2026-08-07 19:50:31] ----- Veri seti basladi: Framingham ----- 
+[2026-08-07 19:50:31] [BELLEK] [Framingham] veri seti basi - Sistem RSS: 0.491 GB | R heap (gc): 0.266 GB 
+[2026-08-07 19:50:31] [BELLEK] [Framingham] veri seti basi - Sistem RSS: 0.491 GB | R heap (gc): 0.266 GB 
+[2026-08-07 19:50:31] Buyuk veri seti en bastan 1/3'e indirildi: 4658 -> 1553 satir 
+[2026-08-07 19:50:31] Buyuk veri seti en bastan 1/3'e indirildi: 4658 -> 1553 satir 
+[2026-08-07 19:50:31] Split basladi (ratio = 0.7 ) 
+[2026-08-07 19:50:31] Split basladi (ratio = 0.7 ) 
+[2026-08-07 19:50:31] Split bitti - train: 1087 test: 466 
+[2026-08-07 19:50:31] Split bitti - train: 1087 test: 466 
+[2026-08-07 19:50:31] [BELLEK] [Framingham/cox] model dongusu basi - Sistem RSS: 0.491 GB | R heap (gc): 0.267 GB 
+[2026-08-07 19:50:31] [BELLEK] [Framingham/cox] model dongusu basi - Sistem RSS: 0.491 GB | R heap (gc): 0.267 GB 
+[2026-08-07 19:50:31] Kaydedilmis model bulundu, okunuyor: results/cox/Framingham/model.rds 
+[2026-08-07 19:50:31] Kaydedilmis model bulundu, okunuyor: results/cox/Framingham/model.rds 
+[2026-08-07 19:50:32] [BELLEK] [Framingham/cox] model hazir - Sistem RSS: 0.491 GB | R heap (gc): 0.268 GB 
+[2026-08-07 19:50:32] [BELLEK] [Framingham/cox] model hazir - Sistem RSS: 0.491 GB | R heap (gc): 0.268 GB 
+[2026-08-07 19:50:32] Performans hesaplama basladi: surv.coxph 
+[2026-08-07 19:50:32] Performans hesaplama basladi: surv.coxph 
+[2026-08-07 19:50:37] Performans hesaplama bitti: surv.coxph - cindex: 0.689 - IBS (graf): 0.114 
+[2026-08-07 19:50:37] Performans hesaplama bitti: surv.coxph - cindex: 0.689 - IBS (graf): 0.114 
+[2026-08-07 19:50:37] Performans kaydedildi: results/cox/Framingham/performance.csv 
+[2026-08-07 19:50:37] Performans kaydedildi: results/cox/Framingham/performance.csv 
+[2026-08-07 19:50:37] Kaydedilmis explainer bulundu, okunuyor: results/cox/Framingham/explainer.rds 
+[2026-08-07 19:50:37] Kaydedilmis explainer bulundu, okunuyor: results/cox/Framingham/explainer.rds 
+[2026-08-07 19:50:37] [BELLEK] [Framingham/cox] explainer hazir - Sistem RSS: 0.522 GB | R heap (gc): 0.287 GB 
+[2026-08-07 19:50:37] [BELLEK] [Framingham/cox] explainer hazir - Sistem RSS: 0.522 GB | R heap (gc): 0.287 GB 
+[2026-08-07 19:50:37] SHAP hesaplaniyor: cox_model - n_obs = 50 
+[2026-08-07 19:50:37] SHAP hesaplaniyor: cox_model - n_obs = 50 
+[2026-08-07 19:50:37] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 19:50:37] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 19:50:37] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 19:50:37] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 19:50:37] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 19:50:37] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 19:52:50] Paket kurulumu basladi 
+[2026-08-07 19:52:50] Paket kurulumu basladi 
+[2026-08-07 19:52:50] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-07 19:52:50] renv.lock bulunamadi, normal kurulum yapiliyor 
+renv.lock bulunamadi, normal kurulum yapiliyor. Reproducibility icin projede bir kere renv::init() calistirabilirsin.
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘survex’
+
+The following object is masked from ‘package:dplyr’:
+
+    explain
+
+[2026-08-07 19:52:53] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-08-07 19:52:53] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-08-07 19:52:55] Paket kurulumu tamamlandi 
+[2026-08-07 19:52:55] Paket kurulumu tamamlandi 
+[2026-08-07 19:52:55] Veri okuma basladi: grace 
+[2026-08-07 19:52:55] Veri okuma basladi: grace 
+Rows: 1000 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (8): pid, event, time, num_los, num_age, num_sysbp, fac_revasc, fac_stch...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:55] Veri okuma bitti: grace - 1000 satir, 7 sutun 
+[2026-08-07 19:52:55] Veri okuma bitti: grace - 1000 satir, 7 sutun 
+[2026-08-07 19:52:55] Veri okuma basladi: melanoma 
+[2026-08-07 19:52:55] Veri okuma basladi: melanoma 
+Rows: 205 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (8): pid, event, time, fac_sex, fac_ulcer, num_age, num_year, num_thickness
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:55] Veri okuma bitti: melanoma - 205 satir, 7 sutun 
+[2026-08-07 19:52:55] Veri okuma bitti: melanoma - 205 satir, 7 sutun 
+[2026-08-07 19:52:55] Veri okuma basladi: ova 
+[2026-08-07 19:52:55] Veri okuma basladi: ova 
+Rows: 358 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (8): pid, event, time, fac_karn, fac_diam, fac_figo, num_karn, num_diam
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:55] Veri okuma bitti: ova - 358 satir, 7 sutun 
+[2026-08-07 19:52:55] Veri okuma bitti: ova - 358 satir, 7 sutun 
+[2026-08-07 19:52:55] Veri okuma basladi: aids2 
+[2026-08-07 19:52:55] Veri okuma basladi: aids2 
+Rows: 2839 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_state, fac_sex, fac_T_categ
+dbl (4): pid, event, time, num_age
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:55] Veri okuma bitti: aids2 - 2839 satir, 6 sutun 
+[2026-08-07 19:52:55] Veri okuma bitti: aids2 - 2839 satir, 6 sutun 
+[2026-08-07 19:52:55] Veri okuma basladi: veteran 
+[2026-08-07 19:52:55] Veri okuma basladi: veteran 
+Rows: 137 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_celltype
+dbl (8): pid, event, time, num_karno, num_diagtime, num_age, fac_trt, fac_prior
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:55] Veri okuma bitti: veteran - 137 satir, 8 sutun 
+[2026-08-07 19:52:55] Veri okuma bitti: veteran - 137 satir, 8 sutun 
+[2026-08-07 19:52:55] Veri okuma basladi: breast 
+[2026-08-07 19:52:55] Veri okuma basladi: breast 
+Rows: 100 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (7): pid, event, time, fac_TumorStage, fac_NodalStatus, fac_Histology, f...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:55] Veri okuma bitti: breast - 100 satir, 6 sutun 
+[2026-08-07 19:52:55] Veri okuma bitti: breast - 100 satir, 6 sutun 
+[2026-08-07 19:52:55] Veri okuma basladi: e1684 
+[2026-08-07 19:52:55] Veri okuma basladi: e1684 
+Rows: 284 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (6): pid, event, time, num_age, fac_sex, fac_trt
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:55] Veri okuma bitti: e1684 - 284 satir, 5 sutun 
+[2026-08-07 19:52:55] Veri okuma bitti: e1684 - 284 satir, 5 sutun 
+[2026-08-07 19:52:55] Veri okuma basladi: epileptic 
+[2026-08-07 19:52:55] Veri okuma basladi: epileptic 
+Rows: 1286 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_treat, fac_gender, fac_learn_dis
+dbl (6): pid, event, time, time2, num_dose, num_age
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:55] Veri okuma bitti: epileptic - 1286 satir, 8 sutun 
+[2026-08-07 19:52:55] Veri okuma bitti: epileptic - 1286 satir, 8 sutun 
+[2026-08-07 19:52:55] Veri okuma basladi: dialysis 
+[2026-08-07 19:52:55] Veri okuma basladi: dialysis 
+Rows: 6805 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_disease
+dbl (6): pid, event, time, fac_center, num_age, num_begin
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:56] Veri okuma bitti: dialysis - 6805 satir, 6 sutun 
+[2026-08-07 19:52:56] Veri okuma bitti: dialysis - 6805 satir, 6 sutun 
+[2026-08-07 19:52:56] Veri okuma basladi: pbc 
+[2026-08-07 19:52:56] Veri okuma basladi: pbc 
+Rows: 312 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_sex
+dbl (8): pid, event, time, num_age, fac_trt, fac_ascites, fac_hepato, fac_sp...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:56] Veri okuma bitti: pbc - 312 satir, 8 sutun 
+[2026-08-07 19:52:56] Veri okuma bitti: pbc - 312 satir, 8 sutun 
+[2026-08-07 19:52:56] Veri okuma basladi: prostateSurvival 
+[2026-08-07 19:52:56] Veri okuma basladi: prostateSurvival 
+Rows: 14294 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_grade, fac_stage, fac_ageGroup
+dbl (3): pid, event, time
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:56] Veri okuma bitti: prostateSurvival - 14294 satir, 5 sutun 
+[2026-08-07 19:52:56] Veri okuma bitti: prostateSurvival - 14294 satir, 5 sutun 
+[2026-08-07 19:52:56] Veri okuma basladi: acath 
+[2026-08-07 19:52:56] Veri okuma basladi: acath 
+Rows: 3504 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (6): pid, event, time, num_age, num_choleste, fac_sex
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:56] Veri okuma bitti: acath - 2258 satir, 5 sutun 
+[2026-08-07 19:52:56] Veri okuma bitti: acath - 2258 satir, 5 sutun 
+[2026-08-07 19:52:56] Veri okuma basladi: prostate 
+[2026-08-07 19:52:56] Veri okuma basladi: prostate 
+Rows: 502 Columns: 18
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (3): fac_rx, fac_pf, fac_ekg
+dbl (15): pid, event, time, fac_stage, fac_hx, fac_bm, num_age, num_wt, num_...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:56] Veri okuma bitti: prostate - 475 satir, 17 sutun 
+[2026-08-07 19:52:56] Veri okuma bitti: prostate - 475 satir, 17 sutun 
+[2026-08-07 19:52:56] Veri okuma basladi: dataDIVAT1 
+[2026-08-07 19:52:56] Veri okuma basladi: dataDIVAT1 
+Rows: 5943 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_sexR
+dbl (7): pid, event, time, num_ageR, num_year_tx, fac_graft, fac_year_tx
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:56] Veri okuma bitti: dataDIVAT1 - 5943 satir, 7 sutun 
+[2026-08-07 19:52:56] Veri okuma bitti: dataDIVAT1 - 5943 satir, 7 sutun 
+[2026-08-07 19:52:56] Veri okuma basladi: dataDIVAT3 
+[2026-08-07 19:52:56] Veri okuma basladi: dataDIVAT3 
+Rows: 4267 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, fac_sexeR, fac_year_tx, fac_ante_diab, fac_pra, ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:56] Veri okuma bitti: dataDIVAT3 - 4267 satir, 9 sutun 
+[2026-08-07 19:52:56] Veri okuma bitti: dataDIVAT3 - 4267 satir, 9 sutun 
+[2026-08-07 19:52:56] Veri okuma basladi: TRACE 
+[2026-08-07 19:52:56] Veri okuma basladi: TRACE 
+Rows: 1878 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (9): pid, event, time, num_wmi, num_age, fac_sex, fac_chf, fac_diabetes,...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:56] Veri okuma bitti: TRACE - 1878 satir, 8 sutun 
+[2026-08-07 19:52:56] Veri okuma bitti: TRACE - 1878 satir, 8 sutun 
+[2026-08-07 19:52:56] Veri okuma basladi: FRTCS 
+[2026-08-07 19:52:56] Veri okuma basladi: FRTCS 
+Rows: 2091 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (2): fac_sex, fac_antihyp
+dbl (7): pid, event, time, time2, num_age, num_sbp, num_dbp
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:56] Veri okuma bitti: FRTCS - 2088 satir, 7 sutun 
+[2026-08-07 19:52:56] Veri okuma bitti: FRTCS - 2088 satir, 7 sutun 
+[2026-08-07 19:52:56] Veri okuma basladi: zinc 
+[2026-08-07 19:52:56] Veri okuma basladi: zinc 
+Rows: 431 Columns: 16
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (9): fac_sex, fac_agestr, fac_smoke, fac_drink, fac_basehist, fac_sevdys...
+dbl (7): pid, event, time, fac_dysp1, fac_dysp2, num_agepill, num_stdagepill
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:56] Veri okuma bitti: zinc - 431 satir, 15 sutun 
+[2026-08-07 19:52:56] Veri okuma bitti: zinc - 431 satir, 15 sutun 
+[2026-08-07 19:52:56] Veri okuma basladi: stagec 
+[2026-08-07 19:52:56] Veri okuma basladi: stagec 
+Rows: 146 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_ploidy, fac_eet, fac_gleason
+dbl (7): pid, event, time, fac_grade, num_age, num_g2, num_gleason
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:56] Veri okuma bitti: stagec - 136 satir, 9 sutun 
+[2026-08-07 19:52:56] Veri okuma bitti: stagec - 136 satir, 9 sutun 
+[2026-08-07 19:52:56] Veri okuma basladi: LeukSurv 
+[2026-08-07 19:52:56] Veri okuma basladi: LeukSurv 
+Rows: 1043 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, fac_sex, fac_district, num_xcoord, num_ycoord, n...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:56] Veri okuma bitti: LeukSurv - 1043 satir, 9 sutun 
+[2026-08-07 19:52:56] Veri okuma bitti: LeukSurv - 1043 satir, 9 sutun 
+[2026-08-07 19:52:56] Veri okuma basladi: nwtco 
+[2026-08-07 19:52:56] Veri okuma basladi: nwtco 
+Rows: 4028 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (9): pid, event, time, fac_stage, fac_study, fac_instit, fac_histol, num...
+lgl (1): fac_in_subcohort
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:56] Veri okuma bitti: nwtco - 4028 satir, 9 sutun 
+[2026-08-07 19:52:56] Veri okuma bitti: nwtco - 4028 satir, 9 sutun 
+[2026-08-07 19:52:56] Veri okuma basladi: retinopathy 
+[2026-08-07 19:52:56] Veri okuma basladi: retinopathy 
+Rows: 394 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_laser, fac_eye, fac_type
+dbl (7): pid, event, time, fac_trt, fac_risk, num_age, num_risk
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:56] Veri okuma bitti: retinopathy - 394 satir, 9 sutun 
+[2026-08-07 19:52:56] Veri okuma bitti: retinopathy - 394 satir, 9 sutun 
+[2026-08-07 19:52:56] Veri okuma basladi: Framingham 
+[2026-08-07 19:52:56] Veri okuma basladi: Framingham 
+Rows: 4699 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, num_sbp, num_dbp, num_scl, num_age, num_bmi, fac...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:56] Veri okuma bitti: Framingham - 4658 satir, 9 sutun 
+[2026-08-07 19:52:56] Veri okuma bitti: Framingham - 4658 satir, 9 sutun 
+[2026-08-07 19:52:56] Veri okuma basladi: csl 
+[2026-08-07 19:52:56] Veri okuma basladi: csl 
+Rows: 2481 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, time2, num_age, num_prot, num_prot_prev, num_pro...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:56] Veri okuma bitti: csl - 2481 satir, 8 sutun 
+[2026-08-07 19:52:56] Veri okuma bitti: csl - 2481 satir, 8 sutun 
+[2026-08-07 19:52:56] Veri okuma basladi: cancer 
+[2026-08-07 19:52:56] Veri okuma basladi: cancer 
+Rows: 228 Columns: 11
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (2): fac_inst, fac_ph_ecog
+dbl (9): pid, event, time, num_wt_loss, num_ph_karno, num_pat_karno, num_mea...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:56] Veri okuma bitti: cancer - 169 satir, 10 sutun 
+[2026-08-07 19:52:56] Veri okuma bitti: cancer - 169 satir, 10 sutun 
+[2026-08-07 19:52:56] Veri okuma basladi: whas500 
+[2026-08-07 19:52:56] Veri okuma basladi: whas500 
+Rows: 461 Columns: 19
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (19): pid, event, time, fac_gender, fac_cvd, fac_afb, fac_sho, fac_chf, ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:57] Veri okuma bitti: whas500 - 461 satir, 18 sutun 
+[2026-08-07 19:52:57] Veri okuma bitti: whas500 - 461 satir, 18 sutun 
+[2026-08-07 19:52:57] Veri okuma basladi: cgd 
+[2026-08-07 19:52:57] Veri okuma basladi: cgd 
+Rows: 128 Columns: 13
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): fac_center, fac_treat, fac_sex, fac_inherit, fac_hos_cat
+dbl (8): pid, event, time, fac_steroids, fac_propylac, num_age, num_height, ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:57] Veri okuma bitti: cgd - 128 satir, 12 sutun 
+[2026-08-07 19:52:57] Veri okuma bitti: cgd - 128 satir, 12 sutun 
+[2026-08-07 19:52:57] Veri okuma basladi: Pbc3 
+[2026-08-07 19:52:57] Veri okuma basladi: Pbc3 
+Rows: 349 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (1): fac_stage
+dbl (14): pid, event, time, num_age, num_crea, num_alb, num_bili, num_alkph,...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:57] Veri okuma bitti: Pbc3 - 327 satir, 14 sutun 
+[2026-08-07 19:52:57] Veri okuma bitti: Pbc3 - 327 satir, 14 sutun 
+[2026-08-07 19:52:57] Veri okuma basladi: GBSG2 
+[2026-08-07 19:52:57] Veri okuma basladi: GBSG2 
+Rows: 686 Columns: 11
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_horTh, fac_menostat, fac_tgrade
+dbl (8): pid, event, time, num_age, num_tsize, num_pnodes, num_progrec, num_...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:57] Veri okuma bitti: GBSG2 - 686 satir, 10 sutun 
+[2026-08-07 19:52:57] Veri okuma bitti: GBSG2 - 686 satir, 10 sutun 
+[2026-08-07 19:52:57] Veri okuma basladi: colon 
+[2026-08-07 19:52:57] Veri okuma basladi: colon 
+Rows: 929 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (2): fac_rx, fac_differ
+dbl (10): pid, event, time, num_age, num_nodes, fac_sex, fac_obstruct, fac_p...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:57] Veri okuma bitti: colon - 911 satir, 11 sutun 
+[2026-08-07 19:52:57] Veri okuma bitti: colon - 911 satir, 11 sutun 
+[2026-08-07 19:52:57] Veri okuma basladi: flchain 
+[2026-08-07 19:52:57] Veri okuma basladi: flchain 
+Rows: 7874 Columns: 13
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (2): fac_sex, fac_chapter
+dbl (11): pid, event, time, num_age, num_kappa, num_lambda, num_flc_grp, num...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:57] Veri okuma bitti: flchain - 6524 satir, 12 sutun 
+[2026-08-07 19:52:57] Veri okuma bitti: flchain - 6524 satir, 12 sutun 
+[2026-08-07 19:52:57] Veri okuma basladi: Rossi 
+[2026-08-07 19:52:57] Veri okuma basladi: Rossi 
+Rows: 1405 Columns: 13
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): fac_fin, fac_race, fac_wexp, fac_mar, fac_paro
+dbl (8): pid, event, time, time2, fac_prio, fac_educ, fac_emp, num_age
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:57] Veri okuma bitti: Rossi - 1405 satir, 11 sutun 
+[2026-08-07 19:52:57] Veri okuma bitti: Rossi - 1405 satir, 11 sutun 
+[2026-08-07 19:52:57] Veri okuma basladi: burn 
+[2026-08-07 19:52:57] Veri okuma basladi: burn 
+Rows: 154 Columns: 14
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (14): pid, event, time, fac_burn_buttock, fac_burn_head, fac_burn_lower_...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:57] Veri okuma bitti: burn - 154 satir, 13 sutun 
+[2026-08-07 19:52:57] Veri okuma bitti: burn - 154 satir, 13 sutun 
+[2026-08-07 19:52:57] Veri okuma basladi: rott2 
+[2026-08-07 19:52:57] Veri okuma basladi: rott2 
+Rows: 2982 Columns: 14
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): fac_meno, fac_tsize, fac_hormon, fac_chemo, fac_recent
+dbl (9): pid, event, time, fac_grade, num_year, num_age, num_nodes, num_prog...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:57] Veri okuma bitti: rott2 - 2982 satir, 13 sutun 
+[2026-08-07 19:52:57] Veri okuma bitti: rott2 - 2982 satir, 13 sutun 
+[2026-08-07 19:52:57] Veri okuma basladi: d_oropha_rec 
+[2026-08-07 19:52:57] Veri okuma basladi: d_oropha_rec 
+Rows: 192 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (15): pid, event, time, fac_inst, fac_sex, fac_treatm, fac_grade, fac_co...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:57] Veri okuma bitti: d_oropha_rec - 192 satir, 14 sutun 
+[2026-08-07 19:52:57] Veri okuma bitti: d_oropha_rec - 192 satir, 14 sutun 
+[2026-08-07 19:52:57] Veri okuma basladi: rdata 
+[2026-08-07 19:52:57] Veri okuma basladi: rdata 
+Rows: 1040 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_agegr
+dbl (6): pid, event, time, fac_sex, num_age, num_year
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-07 19:52:57] Veri okuma bitti: rdata - 1040 satir, 6 sutun 
+[2026-08-07 19:52:57] Veri okuma bitti: rdata - 1040 satir, 6 sutun 
+[2026-08-07 19:52:57] Task olusturuluyor: grace_task 
+[2026-08-07 19:52:57] Task olusturuluyor: grace_task 
+[2026-08-07 19:52:57] Task olusturuldu: grace_task 
+[2026-08-07 19:52:57] Task olusturuldu: grace_task 
+[2026-08-07 19:52:57] Task olusturuluyor: melanoma_task 
+[2026-08-07 19:52:57] Task olusturuluyor: melanoma_task 
+[2026-08-07 19:52:57] Task olusturuldu: melanoma_task 
+[2026-08-07 19:52:57] Task olusturuldu: melanoma_task 
+[2026-08-07 19:52:57] Task olusturuluyor: ova_task 
+[2026-08-07 19:52:57] Task olusturuluyor: ova_task 
+[2026-08-07 19:52:57] Task olusturuldu: ova_task 
+[2026-08-07 19:52:57] Task olusturuldu: ova_task 
+[2026-08-07 19:52:57] Task olusturuluyor: aids2_task 
+[2026-08-07 19:52:57] Task olusturuluyor: aids2_task 
+[2026-08-07 19:52:57] Task olusturuldu: aids2_task 
+[2026-08-07 19:52:57] Task olusturuldu: aids2_task 
+[2026-08-07 19:52:57] Task olusturuluyor: veteran_task 
+[2026-08-07 19:52:57] Task olusturuluyor: veteran_task 
+[2026-08-07 19:52:57] Task olusturuldu: veteran_task 
+[2026-08-07 19:52:57] Task olusturuldu: veteran_task 
+[2026-08-07 19:52:57] Task olusturuluyor: breast_task 
+[2026-08-07 19:52:57] Task olusturuluyor: breast_task 
+[2026-08-07 19:52:57] Task olusturuldu: breast_task 
+[2026-08-07 19:52:57] Task olusturuldu: breast_task 
+[2026-08-07 19:52:57] Task olusturuluyor: e1684_task 
+[2026-08-07 19:52:57] Task olusturuluyor: e1684_task 
+[2026-08-07 19:52:57] Task olusturuldu: e1684_task 
+[2026-08-07 19:52:57] Task olusturuldu: e1684_task 
+[2026-08-07 19:52:57] Task olusturuluyor: epileptic_task 
+[2026-08-07 19:52:57] Task olusturuluyor: epileptic_task 
+[2026-08-07 19:52:57] Task olusturuldu: epileptic_task 
+[2026-08-07 19:52:57] Task olusturuldu: epileptic_task 
+[2026-08-07 19:52:57] Task olusturuluyor: dialysis_task 
+[2026-08-07 19:52:57] Task olusturuluyor: dialysis_task 
+[2026-08-07 19:52:57] Task olusturuldu: dialysis_task 
+[2026-08-07 19:52:57] Task olusturuldu: dialysis_task 
+[2026-08-07 19:52:57] Task olusturuluyor: pbc_task 
+[2026-08-07 19:52:57] Task olusturuluyor: pbc_task 
+[2026-08-07 19:52:57] Task olusturuldu: pbc_task 
+[2026-08-07 19:52:57] Task olusturuldu: pbc_task 
+[2026-08-07 19:52:57] Task olusturuluyor: prostateSurvival_task 
+[2026-08-07 19:52:57] Task olusturuluyor: prostateSurvival_task 
+[2026-08-07 19:52:57] Task olusturuldu: prostateSurvival_task 
+[2026-08-07 19:52:57] Task olusturuldu: prostateSurvival_task 
+[2026-08-07 19:52:57] Task olusturuluyor: acath_task 
+[2026-08-07 19:52:57] Task olusturuluyor: acath_task 
+[2026-08-07 19:52:57] Task olusturuldu: acath_task 
+[2026-08-07 19:52:57] Task olusturuldu: acath_task 
+[2026-08-07 19:52:57] Task olusturuluyor: prostate_task 
+[2026-08-07 19:52:57] Task olusturuluyor: prostate_task 
+[2026-08-07 19:52:57] Task olusturuldu: prostate_task 
+[2026-08-07 19:52:57] Task olusturuldu: prostate_task 
+[2026-08-07 19:52:57] Task olusturuluyor: dataDIVAT1_task 
+[2026-08-07 19:52:57] Task olusturuluyor: dataDIVAT1_task 
+[2026-08-07 19:52:57] Task olusturuldu: dataDIVAT1_task 
+[2026-08-07 19:52:57] Task olusturuldu: dataDIVAT1_task 
+[2026-08-07 19:52:57] Task olusturuluyor: dataDIVAT3_task 
+[2026-08-07 19:52:57] Task olusturuluyor: dataDIVAT3_task 
+[2026-08-07 19:52:57] Task olusturuldu: dataDIVAT3_task 
+[2026-08-07 19:52:57] Task olusturuldu: dataDIVAT3_task 
+[2026-08-07 19:52:57] Task olusturuluyor: TRACE_task 
+[2026-08-07 19:52:57] Task olusturuluyor: TRACE_task 
+[2026-08-07 19:52:57] Task olusturuldu: TRACE_task 
+[2026-08-07 19:52:57] Task olusturuldu: TRACE_task 
+[2026-08-07 19:52:57] Task olusturuluyor: FRTCS_task 
+[2026-08-07 19:52:57] Task olusturuluyor: FRTCS_task 
+[2026-08-07 19:52:57] Task olusturuldu: FRTCS_task 
+[2026-08-07 19:52:57] Task olusturuldu: FRTCS_task 
+[2026-08-07 19:52:57] Task olusturuluyor: zinc_task 
+[2026-08-07 19:52:57] Task olusturuluyor: zinc_task 
+[2026-08-07 19:52:57] Task olusturuldu: zinc_task 
+[2026-08-07 19:52:57] Task olusturuldu: zinc_task 
+[2026-08-07 19:52:57] Task olusturuluyor: stagec_task 
+[2026-08-07 19:52:57] Task olusturuluyor: stagec_task 
+[2026-08-07 19:52:57] Task olusturuldu: stagec_task 
+[2026-08-07 19:52:57] Task olusturuldu: stagec_task 
+[2026-08-07 19:52:57] Task olusturuluyor: LeukSurv_task 
+[2026-08-07 19:52:57] Task olusturuluyor: LeukSurv_task 
+[2026-08-07 19:52:57] Task olusturuldu: LeukSurv_task 
+[2026-08-07 19:52:57] Task olusturuldu: LeukSurv_task 
+[2026-08-07 19:52:57] Task olusturuluyor: nwtco_task 
+[2026-08-07 19:52:57] Task olusturuluyor: nwtco_task 
+[2026-08-07 19:52:57] Task olusturuldu: nwtco_task 
+[2026-08-07 19:52:57] Task olusturuldu: nwtco_task 
+[2026-08-07 19:52:57] Task olusturuluyor: retinopathy_task 
+[2026-08-07 19:52:57] Task olusturuluyor: retinopathy_task 
+[2026-08-07 19:52:57] Task olusturuldu: retinopathy_task 
+[2026-08-07 19:52:57] Task olusturuldu: retinopathy_task 
+[2026-08-07 19:52:57] Task olusturuluyor: Framingham_task 
+[2026-08-07 19:52:57] Task olusturuluyor: Framingham_task 
+[2026-08-07 19:52:57] Task olusturuldu: Framingham_task 
+[2026-08-07 19:52:57] Task olusturuldu: Framingham_task 
+[2026-08-07 19:52:57] Task olusturuluyor: csl_task 
+[2026-08-07 19:52:57] Task olusturuluyor: csl_task 
+[2026-08-07 19:52:57] Task olusturuldu: csl_task 
+[2026-08-07 19:52:57] Task olusturuldu: csl_task 
+[2026-08-07 19:52:57] Task olusturuluyor: cancer_task 
+[2026-08-07 19:52:57] Task olusturuluyor: cancer_task 
+[2026-08-07 19:52:57] Task olusturuldu: cancer_task 
+[2026-08-07 19:52:57] Task olusturuldu: cancer_task 
+[2026-08-07 19:52:57] Task olusturuluyor: whas500_task 
+[2026-08-07 19:52:57] Task olusturuluyor: whas500_task 
+[2026-08-07 19:52:57] Task olusturuldu: whas500_task 
+[2026-08-07 19:52:57] Task olusturuldu: whas500_task 
+[2026-08-07 19:52:57] Task olusturuluyor: cgd_task 
+[2026-08-07 19:52:57] Task olusturuluyor: cgd_task 
+[2026-08-07 19:52:57] Task olusturuldu: cgd_task 
+[2026-08-07 19:52:57] Task olusturuldu: cgd_task 
+[2026-08-07 19:52:57] Task olusturuluyor: Pbc3_task 
+[2026-08-07 19:52:57] Task olusturuluyor: Pbc3_task 
+[2026-08-07 19:52:57] Task olusturuldu: Pbc3_task 
+[2026-08-07 19:52:57] Task olusturuldu: Pbc3_task 
+[2026-08-07 19:52:57] Task olusturuluyor: GBSG2_task 
+[2026-08-07 19:52:57] Task olusturuluyor: GBSG2_task 
+[2026-08-07 19:52:57] Task olusturuldu: GBSG2_task 
+[2026-08-07 19:52:57] Task olusturuldu: GBSG2_task 
+[2026-08-07 19:52:57] Task olusturuluyor: colon_task 
+[2026-08-07 19:52:57] Task olusturuluyor: colon_task 
+[2026-08-07 19:52:57] Task olusturuldu: colon_task 
+[2026-08-07 19:52:57] Task olusturuldu: colon_task 
+[2026-08-07 19:52:57] Task olusturuluyor: flchain_task 
+[2026-08-07 19:52:57] Task olusturuluyor: flchain_task 
+[2026-08-07 19:52:57] Task olusturuldu: flchain_task 
+[2026-08-07 19:52:57] Task olusturuldu: flchain_task 
+[2026-08-07 19:52:57] Task olusturuluyor: Rossi_task 
+[2026-08-07 19:52:57] Task olusturuluyor: Rossi_task 
+[2026-08-07 19:52:57] Task olusturuldu: Rossi_task 
+[2026-08-07 19:52:57] Task olusturuldu: Rossi_task 
+[2026-08-07 19:52:57] Task olusturuluyor: burn_task 
+[2026-08-07 19:52:57] Task olusturuluyor: burn_task 
+[2026-08-07 19:52:57] Task olusturuldu: burn_task 
+[2026-08-07 19:52:57] Task olusturuldu: burn_task 
+[2026-08-07 19:52:57] Task olusturuluyor: rott2_task 
+[2026-08-07 19:52:57] Task olusturuluyor: rott2_task 
+[2026-08-07 19:52:57] Task olusturuldu: rott2_task 
+[2026-08-07 19:52:57] Task olusturuldu: rott2_task 
+[2026-08-07 19:52:57] Task olusturuluyor: d_oropha_rec_task 
+[2026-08-07 19:52:57] Task olusturuluyor: d_oropha_rec_task 
+[2026-08-07 19:52:57] Task olusturuldu: d_oropha_rec_task 
+[2026-08-07 19:52:57] Task olusturuldu: d_oropha_rec_task 
+[2026-08-07 19:52:57] Task olusturuluyor: rdata_task 
+[2026-08-07 19:52:57] Task olusturuluyor: rdata_task 
+[2026-08-07 19:52:57] Task olusturuldu: rdata_task 
+[2026-08-07 19:52:57] Task olusturuldu: rdata_task 
+[2026-08-07 19:52:57] Toplam 36 task olusturuldu 
+[2026-08-07 19:52:57] Toplam 36 task olusturuldu 
+[2026-08-07 19:52:57] ===== RUN ( Framingham ) BASLADI: 12 model ===== 
+[2026-08-07 19:52:57] ===== RUN ( Framingham ) BASLADI: 12 model ===== 
+[2026-08-07 19:52:58] ----- Veri seti basladi: Framingham ----- 
+[2026-08-07 19:52:58] ----- Veri seti basladi: Framingham ----- 
+[2026-08-07 19:52:58] [BELLEK] [Framingham] veri seti basi - Sistem RSS: 0.491 GB | R heap (gc): 0.266 GB 
+[2026-08-07 19:52:58] [BELLEK] [Framingham] veri seti basi - Sistem RSS: 0.491 GB | R heap (gc): 0.266 GB 
+[2026-08-07 19:52:58] Buyuk veri seti en bastan 1/3'e indirildi: 4658 -> 1553 satir 
+[2026-08-07 19:52:58] Buyuk veri seti en bastan 1/3'e indirildi: 4658 -> 1553 satir 
+[2026-08-07 19:52:58] Split basladi (ratio = 0.7 ) 
+[2026-08-07 19:52:58] Split basladi (ratio = 0.7 ) 
+[2026-08-07 19:52:58] Split bitti - train: 1087 test: 466 
+[2026-08-07 19:52:58] Split bitti - train: 1087 test: 466 
+[2026-08-07 19:52:58] [BELLEK] [Framingham/cox] model dongusu basi - Sistem RSS: 0.491 GB | R heap (gc): 0.267 GB 
+[2026-08-07 19:52:58] [BELLEK] [Framingham/cox] model dongusu basi - Sistem RSS: 0.491 GB | R heap (gc): 0.267 GB 
+[2026-08-07 19:52:58] Kaydedilmis model bulundu, okunuyor: results/cox/Framingham/model.rds 
+[2026-08-07 19:52:58] Kaydedilmis model bulundu, okunuyor: results/cox/Framingham/model.rds 
+[2026-08-07 19:52:59] [BELLEK] [Framingham/cox] model hazir - Sistem RSS: 0.491 GB | R heap (gc): 0.268 GB 
+[2026-08-07 19:52:59] [BELLEK] [Framingham/cox] model hazir - Sistem RSS: 0.491 GB | R heap (gc): 0.268 GB 
+[2026-08-07 19:52:59] Performans hesaplama basladi: surv.coxph 
+[2026-08-07 19:52:59] Performans hesaplama basladi: surv.coxph 
+[2026-08-07 19:53:04] Performans hesaplama bitti: surv.coxph - cindex: 0.689 - IBS (graf): 0.114 
+[2026-08-07 19:53:04] Performans hesaplama bitti: surv.coxph - cindex: 0.689 - IBS (graf): 0.114 
+[2026-08-07 19:53:04] Performans kaydedildi: results/cox/Framingham/performance.csv 
+[2026-08-07 19:53:04] Performans kaydedildi: results/cox/Framingham/performance.csv 
+[2026-08-07 19:53:04] Kaydedilmis explainer bulundu, okunuyor: results/cox/Framingham/explainer.rds 
+[2026-08-07 19:53:04] Kaydedilmis explainer bulundu, okunuyor: results/cox/Framingham/explainer.rds 
+[2026-08-07 19:53:04] [BELLEK] [Framingham/cox] explainer hazir - Sistem RSS: 0.524 GB | R heap (gc): 0.287 GB 
+[2026-08-07 19:53:04] [BELLEK] [Framingham/cox] explainer hazir - Sistem RSS: 0.524 GB | R heap (gc): 0.287 GB 
+[2026-08-07 19:53:04] SHAP hesaplaniyor: cox_model - n_obs = 50 
+[2026-08-07 19:53:04] SHAP hesaplaniyor: cox_model - n_obs = 50 
+[2026-08-07 19:53:04] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 19:53:04] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 19:53:04] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 19:53:04] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 20:09:30] SHAP - gozlem 20 / 50 
+[2026-08-07 20:09:30] SHAP - gozlem 20 / 50 
+[2026-08-07 20:29:18] SHAP - gozlem 25 / 50 
+[2026-08-07 20:29:18] SHAP - gozlem 25 / 50 
+[2026-08-07 20:49:07] SHAP - gozlem 30 / 50 
+[2026-08-07 20:49:07] SHAP - gozlem 30 / 50 
+[2026-08-07 21:08:54] SHAP - gozlem 35 / 50 
+[2026-08-07 21:08:54] SHAP - gozlem 35 / 50 
+[2026-08-07 21:29:06] SHAP - gozlem 40 / 50 
+[2026-08-07 21:29:06] SHAP - gozlem 40 / 50 
+[2026-08-07 21:48:47] SHAP - gozlem 45 / 50 
+[2026-08-07 21:48:47] SHAP - gozlem 45 / 50 
+[2026-08-07 22:08:30] SHAP - gozlem 50 / 50 
+[2026-08-07 22:08:30] SHAP - gozlem 50 / 50 
+[2026-08-07 22:12:27] SHAP hesaplama bitti, kaydedildi: results/cox/Framingham/shap_long_n50.csv 
+[2026-08-07 22:12:27] SHAP hesaplama bitti, kaydedildi: results/cox/Framingham/shap_long_n50.csv 
+[2026-08-07 22:12:27] [BELLEK] [Framingham/cox] SHAP sonrasi - Sistem RSS: 6.922 GB | R heap (gc): 0.292 GB 
+[2026-08-07 22:12:27] [BELLEK] [Framingham/cox] SHAP sonrasi - Sistem RSS: 6.922 GB | R heap (gc): 0.292 GB 
+[2026-08-07 22:12:28] Grafik kaydedildi: results/cox/Framingham/plots/survshap_plot_n50.png 
+[2026-08-07 22:12:28] Grafik kaydedildi: results/cox/Framingham/plots/survshap_plot_n50.png 
+[2026-08-07 22:12:28] SHAP ozeti kaydedildi: results/cox/Framingham/shap_summary_n50.csv 
+[2026-08-07 22:12:28] SHAP ozeti kaydedildi: results/cox/Framingham/shap_summary_n50.csv 
+[2026-08-07 22:12:28] cox_model - SHAP TIVM: 4e-04 
+[2026-08-07 22:12:28] cox_model - SHAP TIVM: 4e-04 
+[2026-08-07 22:12:29] [BELLEK] [Framingham/cox] model+explainer silindi, dongu sonu - Sistem RSS: 6.26 GB | R heap (gc): 0.304 GB 
+[2026-08-07 22:12:29] [BELLEK] [Framingham/cox] model+explainer silindi, dongu sonu - Sistem RSS: 6.26 GB | R heap (gc): 0.304 GB 
+[2026-08-07 22:12:29] [BELLEK] [Framingham/aorsf] model dongusu basi - Sistem RSS: 6.26 GB | R heap (gc): 0.304 GB 
+[2026-08-07 22:12:29] [BELLEK] [Framingham/aorsf] model dongusu basi - Sistem RSS: 6.26 GB | R heap (gc): 0.304 GB 
+[2026-08-07 22:12:29] Kaydedilmis model bulundu, okunuyor: results/aorsf/Framingham/model.rds 
+[2026-08-07 22:12:29] Kaydedilmis model bulundu, okunuyor: results/aorsf/Framingham/model.rds 
+[2026-08-07 22:12:30] [BELLEK] [Framingham/aorsf] model hazir - Sistem RSS: 6.26 GB | R heap (gc): 0.332 GB 
+[2026-08-07 22:12:30] [BELLEK] [Framingham/aorsf] model hazir - Sistem RSS: 6.26 GB | R heap (gc): 0.332 GB 
+[2026-08-07 22:12:30] Performans hesaplama basladi: surv.aorsf 
+[2026-08-07 22:12:30] Performans hesaplama basladi: surv.aorsf 
+[2026-08-07 22:12:34] Performans hesaplama bitti: surv.aorsf - cindex: 0.687 - IBS (graf): 0.117 
+[2026-08-07 22:12:34] Performans hesaplama bitti: surv.aorsf - cindex: 0.687 - IBS (graf): 0.117 
+[2026-08-07 22:12:34] Performans kaydedildi: results/aorsf/Framingham/performance.csv 
+[2026-08-07 22:12:34] Performans kaydedildi: results/aorsf/Framingham/performance.csv 
+[2026-08-07 22:12:34] Kaydedilmis explainer bulundu, okunuyor: results/aorsf/Framingham/explainer.rds 
+[2026-08-07 22:12:34] Kaydedilmis explainer bulundu, okunuyor: results/aorsf/Framingham/explainer.rds 
+[2026-08-07 22:12:35] [BELLEK] [Framingham/aorsf] explainer hazir - Sistem RSS: 6.26 GB | R heap (gc): 0.365 GB 
+[2026-08-07 22:12:35] [BELLEK] [Framingham/aorsf] explainer hazir - Sistem RSS: 6.26 GB | R heap (gc): 0.365 GB 
+[2026-08-07 22:12:35] SHAP hesaplaniyor: aorsf_model - n_obs = 50 
+[2026-08-07 22:12:35] SHAP hesaplaniyor: aorsf_model - n_obs = 50 
+[2026-08-07 22:12:35] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 22:12:35] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 22:12:35] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 22:12:35] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 22:12:35] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 22:12:35] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 22:25:52] SHAP - gozlem 20 / 50 
+[2026-08-07 22:25:52] SHAP - gozlem 20 / 50 
+[2026-08-07 22:42:23] SHAP - gozlem 25 / 50 
+[2026-08-07 22:42:23] SHAP - gozlem 25 / 50 
+[2026-08-07 22:58:46] SHAP - gozlem 30 / 50 
+[2026-08-07 22:58:46] SHAP - gozlem 30 / 50 
+[2026-08-07 23:15:14] SHAP - gozlem 35 / 50 
+[2026-08-07 23:15:14] SHAP - gozlem 35 / 50 
+[2026-08-07 23:31:51] SHAP - gozlem 40 / 50 
+[2026-08-07 23:31:51] SHAP - gozlem 40 / 50 
+[2026-08-07 23:48:19] SHAP - gozlem 45 / 50 
+[2026-08-07 23:48:19] SHAP - gozlem 45 / 50 
+[2026-08-08 00:04:33] SHAP - gozlem 50 / 50 
+[2026-08-08 00:04:33] SHAP - gozlem 50 / 50 
+[2026-08-08 00:07:50] SHAP hesaplama bitti, kaydedildi: results/aorsf/Framingham/shap_long_n50.csv 
+[2026-08-08 00:07:50] SHAP hesaplama bitti, kaydedildi: results/aorsf/Framingham/shap_long_n50.csv 
+[2026-08-08 00:07:50] [BELLEK] [Framingham/aorsf] SHAP sonrasi - Sistem RSS: 6.26 GB | R heap (gc): 0.368 GB 
+[2026-08-08 00:07:50] [BELLEK] [Framingham/aorsf] SHAP sonrasi - Sistem RSS: 6.26 GB | R heap (gc): 0.368 GB 
+[2026-08-08 00:07:51] Grafik kaydedildi: results/aorsf/Framingham/plots/survshap_plot_n50.png 
+[2026-08-08 00:07:51] Grafik kaydedildi: results/aorsf/Framingham/plots/survshap_plot_n50.png 
+[2026-08-08 00:07:51] SHAP ozeti kaydedildi: results/aorsf/Framingham/shap_summary_n50.csv 
+[2026-08-08 00:07:51] SHAP ozeti kaydedildi: results/aorsf/Framingham/shap_summary_n50.csv 
+[2026-08-08 00:07:51] aorsf_model - SHAP TIVM: 7e-04 
+[2026-08-08 00:07:51] aorsf_model - SHAP TIVM: 7e-04 
+[2026-08-08 00:07:52] [BELLEK] [Framingham/aorsf] model+explainer silindi, dongu sonu - Sistem RSS: 6.26 GB | R heap (gc): 0.309 GB 
+[2026-08-08 00:07:52] [BELLEK] [Framingham/aorsf] model+explainer silindi, dongu sonu - Sistem RSS: 6.26 GB | R heap (gc): 0.309 GB 
+[2026-08-08 00:07:52] [BELLEK] [Framingham/cforest] model dongusu basi - Sistem RSS: 6.26 GB | R heap (gc): 0.309 GB 
+[2026-08-08 00:07:52] [BELLEK] [Framingham/cforest] model dongusu basi - Sistem RSS: 6.26 GB | R heap (gc): 0.309 GB 
+[2026-08-08 00:07:52] Kaydedilmis model bulundu, okunuyor: results/cforest/Framingham/model.rds 
+[2026-08-08 00:07:52] Kaydedilmis model bulundu, okunuyor: results/cforest/Framingham/model.rds 
+[2026-08-08 00:07:54] [BELLEK] [Framingham/cforest] model hazir - Sistem RSS: 6.26 GB | R heap (gc): 0.458 GB 
+[2026-08-08 00:07:54] [BELLEK] [Framingham/cforest] model hazir - Sistem RSS: 6.26 GB | R heap (gc): 0.458 GB 
+[2026-08-08 00:07:54] Performans hesaplama basladi: surv.cforest 
+[2026-08-08 00:07:54] Performans hesaplama basladi: surv.cforest 
+[2026-08-08 00:08:54] Performans hesaplama bitti: surv.cforest - cindex: 0.684 - IBS (graf): 0.116 
+[2026-08-08 00:08:54] Performans hesaplama bitti: surv.cforest - cindex: 0.684 - IBS (graf): 0.116 
+[2026-08-08 00:08:54] Performans kaydedildi: results/cforest/Framingham/performance.csv 
+[2026-08-08 00:08:54] Performans kaydedildi: results/cforest/Framingham/performance.csv 
+[2026-08-08 00:08:54] Kaydedilmis explainer bulundu, okunuyor: results/cforest/Framingham/explainer.rds 
+[2026-08-08 00:08:54] Kaydedilmis explainer bulundu, okunuyor: results/cforest/Framingham/explainer.rds 
+[2026-08-08 00:08:56] [BELLEK] [Framingham/cforest] explainer hazir - Sistem RSS: 6.26 GB | R heap (gc): 0.611 GB 
+[2026-08-08 00:08:56] [BELLEK] [Framingham/cforest] explainer hazir - Sistem RSS: 6.26 GB | R heap (gc): 0.611 GB 
+[2026-08-08 00:08:56] SHAP hesaplaniyor: cforest_model - n_obs = 50 
+[2026-08-08 00:08:56] SHAP hesaplaniyor: cforest_model - n_obs = 50 
+[2026-08-08 00:08:56] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 00:08:56] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 00:08:56] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 00:08:56] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 00:08:56] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 00:08:56] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 00:44:57] SHAP - gozlem 20 / 50 
+[2026-08-08 00:44:57] SHAP - gozlem 20 / 50 
+[2026-08-08 01:29:37] SHAP - gozlem 25 / 50 
+[2026-08-08 01:29:37] SHAP - gozlem 25 / 50 
+[2026-08-08 02:14:01] SHAP - gozlem 30 / 50 
+[2026-08-08 02:14:01] SHAP - gozlem 30 / 50 
+[2026-08-08 02:58:23] SHAP - gozlem 35 / 50 
+[2026-08-08 02:58:23] SHAP - gozlem 35 / 50 
+[2026-08-08 03:43:43] SHAP - gozlem 40 / 50 
+[2026-08-08 03:43:43] SHAP - gozlem 40 / 50 
+[2026-08-08 04:28:35] SHAP - gozlem 45 / 50 
+[2026-08-08 04:28:35] SHAP - gozlem 45 / 50 
+[2026-08-08 05:13:16] SHAP - gozlem 50 / 50 
+[2026-08-08 05:13:16] SHAP - gozlem 50 / 50 
+[2026-08-08 05:22:25] SHAP hesaplama bitti, kaydedildi: results/cforest/Framingham/shap_long_n50.csv 
+[2026-08-08 05:22:25] SHAP hesaplama bitti, kaydedildi: results/cforest/Framingham/shap_long_n50.csv 
+[2026-08-08 05:22:26] [BELLEK] [Framingham/cforest] SHAP sonrasi - Sistem RSS: 13.545 GB | R heap (gc): 0.747 GB 
+[2026-08-08 05:22:26] [BELLEK] [Framingham/cforest] SHAP sonrasi - Sistem RSS: 13.545 GB | R heap (gc): 0.747 GB 
+[2026-08-08 05:22:27] Grafik kaydedildi: results/cforest/Framingham/plots/survshap_plot_n50.png 
+[2026-08-08 05:22:27] Grafik kaydedildi: results/cforest/Framingham/plots/survshap_plot_n50.png 
+[2026-08-08 05:22:27] SHAP ozeti kaydedildi: results/cforest/Framingham/shap_summary_n50.csv 
+[2026-08-08 05:22:27] SHAP ozeti kaydedildi: results/cforest/Framingham/shap_summary_n50.csv 
+[2026-08-08 05:22:27] cforest_model - SHAP TIVM: 7e-04 
+[2026-08-08 05:22:27] cforest_model - SHAP TIVM: 7e-04 
+[2026-08-08 05:22:28] [BELLEK] [Framingham/cforest] model+explainer silindi, dongu sonu - Sistem RSS: 9.207 GB | R heap (gc): 0.445 GB 
+[2026-08-08 05:22:28] [BELLEK] [Framingham/cforest] model+explainer silindi, dongu sonu - Sistem RSS: 9.207 GB | R heap (gc): 0.445 GB 
+[2026-08-08 05:22:28] [BELLEK] [Framingham/coxboost] model dongusu basi - Sistem RSS: 9.207 GB | R heap (gc): 0.445 GB 
+[2026-08-08 05:22:28] [BELLEK] [Framingham/coxboost] model dongusu basi - Sistem RSS: 9.207 GB | R heap (gc): 0.445 GB 
+[2026-08-08 05:22:28] Kaydedilmis model bulundu, okunuyor: results/coxboost/Framingham/model.rds 
+[2026-08-08 05:22:28] Kaydedilmis model bulundu, okunuyor: results/coxboost/Framingham/model.rds 
+[2026-08-08 05:22:29] [BELLEK] [Framingham/coxboost] model hazir - Sistem RSS: 9.207 GB | R heap (gc): 0.446 GB 
+[2026-08-08 05:22:29] [BELLEK] [Framingham/coxboost] model hazir - Sistem RSS: 9.207 GB | R heap (gc): 0.446 GB 
+[2026-08-08 05:22:29] Performans hesaplama basladi: surv.coxboost 
+[2026-08-08 05:22:29] Performans hesaplama basladi: surv.coxboost 
+[2026-08-08 05:22:37] Performans hesaplama bitti: surv.coxboost - cindex: 0.687 - IBS (graf): 0.115 
+[2026-08-08 05:22:37] Performans hesaplama bitti: surv.coxboost - cindex: 0.687 - IBS (graf): 0.115 
+[2026-08-08 05:22:37] Performans kaydedildi: results/coxboost/Framingham/performance.csv 
+[2026-08-08 05:22:37] Performans kaydedildi: results/coxboost/Framingham/performance.csv 
+[2026-08-08 05:22:37] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/Framingham/explainer.rds 
+[2026-08-08 05:22:37] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/Framingham/explainer.rds 
+[2026-08-08 05:22:38] [BELLEK] [Framingham/coxboost] explainer hazir - Sistem RSS: 9.208 GB | R heap (gc): 0.45 GB 
+[2026-08-08 05:22:38] [BELLEK] [Framingham/coxboost] explainer hazir - Sistem RSS: 9.208 GB | R heap (gc): 0.45 GB 
+[2026-08-08 05:22:38] SHAP hesaplaniyor: coxboost_model - n_obs = 50 
+[2026-08-08 05:22:38] SHAP hesaplaniyor: coxboost_model - n_obs = 50 
+[2026-08-08 05:22:38] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 05:22:38] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 05:22:38] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 05:22:38] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 05:22:38] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 05:22:38] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 05:39:07] SHAP - gozlem 20 / 50 
+[2026-08-08 05:39:07] SHAP - gozlem 20 / 50 
+[2026-08-08 05:59:16] SHAP - gozlem 25 / 50 
+[2026-08-08 05:59:16] SHAP - gozlem 25 / 50 
+[2026-08-08 06:19:35] SHAP - gozlem 30 / 50 
+[2026-08-08 06:19:35] SHAP - gozlem 30 / 50 
+[2026-08-08 06:40:02] SHAP - gozlem 35 / 50 
+[2026-08-08 06:40:02] SHAP - gozlem 35 / 50 
+[2026-08-08 07:00:24] SHAP - gozlem 40 / 50 
+[2026-08-08 07:00:24] SHAP - gozlem 40 / 50 
+[2026-08-08 07:20:44] SHAP - gozlem 45 / 50 
+[2026-08-08 07:20:44] SHAP - gozlem 45 / 50 
+[2026-08-08 07:40:55] SHAP - gozlem 50 / 50 
+[2026-08-08 07:40:55] SHAP - gozlem 50 / 50 
+[2026-08-08 07:44:58] SHAP hesaplama bitti, kaydedildi: results/coxboost/Framingham/shap_long_n50.csv 
+[2026-08-08 07:44:58] SHAP hesaplama bitti, kaydedildi: results/coxboost/Framingham/shap_long_n50.csv 
+[2026-08-08 07:44:59] [BELLEK] [Framingham/coxboost] SHAP sonrasi - Sistem RSS: 9.99 GB | R heap (gc): 0.452 GB 
+[2026-08-08 07:44:59] [BELLEK] [Framingham/coxboost] SHAP sonrasi - Sistem RSS: 9.99 GB | R heap (gc): 0.452 GB 
+[2026-08-08 07:44:59] Grafik kaydedildi: results/coxboost/Framingham/plots/survshap_plot_n50.png 
+[2026-08-08 07:44:59] Grafik kaydedildi: results/coxboost/Framingham/plots/survshap_plot_n50.png 
+[2026-08-08 07:44:59] SHAP ozeti kaydedildi: results/coxboost/Framingham/shap_summary_n50.csv 
+[2026-08-08 07:44:59] SHAP ozeti kaydedildi: results/coxboost/Framingham/shap_summary_n50.csv 
+[2026-08-08 07:44:59] coxboost_model - SHAP TIVM: 4e-04 
+[2026-08-08 07:44:59] coxboost_model - SHAP TIVM: 4e-04 
+[2026-08-08 07:45:00] [BELLEK] [Framingham/coxboost] model+explainer silindi, dongu sonu - Sistem RSS: 8.312 GB | R heap (gc): 0.446 GB 
+[2026-08-08 07:45:00] [BELLEK] [Framingham/coxboost] model+explainer silindi, dongu sonu - Sistem RSS: 8.312 GB | R heap (gc): 0.446 GB 
+[2026-08-08 07:45:01] [BELLEK] [Framingham/ctree] model dongusu basi - Sistem RSS: 8.312 GB | R heap (gc): 0.446 GB 
+[2026-08-08 07:45:01] [BELLEK] [Framingham/ctree] model dongusu basi - Sistem RSS: 8.312 GB | R heap (gc): 0.446 GB 
+[2026-08-08 07:45:01] Kaydedilmis model bulundu, okunuyor: results/ctree/Framingham/model.rds 
+[2026-08-08 07:45:01] Kaydedilmis model bulundu, okunuyor: results/ctree/Framingham/model.rds 
+[2026-08-08 07:45:01] [BELLEK] [Framingham/ctree] model hazir - Sistem RSS: 8.312 GB | R heap (gc): 0.448 GB 
+[2026-08-08 07:45:01] [BELLEK] [Framingham/ctree] model hazir - Sistem RSS: 8.312 GB | R heap (gc): 0.448 GB 
+[2026-08-08 07:45:01] Performans hesaplama basladi: surv.ctree 
+[2026-08-08 07:45:01] Performans hesaplama basladi: surv.ctree 
+[2026-08-08 07:45:06] Performans hesaplama bitti: surv.ctree - cindex: 0.656 - IBS (graf): 0.123 
+[2026-08-08 07:45:06] Performans hesaplama bitti: surv.ctree - cindex: 0.656 - IBS (graf): 0.123 
+[2026-08-08 07:45:06] Performans kaydedildi: results/ctree/Framingham/performance.csv 
+[2026-08-08 07:45:06] Performans kaydedildi: results/ctree/Framingham/performance.csv 
+[2026-08-08 07:45:06] Kaydedilmis explainer bulundu, okunuyor: results/ctree/Framingham/explainer.rds 
+[2026-08-08 07:45:06] Kaydedilmis explainer bulundu, okunuyor: results/ctree/Framingham/explainer.rds 
+[2026-08-08 07:45:07] [BELLEK] [Framingham/ctree] explainer hazir - Sistem RSS: 8.312 GB | R heap (gc): 0.45 GB 
+[2026-08-08 07:45:07] [BELLEK] [Framingham/ctree] explainer hazir - Sistem RSS: 8.312 GB | R heap (gc): 0.45 GB 
+[2026-08-08 07:45:07] SHAP hesaplaniyor: ctree_model - n_obs = 50 
+[2026-08-08 07:45:07] SHAP hesaplaniyor: ctree_model - n_obs = 50 
+[2026-08-08 07:45:07] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 07:45:07] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 07:45:07] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 07:45:07] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 07:45:07] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 07:45:07] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 08:01:38] SHAP - gozlem 20 / 50 
+[2026-08-08 08:22:02] SHAP - gozlem 25 / 50 
+[2026-08-08 08:42:25] SHAP - gozlem 30 / 50 
+[2026-08-08 09:02:56] SHAP - gozlem 35 / 50 
+[2026-08-08 09:23:16] SHAP - gozlem 40 / 50 
+[2026-08-08 09:43:51] SHAP - gozlem 45 / 50 
+[2026-08-08 10:04:01] SHAP - gozlem 50 / 50 
+[2026-08-08 10:08:07] SHAP hesaplama bitti, kaydedildi: results/ctree/Framingham/shap_long_n50.csv 
+[2026-08-08 10:08:07] [BELLEK] [Framingham/ctree] SHAP sonrasi - Sistem RSS: 9.99 GB | R heap (gc): 0.453 GB 
+[2026-08-08 10:08:08] Grafik kaydedildi: results/ctree/Framingham/plots/survshap_plot_n50.png 
+[2026-08-08 10:08:08] SHAP ozeti kaydedildi: results/ctree/Framingham/shap_summary_n50.csv 
+[2026-08-08 10:08:08] ctree_model - SHAP TIVM: 0.001 
+[2026-08-08 10:08:09] [BELLEK] [Framingham/ctree] model+explainer silindi, dongu sonu - Sistem RSS: 8.312 GB | R heap (gc): 0.447 GB 
+[2026-08-08 10:08:09] [BELLEK] [Framingham/cv_glmnet] model dongusu basi - Sistem RSS: 8.312 GB | R heap (gc): 0.447 GB 
+[2026-08-08 10:08:09] Kaydedilmis model bulundu, okunuyor: results/cv_glmnet/Framingham/model.rds 
+[2026-08-08 10:08:10] [BELLEK] [Framingham/cv_glmnet] model hazir - Sistem RSS: 8.312 GB | R heap (gc): 0.447 GB 
+[2026-08-08 10:08:10] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-08-08 10:08:16] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.688 - IBS (graf): 0.114 
+[2026-08-08 10:08:16] Performans kaydedildi: results/cv_glmnet/Framingham/performance.csv 
+[2026-08-08 10:08:16] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/Framingham/explainer.rds 
+[2026-08-08 10:08:16] [BELLEK] [Framingham/cv_glmnet] explainer hazir - Sistem RSS: 8.313 GB | R heap (gc): 0.45 GB 
+[2026-08-08 10:08:16] SHAP hesaplaniyor: cv_glmnet_model - n_obs = 50 
+[2026-08-08 10:08:17] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 10:08:17] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 10:08:17] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 10:25:07] SHAP - gozlem 20 / 50 
+[2026-08-08 10:45:47] SHAP - gozlem 25 / 50 
+[2026-08-08 11:06:18] SHAP - gozlem 30 / 50 
+[2026-08-08 11:26:53] SHAP - gozlem 35 / 50 
+[2026-08-08 11:47:22] SHAP - gozlem 40 / 50 
+[2026-08-08 12:08:13] SHAP - gozlem 45 / 50 
+[2026-08-08 12:28:38] SHAP - gozlem 50 / 50 
+[2026-08-08 12:32:44] SHAP hesaplama bitti, kaydedildi: results/cv_glmnet/Framingham/shap_long_n50.csv 
+[2026-08-08 12:32:45] [BELLEK] [Framingham/cv_glmnet] SHAP sonrasi - Sistem RSS: 9.809 GB | R heap (gc): 0.452 GB 
+[2026-08-08 12:32:45] Grafik kaydedildi: results/cv_glmnet/Framingham/plots/survshap_plot_n50.png 
+[2026-08-08 12:32:45] SHAP ozeti kaydedildi: results/cv_glmnet/Framingham/shap_summary_n50.csv 
+[2026-08-08 12:32:45] cv_glmnet_model - SHAP TIVM: 4e-04 
+[2026-08-08 12:32:46] [BELLEK] [Framingham/cv_glmnet] model+explainer silindi, dongu sonu - Sistem RSS: 8.313 GB | R heap (gc): 0.449 GB 
+[2026-08-08 12:32:47] [BELLEK] [Framingham/glmboost] model dongusu basi - Sistem RSS: 8.313 GB | R heap (gc): 0.449 GB 
+[2026-08-08 12:32:47] Kaydedilmis model bulundu, okunuyor: results/glmboost/Framingham/model.rds 
+[2026-08-08 12:32:47] [BELLEK] [Framingham/glmboost] model hazir - Sistem RSS: 8.313 GB | R heap (gc): 0.454 GB 
+[2026-08-08 12:32:47] Performans hesaplama basladi: surv.glmboost 
+[2026-08-08 12:32:52] Performans hesaplama bitti: surv.glmboost - cindex: 0.685 - IBS (graf): 0.116 
+[2026-08-08 12:32:52] Performans kaydedildi: results/glmboost/Framingham/performance.csv 
+[2026-08-08 12:32:52] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/Framingham/explainer.rds 
+[2026-08-08 12:32:53] [BELLEK] [Framingham/glmboost] explainer hazir - Sistem RSS: 8.313 GB | R heap (gc): 0.46 GB 
+[2026-08-08 12:32:53] SHAP hesaplaniyor: glmboost_model - n_obs = 50 
+[2026-08-08 12:32:53] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 12:32:53] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 12:32:53] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 12:40:49] SHAP - gozlem 20 / 50 
+[2026-08-08 12:50:30] SHAP - gozlem 25 / 50 
+[2026-08-08 13:00:17] SHAP - gozlem 30 / 50 
+[2026-08-08 13:09:58] SHAP - gozlem 35 / 50 
+[2026-08-08 13:19:41] SHAP - gozlem 40 / 50 
+[2026-08-08 13:29:34] SHAP - gozlem 45 / 50 
+[2026-08-08 13:39:20] SHAP - gozlem 50 / 50 
+[2026-08-08 13:41:17] SHAP hesaplama bitti, kaydedildi: results/glmboost/Framingham/shap_long_n50.csv 
+[2026-08-08 13:41:17] [BELLEK] [Framingham/glmboost] SHAP sonrasi - Sistem RSS: 8.622 GB | R heap (gc): 0.463 GB 
+[2026-08-08 13:41:18] Grafik kaydedildi: results/glmboost/Framingham/plots/survshap_plot_n50.png 
+[2026-08-08 13:41:18] SHAP ozeti kaydedildi: results/glmboost/Framingham/shap_summary_n50.csv 
+[2026-08-08 13:41:18] glmboost_model - SHAP TIVM: 3e-04 
+[2026-08-08 13:41:19] [BELLEK] [Framingham/glmboost] model+explainer silindi, dongu sonu - Sistem RSS: 8.313 GB | R heap (gc): 0.45 GB 
+[2026-08-08 13:41:20] [BELLEK] [Framingham/glmnet] model dongusu basi - Sistem RSS: 8.313 GB | R heap (gc): 0.45 GB 
+[2026-08-08 13:41:20] Kaydedilmis model bulundu, okunuyor: results/glmnet/Framingham/model.rds 
+[2026-08-08 13:41:20] [BELLEK] [Framingham/glmnet] model hazir - Sistem RSS: 8.313 GB | R heap (gc): 0.45 GB 
+[2026-08-08 13:41:20] Performans hesaplama basladi: surv.glmnet 
+[2026-08-08 13:41:25] Performans hesaplama bitti: surv.glmnet - cindex: 0.687 - IBS (graf): 0.114 
+[2026-08-08 13:41:25] Performans kaydedildi: results/glmnet/Framingham/performance.csv 
+[2026-08-08 13:41:25] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/Framingham/explainer.rds 
+[2026-08-08 13:41:26] [BELLEK] [Framingham/glmnet] explainer hazir - Sistem RSS: 8.313 GB | R heap (gc): 0.451 GB 
+[2026-08-08 13:41:26] SHAP hesaplaniyor: glmnet_model - n_obs = 50 
+[2026-08-08 13:41:26] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 13:41:26] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 13:41:26] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 13:58:13] SHAP - gozlem 20 / 50 
+[2026-08-08 14:19:01] SHAP - gozlem 25 / 50 
+[2026-08-08 14:39:46] SHAP - gozlem 30 / 50 
+[2026-08-08 15:00:24] SHAP - gozlem 35 / 50 
+[2026-08-08 15:21:03] SHAP - gozlem 40 / 50 
+[2026-08-08 15:41:47] SHAP - gozlem 45 / 50 
+[2026-08-08 16:02:20] SHAP - gozlem 50 / 50 
+[2026-08-08 16:06:31] SHAP hesaplama bitti, kaydedildi: results/glmnet/Framingham/shap_long_n50.csv 
+[2026-08-08 16:06:31] [BELLEK] [Framingham/glmnet] SHAP sonrasi - Sistem RSS: 10.326 GB | R heap (gc): 0.454 GB 
+[2026-08-08 16:06:32] Grafik kaydedildi: results/glmnet/Framingham/plots/survshap_plot_n50.png 
+[2026-08-08 16:06:32] SHAP ozeti kaydedildi: results/glmnet/Framingham/shap_summary_n50.csv 
+[2026-08-08 16:06:32] glmnet_model - SHAP TIVM: 4e-04 
+[2026-08-08 16:06:33] [BELLEK] [Framingham/glmnet] model+explainer silindi, dongu sonu - Sistem RSS: 8.313 GB | R heap (gc): 0.45 GB 
+[2026-08-08 16:06:33] [BELLEK] [Framingham/penalized] model dongusu basi - Sistem RSS: 8.313 GB | R heap (gc): 0.45 GB 
+[2026-08-08 16:06:33] Kaydedilmis model bulundu, okunuyor: results/penalized/Framingham/model.rds 
+[2026-08-08 16:06:34] [BELLEK] [Framingham/penalized] model hazir - Sistem RSS: 8.313 GB | R heap (gc): 0.451 GB 
+[2026-08-08 16:06:34] Performans hesaplama basladi: surv.penalized 
+[2026-08-08 16:06:37] Performans hesaplama bitti: surv.penalized - cindex: 0.689 - IBS (graf): 0.114 
+[2026-08-08 16:06:37] Performans kaydedildi: results/penalized/Framingham/performance.csv 
+[2026-08-08 16:06:37] Kaydedilmis explainer bulundu, okunuyor: results/penalized/Framingham/explainer.rds 
+[2026-08-08 16:06:38] [BELLEK] [Framingham/penalized] explainer hazir - Sistem RSS: 8.313 GB | R heap (gc): 0.454 GB 
+[2026-08-08 16:06:38] SHAP hesaplaniyor: penalized_model - n_obs = 50 
+[2026-08-08 16:06:38] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 16:06:38] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 16:06:38] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 16:14:46] SHAP - gozlem 20 / 50 
+[2026-08-08 16:24:52] SHAP - gozlem 25 / 50 
+[2026-08-08 16:34:58] SHAP - gozlem 30 / 50 
+[2026-08-08 16:45:02] SHAP - gozlem 35 / 50 
+[2026-08-08 16:55:05] SHAP - gozlem 40 / 50 
+[2026-08-08 17:05:09] SHAP - gozlem 45 / 50 
+[2026-08-08 17:15:19] SHAP - gozlem 50 / 50 
+[2026-08-08 17:17:23] SHAP hesaplama bitti, kaydedildi: results/penalized/Framingham/shap_long_n50.csv 
+[2026-08-08 17:17:24] [BELLEK] [Framingham/penalized] SHAP sonrasi - Sistem RSS: 8.313 GB | R heap (gc): 0.456 GB 
+[2026-08-08 17:17:24] Grafik kaydedildi: results/penalized/Framingham/plots/survshap_plot_n50.png 
+[2026-08-08 17:17:24] SHAP ozeti kaydedildi: results/penalized/Framingham/shap_summary_n50.csv 
+[2026-08-08 17:17:24] penalized_model - SHAP TIVM: 4e-04 
+[2026-08-08 17:17:25] [BELLEK] [Framingham/penalized] model+explainer silindi, dongu sonu - Sistem RSS: 8.313 GB | R heap (gc): 0.451 GB 
+[2026-08-08 17:17:26] [BELLEK] [Framingham/ranger] model dongusu basi - Sistem RSS: 8.313 GB | R heap (gc): 0.451 GB 
+[2026-08-08 17:17:26] Kaydedilmis model bulundu, okunuyor: results/ranger/Framingham/model.rds 
+[2026-08-08 17:17:28] [BELLEK] [Framingham/ranger] model hazir - Sistem RSS: 8.313 GB | R heap (gc): 0.722 GB 
+[2026-08-08 17:17:28] Performans hesaplama basladi: surv.ranger 
+[2026-08-08 17:17:52] Performans hesaplama bitti: surv.ranger - cindex: 0.675 - IBS (graf): 0.118 
+[2026-08-08 17:17:52] Performans kaydedildi: results/ranger/Framingham/performance.csv 
+[2026-08-08 17:17:52] Kaydedilmis explainer bulundu, okunuyor: results/ranger/Framingham/explainer.rds 
+[2026-08-08 17:17:54] [BELLEK] [Framingham/ranger] explainer hazir - Sistem RSS: 8.315 GB | R heap (gc): 0.994 GB 
+[2026-08-08 17:17:54] SHAP hesaplaniyor: ranger_model - n_obs = 50 
+[2026-08-08 17:17:54] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 17:17:54] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 17:17:54] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 18:19:45] SHAP - gozlem 20 / 50 
+[2026-08-08 19:38:52] SHAP - gozlem 25 / 50 
+[2026-08-08 20:58:02] SHAP - gozlem 30 / 50 
+[2026-08-08 22:17:03] SHAP - gozlem 35 / 50 
+[2026-08-08 23:38:16] SHAP - gozlem 40 / 50 
+[2026-08-09 00:58:46] SHAP - gozlem 45 / 50 
+[2026-08-09 02:18:28] SHAP - gozlem 50 / 50 
+[2026-08-09 02:34:25] SHAP hesaplama bitti, kaydedildi: results/ranger/Framingham/shap_long_n50.csv 
+[2026-08-09 02:34:25] [BELLEK] [Framingham/ranger] SHAP sonrasi - Sistem RSS: 8.622 GB | R heap (gc): 0.997 GB 
+[2026-08-09 02:34:26] Grafik kaydedildi: results/ranger/Framingham/plots/survshap_plot_n50.png 
+[2026-08-09 02:34:26] SHAP ozeti kaydedildi: results/ranger/Framingham/shap_summary_n50.csv 
+[2026-08-09 02:34:26] ranger_model - SHAP TIVM: 7e-04 
+[2026-08-09 02:34:27] [BELLEK] [Framingham/ranger] model+explainer silindi, dongu sonu - Sistem RSS: 8.313 GB | R heap (gc): 0.452 GB 
+[2026-08-09 02:34:28] [BELLEK] [Framingham/rfsrc] model dongusu basi - Sistem RSS: 8.313 GB | R heap (gc): 0.452 GB 
+[2026-08-09 02:34:28] Kaydedilmis model bulundu, okunuyor: results/rfsrc/Framingham/model.rds 
+[2026-08-09 02:34:31] [BELLEK] [Framingham/rfsrc] model hazir - Sistem RSS: 8.313 GB | R heap (gc): 1.058 GB 
+[2026-08-09 02:34:31] Performans hesaplama basladi: surv.rfsrc 
+[2026-08-09 02:34:41] Performans hesaplama bitti: surv.rfsrc - cindex: 0.681 - IBS (graf): 0.117 
+[2026-08-09 02:34:41] Performans kaydedildi: results/rfsrc/Framingham/performance.csv 
+[2026-08-09 02:34:41] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/Framingham/explainer.rds 
+[2026-08-09 02:34:45] [BELLEK] [Framingham/rfsrc] explainer hazir - Sistem RSS: 8.314 GB | R heap (gc): 1.667 GB 
+[2026-08-09 02:34:45] SHAP hesaplaniyor: rfsrc_model - n_obs = 50 
+[2026-08-09 02:34:45] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-09 02:34:45] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-09 02:34:45] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-09 02:48:22] SHAP - gozlem 20 / 50 
+[2026-08-09 03:05:03] SHAP - gozlem 25 / 50 
+[2026-08-09 03:21:36] SHAP - gozlem 30 / 50 
+[2026-08-09 03:38:13] SHAP - gozlem 35 / 50 
+[2026-08-09 03:54:59] SHAP - gozlem 40 / 50 
+[2026-08-09 04:11:37] SHAP - gozlem 45 / 50 
+[2026-08-09 04:28:19] SHAP - gozlem 50 / 50 
+[2026-08-09 04:31:39] SHAP hesaplama bitti, kaydedildi: results/rfsrc/Framingham/shap_long_n50.csv 
+[2026-08-09 04:31:40] [BELLEK] [Framingham/rfsrc] SHAP sonrasi - Sistem RSS: 9.395 GB | R heap (gc): 1.67 GB 
+[2026-08-09 04:31:41] Grafik kaydedildi: results/rfsrc/Framingham/plots/survshap_plot_n50.png 
+[2026-08-09 04:31:41] SHAP ozeti kaydedildi: results/rfsrc/Framingham/shap_summary_n50.csv 
+[2026-08-09 04:31:41] rfsrc_model - SHAP TIVM: 8e-04 
+[2026-08-09 04:31:42] [BELLEK] [Framingham/rfsrc] model+explainer silindi, dongu sonu - Sistem RSS: 8.314 GB | R heap (gc): 0.455 GB 
+[2026-08-09 04:31:42] [BELLEK] [Framingham/xgboost_cox] model dongusu basi - Sistem RSS: 8.314 GB | R heap (gc): 0.455 GB 
+[2026-08-09 04:31:42] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/Framingham/model.rds 
+[2026-08-09 04:31:43] [BELLEK] [Framingham/xgboost_cox] model hazir - Sistem RSS: 8.315 GB | R heap (gc): 0.455 GB 
+[2026-08-09 04:31:43] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-08-09 04:31:48] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.633 - IBS (graf): 0.173 
+[2026-08-09 04:31:48] Performans kaydedildi: results/xgboost_cox/Framingham/performance.csv 
+[2026-08-09 04:31:48] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/Framingham/explainer.rds 
+[2026-08-09 04:31:49] [BELLEK] [Framingham/xgboost_cox] explainer hazir - Sistem RSS: 8.317 GB | R heap (gc): 0.457 GB 
+[2026-08-09 04:31:49] SHAP hesaplaniyor: xgboost_cox_model - n_obs = 50 
+[2026-08-09 04:31:49] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-09 04:31:49] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-09 04:31:49] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-09 04:48:22] SHAP - gozlem 20 / 50 
+[2026-08-09 05:08:40] SHAP - gozlem 25 / 50 
+[2026-08-09 05:28:59] SHAP - gozlem 30 / 50 
+[2026-08-09 05:49:30] SHAP - gozlem 35 / 50 
+[2026-08-09 06:09:50] SHAP - gozlem 40 / 50 
+[2026-08-09 06:30:16] SHAP - gozlem 45 / 50 
+[2026-08-09 06:50:20] SHAP - gozlem 50 / 50 
+[2026-08-09 06:54:25] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/Framingham/shap_long_n50.csv 
+[2026-08-09 06:54:26] [BELLEK] [Framingham/xgboost_cox] SHAP sonrasi - Sistem RSS: 9.813 GB | R heap (gc): 0.46 GB 
+[2026-08-09 06:54:26] Grafik kaydedildi: results/xgboost_cox/Framingham/plots/survshap_plot_n50.png 
+[2026-08-09 06:54:26] SHAP ozeti kaydedildi: results/xgboost_cox/Framingham/shap_summary_n50.csv 
+[2026-08-09 06:54:26] xgboost_cox_model - SHAP TIVM: 6e-04 
+[2026-08-09 06:54:27] [BELLEK] [Framingham/xgboost_cox] model+explainer silindi, dongu sonu - Sistem RSS: 8.317 GB | R heap (gc): 0.456 GB 
+[2026-08-09 06:54:27] ===== BITTI: Framingham + cox - cindex: 0.689 - PFI TIVM: 5e-04 - SHAP TIVM: 4e-04 ===== 
+[2026-08-09 06:54:27] ===== BITTI: Framingham + aorsf - cindex: 0.687 - PFI TIVM: 5e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-08-09 06:54:27] ===== BITTI: Framingham + cforest - cindex: 0.684 - PFI TIVM: 5e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-08-09 06:54:27] ===== BITTI: Framingham + coxboost - cindex: 0.687 - PFI TIVM: 5e-04 - SHAP TIVM: 4e-04 ===== 
+[2026-08-09 06:54:27] ===== BITTI: Framingham + ctree - cindex: 0.656 - PFI TIVM: 6e-04 - SHAP TIVM: 0.001 ===== 
+[2026-08-09 06:54:27] ===== BITTI: Framingham + cv_glmnet - cindex: 0.688 - PFI TIVM: 5e-04 - SHAP TIVM: 4e-04 ===== 
+[2026-08-09 06:54:27] ===== BITTI: Framingham + glmboost - cindex: 0.685 - PFI TIVM: 3e-04 - SHAP TIVM: 3e-04 ===== 
+[2026-08-09 06:54:27] ===== BITTI: Framingham + glmnet - cindex: 0.687 - PFI TIVM: 4e-04 - SHAP TIVM: 4e-04 ===== 
+[2026-08-09 06:54:27] ===== BITTI: Framingham + penalized - cindex: 0.689 - PFI TIVM: 5e-04 - SHAP TIVM: 4e-04 ===== 
+[2026-08-09 06:54:27] ===== BITTI: Framingham + ranger - cindex: 0.675 - PFI TIVM: 5e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-08-09 06:54:27] ===== BITTI: Framingham + rfsrc - cindex: 0.681 - PFI TIVM: 5e-04 - SHAP TIVM: 8e-04 ===== 
+[2026-08-09 06:54:27] ===== BITTI: Framingham + xgboost_cox - cindex: 0.633 - PFI TIVM: 0.0013 - SHAP TIVM: 6e-04 ===== 
+[2026-08-09 06:54:27] ----- Veri seti bitti: Framingham ----- 
+[2026-08-09 06:54:27] ===== RUN ( Framingham ) TAMAMLANDI ===== 
