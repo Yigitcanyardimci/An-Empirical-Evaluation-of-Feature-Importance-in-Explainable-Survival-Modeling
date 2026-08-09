@@ -1093,3 +1093,1713 @@
 [2026-07-23 15:59:28] ===== BITTI: aids2 + xgboost_cox - cindex: 0.562 - PFI TIVM: 9e-04 - SHAP TIVM: 2e-04 ===== 
 [2026-07-23 15:59:28] ----- Veri seti bitti: aids2 ----- 
 [2026-07-23 15:59:28] ===== RUN ( aids2 ) TAMAMLANDI ===== 
+[2026-08-08 10:26:54] Paket kurulumu basladi 
+[2026-08-08 10:26:55] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-08 10:26:58] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-08-08 10:27:00] Paket kurulumu tamamlandi 
+[2026-08-08 10:27:00] Veri okuma basladi: grace 
+[2026-08-08 10:27:01] Veri okuma bitti: grace - 1000 satir, 7 sutun 
+[2026-08-08 10:27:01] Veri okuma basladi: melanoma 
+[2026-08-08 10:27:01] Veri okuma bitti: melanoma - 205 satir, 7 sutun 
+[2026-08-08 10:27:01] Veri okuma basladi: ova 
+[2026-08-08 10:27:01] Veri okuma bitti: ova - 358 satir, 7 sutun 
+[2026-08-08 10:27:01] Veri okuma basladi: aids2 
+[2026-08-08 10:27:01] Veri okuma bitti: aids2 - 2839 satir, 6 sutun 
+[2026-08-08 10:27:01] Veri okuma basladi: veteran 
+[2026-08-08 10:27:01] Veri okuma bitti: veteran - 137 satir, 8 sutun 
+[2026-08-08 10:27:01] Veri okuma basladi: breast 
+[2026-08-08 10:27:01] Veri okuma bitti: breast - 100 satir, 6 sutun 
+[2026-08-08 10:27:01] Veri okuma basladi: e1684 
+[2026-08-08 10:27:01] Veri okuma bitti: e1684 - 284 satir, 5 sutun 
+[2026-08-08 10:27:01] Veri okuma basladi: epileptic 
+[2026-08-08 10:27:01] Veri okuma bitti: epileptic - 1286 satir, 8 sutun 
+[2026-08-08 10:27:01] Veri okuma basladi: dialysis 
+[2026-08-08 10:27:01] Veri okuma bitti: dialysis - 6805 satir, 6 sutun 
+[2026-08-08 10:27:01] Veri okuma basladi: pbc 
+[2026-08-08 10:27:01] Veri okuma bitti: pbc - 312 satir, 8 sutun 
+[2026-08-08 10:27:01] Veri okuma basladi: prostateSurvival 
+[2026-08-08 10:27:01] Veri okuma bitti: prostateSurvival - 14294 satir, 5 sutun 
+[2026-08-08 10:27:01] Veri okuma basladi: acath 
+[2026-08-08 10:27:01] Veri okuma bitti: acath - 2258 satir, 5 sutun 
+[2026-08-08 10:27:01] Veri okuma basladi: prostate 
+[2026-08-08 10:27:01] Veri okuma bitti: prostate - 475 satir, 17 sutun 
+[2026-08-08 10:27:01] Veri okuma basladi: dataDIVAT1 
+[2026-08-08 10:27:01] Veri okuma bitti: dataDIVAT1 - 5943 satir, 7 sutun 
+[2026-08-08 10:27:01] Veri okuma basladi: dataDIVAT3 
+[2026-08-08 10:27:01] Veri okuma bitti: dataDIVAT3 - 4267 satir, 9 sutun 
+[2026-08-08 10:27:01] Veri okuma basladi: TRACE 
+[2026-08-08 10:27:01] Veri okuma bitti: TRACE - 1878 satir, 8 sutun 
+[2026-08-08 10:27:01] Veri okuma basladi: FRTCS 
+[2026-08-08 10:27:01] Veri okuma bitti: FRTCS - 2088 satir, 7 sutun 
+[2026-08-08 10:27:01] Veri okuma basladi: zinc 
+[2026-08-08 10:27:02] Veri okuma bitti: zinc - 431 satir, 15 sutun 
+[2026-08-08 10:27:02] Veri okuma basladi: stagec 
+[2026-08-08 10:27:02] Veri okuma bitti: stagec - 136 satir, 9 sutun 
+[2026-08-08 10:27:02] Veri okuma basladi: LeukSurv 
+[2026-08-08 10:27:02] Veri okuma bitti: LeukSurv - 1043 satir, 9 sutun 
+[2026-08-08 10:27:02] Veri okuma basladi: nwtco 
+[2026-08-08 10:27:02] Veri okuma bitti: nwtco - 4028 satir, 9 sutun 
+[2026-08-08 10:27:02] Veri okuma basladi: retinopathy 
+[2026-08-08 10:27:02] Veri okuma bitti: retinopathy - 394 satir, 9 sutun 
+[2026-08-08 10:27:02] Veri okuma basladi: Framingham 
+[2026-08-08 10:27:02] Veri okuma bitti: Framingham - 4658 satir, 9 sutun 
+[2026-08-08 10:27:02] Veri okuma basladi: csl 
+[2026-08-08 10:27:02] Veri okuma bitti: csl - 2481 satir, 8 sutun 
+[2026-08-08 10:27:02] Veri okuma basladi: cancer 
+[2026-08-08 10:27:02] Veri okuma bitti: cancer - 169 satir, 10 sutun 
+[2026-08-08 10:27:02] Veri okuma basladi: whas500 
+[2026-08-08 10:27:02] Veri okuma bitti: whas500 - 461 satir, 18 sutun 
+[2026-08-08 10:27:02] Veri okuma basladi: cgd 
+[2026-08-08 10:27:02] Veri okuma bitti: cgd - 128 satir, 12 sutun 
+[2026-08-08 10:27:02] Veri okuma basladi: Pbc3 
+[2026-08-08 10:27:02] Veri okuma bitti: Pbc3 - 327 satir, 14 sutun 
+[2026-08-08 10:27:02] Veri okuma basladi: GBSG2 
+[2026-08-08 10:27:02] Veri okuma bitti: GBSG2 - 686 satir, 10 sutun 
+[2026-08-08 10:27:02] Veri okuma basladi: colon 
+[2026-08-08 10:27:02] Veri okuma bitti: colon - 911 satir, 11 sutun 
+[2026-08-08 10:27:02] Veri okuma basladi: flchain 
+[2026-08-08 10:27:02] Veri okuma bitti: flchain - 6524 satir, 12 sutun 
+[2026-08-08 10:27:02] Veri okuma basladi: Rossi 
+[2026-08-08 10:27:02] Veri okuma bitti: Rossi - 1405 satir, 11 sutun 
+[2026-08-08 10:27:02] Veri okuma basladi: burn 
+[2026-08-08 10:27:02] Veri okuma bitti: burn - 154 satir, 13 sutun 
+[2026-08-08 10:27:02] Veri okuma basladi: rott2 
+[2026-08-08 10:27:03] Veri okuma bitti: rott2 - 2982 satir, 13 sutun 
+[2026-08-08 10:27:03] Veri okuma basladi: d_oropha_rec 
+[2026-08-08 10:27:03] Veri okuma bitti: d_oropha_rec - 192 satir, 14 sutun 
+[2026-08-08 10:27:03] Veri okuma basladi: rdata 
+[2026-08-08 10:27:03] Veri okuma bitti: rdata - 1040 satir, 6 sutun 
+[2026-08-08 10:27:03] Task olusturuluyor: grace_task 
+[2026-08-08 10:27:03] Task olusturuldu: grace_task 
+[2026-08-08 10:27:03] Task olusturuluyor: melanoma_task 
+[2026-08-08 10:27:03] Task olusturuldu: melanoma_task 
+[2026-08-08 10:27:03] Task olusturuluyor: ova_task 
+[2026-08-08 10:27:03] Task olusturuldu: ova_task 
+[2026-08-08 10:27:03] Task olusturuluyor: aids2_task 
+[2026-08-08 10:27:03] Task olusturuldu: aids2_task 
+[2026-08-08 10:27:03] Task olusturuluyor: veteran_task 
+[2026-08-08 10:27:03] Task olusturuldu: veteran_task 
+[2026-08-08 10:27:03] Task olusturuluyor: breast_task 
+[2026-08-08 10:27:03] Task olusturuldu: breast_task 
+[2026-08-08 10:27:03] Task olusturuluyor: e1684_task 
+[2026-08-08 10:27:03] Task olusturuldu: e1684_task 
+[2026-08-08 10:27:03] Task olusturuluyor: epileptic_task 
+[2026-08-08 10:27:03] Task olusturuldu: epileptic_task 
+[2026-08-08 10:27:03] Task olusturuluyor: dialysis_task 
+[2026-08-08 10:27:03] Task olusturuldu: dialysis_task 
+[2026-08-08 10:27:03] Task olusturuluyor: pbc_task 
+[2026-08-08 10:27:03] Task olusturuldu: pbc_task 
+[2026-08-08 10:27:03] Task olusturuluyor: prostateSurvival_task 
+[2026-08-08 10:27:03] Task olusturuldu: prostateSurvival_task 
+[2026-08-08 10:27:03] Task olusturuluyor: acath_task 
+[2026-08-08 10:27:03] Task olusturuldu: acath_task 
+[2026-08-08 10:27:03] Task olusturuluyor: prostate_task 
+[2026-08-08 10:27:03] Task olusturuldu: prostate_task 
+[2026-08-08 10:27:03] Task olusturuluyor: dataDIVAT1_task 
+[2026-08-08 10:27:03] Task olusturuldu: dataDIVAT1_task 
+[2026-08-08 10:27:03] Task olusturuluyor: dataDIVAT3_task 
+[2026-08-08 10:27:03] Task olusturuldu: dataDIVAT3_task 
+[2026-08-08 10:27:03] Task olusturuluyor: TRACE_task 
+[2026-08-08 10:27:03] Task olusturuldu: TRACE_task 
+[2026-08-08 10:27:03] Task olusturuluyor: FRTCS_task 
+[2026-08-08 10:27:03] Task olusturuldu: FRTCS_task 
+[2026-08-08 10:27:03] Task olusturuluyor: zinc_task 
+[2026-08-08 10:27:03] Task olusturuldu: zinc_task 
+[2026-08-08 10:27:03] Task olusturuluyor: stagec_task 
+[2026-08-08 10:27:03] Task olusturuldu: stagec_task 
+[2026-08-08 10:27:03] Task olusturuluyor: LeukSurv_task 
+[2026-08-08 10:27:03] Task olusturuldu: LeukSurv_task 
+[2026-08-08 10:27:03] Task olusturuluyor: nwtco_task 
+[2026-08-08 10:27:03] Task olusturuldu: nwtco_task 
+[2026-08-08 10:27:03] Task olusturuluyor: retinopathy_task 
+[2026-08-08 10:27:03] Task olusturuldu: retinopathy_task 
+[2026-08-08 10:27:03] Task olusturuluyor: Framingham_task 
+[2026-08-08 10:27:03] Task olusturuldu: Framingham_task 
+[2026-08-08 10:27:03] Task olusturuluyor: csl_task 
+[2026-08-08 10:27:03] Task olusturuldu: csl_task 
+[2026-08-08 10:27:03] Task olusturuluyor: cancer_task 
+[2026-08-08 10:27:03] Task olusturuldu: cancer_task 
+[2026-08-08 10:27:03] Task olusturuluyor: whas500_task 
+[2026-08-08 10:27:03] Task olusturuldu: whas500_task 
+[2026-08-08 10:27:03] Task olusturuluyor: cgd_task 
+[2026-08-08 10:27:03] Task olusturuldu: cgd_task 
+[2026-08-08 10:27:03] Task olusturuluyor: Pbc3_task 
+[2026-08-08 10:27:03] Task olusturuldu: Pbc3_task 
+[2026-08-08 10:27:03] Task olusturuluyor: GBSG2_task 
+[2026-08-08 10:27:03] Task olusturuldu: GBSG2_task 
+[2026-08-08 10:27:03] Task olusturuluyor: colon_task 
+[2026-08-08 10:27:03] Task olusturuldu: colon_task 
+[2026-08-08 10:27:03] Task olusturuluyor: flchain_task 
+[2026-08-08 10:27:03] Task olusturuldu: flchain_task 
+[2026-08-08 10:27:03] Task olusturuluyor: Rossi_task 
+[2026-08-08 10:27:03] Task olusturuldu: Rossi_task 
+[2026-08-08 10:27:03] Task olusturuluyor: burn_task 
+[2026-08-08 10:27:03] Task olusturuldu: burn_task 
+[2026-08-08 10:27:03] Task olusturuluyor: rott2_task 
+[2026-08-08 10:27:03] Task olusturuldu: rott2_task 
+[2026-08-08 10:27:03] Task olusturuluyor: d_oropha_rec_task 
+[2026-08-08 10:27:03] Task olusturuldu: d_oropha_rec_task 
+[2026-08-08 10:27:03] Task olusturuluyor: rdata_task 
+[2026-08-08 10:27:03] Task olusturuldu: rdata_task 
+[2026-08-08 10:27:03] Toplam 36 task olusturuldu 
+[2026-08-08 10:27:03] ===== RUN ( aids2 ) BASLADI: 13 model ===== 
+[2026-08-08 10:27:03] ----- Veri seti basladi: aids2 ----- 
+[2026-08-08 10:27:04] [BELLEK] [aids2] veri seti basi - Sistem RSS: 0.472 GB | R heap (gc): 0.266 GB 
+[2026-08-08 10:27:04] Split basladi (ratio = 0.7 ) 
+[2026-08-08 10:27:04] Split bitti - train: 1987 test: 852 
+[2026-08-08 10:27:04] [BELLEK] [aids2/cox] model dongusu basi - Sistem RSS: 0.472 GB | R heap (gc): 0.267 GB 
+[2026-08-08 10:27:04] Kaydedilmis model bulundu, okunuyor: results/cox/aids2/model.rds 
+[2026-08-08 10:27:04] [BELLEK] [aids2/cox] model hazir - Sistem RSS: 0.472 GB | R heap (gc): 0.268 GB 
+[2026-08-08 10:27:04] Performans hesaplama basladi: surv.coxph 
+[2026-08-08 10:27:16] Performans hesaplama bitti: surv.coxph - cindex: 0.534 - IBS (graf): 0.186 
+[2026-08-08 10:27:16] Performans kaydedildi: results/cox/aids2/performance.csv 
+[2026-08-08 10:27:16] Kaydedilmis explainer bulundu, okunuyor: results/cox/aids2/explainer.rds 
+[2026-08-08 10:27:33] [BELLEK] [aids2/cox] explainer hazir - Sistem RSS: 2.421 GB | R heap (gc): 2.284 GB 
+[2026-08-08 10:27:33] SHAP hesaplaniyor: cox_model - n_obs = 50 
+[2026-08-08 10:27:34] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 10:27:34] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 10:27:34] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 10:32:01] SHAP - gozlem 20 / 50 
+[2026-08-08 10:37:12] SHAP - gozlem 25 / 50 
+[2026-08-08 10:42:20] SHAP - gozlem 30 / 50 
+[2026-08-08 10:47:29] SHAP - gozlem 35 / 50 
+[2026-08-08 10:52:36] SHAP - gozlem 40 / 50 
+[2026-08-08 10:57:45] SHAP - gozlem 45 / 50 
+[2026-08-08 11:02:53] SHAP - gozlem 50 / 50 
+[2026-08-08 11:03:56] SHAP hesaplama bitti, kaydedildi: results/cox/aids2/shap_long_n50.csv 
+[2026-08-08 11:03:57] [BELLEK] [aids2/cox] SHAP sonrasi - Sistem RSS: 4.944 GB | R heap (gc): 2.29 GB 
+[2026-08-08 11:03:58] Grafik kaydedildi: results/cox/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 11:03:58] SHAP ozeti kaydedildi: results/cox/aids2/shap_summary_n50.csv 
+[2026-08-08 11:03:58] cox_model - SHAP TIVM: 1e-04 
+[2026-08-08 11:03:59] [BELLEK] [aids2/cox] model+explainer silindi, dongu sonu - Sistem RSS: 2.848 GB | R heap (gc): 0.305 GB 
+[2026-08-08 11:03:59] [BELLEK] [aids2/aorsf] model dongusu basi - Sistem RSS: 2.74 GB | R heap (gc): 0.305 GB 
+[2026-08-08 11:03:59] Kaydedilmis model bulundu, okunuyor: results/aorsf/aids2/model.rds 
+[2026-08-08 11:04:00] [BELLEK] [aids2/aorsf] model hazir - Sistem RSS: 2.74 GB | R heap (gc): 0.324 GB 
+[2026-08-08 11:04:00] Performans hesaplama basladi: surv.aorsf 
+[2026-08-08 11:04:12] Performans hesaplama bitti: surv.aorsf - cindex: 0.563 - IBS (graf): 0.191 
+[2026-08-08 11:04:12] Performans kaydedildi: results/aorsf/aids2/performance.csv 
+[2026-08-08 11:04:12] Kaydedilmis explainer bulundu, okunuyor: results/aorsf/aids2/explainer.rds 
+[2026-08-08 11:04:13] [BELLEK] [aids2/aorsf] explainer hazir - Sistem RSS: 2.741 GB | R heap (gc): 0.348 GB 
+[2026-08-08 11:04:13] SHAP hesaplaniyor: aorsf_model - n_obs = 50 
+[2026-08-08 11:04:13] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 11:04:13] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 11:04:13] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 11:08:39] SHAP - gozlem 20 / 50 
+[2026-08-08 11:14:16] SHAP - gozlem 25 / 50 
+[2026-08-08 11:19:50] SHAP - gozlem 30 / 50 
+[2026-08-08 11:25:34] SHAP - gozlem 35 / 50 
+[2026-08-08 11:31:13] SHAP - gozlem 40 / 50 
+[2026-08-08 11:36:44] SHAP - gozlem 45 / 50 
+[2026-08-08 11:42:15] SHAP - gozlem 50 / 50 
+[2026-08-08 11:43:22] SHAP hesaplama bitti, kaydedildi: results/aorsf/aids2/shap_long_n50.csv 
+[2026-08-08 11:43:23] [BELLEK] [aids2/aorsf] SHAP sonrasi - Sistem RSS: 2.741 GB | R heap (gc): 0.351 GB 
+[2026-08-08 11:43:24] Grafik kaydedildi: results/aorsf/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 11:43:24] SHAP ozeti kaydedildi: results/aorsf/aids2/shap_summary_n50.csv 
+[2026-08-08 11:43:24] aorsf_model - SHAP TIVM: 6e-04 
+[2026-08-08 11:43:25] [BELLEK] [aids2/aorsf] model+explainer silindi, dongu sonu - Sistem RSS: 2.741 GB | R heap (gc): 0.309 GB 
+[2026-08-08 11:43:25] [BELLEK] [aids2/cforest] model dongusu basi - Sistem RSS: 2.741 GB | R heap (gc): 0.309 GB 
+[2026-08-08 11:43:25] Kaydedilmis model bulundu, okunuyor: results/cforest/aids2/model.rds 
+[2026-08-08 11:43:26] [BELLEK] [aids2/cforest] model hazir - Sistem RSS: 2.741 GB | R heap (gc): 0.404 GB 
+[2026-08-08 11:43:26] Performans hesaplama basladi: surv.cforest 
+[2026-08-08 11:44:33] Performans hesaplama bitti: surv.cforest - cindex: 0.558 - IBS (graf): 0.196 
+[2026-08-08 11:44:33] Performans kaydedildi: results/cforest/aids2/performance.csv 
+[2026-08-08 11:44:33] Kaydedilmis explainer bulundu, okunuyor: results/cforest/aids2/explainer.rds 
+[2026-08-08 11:44:49] [BELLEK] [aids2/cforest] explainer hazir - Sistem RSS: 4.055 GB | R heap (gc): 2.408 GB 
+[2026-08-08 11:44:49] SHAP hesaplaniyor: cforest_model - n_obs = 50 
+[2026-08-08 11:44:50] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 11:44:50] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 11:44:50] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 14:29:48] Paket kurulumu basladi 
+[2026-08-08 14:29:48] Paket kurulumu basladi 
+[2026-08-08 14:29:48] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-08 14:29:48] renv.lock bulunamadi, normal kurulum yapiliyor 
+renv.lock bulunamadi, normal kurulum yapiliyor. Reproducibility icin projede bir kere renv::init() calistirabilirsin.
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘survex’
+
+The following object is masked from ‘package:dplyr’:
+
+    explain
+
+[2026-08-08 14:29:52] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-08-08 14:29:52] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-08-08 14:29:54] Paket kurulumu tamamlandi 
+[2026-08-08 14:29:54] Paket kurulumu tamamlandi 
+[2026-08-08 14:29:54] Veri okuma basladi: grace 
+[2026-08-08 14:29:54] Veri okuma basladi: grace 
+Rows: 1000 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (8): pid, event, time, num_los, num_age, num_sysbp, fac_revasc, fac_stch...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:54] Veri okuma bitti: grace - 1000 satir, 7 sutun 
+[2026-08-08 14:29:54] Veri okuma bitti: grace - 1000 satir, 7 sutun 
+[2026-08-08 14:29:54] Veri okuma basladi: melanoma 
+[2026-08-08 14:29:54] Veri okuma basladi: melanoma 
+Rows: 205 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (8): pid, event, time, fac_sex, fac_ulcer, num_age, num_year, num_thickness
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:54] Veri okuma bitti: melanoma - 205 satir, 7 sutun 
+[2026-08-08 14:29:54] Veri okuma bitti: melanoma - 205 satir, 7 sutun 
+[2026-08-08 14:29:54] Veri okuma basladi: ova 
+[2026-08-08 14:29:54] Veri okuma basladi: ova 
+Rows: 358 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (8): pid, event, time, fac_karn, fac_diam, fac_figo, num_karn, num_diam
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:54] Veri okuma bitti: ova - 358 satir, 7 sutun 
+[2026-08-08 14:29:54] Veri okuma bitti: ova - 358 satir, 7 sutun 
+[2026-08-08 14:29:54] Veri okuma basladi: aids2 
+[2026-08-08 14:29:54] Veri okuma basladi: aids2 
+Rows: 2839 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_state, fac_sex, fac_T_categ
+dbl (4): pid, event, time, num_age
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:54] Veri okuma bitti: aids2 - 2839 satir, 6 sutun 
+[2026-08-08 14:29:54] Veri okuma bitti: aids2 - 2839 satir, 6 sutun 
+[2026-08-08 14:29:54] Veri okuma basladi: veteran 
+[2026-08-08 14:29:54] Veri okuma basladi: veteran 
+Rows: 137 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_celltype
+dbl (8): pid, event, time, num_karno, num_diagtime, num_age, fac_trt, fac_prior
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:54] Veri okuma bitti: veteran - 137 satir, 8 sutun 
+[2026-08-08 14:29:54] Veri okuma bitti: veteran - 137 satir, 8 sutun 
+[2026-08-08 14:29:54] Veri okuma basladi: breast 
+[2026-08-08 14:29:54] Veri okuma basladi: breast 
+Rows: 100 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (7): pid, event, time, fac_TumorStage, fac_NodalStatus, fac_Histology, f...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:54] Veri okuma bitti: breast - 100 satir, 6 sutun 
+[2026-08-08 14:29:54] Veri okuma bitti: breast - 100 satir, 6 sutun 
+[2026-08-08 14:29:54] Veri okuma basladi: e1684 
+[2026-08-08 14:29:54] Veri okuma basladi: e1684 
+Rows: 284 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (6): pid, event, time, num_age, fac_sex, fac_trt
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:54] Veri okuma bitti: e1684 - 284 satir, 5 sutun 
+[2026-08-08 14:29:54] Veri okuma bitti: e1684 - 284 satir, 5 sutun 
+[2026-08-08 14:29:54] Veri okuma basladi: epileptic 
+[2026-08-08 14:29:54] Veri okuma basladi: epileptic 
+Rows: 1286 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_treat, fac_gender, fac_learn_dis
+dbl (6): pid, event, time, time2, num_dose, num_age
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:55] Veri okuma bitti: epileptic - 1286 satir, 8 sutun 
+[2026-08-08 14:29:55] Veri okuma bitti: epileptic - 1286 satir, 8 sutun 
+[2026-08-08 14:29:55] Veri okuma basladi: dialysis 
+[2026-08-08 14:29:55] Veri okuma basladi: dialysis 
+Rows: 6805 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_disease
+dbl (6): pid, event, time, fac_center, num_age, num_begin
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:55] Veri okuma bitti: dialysis - 6805 satir, 6 sutun 
+[2026-08-08 14:29:55] Veri okuma bitti: dialysis - 6805 satir, 6 sutun 
+[2026-08-08 14:29:55] Veri okuma basladi: pbc 
+[2026-08-08 14:29:55] Veri okuma basladi: pbc 
+Rows: 312 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_sex
+dbl (8): pid, event, time, num_age, fac_trt, fac_ascites, fac_hepato, fac_sp...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:55] Veri okuma bitti: pbc - 312 satir, 8 sutun 
+[2026-08-08 14:29:55] Veri okuma bitti: pbc - 312 satir, 8 sutun 
+[2026-08-08 14:29:55] Veri okuma basladi: prostateSurvival 
+[2026-08-08 14:29:55] Veri okuma basladi: prostateSurvival 
+Rows: 14294 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_grade, fac_stage, fac_ageGroup
+dbl (3): pid, event, time
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:55] Veri okuma bitti: prostateSurvival - 14294 satir, 5 sutun 
+[2026-08-08 14:29:55] Veri okuma bitti: prostateSurvival - 14294 satir, 5 sutun 
+[2026-08-08 14:29:55] Veri okuma basladi: acath 
+[2026-08-08 14:29:55] Veri okuma basladi: acath 
+Rows: 3504 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (6): pid, event, time, num_age, num_choleste, fac_sex
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:55] Veri okuma bitti: acath - 2258 satir, 5 sutun 
+[2026-08-08 14:29:55] Veri okuma bitti: acath - 2258 satir, 5 sutun 
+[2026-08-08 14:29:55] Veri okuma basladi: prostate 
+[2026-08-08 14:29:55] Veri okuma basladi: prostate 
+Rows: 502 Columns: 18
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (3): fac_rx, fac_pf, fac_ekg
+dbl (15): pid, event, time, fac_stage, fac_hx, fac_bm, num_age, num_wt, num_...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:55] Veri okuma bitti: prostate - 475 satir, 17 sutun 
+[2026-08-08 14:29:55] Veri okuma bitti: prostate - 475 satir, 17 sutun 
+[2026-08-08 14:29:55] Veri okuma basladi: dataDIVAT1 
+[2026-08-08 14:29:55] Veri okuma basladi: dataDIVAT1 
+Rows: 5943 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_sexR
+dbl (7): pid, event, time, num_ageR, num_year_tx, fac_graft, fac_year_tx
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:55] Veri okuma bitti: dataDIVAT1 - 5943 satir, 7 sutun 
+[2026-08-08 14:29:55] Veri okuma bitti: dataDIVAT1 - 5943 satir, 7 sutun 
+[2026-08-08 14:29:55] Veri okuma basladi: dataDIVAT3 
+[2026-08-08 14:29:55] Veri okuma basladi: dataDIVAT3 
+Rows: 4267 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, fac_sexeR, fac_year_tx, fac_ante_diab, fac_pra, ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:55] Veri okuma bitti: dataDIVAT3 - 4267 satir, 9 sutun 
+[2026-08-08 14:29:55] Veri okuma bitti: dataDIVAT3 - 4267 satir, 9 sutun 
+[2026-08-08 14:29:55] Veri okuma basladi: TRACE 
+[2026-08-08 14:29:55] Veri okuma basladi: TRACE 
+Rows: 1878 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (9): pid, event, time, num_wmi, num_age, fac_sex, fac_chf, fac_diabetes,...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:55] Veri okuma bitti: TRACE - 1878 satir, 8 sutun 
+[2026-08-08 14:29:55] Veri okuma bitti: TRACE - 1878 satir, 8 sutun 
+[2026-08-08 14:29:55] Veri okuma basladi: FRTCS 
+[2026-08-08 14:29:55] Veri okuma basladi: FRTCS 
+Rows: 2091 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (2): fac_sex, fac_antihyp
+dbl (7): pid, event, time, time2, num_age, num_sbp, num_dbp
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:55] Veri okuma bitti: FRTCS - 2088 satir, 7 sutun 
+[2026-08-08 14:29:55] Veri okuma bitti: FRTCS - 2088 satir, 7 sutun 
+[2026-08-08 14:29:55] Veri okuma basladi: zinc 
+[2026-08-08 14:29:55] Veri okuma basladi: zinc 
+Rows: 431 Columns: 16
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (9): fac_sex, fac_agestr, fac_smoke, fac_drink, fac_basehist, fac_sevdys...
+dbl (7): pid, event, time, fac_dysp1, fac_dysp2, num_agepill, num_stdagepill
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:55] Veri okuma bitti: zinc - 431 satir, 15 sutun 
+[2026-08-08 14:29:55] Veri okuma bitti: zinc - 431 satir, 15 sutun 
+[2026-08-08 14:29:55] Veri okuma basladi: stagec 
+[2026-08-08 14:29:55] Veri okuma basladi: stagec 
+Rows: 146 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_ploidy, fac_eet, fac_gleason
+dbl (7): pid, event, time, fac_grade, num_age, num_g2, num_gleason
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:55] Veri okuma bitti: stagec - 136 satir, 9 sutun 
+[2026-08-08 14:29:55] Veri okuma bitti: stagec - 136 satir, 9 sutun 
+[2026-08-08 14:29:55] Veri okuma basladi: LeukSurv 
+[2026-08-08 14:29:55] Veri okuma basladi: LeukSurv 
+Rows: 1043 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, fac_sex, fac_district, num_xcoord, num_ycoord, n...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:55] Veri okuma bitti: LeukSurv - 1043 satir, 9 sutun 
+[2026-08-08 14:29:55] Veri okuma bitti: LeukSurv - 1043 satir, 9 sutun 
+[2026-08-08 14:29:55] Veri okuma basladi: nwtco 
+[2026-08-08 14:29:55] Veri okuma basladi: nwtco 
+Rows: 4028 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (9): pid, event, time, fac_stage, fac_study, fac_instit, fac_histol, num...
+lgl (1): fac_in_subcohort
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:55] Veri okuma bitti: nwtco - 4028 satir, 9 sutun 
+[2026-08-08 14:29:55] Veri okuma bitti: nwtco - 4028 satir, 9 sutun 
+[2026-08-08 14:29:55] Veri okuma basladi: retinopathy 
+[2026-08-08 14:29:55] Veri okuma basladi: retinopathy 
+Rows: 394 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_laser, fac_eye, fac_type
+dbl (7): pid, event, time, fac_trt, fac_risk, num_age, num_risk
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:55] Veri okuma bitti: retinopathy - 394 satir, 9 sutun 
+[2026-08-08 14:29:55] Veri okuma bitti: retinopathy - 394 satir, 9 sutun 
+[2026-08-08 14:29:55] Veri okuma basladi: Framingham 
+[2026-08-08 14:29:55] Veri okuma basladi: Framingham 
+Rows: 4699 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, num_sbp, num_dbp, num_scl, num_age, num_bmi, fac...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:55] Veri okuma bitti: Framingham - 4658 satir, 9 sutun 
+[2026-08-08 14:29:55] Veri okuma bitti: Framingham - 4658 satir, 9 sutun 
+[2026-08-08 14:29:55] Veri okuma basladi: csl 
+[2026-08-08 14:29:55] Veri okuma basladi: csl 
+Rows: 2481 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, time2, num_age, num_prot, num_prot_prev, num_pro...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:56] Veri okuma bitti: csl - 2481 satir, 8 sutun 
+[2026-08-08 14:29:56] Veri okuma bitti: csl - 2481 satir, 8 sutun 
+[2026-08-08 14:29:56] Veri okuma basladi: cancer 
+[2026-08-08 14:29:56] Veri okuma basladi: cancer 
+Rows: 228 Columns: 11
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (2): fac_inst, fac_ph_ecog
+dbl (9): pid, event, time, num_wt_loss, num_ph_karno, num_pat_karno, num_mea...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:56] Veri okuma bitti: cancer - 169 satir, 10 sutun 
+[2026-08-08 14:29:56] Veri okuma bitti: cancer - 169 satir, 10 sutun 
+[2026-08-08 14:29:56] Veri okuma basladi: whas500 
+[2026-08-08 14:29:56] Veri okuma basladi: whas500 
+Rows: 461 Columns: 19
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (19): pid, event, time, fac_gender, fac_cvd, fac_afb, fac_sho, fac_chf, ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:56] Veri okuma bitti: whas500 - 461 satir, 18 sutun 
+[2026-08-08 14:29:56] Veri okuma bitti: whas500 - 461 satir, 18 sutun 
+[2026-08-08 14:29:56] Veri okuma basladi: cgd 
+[2026-08-08 14:29:56] Veri okuma basladi: cgd 
+Rows: 128 Columns: 13
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): fac_center, fac_treat, fac_sex, fac_inherit, fac_hos_cat
+dbl (8): pid, event, time, fac_steroids, fac_propylac, num_age, num_height, ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:56] Veri okuma bitti: cgd - 128 satir, 12 sutun 
+[2026-08-08 14:29:56] Veri okuma bitti: cgd - 128 satir, 12 sutun 
+[2026-08-08 14:29:56] Veri okuma basladi: Pbc3 
+[2026-08-08 14:29:56] Veri okuma basladi: Pbc3 
+Rows: 349 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (1): fac_stage
+dbl (14): pid, event, time, num_age, num_crea, num_alb, num_bili, num_alkph,...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:56] Veri okuma bitti: Pbc3 - 327 satir, 14 sutun 
+[2026-08-08 14:29:56] Veri okuma bitti: Pbc3 - 327 satir, 14 sutun 
+[2026-08-08 14:29:56] Veri okuma basladi: GBSG2 
+[2026-08-08 14:29:56] Veri okuma basladi: GBSG2 
+Rows: 686 Columns: 11
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_horTh, fac_menostat, fac_tgrade
+dbl (8): pid, event, time, num_age, num_tsize, num_pnodes, num_progrec, num_...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:56] Veri okuma bitti: GBSG2 - 686 satir, 10 sutun 
+[2026-08-08 14:29:56] Veri okuma bitti: GBSG2 - 686 satir, 10 sutun 
+[2026-08-08 14:29:56] Veri okuma basladi: colon 
+[2026-08-08 14:29:56] Veri okuma basladi: colon 
+Rows: 929 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (2): fac_rx, fac_differ
+dbl (10): pid, event, time, num_age, num_nodes, fac_sex, fac_obstruct, fac_p...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:56] Veri okuma bitti: colon - 911 satir, 11 sutun 
+[2026-08-08 14:29:56] Veri okuma bitti: colon - 911 satir, 11 sutun 
+[2026-08-08 14:29:56] Veri okuma basladi: flchain 
+[2026-08-08 14:29:56] Veri okuma basladi: flchain 
+Rows: 7874 Columns: 13
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (2): fac_sex, fac_chapter
+dbl (11): pid, event, time, num_age, num_kappa, num_lambda, num_flc_grp, num...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:56] Veri okuma bitti: flchain - 6524 satir, 12 sutun 
+[2026-08-08 14:29:56] Veri okuma bitti: flchain - 6524 satir, 12 sutun 
+[2026-08-08 14:29:56] Veri okuma basladi: Rossi 
+[2026-08-08 14:29:56] Veri okuma basladi: Rossi 
+Rows: 1405 Columns: 13
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): fac_fin, fac_race, fac_wexp, fac_mar, fac_paro
+dbl (8): pid, event, time, time2, fac_prio, fac_educ, fac_emp, num_age
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:56] Veri okuma bitti: Rossi - 1405 satir, 11 sutun 
+[2026-08-08 14:29:56] Veri okuma bitti: Rossi - 1405 satir, 11 sutun 
+[2026-08-08 14:29:56] Veri okuma basladi: burn 
+[2026-08-08 14:29:56] Veri okuma basladi: burn 
+Rows: 154 Columns: 14
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (14): pid, event, time, fac_burn_buttock, fac_burn_head, fac_burn_lower_...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:56] Veri okuma bitti: burn - 154 satir, 13 sutun 
+[2026-08-08 14:29:56] Veri okuma bitti: burn - 154 satir, 13 sutun 
+[2026-08-08 14:29:56] Veri okuma basladi: rott2 
+[2026-08-08 14:29:56] Veri okuma basladi: rott2 
+Rows: 2982 Columns: 14
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): fac_meno, fac_tsize, fac_hormon, fac_chemo, fac_recent
+dbl (9): pid, event, time, fac_grade, num_year, num_age, num_nodes, num_prog...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:56] Veri okuma bitti: rott2 - 2982 satir, 13 sutun 
+[2026-08-08 14:29:56] Veri okuma bitti: rott2 - 2982 satir, 13 sutun 
+[2026-08-08 14:29:56] Veri okuma basladi: d_oropha_rec 
+[2026-08-08 14:29:56] Veri okuma basladi: d_oropha_rec 
+Rows: 192 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (15): pid, event, time, fac_inst, fac_sex, fac_treatm, fac_grade, fac_co...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:56] Veri okuma bitti: d_oropha_rec - 192 satir, 14 sutun 
+[2026-08-08 14:29:56] Veri okuma bitti: d_oropha_rec - 192 satir, 14 sutun 
+[2026-08-08 14:29:56] Veri okuma basladi: rdata 
+[2026-08-08 14:29:56] Veri okuma basladi: rdata 
+Rows: 1040 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_agegr
+dbl (6): pid, event, time, fac_sex, num_age, num_year
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-08 14:29:56] Veri okuma bitti: rdata - 1040 satir, 6 sutun 
+[2026-08-08 14:29:56] Veri okuma bitti: rdata - 1040 satir, 6 sutun 
+[2026-08-08 14:29:56] Task olusturuluyor: grace_task 
+[2026-08-08 14:29:56] Task olusturuluyor: grace_task 
+[2026-08-08 14:29:56] Task olusturuldu: grace_task 
+[2026-08-08 14:29:56] Task olusturuldu: grace_task 
+[2026-08-08 14:29:56] Task olusturuluyor: melanoma_task 
+[2026-08-08 14:29:56] Task olusturuluyor: melanoma_task 
+[2026-08-08 14:29:56] Task olusturuldu: melanoma_task 
+[2026-08-08 14:29:56] Task olusturuldu: melanoma_task 
+[2026-08-08 14:29:56] Task olusturuluyor: ova_task 
+[2026-08-08 14:29:56] Task olusturuluyor: ova_task 
+[2026-08-08 14:29:56] Task olusturuldu: ova_task 
+[2026-08-08 14:29:56] Task olusturuldu: ova_task 
+[2026-08-08 14:29:56] Task olusturuluyor: aids2_task 
+[2026-08-08 14:29:56] Task olusturuluyor: aids2_task 
+[2026-08-08 14:29:56] Task olusturuldu: aids2_task 
+[2026-08-08 14:29:56] Task olusturuldu: aids2_task 
+[2026-08-08 14:29:56] Task olusturuluyor: veteran_task 
+[2026-08-08 14:29:56] Task olusturuluyor: veteran_task 
+[2026-08-08 14:29:56] Task olusturuldu: veteran_task 
+[2026-08-08 14:29:56] Task olusturuldu: veteran_task 
+[2026-08-08 14:29:56] Task olusturuluyor: breast_task 
+[2026-08-08 14:29:56] Task olusturuluyor: breast_task 
+[2026-08-08 14:29:56] Task olusturuldu: breast_task 
+[2026-08-08 14:29:56] Task olusturuldu: breast_task 
+[2026-08-08 14:29:56] Task olusturuluyor: e1684_task 
+[2026-08-08 14:29:56] Task olusturuluyor: e1684_task 
+[2026-08-08 14:29:56] Task olusturuldu: e1684_task 
+[2026-08-08 14:29:56] Task olusturuldu: e1684_task 
+[2026-08-08 14:29:56] Task olusturuluyor: epileptic_task 
+[2026-08-08 14:29:56] Task olusturuluyor: epileptic_task 
+[2026-08-08 14:29:56] Task olusturuldu: epileptic_task 
+[2026-08-08 14:29:56] Task olusturuldu: epileptic_task 
+[2026-08-08 14:29:56] Task olusturuluyor: dialysis_task 
+[2026-08-08 14:29:56] Task olusturuluyor: dialysis_task 
+[2026-08-08 14:29:56] Task olusturuldu: dialysis_task 
+[2026-08-08 14:29:56] Task olusturuldu: dialysis_task 
+[2026-08-08 14:29:56] Task olusturuluyor: pbc_task 
+[2026-08-08 14:29:56] Task olusturuluyor: pbc_task 
+[2026-08-08 14:29:56] Task olusturuldu: pbc_task 
+[2026-08-08 14:29:56] Task olusturuldu: pbc_task 
+[2026-08-08 14:29:56] Task olusturuluyor: prostateSurvival_task 
+[2026-08-08 14:29:56] Task olusturuluyor: prostateSurvival_task 
+[2026-08-08 14:29:56] Task olusturuldu: prostateSurvival_task 
+[2026-08-08 14:29:56] Task olusturuldu: prostateSurvival_task 
+[2026-08-08 14:29:56] Task olusturuluyor: acath_task 
+[2026-08-08 14:29:56] Task olusturuluyor: acath_task 
+[2026-08-08 14:29:56] Task olusturuldu: acath_task 
+[2026-08-08 14:29:56] Task olusturuldu: acath_task 
+[2026-08-08 14:29:56] Task olusturuluyor: prostate_task 
+[2026-08-08 14:29:56] Task olusturuluyor: prostate_task 
+[2026-08-08 14:29:56] Task olusturuldu: prostate_task 
+[2026-08-08 14:29:56] Task olusturuldu: prostate_task 
+[2026-08-08 14:29:56] Task olusturuluyor: dataDIVAT1_task 
+[2026-08-08 14:29:56] Task olusturuluyor: dataDIVAT1_task 
+[2026-08-08 14:29:56] Task olusturuldu: dataDIVAT1_task 
+[2026-08-08 14:29:56] Task olusturuldu: dataDIVAT1_task 
+[2026-08-08 14:29:56] Task olusturuluyor: dataDIVAT3_task 
+[2026-08-08 14:29:56] Task olusturuluyor: dataDIVAT3_task 
+[2026-08-08 14:29:56] Task olusturuldu: dataDIVAT3_task 
+[2026-08-08 14:29:56] Task olusturuldu: dataDIVAT3_task 
+[2026-08-08 14:29:56] Task olusturuluyor: TRACE_task 
+[2026-08-08 14:29:56] Task olusturuluyor: TRACE_task 
+[2026-08-08 14:29:56] Task olusturuldu: TRACE_task 
+[2026-08-08 14:29:56] Task olusturuldu: TRACE_task 
+[2026-08-08 14:29:56] Task olusturuluyor: FRTCS_task 
+[2026-08-08 14:29:56] Task olusturuluyor: FRTCS_task 
+[2026-08-08 14:29:56] Task olusturuldu: FRTCS_task 
+[2026-08-08 14:29:56] Task olusturuldu: FRTCS_task 
+[2026-08-08 14:29:56] Task olusturuluyor: zinc_task 
+[2026-08-08 14:29:56] Task olusturuluyor: zinc_task 
+[2026-08-08 14:29:56] Task olusturuldu: zinc_task 
+[2026-08-08 14:29:56] Task olusturuldu: zinc_task 
+[2026-08-08 14:29:56] Task olusturuluyor: stagec_task 
+[2026-08-08 14:29:56] Task olusturuluyor: stagec_task 
+[2026-08-08 14:29:56] Task olusturuldu: stagec_task 
+[2026-08-08 14:29:56] Task olusturuldu: stagec_task 
+[2026-08-08 14:29:56] Task olusturuluyor: LeukSurv_task 
+[2026-08-08 14:29:56] Task olusturuluyor: LeukSurv_task 
+[2026-08-08 14:29:56] Task olusturuldu: LeukSurv_task 
+[2026-08-08 14:29:56] Task olusturuldu: LeukSurv_task 
+[2026-08-08 14:29:56] Task olusturuluyor: nwtco_task 
+[2026-08-08 14:29:56] Task olusturuluyor: nwtco_task 
+[2026-08-08 14:29:56] Task olusturuldu: nwtco_task 
+[2026-08-08 14:29:56] Task olusturuldu: nwtco_task 
+[2026-08-08 14:29:56] Task olusturuluyor: retinopathy_task 
+[2026-08-08 14:29:56] Task olusturuluyor: retinopathy_task 
+[2026-08-08 14:29:56] Task olusturuldu: retinopathy_task 
+[2026-08-08 14:29:56] Task olusturuldu: retinopathy_task 
+[2026-08-08 14:29:56] Task olusturuluyor: Framingham_task 
+[2026-08-08 14:29:56] Task olusturuluyor: Framingham_task 
+[2026-08-08 14:29:56] Task olusturuldu: Framingham_task 
+[2026-08-08 14:29:56] Task olusturuldu: Framingham_task 
+[2026-08-08 14:29:56] Task olusturuluyor: csl_task 
+[2026-08-08 14:29:56] Task olusturuluyor: csl_task 
+[2026-08-08 14:29:56] Task olusturuldu: csl_task 
+[2026-08-08 14:29:56] Task olusturuldu: csl_task 
+[2026-08-08 14:29:56] Task olusturuluyor: cancer_task 
+[2026-08-08 14:29:56] Task olusturuluyor: cancer_task 
+[2026-08-08 14:29:56] Task olusturuldu: cancer_task 
+[2026-08-08 14:29:56] Task olusturuldu: cancer_task 
+[2026-08-08 14:29:56] Task olusturuluyor: whas500_task 
+[2026-08-08 14:29:56] Task olusturuluyor: whas500_task 
+[2026-08-08 14:29:56] Task olusturuldu: whas500_task 
+[2026-08-08 14:29:56] Task olusturuldu: whas500_task 
+[2026-08-08 14:29:56] Task olusturuluyor: cgd_task 
+[2026-08-08 14:29:56] Task olusturuluyor: cgd_task 
+[2026-08-08 14:29:56] Task olusturuldu: cgd_task 
+[2026-08-08 14:29:56] Task olusturuldu: cgd_task 
+[2026-08-08 14:29:56] Task olusturuluyor: Pbc3_task 
+[2026-08-08 14:29:56] Task olusturuluyor: Pbc3_task 
+[2026-08-08 14:29:56] Task olusturuldu: Pbc3_task 
+[2026-08-08 14:29:56] Task olusturuldu: Pbc3_task 
+[2026-08-08 14:29:56] Task olusturuluyor: GBSG2_task 
+[2026-08-08 14:29:56] Task olusturuluyor: GBSG2_task 
+[2026-08-08 14:29:57] Task olusturuldu: GBSG2_task 
+[2026-08-08 14:29:57] Task olusturuldu: GBSG2_task 
+[2026-08-08 14:29:57] Task olusturuluyor: colon_task 
+[2026-08-08 14:29:57] Task olusturuluyor: colon_task 
+[2026-08-08 14:29:57] Task olusturuldu: colon_task 
+[2026-08-08 14:29:57] Task olusturuldu: colon_task 
+[2026-08-08 14:29:57] Task olusturuluyor: flchain_task 
+[2026-08-08 14:29:57] Task olusturuluyor: flchain_task 
+[2026-08-08 14:29:57] Task olusturuldu: flchain_task 
+[2026-08-08 14:29:57] Task olusturuldu: flchain_task 
+[2026-08-08 14:29:57] Task olusturuluyor: Rossi_task 
+[2026-08-08 14:29:57] Task olusturuluyor: Rossi_task 
+[2026-08-08 14:29:57] Task olusturuldu: Rossi_task 
+[2026-08-08 14:29:57] Task olusturuldu: Rossi_task 
+[2026-08-08 14:29:57] Task olusturuluyor: burn_task 
+[2026-08-08 14:29:57] Task olusturuluyor: burn_task 
+[2026-08-08 14:29:57] Task olusturuldu: burn_task 
+[2026-08-08 14:29:57] Task olusturuldu: burn_task 
+[2026-08-08 14:29:57] Task olusturuluyor: rott2_task 
+[2026-08-08 14:29:57] Task olusturuluyor: rott2_task 
+[2026-08-08 14:29:57] Task olusturuldu: rott2_task 
+[2026-08-08 14:29:57] Task olusturuldu: rott2_task 
+[2026-08-08 14:29:57] Task olusturuluyor: d_oropha_rec_task 
+[2026-08-08 14:29:57] Task olusturuluyor: d_oropha_rec_task 
+[2026-08-08 14:29:57] Task olusturuldu: d_oropha_rec_task 
+[2026-08-08 14:29:57] Task olusturuldu: d_oropha_rec_task 
+[2026-08-08 14:29:57] Task olusturuluyor: rdata_task 
+[2026-08-08 14:29:57] Task olusturuluyor: rdata_task 
+[2026-08-08 14:29:57] Task olusturuldu: rdata_task 
+[2026-08-08 14:29:57] Task olusturuldu: rdata_task 
+[2026-08-08 14:29:57] Toplam 36 task olusturuldu 
+[2026-08-08 14:29:57] Toplam 36 task olusturuldu 
+[2026-08-08 14:29:57] ===== RUN ( aids2 ) BASLADI: 9 model ===== 
+[2026-08-08 14:29:57] ===== RUN ( aids2 ) BASLADI: 9 model ===== 
+[2026-08-08 14:29:57] ----- Veri seti basladi: aids2 ----- 
+[2026-08-08 14:29:57] ----- Veri seti basladi: aids2 ----- 
+[2026-08-08 14:29:57] [BELLEK] [aids2] veri seti basi - Sistem RSS: 0.49 GB | R heap (gc): 0.266 GB 
+[2026-08-08 14:29:57] [BELLEK] [aids2] veri seti basi - Sistem RSS: 0.49 GB | R heap (gc): 0.266 GB 
+[2026-08-08 14:29:57] Split basladi (ratio = 0.7 ) 
+[2026-08-08 14:29:57] Split basladi (ratio = 0.7 ) 
+[2026-08-08 14:29:57] Split bitti - train: 1987 test: 852 
+[2026-08-08 14:29:57] Split bitti - train: 1987 test: 852 
+[2026-08-08 14:29:58] [BELLEK] [aids2/coxboost] model dongusu basi - Sistem RSS: 0.49 GB | R heap (gc): 0.267 GB 
+[2026-08-08 14:29:58] [BELLEK] [aids2/coxboost] model dongusu basi - Sistem RSS: 0.49 GB | R heap (gc): 0.267 GB 
+[2026-08-08 14:29:58] Kaydedilmis model bulundu, okunuyor: results/coxboost/aids2/model.rds 
+[2026-08-08 14:29:58] Kaydedilmis model bulundu, okunuyor: results/coxboost/aids2/model.rds 
+[2026-08-08 14:29:58] [BELLEK] [aids2/coxboost] model hazir - Sistem RSS: 0.49 GB | R heap (gc): 0.27 GB 
+[2026-08-08 14:29:58] [BELLEK] [aids2/coxboost] model hazir - Sistem RSS: 0.49 GB | R heap (gc): 0.27 GB 
+[2026-08-08 14:29:58] Performans hesaplama basladi: surv.coxboost 
+[2026-08-08 14:29:58] Performans hesaplama basladi: surv.coxboost 
+[2026-08-08 14:30:40] Performans hesaplama bitti: surv.coxboost - cindex: 0.535 - IBS (graf): 0.186 
+[2026-08-08 14:30:40] Performans hesaplama bitti: surv.coxboost - cindex: 0.535 - IBS (graf): 0.186 
+[2026-08-08 14:30:40] Performans kaydedildi: results/coxboost/aids2/performance.csv 
+[2026-08-08 14:30:40] Performans kaydedildi: results/coxboost/aids2/performance.csv 
+[2026-08-08 14:30:40] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/aids2/explainer.rds 
+[2026-08-08 14:30:40] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/aids2/explainer.rds 
+[2026-08-08 14:30:56] [BELLEK] [aids2/coxboost] explainer hazir - Sistem RSS: 2.536 GB | R heap (gc): 2.286 GB 
+[2026-08-08 14:30:56] [BELLEK] [aids2/coxboost] explainer hazir - Sistem RSS: 2.536 GB | R heap (gc): 2.286 GB 
+[2026-08-08 14:30:56] SHAP hesaplaniyor: coxboost_model - n_obs = 50 
+[2026-08-08 14:30:56] SHAP hesaplaniyor: coxboost_model - n_obs = 50 
+[2026-08-08 14:30:56] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 14:30:56] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 14:30:56] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 14:30:56] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 14:30:56] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 14:30:56] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 14:35:17] SHAP - gozlem 20 / 50 
+[2026-08-08 14:35:17] SHAP - gozlem 20 / 50 
+[2026-08-08 14:40:27] SHAP - gozlem 25 / 50 
+[2026-08-08 14:40:27] SHAP - gozlem 25 / 50 
+[2026-08-08 14:45:45] SHAP - gozlem 30 / 50 
+[2026-08-08 14:45:45] SHAP - gozlem 30 / 50 
+[2026-08-08 14:50:57] SHAP - gozlem 35 / 50 
+[2026-08-08 14:50:57] SHAP - gozlem 35 / 50 
+[2026-08-08 14:56:17] SHAP - gozlem 40 / 50 
+[2026-08-08 14:56:17] SHAP - gozlem 40 / 50 
+[2026-08-08 15:01:37] SHAP - gozlem 45 / 50 
+[2026-08-08 15:01:37] SHAP - gozlem 45 / 50 
+[2026-08-08 15:06:52] SHAP - gozlem 50 / 50 
+[2026-08-08 15:06:52] SHAP - gozlem 50 / 50 
+[2026-08-08 15:07:56] SHAP hesaplama bitti, kaydedildi: results/coxboost/aids2/shap_long_n50.csv 
+[2026-08-08 15:07:56] SHAP hesaplama bitti, kaydedildi: results/coxboost/aids2/shap_long_n50.csv 
+[2026-08-08 15:07:57] [BELLEK] [aids2/coxboost] SHAP sonrasi - Sistem RSS: 5.023 GB | R heap (gc): 2.291 GB 
+[2026-08-08 15:07:57] [BELLEK] [aids2/coxboost] SHAP sonrasi - Sistem RSS: 5.023 GB | R heap (gc): 2.291 GB 
+[2026-08-08 15:07:58] Grafik kaydedildi: results/coxboost/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 15:07:58] Grafik kaydedildi: results/coxboost/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 15:07:58] SHAP ozeti kaydedildi: results/coxboost/aids2/shap_summary_n50.csv 
+[2026-08-08 15:07:58] SHAP ozeti kaydedildi: results/coxboost/aids2/shap_summary_n50.csv 
+[2026-08-08 15:07:58] coxboost_model - SHAP TIVM: 1e-04 
+[2026-08-08 15:07:58] coxboost_model - SHAP TIVM: 1e-04 
+[2026-08-08 15:07:59] [BELLEK] [aids2/coxboost] model+explainer silindi, dongu sonu - Sistem RSS: 2.735 GB | R heap (gc): 0.304 GB 
+[2026-08-08 15:07:59] [BELLEK] [aids2/coxboost] model+explainer silindi, dongu sonu - Sistem RSS: 2.735 GB | R heap (gc): 0.304 GB 
+[2026-08-08 15:08:00] [BELLEK] [aids2/ctree] model dongusu basi - Sistem RSS: 2.735 GB | R heap (gc): 0.304 GB 
+[2026-08-08 15:08:00] [BELLEK] [aids2/ctree] model dongusu basi - Sistem RSS: 2.735 GB | R heap (gc): 0.304 GB 
+[2026-08-08 15:08:00] Kaydedilmis model bulundu, okunuyor: results/ctree/aids2/model.rds 
+[2026-08-08 15:08:00] Kaydedilmis model bulundu, okunuyor: results/ctree/aids2/model.rds 
+[2026-08-08 15:08:00] [BELLEK] [aids2/ctree] model hazir - Sistem RSS: 2.735 GB | R heap (gc): 0.305 GB 
+[2026-08-08 15:08:00] [BELLEK] [aids2/ctree] model hazir - Sistem RSS: 2.735 GB | R heap (gc): 0.305 GB 
+[2026-08-08 15:08:00] Performans hesaplama basladi: surv.ctree 
+[2026-08-08 15:08:00] Performans hesaplama basladi: surv.ctree 
+[2026-08-08 15:08:11] Performans hesaplama bitti: surv.ctree - cindex: 0.524 - IBS (graf): 0.194 
+[2026-08-08 15:08:11] Performans hesaplama bitti: surv.ctree - cindex: 0.524 - IBS (graf): 0.194 
+[2026-08-08 15:08:11] Performans kaydedildi: results/ctree/aids2/performance.csv 
+[2026-08-08 15:08:11] Performans kaydedildi: results/ctree/aids2/performance.csv 
+[2026-08-08 15:08:11] Kaydedilmis explainer bulundu, okunuyor: results/ctree/aids2/explainer.rds 
+[2026-08-08 15:08:11] Kaydedilmis explainer bulundu, okunuyor: results/ctree/aids2/explainer.rds 
+[2026-08-08 15:08:21] [BELLEK] [aids2/ctree] explainer hazir - Sistem RSS: 4.049 GB | R heap (gc): 2.309 GB 
+[2026-08-08 15:08:21] [BELLEK] [aids2/ctree] explainer hazir - Sistem RSS: 4.049 GB | R heap (gc): 2.309 GB 
+[2026-08-08 15:08:21] SHAP hesaplaniyor: ctree_model - n_obs = 50 
+[2026-08-08 15:08:21] SHAP hesaplaniyor: ctree_model - n_obs = 50 
+[2026-08-08 15:08:21] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 15:08:21] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 15:08:21] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 15:08:21] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 15:08:21] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 15:08:21] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 15:13:11] SHAP - gozlem 20 / 50 
+[2026-08-08 15:13:11] SHAP - gozlem 20 / 50 
+[2026-08-08 15:19:15] SHAP - gozlem 25 / 50 
+[2026-08-08 15:19:15] SHAP - gozlem 25 / 50 
+[2026-08-08 15:25:10] SHAP - gozlem 30 / 50 
+[2026-08-08 15:25:10] SHAP - gozlem 30 / 50 
+[2026-08-08 15:31:21] SHAP - gozlem 35 / 50 
+[2026-08-08 15:31:21] SHAP - gozlem 35 / 50 
+[2026-08-08 15:37:39] SHAP - gozlem 40 / 50 
+[2026-08-08 15:37:39] SHAP - gozlem 40 / 50 
+[2026-08-08 15:43:48] SHAP - gozlem 45 / 50 
+[2026-08-08 15:43:48] SHAP - gozlem 45 / 50 
+[2026-08-08 15:50:00] SHAP - gozlem 50 / 50 
+[2026-08-08 15:50:00] SHAP - gozlem 50 / 50 
+[2026-08-08 15:51:15] SHAP hesaplama bitti, kaydedildi: results/ctree/aids2/shap_long_n50.csv 
+[2026-08-08 15:51:15] SHAP hesaplama bitti, kaydedildi: results/ctree/aids2/shap_long_n50.csv 
+[2026-08-08 15:51:17] [BELLEK] [aids2/ctree] SHAP sonrasi - Sistem RSS: 5.312 GB | R heap (gc): 2.34 GB 
+[2026-08-08 15:51:17] [BELLEK] [aids2/ctree] SHAP sonrasi - Sistem RSS: 5.312 GB | R heap (gc): 2.34 GB 
+[2026-08-08 15:51:17] Grafik kaydedildi: results/ctree/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 15:51:17] Grafik kaydedildi: results/ctree/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 15:51:17] SHAP ozeti kaydedildi: results/ctree/aids2/shap_summary_n50.csv 
+[2026-08-08 15:51:17] SHAP ozeti kaydedildi: results/ctree/aids2/shap_summary_n50.csv 
+[2026-08-08 15:51:17] ctree_model - SHAP TIVM: 7e-04 
+[2026-08-08 15:51:17] ctree_model - SHAP TIVM: 7e-04 
+[2026-08-08 15:51:19] [BELLEK] [aids2/ctree] model+explainer silindi, dongu sonu - Sistem RSS: 3.14 GB | R heap (gc): 0.339 GB 
+[2026-08-08 15:51:19] [BELLEK] [aids2/ctree] model+explainer silindi, dongu sonu - Sistem RSS: 3.14 GB | R heap (gc): 0.339 GB 
+[2026-08-08 15:51:19] [BELLEK] [aids2/cv_glmnet] model dongusu basi - Sistem RSS: 3.14 GB | R heap (gc): 0.339 GB 
+[2026-08-08 15:51:19] [BELLEK] [aids2/cv_glmnet] model dongusu basi - Sistem RSS: 3.14 GB | R heap (gc): 0.339 GB 
+[2026-08-08 15:51:19] Kaydedilmis model bulundu, okunuyor: results/cv_glmnet/aids2/model.rds 
+[2026-08-08 15:51:19] Kaydedilmis model bulundu, okunuyor: results/cv_glmnet/aids2/model.rds 
+[2026-08-08 15:51:19] [BELLEK] [aids2/cv_glmnet] model hazir - Sistem RSS: 3.14 GB | R heap (gc): 0.339 GB 
+[2026-08-08 15:51:19] [BELLEK] [aids2/cv_glmnet] model hazir - Sistem RSS: 3.14 GB | R heap (gc): 0.339 GB 
+[2026-08-08 15:51:19] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-08-08 15:51:19] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-08-08 15:51:31] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.54 - IBS (graf): 0.186 
+[2026-08-08 15:51:31] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.54 - IBS (graf): 0.186 
+[2026-08-08 15:51:31] Performans kaydedildi: results/cv_glmnet/aids2/performance.csv 
+[2026-08-08 15:51:31] Performans kaydedildi: results/cv_glmnet/aids2/performance.csv 
+[2026-08-08 15:51:31] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/aids2/explainer.rds 
+[2026-08-08 15:51:31] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/aids2/explainer.rds 
+[2026-08-08 15:51:32] [BELLEK] [aids2/cv_glmnet] explainer hazir - Sistem RSS: 3.141 GB | R heap (gc): 0.343 GB 
+[2026-08-08 15:51:32] [BELLEK] [aids2/cv_glmnet] explainer hazir - Sistem RSS: 3.141 GB | R heap (gc): 0.343 GB 
+[2026-08-08 15:51:32] SHAP hesaplaniyor: cv_glmnet_model - n_obs = 50 
+[2026-08-08 15:51:32] SHAP hesaplaniyor: cv_glmnet_model - n_obs = 50 
+[2026-08-08 15:51:32] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 15:51:32] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 15:51:32] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 15:51:32] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 15:51:32] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 15:51:32] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 15:55:48] SHAP - gozlem 20 / 50 
+[2026-08-08 15:55:48] SHAP - gozlem 20 / 50 
+[2026-08-08 16:01:06] SHAP - gozlem 25 / 50 
+[2026-08-08 16:01:06] SHAP - gozlem 25 / 50 
+[2026-08-08 16:06:19] SHAP - gozlem 30 / 50 
+[2026-08-08 16:06:19] SHAP - gozlem 30 / 50 
+[2026-08-08 16:11:45] SHAP - gozlem 35 / 50 
+[2026-08-08 16:11:45] SHAP - gozlem 35 / 50 
+[2026-08-08 16:17:01] SHAP - gozlem 40 / 50 
+[2026-08-08 16:17:01] SHAP - gozlem 40 / 50 
+[2026-08-08 16:22:24] SHAP - gozlem 45 / 50 
+[2026-08-08 16:22:24] SHAP - gozlem 45 / 50 
+[2026-08-08 16:27:47] SHAP - gozlem 50 / 50 
+[2026-08-08 16:27:47] SHAP - gozlem 50 / 50 
+[2026-08-08 16:28:54] SHAP hesaplama bitti, kaydedildi: results/cv_glmnet/aids2/shap_long_n50.csv 
+[2026-08-08 16:28:54] SHAP hesaplama bitti, kaydedildi: results/cv_glmnet/aids2/shap_long_n50.csv 
+[2026-08-08 16:28:55] [BELLEK] [aids2/cv_glmnet] SHAP sonrasi - Sistem RSS: 3.374 GB | R heap (gc): 0.346 GB 
+[2026-08-08 16:28:55] [BELLEK] [aids2/cv_glmnet] SHAP sonrasi - Sistem RSS: 3.374 GB | R heap (gc): 0.346 GB 
+[2026-08-08 16:28:55] Grafik kaydedildi: results/cv_glmnet/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 16:28:55] Grafik kaydedildi: results/cv_glmnet/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 16:28:55] SHAP ozeti kaydedildi: results/cv_glmnet/aids2/shap_summary_n50.csv 
+[2026-08-08 16:28:55] SHAP ozeti kaydedildi: results/cv_glmnet/aids2/shap_summary_n50.csv 
+[2026-08-08 16:28:55] cv_glmnet_model - SHAP TIVM: 1e-04 
+[2026-08-08 16:28:55] cv_glmnet_model - SHAP TIVM: 1e-04 
+[2026-08-08 16:28:56] [BELLEK] [aids2/cv_glmnet] model+explainer silindi, dongu sonu - Sistem RSS: 3.141 GB | R heap (gc): 0.342 GB 
+[2026-08-08 16:28:56] [BELLEK] [aids2/cv_glmnet] model+explainer silindi, dongu sonu - Sistem RSS: 3.141 GB | R heap (gc): 0.342 GB 
+[2026-08-08 16:28:57] [BELLEK] [aids2/glmboost] model dongusu basi - Sistem RSS: 3.141 GB | R heap (gc): 0.342 GB 
+[2026-08-08 16:28:57] [BELLEK] [aids2/glmboost] model dongusu basi - Sistem RSS: 3.141 GB | R heap (gc): 0.342 GB 
+[2026-08-08 16:28:57] Kaydedilmis model bulundu, okunuyor: results/glmboost/aids2/model.rds 
+[2026-08-08 16:28:57] Kaydedilmis model bulundu, okunuyor: results/glmboost/aids2/model.rds 
+[2026-08-08 16:28:57] [BELLEK] [aids2/glmboost] model hazir - Sistem RSS: 3.141 GB | R heap (gc): 0.348 GB 
+[2026-08-08 16:28:57] [BELLEK] [aids2/glmboost] model hazir - Sistem RSS: 3.141 GB | R heap (gc): 0.348 GB 
+[2026-08-08 16:28:57] Performans hesaplama basladi: surv.glmboost 
+[2026-08-08 16:28:57] Performans hesaplama basladi: surv.glmboost 
+[2026-08-08 16:29:13] Performans hesaplama bitti: surv.glmboost - cindex: 0.535 - IBS (graf): 0.186 
+[2026-08-08 16:29:13] Performans hesaplama bitti: surv.glmboost - cindex: 0.535 - IBS (graf): 0.186 
+[2026-08-08 16:29:13] Performans kaydedildi: results/glmboost/aids2/performance.csv 
+[2026-08-08 16:29:13] Performans kaydedildi: results/glmboost/aids2/performance.csv 
+[2026-08-08 16:29:13] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/aids2/explainer.rds 
+[2026-08-08 16:29:13] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/aids2/explainer.rds 
+[2026-08-08 16:29:28] [BELLEK] [aids2/glmboost] explainer hazir - Sistem RSS: 4.455 GB | R heap (gc): 2.347 GB 
+[2026-08-08 16:29:28] [BELLEK] [aids2/glmboost] explainer hazir - Sistem RSS: 4.455 GB | R heap (gc): 2.347 GB 
+[2026-08-08 16:29:28] SHAP hesaplaniyor: glmboost_model - n_obs = 50 
+[2026-08-08 16:29:28] SHAP hesaplaniyor: glmboost_model - n_obs = 50 
+[2026-08-08 16:29:28] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 16:29:28] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 16:29:28] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 16:29:28] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 16:29:28] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 16:29:28] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 16:32:47] SHAP - gozlem 20 / 50 
+[2026-08-08 16:32:47] SHAP - gozlem 20 / 50 
+[2026-08-08 16:36:56] SHAP - gozlem 25 / 50 
+[2026-08-08 16:36:56] SHAP - gozlem 25 / 50 
+[2026-08-08 16:41:03] SHAP - gozlem 30 / 50 
+[2026-08-08 16:41:03] SHAP - gozlem 30 / 50 
+[2026-08-08 16:45:08] SHAP - gozlem 35 / 50 
+[2026-08-08 16:45:08] SHAP - gozlem 35 / 50 
+[2026-08-08 16:49:21] SHAP - gozlem 40 / 50 
+[2026-08-08 16:49:21] SHAP - gozlem 40 / 50 
+[2026-08-08 16:53:29] SHAP - gozlem 45 / 50 
+[2026-08-08 16:53:29] SHAP - gozlem 45 / 50 
+[2026-08-08 16:57:36] SHAP - gozlem 50 / 50 
+[2026-08-08 16:57:36] SHAP - gozlem 50 / 50 
+[2026-08-08 16:58:28] SHAP hesaplama bitti, kaydedildi: results/glmboost/aids2/shap_long_n50.csv 
+[2026-08-08 16:58:28] SHAP hesaplama bitti, kaydedildi: results/glmboost/aids2/shap_long_n50.csv 
+[2026-08-08 16:58:29] [BELLEK] [aids2/glmboost] SHAP sonrasi - Sistem RSS: 4.704 GB | R heap (gc): 2.349 GB 
+[2026-08-08 16:58:29] [BELLEK] [aids2/glmboost] SHAP sonrasi - Sistem RSS: 4.704 GB | R heap (gc): 2.349 GB 
+[2026-08-08 16:58:29] Grafik kaydedildi: results/glmboost/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 16:58:29] Grafik kaydedildi: results/glmboost/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 16:58:29] SHAP ozeti kaydedildi: results/glmboost/aids2/shap_summary_n50.csv 
+[2026-08-08 16:58:29] SHAP ozeti kaydedildi: results/glmboost/aids2/shap_summary_n50.csv 
+[2026-08-08 16:58:29] glmboost_model - SHAP TIVM: 1e-04 
+[2026-08-08 16:58:29] glmboost_model - SHAP TIVM: 1e-04 
+[2026-08-08 16:58:31] [BELLEK] [aids2/glmboost] model+explainer silindi, dongu sonu - Sistem RSS: 3.105 GB | R heap (gc): 0.343 GB 
+[2026-08-08 16:58:31] [BELLEK] [aids2/glmboost] model+explainer silindi, dongu sonu - Sistem RSS: 3.105 GB | R heap (gc): 0.343 GB 
+[2026-08-08 16:58:31] [BELLEK] [aids2/glmnet] model dongusu basi - Sistem RSS: 3.105 GB | R heap (gc): 0.343 GB 
+[2026-08-08 16:58:31] [BELLEK] [aids2/glmnet] model dongusu basi - Sistem RSS: 3.105 GB | R heap (gc): 0.343 GB 
+[2026-08-08 16:58:31] Kaydedilmis model bulundu, okunuyor: results/glmnet/aids2/model.rds 
+[2026-08-08 16:58:31] Kaydedilmis model bulundu, okunuyor: results/glmnet/aids2/model.rds 
+[2026-08-08 16:58:32] [BELLEK] [aids2/glmnet] model hazir - Sistem RSS: 3.105 GB | R heap (gc): 0.344 GB 
+[2026-08-08 16:58:32] [BELLEK] [aids2/glmnet] model hazir - Sistem RSS: 3.105 GB | R heap (gc): 0.344 GB 
+[2026-08-08 16:58:32] Performans hesaplama basladi: surv.glmnet 
+[2026-08-08 16:58:32] Performans hesaplama basladi: surv.glmnet 
+[2026-08-08 16:58:42] Performans hesaplama bitti: surv.glmnet - cindex: 0.539 - IBS (graf): 0.186 
+[2026-08-08 16:58:42] Performans hesaplama bitti: surv.glmnet - cindex: 0.539 - IBS (graf): 0.186 
+[2026-08-08 16:58:42] Performans kaydedildi: results/glmnet/aids2/performance.csv 
+[2026-08-08 16:58:42] Performans kaydedildi: results/glmnet/aids2/performance.csv 
+[2026-08-08 16:58:42] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/aids2/explainer.rds 
+[2026-08-08 16:58:42] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/aids2/explainer.rds 
+[2026-08-08 16:58:43] [BELLEK] [aids2/glmnet] explainer hazir - Sistem RSS: 3.105 GB | R heap (gc): 0.345 GB 
+[2026-08-08 16:58:43] [BELLEK] [aids2/glmnet] explainer hazir - Sistem RSS: 3.105 GB | R heap (gc): 0.345 GB 
+[2026-08-08 16:58:43] SHAP hesaplaniyor: glmnet_model - n_obs = 50 
+[2026-08-08 16:58:43] SHAP hesaplaniyor: glmnet_model - n_obs = 50 
+[2026-08-08 16:58:43] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 16:58:43] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 16:58:43] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 16:58:43] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 16:58:43] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 16:58:43] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 17:03:01] SHAP - gozlem 20 / 50 
+[2026-08-08 17:03:01] SHAP - gozlem 20 / 50 
+[2026-08-08 17:08:37] SHAP - gozlem 25 / 50 
+[2026-08-08 17:08:37] SHAP - gozlem 25 / 50 
+[2026-08-08 17:14:05] SHAP - gozlem 30 / 50 
+[2026-08-08 17:14:05] SHAP - gozlem 30 / 50 
+[2026-08-08 17:19:31] SHAP - gozlem 35 / 50 
+[2026-08-08 17:19:31] SHAP - gozlem 35 / 50 
+[2026-08-08 17:24:54] SHAP - gozlem 40 / 50 
+[2026-08-08 17:24:54] SHAP - gozlem 40 / 50 
+[2026-08-08 17:30:09] SHAP - gozlem 45 / 50 
+[2026-08-08 17:30:09] SHAP - gozlem 45 / 50 
+[2026-08-08 17:35:31] SHAP - gozlem 50 / 50 
+[2026-08-08 17:35:31] SHAP - gozlem 50 / 50 
+[2026-08-08 17:36:35] SHAP hesaplama bitti, kaydedildi: results/glmnet/aids2/shap_long_n50.csv 
+[2026-08-08 17:36:35] SHAP hesaplama bitti, kaydedildi: results/glmnet/aids2/shap_long_n50.csv 
+[2026-08-08 17:36:35] [BELLEK] [aids2/glmnet] SHAP sonrasi - Sistem RSS: 3.26 GB | R heap (gc): 0.347 GB 
+[2026-08-08 17:36:35] [BELLEK] [aids2/glmnet] SHAP sonrasi - Sistem RSS: 3.26 GB | R heap (gc): 0.347 GB 
+[2026-08-08 17:36:36] Grafik kaydedildi: results/glmnet/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 17:36:36] Grafik kaydedildi: results/glmnet/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 17:36:36] SHAP ozeti kaydedildi: results/glmnet/aids2/shap_summary_n50.csv 
+[2026-08-08 17:36:36] SHAP ozeti kaydedildi: results/glmnet/aids2/shap_summary_n50.csv 
+[2026-08-08 17:36:36] glmnet_model - SHAP TIVM: 1e-04 
+[2026-08-08 17:36:36] glmnet_model - SHAP TIVM: 1e-04 
+[2026-08-08 17:36:37] [BELLEK] [aids2/glmnet] model+explainer silindi, dongu sonu - Sistem RSS: 3.105 GB | R heap (gc): 0.344 GB 
+[2026-08-08 17:36:37] [BELLEK] [aids2/glmnet] model+explainer silindi, dongu sonu - Sistem RSS: 3.105 GB | R heap (gc): 0.344 GB 
+[2026-08-08 17:36:37] [BELLEK] [aids2/penalized] model dongusu basi - Sistem RSS: 3.105 GB | R heap (gc): 0.344 GB 
+[2026-08-08 17:36:37] [BELLEK] [aids2/penalized] model dongusu basi - Sistem RSS: 3.105 GB | R heap (gc): 0.344 GB 
+[2026-08-08 17:36:37] Kaydedilmis model bulundu, okunuyor: results/penalized/aids2/model.rds 
+[2026-08-08 17:36:37] Kaydedilmis model bulundu, okunuyor: results/penalized/aids2/model.rds 
+[2026-08-08 17:36:38] [BELLEK] [aids2/penalized] model hazir - Sistem RSS: 3.105 GB | R heap (gc): 0.345 GB 
+[2026-08-08 17:36:38] [BELLEK] [aids2/penalized] model hazir - Sistem RSS: 3.105 GB | R heap (gc): 0.345 GB 
+[2026-08-08 17:36:38] Performans hesaplama basladi: surv.penalized 
+[2026-08-08 17:36:38] Performans hesaplama basladi: surv.penalized 
+[2026-08-08 17:36:47] Performans hesaplama bitti: surv.penalized - cindex: 0.534 - IBS (graf): 0.186 
+[2026-08-08 17:36:47] Performans hesaplama bitti: surv.penalized - cindex: 0.534 - IBS (graf): 0.186 
+[2026-08-08 17:36:47] Performans kaydedildi: results/penalized/aids2/performance.csv 
+[2026-08-08 17:36:47] Performans kaydedildi: results/penalized/aids2/performance.csv 
+[2026-08-08 17:36:47] Kaydedilmis explainer bulundu, okunuyor: results/penalized/aids2/explainer.rds 
+[2026-08-08 17:36:47] Kaydedilmis explainer bulundu, okunuyor: results/penalized/aids2/explainer.rds 
+[2026-08-08 17:37:03] [BELLEK] [aids2/penalized] explainer hazir - Sistem RSS: 4.419 GB | R heap (gc): 2.343 GB 
+[2026-08-08 17:37:03] [BELLEK] [aids2/penalized] explainer hazir - Sistem RSS: 4.419 GB | R heap (gc): 2.343 GB 
+[2026-08-08 17:37:03] SHAP hesaplaniyor: penalized_model - n_obs = 50 
+[2026-08-08 17:37:03] SHAP hesaplaniyor: penalized_model - n_obs = 50 
+[2026-08-08 17:37:03] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 17:37:03] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 17:37:04] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 17:37:04] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 17:37:04] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 17:37:04] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 17:40:31] SHAP - gozlem 20 / 50 
+[2026-08-08 17:40:31] SHAP - gozlem 20 / 50 
+[2026-08-08 17:44:50] SHAP - gozlem 25 / 50 
+[2026-08-08 17:44:50] SHAP - gozlem 25 / 50 
+[2026-08-08 17:49:11] SHAP - gozlem 30 / 50 
+[2026-08-08 17:49:11] SHAP - gozlem 30 / 50 
+[2026-08-08 17:53:31] SHAP - gozlem 35 / 50 
+[2026-08-08 17:53:31] SHAP - gozlem 35 / 50 
+[2026-08-08 17:57:54] SHAP - gozlem 40 / 50 
+[2026-08-08 17:57:54] SHAP - gozlem 40 / 50 
+[2026-08-08 18:02:15] SHAP - gozlem 45 / 50 
+[2026-08-08 18:02:15] SHAP - gozlem 45 / 50 
+[2026-08-08 18:06:37] SHAP - gozlem 50 / 50 
+[2026-08-08 18:06:37] SHAP - gozlem 50 / 50 
+[2026-08-08 18:07:30] SHAP hesaplama bitti, kaydedildi: results/penalized/aids2/shap_long_n50.csv 
+[2026-08-08 18:07:30] SHAP hesaplama bitti, kaydedildi: results/penalized/aids2/shap_long_n50.csv 
+[2026-08-08 18:07:31] [BELLEK] [aids2/penalized] SHAP sonrasi - Sistem RSS: 4.763 GB | R heap (gc): 2.346 GB 
+[2026-08-08 18:07:31] [BELLEK] [aids2/penalized] SHAP sonrasi - Sistem RSS: 4.763 GB | R heap (gc): 2.346 GB 
+[2026-08-08 18:07:31] Grafik kaydedildi: results/penalized/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 18:07:31] Grafik kaydedildi: results/penalized/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 18:07:31] SHAP ozeti kaydedildi: results/penalized/aids2/shap_summary_n50.csv 
+[2026-08-08 18:07:31] SHAP ozeti kaydedildi: results/penalized/aids2/shap_summary_n50.csv 
+[2026-08-08 18:07:31] penalized_model - SHAP TIVM: 1e-04 
+[2026-08-08 18:07:31] penalized_model - SHAP TIVM: 1e-04 
+[2026-08-08 18:07:33] [BELLEK] [aids2/penalized] model+explainer silindi, dongu sonu - Sistem RSS: 3.105 GB | R heap (gc): 0.345 GB 
+[2026-08-08 18:07:33] [BELLEK] [aids2/penalized] model+explainer silindi, dongu sonu - Sistem RSS: 3.105 GB | R heap (gc): 0.345 GB 
+[2026-08-08 18:07:33] [BELLEK] [aids2/ranger] model dongusu basi - Sistem RSS: 3.105 GB | R heap (gc): 0.345 GB 
+[2026-08-08 18:07:33] [BELLEK] [aids2/ranger] model dongusu basi - Sistem RSS: 3.105 GB | R heap (gc): 0.345 GB 
+[2026-08-08 18:07:33] Kaydedilmis model bulundu, okunuyor: results/ranger/aids2/model.rds 
+[2026-08-08 18:07:33] Kaydedilmis model bulundu, okunuyor: results/ranger/aids2/model.rds 
+[2026-08-08 18:07:35] [BELLEK] [aids2/ranger] model hazir - Sistem RSS: 3.105 GB | R heap (gc): 0.562 GB 
+[2026-08-08 18:07:35] [BELLEK] [aids2/ranger] model hazir - Sistem RSS: 3.105 GB | R heap (gc): 0.562 GB 
+[2026-08-08 18:07:35] Performans hesaplama basladi: surv.ranger 
+[2026-08-08 18:07:35] Performans hesaplama basladi: surv.ranger 
+[2026-08-08 18:08:45] Performans hesaplama bitti: surv.ranger - cindex: 0.566 - IBS (graf): 0.191 
+[2026-08-08 18:08:45] Performans hesaplama bitti: surv.ranger - cindex: 0.566 - IBS (graf): 0.191 
+[2026-08-08 18:08:45] Performans kaydedildi: results/ranger/aids2/performance.csv 
+[2026-08-08 18:08:45] Performans kaydedildi: results/ranger/aids2/performance.csv 
+[2026-08-08 18:08:45] Kaydedilmis explainer bulundu, okunuyor: results/ranger/aids2/explainer.rds 
+[2026-08-08 18:08:45] Kaydedilmis explainer bulundu, okunuyor: results/ranger/aids2/explainer.rds 
+[2026-08-08 18:08:57] [BELLEK] [aids2/ranger] explainer hazir - Sistem RSS: 4.422 GB | R heap (gc): 2.561 GB 
+[2026-08-08 18:08:57] [BELLEK] [aids2/ranger] explainer hazir - Sistem RSS: 4.422 GB | R heap (gc): 2.561 GB 
+[2026-08-08 18:08:57] SHAP hesaplaniyor: ranger_model - n_obs = 50 
+[2026-08-08 18:08:57] SHAP hesaplaniyor: ranger_model - n_obs = 50 
+[2026-08-08 18:08:58] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 18:08:58] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 18:08:58] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 18:08:58] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 18:08:58] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 18:08:58] SHAP hesaplama basladi, n_obs = 50 
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 54 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 24 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 53 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 22 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 3 minutes, 52 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 3 minutes, 21 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 2 minutes, 50 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 2 minutes, 18 seconds.
+Aggregating predictions.. Progress: 72%. Estimated remaining time: 1 minute, 47 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 1 minute, 16 seconds.
+Aggregating predictions.. Progress: 88%. Estimated remaining time: 45 seconds.
+Aggregating predictions.. Progress: 96%. Estimated remaining time: 15 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 6 minutes, 15 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 29 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 53 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 19 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 3 minutes, 48 seconds.
+Aggregating predictions.. Progress: 49%. Estimated remaining time: 3 minutes, 16 seconds.
+Aggregating predictions.. Progress: 57%. Estimated remaining time: 2 minutes, 44 seconds.
+Aggregating predictions.. Progress: 65%. Estimated remaining time: 2 minutes, 12 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 1 minute, 41 seconds.
+Aggregating predictions.. Progress: 82%. Estimated remaining time: 1 minute, 10 seconds.
+Aggregating predictions.. Progress: 90%. Estimated remaining time: 39 seconds.
+Aggregating predictions.. Progress: 98%. Estimated remaining time: 7 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 53 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 23 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 53 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 23 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 3 minutes, 52 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 3 minutes, 21 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 2 minutes, 50 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 2 minutes, 19 seconds.
+Aggregating predictions.. Progress: 72%. Estimated remaining time: 1 minute, 48 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 1 minute, 18 seconds.
+Aggregating predictions.. Progress: 88%. Estimated remaining time: 47 seconds.
+Aggregating predictions.. Progress: 96%. Estimated remaining time: 15 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 50 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 20 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 51 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 20 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 3 minutes, 48 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 3 minutes, 17 seconds.
+Aggregating predictions.. Progress: 57%. Estimated remaining time: 2 minutes, 46 seconds.
+Aggregating predictions.. Progress: 65%. Estimated remaining time: 2 minutes, 14 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 1 minute, 43 seconds.
+Aggregating predictions.. Progress: 81%. Estimated remaining time: 1 minute, 12 seconds.
+Aggregating predictions.. Progress: 89%. Estimated remaining time: 41 seconds.
+Aggregating predictions.. Progress: 97%. Estimated remaining time: 11 seconds.
+[2026-08-08 18:40:00] SHAP - gozlem 20 / 50 
+[2026-08-08 18:40:00] SHAP - gozlem 20 / 50 
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 47 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 17 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 5 minutes, 0 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 26 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 3 minutes, 53 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 3 minutes, 21 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 2 minutes, 50 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 2 minutes, 18 seconds.
+Aggregating predictions.. Progress: 72%. Estimated remaining time: 1 minute, 46 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 1 minute, 15 seconds.
+Aggregating predictions.. Progress: 89%. Estimated remaining time: 44 seconds.
+Aggregating predictions.. Progress: 97%. Estimated remaining time: 12 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 45 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 17 seconds.
+Aggregating predictions.. Progress: 25%. Estimated remaining time: 4 minutes, 45 seconds.
+Aggregating predictions.. Progress: 33%. Estimated remaining time: 4 minutes, 15 seconds.
+Aggregating predictions.. Progress: 41%. Estimated remaining time: 3 minutes, 44 seconds.
+Aggregating predictions.. Progress: 49%. Estimated remaining time: 3 minutes, 13 seconds.
+Aggregating predictions.. Progress: 57%. Estimated remaining time: 2 minutes, 42 seconds.
+Aggregating predictions.. Progress: 65%. Estimated remaining time: 2 minutes, 12 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 1 minute, 41 seconds.
+Aggregating predictions.. Progress: 81%. Estimated remaining time: 1 minute, 10 seconds.
+Aggregating predictions.. Progress: 89%. Estimated remaining time: 40 seconds.
+Aggregating predictions.. Progress: 98%. Estimated remaining time: 9 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 6 minutes, 2 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 31 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 59 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 28 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 3 minutes, 57 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 3 minutes, 25 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 2 minutes, 54 seconds.
+Aggregating predictions.. Progress: 63%. Estimated remaining time: 2 minutes, 24 seconds.
+Aggregating predictions.. Progress: 71%. Estimated remaining time: 1 minute, 52 seconds.
+Aggregating predictions.. Progress: 79%. Estimated remaining time: 1 minute, 21 seconds.
+Aggregating predictions.. Progress: 87%. Estimated remaining time: 50 seconds.
+Aggregating predictions.. Progress: 95%. Estimated remaining time: 19 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 52 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 21 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 49 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 28 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 3 minutes, 55 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 3 minutes, 22 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 2 minutes, 50 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 2 minutes, 19 seconds.
+Aggregating predictions.. Progress: 72%. Estimated remaining time: 1 minute, 47 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 1 minute, 16 seconds.
+Aggregating predictions.. Progress: 88%. Estimated remaining time: 44 seconds.
+Aggregating predictions.. Progress: 97%. Estimated remaining time: 13 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 50 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 19 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 48 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 18 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 3 minutes, 48 seconds.
+Aggregating predictions.. Progress: 49%. Estimated remaining time: 3 minutes, 17 seconds.
+Aggregating predictions.. Progress: 57%. Estimated remaining time: 2 minutes, 46 seconds.
+Aggregating predictions.. Progress: 65%. Estimated remaining time: 2 minutes, 15 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 1 minute, 45 seconds.
+Aggregating predictions.. Progress: 81%. Estimated remaining time: 1 minute, 14 seconds.
+Aggregating predictions.. Progress: 89%. Estimated remaining time: 43 seconds.
+Aggregating predictions.. Progress: 97%. Estimated remaining time: 12 seconds.
+[2026-08-08 19:18:40] SHAP - gozlem 25 / 50 
+[2026-08-08 19:18:40] SHAP - gozlem 25 / 50 
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 51 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 20 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 49 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 18 seconds.
+Aggregating predictions.. Progress: 41%. Estimated remaining time: 3 minutes, 47 seconds.
+Aggregating predictions.. Progress: 49%. Estimated remaining time: 3 minutes, 17 seconds.
+Aggregating predictions.. Progress: 57%. Estimated remaining time: 2 minutes, 45 seconds.
+Aggregating predictions.. Progress: 65%. Estimated remaining time: 2 minutes, 14 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 1 minute, 43 seconds.
+Aggregating predictions.. Progress: 81%. Estimated remaining time: 1 minute, 12 seconds.
+Aggregating predictions.. Progress: 89%. Estimated remaining time: 41 seconds.
+Aggregating predictions.. Progress: 97%. Estimated remaining time: 10 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 54 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 24 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 52 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 23 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 3 minutes, 52 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 3 minutes, 21 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 2 minutes, 50 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 2 minutes, 20 seconds.
+Aggregating predictions.. Progress: 72%. Estimated remaining time: 1 minute, 48 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 1 minute, 17 seconds.
+Aggregating predictions.. Progress: 88%. Estimated remaining time: 46 seconds.
+Aggregating predictions.. Progress: 96%. Estimated remaining time: 15 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 52 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 21 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 50 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 19 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 3 minutes, 49 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 3 minutes, 17 seconds.
+Aggregating predictions.. Progress: 57%. Estimated remaining time: 2 minutes, 46 seconds.
+Aggregating predictions.. Progress: 65%. Estimated remaining time: 2 minutes, 16 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 1 minute, 45 seconds.
+Aggregating predictions.. Progress: 81%. Estimated remaining time: 1 minute, 13 seconds.
+Aggregating predictions.. Progress: 89%. Estimated remaining time: 42 seconds.
+Aggregating predictions.. Progress: 97%. Estimated remaining time: 11 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 56 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 26 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 55 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 24 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 3 minutes, 53 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 3 minutes, 22 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 2 minutes, 51 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 2 minutes, 20 seconds.
+Aggregating predictions.. Progress: 72%. Estimated remaining time: 1 minute, 49 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 1 minute, 18 seconds.
+Aggregating predictions.. Progress: 88%. Estimated remaining time: 47 seconds.
+Aggregating predictions.. Progress: 96%. Estimated remaining time: 16 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 49 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 19 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 50 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 19 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 3 minutes, 50 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 3 minutes, 18 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 2 minutes, 47 seconds.
+Aggregating predictions.. Progress: 65%. Estimated remaining time: 2 minutes, 16 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 1 minute, 45 seconds.
+Aggregating predictions.. Progress: 81%. Estimated remaining time: 1 minute, 13 seconds.
+Aggregating predictions.. Progress: 89%. Estimated remaining time: 42 seconds.
+Aggregating predictions.. Progress: 97%. Estimated remaining time: 12 seconds.
+[2026-08-08 19:57:21] SHAP - gozlem 30 / 50 
+[2026-08-08 19:57:21] SHAP - gozlem 30 / 50 
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 52 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 22 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 51 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 20 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 3 minutes, 49 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 3 minutes, 19 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 2 minutes, 48 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 2 minutes, 17 seconds.
+Aggregating predictions.. Progress: 72%. Estimated remaining time: 1 minute, 46 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 1 minute, 15 seconds.
+Aggregating predictions.. Progress: 88%. Estimated remaining time: 44 seconds.
+Aggregating predictions.. Progress: 96%. Estimated remaining time: 14 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 59 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 28 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 56 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 26 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 3 minutes, 56 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 3 minutes, 25 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 2 minutes, 54 seconds.
+Aggregating predictions.. Progress: 63%. Estimated remaining time: 2 minutes, 23 seconds.
+Aggregating predictions.. Progress: 71%. Estimated remaining time: 1 minute, 51 seconds.
+Aggregating predictions.. Progress: 79%. Estimated remaining time: 1 minute, 20 seconds.
+Aggregating predictions.. Progress: 87%. Estimated remaining time: 49 seconds.
+Aggregating predictions.. Progress: 95%. Estimated remaining time: 18 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 54 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 25 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 53 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 22 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 3 minutes, 51 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 3 minutes, 20 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 2 minutes, 49 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 2 minutes, 17 seconds.
+Aggregating predictions.. Progress: 72%. Estimated remaining time: 1 minute, 47 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 1 minute, 15 seconds.
+Aggregating predictions.. Progress: 88%. Estimated remaining time: 45 seconds.
+Aggregating predictions.. Progress: 96%. Estimated remaining time: 14 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 6 minutes, 0 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 28 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 57 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 25 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 3 minutes, 54 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 3 minutes, 24 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 2 minutes, 52 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 2 minutes, 22 seconds.
+Aggregating predictions.. Progress: 71%. Estimated remaining time: 1 minute, 51 seconds.
+Aggregating predictions.. Progress: 79%. Estimated remaining time: 1 minute, 20 seconds.
+Aggregating predictions.. Progress: 87%. Estimated remaining time: 50 seconds.
+Aggregating predictions.. Progress: 95%. Estimated remaining time: 20 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 6 minutes, 1 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 32 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 5 minutes, 1 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 4 minutes, 30 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 3 minutes, 59 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 3 minutes, 28 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 2 minutes, 56 seconds.
+Aggregating predictions.. Progress: 63%. Estimated remaining time: 2 minutes, 25 seconds.
+Aggregating predictions.. Progress: 71%. Estimated remaining time: 1 minute, 54 seconds.
+Aggregating predictions.. Progress: 79%. Estimated remaining time: 1 minute, 23 seconds.
+Aggregating predictions.. Progress: 87%. Estimated remaining time: 52 seconds.
+Aggregating predictions.. Progress: 95%. Estimated remaining time: 21 seconds.
+[2026-08-08 20:36:26] SHAP - gozlem 35 / 50 
+[2026-08-08 20:36:26] SHAP - gozlem 35 / 50 
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 50 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 19 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 48 seconds.
+Aggregating predictions.. Progress: 33%. Estimated remaining time: 4 minutes, 17 seconds.
+Aggregating predictions.. Progress: 41%. Estimated remaining time: 3 minutes, 46 seconds.
+Aggregating predictions.. Progress: 49%. Estimated remaining time: 3 minutes, 14 seconds.
+Aggregating predictions.. Progress: 57%. Estimated remaining time: 2 minutes, 43 seconds.
+Aggregating predictions.. Progress: 65%. Estimated remaining time: 2 minutes, 12 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 1 minute, 43 seconds.
+Aggregating predictions.. Progress: 81%. Estimated remaining time: 1 minute, 12 seconds.
+Aggregating predictions.. Progress: 89%. Estimated remaining time: 41 seconds.
+Aggregating predictions.. Progress: 97%. Estimated remaining time: 10 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 6 minutes, 2 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 33 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 5 minutes, 2 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 4 minutes, 40 seconds.
+Aggregating predictions.. Progress: 38%. Estimated remaining time: 4 minutes, 9 seconds.
+Aggregating predictions.. Progress: 46%. Estimated remaining time: 3 minutes, 37 seconds.
+Aggregating predictions.. Progress: 54%. Estimated remaining time: 3 minutes, 5 seconds.
+Aggregating predictions.. Progress: 62%. Estimated remaining time: 2 minutes, 33 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 2 minutes, 1 seconds.
+Aggregating predictions.. Progress: 77%. Estimated remaining time: 1 minute, 30 seconds.
+Aggregating predictions.. Progress: 85%. Estimated remaining time: 58 seconds.
+Aggregating predictions.. Progress: 93%. Estimated remaining time: 27 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 6 minutes, 4 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 35 seconds.
+Aggregating predictions.. Progress: 23%. Estimated remaining time: 5 minutes, 5 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 4 minutes, 33 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 4 minutes, 2 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 3 minutes, 31 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 3 minutes, 0 seconds.
+Aggregating predictions.. Progress: 62%. Estimated remaining time: 2 minutes, 29 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 1 minute, 57 seconds.
+Aggregating predictions.. Progress: 78%. Estimated remaining time: 1 minute, 27 seconds.
+Aggregating predictions.. Progress: 86%. Estimated remaining time: 56 seconds.
+Aggregating predictions.. Progress: 94%. Estimated remaining time: 25 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 6 minutes, 6 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 36 seconds.
+Aggregating predictions.. Progress: 23%. Estimated remaining time: 5 minutes, 6 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 4 minutes, 35 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 4 minutes, 4 seconds.
+Aggregating predictions.. Progress: 46%. Estimated remaining time: 3 minutes, 34 seconds.
+Aggregating predictions.. Progress: 54%. Estimated remaining time: 3 minutes, 3 seconds.
+Aggregating predictions.. Progress: 62%. Estimated remaining time: 2 minutes, 32 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 2 minutes, 1 seconds.
+Aggregating predictions.. Progress: 77%. Estimated remaining time: 1 minute, 30 seconds.
+Aggregating predictions.. Progress: 85%. Estimated remaining time: 59 seconds.
+Aggregating predictions.. Progress: 93%. Estimated remaining time: 29 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 6 minutes, 8 seconds.
+Aggregating predictions.. Progress: 15%. Estimated remaining time: 5 minutes, 38 seconds.
+Aggregating predictions.. Progress: 23%. Estimated remaining time: 5 minutes, 8 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 4 minutes, 37 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 4 minutes, 5 seconds.
+Aggregating predictions.. Progress: 46%. Estimated remaining time: 3 minutes, 34 seconds.
+Aggregating predictions.. Progress: 54%. Estimated remaining time: 3 minutes, 2 seconds.
+Aggregating predictions.. Progress: 62%. Estimated remaining time: 2 minutes, 31 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 2 minutes, 0 seconds.
+Aggregating predictions.. Progress: 78%. Estimated remaining time: 1 minute, 29 seconds.
+Aggregating predictions.. Progress: 85%. Estimated remaining time: 58 seconds.
+Aggregating predictions.. Progress: 93%. Estimated remaining time: 26 seconds.
+[2026-08-08 21:16:10] SHAP - gozlem 40 / 50 
+[2026-08-08 21:16:10] SHAP - gozlem 40 / 50 
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 6 minutes, 1 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 31 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 5 minutes, 0 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 4 minutes, 29 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 3 minutes, 58 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 3 minutes, 27 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 2 minutes, 57 seconds.
+Aggregating predictions.. Progress: 63%. Estimated remaining time: 2 minutes, 25 seconds.
+Aggregating predictions.. Progress: 71%. Estimated remaining time: 1 minute, 54 seconds.
+Aggregating predictions.. Progress: 79%. Estimated remaining time: 1 minute, 24 seconds.
+Aggregating predictions.. Progress: 86%. Estimated remaining time: 53 seconds.
+Aggregating predictions.. Progress: 94%. Estimated remaining time: 22 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 59 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 30 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 59 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 28 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 3 minutes, 58 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 3 minutes, 27 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 2 minutes, 56 seconds.
+Aggregating predictions.. Progress: 63%. Estimated remaining time: 2 minutes, 25 seconds.
+Aggregating predictions.. Progress: 71%. Estimated remaining time: 1 minute, 54 seconds.
+Aggregating predictions.. Progress: 79%. Estimated remaining time: 1 minute, 23 seconds.
+Aggregating predictions.. Progress: 87%. Estimated remaining time: 53 seconds.
+Aggregating predictions.. Progress: 94%. Estimated remaining time: 22 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 55 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 26 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 56 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 25 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 3 minutes, 54 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 3 minutes, 23 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 2 minutes, 52 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 2 minutes, 21 seconds.
+Aggregating predictions.. Progress: 72%. Estimated remaining time: 1 minute, 50 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 1 minute, 19 seconds.
+Aggregating predictions.. Progress: 87%. Estimated remaining time: 48 seconds.
+Aggregating predictions.. Progress: 95%. Estimated remaining time: 18 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 6 minutes, 1 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 33 seconds.
+Aggregating predictions.. Progress: 23%. Estimated remaining time: 5 minutes, 3 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 4 minutes, 33 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 4 minutes, 2 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 3 minutes, 31 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 3 minutes, 0 seconds.
+Aggregating predictions.. Progress: 62%. Estimated remaining time: 2 minutes, 29 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 1 minute, 58 seconds.
+Aggregating predictions.. Progress: 78%. Estimated remaining time: 1 minute, 27 seconds.
+Aggregating predictions.. Progress: 86%. Estimated remaining time: 56 seconds.
+Aggregating predictions.. Progress: 94%. Estimated remaining time: 25 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 58 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 28 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 58 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 28 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 3 minutes, 57 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 3 minutes, 26 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 2 minutes, 55 seconds.
+Aggregating predictions.. Progress: 63%. Estimated remaining time: 2 minutes, 24 seconds.
+Aggregating predictions.. Progress: 71%. Estimated remaining time: 1 minute, 53 seconds.
+Aggregating predictions.. Progress: 79%. Estimated remaining time: 1 minute, 22 seconds.
+Aggregating predictions.. Progress: 87%. Estimated remaining time: 50 seconds.
+Aggregating predictions.. Progress: 95%. Estimated remaining time: 19 seconds.
+[2026-08-08 21:55:41] SHAP - gozlem 45 / 50 
+[2026-08-08 21:55:41] SHAP - gozlem 45 / 50 
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 6 minutes, 5 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 37 seconds.
+Aggregating predictions.. Progress: 23%. Estimated remaining time: 5 minutes, 6 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 4 minutes, 35 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 4 minutes, 4 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 3 minutes, 33 seconds.
+Aggregating predictions.. Progress: 54%. Estimated remaining time: 3 minutes, 2 seconds.
+Aggregating predictions.. Progress: 62%. Estimated remaining time: 2 minutes, 31 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 2 minutes, 0 seconds.
+Aggregating predictions.. Progress: 78%. Estimated remaining time: 1 minute, 29 seconds.
+Aggregating predictions.. Progress: 85%. Estimated remaining time: 58 seconds.
+Aggregating predictions.. Progress: 93%. Estimated remaining time: 27 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 6 minutes, 0 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 31 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 5 minutes, 0 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 4 minutes, 28 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 3 minutes, 58 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 3 minutes, 27 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 2 minutes, 56 seconds.
+Aggregating predictions.. Progress: 63%. Estimated remaining time: 2 minutes, 26 seconds.
+Aggregating predictions.. Progress: 71%. Estimated remaining time: 1 minute, 56 seconds.
+Aggregating predictions.. Progress: 79%. Estimated remaining time: 1 minute, 24 seconds.
+Aggregating predictions.. Progress: 86%. Estimated remaining time: 53 seconds.
+Aggregating predictions.. Progress: 94%. Estimated remaining time: 22 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 6 minutes, 3 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 33 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 5 minutes, 1 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 4 minutes, 29 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 3 minutes, 59 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 3 minutes, 28 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 2 minutes, 57 seconds.
+Aggregating predictions.. Progress: 63%. Estimated remaining time: 2 minutes, 25 seconds.
+Aggregating predictions.. Progress: 71%. Estimated remaining time: 1 minute, 54 seconds.
+Aggregating predictions.. Progress: 79%. Estimated remaining time: 1 minute, 23 seconds.
+Aggregating predictions.. Progress: 87%. Estimated remaining time: 53 seconds.
+Aggregating predictions.. Progress: 94%. Estimated remaining time: 22 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 5 minutes, 57 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 27 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 4 minutes, 58 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 4 minutes, 35 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 4 minutes, 3 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 3 minutes, 31 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 2 minutes, 59 seconds.
+Aggregating predictions.. Progress: 63%. Estimated remaining time: 2 minutes, 27 seconds.
+Aggregating predictions.. Progress: 71%. Estimated remaining time: 1 minute, 56 seconds.
+Aggregating predictions.. Progress: 78%. Estimated remaining time: 1 minute, 24 seconds.
+Aggregating predictions.. Progress: 86%. Estimated remaining time: 53 seconds.
+Aggregating predictions.. Progress: 94%. Estimated remaining time: 22 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 6 minutes, 4 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 35 seconds.
+Aggregating predictions.. Progress: 23%. Estimated remaining time: 5 minutes, 4 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 4 minutes, 33 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 4 minutes, 2 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 3 minutes, 31 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 3 minutes, 0 seconds.
+Aggregating predictions.. Progress: 62%. Estimated remaining time: 2 minutes, 33 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 2 minutes, 1 seconds.
+Aggregating predictions.. Progress: 77%. Estimated remaining time: 1 minute, 30 seconds.
+Aggregating predictions.. Progress: 85%. Estimated remaining time: 59 seconds.
+Aggregating predictions.. Progress: 93%. Estimated remaining time: 27 seconds.
+[2026-08-08 22:35:28] SHAP - gozlem 50 / 50 
+[2026-08-08 22:35:28] SHAP - gozlem 50 / 50 
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 6 minutes, 5 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 5 minutes, 34 seconds.
+Aggregating predictions.. Progress: 23%. Estimated remaining time: 5 minutes, 3 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 4 minutes, 32 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 4 minutes, 1 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 3 minutes, 30 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 2 minutes, 59 seconds.
+Aggregating predictions.. Progress: 63%. Estimated remaining time: 2 minutes, 28 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 1 minute, 57 seconds.
+Aggregating predictions.. Progress: 78%. Estimated remaining time: 1 minute, 27 seconds.
+Aggregating predictions.. Progress: 86%. Estimated remaining time: 57 seconds.
+Aggregating predictions.. Progress: 93%. Estimated remaining time: 26 seconds.
+[2026-08-08 22:43:30] SHAP hesaplama bitti, kaydedildi: results/ranger/aids2/shap_long_n50.csv 
+[2026-08-08 22:43:30] SHAP hesaplama bitti, kaydedildi: results/ranger/aids2/shap_long_n50.csv 
+[2026-08-08 22:43:31] [BELLEK] [aids2/ranger] SHAP sonrasi - Sistem RSS: 4.748 GB | R heap (gc): 2.563 GB 
+[2026-08-08 22:43:31] [BELLEK] [aids2/ranger] SHAP sonrasi - Sistem RSS: 4.748 GB | R heap (gc): 2.563 GB 
+[2026-08-08 22:43:32] Grafik kaydedildi: results/ranger/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 22:43:32] Grafik kaydedildi: results/ranger/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 22:43:32] SHAP ozeti kaydedildi: results/ranger/aids2/shap_summary_n50.csv 
+[2026-08-08 22:43:32] SHAP ozeti kaydedildi: results/ranger/aids2/shap_summary_n50.csv 
+[2026-08-08 22:43:32] ranger_model - SHAP TIVM: 7e-04 
+[2026-08-08 22:43:32] ranger_model - SHAP TIVM: 7e-04 
+[2026-08-08 22:43:33] [BELLEK] [aids2/ranger] model+explainer silindi, dongu sonu - Sistem RSS: 3.15 GB | R heap (gc): 0.346 GB 
+[2026-08-08 22:43:33] [BELLEK] [aids2/ranger] model+explainer silindi, dongu sonu - Sistem RSS: 3.15 GB | R heap (gc): 0.346 GB 
+[2026-08-08 22:43:33] [BELLEK] [aids2/rfsrc] model dongusu basi - Sistem RSS: 3.15 GB | R heap (gc): 0.346 GB 
+[2026-08-08 22:43:33] [BELLEK] [aids2/rfsrc] model dongusu basi - Sistem RSS: 3.15 GB | R heap (gc): 0.346 GB 
+[2026-08-08 22:43:33] Kaydedilmis model bulundu, okunuyor: results/rfsrc/aids2/model.rds 
+[2026-08-08 22:43:33] Kaydedilmis model bulundu, okunuyor: results/rfsrc/aids2/model.rds 
+[2026-08-08 22:43:46] [BELLEK] [aids2/rfsrc] model hazir - Sistem RSS: 4.464 GB | R heap (gc): 2.019 GB 
+[2026-08-08 22:43:46] [BELLEK] [aids2/rfsrc] model hazir - Sistem RSS: 4.464 GB | R heap (gc): 2.019 GB 
+[2026-08-08 22:43:46] Performans hesaplama basladi: surv.rfsrc 
+[2026-08-08 22:43:46] Performans hesaplama basladi: surv.rfsrc 
+[2026-08-08 22:44:34] Performans hesaplama bitti: surv.rfsrc - cindex: 0.561 - IBS (graf): 0.201 
+[2026-08-08 22:44:34] Performans hesaplama bitti: surv.rfsrc - cindex: 0.561 - IBS (graf): 0.201 
+[2026-08-08 22:44:34] Performans kaydedildi: results/rfsrc/aids2/performance.csv 
+[2026-08-08 22:44:34] Performans kaydedildi: results/rfsrc/aids2/performance.csv 
+[2026-08-08 22:44:34] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/aids2/explainer.rds 
+[2026-08-08 22:44:34] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/aids2/explainer.rds 
+[2026-08-08 22:44:45] [BELLEK] [aids2/rfsrc] explainer hazir - Sistem RSS: 5.966 GB | R heap (gc): 4.02 GB 
+[2026-08-08 22:44:45] [BELLEK] [aids2/rfsrc] explainer hazir - Sistem RSS: 5.966 GB | R heap (gc): 4.02 GB 
+[2026-08-08 22:44:45] SHAP hesaplaniyor: rfsrc_model - n_obs = 50 
+[2026-08-08 22:44:45] SHAP hesaplaniyor: rfsrc_model - n_obs = 50 
+[2026-08-08 22:44:45] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 22:44:45] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 22:44:45] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 22:44:45] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 22:44:45] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 22:44:45] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 22:51:57] SHAP - gozlem 20 / 50 
+[2026-08-08 22:51:57] SHAP - gozlem 20 / 50 
+[2026-08-08 23:00:58] SHAP - gozlem 25 / 50 
+[2026-08-08 23:00:58] SHAP - gozlem 25 / 50 
+[2026-08-08 23:10:01] SHAP - gozlem 30 / 50 
+[2026-08-08 23:10:01] SHAP - gozlem 30 / 50 
+[2026-08-08 23:18:58] SHAP - gozlem 35 / 50 
+[2026-08-08 23:18:58] SHAP - gozlem 35 / 50 
+[2026-08-08 23:28:08] SHAP - gozlem 40 / 50 
+[2026-08-08 23:28:08] SHAP - gozlem 40 / 50 
+[2026-08-08 23:37:26] SHAP - gozlem 45 / 50 
+[2026-08-08 23:37:26] SHAP - gozlem 45 / 50 
+[2026-08-08 23:46:35] SHAP - gozlem 50 / 50 
+[2026-08-08 23:46:35] SHAP - gozlem 50 / 50 
+[2026-08-08 23:48:31] SHAP hesaplama bitti, kaydedildi: results/rfsrc/aids2/shap_long_n50.csv 
+[2026-08-08 23:48:31] SHAP hesaplama bitti, kaydedildi: results/rfsrc/aids2/shap_long_n50.csv 
+[2026-08-08 23:48:32] [BELLEK] [aids2/rfsrc] SHAP sonrasi - Sistem RSS: 7.016 GB | R heap (gc): 4.022 GB 
+[2026-08-08 23:48:32] [BELLEK] [aids2/rfsrc] SHAP sonrasi - Sistem RSS: 7.016 GB | R heap (gc): 4.022 GB 
+[2026-08-08 23:48:32] Grafik kaydedildi: results/rfsrc/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 23:48:32] Grafik kaydedildi: results/rfsrc/aids2/plots/survshap_plot_n50.png 
+[2026-08-08 23:48:32] SHAP ozeti kaydedildi: results/rfsrc/aids2/shap_summary_n50.csv 
+[2026-08-08 23:48:32] SHAP ozeti kaydedildi: results/rfsrc/aids2/shap_summary_n50.csv 
+[2026-08-08 23:48:32] rfsrc_model - SHAP TIVM: 9e-04 
+[2026-08-08 23:48:32] rfsrc_model - SHAP TIVM: 9e-04 
+[2026-08-08 23:48:34] [BELLEK] [aids2/rfsrc] model+explainer silindi, dongu sonu - Sistem RSS: 3.15 GB | R heap (gc): 0.349 GB 
+[2026-08-08 23:48:34] [BELLEK] [aids2/rfsrc] model+explainer silindi, dongu sonu - Sistem RSS: 3.15 GB | R heap (gc): 0.349 GB 
+[2026-08-08 23:48:34] [BELLEK] [aids2/xgboost_cox] model dongusu basi - Sistem RSS: 3.15 GB | R heap (gc): 0.349 GB 
+[2026-08-08 23:48:34] [BELLEK] [aids2/xgboost_cox] model dongusu basi - Sistem RSS: 3.15 GB | R heap (gc): 0.349 GB 
+[2026-08-08 23:48:34] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/aids2/model.rds 
+[2026-08-08 23:48:34] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/aids2/model.rds 
+[2026-08-08 23:48:35] [BELLEK] [aids2/xgboost_cox] model hazir - Sistem RSS: 3.15 GB | R heap (gc): 0.349 GB 
+[2026-08-08 23:48:35] [BELLEK] [aids2/xgboost_cox] model hazir - Sistem RSS: 3.15 GB | R heap (gc): 0.349 GB 
+[2026-08-08 23:48:35] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-08-08 23:48:35] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-08-08 23:48:45] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.562 - IBS (graf): 0.224 
+[2026-08-08 23:48:45] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.562 - IBS (graf): 0.224 
+[2026-08-08 23:48:45] Performans kaydedildi: results/xgboost_cox/aids2/performance.csv 
+[2026-08-08 23:48:45] Performans kaydedildi: results/xgboost_cox/aids2/performance.csv 
+[2026-08-08 23:48:45] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/aids2/explainer.rds 
+[2026-08-08 23:48:45] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/aids2/explainer.rds 
+[2026-08-08 23:48:57] [BELLEK] [aids2/xgboost_cox] explainer hazir - Sistem RSS: 4.466 GB | R heap (gc): 2.348 GB 
+[2026-08-08 23:48:57] [BELLEK] [aids2/xgboost_cox] explainer hazir - Sistem RSS: 4.466 GB | R heap (gc): 2.348 GB 
+[2026-08-08 23:48:57] SHAP hesaplaniyor: xgboost_cox_model - n_obs = 50 
+[2026-08-08 23:48:57] SHAP hesaplaniyor: xgboost_cox_model - n_obs = 50 
+[2026-08-08 23:48:57] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 23:48:57] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-08 23:48:57] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 23:48:57] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-08 23:48:57] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 23:48:57] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-08 23:53:13] SHAP - gozlem 20 / 50 
+[2026-08-08 23:53:13] SHAP - gozlem 20 / 50 
+[2026-08-08 23:58:32] SHAP - gozlem 25 / 50 
+[2026-08-08 23:58:32] SHAP - gozlem 25 / 50 
+[2026-08-09 00:04:00] SHAP - gozlem 30 / 50 
+[2026-08-09 00:04:00] SHAP - gozlem 30 / 50 
+[2026-08-09 00:09:23] SHAP - gozlem 35 / 50 
+[2026-08-09 00:09:23] SHAP - gozlem 35 / 50 
+[2026-08-09 00:14:43] SHAP - gozlem 40 / 50 
+[2026-08-09 00:14:43] SHAP - gozlem 40 / 50 
+[2026-08-09 00:20:01] SHAP - gozlem 45 / 50 
+[2026-08-09 00:20:01] SHAP - gozlem 45 / 50 
+[2026-08-09 00:25:26] SHAP - gozlem 50 / 50 
+[2026-08-09 00:25:26] SHAP - gozlem 50 / 50 
+[2026-08-09 00:26:32] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/aids2/shap_long_n50.csv 
+[2026-08-09 00:26:32] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/aids2/shap_long_n50.csv 
+[2026-08-09 00:26:33] [BELLEK] [aids2/xgboost_cox] SHAP sonrasi - Sistem RSS: 5.137 GB | R heap (gc): 2.35 GB 
+[2026-08-09 00:26:33] [BELLEK] [aids2/xgboost_cox] SHAP sonrasi - Sistem RSS: 5.137 GB | R heap (gc): 2.35 GB 
+[2026-08-09 00:26:34] Grafik kaydedildi: results/xgboost_cox/aids2/plots/survshap_plot_n50.png 
+[2026-08-09 00:26:34] Grafik kaydedildi: results/xgboost_cox/aids2/plots/survshap_plot_n50.png 
+[2026-08-09 00:26:34] SHAP ozeti kaydedildi: results/xgboost_cox/aids2/shap_summary_n50.csv 
+[2026-08-09 00:26:34] SHAP ozeti kaydedildi: results/xgboost_cox/aids2/shap_summary_n50.csv 
+[2026-08-09 00:26:34] xgboost_cox_model - SHAP TIVM: 3e-04 
+[2026-08-09 00:26:34] xgboost_cox_model - SHAP TIVM: 3e-04 
+[2026-08-09 00:26:35] [BELLEK] [aids2/xgboost_cox] model+explainer silindi, dongu sonu - Sistem RSS: 3.152 GB | R heap (gc): 0.35 GB 
+[2026-08-09 00:26:35] [BELLEK] [aids2/xgboost_cox] model+explainer silindi, dongu sonu - Sistem RSS: 3.152 GB | R heap (gc): 0.35 GB 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + coxboost - cindex: 0.535 - PFI TIVM: 2e-04 - SHAP TIVM: 1e-04 ===== 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + coxboost - cindex: 0.535 - PFI TIVM: 2e-04 - SHAP TIVM: 1e-04 ===== 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + ctree - cindex: 0.524 - PFI TIVM: 2e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + ctree - cindex: 0.524 - PFI TIVM: 2e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + cv_glmnet - cindex: 0.54 - PFI TIVM: 2e-04 - SHAP TIVM: 1e-04 ===== 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + cv_glmnet - cindex: 0.54 - PFI TIVM: 2e-04 - SHAP TIVM: 1e-04 ===== 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + glmboost - cindex: 0.535 - PFI TIVM: 2e-04 - SHAP TIVM: 1e-04 ===== 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + glmboost - cindex: 0.535 - PFI TIVM: 2e-04 - SHAP TIVM: 1e-04 ===== 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + glmnet - cindex: 0.539 - PFI TIVM: 2e-04 - SHAP TIVM: 1e-04 ===== 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + glmnet - cindex: 0.539 - PFI TIVM: 2e-04 - SHAP TIVM: 1e-04 ===== 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + penalized - cindex: 0.534 - PFI TIVM: 2e-04 - SHAP TIVM: 1e-04 ===== 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + penalized - cindex: 0.534 - PFI TIVM: 2e-04 - SHAP TIVM: 1e-04 ===== 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + ranger - cindex: 0.566 - PFI TIVM: 3e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + ranger - cindex: 0.566 - PFI TIVM: 3e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + rfsrc - cindex: 0.561 - PFI TIVM: 4e-04 - SHAP TIVM: 9e-04 ===== 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + rfsrc - cindex: 0.561 - PFI TIVM: 4e-04 - SHAP TIVM: 9e-04 ===== 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + xgboost_cox - cindex: 0.562 - PFI TIVM: 9e-04 - SHAP TIVM: 3e-04 ===== 
+[2026-08-09 00:26:35] ===== BITTI: aids2 + xgboost_cox - cindex: 0.562 - PFI TIVM: 9e-04 - SHAP TIVM: 3e-04 ===== 
+[2026-08-09 00:26:35] ----- Veri seti bitti: aids2 ----- 
+[2026-08-09 00:26:35] ----- Veri seti bitti: aids2 ----- 
+There were 50 or more warnings (use warnings() to see the first 50)
+[2026-08-09 00:26:35] ===== RUN ( aids2 ) TAMAMLANDI ===== 
+[2026-08-09 00:26:35] ===== RUN ( aids2 ) TAMAMLANDI ===== 
