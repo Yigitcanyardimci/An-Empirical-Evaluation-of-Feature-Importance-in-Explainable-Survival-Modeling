@@ -3484,3 +3484,12 @@ dbl (6): pid, event, time, fac_sex, num_age, num_year
 [2026-08-07 10:36:39] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
 [2026-08-07 10:36:40] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
 [2026-08-07 10:36:40] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-10 22:56:20] SHAP hesaplama bitti, kaydedildi: results/cforest/LeukSurv/shap_long_n50.csv 
+[2026-08-10 22:56:21] [BELLEK] [LeukSurv/cforest] SHAP sonrasi - Sistem RSS: 7.368 GB | R heap (gc): 1.297 GB 
+[2026-08-10 22:56:22] Grafik kaydedildi: results/cforest/LeukSurv/plots/survshap_plot_n50.png 
+[2026-08-10 22:56:22] SHAP ozeti kaydedildi: results/cforest/LeukSurv/shap_summary_n50.csv 
+[2026-08-10 22:56:22] cforest_model - SHAP TIVM: 0.0019 
+[2026-08-10 22:56:24] [BELLEK] [LeukSurv/cforest] model+explainer silindi, dongu sonu - Sistem RSS: 5.716 GB | R heap (gc): 0.373 GB 
+[2026-08-10 22:56:24] ===== BITTI: LeukSurv + cforest - cindex: 0.664 - PFI TIVM: 0.0016 - SHAP TIVM: 0.0019 ===== 
+[2026-08-10 22:56:24] ----- Veri seti bitti: LeukSurv ----- 
+[2026-08-10 22:56:24] ===== RUN ( LeukSurv ) TAMAMLANDI ===== 
