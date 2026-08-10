@@ -3435,3 +3435,52 @@ dbl (6): pid, event, time, fac_sex, num_age, num_year
 [2026-08-10 22:28:47] SHAP - gozlem 45 / 50 
 [2026-08-10 22:51:49] SHAP - gozlem 50 / 50 
 [2026-08-10 22:51:49] SHAP - gozlem 50 / 50 
+[2026-08-07 08:36:03] SHAP - gozlem 25 / 50 
+[2026-08-07 08:43:50] SHAP - gozlem 30 / 50 
+[2026-08-07 08:51:51] SHAP - gozlem 35 / 50 
+[2026-08-07 08:59:27] SHAP - gozlem 40 / 50 
+[2026-08-07 09:06:53] SHAP - gozlem 45 / 50 
+[2026-08-07 09:14:43] SHAP - gozlem 50 / 50 
+[2026-08-07 09:16:13] SHAP hesaplama bitti, kaydedildi: results/cox/LeukSurv/shap_long_n50.csv 
+[2026-08-07 09:16:14] [BELLEK] [LeukSurv/cox] SHAP sonrasi - Sistem RSS: 4.096 GB | R heap (gc): 1.13 GB 
+[2026-08-07 09:16:15] Grafik kaydedildi: results/cox/LeukSurv/plots/survshap_plot_n50.png 
+[2026-08-07 09:16:15] SHAP ozeti kaydedildi: results/cox/LeukSurv/shap_summary_n50.csv 
+[2026-08-07 09:16:15] cox_model - SHAP TIVM: 0.0011 
+[2026-08-07 09:16:16] [BELLEK] [LeukSurv/cox] model+explainer silindi, dongu sonu - Sistem RSS: 3.254 GB | R heap (gc): 0.305 GB 
+[2026-08-07 09:16:17] [BELLEK] [LeukSurv/aorsf] model dongusu basi - Sistem RSS: 3.254 GB | R heap (gc): 0.305 GB 
+[2026-08-07 09:16:17] Kaydedilmis model bulundu, okunuyor: results/aorsf/LeukSurv/model.rds 
+[2026-08-07 09:16:17] [BELLEK] [LeukSurv/aorsf] model hazir - Sistem RSS: 3.254 GB | R heap (gc): 0.34 GB 
+[2026-08-07 09:16:17] Performans hesaplama basladi: surv.aorsf 
+[2026-08-07 09:16:21] Performans hesaplama bitti: surv.aorsf - cindex: 0.67 - IBS (graf): 0.135 
+[2026-08-07 09:16:21] Performans kaydedildi: results/aorsf/LeukSurv/performance.csv 
+[2026-08-07 09:16:21] Kaydedilmis explainer bulundu, okunuyor: results/aorsf/LeukSurv/explainer.rds 
+[2026-08-07 09:16:26] [BELLEK] [LeukSurv/aorsf] explainer hazir - Sistem RSS: 3.255 GB | R heap (gc): 1.183 GB 
+[2026-08-07 09:16:26] SHAP hesaplaniyor: aorsf_model - n_obs = 50 
+[2026-08-07 09:16:26] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 09:16:26] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 09:16:26] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-07 09:25:38] SHAP - gozlem 20 / 50 
+[2026-08-07 09:36:45] SHAP - gozlem 25 / 50 
+[2026-08-07 09:47:55] SHAP - gozlem 30 / 50 
+[2026-08-07 09:59:41] SHAP - gozlem 35 / 50 
+[2026-08-07 10:10:52] SHAP - gozlem 40 / 50 
+[2026-08-07 10:22:11] SHAP - gozlem 45 / 50 
+[2026-08-07 10:33:34] SHAP - gozlem 50 / 50 
+[2026-08-07 10:35:47] SHAP hesaplama bitti, kaydedildi: results/aorsf/LeukSurv/shap_long_n50.csv 
+[2026-08-07 10:35:47] [BELLEK] [LeukSurv/aorsf] SHAP sonrasi - Sistem RSS: 3.652 GB | R heap (gc): 1.185 GB 
+[2026-08-07 10:35:48] Grafik kaydedildi: results/aorsf/LeukSurv/plots/survshap_plot_n50.png 
+[2026-08-07 10:35:48] SHAP ozeti kaydedildi: results/aorsf/LeukSurv/shap_summary_n50.csv 
+[2026-08-07 10:35:48] aorsf_model - SHAP TIVM: 0.0019 
+[2026-08-07 10:35:49] [BELLEK] [LeukSurv/aorsf] model+explainer silindi, dongu sonu - Sistem RSS: 3.255 GB | R heap (gc): 0.309 GB 
+[2026-08-07 10:35:50] [BELLEK] [LeukSurv/cforest] model dongusu basi - Sistem RSS: 3.255 GB | R heap (gc): 0.309 GB 
+[2026-08-07 10:35:50] Kaydedilmis model bulundu, okunuyor: results/cforest/LeukSurv/model.rds 
+[2026-08-07 10:35:51] [BELLEK] [LeukSurv/cforest] model hazir - Sistem RSS: 3.255 GB | R heap (gc): 0.409 GB 
+[2026-08-07 10:35:51] Performans hesaplama basladi: surv.cforest 
+[2026-08-07 10:36:33] Performans hesaplama bitti: surv.cforest - cindex: 0.664 - IBS (graf): 0.135 
+[2026-08-07 10:36:33] Performans kaydedildi: results/cforest/LeukSurv/performance.csv 
+[2026-08-07 10:36:33] Kaydedilmis explainer bulundu, okunuyor: results/cforest/LeukSurv/explainer.rds 
+[2026-08-07 10:36:39] [BELLEK] [LeukSurv/cforest] explainer hazir - Sistem RSS: 3.255 GB | R heap (gc): 1.25 GB 
+[2026-08-07 10:36:39] SHAP hesaplaniyor: cforest_model - n_obs = 50 
+[2026-08-07 10:36:39] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-07 10:36:40] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-07 10:36:40] SHAP hesaplama basladi, n_obs = 50 
