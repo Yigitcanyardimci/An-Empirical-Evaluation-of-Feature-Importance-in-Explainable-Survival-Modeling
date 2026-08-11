@@ -2945,3 +2945,15 @@ dbl (6): pid, event, time, fac_sex, num_age, num_year
 [2026-08-11 00:15:08] SHAP - gozlem 25 / 50 
 [2026-08-11 02:28:03] SHAP - gozlem 30 / 50 
 [2026-08-11 04:40:44] SHAP - gozlem 35 / 50 
+[2026-08-11 06:50:31] SHAP - gozlem 40 / 50 
+[2026-08-11 09:04:18] SHAP - gozlem 45 / 50 
+[2026-08-11 11:17:14] SHAP - gozlem 50 / 50 
+[2026-08-11 11:44:25] SHAP hesaplama bitti, kaydedildi: results/cforest/prostate/shap_long_n50.csv 
+[2026-08-11 11:44:26] [BELLEK] [prostate/cforest] SHAP sonrasi - Sistem RSS: 1.987 GB | R heap (gc): 0.473 GB 
+[2026-08-11 11:44:27] Grafik kaydedildi: results/cforest/prostate/plots/survshap_plot_n50.png 
+[2026-08-11 11:44:27] SHAP ozeti kaydedildi: results/cforest/prostate/shap_summary_n50.csv 
+[2026-08-11 11:44:27] cforest_model - SHAP TIVM: 0.0021 
+[2026-08-11 11:44:28] [BELLEK] [prostate/cforest] model+explainer silindi, dongu sonu - Sistem RSS: 1.96 GB | R heap (gc): 0.317 GB 
+[2026-08-11 11:44:28] ===== BITTI: prostate + cforest - cindex: 0.641 - PFI TIVM: 0.0017 - SHAP TIVM: 0.0021 ===== 
+[2026-08-11 11:44:28] ----- Veri seti bitti: prostate ----- 
+[2026-08-11 11:44:28] ===== RUN ( prostate ) TAMAMLANDI ===== 
