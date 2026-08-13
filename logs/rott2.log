@@ -1732,3 +1732,76 @@ dbl (6): pid, event, time, fac_sex, num_age, num_year
 [2026-08-10 14:50:06] SHAP - gozlem 25 / 50 
 [2026-08-10 22:27:55] SHAP - gozlem 30 / 50 
 [2026-08-11 08:09:59] SHAP - gozlem 35 / 50 
+[2026-08-11 13:52:31] SHAP - gozlem 40 / 50 
+[2026-08-11 23:30:29] SHAP - gozlem 45 / 50 
+[2026-08-12 07:18:47] SHAP - gozlem 50 / 50 
+[2026-08-12 09:01:37] SHAP hesaplama bitti, kaydedildi: results/ranger/rott2/shap_long_n50.csv 
+[2026-08-12 09:01:38] [BELLEK] [rott2/ranger] SHAP sonrasi - Sistem RSS: 5.096 GB | R heap (gc): 0.76 GB 
+[2026-08-12 09:01:39] Grafik kaydedildi: results/ranger/rott2/plots/survshap_plot_n50.png 
+[2026-08-12 09:01:39] SHAP ozeti kaydedildi: results/ranger/rott2/shap_summary_n50.csv 
+[2026-08-12 09:01:39] ranger_model - SHAP TIVM: 0.0011 
+[2026-08-12 09:01:40] [BELLEK] [rott2/ranger] model+explainer silindi, dongu sonu - Sistem RSS: 5.096 GB | R heap (gc): 0.448 GB 
+[2026-08-12 09:01:40] [BELLEK] [rott2/rfsrc] model dongusu basi - Sistem RSS: 5.096 GB | R heap (gc): 0.448 GB 
+[2026-08-12 09:01:40] Kaydedilmis model bulundu, okunuyor: results/rfsrc/rott2/model.rds 
+[2026-08-12 09:01:43] [BELLEK] [rott2/rfsrc] model hazir - Sistem RSS: 5.096 GB | R heap (gc): 0.757 GB 
+[2026-08-12 09:01:43] Performans hesaplama basladi: surv.rfsrc 
+[2026-08-12 09:02:48] Performans hesaplama bitti: surv.rfsrc - cindex: 0.714 - IBS (graf): 0.172 
+[2026-08-12 09:02:48] Performans kaydedildi: results/rfsrc/rott2/performance.csv 
+[2026-08-12 09:02:48] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/rott2/explainer.rds 
+[2026-08-12 09:02:52] [BELLEK] [rott2/rfsrc] explainer hazir - Sistem RSS: 5.097 GB | R heap (gc): 1.068 GB 
+[2026-08-12 09:02:52] SHAP hesaplaniyor: rfsrc_model - n_obs = 50 
+[2026-08-12 09:02:52] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-12 09:02:52] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-12 09:02:52] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-12 10:01:49] SHAP - gozlem 20 / 50 
+[2026-08-12 10:55:58] SHAP - gozlem 25 / 50 
+[2026-08-12 12:08:43] SHAP - gozlem 30 / 50 
+[2026-08-12 12:57:00] SHAP - gozlem 35 / 50 
+[2026-08-12 13:46:54] SHAP - gozlem 40 / 50 
+[2026-08-12 14:53:18] SHAP - gozlem 45 / 50 
+[2026-08-12 16:04:44] SHAP - gozlem 50 / 50 
+[2026-08-12 16:12:49] SHAP hesaplama bitti, kaydedildi: results/rfsrc/rott2/shap_long_n50.csv 
+[2026-08-12 16:12:50] [BELLEK] [rott2/rfsrc] SHAP sonrasi - Sistem RSS: 5.097 GB | R heap (gc): 1.072 GB 
+[2026-08-12 16:12:51] Grafik kaydedildi: results/rfsrc/rott2/plots/survshap_plot_n50.png 
+[2026-08-12 16:12:51] SHAP ozeti kaydedildi: results/rfsrc/rott2/shap_summary_n50.csv 
+[2026-08-12 16:12:51] rfsrc_model - SHAP TIVM: 0.0013 
+[2026-08-12 16:12:52] [BELLEK] [rott2/rfsrc] model+explainer silindi, dongu sonu - Sistem RSS: 5.097 GB | R heap (gc): 0.451 GB 
+[2026-08-12 16:12:52] [BELLEK] [rott2/xgboost_cox] model dongusu basi - Sistem RSS: 5.097 GB | R heap (gc): 0.451 GB 
+[2026-08-12 16:12:52] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/rott2/model.rds 
+[2026-08-12 16:12:53] [BELLEK] [rott2/xgboost_cox] model hazir - Sistem RSS: 5.098 GB | R heap (gc): 0.452 GB 
+[2026-08-12 16:12:53] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-08-12 16:13:10] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.677 - IBS (graf): 0.224 
+[2026-08-12 16:13:10] Performans kaydedildi: results/xgboost_cox/rott2/performance.csv 
+[2026-08-12 16:13:10] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/rott2/explainer.rds 
+[2026-08-12 16:13:11] [BELLEK] [rott2/xgboost_cox] explainer hazir - Sistem RSS: 5.099 GB | R heap (gc): 0.453 GB 
+[2026-08-12 16:13:11] SHAP hesaplaniyor: xgboost_cox_model - n_obs = 50 
+[2026-08-12 16:13:11] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-12 16:13:11] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-12 16:13:11] SHAP hesaplama basladi, n_obs = 50 
+[2026-08-12 18:54:52] SHAP - gozlem 20 / 50 
+[2026-08-12 22:12:56] SHAP - gozlem 25 / 50 
+[2026-08-13 01:30:48] SHAP - gozlem 30 / 50 
+[2026-08-13 04:49:07] SHAP - gozlem 35 / 50 
+[2026-08-13 08:07:52] SHAP - gozlem 40 / 50 
+[2026-08-13 11:27:11] SHAP - gozlem 45 / 50 
+[2026-08-13 14:44:21] SHAP - gozlem 50 / 50 
+[2026-08-13 15:23:01] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/rott2/shap_long_n50.csv 
+[2026-08-13 15:23:02] [BELLEK] [rott2/xgboost_cox] SHAP sonrasi - Sistem RSS: 5.099 GB | R heap (gc): 0.457 GB 
+[2026-08-13 15:23:03] Grafik kaydedildi: results/xgboost_cox/rott2/plots/survshap_plot_n50.png 
+[2026-08-13 15:23:03] SHAP ozeti kaydedildi: results/xgboost_cox/rott2/shap_summary_n50.csv 
+[2026-08-13 15:23:03] xgboost_cox_model - SHAP TIVM: 0.0017 
+[2026-08-13 15:23:04] [BELLEK] [rott2/xgboost_cox] model+explainer silindi, dongu sonu - Sistem RSS: 5.099 GB | R heap (gc): 0.452 GB 
+[2026-08-13 15:23:04] ===== BITTI: rott2 + cox - cindex: 0.683 - PFI TIVM: 0.002 - SHAP TIVM: 3e-04 ===== 
+[2026-08-13 15:23:04] ===== BITTI: rott2 + aorsf - cindex: 0.707 - PFI TIVM: 0.0021 - SHAP TIVM: 0.0012 ===== 
+[2026-08-13 15:23:04] ===== BITTI: rott2 + cforest - cindex: 0.708 - PFI TIVM: 0.0024 - SHAP TIVM: 0.0032 ===== 
+[2026-08-13 15:23:04] ===== BITTI: rott2 + coxboost - cindex: 0.685 - PFI TIVM: 0.002 - SHAP TIVM: 4e-04 ===== 
+[2026-08-13 15:23:04] ===== BITTI: rott2 + ctree - cindex: 0.659 - PFI TIVM: 0.006 - SHAP TIVM: 0.004 ===== 
+[2026-08-13 15:23:04] ===== BITTI: rott2 + cv_glmnet - cindex: 0.685 - PFI TIVM: 0.002 - SHAP TIVM: 4e-04 ===== 
+[2026-08-13 15:23:04] ===== BITTI: rott2 + glmboost - cindex: 0.689 - PFI TIVM: 0.0019 - SHAP TIVM: 4e-04 ===== 
+[2026-08-13 15:23:04] ===== BITTI: rott2 + glmnet - cindex: 0.684 - PFI TIVM: 0.002 - SHAP TIVM: 4e-04 ===== 
+[2026-08-13 15:23:04] ===== BITTI: rott2 + penalized - cindex: 0.683 - PFI TIVM: 0 - SHAP TIVM: 0 ===== 
+[2026-08-13 15:23:04] ===== BITTI: rott2 + ranger - cindex: 0.702 - PFI TIVM: 0.0017 - SHAP TIVM: 0.0011 ===== 
+[2026-08-13 15:23:04] ===== BITTI: rott2 + rfsrc - cindex: 0.714 - PFI TIVM: 0.0019 - SHAP TIVM: 0.0013 ===== 
+[2026-08-13 15:23:04] ===== BITTI: rott2 + xgboost_cox - cindex: 0.677 - PFI TIVM: 0.007 - SHAP TIVM: 0.0017 ===== 
+[2026-08-13 15:23:04] ----- Veri seti bitti: rott2 ----- 
+[2026-08-13 15:23:04] ===== RUN ( rott2 ) TAMAMLANDI ===== 
