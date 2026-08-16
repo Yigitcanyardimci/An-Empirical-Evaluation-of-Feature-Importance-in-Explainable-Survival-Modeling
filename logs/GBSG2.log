@@ -3146,3 +3146,591 @@ dbl (6): pid, event, time, fac_sex, num_age, num_year
 There were 50 or more warnings (use warnings() to see the first 50)
 [2026-08-10 23:18:04] ===== RUN ( GBSG2 ) TAMAMLANDI ===== 
 [2026-08-10 23:18:04] ===== RUN ( GBSG2 ) TAMAMLANDI ===== 
+[2026-08-14 07:24:59] Paket kurulumu basladi 
+[2026-08-14 07:24:59] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-14 07:25:05] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-08-14 07:25:08] Paket kurulumu tamamlandi 
+[2026-08-14 07:25:08] Veri okuma basladi: grace 
+[2026-08-14 07:25:08] Veri okuma bitti: grace - 1000 satir, 7 sutun 
+[2026-08-14 07:25:08] Veri okuma basladi: melanoma 
+[2026-08-14 07:25:08] Veri okuma bitti: melanoma - 205 satir, 7 sutun 
+[2026-08-14 07:25:08] Veri okuma basladi: ova 
+[2026-08-14 07:25:08] Veri okuma bitti: ova - 358 satir, 7 sutun 
+[2026-08-14 07:25:08] Veri okuma basladi: aids2 
+[2026-08-14 07:25:08] Veri okuma bitti: aids2 - 2839 satir, 6 sutun 
+[2026-08-14 07:25:08] Veri okuma basladi: veteran 
+[2026-08-14 07:25:08] Veri okuma bitti: veteran - 137 satir, 8 sutun 
+[2026-08-14 07:25:08] Veri okuma basladi: breast 
+[2026-08-14 07:25:08] Veri okuma bitti: breast - 100 satir, 6 sutun 
+[2026-08-14 07:25:08] Veri okuma basladi: e1684 
+[2026-08-14 07:25:08] Veri okuma bitti: e1684 - 284 satir, 5 sutun 
+[2026-08-14 07:25:08] Veri okuma basladi: epileptic 
+[2026-08-14 07:25:09] Veri okuma bitti: epileptic - 1286 satir, 8 sutun 
+[2026-08-14 07:25:09] Veri okuma basladi: dialysis 
+[2026-08-14 07:25:09] Veri okuma bitti: dialysis - 6805 satir, 6 sutun 
+[2026-08-14 07:25:09] Veri okuma basladi: pbc 
+[2026-08-14 07:25:09] Veri okuma bitti: pbc - 312 satir, 8 sutun 
+[2026-08-14 07:25:09] Veri okuma basladi: prostateSurvival 
+[2026-08-14 07:25:09] Veri okuma bitti: prostateSurvival - 14294 satir, 5 sutun 
+[2026-08-14 07:25:09] Veri okuma basladi: acath 
+[2026-08-14 07:25:09] Veri okuma bitti: acath - 2258 satir, 5 sutun 
+[2026-08-14 07:25:09] Veri okuma basladi: prostate 
+[2026-08-14 07:25:09] Veri okuma bitti: prostate - 475 satir, 17 sutun 
+[2026-08-14 07:25:09] Veri okuma basladi: dataDIVAT1 
+[2026-08-14 07:25:09] Veri okuma bitti: dataDIVAT1 - 5943 satir, 7 sutun 
+[2026-08-14 07:25:09] Veri okuma basladi: dataDIVAT3 
+[2026-08-14 07:25:09] Veri okuma bitti: dataDIVAT3 - 4267 satir, 9 sutun 
+[2026-08-14 07:25:09] Veri okuma basladi: TRACE 
+[2026-08-14 07:25:09] Veri okuma bitti: TRACE - 1878 satir, 8 sutun 
+[2026-08-14 07:25:09] Veri okuma basladi: FRTCS 
+[2026-08-14 07:25:09] Veri okuma bitti: FRTCS - 2088 satir, 7 sutun 
+[2026-08-14 07:25:09] Veri okuma basladi: zinc 
+[2026-08-14 07:25:09] Veri okuma bitti: zinc - 431 satir, 15 sutun 
+[2026-08-14 07:25:09] Veri okuma basladi: stagec 
+[2026-08-14 07:25:09] Veri okuma bitti: stagec - 136 satir, 9 sutun 
+[2026-08-14 07:25:09] Veri okuma basladi: LeukSurv 
+[2026-08-14 07:25:09] Veri okuma bitti: LeukSurv - 1043 satir, 9 sutun 
+[2026-08-14 07:25:09] Veri okuma basladi: nwtco 
+[2026-08-14 07:25:09] Veri okuma bitti: nwtco - 4028 satir, 9 sutun 
+[2026-08-14 07:25:09] Veri okuma basladi: retinopathy 
+[2026-08-14 07:25:10] Veri okuma bitti: retinopathy - 394 satir, 9 sutun 
+[2026-08-14 07:25:10] Veri okuma basladi: Framingham 
+[2026-08-14 07:25:10] Veri okuma bitti: Framingham - 4658 satir, 9 sutun 
+[2026-08-14 07:25:10] Veri okuma basladi: csl 
+[2026-08-14 07:25:10] Veri okuma bitti: csl - 2481 satir, 8 sutun 
+[2026-08-14 07:25:10] Veri okuma basladi: cancer 
+[2026-08-14 07:25:10] Veri okuma bitti: cancer - 169 satir, 10 sutun 
+[2026-08-14 07:25:10] Veri okuma basladi: whas500 
+[2026-08-14 07:25:10] Veri okuma bitti: whas500 - 461 satir, 18 sutun 
+[2026-08-14 07:25:10] Veri okuma basladi: cgd 
+[2026-08-14 07:25:10] Veri okuma bitti: cgd - 128 satir, 12 sutun 
+[2026-08-14 07:25:10] Veri okuma basladi: Pbc3 
+[2026-08-14 07:25:10] Veri okuma bitti: Pbc3 - 327 satir, 14 sutun 
+[2026-08-14 07:25:10] Veri okuma basladi: GBSG2 
+[2026-08-14 07:25:10] Veri okuma bitti: GBSG2 - 686 satir, 10 sutun 
+[2026-08-14 07:25:10] Veri okuma basladi: colon 
+[2026-08-14 07:25:10] Veri okuma bitti: colon - 911 satir, 11 sutun 
+[2026-08-14 07:25:10] Veri okuma basladi: flchain 
+[2026-08-14 07:25:10] Veri okuma bitti: flchain - 6524 satir, 12 sutun 
+[2026-08-14 07:25:10] Veri okuma basladi: Rossi 
+[2026-08-14 07:25:10] Veri okuma bitti: Rossi - 1405 satir, 11 sutun 
+[2026-08-14 07:25:10] Veri okuma basladi: burn 
+[2026-08-14 07:25:10] Veri okuma bitti: burn - 154 satir, 13 sutun 
+[2026-08-14 07:25:10] Veri okuma basladi: rott2 
+[2026-08-14 07:25:10] Veri okuma bitti: rott2 - 2982 satir, 13 sutun 
+[2026-08-14 07:25:10] Veri okuma basladi: d_oropha_rec 
+[2026-08-14 07:25:10] Veri okuma bitti: d_oropha_rec - 192 satir, 14 sutun 
+[2026-08-14 07:25:10] Veri okuma basladi: rdata 
+[2026-08-14 07:25:11] Veri okuma bitti: rdata - 1040 satir, 6 sutun 
+[2026-08-14 07:25:11] Task olusturuluyor: grace_task 
+[2026-08-14 07:25:11] Task olusturuldu: grace_task 
+[2026-08-14 07:25:11] Task olusturuluyor: melanoma_task 
+[2026-08-14 07:25:11] Task olusturuldu: melanoma_task 
+[2026-08-14 07:25:11] Task olusturuluyor: ova_task 
+[2026-08-14 07:25:11] Task olusturuldu: ova_task 
+[2026-08-14 07:25:11] Task olusturuluyor: aids2_task 
+[2026-08-14 07:25:11] Task olusturuldu: aids2_task 
+[2026-08-14 07:25:11] Task olusturuluyor: veteran_task 
+[2026-08-14 07:25:11] Task olusturuldu: veteran_task 
+[2026-08-14 07:25:11] Task olusturuluyor: breast_task 
+[2026-08-14 07:25:11] Task olusturuldu: breast_task 
+[2026-08-14 07:25:11] Task olusturuluyor: e1684_task 
+[2026-08-14 07:25:11] Task olusturuldu: e1684_task 
+[2026-08-14 07:25:11] Task olusturuluyor: epileptic_task 
+[2026-08-14 07:25:11] Task olusturuldu: epileptic_task 
+[2026-08-14 07:25:11] Task olusturuluyor: dialysis_task 
+[2026-08-14 07:25:11] Task olusturuldu: dialysis_task 
+[2026-08-14 07:25:11] Task olusturuluyor: pbc_task 
+[2026-08-14 07:25:11] Task olusturuldu: pbc_task 
+[2026-08-14 07:25:11] Task olusturuluyor: prostateSurvival_task 
+[2026-08-14 07:25:11] Task olusturuldu: prostateSurvival_task 
+[2026-08-14 07:25:11] Task olusturuluyor: acath_task 
+[2026-08-14 07:25:11] Task olusturuldu: acath_task 
+[2026-08-14 07:25:11] Task olusturuluyor: prostate_task 
+[2026-08-14 07:25:11] Task olusturuldu: prostate_task 
+[2026-08-14 07:25:11] Task olusturuluyor: dataDIVAT1_task 
+[2026-08-14 07:25:11] Task olusturuldu: dataDIVAT1_task 
+[2026-08-14 07:25:11] Task olusturuluyor: dataDIVAT3_task 
+[2026-08-14 07:25:11] Task olusturuldu: dataDIVAT3_task 
+[2026-08-14 07:25:11] Task olusturuluyor: TRACE_task 
+[2026-08-14 07:25:11] Task olusturuldu: TRACE_task 
+[2026-08-14 07:25:11] Task olusturuluyor: FRTCS_task 
+[2026-08-14 07:25:11] Task olusturuldu: FRTCS_task 
+[2026-08-14 07:25:11] Task olusturuluyor: zinc_task 
+[2026-08-14 07:25:11] Task olusturuldu: zinc_task 
+[2026-08-14 07:25:11] Task olusturuluyor: stagec_task 
+[2026-08-14 07:25:11] Task olusturuldu: stagec_task 
+[2026-08-14 07:25:11] Task olusturuluyor: LeukSurv_task 
+[2026-08-14 07:25:11] Task olusturuldu: LeukSurv_task 
+[2026-08-14 07:25:11] Task olusturuluyor: nwtco_task 
+[2026-08-14 07:25:11] Task olusturuldu: nwtco_task 
+[2026-08-14 07:25:11] Task olusturuluyor: retinopathy_task 
+[2026-08-14 07:25:11] Task olusturuldu: retinopathy_task 
+[2026-08-14 07:25:11] Task olusturuluyor: Framingham_task 
+[2026-08-14 07:25:11] Task olusturuldu: Framingham_task 
+[2026-08-14 07:25:11] Task olusturuluyor: csl_task 
+[2026-08-14 07:25:11] Task olusturuldu: csl_task 
+[2026-08-14 07:25:11] Task olusturuluyor: cancer_task 
+[2026-08-14 07:25:11] Task olusturuldu: cancer_task 
+[2026-08-14 07:25:11] Task olusturuluyor: whas500_task 
+[2026-08-14 07:25:11] Task olusturuldu: whas500_task 
+[2026-08-14 07:25:11] Task olusturuluyor: cgd_task 
+[2026-08-14 07:25:11] Task olusturuldu: cgd_task 
+[2026-08-14 07:25:11] Task olusturuluyor: Pbc3_task 
+[2026-08-14 07:25:11] Task olusturuldu: Pbc3_task 
+[2026-08-14 07:25:11] Task olusturuluyor: GBSG2_task 
+[2026-08-14 07:25:11] Task olusturuldu: GBSG2_task 
+[2026-08-14 07:25:11] Task olusturuluyor: colon_task 
+[2026-08-14 07:25:11] Task olusturuldu: colon_task 
+[2026-08-14 07:25:11] Task olusturuluyor: flchain_task 
+[2026-08-14 07:25:11] Task olusturuldu: flchain_task 
+[2026-08-14 07:25:11] Task olusturuluyor: Rossi_task 
+[2026-08-14 07:25:11] Task olusturuldu: Rossi_task 
+[2026-08-14 07:25:11] Task olusturuluyor: burn_task 
+[2026-08-14 07:25:11] Task olusturuldu: burn_task 
+[2026-08-14 07:25:11] Task olusturuluyor: rott2_task 
+[2026-08-14 07:25:11] Task olusturuldu: rott2_task 
+[2026-08-14 07:25:11] Task olusturuluyor: d_oropha_rec_task 
+[2026-08-14 07:25:11] Task olusturuldu: d_oropha_rec_task 
+[2026-08-14 07:25:11] Task olusturuluyor: rdata_task 
+[2026-08-14 07:25:11] Task olusturuldu: rdata_task 
+[2026-08-14 07:25:11] Toplam 36 task olusturuldu 
+[2026-08-14 07:25:11] ===== RUN ( GBSG2 ) BASLADI: 12 model ===== 
+[2026-08-14 07:25:11] ----- Veri seti basladi: GBSG2 ----- 
+[2026-08-14 07:25:12] [BELLEK] [GBSG2] veri seti basi - Sistem RSS: 0.489 GB | R heap (gc): 0.266 GB 
+[2026-08-14 07:25:12] Split basladi (ratio = 0.7 ) 
+[2026-08-14 07:25:12] Split bitti - train: 480 test: 206 
+[2026-08-14 07:25:12] [BELLEK] [GBSG2/cox] model dongusu basi - Sistem RSS: 0.489 GB | R heap (gc): 0.267 GB 
+[2026-08-14 07:25:12] Kaydedilmis model bulundu, okunuyor: results/cox/GBSG2/model.rds 
+[2026-08-14 07:25:12] [BELLEK] [GBSG2/cox] model hazir - Sistem RSS: 0.489 GB | R heap (gc): 0.268 GB 
+[2026-08-14 07:25:12] Performans hesaplama basladi: surv.coxph 
+[2026-08-14 07:25:14] Performans hesaplama bitti: surv.coxph - cindex: 0.658 - IBS (graf): 0.164 
+[2026-08-14 07:25:14] Performans kaydedildi: results/cox/GBSG2/performance.csv 
+[2026-08-14 07:25:14] Kaydedilmis explainer bulundu, okunuyor: results/cox/GBSG2/explainer.rds 
+[2026-08-14 07:25:18] [BELLEK] [GBSG2/cox] explainer hazir - Sistem RSS: 0.744 GB | R heap (gc): 0.605 GB 
+[2026-08-14 07:25:18] SHAP hesaplaniyor: cox_model - n_obs = 100 
+[2026-08-14 07:25:18] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-14 07:25:18] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-14 07:25:18] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-14 07:32:48] SHAP - gozlem 20 / 100 
+[2026-08-14 07:41:43] SHAP - gozlem 25 / 100 
+[2026-08-14 07:50:42] SHAP - gozlem 30 / 100 
+[2026-08-14 07:59:49] SHAP - gozlem 35 / 100 
+[2026-08-14 08:09:02] SHAP - gozlem 40 / 100 
+[2026-08-14 08:17:58] SHAP - gozlem 45 / 100 
+[2026-08-14 08:27:02] SHAP - gozlem 50 / 100 
+[2026-08-14 08:36:06] SHAP - gozlem 55 / 100 
+[2026-08-14 08:45:09] SHAP - gozlem 60 / 100 
+[2026-08-14 08:54:26] SHAP - gozlem 65 / 100 
+[2026-08-14 09:03:35] SHAP - gozlem 70 / 100 
+[2026-08-14 09:12:50] SHAP - gozlem 75 / 100 
+[2026-08-14 09:22:02] SHAP - gozlem 80 / 100 
+[2026-08-14 09:31:04] SHAP - gozlem 85 / 100 
+[2026-08-14 09:40:09] SHAP - gozlem 90 / 100 
+[2026-08-14 09:49:07] SHAP - gozlem 95 / 100 
+[2026-08-14 09:58:12] SHAP - gozlem 100 / 100 
+[2026-08-14 10:00:02] SHAP hesaplama bitti, kaydedildi: results/cox/GBSG2/shap_long_n100.csv 
+[2026-08-14 10:00:03] [BELLEK] [GBSG2/cox] SHAP sonrasi - Sistem RSS: 4.113 GB | R heap (gc): 0.611 GB 
+[2026-08-14 10:00:04] Grafik kaydedildi: results/cox/GBSG2/plots/survshap_plot_n100.png 
+[2026-08-14 10:00:04] SHAP ozeti kaydedildi: results/cox/GBSG2/shap_summary_n100.csv 
+[2026-08-14 10:00:04] cox_model - SHAP TIVM: 5e-04 
+[2026-08-14 10:00:05] [BELLEK] [GBSG2/cox] model+explainer silindi, dongu sonu - Sistem RSS: 3.416 GB | R heap (gc): 0.305 GB 
+[2026-08-14 10:00:05] [BELLEK] [GBSG2/aorsf] model dongusu basi - Sistem RSS: 3.416 GB | R heap (gc): 0.305 GB 
+[2026-08-14 10:00:05] Kaydedilmis model bulundu, okunuyor: results/aorsf/GBSG2/model.rds 
+[2026-08-14 10:00:06] [BELLEK] [GBSG2/aorsf] model hazir - Sistem RSS: 3.416 GB | R heap (gc): 0.32 GB 
+[2026-08-14 10:00:06] Performans hesaplama basladi: surv.aorsf 
+[2026-08-14 10:00:07] Performans hesaplama bitti: surv.aorsf - cindex: 0.68 - IBS (graf): 0.166 
+[2026-08-14 10:00:07] Performans kaydedildi: results/aorsf/GBSG2/performance.csv 
+[2026-08-14 10:00:07] Kaydedilmis explainer bulundu, okunuyor: results/aorsf/GBSG2/explainer.rds 
+[2026-08-14 10:00:10] [BELLEK] [GBSG2/aorsf] explainer hazir - Sistem RSS: 3.417 GB | R heap (gc): 0.643 GB 
+[2026-08-14 10:00:10] SHAP hesaplaniyor: aorsf_model - n_obs = 100 
+[2026-08-14 10:00:10] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-14 10:00:10] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-14 10:00:10] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-14 10:05:59] SHAP - gozlem 20 / 100 
+[2026-08-14 10:13:17] SHAP - gozlem 25 / 100 
+[2026-08-14 10:20:33] SHAP - gozlem 30 / 100 
+[2026-08-14 10:27:45] SHAP - gozlem 35 / 100 
+[2026-08-14 10:35:02] SHAP - gozlem 40 / 100 
+[2026-08-14 10:42:16] SHAP - gozlem 45 / 100 
+[2026-08-14 10:49:29] SHAP - gozlem 50 / 100 
+[2026-08-14 10:56:34] SHAP - gozlem 55 / 100 
+[2026-08-14 11:03:45] SHAP - gozlem 60 / 100 
+[2026-08-14 11:10:53] SHAP - gozlem 65 / 100 
+[2026-08-14 11:18:10] SHAP - gozlem 70 / 100 
+[2026-08-14 11:25:28] SHAP - gozlem 75 / 100 
+[2026-08-14 11:32:39] SHAP - gozlem 80 / 100 
+[2026-08-14 11:39:52] SHAP - gozlem 85 / 100 
+[2026-08-14 11:46:58] SHAP - gozlem 90 / 100 
+[2026-08-14 11:54:17] SHAP - gozlem 95 / 100 
+[2026-08-14 12:01:35] SHAP - gozlem 100 / 100 
+[2026-08-14 12:03:04] SHAP hesaplama bitti, kaydedildi: results/aorsf/GBSG2/shap_long_n100.csv 
+[2026-08-14 12:03:04] [BELLEK] [GBSG2/aorsf] SHAP sonrasi - Sistem RSS: 3.417 GB | R heap (gc): 0.646 GB 
+[2026-08-14 12:03:05] Grafik kaydedildi: results/aorsf/GBSG2/plots/survshap_plot_n100.png 
+[2026-08-14 12:03:05] SHAP ozeti kaydedildi: results/aorsf/GBSG2/shap_summary_n100.csv 
+[2026-08-14 12:03:05] aorsf_model - SHAP TIVM: 0.0014 
+[2026-08-14 12:03:06] [BELLEK] [GBSG2/aorsf] model+explainer silindi, dongu sonu - Sistem RSS: 3.417 GB | R heap (gc): 0.309 GB 
+[2026-08-14 12:03:07] [BELLEK] [GBSG2/cforest] model dongusu basi - Sistem RSS: 3.417 GB | R heap (gc): 0.309 GB 
+[2026-08-14 12:03:07] Kaydedilmis model bulundu, okunuyor: results/cforest/GBSG2/model.rds 
+[2026-08-14 12:03:08] [BELLEK] [GBSG2/cforest] model hazir - Sistem RSS: 3.417 GB | R heap (gc): 0.373 GB 
+[2026-08-14 12:03:08] Performans hesaplama basladi: surv.cforest 
+[2026-08-14 12:03:34] Performans hesaplama bitti: surv.cforest - cindex: 0.693 - IBS (graf): 0.169 
+[2026-08-14 12:03:34] Performans kaydedildi: results/cforest/GBSG2/performance.csv 
+[2026-08-14 12:03:34] Kaydedilmis explainer bulundu, okunuyor: results/cforest/GBSG2/explainer.rds 
+[2026-08-14 12:03:36] [BELLEK] [GBSG2/cforest] explainer hazir - Sistem RSS: 3.417 GB | R heap (gc): 0.694 GB 
+[2026-08-14 12:03:36] SHAP hesaplaniyor: cforest_model - n_obs = 100 
+[2026-08-14 12:03:37] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-14 12:03:37] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-14 12:03:37] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-14 12:24:57] SHAP - gozlem 20 / 100 
+[2026-08-14 12:51:28] SHAP - gozlem 25 / 100 
+[2026-08-14 13:17:49] SHAP - gozlem 30 / 100 
+[2026-08-14 13:44:39] SHAP - gozlem 35 / 100 
+[2026-08-14 14:11:29] SHAP - gozlem 40 / 100 
+[2026-08-14 14:37:20] SHAP - gozlem 45 / 100 
+[2026-08-14 15:03:56] SHAP - gozlem 50 / 100 
+[2026-08-14 15:30:58] SHAP - gozlem 55 / 100 
+[2026-08-14 15:57:44] SHAP - gozlem 60 / 100 
+[2026-08-14 16:24:36] SHAP - gozlem 65 / 100 
+[2026-08-14 16:54:05] SHAP - gozlem 70 / 100 
+[2026-08-14 17:37:33] SHAP - gozlem 75 / 100 
+[2026-08-14 18:06:16] SHAP - gozlem 80 / 100 
+[2026-08-14 18:48:25] SHAP - gozlem 85 / 100 
+[2026-08-14 19:27:02] SHAP - gozlem 90 / 100 
+[2026-08-14 20:04:00] SHAP - gozlem 95 / 100 
+[2026-08-14 20:37:56] SHAP - gozlem 100 / 100 
+[2026-08-14 20:43:09] SHAP hesaplama bitti, kaydedildi: results/cforest/GBSG2/shap_long_n100.csv 
+[2026-08-14 20:43:11] [BELLEK] [GBSG2/cforest] SHAP sonrasi - Sistem RSS: 7.961 GB | R heap (gc): 0.83 GB 
+[2026-08-14 20:43:11] Grafik kaydedildi: results/cforest/GBSG2/plots/survshap_plot_n100.png 
+[2026-08-14 20:43:11] SHAP ozeti kaydedildi: results/cforest/GBSG2/shap_summary_n100.csv 
+[2026-08-14 20:43:11] cforest_model - SHAP TIVM: 0.0026 
+[2026-08-14 20:43:13] [BELLEK] [GBSG2/cforest] model+explainer silindi, dongu sonu - Sistem RSS: 6.558 GB | R heap (gc): 0.444 GB 
+[2026-08-14 20:43:13] [BELLEK] [GBSG2/coxboost] model dongusu basi - Sistem RSS: 6.558 GB | R heap (gc): 0.444 GB 
+[2026-08-14 20:43:13] Kaydedilmis model bulundu, okunuyor: results/coxboost/GBSG2/model.rds 
+[2026-08-14 20:43:14] [BELLEK] [GBSG2/coxboost] model hazir - Sistem RSS: 6.558 GB | R heap (gc): 0.444 GB 
+[2026-08-14 20:43:14] Performans hesaplama basladi: surv.coxboost 
+[2026-08-14 20:43:17] Performans hesaplama bitti: surv.coxboost - cindex: 0.653 - IBS (graf): 0.165 
+[2026-08-14 20:43:17] Performans kaydedildi: results/coxboost/GBSG2/performance.csv 
+[2026-08-14 20:43:17] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/GBSG2/explainer.rds 
+[2026-08-14 20:43:21] [BELLEK] [GBSG2/coxboost] explainer hazir - Sistem RSS: 6.559 GB | R heap (gc): 0.765 GB 
+[2026-08-14 20:43:21] SHAP hesaplaniyor: coxboost_model - n_obs = 100 
+[2026-08-14 20:43:21] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-14 20:43:21] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-14 20:43:21] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-14 20:55:32] SHAP - gozlem 20 / 100 
+[2026-08-14 21:10:40] SHAP - gozlem 25 / 100 
+[2026-08-14 21:25:54] SHAP - gozlem 30 / 100 
+[2026-08-14 21:39:43] SHAP - gozlem 35 / 100 
+[2026-08-14 21:50:16] SHAP - gozlem 40 / 100 
+[2026-08-14 22:06:53] SHAP - gozlem 45 / 100 
+[2026-08-14 22:21:25] SHAP - gozlem 50 / 100 
+[2026-08-14 22:36:12] SHAP - gozlem 55 / 100 
+[2026-08-14 22:45:56] SHAP - gozlem 60 / 100 
+[2026-08-14 23:02:38] SHAP - gozlem 65 / 100 
+[2026-08-14 23:19:29] SHAP - gozlem 70 / 100 
+[2026-08-14 23:36:17] SHAP - gozlem 75 / 100 
+[2026-08-14 23:49:54] SHAP - gozlem 80 / 100 
+[2026-08-14 23:59:00] SHAP - gozlem 85 / 100 
+[2026-08-15 00:08:11] SHAP - gozlem 90 / 100 
+[2026-08-15 00:22:39] SHAP - gozlem 95 / 100 
+[2026-08-15 00:33:05] SHAP - gozlem 100 / 100 
+[2026-08-15 00:35:00] SHAP hesaplama bitti, kaydedildi: results/coxboost/GBSG2/shap_long_n100.csv 
+[2026-08-15 00:35:00] [BELLEK] [GBSG2/coxboost] SHAP sonrasi - Sistem RSS: 6.802 GB | R heap (gc): 0.768 GB 
+[2026-08-15 00:35:01] Grafik kaydedildi: results/coxboost/GBSG2/plots/survshap_plot_n100.png 
+[2026-08-15 00:35:01] SHAP ozeti kaydedildi: results/coxboost/GBSG2/shap_summary_n100.csv 
+[2026-08-15 00:35:01] coxboost_model - SHAP TIVM: 5e-04 
+[2026-08-15 00:35:02] [BELLEK] [GBSG2/coxboost] model+explainer silindi, dongu sonu - Sistem RSS: 6.47 GB | R heap (gc): 0.445 GB 
+[2026-08-15 00:35:03] [BELLEK] [GBSG2/ctree] model dongusu basi - Sistem RSS: 6.47 GB | R heap (gc): 0.445 GB 
+[2026-08-15 00:35:03] Kaydedilmis model bulundu, okunuyor: results/ctree/GBSG2/model.rds 
+[2026-08-15 00:35:03] [BELLEK] [GBSG2/ctree] model hazir - Sistem RSS: 6.47 GB | R heap (gc): 0.446 GB 
+[2026-08-15 00:35:03] Performans hesaplama basladi: surv.ctree 
+[2026-08-15 00:35:04] Performans hesaplama bitti: surv.ctree - cindex: 0.623 - IBS (graf): 0.186 
+[2026-08-15 00:35:04] Performans kaydedildi: results/ctree/GBSG2/performance.csv 
+[2026-08-15 00:35:04] Kaydedilmis explainer bulundu, okunuyor: results/ctree/GBSG2/explainer.rds 
+[2026-08-15 00:35:07] [BELLEK] [GBSG2/ctree] explainer hazir - Sistem RSS: 6.47 GB | R heap (gc): 0.765 GB 
+[2026-08-15 00:35:07] SHAP hesaplaniyor: ctree_model - n_obs = 100 
+[2026-08-15 00:35:07] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-15 00:35:07] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-15 00:35:07] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-15 00:47:20] SHAP - gozlem 20 / 100 
+[2026-08-15 01:02:58] SHAP - gozlem 25 / 100 
+[2026-08-15 01:18:03] SHAP - gozlem 30 / 100 
+[2026-08-15 01:33:47] SHAP - gozlem 35 / 100 
+[2026-08-15 01:46:21] SHAP - gozlem 40 / 100 
+[2026-08-15 02:03:12] SHAP - gozlem 45 / 100 
+[2026-08-15 02:20:20] SHAP - gozlem 50 / 100 
+[2026-08-15 02:37:06] SHAP - gozlem 55 / 100 
+[2026-08-15 02:53:13] SHAP - gozlem 60 / 100 
+[2026-08-15 03:09:41] SHAP - gozlem 65 / 100 
+[2026-08-15 03:21:35] SHAP - gozlem 70 / 100 
+[2026-08-15 03:31:07] SHAP - gozlem 75 / 100 
+[2026-08-15 03:40:50] SHAP - gozlem 80 / 100 
+[2026-08-15 03:50:48] SHAP - gozlem 85 / 100 
+[2026-08-15 04:01:15] SHAP - gozlem 90 / 100 
+[2026-08-15 04:10:49] SHAP - gozlem 95 / 100 
+[2026-08-15 04:21:46] SHAP - gozlem 100 / 100 
+[2026-08-15 04:24:05] SHAP hesaplama bitti, kaydedildi: results/ctree/GBSG2/shap_long_n100.csv 
+[2026-08-15 04:24:06] [BELLEK] [GBSG2/ctree] SHAP sonrasi - Sistem RSS: 7.133 GB | R heap (gc): 0.769 GB 
+[2026-08-15 04:24:07] Grafik kaydedildi: results/ctree/GBSG2/plots/survshap_plot_n100.png 
+[2026-08-15 04:24:07] SHAP ozeti kaydedildi: results/ctree/GBSG2/shap_summary_n100.csv 
+[2026-08-15 04:24:07] ctree_model - SHAP TIVM: 0.0045 
+[2026-08-15 04:24:08] [BELLEK] [GBSG2/ctree] model+explainer silindi, dongu sonu - Sistem RSS: 6.47 GB | R heap (gc): 0.446 GB 
+[2026-08-15 04:24:09] [BELLEK] [GBSG2/cv_glmnet] model dongusu basi - Sistem RSS: 6.47 GB | R heap (gc): 0.446 GB 
+[2026-08-15 04:24:09] Kaydedilmis model bulundu, okunuyor: results/cv_glmnet/GBSG2/model.rds 
+[2026-08-15 04:24:09] [BELLEK] [GBSG2/cv_glmnet] model hazir - Sistem RSS: 6.47 GB | R heap (gc): 0.446 GB 
+[2026-08-15 04:24:09] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-08-15 04:24:11] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.654 - IBS (graf): 0.165 
+[2026-08-15 04:24:11] Performans kaydedildi: results/cv_glmnet/GBSG2/performance.csv 
+[2026-08-15 04:24:11] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/GBSG2/explainer.rds 
+[2026-08-15 04:24:11] [BELLEK] [GBSG2/cv_glmnet] explainer hazir - Sistem RSS: 6.471 GB | R heap (gc): 0.448 GB 
+[2026-08-15 04:24:11] SHAP hesaplaniyor: cv_glmnet_model - n_obs = 100 
+[2026-08-15 04:24:11] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-15 04:24:11] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-15 04:24:11] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-15 04:31:53] SHAP - gozlem 20 / 100 
+[2026-08-15 04:41:21] SHAP - gozlem 25 / 100 
+[2026-08-15 04:50:37] SHAP - gozlem 30 / 100 
+[2026-08-15 05:00:42] SHAP - gozlem 35 / 100 
+[2026-08-15 05:13:02] SHAP - gozlem 40 / 100 
+[2026-08-15 05:28:43] SHAP - gozlem 45 / 100 
+[2026-08-15 05:42:35] SHAP - gozlem 50 / 100 
+[2026-08-15 05:57:10] SHAP - gozlem 55 / 100 
+[2026-08-15 06:11:14] SHAP - gozlem 60 / 100 
+[2026-08-15 06:20:46] SHAP - gozlem 65 / 100 
+[2026-08-15 06:35:53] SHAP - gozlem 70 / 100 
+[2026-08-15 06:52:06] SHAP - gozlem 75 / 100 
+[2026-08-15 07:08:22] SHAP - gozlem 80 / 100 
+[2026-08-15 07:24:03] SHAP - gozlem 85 / 100 
+[2026-08-15 07:36:49] SHAP - gozlem 90 / 100 
+[2026-08-15 07:52:32] SHAP - gozlem 95 / 100 
+[2026-08-15 08:04:09] SHAP - gozlem 100 / 100 
+[2026-08-15 08:07:12] SHAP hesaplama bitti, kaydedildi: results/cv_glmnet/GBSG2/shap_long_n100.csv 
+[2026-08-15 08:07:13] [BELLEK] [GBSG2/cv_glmnet] SHAP sonrasi - Sistem RSS: 6.636 GB | R heap (gc): 0.452 GB 
+[2026-08-15 08:07:14] Grafik kaydedildi: results/cv_glmnet/GBSG2/plots/survshap_plot_n100.png 
+[2026-08-15 08:07:14] SHAP ozeti kaydedildi: results/cv_glmnet/GBSG2/shap_summary_n100.csv 
+[2026-08-15 08:07:14] cv_glmnet_model - SHAP TIVM: 5e-04 
+[2026-08-15 08:07:16] [BELLEK] [GBSG2/cv_glmnet] model+explainer silindi, dongu sonu - Sistem RSS: 6.471 GB | R heap (gc): 0.447 GB 
+[2026-08-15 08:07:16] [BELLEK] [GBSG2/glmboost] model dongusu basi - Sistem RSS: 6.471 GB | R heap (gc): 0.447 GB 
+[2026-08-15 08:07:16] Kaydedilmis model bulundu, okunuyor: results/glmboost/GBSG2/model.rds 
+[2026-08-15 08:07:17] [BELLEK] [GBSG2/glmboost] model hazir - Sistem RSS: 6.471 GB | R heap (gc): 0.451 GB 
+[2026-08-15 08:07:17] Performans hesaplama basladi: surv.glmboost 
+[2026-08-15 08:07:19] Performans hesaplama bitti: surv.glmboost - cindex: 0.659 - IBS (graf): 0.167 
+[2026-08-15 08:07:19] Performans kaydedildi: results/glmboost/GBSG2/performance.csv 
+[2026-08-15 08:07:19] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/GBSG2/explainer.rds 
+[2026-08-15 08:07:23] [BELLEK] [GBSG2/glmboost] explainer hazir - Sistem RSS: 6.471 GB | R heap (gc): 0.771 GB 
+[2026-08-15 08:07:23] SHAP hesaplaniyor: glmboost_model - n_obs = 100 
+[2026-08-15 08:07:23] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-15 08:07:23] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-15 08:07:23] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-15 08:11:28] SHAP - gozlem 20 / 100 
+[2026-08-15 08:16:18] SHAP - gozlem 25 / 100 
+[2026-08-15 08:21:04] SHAP - gozlem 30 / 100 
+[2026-08-15 08:25:35] SHAP - gozlem 35 / 100 
+[2026-08-15 08:29:54] SHAP - gozlem 40 / 100 
+[2026-08-15 08:34:25] SHAP - gozlem 45 / 100 
+[2026-08-15 08:38:43] SHAP - gozlem 50 / 100 
+[2026-08-15 08:43:01] SHAP - gozlem 55 / 100 
+[2026-08-15 08:47:24] SHAP - gozlem 60 / 100 
+[2026-08-15 08:51:49] SHAP - gozlem 65 / 100 
+[2026-08-15 08:56:11] SHAP - gozlem 70 / 100 
+[2026-08-15 09:00:34] SHAP - gozlem 75 / 100 
+[2026-08-15 09:04:56] SHAP - gozlem 80 / 100 
+[2026-08-15 09:10:20] SHAP - gozlem 85 / 100 
+[2026-08-15 09:17:15] SHAP - gozlem 90 / 100 
+[2026-08-15 09:24:36] SHAP - gozlem 95 / 100 
+[2026-08-15 09:32:07] SHAP - gozlem 100 / 100 
+[2026-08-15 09:33:32] SHAP hesaplama bitti, kaydedildi: results/glmboost/GBSG2/shap_long_n100.csv 
+[2026-08-15 09:33:33] [BELLEK] [GBSG2/glmboost] SHAP sonrasi - Sistem RSS: 6.471 GB | R heap (gc): 0.775 GB 
+[2026-08-15 09:33:34] Grafik kaydedildi: results/glmboost/GBSG2/plots/survshap_plot_n100.png 
+[2026-08-15 09:33:34] SHAP ozeti kaydedildi: results/glmboost/GBSG2/shap_summary_n100.csv 
+[2026-08-15 09:33:34] glmboost_model - SHAP TIVM: 5e-04 
+[2026-08-15 09:33:36] [BELLEK] [GBSG2/glmboost] model+explainer silindi, dongu sonu - Sistem RSS: 6.471 GB | R heap (gc): 0.449 GB 
+[2026-08-15 09:33:36] [BELLEK] [GBSG2/glmnet] model dongusu basi - Sistem RSS: 6.471 GB | R heap (gc): 0.449 GB 
+[2026-08-15 09:33:36] Kaydedilmis model bulundu, okunuyor: results/glmnet/GBSG2/model.rds 
+[2026-08-15 09:33:37] [BELLEK] [GBSG2/glmnet] model hazir - Sistem RSS: 6.471 GB | R heap (gc): 0.449 GB 
+[2026-08-15 09:33:37] Performans hesaplama basladi: surv.glmnet 
+[2026-08-15 09:33:39] Performans hesaplama bitti: surv.glmnet - cindex: 0.654 - IBS (graf): 0.164 
+[2026-08-15 09:33:39] Performans kaydedildi: results/glmnet/GBSG2/performance.csv 
+[2026-08-15 09:33:39] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/GBSG2/explainer.rds 
+[2026-08-15 09:33:43] [BELLEK] [GBSG2/glmnet] explainer hazir - Sistem RSS: 6.471 GB | R heap (gc): 0.768 GB 
+[2026-08-15 09:33:43] SHAP hesaplaniyor: glmnet_model - n_obs = 100 
+[2026-08-15 09:33:43] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-15 09:33:43] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-15 09:33:43] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-15 09:46:08] SHAP - gozlem 20 / 100 
+[2026-08-15 10:01:21] SHAP - gozlem 25 / 100 
+[2026-08-15 10:16:07] SHAP - gozlem 30 / 100 
+[2026-08-15 10:30:02] SHAP - gozlem 35 / 100 
+[2026-08-15 10:39:29] SHAP - gozlem 40 / 100 
+[2026-08-15 10:48:51] SHAP - gozlem 45 / 100 
+[2026-08-15 10:58:05] SHAP - gozlem 50 / 100 
+[2026-08-15 11:12:13] SHAP - gozlem 55 / 100 
+[2026-08-15 11:24:01] SHAP - gozlem 60 / 100 
+[2026-08-15 11:33:23] SHAP - gozlem 65 / 100 
+[2026-08-15 11:42:43] SHAP - gozlem 70 / 100 
+[2026-08-15 11:51:51] SHAP - gozlem 75 / 100 
+[2026-08-15 12:01:18] SHAP - gozlem 80 / 100 
+[2026-08-15 12:10:45] SHAP - gozlem 85 / 100 
+[2026-08-15 12:20:06] SHAP - gozlem 90 / 100 
+[2026-08-15 12:29:25] SHAP - gozlem 95 / 100 
+[2026-08-15 12:43:23] SHAP - gozlem 100 / 100 
+[2026-08-15 12:46:32] SHAP hesaplama bitti, kaydedildi: results/glmnet/GBSG2/shap_long_n100.csv 
+[2026-08-15 12:46:33] [BELLEK] [GBSG2/glmnet] SHAP sonrasi - Sistem RSS: 6.802 GB | R heap (gc): 0.771 GB 
+[2026-08-15 12:46:34] Grafik kaydedildi: results/glmnet/GBSG2/plots/survshap_plot_n100.png 
+[2026-08-15 12:46:34] SHAP ozeti kaydedildi: results/glmnet/GBSG2/shap_summary_n100.csv 
+[2026-08-15 12:46:34] glmnet_model - SHAP TIVM: 5e-04 
+[2026-08-15 12:46:36] [BELLEK] [GBSG2/glmnet] model+explainer silindi, dongu sonu - Sistem RSS: 6.471 GB | R heap (gc): 0.449 GB 
+[2026-08-15 12:46:37] [BELLEK] [GBSG2/penalized] model dongusu basi - Sistem RSS: 6.471 GB | R heap (gc): 0.449 GB 
+[2026-08-15 12:46:37] Kaydedilmis model bulundu, okunuyor: results/penalized/GBSG2/model.rds 
+[2026-08-15 12:46:37] [BELLEK] [GBSG2/penalized] model hazir - Sistem RSS: 6.471 GB | R heap (gc): 0.45 GB 
+[2026-08-15 12:46:37] Performans hesaplama basladi: surv.penalized 
+[2026-08-15 12:46:39] Performans hesaplama bitti: surv.penalized - cindex: 0.658 - IBS (graf): 0.164 
+[2026-08-15 12:46:39] Performans kaydedildi: results/penalized/GBSG2/performance.csv 
+[2026-08-15 12:46:39] Kaydedilmis explainer bulundu, okunuyor: results/penalized/GBSG2/explainer.rds 
+[2026-08-15 12:46:42] [BELLEK] [GBSG2/penalized] explainer hazir - Sistem RSS: 6.471 GB | R heap (gc): 0.769 GB 
+[2026-08-15 12:46:42] SHAP hesaplaniyor: penalized_model - n_obs = 100 
+[2026-08-15 12:46:42] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-15 12:46:43] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-15 12:46:43] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-15 12:52:39] SHAP - gozlem 20 / 100 
+[2026-08-15 13:00:15] SHAP - gozlem 25 / 100 
+[2026-08-15 13:07:50] SHAP - gozlem 30 / 100 
+[2026-08-15 13:15:27] SHAP - gozlem 35 / 100 
+[2026-08-15 13:23:04] SHAP - gozlem 40 / 100 
+[2026-08-15 13:30:34] SHAP - gozlem 45 / 100 
+[2026-08-15 13:37:59] SHAP - gozlem 50 / 100 
+[2026-08-15 13:45:25] SHAP - gozlem 55 / 100 
+[2026-08-15 13:53:12] SHAP - gozlem 60 / 100 
+[2026-08-15 13:59:50] SHAP - gozlem 65 / 100 
+[2026-08-15 14:04:42] SHAP - gozlem 70 / 100 
+[2026-08-15 14:09:13] SHAP - gozlem 75 / 100 
+[2026-08-15 14:13:43] SHAP - gozlem 80 / 100 
+[2026-08-15 14:18:17] SHAP - gozlem 85 / 100 
+[2026-08-15 14:22:43] SHAP - gozlem 90 / 100 
+[2026-08-15 14:27:11] SHAP - gozlem 95 / 100 
+[2026-08-15 14:31:39] SHAP - gozlem 100 / 100 
+[2026-08-15 14:32:37] SHAP hesaplama bitti, kaydedildi: results/penalized/GBSG2/shap_long_n100.csv 
+[2026-08-15 14:32:38] [BELLEK] [GBSG2/penalized] SHAP sonrasi - Sistem RSS: 6.471 GB | R heap (gc): 0.773 GB 
+[2026-08-15 14:32:39] Grafik kaydedildi: results/penalized/GBSG2/plots/survshap_plot_n100.png 
+[2026-08-15 14:32:39] SHAP ozeti kaydedildi: results/penalized/GBSG2/shap_summary_n100.csv 
+[2026-08-15 14:32:39] penalized_model - SHAP TIVM: 5e-04 
+[2026-08-15 14:32:40] [BELLEK] [GBSG2/penalized] model+explainer silindi, dongu sonu - Sistem RSS: 6.471 GB | R heap (gc): 0.45 GB 
+[2026-08-15 14:32:41] [BELLEK] [GBSG2/ranger] model dongusu basi - Sistem RSS: 6.471 GB | R heap (gc): 0.45 GB 
+[2026-08-15 14:32:41] Kaydedilmis model bulundu, okunuyor: results/ranger/GBSG2/model.rds 
+[2026-08-15 14:32:42] [BELLEK] [GBSG2/ranger] model hazir - Sistem RSS: 6.471 GB | R heap (gc): 0.526 GB 
+[2026-08-15 14:32:42] Performans hesaplama basladi: surv.ranger 
+[2026-08-15 14:32:50] Performans hesaplama bitti: surv.ranger - cindex: 0.684 - IBS (graf): 0.176 
+[2026-08-15 14:32:50] Performans kaydedildi: results/ranger/GBSG2/performance.csv 
+[2026-08-15 14:32:50] Kaydedilmis explainer bulundu, okunuyor: results/ranger/GBSG2/explainer.rds 
+[2026-08-15 14:32:55] [BELLEK] [GBSG2/ranger] explainer hazir - Sistem RSS: 6.472 GB | R heap (gc): 0.846 GB 
+[2026-08-15 14:32:55] SHAP hesaplaniyor: ranger_model - n_obs = 100 
+[2026-08-15 14:32:55] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-15 14:32:55] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-15 14:32:55] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-15 15:04:57] SHAP - gozlem 20 / 100 
+[2026-08-15 15:45:05] SHAP - gozlem 25 / 100 
+[2026-08-15 16:42:19] SHAP - gozlem 30 / 100 
+[2026-08-15 17:24:04] SHAP - gozlem 35 / 100 
+[2026-08-15 18:06:31] SHAP - gozlem 40 / 100 
+[2026-08-15 18:59:57] SHAP - gozlem 45 / 100 
+[2026-08-15 19:57:09] SHAP - gozlem 50 / 100 
+[2026-08-15 20:39:38] SHAP - gozlem 55 / 100 
+[2026-08-15 21:18:08] SHAP - gozlem 60 / 100 
+[2026-08-15 22:01:19] SHAP - gozlem 65 / 100 
+[2026-08-15 22:44:39] SHAP - gozlem 70 / 100 
+[2026-08-15 23:23:37] SHAP - gozlem 75 / 100 
+[2026-08-16 00:03:04] SHAP - gozlem 80 / 100 
+[2026-08-16 00:55:50] SHAP - gozlem 85 / 100 
+[2026-08-16 01:33:43] SHAP - gozlem 90 / 100 
+[2026-08-16 02:16:12] SHAP - gozlem 95 / 100 
+[2026-08-16 02:52:47] SHAP - gozlem 100 / 100 
+[2026-08-16 03:00:07] SHAP hesaplama bitti, kaydedildi: results/ranger/GBSG2/shap_long_n100.csv 
+[2026-08-16 03:00:08] [BELLEK] [GBSG2/ranger] SHAP sonrasi - Sistem RSS: 6.472 GB | R heap (gc): 0.85 GB 
+[2026-08-16 03:00:09] Grafik kaydedildi: results/ranger/GBSG2/plots/survshap_plot_n100.png 
+[2026-08-16 03:00:09] SHAP ozeti kaydedildi: results/ranger/GBSG2/shap_summary_n100.csv 
+[2026-08-16 03:00:09] ranger_model - SHAP TIVM: 0.0014 
+[2026-08-16 03:00:10] [BELLEK] [GBSG2/ranger] model+explainer silindi, dongu sonu - Sistem RSS: 6.472 GB | R heap (gc): 0.451 GB 
+[2026-08-16 03:00:11] [BELLEK] [GBSG2/rfsrc] model dongusu basi - Sistem RSS: 6.472 GB | R heap (gc): 0.451 GB 
+[2026-08-16 03:00:11] Kaydedilmis model bulundu, okunuyor: results/rfsrc/GBSG2/model.rds 
+[2026-08-16 03:00:13] [BELLEK] [GBSG2/rfsrc] model hazir - Sistem RSS: 6.472 GB | R heap (gc): 0.605 GB 
+[2026-08-16 03:00:13] Performans hesaplama basladi: surv.rfsrc 
+[2026-08-16 03:00:17] Performans hesaplama bitti: surv.rfsrc - cindex: 0.694 - IBS (graf): 0.165 
+[2026-08-16 03:00:17] Performans kaydedildi: results/rfsrc/GBSG2/performance.csv 
+[2026-08-16 03:00:17] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/GBSG2/explainer.rds 
+[2026-08-16 03:00:22] [BELLEK] [GBSG2/rfsrc] explainer hazir - Sistem RSS: 6.472 GB | R heap (gc): 0.926 GB 
+[2026-08-16 03:00:22] SHAP hesaplaniyor: rfsrc_model - n_obs = 100 
+[2026-08-16 03:00:22] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-16 03:00:22] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-16 03:00:22] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-16 03:10:24] SHAP - gozlem 20 / 100 
+[2026-08-16 03:22:25] SHAP - gozlem 25 / 100 
+[2026-08-16 03:34:46] SHAP - gozlem 30 / 100 
+[2026-08-16 03:46:35] SHAP - gozlem 35 / 100 
+[2026-08-16 03:59:36] SHAP - gozlem 40 / 100 
+[2026-08-16 04:12:14] SHAP - gozlem 45 / 100 
+[2026-08-16 04:25:16] SHAP - gozlem 50 / 100 
+[2026-08-16 04:37:20] SHAP - gozlem 55 / 100 
+[2026-08-16 04:45:34] SHAP - gozlem 60 / 100 
+[2026-08-16 04:53:32] SHAP - gozlem 65 / 100 
+[2026-08-16 05:02:56] SHAP - gozlem 70 / 100 
+[2026-08-16 05:14:37] SHAP - gozlem 75 / 100 
+[2026-08-16 05:23:56] SHAP - gozlem 80 / 100 
+[2026-08-16 05:34:47] SHAP - gozlem 85 / 100 
+[2026-08-16 05:43:11] SHAP - gozlem 90 / 100 
+[2026-08-16 05:55:44] SHAP - gozlem 95 / 100 
+[2026-08-16 06:07:32] SHAP - gozlem 100 / 100 
+[2026-08-16 06:10:02] SHAP hesaplama bitti, kaydedildi: results/rfsrc/GBSG2/shap_long_n100.csv 
+[2026-08-16 06:10:03] [BELLEK] [GBSG2/rfsrc] SHAP sonrasi - Sistem RSS: 6.472 GB | R heap (gc): 0.93 GB 
+[2026-08-16 06:10:05] Grafik kaydedildi: results/rfsrc/GBSG2/plots/survshap_plot_n100.png 
+[2026-08-16 06:10:05] SHAP ozeti kaydedildi: results/rfsrc/GBSG2/shap_summary_n100.csv 
+[2026-08-16 06:10:05] rfsrc_model - SHAP TIVM: 0.0017 
+[2026-08-16 06:10:06] [BELLEK] [GBSG2/rfsrc] model+explainer silindi, dongu sonu - Sistem RSS: 6.472 GB | R heap (gc): 0.454 GB 
+[2026-08-16 06:10:07] [BELLEK] [GBSG2/xgboost_cox] model dongusu basi - Sistem RSS: 6.472 GB | R heap (gc): 0.454 GB 
+[2026-08-16 06:10:07] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/GBSG2/model.rds 
+[2026-08-16 06:10:08] [BELLEK] [GBSG2/xgboost_cox] model hazir - Sistem RSS: 6.472 GB | R heap (gc): 0.454 GB 
+[2026-08-16 06:10:08] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-08-16 06:10:10] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.643 - IBS (graf): 0.207 
+[2026-08-16 06:10:10] Performans kaydedildi: results/xgboost_cox/GBSG2/performance.csv 
+[2026-08-16 06:10:10] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/GBSG2/explainer.rds 
+[2026-08-16 06:10:13] [BELLEK] [GBSG2/xgboost_cox] explainer hazir - Sistem RSS: 6.473 GB | R heap (gc): 0.774 GB 
+[2026-08-16 06:10:13] SHAP hesaplaniyor: xgboost_cox_model - n_obs = 100 
+[2026-08-16 06:10:13] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-16 06:10:13] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-16 06:10:13] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-16 06:17:54] SHAP - gozlem 20 / 100 
+[2026-08-16 06:30:31] SHAP - gozlem 25 / 100 
+[2026-08-16 06:40:15] SHAP - gozlem 30 / 100 
+[2026-08-16 06:50:44] SHAP - gozlem 35 / 100 
+[2026-08-16 07:02:02] SHAP - gozlem 40 / 100 
+[2026-08-16 07:15:41] SHAP - gozlem 45 / 100 
+[2026-08-16 07:31:03] SHAP - gozlem 50 / 100 
+[2026-08-16 07:46:32] SHAP - gozlem 55 / 100 
+[2026-08-16 07:59:02] SHAP - gozlem 60 / 100 
+[2026-08-16 08:08:43] SHAP - gozlem 65 / 100 
+[2026-08-16 08:21:41] SHAP - gozlem 70 / 100 
+[2026-08-16 08:33:50] SHAP - gozlem 75 / 100 
+[2026-08-16 08:47:28] SHAP - gozlem 80 / 100 
+[2026-08-16 09:03:09] SHAP - gozlem 85 / 100 
+[2026-08-16 09:18:46] SHAP - gozlem 90 / 100 
+[2026-08-16 09:30:46] SHAP - gozlem 95 / 100 
+[2026-08-16 09:45:25] SHAP - gozlem 100 / 100 
+[2026-08-16 09:48:32] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/GBSG2/shap_long_n100.csv 
+[2026-08-16 09:48:34] [BELLEK] [GBSG2/xgboost_cox] SHAP sonrasi - Sistem RSS: 6.805 GB | R heap (gc): 0.777 GB 
+[2026-08-16 09:48:35] Grafik kaydedildi: results/xgboost_cox/GBSG2/plots/survshap_plot_n100.png 
+[2026-08-16 09:48:35] SHAP ozeti kaydedildi: results/xgboost_cox/GBSG2/shap_summary_n100.csv 
+[2026-08-16 09:48:35] xgboost_cox_model - SHAP TIVM: 0.0016 
+[2026-08-16 09:48:37] [BELLEK] [GBSG2/xgboost_cox] model+explainer silindi, dongu sonu - Sistem RSS: 6.473 GB | R heap (gc): 0.455 GB 
+[2026-08-16 09:48:37] ===== BITTI: GBSG2 + cox - cindex: 0.658 - PFI TIVM: 0.0018 - SHAP TIVM: 5e-04 ===== 
+[2026-08-16 09:48:37] ===== BITTI: GBSG2 + aorsf - cindex: 0.68 - PFI TIVM: 0.0018 - SHAP TIVM: 0.0014 ===== 
+[2026-08-16 09:48:37] ===== BITTI: GBSG2 + cforest - cindex: 0.693 - PFI TIVM: 0.0025 - SHAP TIVM: 0.0026 ===== 
+[2026-08-16 09:48:37] ===== BITTI: GBSG2 + coxboost - cindex: 0.653 - PFI TIVM: 0.0019 - SHAP TIVM: 5e-04 ===== 
+[2026-08-16 09:48:37] ===== BITTI: GBSG2 + ctree - cindex: 0.623 - PFI TIVM: 0.0031 - SHAP TIVM: 0.0045 ===== 
+[2026-08-16 09:48:37] ===== BITTI: GBSG2 + cv_glmnet - cindex: 0.654 - PFI TIVM: 0.0017 - SHAP TIVM: 5e-04 ===== 
+[2026-08-16 09:48:37] ===== BITTI: GBSG2 + glmboost - cindex: 0.659 - PFI TIVM: 0.0016 - SHAP TIVM: 5e-04 ===== 
+[2026-08-16 09:48:37] ===== BITTI: GBSG2 + glmnet - cindex: 0.654 - PFI TIVM: 0.0018 - SHAP TIVM: 5e-04 ===== 
+[2026-08-16 09:48:37] ===== BITTI: GBSG2 + penalized - cindex: 0.658 - PFI TIVM: 0.002 - SHAP TIVM: 5e-04 ===== 
+[2026-08-16 09:48:37] ===== BITTI: GBSG2 + ranger - cindex: 0.684 - PFI TIVM: 0.0014 - SHAP TIVM: 0.0014 ===== 
+[2026-08-16 09:48:37] ===== BITTI: GBSG2 + rfsrc - cindex: 0.694 - PFI TIVM: 0.0019 - SHAP TIVM: 0.0017 ===== 
+[2026-08-16 09:48:37] ===== BITTI: GBSG2 + xgboost_cox - cindex: 0.643 - PFI TIVM: 0.0053 - SHAP TIVM: 0.0016 ===== 
+[2026-08-16 09:48:37] ----- Veri seti bitti: GBSG2 ----- 
+[2026-08-16 09:48:37] ===== RUN ( GBSG2 ) TAMAMLANDI ===== 
