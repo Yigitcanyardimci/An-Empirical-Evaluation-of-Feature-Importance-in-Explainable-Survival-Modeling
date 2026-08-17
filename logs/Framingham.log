@@ -4602,3 +4602,2373 @@ dbl (6): pid, event, time, fac_sex, num_age, num_year
 [2026-08-09 06:54:27] ===== BITTI: Framingham + xgboost_cox - cindex: 0.633 - PFI TIVM: 0.0013 - SHAP TIVM: 6e-04 ===== 
 [2026-08-09 06:54:27] ----- Veri seti bitti: Framingham ----- 
 [2026-08-09 06:54:27] ===== RUN ( Framingham ) TAMAMLANDI ===== 
+[2026-08-14 07:25:12] Paket kurulumu basladi 
+[2026-08-14 07:25:12] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-14 07:25:15] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-08-14 07:25:17] Paket kurulumu tamamlandi 
+[2026-08-14 07:25:17] Veri okuma basladi: grace 
+[2026-08-14 07:25:17] Veri okuma bitti: grace - 1000 satir, 7 sutun 
+[2026-08-14 07:25:17] Veri okuma basladi: melanoma 
+[2026-08-14 07:25:17] Veri okuma bitti: melanoma - 205 satir, 7 sutun 
+[2026-08-14 07:25:17] Veri okuma basladi: ova 
+[2026-08-14 07:25:18] Veri okuma bitti: ova - 358 satir, 7 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: aids2 
+[2026-08-14 07:25:18] Veri okuma bitti: aids2 - 2839 satir, 6 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: veteran 
+[2026-08-14 07:25:18] Veri okuma bitti: veteran - 137 satir, 8 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: breast 
+[2026-08-14 07:25:18] Veri okuma bitti: breast - 100 satir, 6 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: e1684 
+[2026-08-14 07:25:18] Veri okuma bitti: e1684 - 284 satir, 5 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: epileptic 
+[2026-08-14 07:25:18] Veri okuma bitti: epileptic - 1286 satir, 8 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: dialysis 
+[2026-08-14 07:25:18] Veri okuma bitti: dialysis - 6805 satir, 6 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: pbc 
+[2026-08-14 07:25:18] Veri okuma bitti: pbc - 312 satir, 8 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: prostateSurvival 
+[2026-08-14 07:25:18] Veri okuma bitti: prostateSurvival - 14294 satir, 5 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: acath 
+[2026-08-14 07:25:18] Veri okuma bitti: acath - 2258 satir, 5 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: prostate 
+[2026-08-14 07:25:18] Veri okuma bitti: prostate - 475 satir, 17 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: dataDIVAT1 
+[2026-08-14 07:25:18] Veri okuma bitti: dataDIVAT1 - 5943 satir, 7 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: dataDIVAT3 
+[2026-08-14 07:25:18] Veri okuma bitti: dataDIVAT3 - 4267 satir, 9 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: TRACE 
+[2026-08-14 07:25:18] Veri okuma bitti: TRACE - 1878 satir, 8 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: FRTCS 
+[2026-08-14 07:25:18] Veri okuma bitti: FRTCS - 2088 satir, 7 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: zinc 
+[2026-08-14 07:25:18] Veri okuma bitti: zinc - 431 satir, 15 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: stagec 
+[2026-08-14 07:25:18] Veri okuma bitti: stagec - 136 satir, 9 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: LeukSurv 
+[2026-08-14 07:25:18] Veri okuma bitti: LeukSurv - 1043 satir, 9 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: nwtco 
+[2026-08-14 07:25:18] Veri okuma bitti: nwtco - 4028 satir, 9 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: retinopathy 
+[2026-08-14 07:25:18] Veri okuma bitti: retinopathy - 394 satir, 9 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: Framingham 
+[2026-08-14 07:25:18] Veri okuma bitti: Framingham - 4658 satir, 9 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: csl 
+[2026-08-14 07:25:18] Veri okuma bitti: csl - 2481 satir, 8 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: cancer 
+[2026-08-14 07:25:18] Veri okuma bitti: cancer - 169 satir, 10 sutun 
+[2026-08-14 07:25:18] Veri okuma basladi: whas500 
+[2026-08-14 07:25:19] Veri okuma bitti: whas500 - 461 satir, 18 sutun 
+[2026-08-14 07:25:19] Veri okuma basladi: cgd 
+[2026-08-14 07:25:19] Veri okuma bitti: cgd - 128 satir, 12 sutun 
+[2026-08-14 07:25:19] Veri okuma basladi: Pbc3 
+[2026-08-14 07:25:19] Veri okuma bitti: Pbc3 - 327 satir, 14 sutun 
+[2026-08-14 07:25:19] Veri okuma basladi: GBSG2 
+[2026-08-14 07:25:19] Veri okuma bitti: GBSG2 - 686 satir, 10 sutun 
+[2026-08-14 07:25:19] Veri okuma basladi: colon 
+[2026-08-14 07:25:19] Veri okuma bitti: colon - 911 satir, 11 sutun 
+[2026-08-14 07:25:19] Veri okuma basladi: flchain 
+[2026-08-14 07:25:19] Veri okuma bitti: flchain - 6524 satir, 12 sutun 
+[2026-08-14 07:25:19] Veri okuma basladi: Rossi 
+[2026-08-14 07:25:19] Veri okuma bitti: Rossi - 1405 satir, 11 sutun 
+[2026-08-14 07:25:19] Veri okuma basladi: burn 
+[2026-08-14 07:25:19] Veri okuma bitti: burn - 154 satir, 13 sutun 
+[2026-08-14 07:25:19] Veri okuma basladi: rott2 
+[2026-08-14 07:25:19] Veri okuma bitti: rott2 - 2982 satir, 13 sutun 
+[2026-08-14 07:25:19] Veri okuma basladi: d_oropha_rec 
+[2026-08-14 07:25:19] Veri okuma bitti: d_oropha_rec - 192 satir, 14 sutun 
+[2026-08-14 07:25:19] Veri okuma basladi: rdata 
+[2026-08-14 07:25:19] Veri okuma bitti: rdata - 1040 satir, 6 sutun 
+[2026-08-14 07:25:19] Task olusturuluyor: grace_task 
+[2026-08-14 07:25:19] Task olusturuldu: grace_task 
+[2026-08-14 07:25:19] Task olusturuluyor: melanoma_task 
+[2026-08-14 07:25:19] Task olusturuldu: melanoma_task 
+[2026-08-14 07:25:19] Task olusturuluyor: ova_task 
+[2026-08-14 07:25:19] Task olusturuldu: ova_task 
+[2026-08-14 07:25:19] Task olusturuluyor: aids2_task 
+[2026-08-14 07:25:19] Task olusturuldu: aids2_task 
+[2026-08-14 07:25:19] Task olusturuluyor: veteran_task 
+[2026-08-14 07:25:19] Task olusturuldu: veteran_task 
+[2026-08-14 07:25:19] Task olusturuluyor: breast_task 
+[2026-08-14 07:25:19] Task olusturuldu: breast_task 
+[2026-08-14 07:25:19] Task olusturuluyor: e1684_task 
+[2026-08-14 07:25:19] Task olusturuldu: e1684_task 
+[2026-08-14 07:25:19] Task olusturuluyor: epileptic_task 
+[2026-08-14 07:25:19] Task olusturuldu: epileptic_task 
+[2026-08-14 07:25:19] Task olusturuluyor: dialysis_task 
+[2026-08-14 07:25:19] Task olusturuldu: dialysis_task 
+[2026-08-14 07:25:19] Task olusturuluyor: pbc_task 
+[2026-08-14 07:25:19] Task olusturuldu: pbc_task 
+[2026-08-14 07:25:19] Task olusturuluyor: prostateSurvival_task 
+[2026-08-14 07:25:19] Task olusturuldu: prostateSurvival_task 
+[2026-08-14 07:25:19] Task olusturuluyor: acath_task 
+[2026-08-14 07:25:19] Task olusturuldu: acath_task 
+[2026-08-14 07:25:19] Task olusturuluyor: prostate_task 
+[2026-08-14 07:25:19] Task olusturuldu: prostate_task 
+[2026-08-14 07:25:19] Task olusturuluyor: dataDIVAT1_task 
+[2026-08-14 07:25:19] Task olusturuldu: dataDIVAT1_task 
+[2026-08-14 07:25:19] Task olusturuluyor: dataDIVAT3_task 
+[2026-08-14 07:25:19] Task olusturuldu: dataDIVAT3_task 
+[2026-08-14 07:25:19] Task olusturuluyor: TRACE_task 
+[2026-08-14 07:25:19] Task olusturuldu: TRACE_task 
+[2026-08-14 07:25:19] Task olusturuluyor: FRTCS_task 
+[2026-08-14 07:25:19] Task olusturuldu: FRTCS_task 
+[2026-08-14 07:25:19] Task olusturuluyor: zinc_task 
+[2026-08-14 07:25:19] Task olusturuldu: zinc_task 
+[2026-08-14 07:25:19] Task olusturuluyor: stagec_task 
+[2026-08-14 07:25:19] Task olusturuldu: stagec_task 
+[2026-08-14 07:25:19] Task olusturuluyor: LeukSurv_task 
+[2026-08-14 07:25:19] Task olusturuldu: LeukSurv_task 
+[2026-08-14 07:25:19] Task olusturuluyor: nwtco_task 
+[2026-08-14 07:25:19] Task olusturuldu: nwtco_task 
+[2026-08-14 07:25:19] Task olusturuluyor: retinopathy_task 
+[2026-08-14 07:25:19] Task olusturuldu: retinopathy_task 
+[2026-08-14 07:25:19] Task olusturuluyor: Framingham_task 
+[2026-08-14 07:25:19] Task olusturuldu: Framingham_task 
+[2026-08-14 07:25:19] Task olusturuluyor: csl_task 
+[2026-08-14 07:25:19] Task olusturuldu: csl_task 
+[2026-08-14 07:25:19] Task olusturuluyor: cancer_task 
+[2026-08-14 07:25:19] Task olusturuldu: cancer_task 
+[2026-08-14 07:25:19] Task olusturuluyor: whas500_task 
+[2026-08-14 07:25:19] Task olusturuldu: whas500_task 
+[2026-08-14 07:25:19] Task olusturuluyor: cgd_task 
+[2026-08-14 07:25:19] Task olusturuldu: cgd_task 
+[2026-08-14 07:25:19] Task olusturuluyor: Pbc3_task 
+[2026-08-14 07:25:19] Task olusturuldu: Pbc3_task 
+[2026-08-14 07:25:19] Task olusturuluyor: GBSG2_task 
+[2026-08-14 07:25:19] Task olusturuldu: GBSG2_task 
+[2026-08-14 07:25:19] Task olusturuluyor: colon_task 
+[2026-08-14 07:25:19] Task olusturuldu: colon_task 
+[2026-08-14 07:25:19] Task olusturuluyor: flchain_task 
+[2026-08-14 07:25:19] Task olusturuldu: flchain_task 
+[2026-08-14 07:25:19] Task olusturuluyor: Rossi_task 
+[2026-08-14 07:25:19] Task olusturuldu: Rossi_task 
+[2026-08-14 07:25:19] Task olusturuluyor: burn_task 
+[2026-08-14 07:25:19] Task olusturuldu: burn_task 
+[2026-08-14 07:25:19] Task olusturuluyor: rott2_task 
+[2026-08-14 07:25:19] Task olusturuldu: rott2_task 
+[2026-08-14 07:25:19] Task olusturuluyor: d_oropha_rec_task 
+[2026-08-14 07:25:19] Task olusturuldu: d_oropha_rec_task 
+[2026-08-14 07:25:19] Task olusturuluyor: rdata_task 
+[2026-08-14 07:25:19] Task olusturuldu: rdata_task 
+[2026-08-14 07:25:19] Toplam 36 task olusturuldu 
+[2026-08-14 07:25:19] ===== RUN ( Framingham ) BASLADI: 12 model ===== 
+[2026-08-14 07:25:19] ----- Veri seti basladi: Framingham ----- 
+[2026-08-14 07:25:20] [BELLEK] [Framingham] veri seti basi - Sistem RSS: 0.492 GB | R heap (gc): 0.266 GB 
+[2026-08-14 07:25:20] Buyuk veri seti en bastan 1/3'e indirildi: 4658 -> 1553 satir 
+[2026-08-14 07:25:20] Split basladi (ratio = 0.7 ) 
+[2026-08-14 07:25:20] Split bitti - train: 1087 test: 466 
+[2026-08-14 07:25:20] [BELLEK] [Framingham/cox] model dongusu basi - Sistem RSS: 0.476 GB | R heap (gc): 0.267 GB 
+[2026-08-14 07:25:20] Kaydedilmis model bulundu, okunuyor: results/cox/Framingham/model.rds 
+[2026-08-14 07:25:21] [BELLEK] [Framingham/cox] model hazir - Sistem RSS: 0.476 GB | R heap (gc): 0.268 GB 
+[2026-08-14 07:25:21] Performans hesaplama basladi: surv.coxph 
+[2026-08-14 07:25:24] Performans hesaplama bitti: surv.coxph - cindex: 0.689 - IBS (graf): 0.114 
+[2026-08-14 07:25:24] Performans kaydedildi: results/cox/Framingham/performance.csv 
+[2026-08-14 07:25:24] Kaydedilmis explainer bulundu, okunuyor: results/cox/Framingham/explainer.rds 
+[2026-08-14 07:25:25] [BELLEK] [Framingham/cox] explainer hazir - Sistem RSS: 0.524 GB | R heap (gc): 0.287 GB 
+[2026-08-14 07:25:25] SHAP hesaplaniyor: cox_model - n_obs = 100 
+[2026-08-14 07:25:25] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-14 07:25:25] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-14 07:25:25] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-14 07:36:16] SHAP - gozlem 20 / 100 
+[2026-08-14 07:49:11] SHAP - gozlem 25 / 100 
+[2026-08-14 08:02:08] SHAP - gozlem 30 / 100 
+[2026-08-14 08:15:11] SHAP - gozlem 35 / 100 
+[2026-08-14 08:28:19] SHAP - gozlem 40 / 100 
+[2026-08-14 08:41:09] SHAP - gozlem 45 / 100 
+[2026-08-14 08:53:55] SHAP - gozlem 50 / 100 
+[2026-08-14 09:06:41] SHAP - gozlem 55 / 100 
+[2026-08-14 09:19:27] SHAP - gozlem 60 / 100 
+[2026-08-14 09:32:19] SHAP - gozlem 65 / 100 
+[2026-08-14 09:45:11] SHAP - gozlem 70 / 100 
+[2026-08-14 09:57:58] SHAP - gozlem 75 / 100 
+[2026-08-14 10:10:49] SHAP - gozlem 80 / 100 
+[2026-08-14 10:23:39] SHAP - gozlem 85 / 100 
+[2026-08-14 10:36:33] SHAP - gozlem 90 / 100 
+[2026-08-14 10:49:34] SHAP - gozlem 95 / 100 
+[2026-08-14 11:02:36] SHAP - gozlem 100 / 100 
+[2026-08-14 11:05:09] SHAP hesaplama bitti, kaydedildi: results/cox/Framingham/shap_long_n100.csv 
+[2026-08-14 11:05:10] [BELLEK] [Framingham/cox] SHAP sonrasi - Sistem RSS: 6.796 GB | R heap (gc): 0.295 GB 
+[2026-08-14 11:05:10] Grafik kaydedildi: results/cox/Framingham/plots/survshap_plot_n100.png 
+[2026-08-14 11:05:10] SHAP ozeti kaydedildi: results/cox/Framingham/shap_summary_n100.csv 
+[2026-08-14 11:05:10] cox_model - SHAP TIVM: 4e-04 
+[2026-08-14 11:05:11] [BELLEK] [Framingham/cox] model+explainer silindi, dongu sonu - Sistem RSS: 6.133 GB | R heap (gc): 0.305 GB 
+[2026-08-14 11:05:11] [BELLEK] [Framingham/aorsf] model dongusu basi - Sistem RSS: 6.133 GB | R heap (gc): 0.305 GB 
+[2026-08-14 11:05:11] Kaydedilmis model bulundu, okunuyor: results/aorsf/Framingham/model.rds 
+[2026-08-14 11:05:12] [BELLEK] [Framingham/aorsf] model hazir - Sistem RSS: 6.133 GB | R heap (gc): 0.333 GB 
+[2026-08-14 11:05:12] Performans hesaplama basladi: surv.aorsf 
+[2026-08-14 11:05:15] Performans hesaplama bitti: surv.aorsf - cindex: 0.687 - IBS (graf): 0.117 
+[2026-08-14 11:05:15] Performans kaydedildi: results/aorsf/Framingham/performance.csv 
+[2026-08-14 11:05:16] Kaydedilmis explainer bulundu, okunuyor: results/aorsf/Framingham/explainer.rds 
+[2026-08-14 11:05:16] [BELLEK] [Framingham/aorsf] explainer hazir - Sistem RSS: 6.133 GB | R heap (gc): 0.365 GB 
+[2026-08-14 11:05:16] SHAP hesaplaniyor: aorsf_model - n_obs = 100 
+[2026-08-14 11:05:17] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-14 11:05:17] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-14 11:05:17] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-14 11:13:42] SHAP - gozlem 20 / 100 
+[2026-08-14 11:24:25] SHAP - gozlem 25 / 100 
+[2026-08-14 11:34:40] SHAP - gozlem 30 / 100 
+[2026-08-14 11:44:58] SHAP - gozlem 35 / 100 
+[2026-08-14 11:55:32] SHAP - gozlem 40 / 100 
+[2026-08-14 12:05:59] SHAP - gozlem 45 / 100 
+[2026-08-14 12:16:14] SHAP - gozlem 50 / 100 
+[2026-08-14 12:26:25] SHAP - gozlem 55 / 100 
+[2026-08-14 12:36:48] SHAP - gozlem 60 / 100 
+[2026-08-14 12:47:25] SHAP - gozlem 65 / 100 
+[2026-08-14 12:57:45] SHAP - gozlem 70 / 100 
+[2026-08-14 13:08:14] SHAP - gozlem 75 / 100 
+[2026-08-14 13:18:45] SHAP - gozlem 80 / 100 
+[2026-08-14 13:29:12] SHAP - gozlem 85 / 100 
+[2026-08-14 13:39:26] SHAP - gozlem 90 / 100 
+[2026-08-14 13:49:55] SHAP - gozlem 95 / 100 
+[2026-08-14 14:00:15] SHAP - gozlem 100 / 100 
+[2026-08-14 14:02:16] SHAP hesaplama bitti, kaydedildi: results/aorsf/Framingham/shap_long_n100.csv 
+[2026-08-14 14:02:16] [BELLEK] [Framingham/aorsf] SHAP sonrasi - Sistem RSS: 6.133 GB | R heap (gc): 0.371 GB 
+[2026-08-14 14:02:17] Grafik kaydedildi: results/aorsf/Framingham/plots/survshap_plot_n100.png 
+[2026-08-14 14:02:17] SHAP ozeti kaydedildi: results/aorsf/Framingham/shap_summary_n100.csv 
+[2026-08-14 14:02:17] aorsf_model - SHAP TIVM: 7e-04 
+[2026-08-14 14:02:18] [BELLEK] [Framingham/aorsf] model+explainer silindi, dongu sonu - Sistem RSS: 6.133 GB | R heap (gc): 0.309 GB 
+[2026-08-14 14:02:18] [BELLEK] [Framingham/cforest] model dongusu basi - Sistem RSS: 6.133 GB | R heap (gc): 0.309 GB 
+[2026-08-14 14:02:18] Kaydedilmis model bulundu, okunuyor: results/cforest/Framingham/model.rds 
+[2026-08-14 14:02:19] [BELLEK] [Framingham/cforest] model hazir - Sistem RSS: 6.133 GB | R heap (gc): 0.458 GB 
+[2026-08-14 14:02:19] Performans hesaplama basladi: surv.cforest 
+[2026-08-14 14:03:01] Performans hesaplama bitti: surv.cforest - cindex: 0.684 - IBS (graf): 0.116 
+[2026-08-14 14:03:01] Performans kaydedildi: results/cforest/Framingham/performance.csv 
+[2026-08-14 14:03:01] Kaydedilmis explainer bulundu, okunuyor: results/cforest/Framingham/explainer.rds 
+[2026-08-14 14:03:02] [BELLEK] [Framingham/cforest] explainer hazir - Sistem RSS: 6.133 GB | R heap (gc): 0.611 GB 
+[2026-08-14 14:03:02] SHAP hesaplaniyor: cforest_model - n_obs = 100 
+[2026-08-14 14:03:03] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-14 14:03:03] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-14 14:03:03] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-14 14:30:23] SHAP - gozlem 20 / 100 
+[2026-08-14 15:04:15] SHAP - gozlem 25 / 100 
+[2026-08-14 15:38:30] SHAP - gozlem 30 / 100 
+[2026-08-14 16:12:39] SHAP - gozlem 35 / 100 
+[2026-08-14 16:47:24] SHAP - gozlem 40 / 100 
+[2026-08-14 17:21:41] SHAP - gozlem 45 / 100 
+[2026-08-14 17:55:00] SHAP - gozlem 50 / 100 
+[2026-08-14 18:28:28] SHAP - gozlem 55 / 100 
+[2026-08-14 19:01:29] SHAP - gozlem 60 / 100 
+[2026-08-14 19:34:53] SHAP - gozlem 65 / 100 
+[2026-08-14 20:08:18] SHAP - gozlem 70 / 100 
+[2026-08-14 20:42:13] SHAP - gozlem 75 / 100 
+[2026-08-14 21:16:19] SHAP - gozlem 80 / 100 
+[2026-08-14 21:49:26] SHAP - gozlem 85 / 100 
+[2026-08-14 22:22:39] SHAP - gozlem 90 / 100 
+[2026-08-14 22:56:03] SHAP - gozlem 95 / 100 
+[2026-08-14 23:29:49] SHAP - gozlem 100 / 100 
+[2026-08-14 23:36:26] SHAP hesaplama bitti, kaydedildi: results/cforest/Framingham/shap_long_n100.csv 
+[2026-08-14 23:36:28] [BELLEK] [Framingham/cforest] SHAP sonrasi - Sistem RSS: 11.098 GB | R heap (gc): 0.75 GB 
+[2026-08-14 23:36:28] Grafik kaydedildi: results/cforest/Framingham/plots/survshap_plot_n100.png 
+[2026-08-14 23:36:28] SHAP ozeti kaydedildi: results/cforest/Framingham/shap_summary_n100.csv 
+[2026-08-14 23:36:28] cforest_model - SHAP TIVM: 7e-04 
+[2026-08-14 23:36:29] [BELLEK] [Framingham/cforest] model+explainer silindi, dongu sonu - Sistem RSS: 10.426 GB | R heap (gc): 0.445 GB 
+[2026-08-14 23:36:30] [BELLEK] [Framingham/coxboost] model dongusu basi - Sistem RSS: 10.401 GB | R heap (gc): 0.445 GB 
+[2026-08-14 23:36:30] Kaydedilmis model bulundu, okunuyor: results/coxboost/Framingham/model.rds 
+[2026-08-14 23:36:30] [BELLEK] [Framingham/coxboost] model hazir - Sistem RSS: 10.401 GB | R heap (gc): 0.446 GB 
+[2026-08-14 23:36:30] Performans hesaplama basladi: surv.coxboost 
+[2026-08-14 23:36:36] Performans hesaplama bitti: surv.coxboost - cindex: 0.687 - IBS (graf): 0.115 
+[2026-08-14 23:36:36] Performans kaydedildi: results/coxboost/Framingham/performance.csv 
+[2026-08-14 23:36:36] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/Framingham/explainer.rds 
+[2026-08-14 23:36:37] [BELLEK] [Framingham/coxboost] explainer hazir - Sistem RSS: 10.401 GB | R heap (gc): 0.45 GB 
+[2026-08-14 23:36:37] SHAP hesaplaniyor: coxboost_model - n_obs = 100 
+[2026-08-14 23:36:37] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-14 23:36:37] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-14 23:36:37] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-14 23:47:11] SHAP - gozlem 20 / 100 
+[2026-08-15 00:00:02] SHAP - gozlem 25 / 100 
+[2026-08-15 00:12:56] SHAP - gozlem 30 / 100 
+[2026-08-15 00:25:41] SHAP - gozlem 35 / 100 
+[2026-08-15 00:38:34] SHAP - gozlem 40 / 100 
+[2026-08-15 00:51:27] SHAP - gozlem 45 / 100 
+[2026-08-15 01:04:20] SHAP - gozlem 50 / 100 
+[2026-08-15 01:17:07] SHAP - gozlem 55 / 100 
+[2026-08-15 01:30:00] SHAP - gozlem 60 / 100 
+[2026-08-15 01:42:57] SHAP - gozlem 65 / 100 
+[2026-08-15 01:55:44] SHAP - gozlem 70 / 100 
+[2026-08-15 02:08:38] SHAP - gozlem 75 / 100 
+[2026-08-15 02:21:22] SHAP - gozlem 80 / 100 
+[2026-08-15 02:34:15] SHAP - gozlem 85 / 100 
+[2026-08-15 02:47:06] SHAP - gozlem 90 / 100 
+[2026-08-15 02:59:56] SHAP - gozlem 95 / 100 
+[2026-08-15 03:12:42] SHAP - gozlem 100 / 100 
+[2026-08-15 03:15:18] SHAP hesaplama bitti, kaydedildi: results/coxboost/Framingham/shap_long_n100.csv 
+[2026-08-15 03:15:19] [BELLEK] [Framingham/coxboost] SHAP sonrasi - Sistem RSS: 11.408 GB | R heap (gc): 0.455 GB 
+[2026-08-15 03:15:19] Grafik kaydedildi: results/coxboost/Framingham/plots/survshap_plot_n100.png 
+[2026-08-15 03:15:19] SHAP ozeti kaydedildi: results/coxboost/Framingham/shap_summary_n100.csv 
+[2026-08-15 03:15:19] coxboost_model - SHAP TIVM: 4e-04 
+[2026-08-15 03:15:20] [BELLEK] [Framingham/coxboost] model+explainer silindi, dongu sonu - Sistem RSS: 10.401 GB | R heap (gc): 0.446 GB 
+[2026-08-15 03:15:21] [BELLEK] [Framingham/ctree] model dongusu basi - Sistem RSS: 10.401 GB | R heap (gc): 0.446 GB 
+[2026-08-15 03:15:21] Kaydedilmis model bulundu, okunuyor: results/ctree/Framingham/model.rds 
+[2026-08-15 03:15:21] [BELLEK] [Framingham/ctree] model hazir - Sistem RSS: 10.401 GB | R heap (gc): 0.448 GB 
+[2026-08-15 03:15:21] Performans hesaplama basladi: surv.ctree 
+[2026-08-15 03:15:25] Performans hesaplama bitti: surv.ctree - cindex: 0.656 - IBS (graf): 0.123 
+[2026-08-15 03:15:25] Performans kaydedildi: results/ctree/Framingham/performance.csv 
+[2026-08-15 03:15:25] Kaydedilmis explainer bulundu, okunuyor: results/ctree/Framingham/explainer.rds 
+[2026-08-15 03:15:25] [BELLEK] [Framingham/ctree] explainer hazir - Sistem RSS: 10.401 GB | R heap (gc): 0.45 GB 
+[2026-08-15 03:15:25] SHAP hesaplaniyor: ctree_model - n_obs = 100 
+[2026-08-15 03:15:25] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-15 03:15:25] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-15 03:15:25] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-15 03:25:59] SHAP - gozlem 20 / 100 
+[2026-08-15 03:39:00] SHAP - gozlem 25 / 100 
+[2026-08-15 03:51:51] SHAP - gozlem 30 / 100 
+[2026-08-15 04:04:38] SHAP - gozlem 35 / 100 
+[2026-08-15 04:17:26] SHAP - gozlem 40 / 100 
+[2026-08-15 04:30:20] SHAP - gozlem 45 / 100 
+[2026-08-15 04:43:07] SHAP - gozlem 50 / 100 
+[2026-08-15 04:55:50] SHAP - gozlem 55 / 100 
+[2026-08-15 05:08:45] SHAP - gozlem 60 / 100 
+[2026-08-15 05:21:50] SHAP - gozlem 65 / 100 
+[2026-08-15 05:34:44] SHAP - gozlem 70 / 100 
+[2026-08-15 05:47:47] SHAP - gozlem 75 / 100 
+[2026-08-15 06:00:45] SHAP - gozlem 80 / 100 
+[2026-08-15 06:13:26] SHAP - gozlem 85 / 100 
+[2026-08-15 06:26:44] SHAP - gozlem 90 / 100 
+[2026-08-15 06:39:40] SHAP - gozlem 95 / 100 
+[2026-08-15 06:52:39] SHAP - gozlem 100 / 100 
+[2026-08-15 06:55:11] SHAP hesaplama bitti, kaydedildi: results/ctree/Framingham/shap_long_n100.csv 
+[2026-08-15 06:55:12] [BELLEK] [Framingham/ctree] SHAP sonrasi - Sistem RSS: 11.072 GB | R heap (gc): 0.456 GB 
+[2026-08-15 06:55:12] Grafik kaydedildi: results/ctree/Framingham/plots/survshap_plot_n100.png 
+[2026-08-15 06:55:12] SHAP ozeti kaydedildi: results/ctree/Framingham/shap_summary_n100.csv 
+[2026-08-15 06:55:12] ctree_model - SHAP TIVM: 0.001 
+[2026-08-15 06:55:13] [BELLEK] [Framingham/ctree] model+explainer silindi, dongu sonu - Sistem RSS: 10.401 GB | R heap (gc): 0.447 GB 
+[2026-08-15 06:55:14] [BELLEK] [Framingham/cv_glmnet] model dongusu basi - Sistem RSS: 10.401 GB | R heap (gc): 0.447 GB 
+[2026-08-15 06:55:14] Kaydedilmis model bulundu, okunuyor: results/cv_glmnet/Framingham/model.rds 
+[2026-08-15 06:55:14] [BELLEK] [Framingham/cv_glmnet] model hazir - Sistem RSS: 10.401 GB | R heap (gc): 0.447 GB 
+[2026-08-15 06:55:14] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-08-15 06:55:18] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.688 - IBS (graf): 0.114 
+[2026-08-15 06:55:18] Performans kaydedildi: results/cv_glmnet/Framingham/performance.csv 
+[2026-08-15 06:55:18] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/Framingham/explainer.rds 
+[2026-08-15 06:55:19] [BELLEK] [Framingham/cv_glmnet] explainer hazir - Sistem RSS: 10.402 GB | R heap (gc): 0.45 GB 
+[2026-08-15 06:55:19] SHAP hesaplaniyor: cv_glmnet_model - n_obs = 100 
+[2026-08-15 06:55:19] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-15 06:55:19] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-15 06:55:19] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-15 07:05:59] SHAP - gozlem 20 / 100 
+[2026-08-15 07:19:05] SHAP - gozlem 25 / 100 
+[2026-08-15 07:32:08] SHAP - gozlem 30 / 100 
+[2026-08-15 07:45:09] SHAP - gozlem 35 / 100 
+[2026-08-15 07:58:13] SHAP - gozlem 40 / 100 
+[2026-08-15 08:11:25] SHAP - gozlem 45 / 100 
+[2026-08-15 08:24:24] SHAP - gozlem 50 / 100 
+[2026-08-15 08:37:32] SHAP - gozlem 55 / 100 
+[2026-08-15 08:50:35] SHAP - gozlem 60 / 100 
+[2026-08-15 09:03:34] SHAP - gozlem 65 / 100 
+[2026-08-15 09:16:35] SHAP - gozlem 70 / 100 
+[2026-08-15 09:29:45] SHAP - gozlem 75 / 100 
+[2026-08-15 09:42:42] SHAP - gozlem 80 / 100 
+[2026-08-15 09:55:40] SHAP - gozlem 85 / 100 
+[2026-08-15 10:08:36] SHAP - gozlem 90 / 100 
+[2026-08-15 10:21:41] SHAP - gozlem 95 / 100 
+[2026-08-15 10:34:36] SHAP - gozlem 100 / 100 
+[2026-08-15 10:37:12] SHAP hesaplama bitti, kaydedildi: results/cv_glmnet/Framingham/shap_long_n100.csv 
+[2026-08-15 10:37:12] [BELLEK] [Framingham/cv_glmnet] SHAP sonrasi - Sistem RSS: 11.408 GB | R heap (gc): 0.455 GB 
+[2026-08-15 10:37:13] Grafik kaydedildi: results/cv_glmnet/Framingham/plots/survshap_plot_n100.png 
+[2026-08-15 10:37:13] SHAP ozeti kaydedildi: results/cv_glmnet/Framingham/shap_summary_n100.csv 
+[2026-08-15 10:37:13] cv_glmnet_model - SHAP TIVM: 4e-04 
+[2026-08-15 10:37:14] [BELLEK] [Framingham/cv_glmnet] model+explainer silindi, dongu sonu - Sistem RSS: 10.402 GB | R heap (gc): 0.449 GB 
+[2026-08-15 10:37:14] [BELLEK] [Framingham/glmboost] model dongusu basi - Sistem RSS: 10.402 GB | R heap (gc): 0.449 GB 
+[2026-08-15 10:37:14] Kaydedilmis model bulundu, okunuyor: results/glmboost/Framingham/model.rds 
+[2026-08-15 10:37:15] [BELLEK] [Framingham/glmboost] model hazir - Sistem RSS: 10.402 GB | R heap (gc): 0.454 GB 
+[2026-08-15 10:37:15] Performans hesaplama basladi: surv.glmboost 
+[2026-08-15 10:37:18] Performans hesaplama bitti: surv.glmboost - cindex: 0.685 - IBS (graf): 0.116 
+[2026-08-15 10:37:18] Performans kaydedildi: results/glmboost/Framingham/performance.csv 
+[2026-08-15 10:37:18] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/Framingham/explainer.rds 
+[2026-08-15 10:37:19] [BELLEK] [Framingham/glmboost] explainer hazir - Sistem RSS: 10.402 GB | R heap (gc): 0.46 GB 
+[2026-08-15 10:37:19] SHAP hesaplaniyor: glmboost_model - n_obs = 100 
+[2026-08-15 10:37:19] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-15 10:37:19] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-15 10:37:19] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-15 10:42:25] SHAP - gozlem 20 / 100 
+[2026-08-15 10:48:42] SHAP - gozlem 25 / 100 
+[2026-08-15 10:55:00] SHAP - gozlem 30 / 100 
+[2026-08-15 11:01:30] SHAP - gozlem 35 / 100 
+[2026-08-15 11:07:44] SHAP - gozlem 40 / 100 
+[2026-08-15 11:14:01] SHAP - gozlem 45 / 100 
+[2026-08-15 11:20:17] SHAP - gozlem 50 / 100 
+[2026-08-15 11:26:34] SHAP - gozlem 55 / 100 
+[2026-08-15 11:32:59] SHAP - gozlem 60 / 100 
+[2026-08-15 11:39:28] SHAP - gozlem 65 / 100 
+[2026-08-15 11:45:54] SHAP - gozlem 70 / 100 
+[2026-08-15 11:52:22] SHAP - gozlem 75 / 100 
+[2026-08-15 11:58:52] SHAP - gozlem 80 / 100 
+[2026-08-15 12:05:18] SHAP - gozlem 85 / 100 
+[2026-08-15 12:11:44] SHAP - gozlem 90 / 100 
+[2026-08-15 12:18:14] SHAP - gozlem 95 / 100 
+[2026-08-15 12:24:41] SHAP - gozlem 100 / 100 
+[2026-08-15 12:26:00] SHAP hesaplama bitti, kaydedildi: results/glmboost/Framingham/shap_long_n100.csv 
+[2026-08-15 12:26:00] [BELLEK] [Framingham/glmboost] SHAP sonrasi - Sistem RSS: 10.402 GB | R heap (gc): 0.466 GB 
+[2026-08-15 12:26:01] Grafik kaydedildi: results/glmboost/Framingham/plots/survshap_plot_n100.png 
+[2026-08-15 12:26:01] SHAP ozeti kaydedildi: results/glmboost/Framingham/shap_summary_n100.csv 
+[2026-08-15 12:26:01] glmboost_model - SHAP TIVM: 3e-04 
+[2026-08-15 12:26:02] [BELLEK] [Framingham/glmboost] model+explainer silindi, dongu sonu - Sistem RSS: 10.402 GB | R heap (gc): 0.45 GB 
+[2026-08-15 12:26:02] [BELLEK] [Framingham/glmnet] model dongusu basi - Sistem RSS: 10.402 GB | R heap (gc): 0.45 GB 
+[2026-08-15 12:26:02] Kaydedilmis model bulundu, okunuyor: results/glmnet/Framingham/model.rds 
+[2026-08-15 12:26:03] [BELLEK] [Framingham/glmnet] model hazir - Sistem RSS: 10.402 GB | R heap (gc): 0.45 GB 
+[2026-08-15 12:26:03] Performans hesaplama basladi: surv.glmnet 
+[2026-08-15 12:26:06] Performans hesaplama bitti: surv.glmnet - cindex: 0.687 - IBS (graf): 0.114 
+[2026-08-15 12:26:06] Performans kaydedildi: results/glmnet/Framingham/performance.csv 
+[2026-08-15 12:26:07] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/Framingham/explainer.rds 
+[2026-08-15 12:26:07] [BELLEK] [Framingham/glmnet] explainer hazir - Sistem RSS: 10.402 GB | R heap (gc): 0.451 GB 
+[2026-08-15 12:26:07] SHAP hesaplaniyor: glmnet_model - n_obs = 100 
+[2026-08-15 12:26:07] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-15 12:26:08] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-15 12:26:08] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-15 12:36:44] SHAP - gozlem 20 / 100 
+[2026-08-15 12:49:48] SHAP - gozlem 25 / 100 
+[2026-08-15 13:02:47] SHAP - gozlem 30 / 100 
+[2026-08-15 13:15:52] SHAP - gozlem 35 / 100 
+[2026-08-15 13:28:50] SHAP - gozlem 40 / 100 
+[2026-08-15 13:41:50] SHAP - gozlem 45 / 100 
+[2026-08-15 13:54:54] SHAP - gozlem 50 / 100 
+[2026-08-15 14:07:59] SHAP - gozlem 55 / 100 
+[2026-08-15 14:21:00] SHAP - gozlem 60 / 100 
+[2026-08-15 14:34:01] SHAP - gozlem 65 / 100 
+[2026-08-15 14:47:04] SHAP - gozlem 70 / 100 
+[2026-08-15 15:00:06] SHAP - gozlem 75 / 100 
+[2026-08-15 15:13:09] SHAP - gozlem 80 / 100 
+[2026-08-15 15:26:17] SHAP - gozlem 85 / 100 
+[2026-08-15 15:39:21] SHAP - gozlem 90 / 100 
+[2026-08-15 15:52:17] SHAP - gozlem 95 / 100 
+[2026-08-15 16:05:16] SHAP - gozlem 100 / 100 
+[2026-08-15 16:07:54] SHAP hesaplama bitti, kaydedildi: results/glmnet/Framingham/shap_long_n100.csv 
+[2026-08-15 16:07:54] [BELLEK] [Framingham/glmnet] SHAP sonrasi - Sistem RSS: 11.408 GB | R heap (gc): 0.457 GB 
+[2026-08-15 16:07:55] Grafik kaydedildi: results/glmnet/Framingham/plots/survshap_plot_n100.png 
+[2026-08-15 16:07:55] SHAP ozeti kaydedildi: results/glmnet/Framingham/shap_summary_n100.csv 
+[2026-08-15 16:07:55] glmnet_model - SHAP TIVM: 4e-04 
+[2026-08-15 16:07:56] [BELLEK] [Framingham/glmnet] model+explainer silindi, dongu sonu - Sistem RSS: 10.402 GB | R heap (gc): 0.45 GB 
+[2026-08-15 16:07:56] [BELLEK] [Framingham/penalized] model dongusu basi - Sistem RSS: 10.402 GB | R heap (gc): 0.45 GB 
+[2026-08-15 16:07:56] Kaydedilmis model bulundu, okunuyor: results/penalized/Framingham/model.rds 
+[2026-08-15 16:07:57] [BELLEK] [Framingham/penalized] model hazir - Sistem RSS: 10.402 GB | R heap (gc): 0.451 GB 
+[2026-08-15 16:07:57] Performans hesaplama basladi: surv.penalized 
+[2026-08-15 16:07:59] Performans hesaplama bitti: surv.penalized - cindex: 0.689 - IBS (graf): 0.114 
+[2026-08-15 16:07:59] Performans kaydedildi: results/penalized/Framingham/performance.csv 
+[2026-08-15 16:07:59] Kaydedilmis explainer bulundu, okunuyor: results/penalized/Framingham/explainer.rds 
+[2026-08-15 16:08:00] [BELLEK] [Framingham/penalized] explainer hazir - Sistem RSS: 10.403 GB | R heap (gc): 0.454 GB 
+[2026-08-15 16:08:00] SHAP hesaplaniyor: penalized_model - n_obs = 100 
+[2026-08-15 16:08:00] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-15 16:08:00] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-15 16:08:00] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-15 16:13:17] SHAP - gozlem 20 / 100 
+[2026-08-15 16:20:05] SHAP - gozlem 25 / 100 
+[2026-08-15 16:26:42] SHAP - gozlem 30 / 100 
+[2026-08-15 16:33:14] SHAP - gozlem 35 / 100 
+[2026-08-15 16:39:47] SHAP - gozlem 40 / 100 
+[2026-08-15 16:46:13] SHAP - gozlem 45 / 100 
+[2026-08-15 16:52:37] SHAP - gozlem 50 / 100 
+[2026-08-15 16:59:08] SHAP - gozlem 55 / 100 
+[2026-08-15 17:05:40] SHAP - gozlem 60 / 100 
+[2026-08-15 17:12:13] SHAP - gozlem 65 / 100 
+[2026-08-15 17:18:43] SHAP - gozlem 70 / 100 
+[2026-08-15 17:25:07] SHAP - gozlem 75 / 100 
+[2026-08-15 17:31:39] SHAP - gozlem 80 / 100 
+[2026-08-15 17:38:06] SHAP - gozlem 85 / 100 
+[2026-08-15 17:44:37] SHAP - gozlem 90 / 100 
+[2026-08-15 17:51:10] SHAP - gozlem 95 / 100 
+[2026-08-15 17:57:43] SHAP - gozlem 100 / 100 
+[2026-08-15 17:59:02] SHAP hesaplama bitti, kaydedildi: results/penalized/Framingham/shap_long_n100.csv 
+[2026-08-15 17:59:03] [BELLEK] [Framingham/penalized] SHAP sonrasi - Sistem RSS: 10.403 GB | R heap (gc): 0.459 GB 
+[2026-08-15 17:59:03] Grafik kaydedildi: results/penalized/Framingham/plots/survshap_plot_n100.png 
+[2026-08-15 17:59:03] SHAP ozeti kaydedildi: results/penalized/Framingham/shap_summary_n100.csv 
+[2026-08-15 17:59:03] penalized_model - SHAP TIVM: 4e-04 
+[2026-08-15 17:59:04] [BELLEK] [Framingham/penalized] model+explainer silindi, dongu sonu - Sistem RSS: 10.403 GB | R heap (gc): 0.451 GB 
+[2026-08-15 17:59:05] [BELLEK] [Framingham/ranger] model dongusu basi - Sistem RSS: 10.403 GB | R heap (gc): 0.451 GB 
+[2026-08-15 17:59:05] Kaydedilmis model bulundu, okunuyor: results/ranger/Framingham/model.rds 
+[2026-08-15 17:59:07] [BELLEK] [Framingham/ranger] model hazir - Sistem RSS: 10.403 GB | R heap (gc): 0.722 GB 
+[2026-08-15 17:59:07] Performans hesaplama basladi: surv.ranger 
+[2026-08-15 17:59:25] Performans hesaplama bitti: surv.ranger - cindex: 0.675 - IBS (graf): 0.118 
+[2026-08-15 17:59:25] Performans kaydedildi: results/ranger/Framingham/performance.csv 
+[2026-08-15 17:59:25] Kaydedilmis explainer bulundu, okunuyor: results/ranger/Framingham/explainer.rds 
+[2026-08-15 17:59:27] [BELLEK] [Framingham/ranger] explainer hazir - Sistem RSS: 10.405 GB | R heap (gc): 0.994 GB 
+[2026-08-15 17:59:27] SHAP hesaplaniyor: ranger_model - n_obs = 100 
+[2026-08-15 17:59:27] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-15 17:59:27] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-15 17:59:27] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-15 18:50:58] SHAP - gozlem 20 / 100 
+[2026-08-15 19:56:26] SHAP - gozlem 25 / 100 
+[2026-08-15 21:00:12] SHAP - gozlem 30 / 100 
+[2026-08-15 22:03:13] SHAP - gozlem 35 / 100 
+[2026-08-15 23:07:08] SHAP - gozlem 40 / 100 
+[2026-08-16 00:11:45] SHAP - gozlem 45 / 100 
+[2026-08-16 01:20:49] SHAP - gozlem 50 / 100 
+[2026-08-16 02:30:13] SHAP - gozlem 55 / 100 
+[2026-08-16 03:37:51] SHAP - gozlem 60 / 100 
+[2026-08-16 04:44:23] SHAP - gozlem 65 / 100 
+[2026-08-16 05:52:04] SHAP - gozlem 70 / 100 
+[2026-08-16 06:22:49] Paket kurulumu basladi 
+[2026-08-16 06:22:49] Paket kurulumu basladi 
+[2026-08-16 06:22:49] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-16 06:22:49] renv.lock bulunamadi, normal kurulum yapiliyor 
+renv.lock bulunamadi, normal kurulum yapiliyor. Reproducibility icin projede bir kere renv::init() calistirabilirsin.
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘survex’
+
+The following object is masked from ‘package:dplyr’:
+
+    explain
+
+[2026-08-16 06:22:53] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-08-16 06:22:53] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-08-16 06:22:55] Paket kurulumu tamamlandi 
+[2026-08-16 06:22:55] Paket kurulumu tamamlandi 
+[2026-08-16 06:22:55] Veri okuma basladi: grace 
+[2026-08-16 06:22:55] Veri okuma basladi: grace 
+Rows: 1000 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (8): pid, event, time, num_los, num_age, num_sysbp, fac_revasc, fac_stch...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:55] Veri okuma bitti: grace - 1000 satir, 7 sutun 
+[2026-08-16 06:22:55] Veri okuma bitti: grace - 1000 satir, 7 sutun 
+[2026-08-16 06:22:55] Veri okuma basladi: melanoma 
+[2026-08-16 06:22:55] Veri okuma basladi: melanoma 
+Rows: 205 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (8): pid, event, time, fac_sex, fac_ulcer, num_age, num_year, num_thickness
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:55] Veri okuma bitti: melanoma - 205 satir, 7 sutun 
+[2026-08-16 06:22:55] Veri okuma bitti: melanoma - 205 satir, 7 sutun 
+[2026-08-16 06:22:55] Veri okuma basladi: ova 
+[2026-08-16 06:22:55] Veri okuma basladi: ova 
+Rows: 358 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (8): pid, event, time, fac_karn, fac_diam, fac_figo, num_karn, num_diam
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:55] Veri okuma bitti: ova - 358 satir, 7 sutun 
+[2026-08-16 06:22:55] Veri okuma bitti: ova - 358 satir, 7 sutun 
+[2026-08-16 06:22:55] Veri okuma basladi: aids2 
+[2026-08-16 06:22:55] Veri okuma basladi: aids2 
+Rows: 2839 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_state, fac_sex, fac_T_categ
+dbl (4): pid, event, time, num_age
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:55] Veri okuma bitti: aids2 - 2839 satir, 6 sutun 
+[2026-08-16 06:22:55] Veri okuma bitti: aids2 - 2839 satir, 6 sutun 
+[2026-08-16 06:22:55] Veri okuma basladi: veteran 
+[2026-08-16 06:22:55] Veri okuma basladi: veteran 
+Rows: 137 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_celltype
+dbl (8): pid, event, time, num_karno, num_diagtime, num_age, fac_trt, fac_prior
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:55] Veri okuma bitti: veteran - 137 satir, 8 sutun 
+[2026-08-16 06:22:55] Veri okuma bitti: veteran - 137 satir, 8 sutun 
+[2026-08-16 06:22:55] Veri okuma basladi: breast 
+[2026-08-16 06:22:55] Veri okuma basladi: breast 
+Rows: 100 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (7): pid, event, time, fac_TumorStage, fac_NodalStatus, fac_Histology, f...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:55] Veri okuma bitti: breast - 100 satir, 6 sutun 
+[2026-08-16 06:22:55] Veri okuma bitti: breast - 100 satir, 6 sutun 
+[2026-08-16 06:22:55] Veri okuma basladi: e1684 
+[2026-08-16 06:22:55] Veri okuma basladi: e1684 
+Rows: 284 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (6): pid, event, time, num_age, fac_sex, fac_trt
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:55] Veri okuma bitti: e1684 - 284 satir, 5 sutun 
+[2026-08-16 06:22:55] Veri okuma bitti: e1684 - 284 satir, 5 sutun 
+[2026-08-16 06:22:55] Veri okuma basladi: epileptic 
+[2026-08-16 06:22:55] Veri okuma basladi: epileptic 
+Rows: 1286 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_treat, fac_gender, fac_learn_dis
+dbl (6): pid, event, time, time2, num_dose, num_age
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:55] Veri okuma bitti: epileptic - 1286 satir, 8 sutun 
+[2026-08-16 06:22:55] Veri okuma bitti: epileptic - 1286 satir, 8 sutun 
+[2026-08-16 06:22:55] Veri okuma basladi: dialysis 
+[2026-08-16 06:22:55] Veri okuma basladi: dialysis 
+Rows: 6805 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_disease
+dbl (6): pid, event, time, fac_center, num_age, num_begin
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:55] Veri okuma bitti: dialysis - 6805 satir, 6 sutun 
+[2026-08-16 06:22:55] Veri okuma bitti: dialysis - 6805 satir, 6 sutun 
+[2026-08-16 06:22:55] Veri okuma basladi: pbc 
+[2026-08-16 06:22:55] Veri okuma basladi: pbc 
+Rows: 312 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_sex
+dbl (8): pid, event, time, num_age, fac_trt, fac_ascites, fac_hepato, fac_sp...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:55] Veri okuma bitti: pbc - 312 satir, 8 sutun 
+[2026-08-16 06:22:55] Veri okuma bitti: pbc - 312 satir, 8 sutun 
+[2026-08-16 06:22:55] Veri okuma basladi: prostateSurvival 
+[2026-08-16 06:22:55] Veri okuma basladi: prostateSurvival 
+Rows: 14294 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_grade, fac_stage, fac_ageGroup
+dbl (3): pid, event, time
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:56] Veri okuma bitti: prostateSurvival - 14294 satir, 5 sutun 
+[2026-08-16 06:22:56] Veri okuma bitti: prostateSurvival - 14294 satir, 5 sutun 
+[2026-08-16 06:22:56] Veri okuma basladi: acath 
+[2026-08-16 06:22:56] Veri okuma basladi: acath 
+Rows: 3504 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (6): pid, event, time, num_age, num_choleste, fac_sex
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:56] Veri okuma bitti: acath - 2258 satir, 5 sutun 
+[2026-08-16 06:22:56] Veri okuma bitti: acath - 2258 satir, 5 sutun 
+[2026-08-16 06:22:56] Veri okuma basladi: prostate 
+[2026-08-16 06:22:56] Veri okuma basladi: prostate 
+Rows: 502 Columns: 18
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (3): fac_rx, fac_pf, fac_ekg
+dbl (15): pid, event, time, fac_stage, fac_hx, fac_bm, num_age, num_wt, num_...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:56] Veri okuma bitti: prostate - 475 satir, 17 sutun 
+[2026-08-16 06:22:56] Veri okuma bitti: prostate - 475 satir, 17 sutun 
+[2026-08-16 06:22:56] Veri okuma basladi: dataDIVAT1 
+[2026-08-16 06:22:56] Veri okuma basladi: dataDIVAT1 
+Rows: 5943 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_sexR
+dbl (7): pid, event, time, num_ageR, num_year_tx, fac_graft, fac_year_tx
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:56] Veri okuma bitti: dataDIVAT1 - 5943 satir, 7 sutun 
+[2026-08-16 06:22:56] Veri okuma bitti: dataDIVAT1 - 5943 satir, 7 sutun 
+[2026-08-16 06:22:56] Veri okuma basladi: dataDIVAT3 
+[2026-08-16 06:22:56] Veri okuma basladi: dataDIVAT3 
+Rows: 4267 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, fac_sexeR, fac_year_tx, fac_ante_diab, fac_pra, ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:56] Veri okuma bitti: dataDIVAT3 - 4267 satir, 9 sutun 
+[2026-08-16 06:22:56] Veri okuma bitti: dataDIVAT3 - 4267 satir, 9 sutun 
+[2026-08-16 06:22:56] Veri okuma basladi: TRACE 
+[2026-08-16 06:22:56] Veri okuma basladi: TRACE 
+Rows: 1878 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (9): pid, event, time, num_wmi, num_age, fac_sex, fac_chf, fac_diabetes,...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:56] Veri okuma bitti: TRACE - 1878 satir, 8 sutun 
+[2026-08-16 06:22:56] Veri okuma bitti: TRACE - 1878 satir, 8 sutun 
+[2026-08-16 06:22:56] Veri okuma basladi: FRTCS 
+[2026-08-16 06:22:56] Veri okuma basladi: FRTCS 
+Rows: 2091 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (2): fac_sex, fac_antihyp
+dbl (7): pid, event, time, time2, num_age, num_sbp, num_dbp
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:56] Veri okuma bitti: FRTCS - 2088 satir, 7 sutun 
+[2026-08-16 06:22:56] Veri okuma bitti: FRTCS - 2088 satir, 7 sutun 
+[2026-08-16 06:22:56] Veri okuma basladi: zinc 
+[2026-08-16 06:22:56] Veri okuma basladi: zinc 
+Rows: 431 Columns: 16
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (9): fac_sex, fac_agestr, fac_smoke, fac_drink, fac_basehist, fac_sevdys...
+dbl (7): pid, event, time, fac_dysp1, fac_dysp2, num_agepill, num_stdagepill
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:56] Veri okuma bitti: zinc - 431 satir, 15 sutun 
+[2026-08-16 06:22:56] Veri okuma bitti: zinc - 431 satir, 15 sutun 
+[2026-08-16 06:22:56] Veri okuma basladi: stagec 
+[2026-08-16 06:22:56] Veri okuma basladi: stagec 
+Rows: 146 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_ploidy, fac_eet, fac_gleason
+dbl (7): pid, event, time, fac_grade, num_age, num_g2, num_gleason
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:56] Veri okuma bitti: stagec - 136 satir, 9 sutun 
+[2026-08-16 06:22:56] Veri okuma bitti: stagec - 136 satir, 9 sutun 
+[2026-08-16 06:22:56] Veri okuma basladi: LeukSurv 
+[2026-08-16 06:22:56] Veri okuma basladi: LeukSurv 
+Rows: 1043 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, fac_sex, fac_district, num_xcoord, num_ycoord, n...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:56] Veri okuma bitti: LeukSurv - 1043 satir, 9 sutun 
+[2026-08-16 06:22:56] Veri okuma bitti: LeukSurv - 1043 satir, 9 sutun 
+[2026-08-16 06:22:56] Veri okuma basladi: nwtco 
+[2026-08-16 06:22:56] Veri okuma basladi: nwtco 
+Rows: 4028 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (9): pid, event, time, fac_stage, fac_study, fac_instit, fac_histol, num...
+lgl (1): fac_in_subcohort
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:56] Veri okuma bitti: nwtco - 4028 satir, 9 sutun 
+[2026-08-16 06:22:56] Veri okuma bitti: nwtco - 4028 satir, 9 sutun 
+[2026-08-16 06:22:56] Veri okuma basladi: retinopathy 
+[2026-08-16 06:22:56] Veri okuma basladi: retinopathy 
+Rows: 394 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_laser, fac_eye, fac_type
+dbl (7): pid, event, time, fac_trt, fac_risk, num_age, num_risk
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:56] Veri okuma bitti: retinopathy - 394 satir, 9 sutun 
+[2026-08-16 06:22:56] Veri okuma bitti: retinopathy - 394 satir, 9 sutun 
+[2026-08-16 06:22:56] Veri okuma basladi: Framingham 
+[2026-08-16 06:22:56] Veri okuma basladi: Framingham 
+Rows: 4699 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, num_sbp, num_dbp, num_scl, num_age, num_bmi, fac...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:56] Veri okuma bitti: Framingham - 4658 satir, 9 sutun 
+[2026-08-16 06:22:56] Veri okuma bitti: Framingham - 4658 satir, 9 sutun 
+[2026-08-16 06:22:56] Veri okuma basladi: csl 
+[2026-08-16 06:22:56] Veri okuma basladi: csl 
+Rows: 2481 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (10): pid, event, time, time2, num_age, num_prot, num_prot_prev, num_pro...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:56] Veri okuma bitti: csl - 2481 satir, 8 sutun 
+[2026-08-16 06:22:56] Veri okuma bitti: csl - 2481 satir, 8 sutun 
+[2026-08-16 06:22:56] Veri okuma basladi: cancer 
+[2026-08-16 06:22:56] Veri okuma basladi: cancer 
+Rows: 228 Columns: 11
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (2): fac_inst, fac_ph_ecog
+dbl (9): pid, event, time, num_wt_loss, num_ph_karno, num_pat_karno, num_mea...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:56] Veri okuma bitti: cancer - 169 satir, 10 sutun 
+[2026-08-16 06:22:56] Veri okuma bitti: cancer - 169 satir, 10 sutun 
+[2026-08-16 06:22:56] Veri okuma basladi: whas500 
+[2026-08-16 06:22:56] Veri okuma basladi: whas500 
+Rows: 461 Columns: 19
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (19): pid, event, time, fac_gender, fac_cvd, fac_afb, fac_sho, fac_chf, ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:56] Veri okuma bitti: whas500 - 461 satir, 18 sutun 
+[2026-08-16 06:22:56] Veri okuma bitti: whas500 - 461 satir, 18 sutun 
+[2026-08-16 06:22:56] Veri okuma basladi: cgd 
+[2026-08-16 06:22:56] Veri okuma basladi: cgd 
+Rows: 128 Columns: 13
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): fac_center, fac_treat, fac_sex, fac_inherit, fac_hos_cat
+dbl (8): pid, event, time, fac_steroids, fac_propylac, num_age, num_height, ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:57] Veri okuma bitti: cgd - 128 satir, 12 sutun 
+[2026-08-16 06:22:57] Veri okuma bitti: cgd - 128 satir, 12 sutun 
+[2026-08-16 06:22:57] Veri okuma basladi: Pbc3 
+[2026-08-16 06:22:57] Veri okuma basladi: Pbc3 
+Rows: 349 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (1): fac_stage
+dbl (14): pid, event, time, num_age, num_crea, num_alb, num_bili, num_alkph,...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:57] Veri okuma bitti: Pbc3 - 327 satir, 14 sutun 
+[2026-08-16 06:22:57] Veri okuma bitti: Pbc3 - 327 satir, 14 sutun 
+[2026-08-16 06:22:57] Veri okuma basladi: GBSG2 
+[2026-08-16 06:22:57] Veri okuma basladi: GBSG2 
+Rows: 686 Columns: 11
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): fac_horTh, fac_menostat, fac_tgrade
+dbl (8): pid, event, time, num_age, num_tsize, num_pnodes, num_progrec, num_...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:57] Veri okuma bitti: GBSG2 - 686 satir, 10 sutun 
+[2026-08-16 06:22:57] Veri okuma bitti: GBSG2 - 686 satir, 10 sutun 
+[2026-08-16 06:22:57] Veri okuma basladi: colon 
+[2026-08-16 06:22:57] Veri okuma basladi: colon 
+Rows: 929 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (2): fac_rx, fac_differ
+dbl (10): pid, event, time, num_age, num_nodes, fac_sex, fac_obstruct, fac_p...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:57] Veri okuma bitti: colon - 911 satir, 11 sutun 
+[2026-08-16 06:22:57] Veri okuma bitti: colon - 911 satir, 11 sutun 
+[2026-08-16 06:22:57] Veri okuma basladi: flchain 
+[2026-08-16 06:22:57] Veri okuma basladi: flchain 
+Rows: 7874 Columns: 13
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (2): fac_sex, fac_chapter
+dbl (11): pid, event, time, num_age, num_kappa, num_lambda, num_flc_grp, num...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:57] Veri okuma bitti: flchain - 6524 satir, 12 sutun 
+[2026-08-16 06:22:57] Veri okuma bitti: flchain - 6524 satir, 12 sutun 
+[2026-08-16 06:22:57] Veri okuma basladi: Rossi 
+[2026-08-16 06:22:57] Veri okuma basladi: Rossi 
+Rows: 1405 Columns: 13
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): fac_fin, fac_race, fac_wexp, fac_mar, fac_paro
+dbl (8): pid, event, time, time2, fac_prio, fac_educ, fac_emp, num_age
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:57] Veri okuma bitti: Rossi - 1405 satir, 11 sutun 
+[2026-08-16 06:22:57] Veri okuma bitti: Rossi - 1405 satir, 11 sutun 
+[2026-08-16 06:22:57] Veri okuma basladi: burn 
+[2026-08-16 06:22:57] Veri okuma basladi: burn 
+Rows: 154 Columns: 14
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (14): pid, event, time, fac_burn_buttock, fac_burn_head, fac_burn_lower_...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:57] Veri okuma bitti: burn - 154 satir, 13 sutun 
+[2026-08-16 06:22:57] Veri okuma bitti: burn - 154 satir, 13 sutun 
+[2026-08-16 06:22:57] Veri okuma basladi: rott2 
+[2026-08-16 06:22:57] Veri okuma basladi: rott2 
+Rows: 2982 Columns: 14
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): fac_meno, fac_tsize, fac_hormon, fac_chemo, fac_recent
+dbl (9): pid, event, time, fac_grade, num_year, num_age, num_nodes, num_prog...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:57] Veri okuma bitti: rott2 - 2982 satir, 13 sutun 
+[2026-08-16 06:22:57] Veri okuma bitti: rott2 - 2982 satir, 13 sutun 
+[2026-08-16 06:22:57] Veri okuma basladi: d_oropha_rec 
+[2026-08-16 06:22:57] Veri okuma basladi: d_oropha_rec 
+Rows: 192 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (15): pid, event, time, fac_inst, fac_sex, fac_treatm, fac_grade, fac_co...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:57] Veri okuma bitti: d_oropha_rec - 192 satir, 14 sutun 
+[2026-08-16 06:22:57] Veri okuma bitti: d_oropha_rec - 192 satir, 14 sutun 
+[2026-08-16 06:22:57] Veri okuma basladi: rdata 
+[2026-08-16 06:22:57] Veri okuma basladi: rdata 
+Rows: 1040 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): fac_agegr
+dbl (6): pid, event, time, fac_sex, num_age, num_year
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[2026-08-16 06:22:57] Veri okuma bitti: rdata - 1040 satir, 6 sutun 
+[2026-08-16 06:22:57] Veri okuma bitti: rdata - 1040 satir, 6 sutun 
+[2026-08-16 06:22:57] Task olusturuluyor: grace_task 
+[2026-08-16 06:22:57] Task olusturuluyor: grace_task 
+[2026-08-16 06:22:57] Task olusturuldu: grace_task 
+[2026-08-16 06:22:57] Task olusturuldu: grace_task 
+[2026-08-16 06:22:57] Task olusturuluyor: melanoma_task 
+[2026-08-16 06:22:57] Task olusturuluyor: melanoma_task 
+[2026-08-16 06:22:57] Task olusturuldu: melanoma_task 
+[2026-08-16 06:22:57] Task olusturuldu: melanoma_task 
+[2026-08-16 06:22:57] Task olusturuluyor: ova_task 
+[2026-08-16 06:22:57] Task olusturuluyor: ova_task 
+[2026-08-16 06:22:57] Task olusturuldu: ova_task 
+[2026-08-16 06:22:57] Task olusturuldu: ova_task 
+[2026-08-16 06:22:57] Task olusturuluyor: aids2_task 
+[2026-08-16 06:22:57] Task olusturuluyor: aids2_task 
+[2026-08-16 06:22:57] Task olusturuldu: aids2_task 
+[2026-08-16 06:22:57] Task olusturuldu: aids2_task 
+[2026-08-16 06:22:57] Task olusturuluyor: veteran_task 
+[2026-08-16 06:22:57] Task olusturuluyor: veteran_task 
+[2026-08-16 06:22:57] Task olusturuldu: veteran_task 
+[2026-08-16 06:22:57] Task olusturuldu: veteran_task 
+[2026-08-16 06:22:57] Task olusturuluyor: breast_task 
+[2026-08-16 06:22:57] Task olusturuluyor: breast_task 
+[2026-08-16 06:22:57] Task olusturuldu: breast_task 
+[2026-08-16 06:22:57] Task olusturuldu: breast_task 
+[2026-08-16 06:22:57] Task olusturuluyor: e1684_task 
+[2026-08-16 06:22:57] Task olusturuluyor: e1684_task 
+[2026-08-16 06:22:57] Task olusturuldu: e1684_task 
+[2026-08-16 06:22:57] Task olusturuldu: e1684_task 
+[2026-08-16 06:22:57] Task olusturuluyor: epileptic_task 
+[2026-08-16 06:22:57] Task olusturuluyor: epileptic_task 
+[2026-08-16 06:22:57] Task olusturuldu: epileptic_task 
+[2026-08-16 06:22:57] Task olusturuldu: epileptic_task 
+[2026-08-16 06:22:57] Task olusturuluyor: dialysis_task 
+[2026-08-16 06:22:57] Task olusturuluyor: dialysis_task 
+[2026-08-16 06:22:57] Task olusturuldu: dialysis_task 
+[2026-08-16 06:22:57] Task olusturuldu: dialysis_task 
+[2026-08-16 06:22:57] Task olusturuluyor: pbc_task 
+[2026-08-16 06:22:57] Task olusturuluyor: pbc_task 
+[2026-08-16 06:22:57] Task olusturuldu: pbc_task 
+[2026-08-16 06:22:57] Task olusturuldu: pbc_task 
+[2026-08-16 06:22:57] Task olusturuluyor: prostateSurvival_task 
+[2026-08-16 06:22:57] Task olusturuluyor: prostateSurvival_task 
+[2026-08-16 06:22:57] Task olusturuldu: prostateSurvival_task 
+[2026-08-16 06:22:57] Task olusturuldu: prostateSurvival_task 
+[2026-08-16 06:22:57] Task olusturuluyor: acath_task 
+[2026-08-16 06:22:57] Task olusturuluyor: acath_task 
+[2026-08-16 06:22:57] Task olusturuldu: acath_task 
+[2026-08-16 06:22:57] Task olusturuldu: acath_task 
+[2026-08-16 06:22:57] Task olusturuluyor: prostate_task 
+[2026-08-16 06:22:57] Task olusturuluyor: prostate_task 
+[2026-08-16 06:22:57] Task olusturuldu: prostate_task 
+[2026-08-16 06:22:57] Task olusturuldu: prostate_task 
+[2026-08-16 06:22:57] Task olusturuluyor: dataDIVAT1_task 
+[2026-08-16 06:22:57] Task olusturuluyor: dataDIVAT1_task 
+[2026-08-16 06:22:57] Task olusturuldu: dataDIVAT1_task 
+[2026-08-16 06:22:57] Task olusturuldu: dataDIVAT1_task 
+[2026-08-16 06:22:57] Task olusturuluyor: dataDIVAT3_task 
+[2026-08-16 06:22:57] Task olusturuluyor: dataDIVAT3_task 
+[2026-08-16 06:22:57] Task olusturuldu: dataDIVAT3_task 
+[2026-08-16 06:22:57] Task olusturuldu: dataDIVAT3_task 
+[2026-08-16 06:22:57] Task olusturuluyor: TRACE_task 
+[2026-08-16 06:22:57] Task olusturuluyor: TRACE_task 
+[2026-08-16 06:22:57] Task olusturuldu: TRACE_task 
+[2026-08-16 06:22:57] Task olusturuldu: TRACE_task 
+[2026-08-16 06:22:57] Task olusturuluyor: FRTCS_task 
+[2026-08-16 06:22:57] Task olusturuluyor: FRTCS_task 
+[2026-08-16 06:22:57] Task olusturuldu: FRTCS_task 
+[2026-08-16 06:22:57] Task olusturuldu: FRTCS_task 
+[2026-08-16 06:22:57] Task olusturuluyor: zinc_task 
+[2026-08-16 06:22:57] Task olusturuluyor: zinc_task 
+[2026-08-16 06:22:57] Task olusturuldu: zinc_task 
+[2026-08-16 06:22:57] Task olusturuldu: zinc_task 
+[2026-08-16 06:22:57] Task olusturuluyor: stagec_task 
+[2026-08-16 06:22:57] Task olusturuluyor: stagec_task 
+[2026-08-16 06:22:57] Task olusturuldu: stagec_task 
+[2026-08-16 06:22:57] Task olusturuldu: stagec_task 
+[2026-08-16 06:22:57] Task olusturuluyor: LeukSurv_task 
+[2026-08-16 06:22:57] Task olusturuluyor: LeukSurv_task 
+[2026-08-16 06:22:57] Task olusturuldu: LeukSurv_task 
+[2026-08-16 06:22:57] Task olusturuldu: LeukSurv_task 
+[2026-08-16 06:22:57] Task olusturuluyor: nwtco_task 
+[2026-08-16 06:22:57] Task olusturuluyor: nwtco_task 
+[2026-08-16 06:22:57] Task olusturuldu: nwtco_task 
+[2026-08-16 06:22:57] Task olusturuldu: nwtco_task 
+[2026-08-16 06:22:57] Task olusturuluyor: retinopathy_task 
+[2026-08-16 06:22:57] Task olusturuluyor: retinopathy_task 
+[2026-08-16 06:22:57] Task olusturuldu: retinopathy_task 
+[2026-08-16 06:22:57] Task olusturuldu: retinopathy_task 
+[2026-08-16 06:22:57] Task olusturuluyor: Framingham_task 
+[2026-08-16 06:22:57] Task olusturuluyor: Framingham_task 
+[2026-08-16 06:22:57] Task olusturuldu: Framingham_task 
+[2026-08-16 06:22:57] Task olusturuldu: Framingham_task 
+[2026-08-16 06:22:57] Task olusturuluyor: csl_task 
+[2026-08-16 06:22:57] Task olusturuluyor: csl_task 
+[2026-08-16 06:22:57] Task olusturuldu: csl_task 
+[2026-08-16 06:22:57] Task olusturuldu: csl_task 
+[2026-08-16 06:22:57] Task olusturuluyor: cancer_task 
+[2026-08-16 06:22:57] Task olusturuluyor: cancer_task 
+[2026-08-16 06:22:57] Task olusturuldu: cancer_task 
+[2026-08-16 06:22:57] Task olusturuldu: cancer_task 
+[2026-08-16 06:22:57] Task olusturuluyor: whas500_task 
+[2026-08-16 06:22:57] Task olusturuluyor: whas500_task 
+[2026-08-16 06:22:57] Task olusturuldu: whas500_task 
+[2026-08-16 06:22:57] Task olusturuldu: whas500_task 
+[2026-08-16 06:22:57] Task olusturuluyor: cgd_task 
+[2026-08-16 06:22:57] Task olusturuluyor: cgd_task 
+[2026-08-16 06:22:57] Task olusturuldu: cgd_task 
+[2026-08-16 06:22:57] Task olusturuldu: cgd_task 
+[2026-08-16 06:22:57] Task olusturuluyor: Pbc3_task 
+[2026-08-16 06:22:57] Task olusturuluyor: Pbc3_task 
+[2026-08-16 06:22:57] Task olusturuldu: Pbc3_task 
+[2026-08-16 06:22:57] Task olusturuldu: Pbc3_task 
+[2026-08-16 06:22:57] Task olusturuluyor: GBSG2_task 
+[2026-08-16 06:22:57] Task olusturuluyor: GBSG2_task 
+[2026-08-16 06:22:57] Task olusturuldu: GBSG2_task 
+[2026-08-16 06:22:57] Task olusturuldu: GBSG2_task 
+[2026-08-16 06:22:57] Task olusturuluyor: colon_task 
+[2026-08-16 06:22:57] Task olusturuluyor: colon_task 
+[2026-08-16 06:22:57] Task olusturuldu: colon_task 
+[2026-08-16 06:22:57] Task olusturuldu: colon_task 
+[2026-08-16 06:22:57] Task olusturuluyor: flchain_task 
+[2026-08-16 06:22:57] Task olusturuluyor: flchain_task 
+[2026-08-16 06:22:57] Task olusturuldu: flchain_task 
+[2026-08-16 06:22:57] Task olusturuldu: flchain_task 
+[2026-08-16 06:22:57] Task olusturuluyor: Rossi_task 
+[2026-08-16 06:22:57] Task olusturuluyor: Rossi_task 
+[2026-08-16 06:22:57] Task olusturuldu: Rossi_task 
+[2026-08-16 06:22:57] Task olusturuldu: Rossi_task 
+[2026-08-16 06:22:57] Task olusturuluyor: burn_task 
+[2026-08-16 06:22:57] Task olusturuluyor: burn_task 
+[2026-08-16 06:22:57] Task olusturuldu: burn_task 
+[2026-08-16 06:22:57] Task olusturuldu: burn_task 
+[2026-08-16 06:22:57] Task olusturuluyor: rott2_task 
+[2026-08-16 06:22:57] Task olusturuluyor: rott2_task 
+[2026-08-16 06:22:57] Task olusturuldu: rott2_task 
+[2026-08-16 06:22:57] Task olusturuldu: rott2_task 
+[2026-08-16 06:22:57] Task olusturuluyor: d_oropha_rec_task 
+[2026-08-16 06:22:57] Task olusturuluyor: d_oropha_rec_task 
+[2026-08-16 06:22:57] Task olusturuldu: d_oropha_rec_task 
+[2026-08-16 06:22:57] Task olusturuldu: d_oropha_rec_task 
+[2026-08-16 06:22:57] Task olusturuluyor: rdata_task 
+[2026-08-16 06:22:57] Task olusturuluyor: rdata_task 
+[2026-08-16 06:22:57] Task olusturuldu: rdata_task 
+[2026-08-16 06:22:57] Task olusturuldu: rdata_task 
+[2026-08-16 06:22:57] Toplam 36 task olusturuldu 
+[2026-08-16 06:22:57] Toplam 36 task olusturuldu 
+[2026-08-16 06:22:57] ===== RUN ( Framingham ) BASLADI: 12 model ===== 
+[2026-08-16 06:22:57] ===== RUN ( Framingham ) BASLADI: 12 model ===== 
+[2026-08-16 06:22:58] ----- Veri seti basladi: Framingham ----- 
+[2026-08-16 06:22:58] ----- Veri seti basladi: Framingham ----- 
+[2026-08-16 06:22:58] [BELLEK] [Framingham] veri seti basi - Sistem RSS: 0.491 GB | R heap (gc): 0.266 GB 
+[2026-08-16 06:22:58] [BELLEK] [Framingham] veri seti basi - Sistem RSS: 0.491 GB | R heap (gc): 0.266 GB 
+[2026-08-16 06:22:58] Buyuk veri seti en bastan 1/3'e indirildi: 4658 -> 1553 satir 
+[2026-08-16 06:22:58] Buyuk veri seti en bastan 1/3'e indirildi: 4658 -> 1553 satir 
+[2026-08-16 06:22:58] Split basladi (ratio = 0.7 ) 
+[2026-08-16 06:22:58] Split basladi (ratio = 0.7 ) 
+[2026-08-16 06:22:58] Split bitti - train: 1087 test: 466 
+[2026-08-16 06:22:58] Split bitti - train: 1087 test: 466 
+[2026-08-16 06:22:58] [BELLEK] [Framingham/cox] model dongusu basi - Sistem RSS: 0.491 GB | R heap (gc): 0.267 GB 
+[2026-08-16 06:22:58] [BELLEK] [Framingham/cox] model dongusu basi - Sistem RSS: 0.491 GB | R heap (gc): 0.267 GB 
+[2026-08-16 06:22:58] Kaydedilmis model bulundu, okunuyor: results/cox/Framingham/model.rds 
+[2026-08-16 06:22:58] Kaydedilmis model bulundu, okunuyor: results/cox/Framingham/model.rds 
+[2026-08-16 06:22:59] [BELLEK] [Framingham/cox] model hazir - Sistem RSS: 0.491 GB | R heap (gc): 0.268 GB 
+[2026-08-16 06:22:59] [BELLEK] [Framingham/cox] model hazir - Sistem RSS: 0.491 GB | R heap (gc): 0.268 GB 
+[2026-08-16 06:22:59] Performans hesaplama basladi: surv.coxph 
+[2026-08-16 06:22:59] Performans hesaplama basladi: surv.coxph 
+[2026-08-16 06:23:04] Performans hesaplama bitti: surv.coxph - cindex: 0.689 - IBS (graf): 0.114 
+[2026-08-16 06:23:04] Performans hesaplama bitti: surv.coxph - cindex: 0.689 - IBS (graf): 0.114 
+[2026-08-16 06:23:04] Performans kaydedildi: results/cox/Framingham/performance.csv 
+[2026-08-16 06:23:04] Performans kaydedildi: results/cox/Framingham/performance.csv 
+[2026-08-16 06:23:04] PFI ve SHAP zaten tamam, explainer atlaniyor: cox_model 
+[2026-08-16 06:23:04] PFI ve SHAP zaten tamam, explainer atlaniyor: cox_model 
+[2026-08-16 06:23:04] [BELLEK] [Framingham/cox] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.492 GB | R heap (gc): 0.286 GB 
+[2026-08-16 06:23:04] [BELLEK] [Framingham/cox] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.492 GB | R heap (gc): 0.286 GB 
+[2026-08-16 06:23:05] [BELLEK] [Framingham/aorsf] model dongusu basi - Sistem RSS: 0.492 GB | R heap (gc): 0.286 GB 
+[2026-08-16 06:23:05] [BELLEK] [Framingham/aorsf] model dongusu basi - Sistem RSS: 0.492 GB | R heap (gc): 0.286 GB 
+[2026-08-16 06:23:05] Kaydedilmis model bulundu, okunuyor: results/aorsf/Framingham/model.rds 
+[2026-08-16 06:23:05] Kaydedilmis model bulundu, okunuyor: results/aorsf/Framingham/model.rds 
+[2026-08-16 06:23:05] [BELLEK] [Framingham/aorsf] model hazir - Sistem RSS: 0.492 GB | R heap (gc): 0.314 GB 
+[2026-08-16 06:23:05] [BELLEK] [Framingham/aorsf] model hazir - Sistem RSS: 0.492 GB | R heap (gc): 0.314 GB 
+[2026-08-16 06:23:05] Performans hesaplama basladi: surv.aorsf 
+[2026-08-16 06:23:05] Performans hesaplama basladi: surv.aorsf 
+[2026-08-16 06:23:11] Performans hesaplama bitti: surv.aorsf - cindex: 0.687 - IBS (graf): 0.117 
+[2026-08-16 06:23:11] Performans hesaplama bitti: surv.aorsf - cindex: 0.687 - IBS (graf): 0.117 
+[2026-08-16 06:23:11] Performans kaydedildi: results/aorsf/Framingham/performance.csv 
+[2026-08-16 06:23:11] Performans kaydedildi: results/aorsf/Framingham/performance.csv 
+[2026-08-16 06:23:11] PFI ve SHAP zaten tamam, explainer atlaniyor: aorsf_model 
+[2026-08-16 06:23:11] PFI ve SHAP zaten tamam, explainer atlaniyor: aorsf_model 
+[2026-08-16 06:23:12] [BELLEK] [Framingham/aorsf] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.835 GB | R heap (gc): 0.29 GB 
+[2026-08-16 06:23:12] [BELLEK] [Framingham/aorsf] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.835 GB | R heap (gc): 0.29 GB 
+[2026-08-16 06:23:12] [BELLEK] [Framingham/cforest] model dongusu basi - Sistem RSS: 0.835 GB | R heap (gc): 0.29 GB 
+[2026-08-16 06:23:12] [BELLEK] [Framingham/cforest] model dongusu basi - Sistem RSS: 0.835 GB | R heap (gc): 0.29 GB 
+[2026-08-16 06:23:12] Kaydedilmis model bulundu, okunuyor: results/cforest/Framingham/model.rds 
+[2026-08-16 06:23:12] Kaydedilmis model bulundu, okunuyor: results/cforest/Framingham/model.rds 
+[2026-08-16 06:23:14] [BELLEK] [Framingham/cforest] model hazir - Sistem RSS: 0.835 GB | R heap (gc): 0.44 GB 
+[2026-08-16 06:23:14] [BELLEK] [Framingham/cforest] model hazir - Sistem RSS: 0.835 GB | R heap (gc): 0.44 GB 
+[2026-08-16 06:23:14] Performans hesaplama basladi: surv.cforest 
+[2026-08-16 06:23:14] Performans hesaplama basladi: surv.cforest 
+[2026-08-16 06:24:17] Performans hesaplama bitti: surv.cforest - cindex: 0.684 - IBS (graf): 0.116 
+[2026-08-16 06:24:17] Performans hesaplama bitti: surv.cforest - cindex: 0.684 - IBS (graf): 0.116 
+[2026-08-16 06:24:17] Performans kaydedildi: results/cforest/Framingham/performance.csv 
+[2026-08-16 06:24:17] Performans kaydedildi: results/cforest/Framingham/performance.csv 
+[2026-08-16 06:24:17] PFI ve SHAP zaten tamam, explainer atlaniyor: cforest_model 
+[2026-08-16 06:24:17] PFI ve SHAP zaten tamam, explainer atlaniyor: cforest_model 
+[2026-08-16 06:24:18] [BELLEK] [Framingham/cforest] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.951 GB | R heap (gc): 0.293 GB 
+[2026-08-16 06:24:18] [BELLEK] [Framingham/cforest] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.951 GB | R heap (gc): 0.293 GB 
+[2026-08-16 06:24:18] [BELLEK] [Framingham/coxboost] model dongusu basi - Sistem RSS: 0.951 GB | R heap (gc): 0.293 GB 
+[2026-08-16 06:24:18] [BELLEK] [Framingham/coxboost] model dongusu basi - Sistem RSS: 0.951 GB | R heap (gc): 0.293 GB 
+[2026-08-16 06:24:18] Kaydedilmis model bulundu, okunuyor: results/coxboost/Framingham/model.rds 
+[2026-08-16 06:24:18] Kaydedilmis model bulundu, okunuyor: results/coxboost/Framingham/model.rds 
+[2026-08-16 06:24:18] [BELLEK] [Framingham/coxboost] model hazir - Sistem RSS: 0.951 GB | R heap (gc): 0.294 GB 
+[2026-08-16 06:24:18] [BELLEK] [Framingham/coxboost] model hazir - Sistem RSS: 0.951 GB | R heap (gc): 0.294 GB 
+[2026-08-16 06:24:18] Performans hesaplama basladi: surv.coxboost 
+[2026-08-16 06:24:18] Performans hesaplama basladi: surv.coxboost 
+[2026-08-16 06:24:27] Performans hesaplama bitti: surv.coxboost - cindex: 0.687 - IBS (graf): 0.115 
+[2026-08-16 06:24:27] Performans hesaplama bitti: surv.coxboost - cindex: 0.687 - IBS (graf): 0.115 
+[2026-08-16 06:24:27] Performans kaydedildi: results/coxboost/Framingham/performance.csv 
+[2026-08-16 06:24:27] Performans kaydedildi: results/coxboost/Framingham/performance.csv 
+[2026-08-16 06:24:27] PFI ve SHAP zaten tamam, explainer atlaniyor: coxboost_model 
+[2026-08-16 06:24:27] PFI ve SHAP zaten tamam, explainer atlaniyor: coxboost_model 
+[2026-08-16 06:24:28] [BELLEK] [Framingham/coxboost] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.947 GB | R heap (gc): 0.295 GB 
+[2026-08-16 06:24:28] [BELLEK] [Framingham/coxboost] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.947 GB | R heap (gc): 0.295 GB 
+[2026-08-16 06:24:28] [BELLEK] [Framingham/ctree] model dongusu basi - Sistem RSS: 0.947 GB | R heap (gc): 0.295 GB 
+[2026-08-16 06:24:28] [BELLEK] [Framingham/ctree] model dongusu basi - Sistem RSS: 0.947 GB | R heap (gc): 0.295 GB 
+[2026-08-16 06:24:28] Kaydedilmis model bulundu, okunuyor: results/ctree/Framingham/model.rds 
+[2026-08-16 06:24:28] Kaydedilmis model bulundu, okunuyor: results/ctree/Framingham/model.rds 
+[2026-08-16 06:24:29] [BELLEK] [Framingham/ctree] model hazir - Sistem RSS: 0.947 GB | R heap (gc): 0.296 GB 
+[2026-08-16 06:24:29] [BELLEK] [Framingham/ctree] model hazir - Sistem RSS: 0.947 GB | R heap (gc): 0.296 GB 
+[2026-08-16 06:24:29] Performans hesaplama basladi: surv.ctree 
+[2026-08-16 06:24:29] Performans hesaplama basladi: surv.ctree 
+[2026-08-16 06:24:33] Performans hesaplama bitti: surv.ctree - cindex: 0.656 - IBS (graf): 0.123 
+[2026-08-16 06:24:33] Performans hesaplama bitti: surv.ctree - cindex: 0.656 - IBS (graf): 0.123 
+[2026-08-16 06:24:33] Performans kaydedildi: results/ctree/Framingham/performance.csv 
+[2026-08-16 06:24:33] Performans kaydedildi: results/ctree/Framingham/performance.csv 
+[2026-08-16 06:24:33] PFI ve SHAP zaten tamam, explainer atlaniyor: ctree_model 
+[2026-08-16 06:24:33] PFI ve SHAP zaten tamam, explainer atlaniyor: ctree_model 
+[2026-08-16 06:24:34] [BELLEK] [Framingham/ctree] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.947 GB | R heap (gc): 0.295 GB 
+[2026-08-16 06:24:34] [BELLEK] [Framingham/ctree] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.947 GB | R heap (gc): 0.295 GB 
+[2026-08-16 06:24:35] [BELLEK] [Framingham/cv_glmnet] model dongusu basi - Sistem RSS: 0.947 GB | R heap (gc): 0.295 GB 
+[2026-08-16 06:24:35] [BELLEK] [Framingham/cv_glmnet] model dongusu basi - Sistem RSS: 0.947 GB | R heap (gc): 0.295 GB 
+[2026-08-16 06:24:35] Kaydedilmis model bulundu, okunuyor: results/cv_glmnet/Framingham/model.rds 
+[2026-08-16 06:24:35] Kaydedilmis model bulundu, okunuyor: results/cv_glmnet/Framingham/model.rds 
+[2026-08-16 06:24:35] [BELLEK] [Framingham/cv_glmnet] model hazir - Sistem RSS: 0.947 GB | R heap (gc): 0.296 GB 
+[2026-08-16 06:24:35] [BELLEK] [Framingham/cv_glmnet] model hazir - Sistem RSS: 0.947 GB | R heap (gc): 0.296 GB 
+[2026-08-16 06:24:35] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-08-16 06:24:35] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-08-16 06:24:41] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.688 - IBS (graf): 0.114 
+[2026-08-16 06:24:41] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.688 - IBS (graf): 0.114 
+[2026-08-16 06:24:41] Performans kaydedildi: results/cv_glmnet/Framingham/performance.csv 
+[2026-08-16 06:24:41] Performans kaydedildi: results/cv_glmnet/Framingham/performance.csv 
+[2026-08-16 06:24:41] PFI ve SHAP zaten tamam, explainer atlaniyor: cv_glmnet_model 
+[2026-08-16 06:24:41] PFI ve SHAP zaten tamam, explainer atlaniyor: cv_glmnet_model 
+[2026-08-16 06:24:42] [BELLEK] [Framingham/cv_glmnet] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.947 GB | R heap (gc): 0.297 GB 
+[2026-08-16 06:24:42] [BELLEK] [Framingham/cv_glmnet] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.947 GB | R heap (gc): 0.297 GB 
+[2026-08-16 06:24:42] [BELLEK] [Framingham/glmboost] model dongusu basi - Sistem RSS: 0.947 GB | R heap (gc): 0.297 GB 
+[2026-08-16 06:24:42] [BELLEK] [Framingham/glmboost] model dongusu basi - Sistem RSS: 0.947 GB | R heap (gc): 0.297 GB 
+[2026-08-16 06:24:42] Kaydedilmis model bulundu, okunuyor: results/glmboost/Framingham/model.rds 
+[2026-08-16 06:24:42] Kaydedilmis model bulundu, okunuyor: results/glmboost/Framingham/model.rds 
+[2026-08-16 06:24:43] [BELLEK] [Framingham/glmboost] model hazir - Sistem RSS: 0.947 GB | R heap (gc): 0.302 GB 
+[2026-08-16 06:24:43] [BELLEK] [Framingham/glmboost] model hazir - Sistem RSS: 0.947 GB | R heap (gc): 0.302 GB 
+[2026-08-16 06:24:43] Performans hesaplama basladi: surv.glmboost 
+[2026-08-16 06:24:43] Performans hesaplama basladi: surv.glmboost 
+[2026-08-16 06:24:47] Performans hesaplama bitti: surv.glmboost - cindex: 0.685 - IBS (graf): 0.116 
+[2026-08-16 06:24:47] Performans hesaplama bitti: surv.glmboost - cindex: 0.685 - IBS (graf): 0.116 
+[2026-08-16 06:24:47] Performans kaydedildi: results/glmboost/Framingham/performance.csv 
+[2026-08-16 06:24:47] Performans kaydedildi: results/glmboost/Framingham/performance.csv 
+[2026-08-16 06:24:47] PFI ve SHAP zaten tamam, explainer atlaniyor: glmboost_model 
+[2026-08-16 06:24:47] PFI ve SHAP zaten tamam, explainer atlaniyor: glmboost_model 
+[2026-08-16 06:24:48] [BELLEK] [Framingham/glmboost] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.947 GB | R heap (gc): 0.298 GB 
+[2026-08-16 06:24:48] [BELLEK] [Framingham/glmboost] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.947 GB | R heap (gc): 0.298 GB 
+[2026-08-16 06:24:49] [BELLEK] [Framingham/glmnet] model dongusu basi - Sistem RSS: 0.947 GB | R heap (gc): 0.298 GB 
+[2026-08-16 06:24:49] [BELLEK] [Framingham/glmnet] model dongusu basi - Sistem RSS: 0.947 GB | R heap (gc): 0.298 GB 
+[2026-08-16 06:24:49] Kaydedilmis model bulundu, okunuyor: results/glmnet/Framingham/model.rds 
+[2026-08-16 06:24:49] Kaydedilmis model bulundu, okunuyor: results/glmnet/Framingham/model.rds 
+[2026-08-16 06:24:49] [BELLEK] [Framingham/glmnet] model hazir - Sistem RSS: 0.947 GB | R heap (gc): 0.299 GB 
+[2026-08-16 06:24:49] [BELLEK] [Framingham/glmnet] model hazir - Sistem RSS: 0.947 GB | R heap (gc): 0.299 GB 
+[2026-08-16 06:24:49] Performans hesaplama basladi: surv.glmnet 
+[2026-08-16 06:24:49] Performans hesaplama basladi: surv.glmnet 
+[2026-08-16 06:24:54] Performans hesaplama bitti: surv.glmnet - cindex: 0.687 - IBS (graf): 0.114 
+[2026-08-16 06:24:54] Performans hesaplama bitti: surv.glmnet - cindex: 0.687 - IBS (graf): 0.114 
+[2026-08-16 06:24:54] Performans kaydedildi: results/glmnet/Framingham/performance.csv 
+[2026-08-16 06:24:54] Performans kaydedildi: results/glmnet/Framingham/performance.csv 
+[2026-08-16 06:24:54] PFI ve SHAP zaten tamam, explainer atlaniyor: glmnet_model 
+[2026-08-16 06:24:54] PFI ve SHAP zaten tamam, explainer atlaniyor: glmnet_model 
+[2026-08-16 06:24:54] [BELLEK] [Framingham/glmnet] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.947 GB | R heap (gc): 0.299 GB 
+[2026-08-16 06:24:54] [BELLEK] [Framingham/glmnet] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.947 GB | R heap (gc): 0.299 GB 
+[2026-08-16 06:24:55] [BELLEK] [Framingham/penalized] model dongusu basi - Sistem RSS: 0.947 GB | R heap (gc): 0.299 GB 
+[2026-08-16 06:24:55] [BELLEK] [Framingham/penalized] model dongusu basi - Sistem RSS: 0.947 GB | R heap (gc): 0.299 GB 
+[2026-08-16 06:24:55] Kaydedilmis model bulundu, okunuyor: results/penalized/Framingham/model.rds 
+[2026-08-16 06:24:55] Kaydedilmis model bulundu, okunuyor: results/penalized/Framingham/model.rds 
+[2026-08-16 06:24:55] [BELLEK] [Framingham/penalized] model hazir - Sistem RSS: 0.947 GB | R heap (gc): 0.3 GB 
+[2026-08-16 06:24:55] [BELLEK] [Framingham/penalized] model hazir - Sistem RSS: 0.947 GB | R heap (gc): 0.3 GB 
+[2026-08-16 06:24:55] Performans hesaplama basladi: surv.penalized 
+[2026-08-16 06:24:55] Performans hesaplama basladi: surv.penalized 
+[2026-08-16 06:24:58] Performans hesaplama bitti: surv.penalized - cindex: 0.689 - IBS (graf): 0.114 
+[2026-08-16 06:24:58] Performans hesaplama bitti: surv.penalized - cindex: 0.689 - IBS (graf): 0.114 
+[2026-08-16 06:24:58] Performans kaydedildi: results/penalized/Framingham/performance.csv 
+[2026-08-16 06:24:58] Performans kaydedildi: results/penalized/Framingham/performance.csv 
+[2026-08-16 06:24:58] PFI ve SHAP zaten tamam, explainer atlaniyor: penalized_model 
+[2026-08-16 06:24:58] PFI ve SHAP zaten tamam, explainer atlaniyor: penalized_model 
+[2026-08-16 06:24:59] [BELLEK] [Framingham/penalized] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.948 GB | R heap (gc): 0.3 GB 
+[2026-08-16 06:24:59] [BELLEK] [Framingham/penalized] model silindi (PFI/SHAP zaten tamamdi) - Sistem RSS: 0.948 GB | R heap (gc): 0.3 GB 
+[2026-08-16 06:25:00] [BELLEK] [Framingham/ranger] model dongusu basi - Sistem RSS: 0.948 GB | R heap (gc): 0.3 GB 
+[2026-08-16 06:25:00] [BELLEK] [Framingham/ranger] model dongusu basi - Sistem RSS: 0.948 GB | R heap (gc): 0.3 GB 
+[2026-08-16 06:25:00] Kaydedilmis model bulundu, okunuyor: results/ranger/Framingham/model.rds 
+[2026-08-16 06:25:00] Kaydedilmis model bulundu, okunuyor: results/ranger/Framingham/model.rds 
+[2026-08-16 06:25:02] [BELLEK] [Framingham/ranger] model hazir - Sistem RSS: 0.948 GB | R heap (gc): 0.571 GB 
+[2026-08-16 06:25:02] [BELLEK] [Framingham/ranger] model hazir - Sistem RSS: 0.948 GB | R heap (gc): 0.571 GB 
+[2026-08-16 06:25:02] Performans hesaplama basladi: surv.ranger 
+[2026-08-16 06:25:02] Performans hesaplama basladi: surv.ranger 
+[2026-08-16 06:25:28] Performans hesaplama bitti: surv.ranger - cindex: 0.675 - IBS (graf): 0.118 
+[2026-08-16 06:25:28] Performans hesaplama bitti: surv.ranger - cindex: 0.675 - IBS (graf): 0.118 
+[2026-08-16 06:25:28] Performans kaydedildi: results/ranger/Framingham/performance.csv 
+[2026-08-16 06:25:28] Performans kaydedildi: results/ranger/Framingham/performance.csv 
+[2026-08-16 06:25:28] Kaydedilmis explainer bulundu, okunuyor: results/ranger/Framingham/explainer.rds 
+[2026-08-16 06:25:28] Kaydedilmis explainer bulundu, okunuyor: results/ranger/Framingham/explainer.rds 
+[2026-08-16 06:25:30] [BELLEK] [Framingham/ranger] explainer hazir - Sistem RSS: 1.563 GB | R heap (gc): 0.843 GB 
+[2026-08-16 06:25:30] [BELLEK] [Framingham/ranger] explainer hazir - Sistem RSS: 1.563 GB | R heap (gc): 0.843 GB 
+[2026-08-16 06:25:30] SHAP hesaplaniyor: ranger_model - n_obs = 100 
+[2026-08-16 06:25:30] SHAP hesaplaniyor: ranger_model - n_obs = 100 
+[2026-08-16 06:25:30] Kismi SHAP bulundu, 69 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-16 06:25:30] Kismi SHAP bulundu, 69 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-16 06:25:30] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-16 06:25:30] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-16 06:25:30] SHAP - gozlem 70 / 100 
+[2026-08-16 06:25:30] SHAP - gozlem 70 / 100 
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 15 minutes, 27 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 14 minutes, 32 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 14 minutes, 0 seconds.
+Aggregating predictions.. Progress: 13%. Estimated remaining time: 13 minutes, 30 seconds.
+Aggregating predictions.. Progress: 17%. Estimated remaining time: 13 minutes, 1 seconds.
+Aggregating predictions.. Progress: 20%. Estimated remaining time: 12 minutes, 31 seconds.
+Aggregating predictions.. Progress: 23%. Estimated remaining time: 12 minutes, 1 seconds.
+Aggregating predictions.. Progress: 26%. Estimated remaining time: 11 minutes, 30 seconds.
+Aggregating predictions.. Progress: 30%. Estimated remaining time: 11 minutes, 5 seconds.
+Aggregating predictions.. Progress: 33%. Estimated remaining time: 10 minutes, 34 seconds.
+Aggregating predictions.. Progress: 36%. Estimated remaining time: 10 minutes, 3 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 9 minutes, 30 seconds.
+Aggregating predictions.. Progress: 43%. Estimated remaining time: 8 minutes, 57 seconds.
+Aggregating predictions.. Progress: 46%. Estimated remaining time: 8 minutes, 24 seconds.
+Aggregating predictions.. Progress: 50%. Estimated remaining time: 7 minutes, 51 seconds.
+Aggregating predictions.. Progress: 53%. Estimated remaining time: 7 minutes, 21 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 6 minutes, 54 seconds.
+Aggregating predictions.. Progress: 59%. Estimated remaining time: 6 minutes, 22 seconds.
+Aggregating predictions.. Progress: 63%. Estimated remaining time: 5 minutes, 50 seconds.
+Aggregating predictions.. Progress: 66%. Estimated remaining time: 5 minutes, 18 seconds.
+Aggregating predictions.. Progress: 69%. Estimated remaining time: 4 minutes, 48 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 4 minutes, 16 seconds.
+Aggregating predictions.. Progress: 76%. Estimated remaining time: 3 minutes, 45 seconds.
+Aggregating predictions.. Progress: 79%. Estimated remaining time: 3 minutes, 15 seconds.
+Aggregating predictions.. Progress: 82%. Estimated remaining time: 2 minutes, 46 seconds.
+Aggregating predictions.. Progress: 86%. Estimated remaining time: 2 minutes, 15 seconds.
+Aggregating predictions.. Progress: 89%. Estimated remaining time: 1 minute, 45 seconds.
+Aggregating predictions.. Progress: 92%. Estimated remaining time: 1 minute, 13 seconds.
+Aggregating predictions.. Progress: 95%. Estimated remaining time: 44 seconds.
+Aggregating predictions.. Progress: 99%. Estimated remaining time: 13 seconds.
+Aggregating predictions.. Progress: 4%. Estimated remaining time: 13 minutes, 31 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 13 minutes, 7 seconds.
+Aggregating predictions.. Progress: 11%. Estimated remaining time: 12 minutes, 34 seconds.
+Aggregating predictions.. Progress: 15%. Estimated remaining time: 12 minutes, 1 seconds.
+Aggregating predictions.. Progress: 18%. Estimated remaining time: 11 minutes, 29 seconds.
+Aggregating predictions.. Progress: 22%. Estimated remaining time: 11 minutes, 3 seconds.
+Aggregating predictions.. Progress: 26%. Estimated remaining time: 10 minutes, 32 seconds.
+Aggregating predictions.. Progress: 29%. Estimated remaining time: 9 minutes, 59 seconds.
+Aggregating predictions.. Progress: 33%. Estimated remaining time: 9 minutes, 28 seconds.
+Aggregating predictions.. Progress: 36%. Estimated remaining time: 9 minutes, 0 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 8 minutes, 28 seconds.
+Aggregating predictions.. Progress: 44%. Estimated remaining time: 7 minutes, 56 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 7 minutes, 25 seconds.
+Aggregating predictions.. Progress: 51%. Estimated remaining time: 6 minutes, 58 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 6 minutes, 26 seconds.
+Aggregating predictions.. Progress: 58%. Estimated remaining time: 5 minutes, 55 seconds.
+Aggregating predictions.. Progress: 62%. Estimated remaining time: 5 minutes, 23 seconds.
+Aggregating predictions.. Progress: 66%. Estimated remaining time: 4 minutes, 52 seconds.
+Aggregating predictions.. Progress: 69%. Estimated remaining time: 4 minutes, 21 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 3 minutes, 49 seconds.
+Aggregating predictions.. Progress: 77%. Estimated remaining time: 3 minutes, 18 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 2 minutes, 50 seconds.
+Aggregating predictions.. Progress: 84%. Estimated remaining time: 2 minutes, 19 seconds.
+Aggregating predictions.. Progress: 87%. Estimated remaining time: 1 minute, 47 seconds.
+Aggregating predictions.. Progress: 91%. Estimated remaining time: 1 minute, 16 seconds.
+Aggregating predictions.. Progress: 95%. Estimated remaining time: 45 seconds.
+Aggregating predictions.. Progress: 98%. Estimated remaining time: 13 seconds.
+Aggregating predictions.. Progress: 4%. Estimated remaining time: 12 minutes, 43 seconds.
+Aggregating predictions.. Progress: 8%. Estimated remaining time: 12 minutes, 21 seconds.
+Aggregating predictions.. Progress: 11%. Estimated remaining time: 11 minutes, 55 seconds.
+Aggregating predictions.. Progress: 15%. Estimated remaining time: 11 minutes, 21 seconds.
+Aggregating predictions.. Progress: 19%. Estimated remaining time: 10 minutes, 46 seconds.
+Aggregating predictions.. Progress: 23%. Estimated remaining time: 10 minutes, 14 seconds.
+Aggregating predictions.. Progress: 27%. Estimated remaining time: 9 minutes, 43 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 9 minutes, 10 seconds.
+Aggregating predictions.. Progress: 35%. Estimated remaining time: 8 minutes, 39 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 8 minutes, 9 seconds.
+Aggregating predictions.. Progress: 43%. Estimated remaining time: 7 minutes, 39 seconds.
+Aggregating predictions.. Progress: 46%. Estimated remaining time: 7 minutes, 8 seconds.
+Aggregating predictions.. Progress: 50%. Estimated remaining time: 6 minutes, 36 seconds.
+Aggregating predictions.. Progress: 54%. Estimated remaining time: 6 minutes, 6 seconds.
+Aggregating predictions.. Progress: 58%. Estimated remaining time: 5 minutes, 35 seconds.
+Aggregating predictions.. Progress: 62%. Estimated remaining time: 5 minutes, 3 seconds.
+Aggregating predictions.. Progress: 66%. Estimated remaining time: 4 minutes, 32 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 4 minutes, 2 seconds.
+Aggregating predictions.. Progress: 74%. Estimated remaining time: 3 minutes, 31 seconds.
+Aggregating predictions.. Progress: 77%. Estimated remaining time: 3 minutes, 0 seconds.
+Aggregating predictions.. Progress: 81%. Estimated remaining time: 2 minutes, 28 seconds.
+Aggregating predictions.. Progress: 85%. Estimated remaining time: 1 minute, 58 seconds.
+Aggregating predictions.. Progress: 89%. Estimated remaining time: 1 minute, 28 seconds.
+Aggregating predictions.. Progress: 93%. Estimated remaining time: 57 seconds.
+Aggregating predictions.. Progress: 97%. Estimated remaining time: 25 seconds.
+Aggregating predictions.. Progress: 4%. Estimated remaining time: 14 minutes, 0 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 13 minutes, 28 seconds.
+Aggregating predictions.. Progress: 11%. Estimated remaining time: 12 minutes, 55 seconds.
+Aggregating predictions.. Progress: 14%. Estimated remaining time: 12 minutes, 30 seconds.
+Aggregating predictions.. Progress: 18%. Estimated remaining time: 12 minutes, 1 seconds.
+Aggregating predictions.. Progress: 21%. Estimated remaining time: 11 minutes, 28 seconds.
+Aggregating predictions.. Progress: 25%. Estimated remaining time: 10 minutes, 56 seconds.
+Aggregating predictions.. Progress: 28%. Estimated remaining time: 10 minutes, 28 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 9 minutes, 57 seconds.
+Aggregating predictions.. Progress: 35%. Estimated remaining time: 9 minutes, 26 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 8 minutes, 53 seconds.
+Aggregating predictions.. Progress: 42%. Estimated remaining time: 8 minutes, 24 seconds.
+Aggregating predictions.. Progress: 46%. Estimated remaining time: 7 minutes, 52 seconds.
+Aggregating predictions.. Progress: 50%. Estimated remaining time: 7 minutes, 20 seconds.
+Aggregating predictions.. Progress: 53%. Estimated remaining time: 6 minutes, 49 seconds.
+Aggregating predictions.. Progress: 57%. Estimated remaining time: 6 minutes, 19 seconds.
+Aggregating predictions.. Progress: 60%. Estimated remaining time: 5 minutes, 49 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 5 minutes, 17 seconds.
+Aggregating predictions.. Progress: 67%. Estimated remaining time: 4 minutes, 46 seconds.
+Aggregating predictions.. Progress: 71%. Estimated remaining time: 4 minutes, 18 seconds.
+Aggregating predictions.. Progress: 74%. Estimated remaining time: 3 minutes, 47 seconds.
+Aggregating predictions.. Progress: 78%. Estimated remaining time: 3 minutes, 16 seconds.
+Aggregating predictions.. Progress: 81%. Estimated remaining time: 2 minutes, 45 seconds.
+Aggregating predictions.. Progress: 85%. Estimated remaining time: 2 minutes, 15 seconds.
+Aggregating predictions.. Progress: 88%. Estimated remaining time: 1 minute, 44 seconds.
+Aggregating predictions.. Progress: 92%. Estimated remaining time: 1 minute, 13 seconds.
+Aggregating predictions.. Progress: 95%. Estimated remaining time: 41 seconds.
+Aggregating predictions.. Progress: 99%. Estimated remaining time: 11 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 16 minutes, 24 seconds.
+Aggregating predictions.. Progress: 6%. Estimated remaining time: 15 minutes, 49 seconds.
+Aggregating predictions.. Progress: 9%. Estimated remaining time: 15 minutes, 19 seconds.
+Aggregating predictions.. Progress: 12%. Estimated remaining time: 14 minutes, 46 seconds.
+Aggregating predictions.. Progress: 15%. Estimated remaining time: 14 minutes, 15 seconds.
+Aggregating predictions.. Progress: 18%. Estimated remaining time: 13 minutes, 42 seconds.
+Aggregating predictions.. Progress: 22%. Estimated remaining time: 13 minutes, 10 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 12 minutes, 45 seconds.
+Aggregating predictions.. Progress: 28%. Estimated remaining time: 12 minutes, 13 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 11 minutes, 41 seconds.
+Aggregating predictions.. Progress: 34%. Estimated remaining time: 11 minutes, 9 seconds.
+Aggregating predictions.. Progress: 37%. Estimated remaining time: 10 minutes, 42 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 10 minutes, 10 seconds.
+Aggregating predictions.. Progress: 43%. Estimated remaining time: 9 minutes, 38 seconds.
+Aggregating predictions.. Progress: 46%. Estimated remaining time: 9 minutes, 5 seconds.
+Aggregating predictions.. Progress: 49%. Estimated remaining time: 8 minutes, 37 seconds.
+Aggregating predictions.. Progress: 52%. Estimated remaining time: 8 minutes, 5 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 7 minutes, 34 seconds.
+Aggregating predictions.. Progress: 58%. Estimated remaining time: 7 minutes, 2 seconds.
+Aggregating predictions.. Progress: 61%. Estimated remaining time: 6 minutes, 33 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 6 minutes, 2 seconds.
+Aggregating predictions.. Progress: 67%. Estimated remaining time: 5 minutes, 30 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 4 minutes, 59 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 4 minutes, 29 seconds.
+Aggregating predictions.. Progress: 77%. Estimated remaining time: 3 minutes, 57 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 3 minutes, 26 seconds.
+Aggregating predictions.. Progress: 83%. Estimated remaining time: 2 minutes, 55 seconds.
+Aggregating predictions.. Progress: 85%. Estimated remaining time: 2 minutes, 27 seconds.
+Aggregating predictions.. Progress: 89%. Estimated remaining time: 1 minute, 55 seconds.
+Aggregating predictions.. Progress: 92%. Estimated remaining time: 1 minute, 24 seconds.
+Aggregating predictions.. Progress: 95%. Estimated remaining time: 53 seconds.
+Aggregating predictions.. Progress: 98%. Estimated remaining time: 23 seconds.
+[2026-08-16 07:50:58] SHAP - gozlem 75 / 100 
+[2026-08-16 07:50:58] SHAP - gozlem 75 / 100 
+Aggregating predictions.. Progress: 4%. Estimated remaining time: 14 minutes, 5 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 13 minutes, 33 seconds.
+Aggregating predictions.. Progress: 11%. Estimated remaining time: 13 minutes, 4 seconds.
+Aggregating predictions.. Progress: 14%. Estimated remaining time: 12 minutes, 32 seconds.
+Aggregating predictions.. Progress: 18%. Estimated remaining time: 12 minutes, 1 seconds.
+Aggregating predictions.. Progress: 21%. Estimated remaining time: 11 minutes, 29 seconds.
+Aggregating predictions.. Progress: 25%. Estimated remaining time: 11 minutes, 6 seconds.
+Aggregating predictions.. Progress: 28%. Estimated remaining time: 10 minutes, 33 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 10 minutes, 1 seconds.
+Aggregating predictions.. Progress: 35%. Estimated remaining time: 9 minutes, 29 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 9 minutes, 1 seconds.
+Aggregating predictions.. Progress: 42%. Estimated remaining time: 8 minutes, 29 seconds.
+Aggregating predictions.. Progress: 46%. Estimated remaining time: 7 minutes, 56 seconds.
+Aggregating predictions.. Progress: 49%. Estimated remaining time: 7 minutes, 24 seconds.
+Aggregating predictions.. Progress: 53%. Estimated remaining time: 6 minutes, 55 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 6 minutes, 23 seconds.
+Aggregating predictions.. Progress: 60%. Estimated remaining time: 5 minutes, 51 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 5 minutes, 20 seconds.
+Aggregating predictions.. Progress: 67%. Estimated remaining time: 4 minutes, 50 seconds.
+Aggregating predictions.. Progress: 71%. Estimated remaining time: 4 minutes, 18 seconds.
+Aggregating predictions.. Progress: 74%. Estimated remaining time: 3 minutes, 46 seconds.
+Aggregating predictions.. Progress: 78%. Estimated remaining time: 3 minutes, 14 seconds.
+Aggregating predictions.. Progress: 81%. Estimated remaining time: 2 minutes, 44 seconds.
+Aggregating predictions.. Progress: 85%. Estimated remaining time: 2 minutes, 13 seconds.
+Aggregating predictions.. Progress: 88%. Estimated remaining time: 1 minute, 41 seconds.
+Aggregating predictions.. Progress: 92%. Estimated remaining time: 1 minute, 10 seconds.
+Aggregating predictions.. Progress: 95%. Estimated remaining time: 39 seconds.
+Aggregating predictions.. Progress: 99%. Estimated remaining time: 8 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 14 minutes, 35 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 14 minutes, 31 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 13 minutes, 51 seconds.
+Aggregating predictions.. Progress: 13%. Estimated remaining time: 13 minutes, 21 seconds.
+Aggregating predictions.. Progress: 17%. Estimated remaining time: 12 minutes, 50 seconds.
+Aggregating predictions.. Progress: 20%. Estimated remaining time: 12 minutes, 30 seconds.
+Aggregating predictions.. Progress: 23%. Estimated remaining time: 11 minutes, 53 seconds.
+Aggregating predictions.. Progress: 27%. Estimated remaining time: 11 minutes, 18 seconds.
+Aggregating predictions.. Progress: 30%. Estimated remaining time: 10 minutes, 44 seconds.
+Aggregating predictions.. Progress: 34%. Estimated remaining time: 10 minutes, 10 seconds.
+Aggregating predictions.. Progress: 37%. Estimated remaining time: 9 minutes, 37 seconds.
+Aggregating predictions.. Progress: 41%. Estimated remaining time: 9 minutes, 4 seconds.
+Aggregating predictions.. Progress: 44%. Estimated remaining time: 8 minutes, 31 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 7 minutes, 58 seconds.
+Aggregating predictions.. Progress: 51%. Estimated remaining time: 7 minutes, 26 seconds.
+Aggregating predictions.. Progress: 54%. Estimated remaining time: 6 minutes, 54 seconds.
+Aggregating predictions.. Progress: 58%. Estimated remaining time: 6 minutes, 23 seconds.
+Aggregating predictions.. Progress: 61%. Estimated remaining time: 5 minutes, 53 seconds.
+Aggregating predictions.. Progress: 65%. Estimated remaining time: 5 minutes, 21 seconds.
+Aggregating predictions.. Progress: 68%. Estimated remaining time: 4 minutes, 50 seconds.
+Aggregating predictions.. Progress: 72%. Estimated remaining time: 4 minutes, 18 seconds.
+Aggregating predictions.. Progress: 75%. Estimated remaining time: 3 minutes, 48 seconds.
+Aggregating predictions.. Progress: 78%. Estimated remaining time: 3 minutes, 17 seconds.
+Aggregating predictions.. Progress: 82%. Estimated remaining time: 2 minutes, 45 seconds.
+Aggregating predictions.. Progress: 85%. Estimated remaining time: 2 minutes, 13 seconds.
+Aggregating predictions.. Progress: 89%. Estimated remaining time: 1 minute, 42 seconds.
+Aggregating predictions.. Progress: 92%. Estimated remaining time: 1 minute, 10 seconds.
+Aggregating predictions.. Progress: 96%. Estimated remaining time: 39 seconds.
+Aggregating predictions.. Progress: 99%. Estimated remaining time: 7 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 14 minutes, 52 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 14 minutes, 17 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 13 minutes, 39 seconds.
+Aggregating predictions.. Progress: 14%. Estimated remaining time: 13 minutes, 4 seconds.
+Aggregating predictions.. Progress: 17%. Estimated remaining time: 12 minutes, 32 seconds.
+Aggregating predictions.. Progress: 21%. Estimated remaining time: 11 minutes, 59 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 11 minutes, 27 seconds.
+Aggregating predictions.. Progress: 27%. Estimated remaining time: 10 minutes, 57 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 10 minutes, 25 seconds.
+Aggregating predictions.. Progress: 34%. Estimated remaining time: 9 minutes, 54 seconds.
+Aggregating predictions.. Progress: 38%. Estimated remaining time: 9 minutes, 21 seconds.
+Aggregating predictions.. Progress: 41%. Estimated remaining time: 8 minutes, 51 seconds.
+Aggregating predictions.. Progress: 45%. Estimated remaining time: 8 minutes, 19 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 7 minutes, 48 seconds.
+Aggregating predictions.. Progress: 52%. Estimated remaining time: 7 minutes, 17 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 6 minutes, 46 seconds.
+Aggregating predictions.. Progress: 58%. Estimated remaining time: 6 minutes, 15 seconds.
+Aggregating predictions.. Progress: 62%. Estimated remaining time: 5 minutes, 43 seconds.
+Aggregating predictions.. Progress: 65%. Estimated remaining time: 5 minutes, 12 seconds.
+Aggregating predictions.. Progress: 69%. Estimated remaining time: 4 minutes, 41 seconds.
+Aggregating predictions.. Progress: 72%. Estimated remaining time: 4 minutes, 10 seconds.
+Aggregating predictions.. Progress: 76%. Estimated remaining time: 3 minutes, 38 seconds.
+Aggregating predictions.. Progress: 79%. Estimated remaining time: 3 minutes, 7 seconds.
+Aggregating predictions.. Progress: 83%. Estimated remaining time: 2 minutes, 37 seconds.
+Aggregating predictions.. Progress: 86%. Estimated remaining time: 2 minutes, 6 seconds.
+Aggregating predictions.. Progress: 89%. Estimated remaining time: 1 minute, 34 seconds.
+Aggregating predictions.. Progress: 93%. Estimated remaining time: 1 minute, 3 seconds.
+Aggregating predictions.. Progress: 96%. Estimated remaining time: 33 seconds.
+Aggregating predictions.. Progress: 100%. Estimated remaining time: 1 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 16 minutes, 40 seconds.
+Aggregating predictions.. Progress: 6%. Estimated remaining time: 16 minutes, 19 seconds.
+Aggregating predictions.. Progress: 9%. Estimated remaining time: 15 minutes, 59 seconds.
+Aggregating predictions.. Progress: 12%. Estimated remaining time: 15 minutes, 25 seconds.
+Aggregating predictions.. Progress: 15%. Estimated remaining time: 14 minutes, 50 seconds.
+Aggregating predictions.. Progress: 18%. Estimated remaining time: 14 minutes, 16 seconds.
+Aggregating predictions.. Progress: 21%. Estimated remaining time: 13 minutes, 48 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 13 minutes, 13 seconds.
+Aggregating predictions.. Progress: 27%. Estimated remaining time: 12 minutes, 40 seconds.
+Aggregating predictions.. Progress: 30%. Estimated remaining time: 12 minutes, 8 seconds.
+Aggregating predictions.. Progress: 33%. Estimated remaining time: 11 minutes, 38 seconds.
+Aggregating predictions.. Progress: 36%. Estimated remaining time: 11 minutes, 4 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 10 minutes, 31 seconds.
+Aggregating predictions.. Progress: 42%. Estimated remaining time: 9 minutes, 57 seconds.
+Aggregating predictions.. Progress: 45%. Estimated remaining time: 9 minutes, 28 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 8 minutes, 55 seconds.
+Aggregating predictions.. Progress: 51%. Estimated remaining time: 8 minutes, 24 seconds.
+Aggregating predictions.. Progress: 54%. Estimated remaining time: 7 minutes, 54 seconds.
+Aggregating predictions.. Progress: 57%. Estimated remaining time: 7 minutes, 27 seconds.
+Aggregating predictions.. Progress: 60%. Estimated remaining time: 6 minutes, 57 seconds.
+Aggregating predictions.. Progress: 63%. Estimated remaining time: 6 minutes, 26 seconds.
+Aggregating predictions.. Progress: 66%. Estimated remaining time: 5 minutes, 54 seconds.
+Aggregating predictions.. Progress: 69%. Estimated remaining time: 5 minutes, 22 seconds.
+Aggregating predictions.. Progress: 72%. Estimated remaining time: 4 minutes, 51 seconds.
+Aggregating predictions.. Progress: 75%. Estimated remaining time: 4 minutes, 20 seconds.
+Aggregating predictions.. Progress: 78%. Estimated remaining time: 3 minutes, 49 seconds.
+Aggregating predictions.. Progress: 81%. Estimated remaining time: 3 minutes, 19 seconds.
+Aggregating predictions.. Progress: 84%. Estimated remaining time: 2 minutes, 47 seconds.
+Aggregating predictions.. Progress: 87%. Estimated remaining time: 2 minutes, 14 seconds.
+Aggregating predictions.. Progress: 90%. Estimated remaining time: 1 minute, 42 seconds.
+Aggregating predictions.. Progress: 93%. Estimated remaining time: 1 minute, 11 seconds.
+Aggregating predictions.. Progress: 96%. Estimated remaining time: 39 seconds.
+Aggregating predictions.. Progress: 99%. Estimated remaining time: 8 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 15 minutes, 38 seconds.
+Aggregating predictions.. Progress: 6%. Estimated remaining time: 14 minutes, 51 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 14 minutes, 14 seconds.
+Aggregating predictions.. Progress: 13%. Estimated remaining time: 13 minutes, 42 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 13 minutes, 18 seconds.
+Aggregating predictions.. Progress: 20%. Estimated remaining time: 12 minutes, 43 seconds.
+Aggregating predictions.. Progress: 23%. Estimated remaining time: 12 minutes, 11 seconds.
+Aggregating predictions.. Progress: 26%. Estimated remaining time: 11 minutes, 39 seconds.
+Aggregating predictions.. Progress: 29%. Estimated remaining time: 11 minutes, 12 seconds.
+Aggregating predictions.. Progress: 33%. Estimated remaining time: 10 minutes, 40 seconds.
+Aggregating predictions.. Progress: 36%. Estimated remaining time: 10 minutes, 8 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 9 minutes, 35 seconds.
+Aggregating predictions.. Progress: 42%. Estimated remaining time: 9 minutes, 8 seconds.
+Aggregating predictions.. Progress: 46%. Estimated remaining time: 8 minutes, 36 seconds.
+Aggregating predictions.. Progress: 49%. Estimated remaining time: 8 minutes, 4 seconds.
+Aggregating predictions.. Progress: 52%. Estimated remaining time: 7 minutes, 32 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 7 minutes, 1 seconds.
+Aggregating predictions.. Progress: 59%. Estimated remaining time: 6 minutes, 30 seconds.
+Aggregating predictions.. Progress: 62%. Estimated remaining time: 5 minutes, 59 seconds.
+Aggregating predictions.. Progress: 65%. Estimated remaining time: 5 minutes, 29 seconds.
+Aggregating predictions.. Progress: 68%. Estimated remaining time: 4 minutes, 59 seconds.
+Aggregating predictions.. Progress: 72%. Estimated remaining time: 4 minutes, 28 seconds.
+Aggregating predictions.. Progress: 75%. Estimated remaining time: 3 minutes, 56 seconds.
+Aggregating predictions.. Progress: 78%. Estimated remaining time: 3 minutes, 25 seconds.
+Aggregating predictions.. Progress: 82%. Estimated remaining time: 2 minutes, 55 seconds.
+Aggregating predictions.. Progress: 85%. Estimated remaining time: 2 minutes, 24 seconds.
+Aggregating predictions.. Progress: 88%. Estimated remaining time: 1 minute, 53 seconds.
+Aggregating predictions.. Progress: 91%. Estimated remaining time: 1 minute, 22 seconds.
+Aggregating predictions.. Progress: 94%. Estimated remaining time: 52 seconds.
+Aggregating predictions.. Progress: 98%. Estimated remaining time: 21 seconds.
+[2026-08-16 09:19:18] SHAP - gozlem 80 / 100 
+[2026-08-16 09:19:18] SHAP - gozlem 80 / 100 
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 15 minutes, 5 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 14 minutes, 50 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 14 minutes, 15 seconds.
+Aggregating predictions.. Progress: 13%. Estimated remaining time: 13 minutes, 41 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 13 minutes, 8 seconds.
+Aggregating predictions.. Progress: 20%. Estimated remaining time: 12 minutes, 41 seconds.
+Aggregating predictions.. Progress: 23%. Estimated remaining time: 12 minutes, 7 seconds.
+Aggregating predictions.. Progress: 26%. Estimated remaining time: 11 minutes, 34 seconds.
+Aggregating predictions.. Progress: 30%. Estimated remaining time: 11 minutes, 1 seconds.
+Aggregating predictions.. Progress: 33%. Estimated remaining time: 10 minutes, 33 seconds.
+Aggregating predictions.. Progress: 36%. Estimated remaining time: 10 minutes, 1 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 9 minutes, 29 seconds.
+Aggregating predictions.. Progress: 43%. Estimated remaining time: 8 minutes, 57 seconds.
+Aggregating predictions.. Progress: 46%. Estimated remaining time: 8 minutes, 28 seconds.
+Aggregating predictions.. Progress: 49%. Estimated remaining time: 7 minutes, 56 seconds.
+Aggregating predictions.. Progress: 53%. Estimated remaining time: 7 minutes, 24 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 6 minutes, 53 seconds.
+Aggregating predictions.. Progress: 59%. Estimated remaining time: 6 minutes, 33 seconds.
+Aggregating predictions.. Progress: 62%. Estimated remaining time: 6 minutes, 1 seconds.
+Aggregating predictions.. Progress: 65%. Estimated remaining time: 5 minutes, 29 seconds.
+Aggregating predictions.. Progress: 69%. Estimated remaining time: 4 minutes, 58 seconds.
+Aggregating predictions.. Progress: 72%. Estimated remaining time: 4 minutes, 30 seconds.
+Aggregating predictions.. Progress: 75%. Estimated remaining time: 3 minutes, 58 seconds.
+Aggregating predictions.. Progress: 78%. Estimated remaining time: 3 minutes, 26 seconds.
+Aggregating predictions.. Progress: 82%. Estimated remaining time: 2 minutes, 55 seconds.
+Aggregating predictions.. Progress: 85%. Estimated remaining time: 2 minutes, 23 seconds.
+Aggregating predictions.. Progress: 88%. Estimated remaining time: 1 minute, 52 seconds.
+Aggregating predictions.. Progress: 91%. Estimated remaining time: 1 minute, 21 seconds.
+Aggregating predictions.. Progress: 95%. Estimated remaining time: 49 seconds.
+Aggregating predictions.. Progress: 98%. Estimated remaining time: 20 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 14 minutes, 37 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 14 minutes, 4 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 13 minutes, 53 seconds.
+Aggregating predictions.. Progress: 13%. Estimated remaining time: 13 minutes, 16 seconds.
+Aggregating predictions.. Progress: 17%. Estimated remaining time: 12 minutes, 41 seconds.
+Aggregating predictions.. Progress: 20%. Estimated remaining time: 12 minutes, 7 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 11 minutes, 35 seconds.
+Aggregating predictions.. Progress: 27%. Estimated remaining time: 11 minutes, 4 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 10 minutes, 31 seconds.
+Aggregating predictions.. Progress: 34%. Estimated remaining time: 10 minutes, 0 seconds.
+Aggregating predictions.. Progress: 37%. Estimated remaining time: 9 minutes, 33 seconds.
+Aggregating predictions.. Progress: 41%. Estimated remaining time: 9 minutes, 2 seconds.
+Aggregating predictions.. Progress: 44%. Estimated remaining time: 8 minutes, 29 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 7 minutes, 57 seconds.
+Aggregating predictions.. Progress: 51%. Estimated remaining time: 7 minutes, 29 seconds.
+Aggregating predictions.. Progress: 54%. Estimated remaining time: 6 minutes, 57 seconds.
+Aggregating predictions.. Progress: 58%. Estimated remaining time: 6 minutes, 25 seconds.
+Aggregating predictions.. Progress: 61%. Estimated remaining time: 5 minutes, 54 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 5 minutes, 24 seconds.
+Aggregating predictions.. Progress: 68%. Estimated remaining time: 4 minutes, 52 seconds.
+Aggregating predictions.. Progress: 71%. Estimated remaining time: 4 minutes, 21 seconds.
+Aggregating predictions.. Progress: 75%. Estimated remaining time: 3 minutes, 49 seconds.
+Aggregating predictions.. Progress: 78%. Estimated remaining time: 3 minutes, 19 seconds.
+Aggregating predictions.. Progress: 82%. Estimated remaining time: 2 minutes, 47 seconds.
+Aggregating predictions.. Progress: 85%. Estimated remaining time: 2 minutes, 16 seconds.
+Aggregating predictions.. Progress: 88%. Estimated remaining time: 1 minute, 45 seconds.
+Aggregating predictions.. Progress: 92%. Estimated remaining time: 1 minute, 14 seconds.
+Aggregating predictions.. Progress: 95%. Estimated remaining time: 42 seconds.
+Aggregating predictions.. Progress: 99%. Estimated remaining time: 11 seconds.
+Aggregating predictions.. Progress: 4%. Estimated remaining time: 13 minutes, 45 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 13 minutes, 13 seconds.
+Aggregating predictions.. Progress: 11%. Estimated remaining time: 12 minutes, 44 seconds.
+Aggregating predictions.. Progress: 14%. Estimated remaining time: 12 minutes, 12 seconds.
+Aggregating predictions.. Progress: 18%. Estimated remaining time: 11 minutes, 48 seconds.
+Aggregating predictions.. Progress: 22%. Estimated remaining time: 11 minutes, 14 seconds.
+Aggregating predictions.. Progress: 25%. Estimated remaining time: 10 minutes, 41 seconds.
+Aggregating predictions.. Progress: 29%. Estimated remaining time: 10 minutes, 10 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 9 minutes, 44 seconds.
+Aggregating predictions.. Progress: 36%. Estimated remaining time: 9 minutes, 12 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 8 minutes, 40 seconds.
+Aggregating predictions.. Progress: 43%. Estimated remaining time: 8 minutes, 7 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 7 minutes, 38 seconds.
+Aggregating predictions.. Progress: 50%. Estimated remaining time: 7 minutes, 6 seconds.
+Aggregating predictions.. Progress: 54%. Estimated remaining time: 6 minutes, 35 seconds.
+Aggregating predictions.. Progress: 58%. Estimated remaining time: 6 minutes, 4 seconds.
+Aggregating predictions.. Progress: 61%. Estimated remaining time: 5 minutes, 34 seconds.
+Aggregating predictions.. Progress: 65%. Estimated remaining time: 5 minutes, 3 seconds.
+Aggregating predictions.. Progress: 68%. Estimated remaining time: 4 minutes, 31 seconds.
+Aggregating predictions.. Progress: 72%. Estimated remaining time: 3 minutes, 59 seconds.
+Aggregating predictions.. Progress: 76%. Estimated remaining time: 3 minutes, 29 seconds.
+Aggregating predictions.. Progress: 79%. Estimated remaining time: 2 minutes, 58 seconds.
+Aggregating predictions.. Progress: 83%. Estimated remaining time: 2 minutes, 27 seconds.
+Aggregating predictions.. Progress: 86%. Estimated remaining time: 1 minute, 56 seconds.
+Aggregating predictions.. Progress: 90%. Estimated remaining time: 1 minute, 26 seconds.
+Aggregating predictions.. Progress: 94%. Estimated remaining time: 55 seconds.
+Aggregating predictions.. Progress: 97%. Estimated remaining time: 23 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 14 minutes, 47 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 14 minutes, 15 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 13 minutes, 43 seconds.
+Aggregating predictions.. Progress: 14%. Estimated remaining time: 13 minutes, 13 seconds.
+Aggregating predictions.. Progress: 17%. Estimated remaining time: 12 minutes, 44 seconds.
+Aggregating predictions.. Progress: 20%. Estimated remaining time: 12 minutes, 14 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 11 minutes, 43 seconds.
+Aggregating predictions.. Progress: 27%. Estimated remaining time: 11 minutes, 12 seconds.
+Aggregating predictions.. Progress: 30%. Estimated remaining time: 10 minutes, 41 seconds.
+Aggregating predictions.. Progress: 34%. Estimated remaining time: 10 minutes, 10 seconds.
+Aggregating predictions.. Progress: 37%. Estimated remaining time: 9 minutes, 38 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 9 minutes, 8 seconds.
+Aggregating predictions.. Progress: 44%. Estimated remaining time: 8 minutes, 39 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 8 minutes, 7 seconds.
+Aggregating predictions.. Progress: 50%. Estimated remaining time: 7 minutes, 36 seconds.
+Aggregating predictions.. Progress: 54%. Estimated remaining time: 7 minutes, 5 seconds.
+Aggregating predictions.. Progress: 57%. Estimated remaining time: 6 minutes, 34 seconds.
+Aggregating predictions.. Progress: 61%. Estimated remaining time: 6 minutes, 3 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 5 minutes, 31 seconds.
+Aggregating predictions.. Progress: 67%. Estimated remaining time: 5 minutes, 3 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 4 minutes, 33 seconds.
+Aggregating predictions.. Progress: 74%. Estimated remaining time: 4 minutes, 1 seconds.
+Aggregating predictions.. Progress: 77%. Estimated remaining time: 3 minutes, 30 seconds.
+Aggregating predictions.. Progress: 81%. Estimated remaining time: 2 minutes, 59 seconds.
+Aggregating predictions.. Progress: 84%. Estimated remaining time: 2 minutes, 27 seconds.
+Aggregating predictions.. Progress: 87%. Estimated remaining time: 1 minute, 56 seconds.
+Aggregating predictions.. Progress: 91%. Estimated remaining time: 1 minute, 24 seconds.
+Aggregating predictions.. Progress: 94%. Estimated remaining time: 54 seconds.
+Aggregating predictions.. Progress: 97%. Estimated remaining time: 23 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 14 minutes, 55 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 14 minutes, 26 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 14 minutes, 1 seconds.
+Aggregating predictions.. Progress: 13%. Estimated remaining time: 13 minutes, 28 seconds.
+Aggregating predictions.. Progress: 17%. Estimated remaining time: 12 minutes, 56 seconds.
+Aggregating predictions.. Progress: 20%. Estimated remaining time: 12 minutes, 24 seconds.
+Aggregating predictions.. Progress: 23%. Estimated remaining time: 11 minutes, 52 seconds.
+Aggregating predictions.. Progress: 27%. Estimated remaining time: 11 minutes, 21 seconds.
+Aggregating predictions.. Progress: 30%. Estimated remaining time: 10 minutes, 50 seconds.
+Aggregating predictions.. Progress: 33%. Estimated remaining time: 10 minutes, 20 seconds.
+Aggregating predictions.. Progress: 37%. Estimated remaining time: 9 minutes, 49 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 9 minutes, 18 seconds.
+Aggregating predictions.. Progress: 43%. Estimated remaining time: 8 minutes, 46 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 8 minutes, 16 seconds.
+Aggregating predictions.. Progress: 50%. Estimated remaining time: 7 minutes, 44 seconds.
+Aggregating predictions.. Progress: 53%. Estimated remaining time: 7 minutes, 13 seconds.
+Aggregating predictions.. Progress: 57%. Estimated remaining time: 6 minutes, 42 seconds.
+Aggregating predictions.. Progress: 60%. Estimated remaining time: 6 minutes, 15 seconds.
+Aggregating predictions.. Progress: 63%. Estimated remaining time: 5 minutes, 44 seconds.
+Aggregating predictions.. Progress: 66%. Estimated remaining time: 5 minutes, 12 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 4 minutes, 41 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 4 minutes, 11 seconds.
+Aggregating predictions.. Progress: 76%. Estimated remaining time: 3 minutes, 40 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 3 minutes, 8 seconds.
+Aggregating predictions.. Progress: 83%. Estimated remaining time: 2 minutes, 37 seconds.
+Aggregating predictions.. Progress: 86%. Estimated remaining time: 2 minutes, 7 seconds.
+Aggregating predictions.. Progress: 90%. Estimated remaining time: 1 minute, 36 seconds.
+Aggregating predictions.. Progress: 93%. Estimated remaining time: 1 minute, 5 seconds.
+Aggregating predictions.. Progress: 96%. Estimated remaining time: 33 seconds.
+Aggregating predictions.. Progress: 100%. Estimated remaining time: 2 seconds.
+[2026-08-16 10:46:17] SHAP - gozlem 85 / 100 
+[2026-08-16 10:46:17] SHAP - gozlem 85 / 100 
+Aggregating predictions.. Progress: 4%. Estimated remaining time: 14 minutes, 7 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 13 minutes, 32 seconds.
+Aggregating predictions.. Progress: 11%. Estimated remaining time: 13 minutes, 2 seconds.
+Aggregating predictions.. Progress: 14%. Estimated remaining time: 12 minutes, 38 seconds.
+Aggregating predictions.. Progress: 18%. Estimated remaining time: 12 minutes, 3 seconds.
+Aggregating predictions.. Progress: 21%. Estimated remaining time: 11 minutes, 31 seconds.
+Aggregating predictions.. Progress: 25%. Estimated remaining time: 10 minutes, 59 seconds.
+Aggregating predictions.. Progress: 28%. Estimated remaining time: 10 minutes, 33 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 10 minutes, 1 seconds.
+Aggregating predictions.. Progress: 35%. Estimated remaining time: 9 minutes, 30 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 8 minutes, 58 seconds.
+Aggregating predictions.. Progress: 42%. Estimated remaining time: 8 minutes, 27 seconds.
+Aggregating predictions.. Progress: 46%. Estimated remaining time: 7 minutes, 55 seconds.
+Aggregating predictions.. Progress: 49%. Estimated remaining time: 7 minutes, 23 seconds.
+Aggregating predictions.. Progress: 53%. Estimated remaining time: 6 minutes, 52 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 6 minutes, 22 seconds.
+Aggregating predictions.. Progress: 60%. Estimated remaining time: 5 minutes, 51 seconds.
+Aggregating predictions.. Progress: 63%. Estimated remaining time: 5 minutes, 21 seconds.
+Aggregating predictions.. Progress: 67%. Estimated remaining time: 4 minutes, 49 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 4 minutes, 20 seconds.
+Aggregating predictions.. Progress: 74%. Estimated remaining time: 3 minutes, 48 seconds.
+Aggregating predictions.. Progress: 78%. Estimated remaining time: 3 minutes, 17 seconds.
+Aggregating predictions.. Progress: 81%. Estimated remaining time: 2 minutes, 46 seconds.
+Aggregating predictions.. Progress: 84%. Estimated remaining time: 2 minutes, 16 seconds.
+Aggregating predictions.. Progress: 88%. Estimated remaining time: 1 minute, 45 seconds.
+Aggregating predictions.. Progress: 92%. Estimated remaining time: 1 minute, 14 seconds.
+Aggregating predictions.. Progress: 95%. Estimated remaining time: 42 seconds.
+Aggregating predictions.. Progress: 99%. Estimated remaining time: 11 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 15 minutes, 21 seconds.
+Aggregating predictions.. Progress: 6%. Estimated remaining time: 14 minutes, 52 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 14 minutes, 36 seconds.
+Aggregating predictions.. Progress: 13%. Estimated remaining time: 14 minutes, 4 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 13 minutes, 30 seconds.
+Aggregating predictions.. Progress: 19%. Estimated remaining time: 12 minutes, 58 seconds.
+Aggregating predictions.. Progress: 22%. Estimated remaining time: 12 minutes, 33 seconds.
+Aggregating predictions.. Progress: 26%. Estimated remaining time: 11 minutes, 59 seconds.
+Aggregating predictions.. Progress: 29%. Estimated remaining time: 11 minutes, 27 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 10 minutes, 54 seconds.
+Aggregating predictions.. Progress: 35%. Estimated remaining time: 10 minutes, 27 seconds.
+Aggregating predictions.. Progress: 38%. Estimated remaining time: 9 minutes, 54 seconds.
+Aggregating predictions.. Progress: 42%. Estimated remaining time: 9 minutes, 23 seconds.
+Aggregating predictions.. Progress: 45%. Estimated remaining time: 8 minutes, 50 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 8 minutes, 25 seconds.
+Aggregating predictions.. Progress: 51%. Estimated remaining time: 7 minutes, 52 seconds.
+Aggregating predictions.. Progress: 54%. Estimated remaining time: 7 minutes, 21 seconds.
+Aggregating predictions.. Progress: 58%. Estimated remaining time: 6 minutes, 49 seconds.
+Aggregating predictions.. Progress: 61%. Estimated remaining time: 6 minutes, 18 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 5 minutes, 46 seconds.
+Aggregating predictions.. Progress: 67%. Estimated remaining time: 5 minutes, 14 seconds.
+Aggregating predictions.. Progress: 71%. Estimated remaining time: 4 minutes, 43 seconds.
+Aggregating predictions.. Progress: 74%. Estimated remaining time: 4 minutes, 11 seconds.
+Aggregating predictions.. Progress: 77%. Estimated remaining time: 3 minutes, 40 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 3 minutes, 8 seconds.
+Aggregating predictions.. Progress: 84%. Estimated remaining time: 2 minutes, 37 seconds.
+Aggregating predictions.. Progress: 87%. Estimated remaining time: 2 minutes, 7 seconds.
+Aggregating predictions.. Progress: 90%. Estimated remaining time: 1 minute, 35 seconds.
+Aggregating predictions.. Progress: 93%. Estimated remaining time: 1 minute, 3 seconds.
+Aggregating predictions.. Progress: 97%. Estimated remaining time: 32 seconds.
+Aggregating predictions.. Progress: 100%. Estimated remaining time: 2 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 16 minutes, 17 seconds.
+Aggregating predictions.. Progress: 6%. Estimated remaining time: 15 minutes, 40 seconds.
+Aggregating predictions.. Progress: 9%. Estimated remaining time: 15 minutes, 18 seconds.
+Aggregating predictions.. Progress: 12%. Estimated remaining time: 14 minutes, 54 seconds.
+Aggregating predictions.. Progress: 15%. Estimated remaining time: 14 minutes, 22 seconds.
+Aggregating predictions.. Progress: 18%. Estimated remaining time: 13 minutes, 48 seconds.
+Aggregating predictions.. Progress: 21%. Estimated remaining time: 13 minutes, 13 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 12 minutes, 47 seconds.
+Aggregating predictions.. Progress: 28%. Estimated remaining time: 12 minutes, 13 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 11 minutes, 40 seconds.
+Aggregating predictions.. Progress: 34%. Estimated remaining time: 11 minutes, 7 seconds.
+Aggregating predictions.. Progress: 37%. Estimated remaining time: 10 minutes, 37 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 10 minutes, 4 seconds.
+Aggregating predictions.. Progress: 43%. Estimated remaining time: 9 minutes, 33 seconds.
+Aggregating predictions.. Progress: 46%. Estimated remaining time: 9 minutes, 3 seconds.
+Aggregating predictions.. Progress: 49%. Estimated remaining time: 8 minutes, 36 seconds.
+Aggregating predictions.. Progress: 52%. Estimated remaining time: 8 minutes, 6 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 7 minutes, 34 seconds.
+Aggregating predictions.. Progress: 58%. Estimated remaining time: 7 minutes, 3 seconds.
+Aggregating predictions.. Progress: 61%. Estimated remaining time: 6 minutes, 35 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 6 minutes, 5 seconds.
+Aggregating predictions.. Progress: 67%. Estimated remaining time: 5 minutes, 34 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 5 minutes, 4 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 4 minutes, 39 seconds.
+Aggregating predictions.. Progress: 76%. Estimated remaining time: 4 minutes, 8 seconds.
+Aggregating predictions.. Progress: 78%. Estimated remaining time: 3 minutes, 45 seconds.
+Aggregating predictions.. Progress: 81%. Estimated remaining time: 3 minutes, 14 seconds.
+Aggregating predictions.. Progress: 84%. Estimated remaining time: 2 minutes, 45 seconds.
+Aggregating predictions.. Progress: 87%. Estimated remaining time: 2 minutes, 14 seconds.
+Aggregating predictions.. Progress: 90%. Estimated remaining time: 1 minute, 42 seconds.
+Aggregating predictions.. Progress: 93%. Estimated remaining time: 1 minute, 10 seconds.
+Aggregating predictions.. Progress: 96%. Estimated remaining time: 42 seconds.
+Aggregating predictions.. Progress: 99%. Estimated remaining time: 11 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 16 minutes, 15 seconds.
+Aggregating predictions.. Progress: 6%. Estimated remaining time: 16 minutes, 11 seconds.
+Aggregating predictions.. Progress: 9%. Estimated remaining time: 15 minutes, 33 seconds.
+Aggregating predictions.. Progress: 12%. Estimated remaining time: 14 minutes, 52 seconds.
+Aggregating predictions.. Progress: 15%. Estimated remaining time: 14 minutes, 15 seconds.
+Aggregating predictions.. Progress: 18%. Estimated remaining time: 13 minutes, 46 seconds.
+Aggregating predictions.. Progress: 21%. Estimated remaining time: 13 minutes, 12 seconds.
+Aggregating predictions.. Progress: 25%. Estimated remaining time: 12 minutes, 43 seconds.
+Aggregating predictions.. Progress: 28%. Estimated remaining time: 12 minutes, 12 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 11 minutes, 42 seconds.
+Aggregating predictions.. Progress: 34%. Estimated remaining time: 11 minutes, 10 seconds.
+Aggregating predictions.. Progress: 37%. Estimated remaining time: 10 minutes, 39 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 10 minutes, 8 seconds.
+Aggregating predictions.. Progress: 43%. Estimated remaining time: 9 minutes, 41 seconds.
+Aggregating predictions.. Progress: 46%. Estimated remaining time: 9 minutes, 9 seconds.
+Aggregating predictions.. Progress: 49%. Estimated remaining time: 8 minutes, 38 seconds.
+Aggregating predictions.. Progress: 52%. Estimated remaining time: 8 minutes, 7 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 7 minutes, 37 seconds.
+Aggregating predictions.. Progress: 58%. Estimated remaining time: 7 minutes, 4 seconds.
+Aggregating predictions.. Progress: 61%. Estimated remaining time: 6 minutes, 32 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 6 minutes, 1 seconds.
+Aggregating predictions.. Progress: 67%. Estimated remaining time: 5 minutes, 31 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 4 minutes, 59 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 4 minutes, 29 seconds.
+Aggregating predictions.. Progress: 76%. Estimated remaining time: 3 minutes, 58 seconds.
+Aggregating predictions.. Progress: 79%. Estimated remaining time: 3 minutes, 29 seconds.
+Aggregating predictions.. Progress: 82%. Estimated remaining time: 2 minutes, 58 seconds.
+Aggregating predictions.. Progress: 85%. Estimated remaining time: 2 minutes, 27 seconds.
+Aggregating predictions.. Progress: 89%. Estimated remaining time: 1 minute, 55 seconds.
+Aggregating predictions.. Progress: 92%. Estimated remaining time: 1 minute, 23 seconds.
+Aggregating predictions.. Progress: 95%. Estimated remaining time: 50 seconds.
+Aggregating predictions.. Progress: 98%. Estimated remaining time: 18 seconds.
+Aggregating predictions.. Progress: 4%. Estimated remaining time: 14 minutes, 14 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 13 minutes, 51 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 13 minutes, 21 seconds.
+Aggregating predictions.. Progress: 14%. Estimated remaining time: 12 minutes, 51 seconds.
+Aggregating predictions.. Progress: 17%. Estimated remaining time: 12 minutes, 23 seconds.
+Aggregating predictions.. Progress: 21%. Estimated remaining time: 11 minutes, 52 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 11 minutes, 21 seconds.
+Aggregating predictions.. Progress: 28%. Estimated remaining time: 10 minutes, 47 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 10 minutes, 16 seconds.
+Aggregating predictions.. Progress: 34%. Estimated remaining time: 9 minutes, 53 seconds.
+Aggregating predictions.. Progress: 38%. Estimated remaining time: 9 minutes, 19 seconds.
+Aggregating predictions.. Progress: 41%. Estimated remaining time: 8 minutes, 49 seconds.
+Aggregating predictions.. Progress: 45%. Estimated remaining time: 8 minutes, 21 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 7 minutes, 48 seconds.
+Aggregating predictions.. Progress: 52%. Estimated remaining time: 7 minutes, 17 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 6 minutes, 45 seconds.
+Aggregating predictions.. Progress: 59%. Estimated remaining time: 6 minutes, 13 seconds.
+Aggregating predictions.. Progress: 62%. Estimated remaining time: 5 minutes, 42 seconds.
+Aggregating predictions.. Progress: 65%. Estimated remaining time: 5 minutes, 11 seconds.
+Aggregating predictions.. Progress: 69%. Estimated remaining time: 4 minutes, 39 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 4 minutes, 6 seconds.
+Aggregating predictions.. Progress: 76%. Estimated remaining time: 3 minutes, 35 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 3 minutes, 3 seconds.
+Aggregating predictions.. Progress: 83%. Estimated remaining time: 2 minutes, 32 seconds.
+Aggregating predictions.. Progress: 87%. Estimated remaining time: 2 minutes, 0 seconds.
+Aggregating predictions.. Progress: 90%. Estimated remaining time: 1 minute, 29 seconds.
+Aggregating predictions.. Progress: 93%. Estimated remaining time: 58 seconds.
+Aggregating predictions.. Progress: 97%. Estimated remaining time: 29 seconds.
+[2026-08-16 12:16:43] SHAP - gozlem 90 / 100 
+[2026-08-16 12:16:43] SHAP - gozlem 90 / 100 
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 15 minutes, 2 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 14 minutes, 32 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 14 minutes, 8 seconds.
+Aggregating predictions.. Progress: 13%. Estimated remaining time: 13 minutes, 37 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 13 minutes, 5 seconds.
+Aggregating predictions.. Progress: 20%. Estimated remaining time: 12 minutes, 34 seconds.
+Aggregating predictions.. Progress: 23%. Estimated remaining time: 12 minutes, 7 seconds.
+Aggregating predictions.. Progress: 26%. Estimated remaining time: 11 minutes, 36 seconds.
+Aggregating predictions.. Progress: 30%. Estimated remaining time: 11 minutes, 4 seconds.
+Aggregating predictions.. Progress: 33%. Estimated remaining time: 10 minutes, 32 seconds.
+Aggregating predictions.. Progress: 36%. Estimated remaining time: 10 minutes, 3 seconds.
+Aggregating predictions.. Progress: 39%. Estimated remaining time: 9 minutes, 31 seconds.
+Aggregating predictions.. Progress: 43%. Estimated remaining time: 9 minutes, 0 seconds.
+Aggregating predictions.. Progress: 46%. Estimated remaining time: 8 minutes, 28 seconds.
+Aggregating predictions.. Progress: 49%. Estimated remaining time: 8 minutes, 0 seconds.
+Aggregating predictions.. Progress: 52%. Estimated remaining time: 7 minutes, 29 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 6 minutes, 57 seconds.
+Aggregating predictions.. Progress: 59%. Estimated remaining time: 6 minutes, 27 seconds.
+Aggregating predictions.. Progress: 62%. Estimated remaining time: 5 minutes, 58 seconds.
+Aggregating predictions.. Progress: 65%. Estimated remaining time: 5 minutes, 26 seconds.
+Aggregating predictions.. Progress: 69%. Estimated remaining time: 4 minutes, 55 seconds.
+Aggregating predictions.. Progress: 72%. Estimated remaining time: 4 minutes, 24 seconds.
+Aggregating predictions.. Progress: 75%. Estimated remaining time: 3 minutes, 54 seconds.
+Aggregating predictions.. Progress: 79%. Estimated remaining time: 3 minutes, 23 seconds.
+Aggregating predictions.. Progress: 82%. Estimated remaining time: 2 minutes, 52 seconds.
+Aggregating predictions.. Progress: 85%. Estimated remaining time: 2 minutes, 20 seconds.
+Aggregating predictions.. Progress: 89%. Estimated remaining time: 1 minute, 48 seconds.
+Aggregating predictions.. Progress: 92%. Estimated remaining time: 1 minute, 17 seconds.
+Aggregating predictions.. Progress: 95%. Estimated remaining time: 45 seconds.
+Aggregating predictions.. Progress: 98%. Estimated remaining time: 14 seconds.
+Aggregating predictions.. Progress: 4%. Estimated remaining time: 13 minutes, 33 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 13 minutes, 1 seconds.
+Aggregating predictions.. Progress: 11%. Estimated remaining time: 12 minutes, 32 seconds.
+Aggregating predictions.. Progress: 14%. Estimated remaining time: 12 minutes, 13 seconds.
+Aggregating predictions.. Progress: 18%. Estimated remaining time: 11 minutes, 38 seconds.
+Aggregating predictions.. Progress: 22%. Estimated remaining time: 11 minutes, 4 seconds.
+Aggregating predictions.. Progress: 26%. Estimated remaining time: 10 minutes, 30 seconds.
+Aggregating predictions.. Progress: 29%. Estimated remaining time: 10 minutes, 2 seconds.
+Aggregating predictions.. Progress: 33%. Estimated remaining time: 9 minutes, 31 seconds.
+Aggregating predictions.. Progress: 36%. Estimated remaining time: 8 minutes, 59 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 8 minutes, 27 seconds.
+Aggregating predictions.. Progress: 44%. Estimated remaining time: 7 minutes, 59 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 7 minutes, 27 seconds.
+Aggregating predictions.. Progress: 51%. Estimated remaining time: 6 minutes, 54 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 6 minutes, 23 seconds.
+Aggregating predictions.. Progress: 58%. Estimated remaining time: 5 minutes, 54 seconds.
+Aggregating predictions.. Progress: 62%. Estimated remaining time: 5 minutes, 22 seconds.
+Aggregating predictions.. Progress: 66%. Estimated remaining time: 4 minutes, 51 seconds.
+Aggregating predictions.. Progress: 69%. Estimated remaining time: 4 minutes, 18 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 3 minutes, 49 seconds.
+Aggregating predictions.. Progress: 77%. Estimated remaining time: 3 minutes, 17 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 2 minutes, 46 seconds.
+Aggregating predictions.. Progress: 84%. Estimated remaining time: 2 minutes, 14 seconds.
+Aggregating predictions.. Progress: 88%. Estimated remaining time: 1 minute, 44 seconds.
+Aggregating predictions.. Progress: 91%. Estimated remaining time: 1 minute, 12 seconds.
+Aggregating predictions.. Progress: 95%. Estimated remaining time: 41 seconds.
+Aggregating predictions.. Progress: 99%. Estimated remaining time: 9 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 16 minutes, 44 seconds.
+Aggregating predictions.. Progress: 6%. Estimated remaining time: 15 minutes, 37 seconds.
+Aggregating predictions.. Progress: 9%. Estimated remaining time: 14 minutes, 54 seconds.
+Aggregating predictions.. Progress: 13%. Estimated remaining time: 14 minutes, 17 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 13 minutes, 44 seconds.
+Aggregating predictions.. Progress: 19%. Estimated remaining time: 13 minutes, 11 seconds.
+Aggregating predictions.. Progress: 22%. Estimated remaining time: 12 minutes, 37 seconds.
+Aggregating predictions.. Progress: 25%. Estimated remaining time: 12 minutes, 4 seconds.
+Aggregating predictions.. Progress: 29%. Estimated remaining time: 11 minutes, 35 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 11 minutes, 3 seconds.
+Aggregating predictions.. Progress: 35%. Estimated remaining time: 10 minutes, 31 seconds.
+Aggregating predictions.. Progress: 38%. Estimated remaining time: 9 minutes, 59 seconds.
+Aggregating predictions.. Progress: 41%. Estimated remaining time: 9 minutes, 29 seconds.
+Aggregating predictions.. Progress: 45%. Estimated remaining time: 8 minutes, 57 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 8 minutes, 26 seconds.
+Aggregating predictions.. Progress: 51%. Estimated remaining time: 7 minutes, 54 seconds.
+Aggregating predictions.. Progress: 54%. Estimated remaining time: 7 minutes, 25 seconds.
+Aggregating predictions.. Progress: 57%. Estimated remaining time: 6 minutes, 53 seconds.
+Aggregating predictions.. Progress: 61%. Estimated remaining time: 6 minutes, 21 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 5 minutes, 50 seconds.
+Aggregating predictions.. Progress: 67%. Estimated remaining time: 5 minutes, 19 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 4 minutes, 47 seconds.
+Aggregating predictions.. Progress: 74%. Estimated remaining time: 4 minutes, 16 seconds.
+Aggregating predictions.. Progress: 77%. Estimated remaining time: 3 minutes, 45 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 3 minutes, 14 seconds.
+Aggregating predictions.. Progress: 83%. Estimated remaining time: 2 minutes, 42 seconds.
+Aggregating predictions.. Progress: 86%. Estimated remaining time: 2 minutes, 11 seconds.
+Aggregating predictions.. Progress: 90%. Estimated remaining time: 1 minute, 41 seconds.
+Aggregating predictions.. Progress: 93%. Estimated remaining time: 1 minute, 10 seconds.
+Aggregating predictions.. Progress: 96%. Estimated remaining time: 38 seconds.
+Aggregating predictions.. Progress: 99%. Estimated remaining time: 7 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 14 minutes, 53 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 14 minutes, 6 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 13 minutes, 30 seconds.
+Aggregating predictions.. Progress: 14%. Estimated remaining time: 12 minutes, 55 seconds.
+Aggregating predictions.. Progress: 17%. Estimated remaining time: 12 minutes, 27 seconds.
+Aggregating predictions.. Progress: 21%. Estimated remaining time: 11 minutes, 54 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 11 minutes, 21 seconds.
+Aggregating predictions.. Progress: 28%. Estimated remaining time: 10 minutes, 50 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 10 minutes, 22 seconds.
+Aggregating predictions.. Progress: 34%. Estimated remaining time: 9 minutes, 50 seconds.
+Aggregating predictions.. Progress: 38%. Estimated remaining time: 9 minutes, 17 seconds.
+Aggregating predictions.. Progress: 41%. Estimated remaining time: 8 minutes, 46 seconds.
+Aggregating predictions.. Progress: 45%. Estimated remaining time: 8 minutes, 16 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 7 minutes, 43 seconds.
+Aggregating predictions.. Progress: 52%. Estimated remaining time: 7 minutes, 11 seconds.
+Aggregating predictions.. Progress: 55%. Estimated remaining time: 6 minutes, 40 seconds.
+Aggregating predictions.. Progress: 59%. Estimated remaining time: 6 minutes, 10 seconds.
+Aggregating predictions.. Progress: 62%. Estimated remaining time: 5 minutes, 39 seconds.
+Aggregating predictions.. Progress: 66%. Estimated remaining time: 5 minutes, 7 seconds.
+Aggregating predictions.. Progress: 69%. Estimated remaining time: 4 minutes, 35 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 4 minutes, 5 seconds.
+Aggregating predictions.. Progress: 76%. Estimated remaining time: 3 minutes, 33 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 3 minutes, 2 seconds.
+Aggregating predictions.. Progress: 83%. Estimated remaining time: 2 minutes, 30 seconds.
+Aggregating predictions.. Progress: 87%. Estimated remaining time: 1 minute, 59 seconds.
+Aggregating predictions.. Progress: 90%. Estimated remaining time: 1 minute, 27 seconds.
+Aggregating predictions.. Progress: 94%. Estimated remaining time: 56 seconds.
+Aggregating predictions.. Progress: 97%. Estimated remaining time: 25 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 15 minutes, 0 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 14 minutes, 27 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 13 minutes, 53 seconds.
+Aggregating predictions.. Progress: 13%. Estimated remaining time: 13 minutes, 26 seconds.
+Aggregating predictions.. Progress: 17%. Estimated remaining time: 12 minutes, 55 seconds.
+Aggregating predictions.. Progress: 20%. Estimated remaining time: 12 minutes, 25 seconds.
+Aggregating predictions.. Progress: 23%. Estimated remaining time: 11 minutes, 52 seconds.
+Aggregating predictions.. Progress: 27%. Estimated remaining time: 11 minutes, 25 seconds.
+Aggregating predictions.. Progress: 30%. Estimated remaining time: 10 minutes, 54 seconds.
+Aggregating predictions.. Progress: 33%. Estimated remaining time: 10 minutes, 23 seconds.
+Aggregating predictions.. Progress: 37%. Estimated remaining time: 9 minutes, 51 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 9 minutes, 23 seconds.
+Aggregating predictions.. Progress: 43%. Estimated remaining time: 8 minutes, 52 seconds.
+Aggregating predictions.. Progress: 46%. Estimated remaining time: 8 minutes, 21 seconds.
+Aggregating predictions.. Progress: 50%. Estimated remaining time: 7 minutes, 48 seconds.
+Aggregating predictions.. Progress: 53%. Estimated remaining time: 7 minutes, 17 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 6 minutes, 46 seconds.
+Aggregating predictions.. Progress: 60%. Estimated remaining time: 6 minutes, 14 seconds.
+Aggregating predictions.. Progress: 63%. Estimated remaining time: 5 minutes, 44 seconds.
+Aggregating predictions.. Progress: 66%. Estimated remaining time: 5 minutes, 15 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 4 minutes, 43 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 4 minutes, 11 seconds.
+Aggregating predictions.. Progress: 76%. Estimated remaining time: 3 minutes, 40 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 3 minutes, 11 seconds.
+Aggregating predictions.. Progress: 83%. Estimated remaining time: 2 minutes, 39 seconds.
+Aggregating predictions.. Progress: 86%. Estimated remaining time: 2 minutes, 7 seconds.
+Aggregating predictions.. Progress: 90%. Estimated remaining time: 1 minute, 36 seconds.
+Aggregating predictions.. Progress: 93%. Estimated remaining time: 1 minute, 4 seconds.
+Aggregating predictions.. Progress: 96%. Estimated remaining time: 33 seconds.
+Aggregating predictions.. Progress: 100%. Estimated remaining time: 1 seconds.
+[2026-08-16 13:43:47] SHAP - gozlem 95 / 100 
+[2026-08-16 13:43:47] SHAP - gozlem 95 / 100 
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 15 minutes, 34 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 14 minutes, 40 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 14 minutes, 4 seconds.
+Aggregating predictions.. Progress: 13%. Estimated remaining time: 13 minutes, 28 seconds.
+Aggregating predictions.. Progress: 17%. Estimated remaining time: 12 minutes, 56 seconds.
+Aggregating predictions.. Progress: 20%. Estimated remaining time: 12 minutes, 22 seconds.
+Aggregating predictions.. Progress: 23%. Estimated remaining time: 11 minutes, 51 seconds.
+Aggregating predictions.. Progress: 27%. Estimated remaining time: 11 minutes, 19 seconds.
+Aggregating predictions.. Progress: 30%. Estimated remaining time: 10 minutes, 52 seconds.
+Aggregating predictions.. Progress: 33%. Estimated remaining time: 10 minutes, 19 seconds.
+Aggregating predictions.. Progress: 37%. Estimated remaining time: 9 minutes, 48 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 9 minutes, 16 seconds.
+Aggregating predictions.. Progress: 43%. Estimated remaining time: 8 minutes, 48 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 8 minutes, 17 seconds.
+Aggregating predictions.. Progress: 50%. Estimated remaining time: 7 minutes, 44 seconds.
+Aggregating predictions.. Progress: 53%. Estimated remaining time: 7 minutes, 12 seconds.
+Aggregating predictions.. Progress: 57%. Estimated remaining time: 6 minutes, 42 seconds.
+Aggregating predictions.. Progress: 60%. Estimated remaining time: 6 minutes, 10 seconds.
+Aggregating predictions.. Progress: 63%. Estimated remaining time: 5 minutes, 39 seconds.
+Aggregating predictions.. Progress: 67%. Estimated remaining time: 5 minutes, 7 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 4 minutes, 37 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 4 minutes, 5 seconds.
+Aggregating predictions.. Progress: 77%. Estimated remaining time: 3 minutes, 34 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 3 minutes, 3 seconds.
+Aggregating predictions.. Progress: 84%. Estimated remaining time: 2 minutes, 32 seconds.
+Aggregating predictions.. Progress: 87%. Estimated remaining time: 2 minutes, 0 seconds.
+Aggregating predictions.. Progress: 90%. Estimated remaining time: 1 minute, 29 seconds.
+Aggregating predictions.. Progress: 94%. Estimated remaining time: 57 seconds.
+Aggregating predictions.. Progress: 97%. Estimated remaining time: 27 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 15 minutes, 24 seconds.
+Aggregating predictions.. Progress: 6%. Estimated remaining time: 14 minutes, 55 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 14 minutes, 30 seconds.
+Aggregating predictions.. Progress: 13%. Estimated remaining time: 14 minutes, 4 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 13 minutes, 35 seconds.
+Aggregating predictions.. Progress: 19%. Estimated remaining time: 13 minutes, 2 seconds.
+Aggregating predictions.. Progress: 23%. Estimated remaining time: 12 minutes, 27 seconds.
+Aggregating predictions.. Progress: 26%. Estimated remaining time: 11 minutes, 56 seconds.
+Aggregating predictions.. Progress: 29%. Estimated remaining time: 11 minutes, 26 seconds.
+Aggregating predictions.. Progress: 32%. Estimated remaining time: 10 minutes, 56 seconds.
+Aggregating predictions.. Progress: 35%. Estimated remaining time: 10 minutes, 31 seconds.
+Aggregating predictions.. Progress: 38%. Estimated remaining time: 9 minutes, 58 seconds.
+Aggregating predictions.. Progress: 42%. Estimated remaining time: 9 minutes, 27 seconds.
+Aggregating predictions.. Progress: 45%. Estimated remaining time: 8 minutes, 55 seconds.
+Aggregating predictions.. Progress: 48%. Estimated remaining time: 8 minutes, 26 seconds.
+Aggregating predictions.. Progress: 51%. Estimated remaining time: 7 minutes, 53 seconds.
+Aggregating predictions.. Progress: 54%. Estimated remaining time: 7 minutes, 22 seconds.
+Aggregating predictions.. Progress: 57%. Estimated remaining time: 6 minutes, 52 seconds.
+Aggregating predictions.. Progress: 61%. Estimated remaining time: 6 minutes, 21 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 5 minutes, 51 seconds.
+Aggregating predictions.. Progress: 67%. Estimated remaining time: 5 minutes, 20 seconds.
+Aggregating predictions.. Progress: 70%. Estimated remaining time: 4 minutes, 50 seconds.
+Aggregating predictions.. Progress: 73%. Estimated remaining time: 4 minutes, 19 seconds.
+Aggregating predictions.. Progress: 76%. Estimated remaining time: 3 minutes, 48 seconds.
+Aggregating predictions.. Progress: 80%. Estimated remaining time: 3 minutes, 17 seconds.
+Aggregating predictions.. Progress: 83%. Estimated remaining time: 2 minutes, 47 seconds.
+Aggregating predictions.. Progress: 86%. Estimated remaining time: 2 minutes, 16 seconds.
+Aggregating predictions.. Progress: 89%. Estimated remaining time: 1 minute, 44 seconds.
+Aggregating predictions.. Progress: 92%. Estimated remaining time: 1 minute, 12 seconds.
+Aggregating predictions.. Progress: 96%. Estimated remaining time: 41 seconds.
+Aggregating predictions.. Progress: 99%. Estimated remaining time: 10 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 14 minutes, 47 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 14 minutes, 15 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 13 minutes, 59 seconds.
+Aggregating predictions.. Progress: 13%. Estimated remaining time: 13 minutes, 22 seconds.
+Aggregating predictions.. Progress: 17%. Estimated remaining time: 12 minutes, 48 seconds.
+Aggregating predictions.. Progress: 20%. Estimated remaining time: 12 minutes, 14 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 11 minutes, 41 seconds.
+Aggregating predictions.. Progress: 27%. Estimated remaining time: 11 minutes, 9 seconds.
+Aggregating predictions.. Progress: 30%. Estimated remaining time: 10 minutes, 37 seconds.
+Aggregating predictions.. Progress: 34%. Estimated remaining time: 10 minutes, 7 seconds.
+Aggregating predictions.. Progress: 37%. Estimated remaining time: 9 minutes, 41 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 9 minutes, 9 seconds.
+Aggregating predictions.. Progress: 44%. Estimated remaining time: 8 minutes, 37 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 8 minutes, 5 seconds.
+Aggregating predictions.. Progress: 50%. Estimated remaining time: 7 minutes, 36 seconds.
+Aggregating predictions.. Progress: 54%. Estimated remaining time: 7 minutes, 5 seconds.
+Aggregating predictions.. Progress: 57%. Estimated remaining time: 6 minutes, 34 seconds.
+Aggregating predictions.. Progress: 61%. Estimated remaining time: 6 minutes, 2 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 5 minutes, 32 seconds.
+Aggregating predictions.. Progress: 67%. Estimated remaining time: 5 minutes, 1 seconds.
+Aggregating predictions.. Progress: 71%. Estimated remaining time: 4 minutes, 29 seconds.
+Aggregating predictions.. Progress: 74%. Estimated remaining time: 3 minutes, 57 seconds.
+Aggregating predictions.. Progress: 77%. Estimated remaining time: 3 minutes, 27 seconds.
+Aggregating predictions.. Progress: 81%. Estimated remaining time: 2 minutes, 56 seconds.
+Aggregating predictions.. Progress: 84%. Estimated remaining time: 2 minutes, 25 seconds.
+Aggregating predictions.. Progress: 88%. Estimated remaining time: 1 minute, 53 seconds.
+Aggregating predictions.. Progress: 91%. Estimated remaining time: 1 minute, 24 seconds.
+Aggregating predictions.. Progress: 94%. Estimated remaining time: 53 seconds.
+Aggregating predictions.. Progress: 98%. Estimated remaining time: 21 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 16 minutes, 35 seconds.
+Aggregating predictions.. Progress: 6%. Estimated remaining time: 15 minutes, 45 seconds.
+Aggregating predictions.. Progress: 9%. Estimated remaining time: 15 minutes, 8 seconds.
+Aggregating predictions.. Progress: 12%. Estimated remaining time: 14 minutes, 34 seconds.
+Aggregating predictions.. Progress: 16%. Estimated remaining time: 14 minutes, 0 seconds.
+Aggregating predictions.. Progress: 19%. Estimated remaining time: 13 minutes, 28 seconds.
+Aggregating predictions.. Progress: 22%. Estimated remaining time: 12 minutes, 56 seconds.
+Aggregating predictions.. Progress: 25%. Estimated remaining time: 12 minutes, 23 seconds.
+Aggregating predictions.. Progress: 28%. Estimated remaining time: 11 minutes, 55 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 11 minutes, 22 seconds.
+Aggregating predictions.. Progress: 34%. Estimated remaining time: 10 minutes, 51 seconds.
+Aggregating predictions.. Progress: 37%. Estimated remaining time: 10 minutes, 21 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 9 minutes, 52 seconds.
+Aggregating predictions.. Progress: 44%. Estimated remaining time: 9 minutes, 20 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 8 minutes, 49 seconds.
+Aggregating predictions.. Progress: 50%. Estimated remaining time: 8 minutes, 20 seconds.
+Aggregating predictions.. Progress: 53%. Estimated remaining time: 7 minutes, 50 seconds.
+Aggregating predictions.. Progress: 56%. Estimated remaining time: 7 minutes, 19 seconds.
+Aggregating predictions.. Progress: 59%. Estimated remaining time: 6 minutes, 47 seconds.
+Aggregating predictions.. Progress: 62%. Estimated remaining time: 6 minutes, 18 seconds.
+Aggregating predictions.. Progress: 65%. Estimated remaining time: 5 minutes, 47 seconds.
+Aggregating predictions.. Progress: 68%. Estimated remaining time: 5 minutes, 16 seconds.
+Aggregating predictions.. Progress: 71%. Estimated remaining time: 4 minutes, 45 seconds.
+Aggregating predictions.. Progress: 74%. Estimated remaining time: 4 minutes, 15 seconds.
+Aggregating predictions.. Progress: 78%. Estimated remaining time: 3 minutes, 44 seconds.
+Aggregating predictions.. Progress: 81%. Estimated remaining time: 3 minutes, 12 seconds.
+Aggregating predictions.. Progress: 84%. Estimated remaining time: 2 minutes, 41 seconds.
+Aggregating predictions.. Progress: 87%. Estimated remaining time: 2 minutes, 9 seconds.
+Aggregating predictions.. Progress: 90%. Estimated remaining time: 1 minute, 38 seconds.
+Aggregating predictions.. Progress: 93%. Estimated remaining time: 1 minute, 6 seconds.
+Aggregating predictions.. Progress: 96%. Estimated remaining time: 35 seconds.
+Aggregating predictions.. Progress: 100%. Estimated remaining time: 4 seconds.
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 14 minutes, 52 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 14 minutes, 19 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 13 minutes, 46 seconds.
+Aggregating predictions.. Progress: 13%. Estimated remaining time: 13 minutes, 15 seconds.
+Aggregating predictions.. Progress: 17%. Estimated remaining time: 12 minutes, 43 seconds.
+Aggregating predictions.. Progress: 20%. Estimated remaining time: 12 minutes, 11 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 11 minutes, 41 seconds.
+Aggregating predictions.. Progress: 27%. Estimated remaining time: 11 minutes, 12 seconds.
+Aggregating predictions.. Progress: 30%. Estimated remaining time: 10 minutes, 40 seconds.
+Aggregating predictions.. Progress: 34%. Estimated remaining time: 10 minutes, 9 seconds.
+Aggregating predictions.. Progress: 37%. Estimated remaining time: 9 minutes, 38 seconds.
+Aggregating predictions.. Progress: 40%. Estimated remaining time: 9 minutes, 11 seconds.
+Aggregating predictions.. Progress: 44%. Estimated remaining time: 8 minutes, 41 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 8 minutes, 9 seconds.
+Aggregating predictions.. Progress: 50%. Estimated remaining time: 7 minutes, 36 seconds.
+Aggregating predictions.. Progress: 54%. Estimated remaining time: 7 minutes, 6 seconds.
+Aggregating predictions.. Progress: 57%. Estimated remaining time: 6 minutes, 34 seconds.
+Aggregating predictions.. Progress: 61%. Estimated remaining time: 6 minutes, 3 seconds.
+Aggregating predictions.. Progress: 64%. Estimated remaining time: 5 minutes, 31 seconds.
+Aggregating predictions.. Progress: 67%. Estimated remaining time: 5 minutes, 1 seconds.
+Aggregating predictions.. Progress: 71%. Estimated remaining time: 4 minutes, 29 seconds.
+Aggregating predictions.. Progress: 74%. Estimated remaining time: 3 minutes, 57 seconds.
+Aggregating predictions.. Progress: 78%. Estimated remaining time: 3 minutes, 26 seconds.
+Aggregating predictions.. Progress: 81%. Estimated remaining time: 2 minutes, 57 seconds.
+Aggregating predictions.. Progress: 84%. Estimated remaining time: 2 minutes, 25 seconds.
+Aggregating predictions.. Progress: 88%. Estimated remaining time: 1 minute, 54 seconds.
+Aggregating predictions.. Progress: 91%. Estimated remaining time: 1 minute, 23 seconds.
+Aggregating predictions.. Progress: 94%. Estimated remaining time: 51 seconds.
+Aggregating predictions.. Progress: 98%. Estimated remaining time: 20 seconds.
+[2026-08-16 15:13:18] SHAP - gozlem 100 / 100 
+[2026-08-16 15:13:18] SHAP - gozlem 100 / 100 
+Aggregating predictions.. Progress: 3%. Estimated remaining time: 14 minutes, 31 seconds.
+Aggregating predictions.. Progress: 7%. Estimated remaining time: 14 minutes, 7 seconds.
+Aggregating predictions.. Progress: 10%. Estimated remaining time: 13 minutes, 41 seconds.
+Aggregating predictions.. Progress: 14%. Estimated remaining time: 13 minutes, 3 seconds.
+Aggregating predictions.. Progress: 17%. Estimated remaining time: 12 minutes, 27 seconds.
+Aggregating predictions.. Progress: 20%. Estimated remaining time: 12 minutes, 1 seconds.
+Aggregating predictions.. Progress: 24%. Estimated remaining time: 11 minutes, 31 seconds.
+Aggregating predictions.. Progress: 27%. Estimated remaining time: 11 minutes, 1 seconds.
+Aggregating predictions.. Progress: 31%. Estimated remaining time: 10 minutes, 30 seconds.
+Aggregating predictions.. Progress: 34%. Estimated remaining time: 10 minutes, 4 seconds.
+Aggregating predictions.. Progress: 37%. Estimated remaining time: 9 minutes, 33 seconds.
+Aggregating predictions.. Progress: 41%. Estimated remaining time: 9 minutes, 3 seconds.
+Aggregating predictions.. Progress: 44%. Estimated remaining time: 8 minutes, 29 seconds.
+Aggregating predictions.. Progress: 47%. Estimated remaining time: 8 minutes, 0 seconds.
+Aggregating predictions.. Progress: 51%. Estimated remaining time: 7 minutes, 27 seconds.
+Aggregating predictions.. Progress: 54%. Estimated remaining time: 6 minutes, 55 seconds.
+Aggregating predictions.. Progress: 58%. Estimated remaining time: 6 minutes, 24 seconds.
+Aggregating predictions.. Progress: 61%. Estimated remaining time: 5 minutes, 52 seconds.
+Aggregating predictions.. Progress: 65%. Estimated remaining time: 5 minutes, 21 seconds.
+Aggregating predictions.. Progress: 68%. Estimated remaining time: 4 minutes, 48 seconds.
+Aggregating predictions.. Progress: 72%. Estimated remaining time: 4 minutes, 17 seconds.
+Aggregating predictions.. Progress: 75%. Estimated remaining time: 3 minutes, 45 seconds.
+Aggregating predictions.. Progress: 79%. Estimated remaining time: 3 minutes, 13 seconds.
+Aggregating predictions.. Progress: 82%. Estimated remaining time: 2 minutes, 41 seconds.
+Aggregating predictions.. Progress: 85%. Estimated remaining time: 2 minutes, 11 seconds.
+Aggregating predictions.. Progress: 89%. Estimated remaining time: 1 minute, 39 seconds.
+Aggregating predictions.. Progress: 92%. Estimated remaining time: 1 minute, 8 seconds.
+Aggregating predictions.. Progress: 96%. Estimated remaining time: 35 seconds.
+Aggregating predictions.. Progress: 99%. Estimated remaining time: 4 seconds.
+[2026-08-16 15:30:29] SHAP hesaplama bitti, kaydedildi: results/ranger/Framingham/shap_long_n100.csv 
+[2026-08-16 15:30:29] SHAP hesaplama bitti, kaydedildi: results/ranger/Framingham/shap_long_n100.csv 
+[2026-08-16 15:30:31] [BELLEK] [Framingham/ranger] SHAP sonrasi - Sistem RSS: 5.11 GB | R heap (gc): 0.85 GB 
+[2026-08-16 15:30:31] [BELLEK] [Framingham/ranger] SHAP sonrasi - Sistem RSS: 5.11 GB | R heap (gc): 0.85 GB 
+[2026-08-16 15:30:32] Grafik kaydedildi: results/ranger/Framingham/plots/survshap_plot_n100.png 
+[2026-08-16 15:30:32] Grafik kaydedildi: results/ranger/Framingham/plots/survshap_plot_n100.png 
+[2026-08-16 15:30:32] SHAP ozeti kaydedildi: results/ranger/Framingham/shap_summary_n100.csv 
+[2026-08-16 15:30:32] SHAP ozeti kaydedildi: results/ranger/Framingham/shap_summary_n100.csv 
+[2026-08-16 15:30:32] ranger_model - SHAP TIVM: 7e-04 
+[2026-08-16 15:30:32] ranger_model - SHAP TIVM: 7e-04 
+[2026-08-16 15:30:32] [BELLEK] [Framingham/ranger] model+explainer silindi, dongu sonu - Sistem RSS: 4.812 GB | R heap (gc): 0.318 GB 
+[2026-08-16 15:30:32] [BELLEK] [Framingham/ranger] model+explainer silindi, dongu sonu - Sistem RSS: 4.812 GB | R heap (gc): 0.318 GB 
+[2026-08-16 15:30:33] [BELLEK] [Framingham/rfsrc] model dongusu basi - Sistem RSS: 4.812 GB | R heap (gc): 0.318 GB 
+[2026-08-16 15:30:33] [BELLEK] [Framingham/rfsrc] model dongusu basi - Sistem RSS: 4.812 GB | R heap (gc): 0.318 GB 
+[2026-08-16 15:30:33] Kaydedilmis model bulundu, okunuyor: results/rfsrc/Framingham/model.rds 
+[2026-08-16 15:30:33] Kaydedilmis model bulundu, okunuyor: results/rfsrc/Framingham/model.rds 
+[2026-08-16 15:30:36] [BELLEK] [Framingham/rfsrc] model hazir - Sistem RSS: 4.812 GB | R heap (gc): 0.924 GB 
+[2026-08-16 15:30:36] [BELLEK] [Framingham/rfsrc] model hazir - Sistem RSS: 4.812 GB | R heap (gc): 0.924 GB 
+[2026-08-16 15:30:36] Performans hesaplama basladi: surv.rfsrc 
+[2026-08-16 15:30:36] Performans hesaplama basladi: surv.rfsrc 
+[2026-08-16 15:30:45] Performans hesaplama bitti: surv.rfsrc - cindex: 0.681 - IBS (graf): 0.117 
+[2026-08-16 15:30:45] Performans hesaplama bitti: surv.rfsrc - cindex: 0.681 - IBS (graf): 0.117 
+[2026-08-16 15:30:45] Performans kaydedildi: results/rfsrc/Framingham/performance.csv 
+[2026-08-16 15:30:45] Performans kaydedildi: results/rfsrc/Framingham/performance.csv 
+[2026-08-16 15:30:45] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/Framingham/explainer.rds 
+[2026-08-16 15:30:45] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/Framingham/explainer.rds 
+[2026-08-16 15:30:48] [BELLEK] [Framingham/rfsrc] explainer hazir - Sistem RSS: 4.812 GB | R heap (gc): 1.533 GB 
+[2026-08-16 15:30:48] [BELLEK] [Framingham/rfsrc] explainer hazir - Sistem RSS: 4.812 GB | R heap (gc): 1.533 GB 
+[2026-08-16 15:30:48] SHAP hesaplaniyor: rfsrc_model - n_obs = 100 
+[2026-08-16 15:30:48] SHAP hesaplaniyor: rfsrc_model - n_obs = 100 
+[2026-08-16 15:30:48] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-16 15:30:48] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-16 15:30:48] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-16 15:30:48] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-16 15:30:48] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-16 15:30:48] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-16 15:44:40] SHAP - gozlem 20 / 100 
+[2026-08-16 15:44:40] SHAP - gozlem 20 / 100 
+[2026-08-16 16:02:04] SHAP - gozlem 25 / 100 
+[2026-08-16 16:02:04] SHAP - gozlem 25 / 100 
+[2026-08-16 16:19:07] SHAP - gozlem 30 / 100 
+[2026-08-16 16:19:07] SHAP - gozlem 30 / 100 
+[2026-08-16 16:35:45] SHAP - gozlem 35 / 100 
+[2026-08-16 16:35:45] SHAP - gozlem 35 / 100 
+[2026-08-16 16:53:41] SHAP - gozlem 40 / 100 
+[2026-08-16 16:53:41] SHAP - gozlem 40 / 100 
+[2026-08-16 17:10:28] SHAP - gozlem 45 / 100 
+[2026-08-16 17:10:28] SHAP - gozlem 45 / 100 
+[2026-08-16 17:27:52] SHAP - gozlem 50 / 100 
+[2026-08-16 17:27:52] SHAP - gozlem 50 / 100 
+[2026-08-16 17:44:57] SHAP - gozlem 55 / 100 
+[2026-08-16 17:44:57] SHAP - gozlem 55 / 100 
+[2026-08-16 18:02:51] SHAP - gozlem 60 / 100 
+[2026-08-16 18:02:51] SHAP - gozlem 60 / 100 
+[2026-08-16 18:19:38] SHAP - gozlem 65 / 100 
+[2026-08-16 18:19:38] SHAP - gozlem 65 / 100 
+[2026-08-16 18:37:28] SHAP - gozlem 70 / 100 
+[2026-08-16 18:37:28] SHAP - gozlem 70 / 100 
+[2026-08-16 18:53:48] SHAP - gozlem 75 / 100 
+[2026-08-16 18:53:48] SHAP - gozlem 75 / 100 
+[2026-08-16 19:10:35] SHAP - gozlem 80 / 100 
+[2026-08-16 19:10:35] SHAP - gozlem 80 / 100 
+[2026-08-16 19:27:55] SHAP - gozlem 85 / 100 
+[2026-08-16 19:27:55] SHAP - gozlem 85 / 100 
+[2026-08-16 19:44:41] SHAP - gozlem 90 / 100 
+[2026-08-16 19:44:41] SHAP - gozlem 90 / 100 
+[2026-08-16 20:01:37] SHAP - gozlem 95 / 100 
+[2026-08-16 20:01:37] SHAP - gozlem 95 / 100 
+[2026-08-16 20:18:43] SHAP - gozlem 100 / 100 
+[2026-08-16 20:18:43] SHAP - gozlem 100 / 100 
+[2026-08-16 20:22:11] SHAP hesaplama bitti, kaydedildi: results/rfsrc/Framingham/shap_long_n100.csv 
+[2026-08-16 20:22:11] SHAP hesaplama bitti, kaydedildi: results/rfsrc/Framingham/shap_long_n100.csv 
+[2026-08-16 20:22:12] [BELLEK] [Framingham/rfsrc] SHAP sonrasi - Sistem RSS: 5.429 GB | R heap (gc): 1.539 GB 
+[2026-08-16 20:22:12] [BELLEK] [Framingham/rfsrc] SHAP sonrasi - Sistem RSS: 5.429 GB | R heap (gc): 1.539 GB 
+[2026-08-16 20:22:13] Grafik kaydedildi: results/rfsrc/Framingham/plots/survshap_plot_n100.png 
+[2026-08-16 20:22:13] Grafik kaydedildi: results/rfsrc/Framingham/plots/survshap_plot_n100.png 
+[2026-08-16 20:22:13] SHAP ozeti kaydedildi: results/rfsrc/Framingham/shap_summary_n100.csv 
+[2026-08-16 20:22:13] SHAP ozeti kaydedildi: results/rfsrc/Framingham/shap_summary_n100.csv 
+[2026-08-16 20:22:13] rfsrc_model - SHAP TIVM: 8e-04 
+[2026-08-16 20:22:13] rfsrc_model - SHAP TIVM: 8e-04 
+[2026-08-16 20:22:14] [BELLEK] [Framingham/rfsrc] model+explainer silindi, dongu sonu - Sistem RSS: 4.811 GB | R heap (gc): 0.321 GB 
+[2026-08-16 20:22:14] [BELLEK] [Framingham/rfsrc] model+explainer silindi, dongu sonu - Sistem RSS: 4.811 GB | R heap (gc): 0.321 GB 
+[2026-08-16 20:22:14] [BELLEK] [Framingham/xgboost_cox] model dongusu basi - Sistem RSS: 4.811 GB | R heap (gc): 0.321 GB 
+[2026-08-16 20:22:14] [BELLEK] [Framingham/xgboost_cox] model dongusu basi - Sistem RSS: 4.811 GB | R heap (gc): 0.321 GB 
+[2026-08-16 20:22:14] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/Framingham/model.rds 
+[2026-08-16 20:22:14] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/Framingham/model.rds 
+[2026-08-16 20:22:14] [BELLEK] [Framingham/xgboost_cox] model hazir - Sistem RSS: 4.815 GB | R heap (gc): 0.322 GB 
+[2026-08-16 20:22:14] [BELLEK] [Framingham/xgboost_cox] model hazir - Sistem RSS: 4.815 GB | R heap (gc): 0.322 GB 
+[2026-08-16 20:22:14] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-08-16 20:22:14] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-08-16 20:22:19] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.633 - IBS (graf): 0.173 
+[2026-08-16 20:22:19] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.633 - IBS (graf): 0.173 
+[2026-08-16 20:22:19] Performans kaydedildi: results/xgboost_cox/Framingham/performance.csv 
+[2026-08-16 20:22:19] Performans kaydedildi: results/xgboost_cox/Framingham/performance.csv 
+[2026-08-16 20:22:19] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/Framingham/explainer.rds 
+[2026-08-16 20:22:19] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/Framingham/explainer.rds 
+[2026-08-16 20:22:20] [BELLEK] [Framingham/xgboost_cox] explainer hazir - Sistem RSS: 4.817 GB | R heap (gc): 0.324 GB 
+[2026-08-16 20:22:20] [BELLEK] [Framingham/xgboost_cox] explainer hazir - Sistem RSS: 4.817 GB | R heap (gc): 0.324 GB 
+[2026-08-16 20:22:20] SHAP hesaplaniyor: xgboost_cox_model - n_obs = 100 
+[2026-08-16 20:22:20] SHAP hesaplaniyor: xgboost_cox_model - n_obs = 100 
+[2026-08-16 20:22:20] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-16 20:22:20] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-16 20:22:20] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-16 20:22:20] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-16 20:22:20] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-16 20:22:20] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-16 20:38:52] SHAP - gozlem 20 / 100 
+[2026-08-16 20:38:52] SHAP - gozlem 20 / 100 
+[2026-08-16 20:59:18] SHAP - gozlem 25 / 100 
+[2026-08-16 20:59:18] SHAP - gozlem 25 / 100 
+[2026-08-16 21:19:21] SHAP - gozlem 30 / 100 
+[2026-08-16 21:19:21] SHAP - gozlem 30 / 100 
+[2026-08-16 21:39:24] SHAP - gozlem 35 / 100 
+[2026-08-16 21:39:24] SHAP - gozlem 35 / 100 
+[2026-08-16 21:59:26] SHAP - gozlem 40 / 100 
+[2026-08-16 21:59:26] SHAP - gozlem 40 / 100 
+[2026-08-16 22:19:30] SHAP - gozlem 45 / 100 
+[2026-08-16 22:19:30] SHAP - gozlem 45 / 100 
+[2026-08-16 22:39:46] SHAP - gozlem 50 / 100 
+[2026-08-16 22:39:46] SHAP - gozlem 50 / 100 
+[2026-08-16 22:59:50] SHAP - gozlem 55 / 100 
+[2026-08-16 22:59:50] SHAP - gozlem 55 / 100 
+[2026-08-16 23:19:53] SHAP - gozlem 60 / 100 
+[2026-08-16 23:19:53] SHAP - gozlem 60 / 100 
+[2026-08-16 23:40:01] SHAP - gozlem 65 / 100 
+[2026-08-16 23:40:01] SHAP - gozlem 65 / 100 
+[2026-08-17 00:00:21] SHAP - gozlem 70 / 100 
+[2026-08-17 00:00:21] SHAP - gozlem 70 / 100 
+[2026-08-17 00:20:29] SHAP - gozlem 75 / 100 
+[2026-08-17 00:20:29] SHAP - gozlem 75 / 100 
+[2026-08-17 00:40:35] SHAP - gozlem 80 / 100 
+[2026-08-17 00:40:35] SHAP - gozlem 80 / 100 
+[2026-08-17 01:00:35] SHAP - gozlem 85 / 100 
+[2026-08-17 01:00:35] SHAP - gozlem 85 / 100 
+[2026-08-17 01:20:28] SHAP - gozlem 90 / 100 
+[2026-08-17 01:20:28] SHAP - gozlem 90 / 100 
+[2026-08-17 01:40:23] SHAP - gozlem 95 / 100 
+[2026-08-17 01:40:23] SHAP - gozlem 95 / 100 
+[2026-08-17 02:00:24] SHAP - gozlem 100 / 100 
+[2026-08-17 02:00:24] SHAP - gozlem 100 / 100 
+[2026-08-17 02:04:20] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/Framingham/shap_long_n100.csv 
+[2026-08-17 02:04:20] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/Framingham/shap_long_n100.csv 
+[2026-08-17 02:04:21] [BELLEK] [Framingham/xgboost_cox] SHAP sonrasi - Sistem RSS: 6.799 GB | R heap (gc): 0.329 GB 
+[2026-08-17 02:04:21] [BELLEK] [Framingham/xgboost_cox] SHAP sonrasi - Sistem RSS: 6.799 GB | R heap (gc): 0.329 GB 
+[2026-08-17 02:04:22] Grafik kaydedildi: results/xgboost_cox/Framingham/plots/survshap_plot_n100.png 
+[2026-08-17 02:04:22] Grafik kaydedildi: results/xgboost_cox/Framingham/plots/survshap_plot_n100.png 
+[2026-08-17 02:04:22] SHAP ozeti kaydedildi: results/xgboost_cox/Framingham/shap_summary_n100.csv 
+[2026-08-17 02:04:22] SHAP ozeti kaydedildi: results/xgboost_cox/Framingham/shap_summary_n100.csv 
+[2026-08-17 02:04:22] xgboost_cox_model - SHAP TIVM: 6e-04 
+[2026-08-17 02:04:22] xgboost_cox_model - SHAP TIVM: 6e-04 
+[2026-08-17 02:04:23] [BELLEK] [Framingham/xgboost_cox] model+explainer silindi, dongu sonu - Sistem RSS: 4.813 GB | R heap (gc): 0.323 GB 
+[2026-08-17 02:04:23] [BELLEK] [Framingham/xgboost_cox] model+explainer silindi, dongu sonu - Sistem RSS: 4.813 GB | R heap (gc): 0.323 GB 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + cox - cindex: 0.689 - PFI TIVM: 5e-04 - SHAP TIVM: 4e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + cox - cindex: 0.689 - PFI TIVM: 5e-04 - SHAP TIVM: 4e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + aorsf - cindex: 0.687 - PFI TIVM: 5e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + aorsf - cindex: 0.687 - PFI TIVM: 5e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + cforest - cindex: 0.684 - PFI TIVM: 5e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + cforest - cindex: 0.684 - PFI TIVM: 5e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + coxboost - cindex: 0.687 - PFI TIVM: 5e-04 - SHAP TIVM: 4e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + coxboost - cindex: 0.687 - PFI TIVM: 5e-04 - SHAP TIVM: 4e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + ctree - cindex: 0.656 - PFI TIVM: 6e-04 - SHAP TIVM: 0.001 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + ctree - cindex: 0.656 - PFI TIVM: 6e-04 - SHAP TIVM: 0.001 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + cv_glmnet - cindex: 0.688 - PFI TIVM: 5e-04 - SHAP TIVM: 4e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + cv_glmnet - cindex: 0.688 - PFI TIVM: 5e-04 - SHAP TIVM: 4e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + glmboost - cindex: 0.685 - PFI TIVM: 3e-04 - SHAP TIVM: 3e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + glmboost - cindex: 0.685 - PFI TIVM: 3e-04 - SHAP TIVM: 3e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + glmnet - cindex: 0.687 - PFI TIVM: 4e-04 - SHAP TIVM: 4e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + glmnet - cindex: 0.687 - PFI TIVM: 4e-04 - SHAP TIVM: 4e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + penalized - cindex: 0.689 - PFI TIVM: 5e-04 - SHAP TIVM: 4e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + penalized - cindex: 0.689 - PFI TIVM: 5e-04 - SHAP TIVM: 4e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + ranger - cindex: 0.675 - PFI TIVM: 5e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + ranger - cindex: 0.675 - PFI TIVM: 5e-04 - SHAP TIVM: 7e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + rfsrc - cindex: 0.681 - PFI TIVM: 5e-04 - SHAP TIVM: 8e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + rfsrc - cindex: 0.681 - PFI TIVM: 5e-04 - SHAP TIVM: 8e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + xgboost_cox - cindex: 0.633 - PFI TIVM: 0.0013 - SHAP TIVM: 6e-04 ===== 
+[2026-08-17 02:04:23] ===== BITTI: Framingham + xgboost_cox - cindex: 0.633 - PFI TIVM: 0.0013 - SHAP TIVM: 6e-04 ===== 
+[2026-08-17 02:04:23] ----- Veri seti bitti: Framingham ----- 
+[2026-08-17 02:04:23] ----- Veri seti bitti: Framingham ----- 
+There were 50 or more warnings (use warnings() to see the first 50)
+[2026-08-17 02:04:23] ===== RUN ( Framingham ) TAMAMLANDI ===== 
+[2026-08-17 02:04:23] ===== RUN ( Framingham ) TAMAMLANDI ===== 
