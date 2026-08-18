@@ -5756,3 +5756,31 @@ This happened in PipeOp responsecompose's $predict()
 [2026-08-11 13:37:53] Toplam 36 task olusturuldu 
 [2026-08-11 13:37:53] Split basladi (ratio = 0.7 ) 
 [2026-08-11 13:37:53] Split bitti - train: 1522 test: 653 
+[2026-08-13 07:35:50] Paket kurulumu basladi 
+[2026-08-13 07:35:50] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-13 07:35:51] Eksik paketler kuruluyor: dplyr, tidyr, mlr3, mlr3pipelines, survex, ggplot2, remotes 
+[2026-08-13 07:52:29] Paket kurulumu basladi 
+[2026-08-13 07:52:29] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-13 07:52:31] Eksik paketler kuruluyor: dplyr, tidyr, mlr3, mlr3pipelines, survex, ggplot2, remotes 
+[2026-08-13 07:55:18] mlr3proba GitHub'dan kuruluyor 
+[2026-08-13 07:56:32] mlr3extralearners GitHub'dan kuruluyor 
+[2026-08-13 07:58:43] CoxBoost GitHub'dan kuruluyor 
+[2026-08-13 08:00:14] Paket kurulumu basladi 
+[2026-08-13 08:00:14] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-13 08:00:15] Eksik paketler kuruluyor: dplyr, tidyr, mlr3, mlr3pipelines, survex, ggplot2 
+[2026-08-13 08:16:46] mlr3proba GitHub'dan kuruluyor 
+[2026-08-13 08:19:56] mlr3extralearners GitHub'dan kuruluyor 
+[2026-08-13 08:29:49] Paket kurulumu basladi 
+[2026-08-13 08:29:49] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-13 08:29:52] Eksik paketler kuruluyor: survex 
+[2026-08-13 08:42:13] mlr3extralearners GitHub'dan kuruluyor 
+[2026-08-13 08:44:03] Paket kurulumu basladi 
+[2026-08-13 08:44:03] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-13 08:44:06] Eksik paketler kuruluyor: survex 
+[2026-08-13 08:52:26] mlr3extralearners GitHub'dan kuruluyor 
+[2026-08-13 08:53:42] CoxBoost GitHub'dan kuruluyor 
+[2026-08-13 09:04:13] Paket kurulumu basladi 
+[2026-08-13 09:04:13] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-13 09:04:18] CoxBoost GitHub'dan kuruluyor 
+[2026-08-13 09:04:29] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-08-13 09:36:04] Paket kurulumu tamamlandi 
