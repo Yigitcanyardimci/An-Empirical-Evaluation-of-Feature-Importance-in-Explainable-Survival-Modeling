@@ -2957,3 +2957,591 @@ dbl (6): pid, event, time, fac_sex, num_age, num_year
 [2026-08-11 11:44:28] ===== BITTI: prostate + cforest - cindex: 0.641 - PFI TIVM: 0.0017 - SHAP TIVM: 0.0021 ===== 
 [2026-08-11 11:44:28] ----- Veri seti bitti: prostate ----- 
 [2026-08-11 11:44:28] ===== RUN ( prostate ) TAMAMLANDI ===== 
+[2026-08-11 13:59:18] Paket kurulumu basladi 
+[2026-08-11 13:59:19] renv.lock bulunamadi, normal kurulum yapiliyor 
+[2026-08-11 13:59:23] Extralearner bagimliliklari kontrol ediliyor / kuruluyor 
+[2026-08-11 13:59:26] Paket kurulumu tamamlandi 
+[2026-08-11 13:59:26] Veri okuma basladi: grace 
+[2026-08-11 13:59:26] Veri okuma bitti: grace - 1000 satir, 7 sutun 
+[2026-08-11 13:59:26] Veri okuma basladi: melanoma 
+[2026-08-11 13:59:26] Veri okuma bitti: melanoma - 205 satir, 7 sutun 
+[2026-08-11 13:59:26] Veri okuma basladi: ova 
+[2026-08-11 13:59:26] Veri okuma bitti: ova - 358 satir, 7 sutun 
+[2026-08-11 13:59:26] Veri okuma basladi: aids2 
+[2026-08-11 13:59:26] Veri okuma bitti: aids2 - 2839 satir, 6 sutun 
+[2026-08-11 13:59:26] Veri okuma basladi: veteran 
+[2026-08-11 13:59:27] Veri okuma bitti: veteran - 137 satir, 8 sutun 
+[2026-08-11 13:59:27] Veri okuma basladi: breast 
+[2026-08-11 13:59:27] Veri okuma bitti: breast - 100 satir, 6 sutun 
+[2026-08-11 13:59:27] Veri okuma basladi: e1684 
+[2026-08-11 13:59:27] Veri okuma bitti: e1684 - 284 satir, 5 sutun 
+[2026-08-11 13:59:27] Veri okuma basladi: epileptic 
+[2026-08-11 13:59:27] Veri okuma bitti: epileptic - 1286 satir, 8 sutun 
+[2026-08-11 13:59:27] Veri okuma basladi: dialysis 
+[2026-08-11 13:59:27] Veri okuma bitti: dialysis - 6805 satir, 6 sutun 
+[2026-08-11 13:59:27] Veri okuma basladi: pbc 
+[2026-08-11 13:59:27] Veri okuma bitti: pbc - 312 satir, 8 sutun 
+[2026-08-11 13:59:27] Veri okuma basladi: prostateSurvival 
+[2026-08-11 13:59:27] Veri okuma bitti: prostateSurvival - 14294 satir, 5 sutun 
+[2026-08-11 13:59:27] Veri okuma basladi: acath 
+[2026-08-11 13:59:27] Veri okuma bitti: acath - 2258 satir, 5 sutun 
+[2026-08-11 13:59:27] Veri okuma basladi: prostate 
+[2026-08-11 13:59:27] Veri okuma bitti: prostate - 475 satir, 17 sutun 
+[2026-08-11 13:59:27] Veri okuma basladi: dataDIVAT1 
+[2026-08-11 13:59:27] Veri okuma bitti: dataDIVAT1 - 5943 satir, 7 sutun 
+[2026-08-11 13:59:27] Veri okuma basladi: dataDIVAT3 
+[2026-08-11 13:59:27] Veri okuma bitti: dataDIVAT3 - 4267 satir, 9 sutun 
+[2026-08-11 13:59:27] Veri okuma basladi: TRACE 
+[2026-08-11 13:59:27] Veri okuma bitti: TRACE - 1878 satir, 8 sutun 
+[2026-08-11 13:59:27] Veri okuma basladi: FRTCS 
+[2026-08-11 13:59:27] Veri okuma bitti: FRTCS - 2088 satir, 7 sutun 
+[2026-08-11 13:59:27] Veri okuma basladi: zinc 
+[2026-08-11 13:59:27] Veri okuma bitti: zinc - 431 satir, 15 sutun 
+[2026-08-11 13:59:27] Veri okuma basladi: stagec 
+[2026-08-11 13:59:28] Veri okuma bitti: stagec - 136 satir, 9 sutun 
+[2026-08-11 13:59:28] Veri okuma basladi: LeukSurv 
+[2026-08-11 13:59:28] Veri okuma bitti: LeukSurv - 1043 satir, 9 sutun 
+[2026-08-11 13:59:28] Veri okuma basladi: nwtco 
+[2026-08-11 13:59:28] Veri okuma bitti: nwtco - 4028 satir, 9 sutun 
+[2026-08-11 13:59:28] Veri okuma basladi: retinopathy 
+[2026-08-11 13:59:28] Veri okuma bitti: retinopathy - 394 satir, 9 sutun 
+[2026-08-11 13:59:28] Veri okuma basladi: Framingham 
+[2026-08-11 13:59:28] Veri okuma bitti: Framingham - 4658 satir, 9 sutun 
+[2026-08-11 13:59:28] Veri okuma basladi: csl 
+[2026-08-11 13:59:28] Veri okuma bitti: csl - 2481 satir, 8 sutun 
+[2026-08-11 13:59:28] Veri okuma basladi: cancer 
+[2026-08-11 13:59:28] Veri okuma bitti: cancer - 169 satir, 10 sutun 
+[2026-08-11 13:59:28] Veri okuma basladi: whas500 
+[2026-08-11 13:59:28] Veri okuma bitti: whas500 - 461 satir, 18 sutun 
+[2026-08-11 13:59:28] Veri okuma basladi: cgd 
+[2026-08-11 13:59:28] Veri okuma bitti: cgd - 128 satir, 12 sutun 
+[2026-08-11 13:59:28] Veri okuma basladi: Pbc3 
+[2026-08-11 13:59:28] Veri okuma bitti: Pbc3 - 327 satir, 14 sutun 
+[2026-08-11 13:59:28] Veri okuma basladi: GBSG2 
+[2026-08-11 13:59:28] Veri okuma bitti: GBSG2 - 686 satir, 10 sutun 
+[2026-08-11 13:59:28] Veri okuma basladi: colon 
+[2026-08-11 13:59:28] Veri okuma bitti: colon - 911 satir, 11 sutun 
+[2026-08-11 13:59:28] Veri okuma basladi: flchain 
+[2026-08-11 13:59:28] Veri okuma bitti: flchain - 6524 satir, 12 sutun 
+[2026-08-11 13:59:28] Veri okuma basladi: Rossi 
+[2026-08-11 13:59:29] Veri okuma bitti: Rossi - 1405 satir, 11 sutun 
+[2026-08-11 13:59:29] Veri okuma basladi: burn 
+[2026-08-11 13:59:29] Veri okuma bitti: burn - 154 satir, 13 sutun 
+[2026-08-11 13:59:29] Veri okuma basladi: rott2 
+[2026-08-11 13:59:29] Veri okuma bitti: rott2 - 2982 satir, 13 sutun 
+[2026-08-11 13:59:29] Veri okuma basladi: d_oropha_rec 
+[2026-08-11 13:59:29] Veri okuma bitti: d_oropha_rec - 192 satir, 14 sutun 
+[2026-08-11 13:59:29] Veri okuma basladi: rdata 
+[2026-08-11 13:59:29] Veri okuma bitti: rdata - 1040 satir, 6 sutun 
+[2026-08-11 13:59:29] Task olusturuluyor: grace_task 
+[2026-08-11 13:59:29] Task olusturuldu: grace_task 
+[2026-08-11 13:59:29] Task olusturuluyor: melanoma_task 
+[2026-08-11 13:59:29] Task olusturuldu: melanoma_task 
+[2026-08-11 13:59:29] Task olusturuluyor: ova_task 
+[2026-08-11 13:59:29] Task olusturuldu: ova_task 
+[2026-08-11 13:59:29] Task olusturuluyor: aids2_task 
+[2026-08-11 13:59:29] Task olusturuldu: aids2_task 
+[2026-08-11 13:59:29] Task olusturuluyor: veteran_task 
+[2026-08-11 13:59:29] Task olusturuldu: veteran_task 
+[2026-08-11 13:59:29] Task olusturuluyor: breast_task 
+[2026-08-11 13:59:29] Task olusturuldu: breast_task 
+[2026-08-11 13:59:29] Task olusturuluyor: e1684_task 
+[2026-08-11 13:59:29] Task olusturuldu: e1684_task 
+[2026-08-11 13:59:29] Task olusturuluyor: epileptic_task 
+[2026-08-11 13:59:29] Task olusturuldu: epileptic_task 
+[2026-08-11 13:59:29] Task olusturuluyor: dialysis_task 
+[2026-08-11 13:59:29] Task olusturuldu: dialysis_task 
+[2026-08-11 13:59:29] Task olusturuluyor: pbc_task 
+[2026-08-11 13:59:29] Task olusturuldu: pbc_task 
+[2026-08-11 13:59:29] Task olusturuluyor: prostateSurvival_task 
+[2026-08-11 13:59:29] Task olusturuldu: prostateSurvival_task 
+[2026-08-11 13:59:29] Task olusturuluyor: acath_task 
+[2026-08-11 13:59:29] Task olusturuldu: acath_task 
+[2026-08-11 13:59:29] Task olusturuluyor: prostate_task 
+[2026-08-11 13:59:29] Task olusturuldu: prostate_task 
+[2026-08-11 13:59:29] Task olusturuluyor: dataDIVAT1_task 
+[2026-08-11 13:59:29] Task olusturuldu: dataDIVAT1_task 
+[2026-08-11 13:59:29] Task olusturuluyor: dataDIVAT3_task 
+[2026-08-11 13:59:29] Task olusturuldu: dataDIVAT3_task 
+[2026-08-11 13:59:29] Task olusturuluyor: TRACE_task 
+[2026-08-11 13:59:29] Task olusturuldu: TRACE_task 
+[2026-08-11 13:59:29] Task olusturuluyor: FRTCS_task 
+[2026-08-11 13:59:29] Task olusturuldu: FRTCS_task 
+[2026-08-11 13:59:29] Task olusturuluyor: zinc_task 
+[2026-08-11 13:59:29] Task olusturuldu: zinc_task 
+[2026-08-11 13:59:29] Task olusturuluyor: stagec_task 
+[2026-08-11 13:59:29] Task olusturuldu: stagec_task 
+[2026-08-11 13:59:29] Task olusturuluyor: LeukSurv_task 
+[2026-08-11 13:59:29] Task olusturuldu: LeukSurv_task 
+[2026-08-11 13:59:29] Task olusturuluyor: nwtco_task 
+[2026-08-11 13:59:29] Task olusturuldu: nwtco_task 
+[2026-08-11 13:59:29] Task olusturuluyor: retinopathy_task 
+[2026-08-11 13:59:29] Task olusturuldu: retinopathy_task 
+[2026-08-11 13:59:29] Task olusturuluyor: Framingham_task 
+[2026-08-11 13:59:29] Task olusturuldu: Framingham_task 
+[2026-08-11 13:59:29] Task olusturuluyor: csl_task 
+[2026-08-11 13:59:29] Task olusturuldu: csl_task 
+[2026-08-11 13:59:29] Task olusturuluyor: cancer_task 
+[2026-08-11 13:59:29] Task olusturuldu: cancer_task 
+[2026-08-11 13:59:29] Task olusturuluyor: whas500_task 
+[2026-08-11 13:59:29] Task olusturuldu: whas500_task 
+[2026-08-11 13:59:29] Task olusturuluyor: cgd_task 
+[2026-08-11 13:59:29] Task olusturuldu: cgd_task 
+[2026-08-11 13:59:29] Task olusturuluyor: Pbc3_task 
+[2026-08-11 13:59:29] Task olusturuldu: Pbc3_task 
+[2026-08-11 13:59:29] Task olusturuluyor: GBSG2_task 
+[2026-08-11 13:59:29] Task olusturuldu: GBSG2_task 
+[2026-08-11 13:59:29] Task olusturuluyor: colon_task 
+[2026-08-11 13:59:29] Task olusturuldu: colon_task 
+[2026-08-11 13:59:29] Task olusturuluyor: flchain_task 
+[2026-08-11 13:59:29] Task olusturuldu: flchain_task 
+[2026-08-11 13:59:29] Task olusturuluyor: Rossi_task 
+[2026-08-11 13:59:29] Task olusturuldu: Rossi_task 
+[2026-08-11 13:59:29] Task olusturuluyor: burn_task 
+[2026-08-11 13:59:29] Task olusturuldu: burn_task 
+[2026-08-11 13:59:29] Task olusturuluyor: rott2_task 
+[2026-08-11 13:59:29] Task olusturuldu: rott2_task 
+[2026-08-11 13:59:29] Task olusturuluyor: d_oropha_rec_task 
+[2026-08-11 13:59:29] Task olusturuldu: d_oropha_rec_task 
+[2026-08-11 13:59:29] Task olusturuluyor: rdata_task 
+[2026-08-11 13:59:29] Task olusturuldu: rdata_task 
+[2026-08-11 13:59:29] Toplam 36 task olusturuldu 
+[2026-08-11 13:59:29] ===== RUN ( prostate ) BASLADI: 12 model ===== 
+[2026-08-11 13:59:29] ----- Veri seti basladi: prostate ----- 
+[2026-08-11 13:59:30] [BELLEK] [prostate] veri seti basi - Sistem RSS: 0.491 GB | R heap (gc): 0.266 GB 
+[2026-08-11 13:59:30] Split basladi (ratio = 0.7 ) 
+[2026-08-11 13:59:30] Split bitti - train: 332 test: 143 
+[2026-08-11 13:59:30] [BELLEK] [prostate/cox] model dongusu basi - Sistem RSS: 0.491 GB | R heap (gc): 0.267 GB 
+[2026-08-11 13:59:30] Kaydedilmis model bulundu, okunuyor: results/cox/prostate/model.rds 
+[2026-08-11 13:59:31] [BELLEK] [prostate/cox] model hazir - Sistem RSS: 0.491 GB | R heap (gc): 0.268 GB 
+[2026-08-11 13:59:31] Performans hesaplama basladi: surv.coxph 
+[2026-08-11 13:59:31] Performans hesaplama bitti: surv.coxph - cindex: 0.639 - IBS (graf): 0.259 
+[2026-08-11 13:59:31] Performans kaydedildi: results/cox/prostate/performance.csv 
+[2026-08-11 13:59:31] Kaydedilmis explainer bulundu, okunuyor: results/cox/prostate/explainer.rds 
+[2026-08-11 13:59:34] [BELLEK] [prostate/cox] explainer hazir - Sistem RSS: 0.566 GB | R heap (gc): 0.413 GB 
+[2026-08-11 13:59:34] SHAP hesaplaniyor: cox_model - n_obs = 100 
+[2026-08-11 13:59:34] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-11 13:59:34] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-11 13:59:34] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-11 14:00:49] SHAP - gozlem 20 / 100 
+[2026-08-11 14:02:10] SHAP - gozlem 25 / 100 
+[2026-08-11 14:03:24] SHAP - gozlem 30 / 100 
+[2026-08-11 14:04:36] SHAP - gozlem 35 / 100 
+[2026-08-11 14:05:55] SHAP - gozlem 40 / 100 
+[2026-08-11 14:07:11] SHAP - gozlem 45 / 100 
+[2026-08-11 14:08:25] SHAP - gozlem 50 / 100 
+[2026-08-11 14:09:41] SHAP - gozlem 55 / 100 
+[2026-08-11 14:11:05] SHAP - gozlem 60 / 100 
+[2026-08-11 14:12:18] SHAP - gozlem 65 / 100 
+[2026-08-11 14:13:32] SHAP - gozlem 70 / 100 
+[2026-08-11 14:14:48] SHAP - gozlem 75 / 100 
+[2026-08-11 14:16:02] SHAP - gozlem 80 / 100 
+[2026-08-11 14:17:25] SHAP - gozlem 85 / 100 
+[2026-08-11 14:18:38] SHAP - gozlem 90 / 100 
+[2026-08-11 14:19:50] SHAP - gozlem 95 / 100 
+[2026-08-11 14:21:04] SHAP - gozlem 100 / 100 
+[2026-08-11 14:21:20] SHAP hesaplama bitti, kaydedildi: results/cox/prostate/shap_long_n100.csv 
+[2026-08-11 14:21:20] [BELLEK] [prostate/cox] SHAP sonrasi - Sistem RSS: 1.462 GB | R heap (gc): 0.418 GB 
+[2026-08-11 14:21:21] Grafik kaydedildi: results/cox/prostate/plots/survshap_plot_n100.png 
+[2026-08-11 14:21:21] SHAP ozeti kaydedildi: results/cox/prostate/shap_summary_n100.csv 
+[2026-08-11 14:21:21] cox_model - SHAP TIVM: 0.0013 
+[2026-08-11 14:21:22] [BELLEK] [prostate/cox] model+explainer silindi, dongu sonu - Sistem RSS: 1.315 GB | R heap (gc): 0.305 GB 
+[2026-08-11 14:21:22] [BELLEK] [prostate/aorsf] model dongusu basi - Sistem RSS: 1.315 GB | R heap (gc): 0.305 GB 
+[2026-08-11 14:21:22] Kaydedilmis model bulundu, okunuyor: results/aorsf/prostate/model.rds 
+[2026-08-11 14:21:23] [BELLEK] [prostate/aorsf] model hazir - Sistem RSS: 1.315 GB | R heap (gc): 0.322 GB 
+[2026-08-11 14:21:23] Performans hesaplama basladi: surv.aorsf 
+[2026-08-11 14:21:24] Performans hesaplama bitti: surv.aorsf - cindex: 0.646 - IBS (graf): 0.252 
+[2026-08-11 14:21:24] Performans kaydedildi: results/aorsf/prostate/performance.csv 
+[2026-08-11 14:21:24] Kaydedilmis explainer bulundu, okunuyor: results/aorsf/prostate/explainer.rds 
+[2026-08-11 14:21:25] [BELLEK] [prostate/aorsf] explainer hazir - Sistem RSS: 1.316 GB | R heap (gc): 0.343 GB 
+[2026-08-11 14:21:25] SHAP hesaplaniyor: aorsf_model - n_obs = 100 
+[2026-08-11 14:21:25] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-11 14:21:25] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-11 14:21:25] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-11 14:26:24] SHAP - gozlem 20 / 100 
+[2026-08-11 14:32:10] SHAP - gozlem 25 / 100 
+[2026-08-11 14:36:54] SHAP - gozlem 30 / 100 
+[2026-08-11 14:41:14] SHAP - gozlem 35 / 100 
+[2026-08-11 14:46:33] SHAP - gozlem 40 / 100 
+[2026-08-11 14:51:33] SHAP - gozlem 45 / 100 
+[2026-08-11 14:56:57] SHAP - gozlem 50 / 100 
+[2026-08-11 15:01:21] SHAP - gozlem 55 / 100 
+[2026-08-11 15:06:56] SHAP - gozlem 60 / 100 
+[2026-08-11 15:11:24] SHAP - gozlem 65 / 100 
+[2026-08-11 15:17:05] SHAP - gozlem 70 / 100 
+[2026-08-11 15:22:46] SHAP - gozlem 75 / 100 
+[2026-08-11 15:28:08] SHAP - gozlem 80 / 100 
+[2026-08-11 15:33:53] SHAP - gozlem 85 / 100 
+[2026-08-11 15:40:03] SHAP - gozlem 90 / 100 
+[2026-08-11 15:44:28] SHAP - gozlem 95 / 100 
+[2026-08-11 15:50:01] SHAP - gozlem 100 / 100 
+[2026-08-11 15:50:59] SHAP hesaplama bitti, kaydedildi: results/aorsf/prostate/shap_long_n100.csv 
+[2026-08-11 15:50:59] [BELLEK] [prostate/aorsf] SHAP sonrasi - Sistem RSS: 1.348 GB | R heap (gc): 0.346 GB 
+[2026-08-11 15:51:00] Grafik kaydedildi: results/aorsf/prostate/plots/survshap_plot_n100.png 
+[2026-08-11 15:51:00] SHAP ozeti kaydedildi: results/aorsf/prostate/shap_summary_n100.csv 
+[2026-08-11 15:51:00] aorsf_model - SHAP TIVM: 0.0016 
+[2026-08-11 15:51:01] [BELLEK] [prostate/aorsf] model+explainer silindi, dongu sonu - Sistem RSS: 1.348 GB | R heap (gc): 0.309 GB 
+[2026-08-11 15:51:01] [BELLEK] [prostate/cforest] model dongusu basi - Sistem RSS: 1.348 GB | R heap (gc): 0.309 GB 
+[2026-08-11 15:51:01] Kaydedilmis model bulundu, okunuyor: results/cforest/prostate/model.rds 
+[2026-08-11 15:51:02] [BELLEK] [prostate/cforest] model hazir - Sistem RSS: 1.348 GB | R heap (gc): 0.353 GB 
+[2026-08-11 15:51:02] Performans hesaplama basladi: surv.cforest 
+[2026-08-11 15:51:21] Performans hesaplama bitti: surv.cforest - cindex: 0.641 - IBS (graf): 0.249 
+[2026-08-11 15:51:21] Performans kaydedildi: results/cforest/prostate/performance.csv 
+[2026-08-11 15:51:21] Kaydedilmis explainer bulundu, okunuyor: results/cforest/prostate/explainer.rds 
+[2026-08-11 15:51:22] [BELLEK] [prostate/cforest] explainer hazir - Sistem RSS: 1.349 GB | R heap (gc): 0.483 GB 
+[2026-08-11 15:51:22] SHAP hesaplaniyor: cforest_model - n_obs = 100 
+[2026-08-11 15:51:23] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-11 15:51:23] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-11 15:51:23] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-11 17:42:58] SHAP - gozlem 20 / 100 
+[2026-08-11 20:04:22] SHAP - gozlem 25 / 100 
+[2026-08-11 22:23:12] SHAP - gozlem 30 / 100 
+[2026-08-12 00:42:39] SHAP - gozlem 35 / 100 
+[2026-08-12 03:03:21] SHAP - gozlem 40 / 100 
+[2026-08-12 05:22:14] SHAP - gozlem 45 / 100 
+[2026-08-12 07:41:32] SHAP - gozlem 50 / 100 
+[2026-08-12 09:56:58] SHAP - gozlem 55 / 100 
+[2026-08-12 12:12:09] SHAP - gozlem 60 / 100 
+[2026-08-12 14:27:43] SHAP - gozlem 65 / 100 
+[2026-08-12 16:44:01] SHAP - gozlem 70 / 100 
+[2026-08-12 19:00:59] SHAP - gozlem 75 / 100 
+[2026-08-12 21:18:30] SHAP - gozlem 80 / 100 
+[2026-08-12 23:35:30] SHAP - gozlem 85 / 100 
+[2026-08-13 01:50:51] SHAP - gozlem 90 / 100 
+[2026-08-13 04:09:58] SHAP - gozlem 95 / 100 
+[2026-08-13 06:28:06] SHAP - gozlem 100 / 100 
+[2026-08-13 06:56:05] SHAP hesaplama bitti, kaydedildi: results/cforest/prostate/shap_long_n100.csv 
+[2026-08-13 06:56:05] [BELLEK] [prostate/cforest] SHAP sonrasi - Sistem RSS: 1.783 GB | R heap (gc): 0.497 GB 
+[2026-08-13 06:56:06] Grafik kaydedildi: results/cforest/prostate/plots/survshap_plot_n100.png 
+[2026-08-13 06:56:06] SHAP ozeti kaydedildi: results/cforest/prostate/shap_summary_n100.csv 
+[2026-08-13 06:56:06] cforest_model - SHAP TIVM: 0.0021 
+[2026-08-13 06:56:07] [BELLEK] [prostate/cforest] model+explainer silindi, dongu sonu - Sistem RSS: 1.783 GB | R heap (gc): 0.324 GB 
+[2026-08-13 06:56:08] [BELLEK] [prostate/coxboost] model dongusu basi - Sistem RSS: 1.783 GB | R heap (gc): 0.324 GB 
+[2026-08-13 06:56:08] Kaydedilmis model bulundu, okunuyor: results/coxboost/prostate/model.rds 
+[2026-08-13 06:56:08] [BELLEK] [prostate/coxboost] model hazir - Sistem RSS: 1.783 GB | R heap (gc): 0.324 GB 
+[2026-08-13 06:56:08] Performans hesaplama basladi: surv.coxboost 
+[2026-08-13 06:56:09] Performans hesaplama bitti: surv.coxboost - cindex: 0.636 - IBS (graf): 0.256 
+[2026-08-13 06:56:09] Performans kaydedildi: results/coxboost/prostate/performance.csv 
+[2026-08-13 06:56:09] Kaydedilmis explainer bulundu, okunuyor: results/coxboost/prostate/explainer.rds 
+[2026-08-13 06:56:11] [BELLEK] [prostate/coxboost] explainer hazir - Sistem RSS: 1.783 GB | R heap (gc): 0.453 GB 
+[2026-08-13 06:56:11] SHAP hesaplaniyor: coxboost_model - n_obs = 100 
+[2026-08-13 06:56:11] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-13 06:56:11] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-13 06:56:11] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-13 06:57:15] SHAP - gozlem 20 / 100 
+[2026-08-13 06:58:25] SHAP - gozlem 25 / 100 
+[2026-08-13 06:59:38] SHAP - gozlem 30 / 100 
+[2026-08-13 07:00:49] SHAP - gozlem 35 / 100 
+[2026-08-13 07:02:03] SHAP - gozlem 40 / 100 
+[2026-08-13 07:03:15] SHAP - gozlem 45 / 100 
+[2026-08-13 07:04:27] SHAP - gozlem 50 / 100 
+[2026-08-13 07:05:38] SHAP - gozlem 55 / 100 
+[2026-08-13 07:06:50] SHAP - gozlem 60 / 100 
+[2026-08-13 07:08:04] SHAP - gozlem 65 / 100 
+[2026-08-13 07:09:15] SHAP - gozlem 70 / 100 
+[2026-08-13 07:10:30] SHAP - gozlem 75 / 100 
+[2026-08-13 07:11:41] SHAP - gozlem 80 / 100 
+[2026-08-13 07:12:59] SHAP - gozlem 85 / 100 
+[2026-08-13 07:14:12] SHAP - gozlem 90 / 100 
+[2026-08-13 07:15:23] SHAP - gozlem 95 / 100 
+[2026-08-13 07:16:38] SHAP - gozlem 100 / 100 
+[2026-08-13 07:16:54] SHAP hesaplama bitti, kaydedildi: results/coxboost/prostate/shap_long_n100.csv 
+[2026-08-13 07:16:54] [BELLEK] [prostate/coxboost] SHAP sonrasi - Sistem RSS: 1.855 GB | R heap (gc): 0.455 GB 
+[2026-08-13 07:16:55] Grafik kaydedildi: results/coxboost/prostate/plots/survshap_plot_n100.png 
+[2026-08-13 07:16:55] SHAP ozeti kaydedildi: results/coxboost/prostate/shap_summary_n100.csv 
+[2026-08-13 07:16:55] coxboost_model - SHAP TIVM: 0.0013 
+[2026-08-13 07:16:56] [BELLEK] [prostate/coxboost] model+explainer silindi, dongu sonu - Sistem RSS: 1.75 GB | R heap (gc): 0.325 GB 
+[2026-08-13 07:16:56] [BELLEK] [prostate/ctree] model dongusu basi - Sistem RSS: 1.75 GB | R heap (gc): 0.325 GB 
+[2026-08-13 07:16:56] Kaydedilmis model bulundu, okunuyor: results/ctree/prostate/model.rds 
+[2026-08-13 07:16:57] [BELLEK] [prostate/ctree] model hazir - Sistem RSS: 1.75 GB | R heap (gc): 0.326 GB 
+[2026-08-13 07:16:57] Performans hesaplama basladi: surv.ctree 
+[2026-08-13 07:16:57] Performans hesaplama bitti: surv.ctree - cindex: 0.566 - IBS (graf): 0.273 
+[2026-08-13 07:16:57] Performans kaydedildi: results/ctree/prostate/performance.csv 
+[2026-08-13 07:16:57] Kaydedilmis explainer bulundu, okunuyor: results/ctree/prostate/explainer.rds 
+[2026-08-13 07:16:59] [BELLEK] [prostate/ctree] explainer hazir - Sistem RSS: 1.75 GB | R heap (gc): 0.454 GB 
+[2026-08-13 07:16:59] SHAP hesaplaniyor: ctree_model - n_obs = 100 
+[2026-08-13 07:16:59] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-13 07:16:59] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-13 07:16:59] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-13 07:31:14] SHAP - gozlem 20 / 100 
+[2026-08-13 07:48:31] SHAP - gozlem 25 / 100 
+[2026-08-13 08:05:47] SHAP - gozlem 30 / 100 
+[2026-08-13 08:22:56] SHAP - gozlem 35 / 100 
+[2026-08-13 08:40:11] SHAP - gozlem 40 / 100 
+[2026-08-13 08:57:30] SHAP - gozlem 45 / 100 
+[2026-08-13 09:14:45] SHAP - gozlem 50 / 100 
+[2026-08-13 09:31:57] SHAP - gozlem 55 / 100 
+[2026-08-13 09:49:09] SHAP - gozlem 60 / 100 
+[2026-08-13 10:06:35] SHAP - gozlem 65 / 100 
+[2026-08-13 10:23:57] SHAP - gozlem 70 / 100 
+[2026-08-13 10:41:04] SHAP - gozlem 75 / 100 
+[2026-08-13 10:58:11] SHAP - gozlem 80 / 100 
+[2026-08-13 11:15:31] SHAP - gozlem 85 / 100 
+[2026-08-13 11:32:47] SHAP - gozlem 90 / 100 
+[2026-08-13 11:50:02] SHAP - gozlem 95 / 100 
+[2026-08-13 12:07:29] SHAP - gozlem 100 / 100 
+[2026-08-13 12:10:55] SHAP hesaplama bitti, kaydedildi: results/ctree/prostate/shap_long_n100.csv 
+[2026-08-13 12:10:56] [BELLEK] [prostate/ctree] SHAP sonrasi - Sistem RSS: 1.764 GB | R heap (gc): 0.456 GB 
+[2026-08-13 12:10:57] Grafik kaydedildi: results/ctree/prostate/plots/survshap_plot_n100.png 
+[2026-08-13 12:10:57] SHAP ozeti kaydedildi: results/ctree/prostate/shap_summary_n100.csv 
+[2026-08-13 12:10:57] ctree_model - SHAP TIVM: 0.0058 
+[2026-08-13 12:10:58] [BELLEK] [prostate/ctree] model+explainer silindi, dongu sonu - Sistem RSS: 1.764 GB | R heap (gc): 0.326 GB 
+[2026-08-13 12:10:58] [BELLEK] [prostate/cv_glmnet] model dongusu basi - Sistem RSS: 1.764 GB | R heap (gc): 0.326 GB 
+[2026-08-13 12:10:58] Kaydedilmis model bulundu, okunuyor: results/cv_glmnet/prostate/model.rds 
+[2026-08-13 12:10:59] [BELLEK] [prostate/cv_glmnet] model hazir - Sistem RSS: 1.764 GB | R heap (gc): 0.326 GB 
+[2026-08-13 12:10:59] Performans hesaplama basladi: surv.cv_glmnet 
+[2026-08-13 12:10:59] Performans hesaplama bitti: surv.cv_glmnet - cindex: 0.636 - IBS (graf): 0.256 
+[2026-08-13 12:10:59] Performans kaydedildi: results/cv_glmnet/prostate/performance.csv 
+[2026-08-13 12:10:59] Kaydedilmis explainer bulundu, okunuyor: results/cv_glmnet/prostate/explainer.rds 
+[2026-08-13 12:11:00] [BELLEK] [prostate/cv_glmnet] explainer hazir - Sistem RSS: 1.765 GB | R heap (gc): 0.328 GB 
+[2026-08-13 12:11:00] SHAP hesaplaniyor: cv_glmnet_model - n_obs = 100 
+[2026-08-13 12:11:00] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-13 12:11:00] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-13 12:11:00] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-13 12:12:04] SHAP - gozlem 20 / 100 
+[2026-08-13 12:13:20] SHAP - gozlem 25 / 100 
+[2026-08-13 12:14:36] SHAP - gozlem 30 / 100 
+[2026-08-13 12:15:50] SHAP - gozlem 35 / 100 
+[2026-08-13 12:17:06] SHAP - gozlem 40 / 100 
+[2026-08-13 12:18:20] SHAP - gozlem 45 / 100 
+[2026-08-13 12:19:35] SHAP - gozlem 50 / 100 
+[2026-08-13 12:20:53] SHAP - gozlem 55 / 100 
+[2026-08-13 12:22:07] SHAP - gozlem 60 / 100 
+[2026-08-13 12:23:23] SHAP - gozlem 65 / 100 
+[2026-08-13 12:24:38] SHAP - gozlem 70 / 100 
+[2026-08-13 12:25:53] SHAP - gozlem 75 / 100 
+[2026-08-13 12:27:10] SHAP - gozlem 80 / 100 
+[2026-08-13 12:28:27] SHAP - gozlem 85 / 100 
+[2026-08-13 12:29:41] SHAP - gozlem 90 / 100 
+[2026-08-13 12:30:58] SHAP - gozlem 95 / 100 
+[2026-08-13 12:32:15] SHAP - gozlem 100 / 100 
+[2026-08-13 12:32:31] SHAP hesaplama bitti, kaydedildi: results/cv_glmnet/prostate/shap_long_n100.csv 
+[2026-08-13 12:32:32] [BELLEK] [prostate/cv_glmnet] SHAP sonrasi - Sistem RSS: 1.909 GB | R heap (gc): 0.331 GB 
+[2026-08-13 12:32:33] Grafik kaydedildi: results/cv_glmnet/prostate/plots/survshap_plot_n100.png 
+[2026-08-13 12:32:33] SHAP ozeti kaydedildi: results/cv_glmnet/prostate/shap_summary_n100.csv 
+[2026-08-13 12:32:33] cv_glmnet_model - SHAP TIVM: 0.0012 
+[2026-08-13 12:32:34] [BELLEK] [prostate/cv_glmnet] model+explainer silindi, dongu sonu - Sistem RSS: 1.746 GB | R heap (gc): 0.327 GB 
+[2026-08-13 12:32:34] [BELLEK] [prostate/glmboost] model dongusu basi - Sistem RSS: 1.746 GB | R heap (gc): 0.327 GB 
+[2026-08-13 12:32:34] Kaydedilmis model bulundu, okunuyor: results/glmboost/prostate/model.rds 
+[2026-08-13 12:32:35] [BELLEK] [prostate/glmboost] model hazir - Sistem RSS: 1.746 GB | R heap (gc): 0.331 GB 
+[2026-08-13 12:32:35] Performans hesaplama basladi: surv.glmboost 
+[2026-08-13 12:32:35] Performans hesaplama bitti: surv.glmboost - cindex: 0.636 - IBS (graf): 0.254 
+[2026-08-13 12:32:35] Performans kaydedildi: results/glmboost/prostate/performance.csv 
+[2026-08-13 12:32:35] Kaydedilmis explainer bulundu, okunuyor: results/glmboost/prostate/explainer.rds 
+[2026-08-13 12:32:37] [BELLEK] [prostate/glmboost] explainer hazir - Sistem RSS: 1.746 GB | R heap (gc): 0.459 GB 
+[2026-08-13 12:32:37] SHAP hesaplaniyor: glmboost_model - n_obs = 100 
+[2026-08-13 12:32:37] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-13 12:32:37] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-13 12:32:37] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-13 12:33:30] SHAP - gozlem 20 / 100 
+[2026-08-13 12:34:35] SHAP - gozlem 25 / 100 
+[2026-08-13 12:35:39] SHAP - gozlem 30 / 100 
+[2026-08-13 12:36:45] SHAP - gozlem 35 / 100 
+[2026-08-13 12:37:51] SHAP - gozlem 40 / 100 
+[2026-08-13 12:38:58] SHAP - gozlem 45 / 100 
+[2026-08-13 12:40:05] SHAP - gozlem 50 / 100 
+[2026-08-13 12:41:09] SHAP - gozlem 55 / 100 
+[2026-08-13 12:42:14] SHAP - gozlem 60 / 100 
+[2026-08-13 12:43:20] SHAP - gozlem 65 / 100 
+[2026-08-13 12:44:24] SHAP - gozlem 70 / 100 
+[2026-08-13 12:45:30] SHAP - gozlem 75 / 100 
+[2026-08-13 12:46:34] SHAP - gozlem 80 / 100 
+[2026-08-13 12:47:43] SHAP - gozlem 85 / 100 
+[2026-08-13 12:48:47] SHAP - gozlem 90 / 100 
+[2026-08-13 12:49:51] SHAP - gozlem 95 / 100 
+[2026-08-13 12:50:55] SHAP - gozlem 100 / 100 
+[2026-08-13 12:51:07] SHAP hesaplama bitti, kaydedildi: results/glmboost/prostate/shap_long_n100.csv 
+[2026-08-13 12:51:08] [BELLEK] [prostate/glmboost] SHAP sonrasi - Sistem RSS: 1.893 GB | R heap (gc): 0.461 GB 
+[2026-08-13 12:51:09] Grafik kaydedildi: results/glmboost/prostate/plots/survshap_plot_n100.png 
+[2026-08-13 12:51:09] SHAP ozeti kaydedildi: results/glmboost/prostate/shap_summary_n100.csv 
+[2026-08-13 12:51:09] glmboost_model - SHAP TIVM: 0.0012 
+[2026-08-13 12:51:10] [BELLEK] [prostate/glmboost] model+explainer silindi, dongu sonu - Sistem RSS: 1.746 GB | R heap (gc): 0.329 GB 
+[2026-08-13 12:51:10] [BELLEK] [prostate/glmnet] model dongusu basi - Sistem RSS: 1.746 GB | R heap (gc): 0.329 GB 
+[2026-08-13 12:51:10] Kaydedilmis model bulundu, okunuyor: results/glmnet/prostate/model.rds 
+[2026-08-13 12:51:11] [BELLEK] [prostate/glmnet] model hazir - Sistem RSS: 1.746 GB | R heap (gc): 0.329 GB 
+[2026-08-13 12:51:11] Performans hesaplama basladi: surv.glmnet 
+[2026-08-13 12:51:11] Performans hesaplama bitti: surv.glmnet - cindex: 0.636 - IBS (graf): 0.258 
+[2026-08-13 12:51:11] Performans kaydedildi: results/glmnet/prostate/performance.csv 
+[2026-08-13 12:51:11] Kaydedilmis explainer bulundu, okunuyor: results/glmnet/prostate/explainer.rds 
+[2026-08-13 12:51:12] [BELLEK] [prostate/glmnet] explainer hazir - Sistem RSS: 1.746 GB | R heap (gc): 0.33 GB 
+[2026-08-13 12:51:12] SHAP hesaplaniyor: glmnet_model - n_obs = 100 
+[2026-08-13 12:51:12] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-13 12:51:12] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-13 12:51:12] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-13 12:52:22] SHAP - gozlem 20 / 100 
+[2026-08-13 12:53:38] SHAP - gozlem 25 / 100 
+[2026-08-13 12:54:52] SHAP - gozlem 30 / 100 
+[2026-08-13 12:56:07] SHAP - gozlem 35 / 100 
+[2026-08-13 12:57:22] SHAP - gozlem 40 / 100 
+[2026-08-13 12:58:37] SHAP - gozlem 45 / 100 
+[2026-08-13 12:59:52] SHAP - gozlem 50 / 100 
+[2026-08-13 13:01:08] SHAP - gozlem 55 / 100 
+[2026-08-13 13:02:28] SHAP - gozlem 60 / 100 
+[2026-08-13 13:03:44] SHAP - gozlem 65 / 100 
+[2026-08-13 13:04:59] SHAP - gozlem 70 / 100 
+[2026-08-13 13:06:18] SHAP - gozlem 75 / 100 
+[2026-08-13 13:07:33] SHAP - gozlem 80 / 100 
+[2026-08-13 13:08:51] SHAP - gozlem 85 / 100 
+[2026-08-13 13:10:05] SHAP - gozlem 90 / 100 
+[2026-08-13 13:11:24] SHAP - gozlem 95 / 100 
+[2026-08-13 13:12:40] SHAP - gozlem 100 / 100 
+[2026-08-13 13:12:56] SHAP hesaplama bitti, kaydedildi: results/glmnet/prostate/shap_long_n100.csv 
+[2026-08-13 13:12:56] [BELLEK] [prostate/glmnet] SHAP sonrasi - Sistem RSS: 1.765 GB | R heap (gc): 0.332 GB 
+[2026-08-13 13:12:57] Grafik kaydedildi: results/glmnet/prostate/plots/survshap_plot_n100.png 
+[2026-08-13 13:12:57] SHAP ozeti kaydedildi: results/glmnet/prostate/shap_summary_n100.csv 
+[2026-08-13 13:12:57] glmnet_model - SHAP TIVM: 0.0013 
+[2026-08-13 13:12:58] [BELLEK] [prostate/glmnet] model+explainer silindi, dongu sonu - Sistem RSS: 1.765 GB | R heap (gc): 0.329 GB 
+[2026-08-13 13:12:58] [BELLEK] [prostate/penalized] model dongusu basi - Sistem RSS: 1.765 GB | R heap (gc): 0.329 GB 
+[2026-08-13 13:12:58] Kaydedilmis model bulundu, okunuyor: results/penalized/prostate/model.rds 
+[2026-08-13 13:12:59] [BELLEK] [prostate/penalized] model hazir - Sistem RSS: 1.765 GB | R heap (gc): 0.33 GB 
+[2026-08-13 13:12:59] Performans hesaplama basladi: surv.penalized 
+[2026-08-13 13:12:59] Performans hesaplama bitti: surv.penalized - cindex: 0.639 - IBS (graf): 0.258 
+[2026-08-13 13:12:59] Performans kaydedildi: results/penalized/prostate/performance.csv 
+[2026-08-13 13:12:59] Kaydedilmis explainer bulundu, okunuyor: results/penalized/prostate/explainer.rds 
+[2026-08-13 13:13:01] [BELLEK] [prostate/penalized] explainer hazir - Sistem RSS: 1.765 GB | R heap (gc): 0.457 GB 
+[2026-08-13 13:13:01] SHAP hesaplaniyor: penalized_model - n_obs = 100 
+[2026-08-13 13:13:01] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-13 13:13:01] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-13 13:13:01] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-13 13:14:04] SHAP - gozlem 20 / 100 
+[2026-08-13 13:15:16] SHAP - gozlem 25 / 100 
+[2026-08-13 13:16:27] SHAP - gozlem 30 / 100 
+[2026-08-13 13:17:34] SHAP - gozlem 35 / 100 
+[2026-08-13 13:18:47] SHAP - gozlem 40 / 100 
+[2026-08-13 13:19:59] SHAP - gozlem 45 / 100 
+[2026-08-13 13:21:06] SHAP - gozlem 50 / 100 
+[2026-08-13 13:22:13] SHAP - gozlem 55 / 100 
+[2026-08-13 13:23:27] SHAP - gozlem 60 / 100 
+[2026-08-13 13:24:34] SHAP - gozlem 65 / 100 
+[2026-08-13 13:25:39] SHAP - gozlem 70 / 100 
+[2026-08-13 13:26:46] SHAP - gozlem 75 / 100 
+[2026-08-13 13:27:55] SHAP - gozlem 80 / 100 
+[2026-08-13 13:29:25] SHAP - gozlem 85 / 100 
+[2026-08-13 13:30:43] SHAP - gozlem 90 / 100 
+[2026-08-13 13:31:54] SHAP - gozlem 95 / 100 
+[2026-08-13 13:32:59] SHAP - gozlem 100 / 100 
+[2026-08-13 13:33:13] SHAP hesaplama bitti, kaydedildi: results/penalized/prostate/shap_long_n100.csv 
+[2026-08-13 13:33:13] [BELLEK] [prostate/penalized] SHAP sonrasi - Sistem RSS: 1.979 GB | R heap (gc): 0.459 GB 
+[2026-08-13 13:33:14] Grafik kaydedildi: results/penalized/prostate/plots/survshap_plot_n100.png 
+[2026-08-13 13:33:14] SHAP ozeti kaydedildi: results/penalized/prostate/shap_summary_n100.csv 
+[2026-08-13 13:33:14] penalized_model - SHAP TIVM: 0.0016 
+[2026-08-13 13:33:15] [BELLEK] [prostate/penalized] model+explainer silindi, dongu sonu - Sistem RSS: 1.746 GB | R heap (gc): 0.33 GB 
+[2026-08-13 13:33:15] [BELLEK] [prostate/ranger] model dongusu basi - Sistem RSS: 1.746 GB | R heap (gc): 0.33 GB 
+[2026-08-13 13:33:15] Kaydedilmis model bulundu, okunuyor: results/ranger/prostate/model.rds 
+[2026-08-13 13:33:16] [BELLEK] [prostate/ranger] model hazir - Sistem RSS: 1.746 GB | R heap (gc): 0.357 GB 
+[2026-08-13 13:33:16] Performans hesaplama basladi: surv.ranger 
+[2026-08-13 13:33:18] Performans hesaplama bitti: surv.ranger - cindex: 0.657 - IBS (graf): 0.232 
+[2026-08-13 13:33:18] Performans kaydedildi: results/ranger/prostate/performance.csv 
+[2026-08-13 13:33:18] Kaydedilmis explainer bulundu, okunuyor: results/ranger/prostate/explainer.rds 
+[2026-08-13 13:33:20] [BELLEK] [prostate/ranger] explainer hazir - Sistem RSS: 1.777 GB | R heap (gc): 0.485 GB 
+[2026-08-13 13:33:20] SHAP hesaplaniyor: ranger_model - n_obs = 100 
+[2026-08-13 13:33:20] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-13 13:33:20] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-13 13:33:20] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-13 14:18:56] SHAP - gozlem 20 / 100 
+[2026-08-13 15:07:41] SHAP - gozlem 25 / 100 
+[2026-08-13 15:42:07] SHAP - gozlem 30 / 100 
+[2026-08-13 16:28:30] SHAP - gozlem 35 / 100 
+[2026-08-13 17:07:30] SHAP - gozlem 40 / 100 
+[2026-08-13 17:48:28] SHAP - gozlem 45 / 100 
+[2026-08-13 18:39:07] SHAP - gozlem 50 / 100 
+[2026-08-13 19:16:41] SHAP - gozlem 55 / 100 
+[2026-08-13 20:02:08] SHAP - gozlem 60 / 100 
+[2026-08-13 20:40:52] SHAP - gozlem 65 / 100 
+[2026-08-13 21:33:50] SHAP - gozlem 70 / 100 
+[2026-08-13 22:16:26] SHAP - gozlem 75 / 100 
+[2026-08-13 22:49:10] SHAP - gozlem 80 / 100 
+[2026-08-13 23:28:28] SHAP - gozlem 85 / 100 
+[2026-08-14 00:18:23] SHAP - gozlem 90 / 100 
+[2026-08-14 00:54:26] SHAP - gozlem 95 / 100 
+[2026-08-14 01:41:42] SHAP - gozlem 100 / 100 
+[2026-08-14 01:46:59] SHAP hesaplama bitti, kaydedildi: results/ranger/prostate/shap_long_n100.csv 
+[2026-08-14 01:47:00] [BELLEK] [prostate/ranger] SHAP sonrasi - Sistem RSS: 1.793 GB | R heap (gc): 0.487 GB 
+[2026-08-14 01:47:01] Grafik kaydedildi: results/ranger/prostate/plots/survshap_plot_n100.png 
+[2026-08-14 01:47:01] SHAP ozeti kaydedildi: results/ranger/prostate/shap_summary_n100.csv 
+[2026-08-14 01:47:01] ranger_model - SHAP TIVM: 0.0017 
+[2026-08-14 01:47:02] [BELLEK] [prostate/ranger] model+explainer silindi, dongu sonu - Sistem RSS: 1.793 GB | R heap (gc): 0.331 GB 
+[2026-08-14 01:47:02] [BELLEK] [prostate/rfsrc] model dongusu basi - Sistem RSS: 1.793 GB | R heap (gc): 0.331 GB 
+[2026-08-14 01:47:02] Kaydedilmis model bulundu, okunuyor: results/rfsrc/prostate/model.rds 
+[2026-08-14 01:47:03] [BELLEK] [prostate/rfsrc] model hazir - Sistem RSS: 1.793 GB | R heap (gc): 0.379 GB 
+[2026-08-14 01:47:03] Performans hesaplama basladi: surv.rfsrc 
+[2026-08-14 01:47:04] Performans hesaplama bitti: surv.rfsrc - cindex: 0.653 - IBS (graf): 0.243 
+[2026-08-14 01:47:04] Performans kaydedildi: results/rfsrc/prostate/performance.csv 
+[2026-08-14 01:47:04] Kaydedilmis explainer bulundu, okunuyor: results/rfsrc/prostate/explainer.rds 
+[2026-08-14 01:47:06] [BELLEK] [prostate/rfsrc] explainer hazir - Sistem RSS: 1.794 GB | R heap (gc): 0.508 GB 
+[2026-08-14 01:47:06] SHAP hesaplaniyor: rfsrc_model - n_obs = 100 
+[2026-08-14 01:47:06] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-14 01:47:06] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-14 01:47:06] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-14 01:51:46] SHAP - gozlem 20 / 100 
+[2026-08-14 01:58:58] SHAP - gozlem 25 / 100 
+[2026-08-14 02:03:58] SHAP - gozlem 30 / 100 
+[2026-08-14 02:07:30] SHAP - gozlem 35 / 100 
+[2026-08-14 02:13:53] SHAP - gozlem 40 / 100 
+[2026-08-14 02:17:11] SHAP - gozlem 45 / 100 
+[2026-08-14 02:21:20] SHAP - gozlem 50 / 100 
+[2026-08-14 02:25:27] SHAP - gozlem 55 / 100 
+[2026-08-14 02:32:05] SHAP - gozlem 60 / 100 
+[2026-08-14 02:35:45] SHAP - gozlem 65 / 100 
+[2026-08-14 02:39:58] SHAP - gozlem 70 / 100 
+[2026-08-14 02:44:35] SHAP - gozlem 75 / 100 
+[2026-08-14 02:50:37] SHAP - gozlem 80 / 100 
+[2026-08-14 02:55:12] SHAP - gozlem 85 / 100 
+[2026-08-14 02:58:59] SHAP - gozlem 90 / 100 
+[2026-08-14 03:02:51] SHAP - gozlem 95 / 100 
+[2026-08-14 03:06:34] SHAP - gozlem 100 / 100 
+[2026-08-14 03:07:02] SHAP hesaplama bitti, kaydedildi: results/rfsrc/prostate/shap_long_n100.csv 
+[2026-08-14 03:07:03] [BELLEK] [prostate/rfsrc] SHAP sonrasi - Sistem RSS: 1.973 GB | R heap (gc): 0.511 GB 
+[2026-08-14 03:07:04] Grafik kaydedildi: results/rfsrc/prostate/plots/survshap_plot_n100.png 
+[2026-08-14 03:07:04] SHAP ozeti kaydedildi: results/rfsrc/prostate/shap_summary_n100.csv 
+[2026-08-14 03:07:04] rfsrc_model - SHAP TIVM: 0.0019 
+[2026-08-14 03:07:05] [BELLEK] [prostate/rfsrc] model+explainer silindi, dongu sonu - Sistem RSS: 1.793 GB | R heap (gc): 0.334 GB 
+[2026-08-14 03:07:05] [BELLEK] [prostate/xgboost_cox] model dongusu basi - Sistem RSS: 1.793 GB | R heap (gc): 0.334 GB 
+[2026-08-14 03:07:05] Kaydedilmis model bulundu, okunuyor: results/xgboost_cox/prostate/model.rds 
+[2026-08-14 03:07:06] [BELLEK] [prostate/xgboost_cox] model hazir - Sistem RSS: 1.794 GB | R heap (gc): 0.334 GB 
+[2026-08-14 03:07:06] Performans hesaplama basladi: surv.xgboost.cox 
+[2026-08-14 03:07:06] Performans hesaplama bitti: surv.xgboost.cox - cindex: 0.575 - IBS (graf): 0.359 
+[2026-08-14 03:07:06] Performans kaydedildi: results/xgboost_cox/prostate/performance.csv 
+[2026-08-14 03:07:06] Kaydedilmis explainer bulundu, okunuyor: results/xgboost_cox/prostate/explainer.rds 
+[2026-08-14 03:07:08] [BELLEK] [prostate/xgboost_cox] explainer hazir - Sistem RSS: 1.795 GB | R heap (gc): 0.462 GB 
+[2026-08-14 03:07:08] SHAP hesaplaniyor: xgboost_cox_model - n_obs = 100 
+[2026-08-14 03:07:08] Mevcut n=15 SHAP sonucu tohum olarak kullanildi (silinmedi): 15 gozlem 
+[2026-08-14 03:07:08] Kismi SHAP bulundu, 15 gozlem zaten hesaplanmis, devam ediliyor 
+[2026-08-14 03:07:08] SHAP hesaplama basladi, n_obs = 100 
+[2026-08-14 03:17:43] SHAP - gozlem 20 / 100 
+[2026-08-14 03:30:59] SHAP - gozlem 25 / 100 
+[2026-08-14 03:44:05] SHAP - gozlem 30 / 100 
+[2026-08-14 03:57:16] SHAP - gozlem 35 / 100 
+[2026-08-14 04:10:29] SHAP - gozlem 40 / 100 
+[2026-08-14 04:23:41] SHAP - gozlem 45 / 100 
+[2026-08-14 04:36:53] SHAP - gozlem 50 / 100 
+[2026-08-14 04:49:54] SHAP - gozlem 55 / 100 
+[2026-08-14 05:02:56] SHAP - gozlem 60 / 100 
+[2026-08-14 05:16:00] SHAP - gozlem 65 / 100 
+[2026-08-14 05:29:07] SHAP - gozlem 70 / 100 
+[2026-08-14 05:42:11] SHAP - gozlem 75 / 100 
+[2026-08-14 05:55:15] SHAP - gozlem 80 / 100 
+[2026-08-14 06:08:18] SHAP - gozlem 85 / 100 
+[2026-08-14 06:21:23] SHAP - gozlem 90 / 100 
+[2026-08-14 06:35:13] SHAP - gozlem 95 / 100 
+[2026-08-14 06:49:23] SHAP - gozlem 100 / 100 
+[2026-08-14 06:52:01] SHAP hesaplama bitti, kaydedildi: results/xgboost_cox/prostate/shap_long_n100.csv 
+[2026-08-14 06:52:01] [BELLEK] [prostate/xgboost_cox] SHAP sonrasi - Sistem RSS: 1.795 GB | R heap (gc): 0.464 GB 
+[2026-08-14 06:52:02] Grafik kaydedildi: results/xgboost_cox/prostate/plots/survshap_plot_n100.png 
+[2026-08-14 06:52:02] SHAP ozeti kaydedildi: results/xgboost_cox/prostate/shap_summary_n100.csv 
+[2026-08-14 06:52:02] xgboost_cox_model - SHAP TIVM: 0.003 
+[2026-08-14 06:52:03] [BELLEK] [prostate/xgboost_cox] model+explainer silindi, dongu sonu - Sistem RSS: 1.795 GB | R heap (gc): 0.335 GB 
+[2026-08-14 06:52:03] ===== BITTI: prostate + cox - cindex: 0.639 - PFI TIVM: 0.0019 - SHAP TIVM: 0.0013 ===== 
+[2026-08-14 06:52:03] ===== BITTI: prostate + aorsf - cindex: 0.646 - PFI TIVM: 0.0014 - SHAP TIVM: 0.0016 ===== 
+[2026-08-14 06:52:03] ===== BITTI: prostate + cforest - cindex: 0.641 - PFI TIVM: 0.0017 - SHAP TIVM: 0.0021 ===== 
+[2026-08-14 06:52:03] ===== BITTI: prostate + coxboost - cindex: 0.636 - PFI TIVM: 0.0022 - SHAP TIVM: 0.0013 ===== 
+[2026-08-14 06:52:03] ===== BITTI: prostate + ctree - cindex: 0.566 - PFI TIVM: 0.0043 - SHAP TIVM: 0.0058 ===== 
+[2026-08-14 06:52:03] ===== BITTI: prostate + cv_glmnet - cindex: 0.636 - PFI TIVM: 0.0016 - SHAP TIVM: 0.0012 ===== 
+[2026-08-14 06:52:03] ===== BITTI: prostate + glmboost - cindex: 0.636 - PFI TIVM: 0.0018 - SHAP TIVM: 0.0012 ===== 
+[2026-08-14 06:52:03] ===== BITTI: prostate + glmnet - cindex: 0.636 - PFI TIVM: 0.0019 - SHAP TIVM: 0.0013 ===== 
+[2026-08-14 06:52:03] ===== BITTI: prostate + penalized - cindex: 0.639 - PFI TIVM: 0.002 - SHAP TIVM: 0.0016 ===== 
+[2026-08-14 06:52:03] ===== BITTI: prostate + ranger - cindex: 0.657 - PFI TIVM: 0.0012 - SHAP TIVM: 0.0017 ===== 
+[2026-08-14 06:52:03] ===== BITTI: prostate + rfsrc - cindex: 0.653 - PFI TIVM: 0.0015 - SHAP TIVM: 0.0019 ===== 
+[2026-08-14 06:52:03] ===== BITTI: prostate + xgboost_cox - cindex: 0.575 - PFI TIVM: 0.0039 - SHAP TIVM: 0.003 ===== 
+[2026-08-14 06:52:03] ----- Veri seti bitti: prostate ----- 
+[2026-08-14 06:52:03] ===== RUN ( prostate ) TAMAMLANDI ===== 

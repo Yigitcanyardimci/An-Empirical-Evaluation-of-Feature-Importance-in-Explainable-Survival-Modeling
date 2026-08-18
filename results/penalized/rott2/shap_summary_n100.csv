@@ -1,0 +1,12 @@
+"variable","A_hat","A_bar","TIV","R_bar"
+"fac_chemo",0,0,0,NA
+"fac_grade",0,0,0,NA
+"fac_hormon",0,0,0,NA
+"fac_meno",0,0,0,NA
+"fac_recent",0,0,0,NA
+"fac_tsize",0,0,0,NA
+"num_age",0,0,0,NA
+"num_estrogen",0,0,0,NA
+"num_nodes",0,0,0,NA
+"num_progesterone",0,0,0,NA
+"num_year",0,0,0,NA
