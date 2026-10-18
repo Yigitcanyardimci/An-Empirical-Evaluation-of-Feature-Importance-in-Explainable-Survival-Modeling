@@ -115,18 +115,18 @@ Higher values of Weighted Kendall's Tau and Top-3 Overlap indicate stronger agre
 
 Temporal Importance Volatility (TIV) quantifies fluctuations in feature importance between consecutive evaluation times.
 
+
 At the model level, these feature-level values are combined into a weighted summary, referred to as the **Global Instability Score**:
 
-$$
-\overline{\mathrm{TIV}}_{\mathcal{M}}
-=
-\sum_{j=1}^{p}
-\bar{R}_j \cdot \mathrm{TIV}(j)
-$$
+```math
+\overline{\mathrm{TIV}}_{\mathcal{M}} =
+\sum_{j=1}^{p} \bar{R}_j \cdot \mathrm{TIV}(j)
+```
 
 where $\bar{R}_j$ denotes the relative importance weight of feature $j$.
 
 Larger values indicate greater temporal variability in the feature-importance profiles.
+
 
 ---
 
