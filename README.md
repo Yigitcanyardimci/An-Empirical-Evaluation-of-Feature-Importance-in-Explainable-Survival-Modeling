@@ -118,9 +118,10 @@ Larger values indicate greater temporal fluctuations in the feature-importance p
 
 ## 6. Replication Workflow
 
+
 ### Step 1: Obtain the Data
 
-The datasets are publicly available through the [SurvSet repository](https://github.com/MLSurvival/SurvSet).
+The survival datasets used in this study are available through the [SurvSet repository](https://github.com/ErikinBC/SurvSet).
 
 ### Step 2: Configure the R Environment
 
